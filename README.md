@@ -1,31 +1,17 @@
 # Chuyện Nhà Thảo My
 
-Workspace sản xuất sitcom AI và thử nghiệm affiliate. Nhân vật chính: Thảo My; chưa xây nhân vật khác. Video giới thiệu AI đã có: https://www.facebook.com/share/r/18EVd1BLCM/
+Workspace sitcom AI và thử nghiệm affiliate, nhân vật chính Thảo My. Quy trình sản xuất chính ở [AGENTS.md](AGENTS.md): sửa ảnh cảnh từ tạo hình gốc → duyệt frame → Flow Frames trực tiếp → lồng VieNeu → dựng và QC. Muse thao tác UI chính chủ; chưa có runner tự động.
 
-| Thư mục | Nội dung |
-|---|---|
-| `brand/` | Avatar/banner hiện đang dùng |
-| `characters/thao-my/` | Ảnh nguồn, prompt, ảnh duyệt và hồ sơ nhân vật |
-| `products/` | Hồ sơ SKU và tư liệu sản phẩm khi chọn được sản phẩm |
-| `episodes/` | Mỗi tập một thư mục: kịch bản, input, clip, bản dựng, delivery |
-| `templates/episode/` | Mẫu để tạo tập; chưa đủ điều kiện chạy |
-| `automation/` | Hợp đồng dữ liệu, schema, validator và cấu hình mẫu; chưa có runner Flow |
-| `runs/` | Trạng thái và nhật ký theo từng lần chạy |
-| `docs/research/` | Hội thoại nghiên cứu gốc |
-| `docs/production-plan.md` | Lộ trình affiliate đề xuất |
+Thư mục gốc đánh số theo thứ tự: `00_docs` → `01_brand` → `02_characters` → `03_locations` → `04_products` → `05_episodes` → `06_automation` → `07_analytics`. Phân tích kết quả nằm cuối luồng sản xuất.
 
-Đọc [AGENTS.md](AGENTS.md), [hướng dẫn tập](episodes/README.md) và [hợp đồng automation](automation/README.md).
+- [Thư viện nhân vật](02_characters/thao-my/README.md): ảnh nguồn, ảnh đơn, váy và giọng đang chờ chốt.
+- [Từng tập](05_episodes/README.md): kịch bản, một hồ sơ `episode.yaml`, prompt ảnh/video, frame, clip nguồn, manifest và delivery.
+- Tạo kịch bản/hồ sơ tập bằng [skill thao-my-episode](/Users/richard/.codex/skills/thao-my-episode/SKILL.md).
+- [Validator offline](06_automation/README.md): kiểm tra cấu trúc và cổng generation/edit.
+- [Tài liệu](00_docs/README.md): nghiên cứu gốc và lộ trình đề xuất; `01_brand/` giữ nhận diện, `04_products/` giữ tư liệu sản phẩm.
 
-Tạo tập nháp từ thư mục gốc:
+Tạo tập mới bằng `$thao-my-episode`, điền hồ sơ rồi kiểm tra theo hướng dẫn validator. Không copy đè tập đã có.
 
-```sh
-cp -R templates/episode episodes/ep001-don-ban
-```
+Facebook: https://www.facebook.com/chuyennhathaomy · TikTok: https://www.tiktok.com/@chuyennhathaomy
 
-Điền ID nhất quán trong `episode.yaml` và `input/shots.json`, viết kịch bản, tách prompt đầy đủ và copy ảnh đơn đã duyệt vào `input/references/`. Điền SHA-256, kiểm tra rồi mới bật `approved_for_generation`.
-
-```sh
-uv run --with jsonschema --with pyyaml python automation/validate_episode.py episodes/ep001-don-ban
-```
-
-Validator chạy offline, không gửi dữ liệu sang Flow. Cấu trúc này chuẩn bị cho tích hợp; chưa xác nhận tương thích với công cụ automation cụ thể.
+Video công bố AI đã có: https://www.facebook.com/share/r/18EVd1BLCM/ . Không tự đăng bài.

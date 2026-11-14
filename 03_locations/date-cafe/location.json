@@ -1,0 +1,16 @@
+{
+  "location_id": "date-cafe",
+  "title": "Café sân vườn hẹn hò",
+  "status": "pending_user_review",
+  "master_reference": null,
+  "candidates": [
+    {
+      "file": "review/date-cafe-v001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "23b9f01c457e5f13ce5cbd467b25039390479c10d475cbecde6a771b293a1a86",
+      "tool": "image_gen",
+      "created_date": "2026-11-15"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "character_id": "thao-my",
+  "processing": "image_gen; user approved 2026-11-15",
+  "references": [
+    {
+      "reference_id": "thao-my-body-back-v003",
+      "file": "approved/thao-my-body-back-v003.png",
+      "width": 937,
+      "height": 1678,
+      "sha256": "d8ab7e517849aa883606a3fcbb6ded033aa8d9794aca3b15cda311dc1b3d5dbc",
+      "user_review_status": "approved",
+      "approval_date": "2026-11-15",
+      "flow_test_status": "not_tested",
+      "face_visible": false
+    },
+    {
+      "reference_id": "thao-my-body-front-v003",
+      "file": "approved/thao-my-body-front-v003.png",
+      "width": 937,
+      "height": 1678,
+      "sha256": "9f48d9c945a8f68adc740cb8b2a6693caf7a214d1a5cd957e6124d20e30f00ea",
+      "user_review_status": "approved",
+      "approval_date": "2026-11-15",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-body-profile-screen-left-v003",
+      "file": "approved/thao-my-body-profile-screen-left-v003.png",
+      "width": 937,
+      "height": 1678,
+      "sha256": "f1e28d333056e7cb371dc22f759c4fcda55279d8a9a55f0f0efa7bde2f7ddda1",
+      "user_review_status": "approved",
+      "approval_date": "2026-11-15",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-face-front-v001",
+      "file": "approved/thao-my-face-front-v001.png",
+      "width": 1145,
+      "height": 1374,
+      "sha256": "d05d9b911551df5d1dca84ca2bf44419a6d2a9d557d919ccae4065cf183a3324",
+      "user_review_status": "approved",
+      "approval_date": "2026-11-15",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "location_id": "apartment-courtyard",
+  "title": "Sân nội khu chung cư",
+  "status": "pending_user_review",
+  "master_reference": null,
+  "candidates": [
+    {
+      "file": "review/apartment-courtyard-v001.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "6a6218d29368f21d14c68b429b2f26907ac5b35c69f8564dacf1802f15d80cbe",
+      "tool": "image_gen",
+      "created_date": "2026-11-15"
+    }
+  ]
+}

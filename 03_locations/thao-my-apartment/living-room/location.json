@@ -1,0 +1,16 @@
+{
+  "location_id": "thao-my-apartment-living-room",
+  "title": "Phòng khách căn hộ 50 m²",
+  "status": "pending_user_review",
+  "master_reference": null,
+  "candidates": [
+    {
+      "file": "review/thao-my-living-room-v001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ae3b5a34ce82c758a9270ec436bfc2b1c33ccdd00cd0adad577f2ec5f0fb04f2",
+      "tool": "image_gen",
+      "created_date": "2026-11-15"
+    }
+  ]
+}
