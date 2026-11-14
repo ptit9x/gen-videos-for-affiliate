@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "character_id": "thao-my",
+  "coordinate_convention": "pixel bounds left, top, right exclusive, bottom exclusive; direction names are screen-relative; no mirroring",
+  "processing": "native-resolution crop only; 4px inset per panel edge; PNG export, no resize, no regeneration",
+  "references": [
+    {
+      "reference_id": "thao-my-expr-neutral-front-v001",
+      "file": "approved/thao-my-expr-neutral-front-v001.png",
+      "description_vi": "Chính diện, trung tính",
+      "source": "source/facial-expressions-38847112.jpg",
+      "source_row": 1,
+      "source_column": 1,
+      "crop_box_xyxy": [
+        4,
+        4,
+        1831,
+        1016
+      ],
+      "width": 1827,
+      "height": 1012,
+      "sha256": "643e8b49213b44f1706e7299cf488e07e9362abec20d3d34365dcdd43b22f632",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-expr-smile-front-v001",
+      "file": "approved/thao-my-expr-smile-front-v001.png",
+      "description_vi": "Chính diện, cười nhẹ",
+      "source": "source/facial-expressions-38847112.jpg",
+      "source_row": 1,
+      "source_column": 2,
+      "crop_box_xyxy": [
+        1839,
+        4,
+        3665,
+        1016
+      ],
+      "width": 1826,
+      "height": 1012,
+      "sha256": "e2d2f71ca5f97c1e0f4ecf98e1ee97f204abd1e20f338e659a83427f3b34bf5b",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-expr-happy-front-v001",
+      "file": "approved/thao-my-expr-happy-front-v001.png",
+      "description_vi": "Chính diện, cười thấy răng",
+      "source": "source/facial-expressions-38847112.jpg",
+      "source_row": 1,
+      "source_column": 3,
+      "crop_box_xyxy": [
+        3673,
+        4,
+        5500,
+        1016
+      ],
+      "width": 1827,
+      "height": 1012,
+      "sha256": "3e046c2f21067ec75bc4f707341b7590ea3093fdade58484e0b43084fb32904c",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-expr-surprised-front-v001",
+      "file": "approved/thao-my-expr-surprised-front-v001.png",
+      "description_vi": "Chính diện, ngạc nhiên",
+      "source": "source/facial-expressions-38847112.jpg",
+      "source_row": 2,
+      "source_column": 1,
+      "crop_box_xyxy": [
+        4,
+        1024,
+        1831,
+        2048
+      ],
+      "width": 1827,
+      "height": 1024,
+      "sha256": "82b2a2e288bb9d8b3bb736eca95a1a887a1cdee9627ff02b8506cb75627999ee",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-expr-curious-head-tilt-v001",
+      "file": "approved/thao-my-expr-curious-head-tilt-v001.png",
+      "description_vi": "Tò mò, nghiêng đầu",
+      "source": "source/facial-expressions-38847112.jpg",
+      "source_row": 2,
+      "source_column": 2,
+      "crop_box_xyxy": [
+        1839,
+        1024,
+        3665,
+        2048
+      ],
+      "width": 1826,
+      "height": 1024,
+      "sha256": "dac3b1806142c693d3a9d8d568e9e89bc738db95bc26de38e17aa458f855aca3",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-expr-thoughtful-glance-v001",
+      "file": "approved/thao-my-expr-thoughtful-glance-v001.png",
+      "description_vi": "Suy nghĩ, liếc sang bên",
+      "source": "source/facial-expressions-38847112.jpg",
+      "source_row": 2,
+      "source_column": 3,
+      "crop_box_xyxy": [
+        3673,
+        1024,
+        5500,
+        2048
+      ],
+      "width": 1827,
+      "height": 1024,
+      "sha256": "985ffed69c2cea2ad50625fe7cf318d1c2dab104bd1588859103bfe535bd7a16",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-expr-shy-smile-front-v001",
+      "file": "approved/thao-my-expr-shy-smile-front-v001.png",
+      "description_vi": "Chính diện, cười ngượng",
+      "source": "source/facial-expressions-38847112.jpg",
+      "source_row": 3,
+      "source_column": 1,
+      "crop_box_xyxy": [
+        4,
+        2056,
+        1831,
+        3068
+      ],
+      "width": 1827,
+      "height": 1012,
+      "sha256": "0b8c51af0f173aa87814f3c17483c2fa4611bc3164a885e645a89b7a179b3b37",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-expr-talking-front-v001",
+      "file": "approved/thao-my-expr-talking-front-v001.png",
+      "description_vi": "Chính diện, miệng đang nói",
+      "source": "source/facial-expressions-38847112.jpg",
+      "source_row": 3,
+      "source_column": 2,
+      "crop_box_xyxy": [
+        1839,
+        2056,
+        3665,
+        3068
+      ],
+      "width": 1826,
+      "height": 1012,
+      "sha256": "6d14ff532fc9feac2cdfe65fd827bb1a97e89aa79f8b10902645342e5baebef6",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-expr-laughing-front-v001",
+      "file": "approved/thao-my-expr-laughing-front-v001.png",
+      "description_vi": "Chính diện, cười lớn",
+      "source": "source/facial-expressions-38847112.jpg",
+      "source_row": 3,
+      "source_column": 3,
+      "crop_box_xyxy": [
+        3673,
+        2056,
+        5500,
+        3068
+      ],
+      "width": 1827,
+      "height": 1012,
+      "sha256": "a3e0e3162b4fe4b108f84119f2cdd4919bce76d65d5074e9dedf800de5b111d5",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-angle-front-v001",
+      "file": "approved/thao-my-angle-front-v001.png",
+      "description_vi": "Trung cảnh, chính diện",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 1,
+      "source_column": 1,
+      "crop_box_xyxy": [
+        4,
+        4,
+        913,
+        1217
+      ],
+      "width": 909,
+      "height": 1213,
+      "sha256": "6d65c338ba3682786ffa8be79acd0dbf3b0d118470b76864cdad5d720140fdcf",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-angle-threequarter-screen-left-01-v001",
+      "file": "approved/thao-my-angle-threequarter-screen-left-01-v001.png",
+      "description_vi": "Trung cảnh, mặt hướng trái khung hình, góc 3/4, bản 1",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 1,
+      "source_column": 2,
+      "crop_box_xyxy": [
+        921,
+        4,
+        1831,
+        1217
+      ],
+      "width": 910,
+      "height": 1213,
+      "sha256": "ce7dff78cc9ec043bf3f5a64bca4ef04768c898f1bbf658331751a8c5bef357e",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-angle-threequarter-screen-left-02-v001",
+      "file": "approved/thao-my-angle-threequarter-screen-left-02-v001.png",
+      "description_vi": "Trung cảnh, mặt hướng trái khung hình, góc 3/4, bản 2",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 1,
+      "source_column": 3,
+      "crop_box_xyxy": [
+        1839,
+        4,
+        2748,
+        1217
+      ],
+      "width": 909,
+      "height": 1213,
+      "sha256": "71f34814a63562afb80664f3f8736173e7ad04964cf8a2117dc025f1f05540b0",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-angle-profile-screen-left-01-v001",
+      "file": "approved/thao-my-angle-profile-screen-left-01-v001.png",
+      "description_vi": "Trung cảnh, nghiêng hướng trái khung hình, bản 1",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 1,
+      "source_column": 4,
+      "crop_box_xyxy": [
+        2756,
+        4,
+        3666,
+        1217
+      ],
+      "width": 910,
+      "height": 1213,
+      "sha256": "5a8264ba36f2cc23b17f77258f4b7aede7012431f272a121fb619a774908b54e",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-angle-profile-screen-left-02-v001",
+      "file": "approved/thao-my-angle-profile-screen-left-02-v001.png",
+      "description_vi": "Trung cảnh, nghiêng hướng trái khung hình, bản 2",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 1,
+      "source_column": 5,
+      "crop_box_xyxy": [
+        3674,
+        4,
+        4584,
+        1217
+      ],
+      "width": 910,
+      "height": 1213,
+      "sha256": "431d53848f5d7571fcd9d53aa557e20fa49fe503492bcf8820469234b5605e59",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-angle-back-head-v001",
+      "file": "approved/thao-my-angle-back-head-v001.png",
+      "description_vi": "Phía sau đầu/vai, không thấy mặt",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 1,
+      "source_column": 6,
+      "crop_box_xyxy": [
+        4592,
+        4,
+        5500,
+        1217
+      ],
+      "width": 908,
+      "height": 1213,
+      "sha256": "8b9e5af5d95bbde117b7d2b5117450f8a0c8e503f186920f1558fc3027b1e452",
+      "flow_test_status": "not_tested",
+      "face_visible": false
+    },
+    {
+      "reference_id": "thao-my-angle-profile-screen-right-v001",
+      "file": "approved/thao-my-angle-profile-screen-right-v001.png",
+      "description_vi": "Nửa người, nghiêng hướng phải khung hình",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 2,
+      "source_column": 1,
+      "crop_box_xyxy": [
+        4,
+        1225,
+        913,
+        3068
+      ],
+      "width": 909,
+      "height": 1843,
+      "sha256": "4f80579b25540d9d82285dc324b66c7c1721247f68fabcc760f88ae0421c14b8",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-angle-profile-screen-left-03-v001",
+      "file": "approved/thao-my-angle-profile-screen-left-03-v001.png",
+      "description_vi": "Nửa người, nghiêng hướng trái khung hình, bản 3",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 2,
+      "source_column": 2,
+      "crop_box_xyxy": [
+        921,
+        1225,
+        1831,
+        3068
+      ],
+      "width": 910,
+      "height": 1843,
+      "sha256": "fcc246b5ddaf562076b35ca2afdafcb909acb6e55c289640f31ab7c47ad02d37",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-angle-back-upperbody-v001",
+      "file": "approved/thao-my-angle-back-upperbody-v001.png",
+      "description_vi": "Phía sau thân trên, không thấy mặt",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 2,
+      "source_column": 3,
+      "crop_box_xyxy": [
+        1839,
+        1225,
+        2748,
+        3068
+      ],
+      "width": 909,
+      "height": 1843,
+      "sha256": "837a92170bdb73e656cd75a75fbacf263cbf339879923f52ea3e01c3261ab455",
+      "flow_test_status": "not_tested",
+      "face_visible": false
+    },
+    {
+      "reference_id": "thao-my-body-front-v001",
+      "file": "approved/thao-my-body-front-v001.png",
+      "description_vi": "Toàn thân, chính diện",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 2,
+      "source_column": 4,
+      "crop_box_xyxy": [
+        2756,
+        1225,
+        3666,
+        3068
+      ],
+      "width": 910,
+      "height": 1843,
+      "sha256": "c0619bbf7697228284f95c8b0cea092a121ee0b9b0f298ee60c0d8db86db9cd2",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-body-profile-screen-left-v001",
+      "file": "approved/thao-my-body-profile-screen-left-v001.png",
+      "description_vi": "Toàn thân, nghiêng hướng trái khung hình",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 2,
+      "source_column": 5,
+      "crop_box_xyxy": [
+        3674,
+        1225,
+        4584,
+        3068
+      ],
+      "width": 910,
+      "height": 1843,
+      "sha256": "e053452d1d82ed3f392bbf252871b3e9f8a55d3523bf59e34f184b6f7302deb8",
+      "flow_test_status": "not_tested",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-body-back-v001",
+      "file": "approved/thao-my-body-back-v001.png",
+      "description_vi": "Toàn thân, phía sau, không thấy mặt",
+      "source": "source/multi-angle-reference-75f1ee34.jpg",
+      "source_row": 2,
+      "source_column": 6,
+      "crop_box_xyxy": [
+        4592,
+        1225,
+        5500,
+        3068
+      ],
+      "width": 908,
+      "height": 1843,
+      "sha256": "002ad455cfd2b1f6f90b5cf8c6a670affba7327307eac65e96c762ff883eff49",
+      "flow_test_status": "not_tested",
+      "face_visible": false
+    },
+    {
+      "reference_id": "thao-my-body-front-v002",
+      "file": "approved/thao-my-body-front-v002.png",
+      "description_vi": "Toàn thân chính diện, vóc dáng v002: đồng hồ cát nhẹ, định hướng 169 cm",
+      "source": "approved/thao-my-body-front-v001.png",
+      "processing": "AI edit using built-in imagegen; body proportions and clothing fit adjusted; face identity preservation requested",
+      "prompt_spec": "prompts/06-body-v002.md",
+      "width": 881,
+      "height": 1784,
+      "sha256": "956b84c20e7d9c8150e8ad9656dcc1690605f69ff3fcf55eebb85d942f5ab11e",
+      "flow_test_status": "not_tested",
+      "user_review_status": "pending",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-body-profile-screen-left-v002",
+      "file": "approved/thao-my-body-profile-screen-left-v002.png",
+      "description_vi": "Toàn thân nghiêng hướng trái khung hình, body v002",
+      "sources": [
+        "approved/thao-my-body-front-v002.png",
+        "approved/thao-my-body-profile-screen-left-v001.png"
+      ],
+      "processing": "AI edit with built-in imagegen; front v002 anchors body proportions and wardrobe",
+      "prompt_spec": "prompts/06-body-v002.md",
+      "width": 881,
+      "height": 1784,
+      "sha256": "479cc106dab828010300c43252b1dd0f81cf16479f2fc2c35995fba922834e87",
+      "flow_test_status": "not_tested",
+      "user_review_status": "pending",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-body-back-v002",
+      "file": "approved/thao-my-body-back-v002.png",
+      "description_vi": "Toàn thân phía sau, body v002",
+      "sources": [
+        "approved/thao-my-body-front-v002.png",
+        "approved/thao-my-body-back-v001.png"
+      ],
+      "processing": "AI edit with built-in imagegen; front v002 anchors body proportions and wardrobe",
+      "prompt_spec": "prompts/06-body-v002.md",
+      "width": 882,
+      "height": 1784,
+      "sha256": "012d1669f8bdbaa5f96eb0d33544803b14779b86994e09521d1f1c4a2a0875f2",
+      "flow_test_status": "not_tested",
+      "user_review_status": "pending",
+      "face_visible": false
+    },
+    {
+      "reference_id": "thao-my-expr-skeptical-front-v001",
+      "file": "approved/thao-my-expr-skeptical-front-v001.png",
+      "description_vi": "Nghi ngờ, nhướng mày và liếc nhẹ",
+      "source": "approved/thao-my-expr-neutral-front-v001.png",
+      "processing": "AI expression edit using built-in imagegen; facial identity preservation requested",
+      "prompt_spec": "prompts/07-sitcom-expressions.md",
+      "width": 1685,
+      "height": 933,
+      "sha256": "8f25c9e9a40ab424da415d052e5c07fe666a1ab4f7bb769fa397a2a52d1a94a7",
+      "flow_test_status": "not_tested",
+      "user_review_status": "pending",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-expr-smug-front-v001",
+      "file": "approved/thao-my-expr-smug-front-v001.png",
+      "description_vi": "Đắc ý, cười nhếch nhẹ",
+      "source": "approved/thao-my-expr-neutral-front-v001.png",
+      "processing": "AI expression edit using built-in imagegen; facial identity preservation requested",
+      "prompt_spec": "prompts/07-sitcom-expressions.md",
+      "width": 1686,
+      "height": 933,
+      "sha256": "6febe96f9d38f6e95259d2964d34bfe0961404549badde0adebda7ed334132a2",
+      "flow_test_status": "not_tested",
+      "user_review_status": "pending",
+      "face_visible": true
+    },
+    {
+      "reference_id": "thao-my-expr-caught-out-front-v001",
+      "file": "approved/thao-my-expr-caught-out-front-v001.png",
+      "description_vi": "Ngượng khi bị bắt bài, mắt né nhẹ",
+      "source": "approved/thao-my-expr-neutral-front-v001.png",
+      "processing": "AI expression edit using built-in imagegen; facial identity preservation requested",
+      "prompt_spec": "prompts/07-sitcom-expressions.md",
+      "width": 1686,
+      "height": 933,
+      "sha256": "ad9b672735ed80d991652b75e970c50d583684248c4185bb8140b2f7c627edc7",
+      "flow_test_status": "not_tested",
+      "user_review_status": "pending",
+      "face_visible": true
+    }
+  ]
+}

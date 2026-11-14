@@ -1,0 +1,12 @@
+schema_version: 1
+episode_id: ep001
+revision: 1
+locked_duration_seconds: null
+planned_source_duration_seconds: 16
+selected_takes: []
+build_commands: []
+audio_plan: keep_flow_dialogue_if_consistent_otherwise_review_before_replacement
+transition_plan: hard_cuts_only
+qc:
+  status: not_run
+  report_file: null

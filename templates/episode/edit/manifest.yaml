@@ -1,0 +1,11 @@
+schema_version: 1
+episode_id: ep000
+revision: 1
+locked_duration_seconds: null
+selected_takes: []
+# Khi chọn take: shot_id, file (relative to episode root), trim_in_seconds,
+# trim_out_seconds, audio_action (keep/strip/replace), voiceover_file nếu có.
+build_commands: []
+qc:
+  status: not_run
+  report_file: null

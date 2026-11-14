@@ -1,0 +1,33 @@
+schema_version: 1
+character_id: thao-my
+display_name: Thảo My
+status: single_views_extracted_pending_flow_test
+selected_identity_sheets:
+  - source/facial-expressions-38847112.jpg
+  - source/multi-angle-reference-75f1ee34.jpg
+reference_catalog: references.json
+reference_guide: README.md
+recommended_front_reference: approved/thao-my-angle-front-v001.png
+master_reference: null
+flow_input:
+  max_reference_images: 3
+  constraint_source: user_report_2026-11-14
+  multi_face_sheets_rejected: true
+body_design:
+  version: v002
+  adult_age_direction: 26
+  suggested_height_cm: 169
+  silhouette: natural_moderate_hourglass
+  description_vi: Eo rõ hơn, ngực và hông đầy đặn vừa phải, chân dài cân đối.
+  measurements_status: visual_design_only_not_measured
+  identity_constraint: preserve_existing_face_and_hair
+  user_review_status: pending
+voice: null
+commercial_source_rights: unverified
+notes: >-
+  Người dùng đã chọn tạo hình Thảo My trong hai sheet listed ở trên.
+  Flow từ chối sheet vì nhiều mặt và nhận tối đa 3 ảnh theo thử nghiệm của người dùng.
+  Đã tách 21 ảnh đơn PNG từ chính hai sheet; chưa thử Flow với ảnh đơn.
+  Kịch bản dùng đúng tên file theo README.md, không đổi tên khi copy vào tập.
+  Chỉ đưa ảnh đơn được chọn và có quyền sử dụng phù hợp vào approved/.
+  Prompt tạo hình trong prompts/ là tài liệu tham khảo, không phải hồ sơ đã chốt.

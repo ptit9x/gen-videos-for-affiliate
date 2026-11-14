@@ -1,0 +1,13 @@
+schema_version: 1
+episode_id: ep000
+revision: 1
+title: null
+editorial_status: draft
+input_file: input/shots.json
+shot_order:
+  - sh010
+canvas:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: null

@@ -1,0 +1,6 @@
+schema_version: 1
+runner: null
+# Không chứa session/cookie/password. Runner quản lý đăng nhập bên ngoài workspace.
+max_submission_attempts_per_job: 1
+# Lỗi sau khi gửi nhưng chưa rõ kết quả: needs_reconciliation, không tự gửi lại.
+max_requested_takes_per_run: 4

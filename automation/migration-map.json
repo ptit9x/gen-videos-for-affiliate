@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-14",
+  "files": {
+    "family-images/avatar.png": "brand/avatar.png",
+    "family-images/banner.png": "brand/banner.png",
+    "family-images/ThaoMy/01_Character_Reference_Sheet.md": "characters/thao-my/prompts/01-character-reference.md",
+    "family-images/ThaoMy/Woman_facial_expression_referenc…_38847112_4K.jpg": "characters/thao-my/source/facial-expressions-38847112.jpg",
+    "family-images/ThaoMy/Multi-angle_character_reference_…_75f1ee34_4K.jpg": "characters/thao-my/source/multi-angle-reference-75f1ee34.jpg",
+    "family-images/ThaoMy/05_Talking_Head_Angles.md": "characters/thao-my/prompts/05-talking-head-angles.md",
+    "family-images/ThaoMy/04_Outfit_Variations.md": "characters/thao-my/prompts/04-outfit-variations.md",
+    "family-images/ThaoMy/03_Product_Review_Poses.md": "characters/thao-my/prompts/03-product-review-poses.md",
+    "family-images/ThaoMy/Woman_wearing_casual_outfit_vari…_cd9fb8f0_4K.jpg": "characters/thao-my/source/outfit-variations-cd9fb8f0.jpg",
+    "family-images/ThaoMy/02_Facial_Expression_Reference.md": "characters/thao-my/prompts/02-facial-expressions.md",
+    "family-images/ThaoMy/REF.jpg": "characters/thao-my/source/reference-original.jpg",
+    "docs/02-toi-uu-thoai-flow-8s.md": "docs/research/02-toi-uu-thoai-flow-8s.md",
+    "docs/03-tan-suat-dang-video.md": "docs/research/03-tan-suat-dang-video.md",
+    "docs/01-ke-hoach-san-xuat-pilot.md": "docs/research/01-ke-hoach-san-xuat-pilot.md",
+    "docs/04-lo-trinh-affiliate.md": "docs/production-plan.md",
+    "scripts/_template.md": "templates/episode/script.md",
+    "scripts/README.md": "episodes/README.md"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "episode_id": "ep000",
+  "revision": 1,
+  "approved_for_generation": false,
+  "shots": [
+    {
+      "shot_id": "sh010",
+      "prompt_file": "prompts/sh010.txt",
+      "prompt_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "reference_files": [],
+      "reference_sha256": {},
+      "requested_duration_seconds": 8,
+      "aspect_ratio": "9:16",
+      "requested_takes": 1
+    }
+  ]
+}
