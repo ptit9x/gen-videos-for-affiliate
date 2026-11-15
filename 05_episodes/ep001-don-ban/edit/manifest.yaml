@@ -1,6 +1,6 @@
 schema_version: 2
 episode_id: ep001
-revision: 3
+revision: 4
 locked_duration_seconds: null
 planned_source_duration_seconds: 16
 selected_takes: []
@@ -8,8 +8,8 @@ build_commands: []
 audio_plan:
   mute_veo_native: true
   engine: VieNeu-TTS
-  voice_preset: null
-  voice_status: pending_user_choice
+  voice_preset: Đoan Trang
+  voice_status: locked
   lip_sync_qc: not_run
 transition_plan: hard_cuts_only
 qc:

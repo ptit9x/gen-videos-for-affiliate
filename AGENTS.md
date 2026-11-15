@@ -106,6 +106,14 @@ Quy trình UI dưới đây đã chạy thành công ngày 2026-11-14 theo báo 
 - Cập nhật 2026-11-15: trang phục thay đổi theo từng tập, giữ nhất quán trong tập; không mặc định váy đen cho toàn series. ep001–002 đang gen nên giữ bộ hiện tại, không tự đổi take. Từ ep003 xem `wardrobe.md` từng tập; các bộ đề xuất chưa được duyệt. Tập nối cùng buổi/cảnh có thể giữ bộ vì continuity.
 - Nơi cung cấp ảnh/link: `02_characters/<nhân-vật>/wardrobe/inbox/` hoặc ngay trong chat. Duyệt bản thử đồ trước gen video. Váy SANJOLI đen giữ là lựa chọn đã dùng của My, không xóa nguồn. Ảnh sản phẩm chỉ tham chiếu trang phục, không tham chiếu người.
 
+### Tự bổ sung bối cảnh bằng Flow — chốt 2026-11-15
+
+- Khi đang chuẩn bị tập/shot được yêu cầu mà thiếu ảnh bối cảnh hoặc frame cảnh, chủ động tạo/sửa ảnh bằng **Google Flow web chính chủ trong Chrome**, ngay trong project nhân vật/tập; không dừng chỉ để hỏi có tạo bối cảnh hay không. Đây là ủy quyền tạo ảnh phục vụ công việc, không phải ủy quyền gen video hoặc đăng bài.
+- Dùng sửa ảnh Nano Banana theo quy trình trên; giữ nguồn nhận diện đã duyệt, không tự thay mặt/body, không dùng Agent/Ingredients để gen video. Kiểm tra model/giá trên UI; nếu tạo ảnh phát sinh phí ngoài quy trình 0 credit đã ghi nhận, không tự chấp nhận khoản phí mới.
+- Nếu thiếu location trống: tạo ứng viên, lưu bản tải về vào review/ của location, ghi nguồn/project và trạng thái chờ duyệt. Nếu thiếu frame có nhân vật: dựng trong project, tải vào input/frames/ từng tập, giữ phiên bản riêng và ghi SHA-256/ánh xạ shot trong episode.yaml.
+- Không tự ghi location/frame approved hoặc bật approved_for_generation chỉ vì đã tạo ảnh. Khi đã có ảnh phù hợp, trình ảnh để duyệt trước gen clip. Không dùng location trống thay frame có nhân vật.
+- Nếu không truy cập được Flow, báo rõ trở ngại; không tự chuyển sang công cụ tạo ảnh khác nếu chưa có ủy quyền tương ứng. Hai frame local ep001 tạo bằng imagegen ngày 2026-11-15 theo yêu cầu riêng, không chứng minh đã chạy Flow.
+
 ### Quy tắc tủ đồ — chốt 2026-11-15
 
 - Mỗi tập chọn một bộ riêng phù hợp bối cảnh cho **từng nhân vật**; đa dạng giữa các tập, giữ nguyên bộ/phụ kiện trong các shot cùng tập. Không tự đổi mặt, tóc hoặc vóc dáng khi thay quần áo. Nếu hai tập nối trực tiếp cùng buổi/cảnh, có thể giữ bộ để liền mạch, ví dụ My ở ep004 → ep005.

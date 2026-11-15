@@ -1,3 +1,5 @@
+> Cập nhật rev4 — 2026-11-15: đã có hai frame local tạo bằng imagegen, chờ duyệt; xem `prep/local-frames-v001.md`. Thoại trong YAML vẫn là bản gốc, bản thoại gắt lưu riêng chưa đồng bộ. Giọng hiện hành là Đoan Trang theo character.yaml. Các mô tả rev3 bên dưới giữ để đối chiếu lịch sử.
+
 # ep001 — Dọn bàn xong hết giờ làm
 
 Phiên bản 3 — 2026-11-15. Cập nhật mặt/body mới đã được người dùng duyệt. Một nhân vật, một bối cảnh, hai clip 8 giây; dự kiến 16 giây trước trim. Không affiliate trong tập thử này.

@@ -1,6 +1,6 @@
 schema_version: 2
 episode_id: ep001
-revision: 3
+revision: 4
 title: Dọn bàn xong hết giờ làm
 editorial_status: draft
 flow_project: https://flow.google.com/u/1/project/2948266f-ba05-481e-b636-4ebe81db52ba
@@ -26,8 +26,8 @@ shots:
   approved_for_generation: false
   dialogue: Dọn xong cái bàn này, tôi sẽ tập trung làm việc!
   image_prompt:
-    path: input/prompts/sh010-image.txt
-    sha256: 65e914b1545d3860fe56c95ec5517661270d0a9ba4cb447154b38bbdd8174320
+    path: input/prompts/sh010-local-imagegen-v001.txt
+    sha256: 2c6e99919c7ade4dc74abaed58eeb52b2b80c558ad5e2ce65135e4cac6587da1
   motion_prompt:
     path: input/prompts/sh010-motion.txt
     sha256: a7cd1a5d7c8adc9089e2206b066a4fc3607b0cd32ec5a28d767f3b535d66c411
@@ -36,8 +36,10 @@ shots:
     sha256: d05d9b911551df5d1dca84ca2bf44419a6d2a9d557d919ccae4065cf183a3324
   - path: input/references/thao-my-body-front-v003.png
     sha256: 9f48d9c945a8f68adc740cb8b2a6693caf7a214d1a5cd957e6124d20e30f00ea
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh010-frame-local-v001.png
+    sha256: d5fe6a9040901e2e780dd36f6948628a5a8cc7c90bf337e5073d8339c1888f96
+  frame_status: pending_review
   flow_image_asset_id: null
   takes:
   - take_id: take001
@@ -58,8 +60,8 @@ shots:
   approved_for_generation: false
   dialogue: Bàn gọn rồi. Đầu óc cũng trống luôn. Mai làm vậy.
   image_prompt:
-    path: input/prompts/sh020-image.txt
-    sha256: 69bfbb5d5adb069326cd6822c409a51cd805b66b79997a007596ea0044aaea4b
+    path: input/prompts/sh020-local-imagegen-v001.txt
+    sha256: 25fd9d3b0b29506f7429aa9d31be0c856e58ad16bb50d737b71cea6ef015325d
   motion_prompt:
     path: input/prompts/sh020-motion.txt
     sha256: 451f5d1af9d208d606cb2c1170a0ab9d9c2cc30da534076d716f15c84ff3694f
@@ -68,8 +70,10 @@ shots:
     sha256: d05d9b911551df5d1dca84ca2bf44419a6d2a9d557d919ccae4065cf183a3324
   - path: input/references/thao-my-body-front-v003.png
     sha256: 9f48d9c945a8f68adc740cb8b2a6693caf7a214d1a5cd957e6124d20e30f00ea
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh020-frame-local-v001.png
+    sha256: 47699cd78454ea41d31fc3963d753478f3823bf6c794e608b7ee42e7200e4fc4
+  frame_status: pending_review
   flow_image_asset_id: null
   takes:
   - take_id: take001
