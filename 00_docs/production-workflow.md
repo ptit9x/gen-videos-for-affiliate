@@ -25,7 +25,7 @@ Kịch bản, clip và bản giao ở cùng tập để truy nguồn shot/take. 
 
 ## Nền sản xuất đã duyệt
 
-Mặt `thao-my-face-front-v001.png`; body chính diện, nghiêng trái và phía sau v003. Danh mục/hash ở `02_characters/thao-my/references.json`. Chỉ dùng bộ mới cho sản xuất mới. Ảnh body áo trắng/quần short be khóa tỷ lệ; trang phục từng tập phải ghi riêng. Váy SANJOLI đen đang là trang phục hiện hành. Bộ location mới còn chờ duyệt; preset VieNeu nữ miền Bắc chưa chốt.
+Mặt `thao-my-face-front-v001.png`; body chính diện, nghiêng trái và phía sau v003. Danh mục/hash ở `02_characters/thao-my/references.json`. Chỉ dùng bộ mới cho sản xuất mới. Ảnh body áo trắng/quần short be khóa tỷ lệ; trang phục từng tập phải ghi riêng. Trang phục chọn theo từng tập trong `wardrobe.md`; nguồn người dùng gửi qua chat hoặc `02_characters/<nhân-vật>/wardrobe/inbox/`. Không mặc định váy SANJOLI đen cho toàn series; giữ nguyên bộ của ep001–002 đang gen. Bộ location mới còn chờ duyệt; My dùng preset Đoan Trang theo character.yaml, Vy chưa chốt giọng.
 
 ## Từ kịch bản tới video
 

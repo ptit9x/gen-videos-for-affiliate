@@ -1,5 +1,7 @@
 # ep004 — Buổi hẹn đúng giờ
 
+> Cập nhật trang phục 2026-11-15: xem [wardrobe.md](wardrobe.md). Các ghi chú váy đen/bộ concept cố định bên dưới đã được thay bằng lựa chọn theo tập; bộ mới vẫn chờ duyệt.
+
 Phiên bản 1 — 2026-11-15. **Bản nháp để người dùng review; chưa duyệt kịch bản, chưa gen frame/video.** Một Thảo My, bốn shot độc lập khoảng 8 giây, dự kiến 32 giây trước trim; khung dọc 9:16. Không affiliate, không tự đăng.
 
 ## Ý tưởng

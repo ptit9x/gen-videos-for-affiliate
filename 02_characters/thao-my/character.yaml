@@ -29,3 +29,9 @@ wardrobe:
     mắt cá
   reference: wardrobe/sanjoli-maxi-dress-black-reference.png
   reference_role: outfit_only
+
+wardrobe_policy:
+  selection: per_episode
+  source_inbox: wardrobe/inbox
+  episode_record: wardrobe.md
+  note: Bộ SANJOLI ở wardrobe là lựa chọn đã dùng, không mặc định cho mọi tập; giữ bộ hiện tại của ep001–002 đang gen.

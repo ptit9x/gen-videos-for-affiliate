@@ -100,10 +100,20 @@ Quy trình UI dưới đây đã chạy thành công ngày 2026-11-14 theo báo 
 6. Credit: tài khoản miễn phí 50 credit/ngày (làm mới hằng ngày; đã dùng hết 50 trong ngày 2026-11-14, làm mới 2026-11-15). Clip tải về ở 720p gốc (720×1280, 24 fps); tùy chọn upscale 1080p/4K bị khóa trên tài khoản này.
 7. Flow ở khu vực này ép watermark AI hiển thị trên nội dung — kiểm tra khi xuất bản.
 
-### Nhân vật và trang phục (đã khóa)
+### Nhận diện nhân vật và trang phục theo tập
 
 - Thảo My: mặt/tóc theo `thao-my-face-front-v001.png` mới đã duyệt; tóc nâu tối, mái thưa theo ảnh. Ảnh là chuẩn, không tự đổi sang nâu sáng/mái bằng theo tài liệu cũ. Không tạo lại nhận diện bằng chữ thuần.
-- Trang phục cố định hiện hành: **váy maxi lụa satin đen SANJOLI** (2 dây mảnh, cổ V, dài tới mắt cá) — thay thế áo thun trắng + quần short be của ep001 rev 1. Ảnh sản phẩm váy chỉ là tham chiếu trang phục, không phải tham chiếu người.
+- Cập nhật 2026-11-15: trang phục thay đổi theo từng tập, giữ nhất quán trong tập; không mặc định váy đen cho toàn series. ep001–002 đang gen nên giữ bộ hiện tại, không tự đổi take. Từ ep003 xem `wardrobe.md` từng tập; các bộ đề xuất chưa được duyệt. Tập nối cùng buổi/cảnh có thể giữ bộ vì continuity.
+- Nơi cung cấp ảnh/link: `02_characters/<nhân-vật>/wardrobe/inbox/` hoặc ngay trong chat. Duyệt bản thử đồ trước gen video. Váy SANJOLI đen giữ là lựa chọn đã dùng của My, không xóa nguồn. Ảnh sản phẩm chỉ tham chiếu trang phục, không tham chiếu người.
+
+### Quy tắc tủ đồ — chốt 2026-11-15
+
+- Mỗi tập chọn một bộ riêng phù hợp bối cảnh cho **từng nhân vật**; đa dạng giữa các tập, giữ nguyên bộ/phụ kiện trong các shot cùng tập. Không tự đổi mặt, tóc hoặc vóc dáng khi thay quần áo. Nếu hai tập nối trực tiếp cùng buổi/cảnh, có thể giữ bộ để liền mạch, ví dụ My ở ep004 → ep005.
+- Trước khi chuẩn bị frame, đọc `05_episodes/<tập>/wardrobe.md`. Nếu chưa có, lập bản đề xuất trang phục; không tự coi là đã duyệt. Ghi bộ của từng người, nguồn ảnh/link, trạng thái duyệt và ảnh thử đồ/frame tương ứng. ep003–008 đã có bản đề xuất; ep001–002 đang gen giữ bộ hiện tại trừ khi người dùng yêu cầu đổi.
+- Người dùng có thể gửi ảnh/link ngay trong chat hoặc bỏ vào `02_characters/thao-my/wardrobe/inbox/` và `02_characters/vy/wardrobe/inbox/`, kèm tập/nhân vật. Lưu nguồn và ánh xạ vào wardrobe.md của tập; không bắt người dùng phải tự thao tác folder. Ảnh người mẫu chỉ tham chiếu bộ đồ, không lấy nhận diện/cơ thể người mẫu thay nhân vật.
+- Khi chưa có nguồn người dùng cung cấp, đề xuất bộ bằng mô tả phù hợp nhân vật/bối cảnh. Chỉ tạo ảnh thử đồ/frame khi có yêu cầu tạo ảnh tương ứng; không tự gen chỉ vì đã viết kịch bản hoặc có wardrobe.md. Sửa đồ từ ảnh nhân vật đã duyệt, không tạo lại nhân vật bằng chữ thuần.
+- `wardrobe/inbox/` giữ nguồn đầu vào; `wardrobe/review/` giữ ảnh thử đồ chờ duyệt; `wardrobe/approved/` chỉ nhận bản được người dùng duyệt rõ. Gửi ảnh nguồn không đồng nghĩa duyệt frame cuối. Giữ phiên bản riêng, không ghi đè nguồn/master tốt.
+- Khi chuyển sang sản xuất, đồng bộ bộ đã chọn vào prompt ảnh, `image_sources` trong episode.yaml và ghi chú manifest theo schema hiện hành; không tự thêm trường ngoài schema. Video vẫn chỉ nhận một frame cảnh đầu đã duyệt. Đổi bộ sau gen phải tăng revision, giữ take cũ và không nhận take cũ là đầu ra bộ mới.
 
 ### Âm thanh — quy tắc bắt buộc
 
