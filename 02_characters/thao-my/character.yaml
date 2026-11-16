@@ -3,11 +3,11 @@ character_id: thao-my
 display_name: Thảo My
 status: frames_workflow_tested_ep001
 selected_identity_references:
-- approved/thao-my-face-front-v001.png
+- approved/thao-my-face-front-v002.png
 reference_catalog: references.json
 reference_guide: README.md
 recommended_front_reference: approved/thao-my-body-front-v003.png
-master_reference: approved/thao-my-face-front-v001.png
+master_reference: approved/thao-my-face-front-v002.png
 body_design:
   version: v003
   adult_age_direction: null
@@ -15,7 +15,7 @@ body_design:
   silhouette: natural_moderate_hourglass
   description_vi: Eo rõ hơn, ngực và hông đầy đặn vừa phải, chân dài cân đối.
   measurements_status: visual_design_only_not_measured
-  identity_constraint: preserve_existing_face_and_hair
+  identity_constraint: face_and_hair_from_face_v002_body_proportions_from_v003
   user_review_status: approved_2026_11_15
 voice:
   engine: VieNeu-TTS
@@ -23,7 +23,7 @@ voice:
   preset: Đoan Trang
   status: locked_by_user_2026_11_15
 commercial_source_rights: unverified
-notes: Chỉ dùng mặt mới và body v003 đã duyệt 2026-11-15. Bộ ảnh cũ đã xoá theo yêu cầu người dùng. Chưa thử bộ mới trong Flow. Không dựng lại mặt bằng chữ. Tắt tiếng gốc Veo.
+notes: Mặt và tóc v002 được người dùng chọn ngày 2026-11-16; body v003 chỉ làm chuẩn vóc dáng. Không lấy mặt/tóc cũ trong body v003 ghi đè v002. Các bản body ghép mặt/tóc mới phải duyệt riêng. Chưa kiểm chứng tổ hợp mới trong Flow. Ưu tiên thay đổi ít để nhất quán video đã đăng; chủ yếu tóc dày đẹp hơn, không tiếp tục chỉnh cấu trúc mặt. Bộ review mới nhất hair-density-r02. Không dựng lại mặt bằng chữ. Tắt tiếng gốc Veo.
 wardrobe:
   description: Váy maxi lụa satin đen SANJOLI, hai dây mảnh, cổ V, dáng suông, dài
     mắt cá

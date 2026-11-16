@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-16",
+  "tool": "built-in image_gen",
+  "user_direction": "Giữ nét mặt và body, thay đổi ít để nhất quán video đã đăng; ưu tiên tóc dày và đẹp hơn.",
+  "outputs": [
+    {
+      "angle": "front",
+      "group": "hair-density-r02",
+      "source": "/Users/richard/.codex/generated_images/01a1e29e-4b43-7471-9e10-6782a999c423/exec-d07aa03d-652e-4075-847c-50f216f504e7.png",
+      "prompt": "Use case: identity-preserve. Hair-only edit of image 1, the existing full-body adult Thao My. User wants MINIMAL change for continuity with already published videos. Keep her face EXACTLY as image 1: no changes to eyes, cheeks, nose, lips, smile, beauty mark, head angle, age or skin. Change ONLY hair density and fullness: modestly thicker, healthier dark brown hair with fuller soft large waves, gently more volume at sides and lower lengths, attractive natural finish. Image 2 is hairstyle texture inspiration only, NOT permission to replace face. Keep existing wispy bangs and part, same hair length; no huge bouffant, no different haircut, no lighter color. Preserve entire body, silhouette, neck, pose, clothing, hands, bare feet, gray background, lighting, camera and full-body framing. No jewelry, no text. One photo.",
+      "file": "hair-density-r02/thao-my-body-front-v003-hair-density-r02.png",
+      "user_review_status": "pending",
+      "flow_test_status": "not_tested",
+      "sha256": "826026493803643d69361e2c5bdd5a9a5136e91fa31e0c41a8c1a87d27df94e6",
+      "width": 937,
+      "height": 1678
+    },
+    {
+      "angle": "profile-screen-left",
+      "group": "hair-density-r02",
+      "source": "/Users/richard/.codex/generated_images/01a1e29e-4b43-7471-9e10-6782a999c423/exec-d14b06e4-e2ba-4bbc-9a03-0b59a2d5ef59.png",
+      "prompt": "Use case: identity-preserve. Hair-only edit of image 1, existing adult Thao My full-body strict side profile facing screen left. User wants continuity with published videos and minimal changes. Change ONLY hair density: make existing dark brown long softly wavy hair modestly thicker, fuller and healthier, especially mid-length and ends, with elegant large natural waves. Preserve current length and dark brown color, bangs and part where visible. Image 2 is hair texture reference ONLY. Do NOT replace or reshape face, eyes, cheek, nose, lips, expression or head orientation. Preserve body silhouette and proportions, neck, shoulders, waist, hips, chest, limbs, hands, stance, white T-shirt, beige shorts, bare feet, gray studio background, lighting, framing and scale. No different haircut, no exaggerated volume, no jewelry, text or collage. Full head and both feet visible.",
+      "file": "hair-density-r02/thao-my-body-profile-screen-left-v003-hair-density-r02.png",
+      "user_review_status": "pending",
+      "flow_test_status": "not_tested",
+      "sha256": "846530156b065707879a508c5f87cabe063adfded737cbf0ce8a3411835a74d1",
+      "width": 937,
+      "height": 1678
+    },
+    {
+      "angle": "back",
+      "group": "hair-density-r02",
+      "source": "/Users/richard/.codex/generated_images/01a1e29e-4b43-7471-9e10-6782a999c423/exec-f249f8e1-663a-4487-bc96-326c1c1125ae.png",
+      "prompt": "Use case: identity-preserve. Hair-only edit of image 1, existing adult Thao My full-body strict back view, no face visible. User wants continuity with published videos and minimal changes. Change ONLY hair density: make existing dark brown long softly wavy hair modestly thicker, fuller and healthier, especially mid-length and ends, with elegant large natural waves. Preserve current length and dark brown color, bangs and part where visible. Image 2 is hair texture reference ONLY. Do NOT replace or reshape face, eyes, cheek, nose, lips, expression or head orientation. Preserve body silhouette and proportions, neck, shoulders, waist, hips, chest, limbs, hands, stance, white T-shirt, beige shorts, bare feet, gray studio background, lighting, framing and scale. No different haircut, no exaggerated volume, no jewelry, text or collage. Full head and both feet visible.",
+      "file": "hair-density-r02/thao-my-body-back-v003-hair-density-r02.png",
+      "user_review_status": "pending",
+      "flow_test_status": "not_tested",
+      "sha256": "d3fa2f7076691fab924c7b91437a81e50ea91a1480fe10df203e7437a9f39b77",
+      "width": 937,
+      "height": 1678
+    },
+    {
+      "angle": "front",
+      "group": "face-correction-superseded",
+      "source": "/Users/richard/.codex/generated_images/01a1e29e-4b43-7471-9e10-6782a999c423/exec-73fa274d-c449-4f5e-9c2d-47b2d86ae6a2.png",
+      "prompt": "Use case: identity-preserve. Precise corrective edit of image 1, existing full-body Thao My reference. Image 2 is her authoritative portrait, SAME adult character, not a new person. Correct ONLY facial likeness, keep existing dark brown wavy hairstyle and body intact. Existing edit looks somewhat generic: reproduce image 2's exact almond eyes with natural lower eyelid shape and iris size, soft cheeks with subtle pink, rounded cheek-to-chin contour, exact nose, asymmetrical gentle closed-lip smile and lip shape, small beauty mark below mouth on screen right. Do not make eyes larger, chin sharper, face younger or add makeup. Preserve recognizable continuity; do not exaggerate any difference. Keep image 1 head size, head orientation, neck, shoulders, chest, waist, hips, limbs, body silhouette, hands, stance, fitted white tee, beige shorts, bare feet, gray background, lighting and full-body framing unchanged. No jewelry from image 2, no white dress, no text. Focus on faithful subtle facial geometry and natural identity, not a beauty makeover. One full-body photograph, no collage.",
+      "file": "face-correction-superseded/thao-my-body-front-v003-face-correction-superseded.png",
+      "user_review_status": "pending",
+      "flow_test_status": "not_tested",
+      "sha256": "308751b7eb0dac5945bbcf44b444d86547bccb1a40930ef4436e48df7a8dfee5",
+      "width": 937,
+      "height": 1678
+    },
+    {
+      "angle": "profile-screen-left",
+      "group": "face-correction-superseded",
+      "source": "/Users/richard/.codex/generated_images/01a1e29e-4b43-7471-9e10-6782a999c423/exec-a034e9d5-b2db-49e2-9543-38c2ff7e09aa.png",
+      "prompt": "Use case: identity-preserve. Correct ONLY facial likeness in image 1, full-body adult Thao My strict left-facing side profile. Image 2 is authoritative portrait of same character. Subtle correction to faithfully translate the portrait's soft cheek volume, rounded delicate nose tip, natural almond eye with upper/lower lid structure, relaxed closed-mouth smile and lip contour, soft chin. Keep recognizable continuity, no exaggerated makeover or age change. Preserve image 1 exact head scale and strict profile orientation, dark brown long large wavy hair and wispy bangs, neck, body proportions and silhouette, bust, waist, hips, limbs, hands, feet, white tee, beige shorts, pose, gray background and full-body framing. No dress or jewelry from portrait, no camera turn, no text. Body is locked: only small facial correction.",
+      "file": "face-correction-superseded/thao-my-body-profile-screen-left-v003-face-correction-superseded.png",
+      "user_review_status": "pending",
+      "flow_test_status": "not_tested",
+      "sha256": "03c354bbba4adcdd6bb97afcaf1404ad1790a3fd28ba340c42e21b65a163e22f",
+      "width": 937,
+      "height": 1678
+    }
+  ]
+}

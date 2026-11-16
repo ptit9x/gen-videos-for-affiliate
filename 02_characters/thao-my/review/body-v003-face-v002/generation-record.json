@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-16",
+  "tool": "built-in image_gen",
+  "body_version": "v003",
+  "face_hair_version": "v002",
+  "outputs": [
+    {
+      "angle": "front",
+      "source": "/Users/richard/.codex/generated_images/01a1e29e-4b43-7471-9e10-6782a999c423/exec-0b9d3ebd-e30e-49e6-b0ba-7b979d0ab25c.png",
+      "prompt": "Use case: identity-preserve. Edit image 1, the full-body FRONT reference. Change ONLY face and hair to match image 2, the authoritative new adult Thao My portrait. Match her exact soft oval facial geometry, eyes, nose, lips, small beauty mark, gentle closed-mouth smile, dark brown long large waves and wispy parted bangs. Keep image 1 body proportions and silhouette EXACTLY: shoulders, bust, waist, hips, limbs, height, pose, hands, bare feet, fitted white T-shirt, beige shorts, gray background, framing and camera unchanged. Do not import the portrait's dress or jewelry. Full head and feet visible. Single front image, no text, no collage. Preserve body, replace only face and hair; realistic seamless neck and lighting.",
+      "file": "thao-my-body-front-v003-face-v002-review.png",
+      "sha256": "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684",
+      "width": 937,
+      "height": 1678,
+      "user_review_status": "pending",
+      "flow_test_status": "not_tested"
+    },
+    {
+      "angle": "profile-screen-left",
+      "source": "/Users/richard/.codex/generated_images/01a1e29e-4b43-7471-9e10-6782a999c423/exec-092770d4-ac83-4181-bd9a-356f7df5c0c6.png",
+      "prompt": "Use case: identity-preserve. Edit image 1, full-body side profile facing SCREEN LEFT. Replace ONLY facial identity and hairstyle using image 2 as authoritative new adult Thao My face/hair reference. Translate her face naturally into strict left-facing profile (profile is inferred, not a measured reference). Match soft oval face, delicate nose, lips, dark brown long large waves and wispy bangs. Keep image 1 BODY and pose EXACTLY unchanged, same shoulder, bust, waist, hips, limbs, height, hands, bare feet, white T-shirt, beige shorts, gray background, scale, camera and margins. Head remains strict profile looking horizontally left, no turn toward camera. Hair follows portrait texture and length, naturally falling behind torso; do not import dress or jewelry. Single full-body photo, no labels or text.",
+      "file": "thao-my-body-profile-screen-left-v003-face-v002-review.png",
+      "sha256": "fdd5dde5ec65fc6d480d8e3c8aa7e55009e2366c40717003d05e14c49467e4e6",
+      "width": 937,
+      "height": 1678,
+      "user_review_status": "pending",
+      "flow_test_status": "not_tested"
+    },
+    {
+      "angle": "back",
+      "source": "/Users/richard/.codex/generated_images/01a1e29e-4b43-7471-9e10-6782a999c423/exec-ec4a5012-edc1-42e2-8377-c6293633653c.png",
+      "prompt": "Use case: identity-preserve. Edit image 1, strict full-body BACK VIEW. Change ONLY hairstyle to the long dark brown large soft glossy waves of image 2, the new authoritative adult Thao My hair reference, translated naturally to rear view. Hair ends around lower shoulder blades to mid back consistently with portrait length, never covering waist or shorts. Preserve exact body proportions, silhouette, shoulders, waist, hips, legs, arms, hands, pose, bare feet, white T-shirt, beige shorts including pockets, gray background, framing and scale of image 1. Head remains facing straight away, NO face visible, no over-shoulder look. Do not import dress or jewelry. Single full-body back photo, no text, no collage. Rear hairstyle is an inferred review candidate, not a measured source.",
+      "file": "thao-my-body-back-v003-face-v002-review.png",
+      "sha256": "4a6053b5134ed97cf47cf8268b98ff22ba77db17fa2c30c3d36a8cb10e89cf8d",
+      "width": 937,
+      "height": 1678,
+      "user_review_status": "pending",
+      "flow_test_status": "not_tested"
+    }
+  ]
+}

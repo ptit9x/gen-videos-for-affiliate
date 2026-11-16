@@ -43,7 +43,7 @@ Thứ tự thư mục gốc đã chốt: `00_docs` → `01_brand` → `02_charac
 - `00_docs/research/03-tan-suat-dang-video.md`: kế hoạch thử nghiệm lịch đăng và đo lường.
 - `00_docs/production-workflow.md`: hướng dẫn vận hành hiện hành, từ tài nguyên dùng chung tới frame cảnh, Flow và hậu kỳ.
 - `01_brand/`: avatar/banner đang dùng trên kênh, không phải ảnh master nhân vật.
-- `02_characters/thao-my/`: mặt mới và body v003 đã duyệt 2026-11-15; `approved/` hiện có 4 ảnh. `references.json` ghi tên và SHA-256, `character.yaml` ghi tạo hình/giọng. 27 ảnh cũ đã xoá theo yêu cầu, không khôi phục hoặc dùng lại cho sản xuất mới. `source/` giữ nguồn xuất xứ.
+- `02_characters/thao-my/`: mặt mới và body v003 đã duyệt 2026-11-15; `approved/` giữ 3 ảnh body v003, mặt v001 lịch sử và mặt/tóc v002 hiện hành. `references.json` ghi tên và SHA-256, `character.yaml` ghi tạo hình/giọng. 27 ảnh cũ đã xoá theo yêu cầu, không khôi phục hoặc dùng lại cho sản xuất mới. `source/` giữ nguồn xuất xứ.
 - `03_locations/`: phòng khách căn hộ 50 m², sân nội khu và café hẹn hò. Mỗi location có `source/`, `review/`, `approved/`, README và `location.json`; cả ba đang chờ duyệt, chưa có master. 50 m² là tổng diện tích căn hộ, không phải phòng khách.
 - `04_products/`: hồ sơ sản phẩm và tư liệu xác thực; `affiliate-links.csv` lưu link sản phẩm/link affiliate thực tế, `affiliate-placements.csv` ánh xạ link với tập/bài/vị trí dùng. Muse và Schedule cập nhật theo README của thư mục, giữ lịch sử, không tự coi lưu link là đã gắn hoặc có doanh thu; `07_analytics/`: kết quả từng tập/nền tảng, chỉ ghi số liệu thật.
 - `05_episodes/`: kịch bản, input, generated, edit và delivery theo từng tập. Dùng [skill thao-my-episode](/Users/richard/.codex/skills/thao-my-episode/SKILL.md) để viết kịch bản và lập hồ sơ tập; bộ khung nằm trong assets của skill, không còn thư mục templates tại gốc dự án. `06_automation/README.md` hướng dẫn validator offline; `episode.yaml` là hồ sơ sản xuất duy nhất, ghi take và ID Flow. Không lưu secret.
@@ -52,7 +52,7 @@ Thứ tự thư mục gốc đã chốt: `00_docs` → `01_brand` → `02_charac
 ## Bảo toàn nguồn và quyết định
 
 - Các tài liệu trong `00_docs/research/` là bản lưu hội thoại có nguồn. Giữ nguyên nội dung và thông tin xuất xứ; viết bản biên tập/kịch bản mới thành file riêng, trừ khi người dùng yêu cầu sửa bản lưu.
-- Mặt chuẩn hiện hành: `thao-my-face-front-v001.png`; body đã duyệt: `thao-my-body-front-v003.png`, `thao-my-body-profile-screen-left-v003.png`, `thao-my-body-back-v003.png`. Tất cả nằm trong `02_characters/thao-my/approved/`. Mặt mới giữ giống ảnh người dùng đưa; đề xuất trẻ hóa trước đó đã bị bỏ. Lấy khuôn mặt, tóc và thần thái từ ảnh đã duyệt, không dùng mô tả cũ ghi đè.
+- Mặt chuẩn hiện hành: `thao-my-face-front-v002.png`; body đã duyệt: `thao-my-body-front-v003.png`, `thao-my-body-profile-screen-left-v003.png`, `thao-my-body-back-v003.png`. Tất cả nằm trong `02_characters/thao-my/approved/`. Mặt mới giữ giống ảnh người dùng đưa; đề xuất trẻ hóa trước đó đã bị bỏ. Lấy khuôn mặt, tóc và thần thái từ ảnh đã duyệt, không dùng mô tả cũ ghi đè.
 - Body v003 mặc áo thun trắng/quần short be để xem tỷ lệ, không tự thay trang phục cảnh/tập. Chiều cao khoảng 169 cm là ý đồ thiết kế; không suy ra số đo ba vòng từ ảnh. Không trộn với body cũ. Bộ mới chưa kiểm chứng trong Flow.
 - Tên nhân vật hiện hành là **Thảo My**. “Vy”, “Minh”, “Quân” trong nghiên cứu không phải dàn nhân vật đã triển khai; ưu tiên solo. Không suy ra có nhân vật khác chỉ từ tên thư mục.
 - Trước khi gen body hoặc thay vóc dáng mới, mô tả theo ảnh tham chiếu để người dùng duyệt rồi mới gen; bộ v003 hiện đã được duyệt, không cần hỏi lại để dùng đúng bộ đó.
@@ -128,7 +128,7 @@ Quy trình UI dưới đây đã chạy thành công ngày 2026-11-14 theo báo 
 ### Công thức gen (bắt buộc theo đúng thứ tự)
 
 1. Làm việc trong project Flow riêng của tập theo quy ước trên (ngoại lệ chuyển tiếp cho tập đang làm dở); tài sản Flow **không dùng chung giữa các project** — cần ảnh nào thì tạo/tải ảnh đó ngay trong project.
-2. Dựng ảnh master/cảnh **bên trong project** bằng sửa ảnh (Nano Banana): bắt đầu từ ảnh tham chiếu đã duyệt (mặt `thao-my-face-front-v001.png` và tỷ lệ từ `thao-my-body-front-v003.png`, thêm location đã duyệt khi cần), sửa trang phục/bối cảnh/tư thế/biểu cảm theo shot. Sửa ảnh tốn **0 credit**. Kiểm tra cổng: mặt và tóc phải giữ nguyên nhân vật; lệch mặt là dừng, không đốt credit video vào frame đầu hỏng. Tối đa ~3 lượt sửa lấy bản tốt nhất. Flow sửa ảnh tại chỗ: trước khi sửa tiếp, tải và lưu từng frame đã duyệt vào `input/frames/`, ghi SHA-256 và ánh xạ shot trong `episode.yaml`. Không ghi đè frame đã dùng; clip là asset riêng.
+2. Dựng ảnh master/cảnh **bên trong project** bằng sửa ảnh (Nano Banana): bắt đầu từ ảnh tham chiếu đã duyệt (mặt `thao-my-face-front-v002.png` và tỷ lệ từ `thao-my-body-front-v003.png`, thêm location đã duyệt khi cần), sửa trang phục/bối cảnh/tư thế/biểu cảm theo shot. Sửa ảnh tốn **0 credit**. Kiểm tra cổng: mặt và tóc phải giữ nguyên nhân vật; lệch mặt là dừng, không đốt credit video vào frame đầu hỏng. Tối đa ~3 lượt sửa lấy bản tốt nhất. Flow sửa ảnh tại chỗ: trước khi sửa tiếp, tải và lưu từng frame đã duyệt vào `input/frames/`, ghi SHA-256 và ánh xạ shot trong `episode.yaml`. Không ghi đè frame đã dùng; clip là asset riêng.
 3. Gen video bằng **chế độ Frames (Khung hình) trực tiếp, TẮT Agent**: ảnh cảnh làm frame đầu duy nhất, không frame cuối, không đính kèm gì thêm. Đặt: Video, dọc 9:16, 8 giây, đúng 1 output, **Veo 3.1 Lite = 10 credit/clip**.
 4. Prompt video NGẮN, chỉ gồm: 1 hành động chính + câu thoại nguyên văn trong dấu “” + hướng giọng (nữ miền Bắc) + các cấm cơ bản (không nhạc, không phụ đề, không chữ, máy tĩnh). Không dùng prompt dài kiểu khóa cảnh.
 5. **TUYỆT ĐỐI TRÁNH**: chế độ Ingredients/nhân vật và đường qua Agent trung gian cho ảnh người thật — đã bị từ chối chính sách “video liên quan đến người nổi tiếng” 5/5 lượt tối 2026-11-14 (2 khuôn mặt khác nhau, ảnh tải lên / ảnh sửa trong Flow / nhân vật Flow đều bị). Agent của Flow còn tự đổi model/giá giữa các phiên (Lite 10 ↔ Omni 24) — nếu bị đưa vào bước duyệt plan, hủy và quay lại Frames trực tiếp; không duyệt đường Agent. Mỗi lượt gen chỉ bấm 1 lần theo ủy quyền của người dùng.
@@ -137,7 +137,7 @@ Quy trình UI dưới đây đã chạy thành công ngày 2026-11-14 theo báo 
 
 ### Nhận diện nhân vật và trang phục theo tập
 
-- Thảo My: mặt/tóc theo `thao-my-face-front-v001.png` mới đã duyệt; tóc nâu tối, mái thưa theo ảnh. Ảnh là chuẩn, không tự đổi sang nâu sáng/mái bằng theo tài liệu cũ. Không tạo lại nhận diện bằng chữ thuần.
+- Thảo My: mặt/tóc theo `thao-my-face-front-v002.png` mới đã duyệt; tóc nâu tối, mái thưa theo ảnh. Ảnh là chuẩn, không tự đổi sang nâu sáng/mái bằng theo tài liệu cũ. Không tạo lại nhận diện bằng chữ thuần.
 - Cập nhật 2026-11-15: trang phục thay đổi theo từng tập, giữ nhất quán trong tập; không mặc định váy đen cho toàn series. ep001–002 đang gen nên giữ bộ hiện tại, không tự đổi take. Từ ep003 xem `wardrobe.md` từng tập; các bộ đề xuất chưa được duyệt. Tập nối cùng buổi/cảnh có thể giữ bộ vì continuity.
 - Nơi cung cấp ảnh/link: `02_characters/<nhân-vật>/wardrobe/inbox/` hoặc ngay trong chat. Duyệt bản thử đồ trước gen video. Váy SANJOLI đen giữ là lựa chọn đã dùng của My, không xóa nguồn. Ảnh sản phẩm chỉ tham chiếu trang phục, không tham chiếu người.
 
@@ -197,3 +197,10 @@ Quy trình UI dưới đây đã chạy thành công ngày 2026-11-14 theo báo 
 <!-- postman-cli:installation:start -->
 Postman CLI is installed on this device, and can be used for API Engineering work.
 <!-- postman-cli:installation:end -->
+
+## Cập nhật nhận diện — chốt 2026-11-16
+
+- Người dùng chọn ảnh mới trong chat làm chuẩn cả mặt và tóc v002. Body v003 giữ nguyên vóc dáng; mặt/tóc trong ảnh body gốc không ghi đè chuẩn v002.
+- Bản ghép body với mặt/tóc mới ở `02_characters/thao-my/review/body-v003-face-v002/`, chờ duyệt riêng. Giữ bộ gốc và các revision tập cũ. Chưa kiểm chứng tổ hợp mới trong Flow.
+
+- Phản hồi tiếp theo 2026-11-16: giữ thay đổi nhận diện ít vì đã đăng video; ưu tiên tóc dày và đẹp hơn, không tiếp tục chỉnh cấu trúc mặt. Bộ review mới nhất: `02_characters/thao-my/review/body-v003-face-v002/hair-density-r02/`; chưa duyệt.

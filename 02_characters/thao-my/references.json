@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "character_id": "thao-my",
-  "processing": "image_gen; user approved 2026-11-15",
+  "processing": "Current face/hair: user supplied and selected 2026-11-16; body proportions: image_gen v003 approved 2026-11-15",
   "references": [
     {
       "reference_id": "thao-my-body-back-v003",
@@ -12,7 +12,8 @@
       "user_review_status": "approved",
       "approval_date": "2026-11-15",
       "flow_test_status": "not_tested",
-      "face_visible": false
+      "face_visible": false,
+      "current_role": "body_proportions_only_old_face_and_hair_not_authoritative"
     },
     {
       "reference_id": "thao-my-body-front-v003",
@@ -23,7 +24,8 @@
       "user_review_status": "approved",
       "approval_date": "2026-11-15",
       "flow_test_status": "not_tested",
-      "face_visible": true
+      "face_visible": true,
+      "current_role": "body_proportions_only_old_face_and_hair_not_authoritative"
     },
     {
       "reference_id": "thao-my-body-profile-screen-left-v003",
@@ -34,7 +36,8 @@
       "user_review_status": "approved",
       "approval_date": "2026-11-15",
       "flow_test_status": "not_tested",
-      "face_visible": true
+      "face_visible": true,
+      "current_role": "body_proportions_only_old_face_and_hair_not_authoritative"
     },
     {
       "reference_id": "thao-my-face-front-v001",
@@ -45,7 +48,21 @@
       "user_review_status": "approved",
       "approval_date": "2026-11-15",
       "flow_test_status": "not_tested",
-      "face_visible": true
+      "face_visible": true,
+      "current_role": "historical_face_reference_superseded_by_v002"
+    },
+    {
+      "reference_id": "thao-my-face-front-v002",
+      "file": "approved/thao-my-face-front-v002.png",
+      "width": 853,
+      "height": 1280,
+      "sha256": "abf8c02e87314ac86dae528f29fbc59d57a4ac41fbcfad28efdb8e487f895f16",
+      "user_review_status": "approved",
+      "approval_date": "2026-11-16",
+      "flow_test_status": "not_tested",
+      "face_visible": true,
+      "current_role": "authoritative_face_and_hair",
+      "source_file": "source/face-hair-reference-2026-11-16.jpg"
     }
   ]
 }
