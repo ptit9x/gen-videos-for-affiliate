@@ -1,10 +1,14 @@
+> **Rev5 — 2026-11-16, bản cập nhật nhận diện để review.** Thay bộ mặt/body theo lựa chọn cuối; giữ thoại, bàn bừa và váy đen. Hồ sơ rev4/frame/take/master cũ được giữ nguyên để truy nguồn, không phải đầu ra rev5. Rev5 chưa có frame hoặc ủy quyền gen mới.
+
+> Nhận diện cập nhật 2026-11-16: mặt/tóc `thao-my-face-front-v002.png`; body chính diện `thao-my-body-front-v003-face-v002-review.png`, đều trong `02_characters/thao-my/approved/`. Hai góc ghép nghiêng/sau chưa duyệt; không dùng các bản thử tóc về sau. Giữ thoại, hành động, góc máy và trang phục theo tập; biểu cảm diễn thay đổi theo shot, không cố định nụ cười ảnh mẫu. Chưa có frame mới từ bộ này.
+
 > Cập nhật rev4 — 2026-11-15: đã có hai frame local tạo bằng imagegen, chờ duyệt; xem `prep/local-frames-v001.md`. Thoại trong YAML vẫn là bản gốc, bản thoại gắt lưu riêng chưa đồng bộ. Giọng hiện hành là Đoan Trang theo character.yaml. Các mô tả rev3 bên dưới giữ để đối chiếu lịch sử.
 
 # ep001 — Dọn bàn xong hết giờ làm
 
-Phiên bản 3 — 2026-11-15. Cập nhật mặt/body mới đã được người dùng duyệt. Một nhân vật, một bối cảnh, hai clip 8 giây; dự kiến 16 giây trước trim. Không affiliate trong tập thử này.
+Phiên bản kịch bản hiện hành 5 — 2026-11-16 (diễn xuất kế thừa rev3). Cập nhật mặt/body mới đã được người dùng duyệt. Một nhân vật, một bối cảnh, hai clip 8 giây; dự kiến 16 giây trước trim. Không affiliate trong tập thử này.
 
-**Trạng thái rev3: bản cập nhật để review, chưa tạo frame/clip mới và chưa có lệnh gen video.** Hai clip đã có là rev2, dùng mặt cũ, không đại diện cho rev3. Giữ nguyên thoại, cú chốt bàn vẫn bừa và váy đen. Hồ sơ rev2 được giữ trong `prep/rev2-record/` để đối chiếu lịch sử.
+**Ghi chú lịch sử rev3: bản cập nhật để review, chưa tạo frame/clip mới và chưa có lệnh gen video.** Hai clip đã có là rev2, dùng mặt cũ, không đại diện cho rev3. Giữ nguyên thoại, cú chốt bàn vẫn bừa và váy đen. Hồ sơ rev2 được giữ trong `prep/rev2-record/` để đối chiếu lịch sử.
 
 ## Ý tưởng và câu chốt
 
@@ -12,14 +16,14 @@ Thảo My tin rằng bàn gọn thì sẽ tập trung. Cô “dọn” đúng m�
 
 | Clip | Thoại chính xác | Diễn | Ảnh tham chiếu mới |
 |---|---|---|---|
-| sh010 — 8s | “Dọn xong cái bàn này, tôi sẽ tập trung làm việc!” | Tự tin, kéo một cuốn sổ ra khỏi đống giấy và vuốt cho ngay ngắn — chỉ dọn đúng món đó | `thao-my-face-front-v001.png` + `thao-my-body-front-v003.png` |
-| sh020 — 8s | “Bàn gọn rồi. Đầu óc cũng trống luôn. Mai làm vậy.” | Liếc bàn, nụ cười tắt, ngượng một nhịp rồi chốt tỉnh bơ (deadpan) | `thao-my-face-front-v001.png` + `thao-my-body-front-v003.png` |
+| sh010 — 8s | “Dọn xong cái bàn này, tôi sẽ tập trung làm việc!” | Tự tin, kéo một cuốn sổ ra khỏi đống giấy và vuốt cho ngay ngắn — chỉ dọn đúng món đó | `thao-my-face-front-v002.png` + `thao-my-body-front-v003-face-v002-review.png` |
+| sh020 — 8s | “Bàn gọn rồi. Đầu óc cũng trống luôn. Mai làm vậy.” | Liếc bàn, nụ cười tắt, ngượng một nhịp rồi chốt tỉnh bơ (deadpan) | `thao-my-face-front-v002.png` + `thao-my-body-front-v003-face-v002-review.png` |
 
 Khoảng 11 từ mỗi câu. Không thêm lời chào, giới thiệu tên, CTA, câu dẫn hoặc tiếng cười. Không nói nhanh để lấp khoảng trống.
 
 ## Những thứ phải khóa trong cả hai clip
 
-- Một Thảo My trưởng thành; mặt và tóc đúng ảnh `thao-my-face-front-v001.png` đã duyệt (tóc nâu tối, mái thưa theo ảnh), tỷ lệ body v003, **váy maxi lụa satin đen SANJOLI**.
+- Một Thảo My trưởng thành; mặt và tóc đúng ảnh `thao-my-face-front-v002.png` đã duyệt (tóc nâu tối, mái thưa theo ảnh), tỷ lệ body v003, **váy maxi lụa satin đen SANJOLI**.
 - Ngồi cùng một ghế beige sau cùng bàn gỗ sáng, tường trắng kem trống, sáng từ bên trái khung hình. Không thêm người, cây, đồ trang trí hoặc điện thoại.
 - Camera tĩnh ngang tầm mắt khi ngồi, góc thẳng, trung cảnh từ khoảng eo lên. Thấy đủ đầu, hai cẳng tay và mặt bàn; không quay toàn thân hay zoom.
 - Căn phòng và laptop bạc đóng ở giữa không đổi. sh010: bàn **bừa thật** — giấy tờ chồng chất, giấy vo viên, 2 cốc, vỏ snack, dây rối, sticky note, sổ cream chôn một nửa dưới giấy ở bên trái. sh020: **bàn vẫn y nguyên như vậy**, không dọn thêm bất cứ thứ gì; hai tay đặt yên trên mép bàn.
@@ -28,11 +32,11 @@ Khoảng 11 từ mỗi câu. Không thêm lời chào, giới thiệu tên, CTA,
 ## Giọng
 
 - Giọng native do Veo sinh trong clip **không dùng**: đã kiểm chứng 2 clip ra 2 giọng khác nhau (một Bắc, một Nam) dù prompt hướng giọng giống hệt. Xem đó là tiếng nháp để kiểm tra nhịp miệng.
-- Bản giao: tắt tiếng Veo, lồng cả hai câu bằng **một giọng VieNeu-TTS nữ miền Bắc duy nhất** (chạy Colab T4). Giọng cụ thể chờ người dùng chốt từ mẫu nghe thử; chốt xong ghi tên preset vào `prep/rev2-production-notes.md` và `02_characters/thao-my/character.yaml`.
+- Bản giao: tắt tiếng Veo, lồng cả hai câu bằng **một giọng VieNeu-TTS nữ miền Bắc duy nhất** (chạy Colab T4). Preset Đoan Trang đã được chốt trong `02_characters/thao-my/character.yaml`; rev5 chưa có audio mới.
 
 ## Hồ sơ sản xuất
 
-Quy trình chính ở [AGENTS.md](../../AGENTS.md). Dữ liệu shot, prompt ảnh/video tách riêng, hash và ID clip ở [episode.yaml](episode.yaml); diễn biến thực tế ở [ghi chú rev2](prep/rev2-production-notes.md). Hai clip Flow thuộc rev2, giữ ID làm lịch sử; kiểm tra cập nhật không tìm thấy hai file clip tại đường dẫn local đã khai báo. Rev3 cần dựng lại frame từ mặt mới và body v003, duyệt frame rồi mới có thể gen lại; không dùng frame/clip mặt cũ để đại diện bản mới. Biểu cảm mô tả trong prompt, không dùng ảnh biểu cảm cũ. Body mặc áo trắng/quần be chỉ khóa tỷ lệ, khi sửa cảnh phải thay sang váy đen. Chưa có giọng VieNeu được chốt.
+Quy trình chính ở [AGENTS.md](../../AGENTS.md). Dữ liệu shot, prompt ảnh/video tách riêng, hash và ID clip ở [episode.yaml](episode.yaml); diễn biến thực tế ở [ghi chú rev2](prep/rev2-production-notes.md). Hai clip Flow thuộc rev2, giữ ID làm lịch sử; kiểm tra cập nhật không tìm thấy hai file clip tại đường dẫn local đã khai báo. Rev3 cần dựng lại frame từ mặt mới và body v003, duyệt frame rồi mới có thể gen lại; không dùng frame/clip mặt cũ để đại diện bản mới. Biểu cảm mô tả trong prompt, không dùng ảnh biểu cảm cũ. Body mặc áo trắng/quần be chỉ khóa tỷ lệ, khi sửa cảnh phải thay sang váy đen. Preset VieNeu Đoan Trang đã chốt; không coi audio rev4 là audio rev5 đã kiểm chứng.
 
 ## Nhịp diễn từng clip
 

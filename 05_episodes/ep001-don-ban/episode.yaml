@@ -1,8 +1,8 @@
 schema_version: 2
 episode_id: ep001
-revision: 4
+revision: 5
 title: Dọn bàn xong hết giờ làm
-editorial_status: qc
+editorial_status: draft
 flow_project: https://flow.google.com/u/1/project/2948266f-ba05-481e-b636-4ebe81db52ba
 generation:
   mode: frames
@@ -23,78 +23,81 @@ export:
 target_duration_seconds: 16
 shots:
 - shot_id: sh010
-  approved_for_generation: true
+  approved_for_generation: false
   dialogue: Dọn xong cái bàn này, tôi sẽ tập trung làm việc!
   image_prompt:
-    path: input/prompts/sh010-local-imagegen-v001.txt
-    sha256: 2c6e99919c7ade4dc74abaed58eeb52b2b80c558ad5e2ce65135e4cac6587da1
+    path: input/prompts/sh010-image-rev5.txt
+    sha256: 91547fefc113c3671604c72d409ce8e49f0c3791112105ec2853418c838192c8
   motion_prompt:
     path: input/prompts/sh010-motion.txt
     sha256: a7cd1a5d7c8adc9089e2206b066a4fc3607b0cd32ec5a28d767f3b535d66c411
   image_sources:
-  - path: input/references/thao-my-face-front-v001.png
-    sha256: d05d9b911551df5d1dca84ca2bf44419a6d2a9d557d919ccae4065cf183a3324
-  - path: input/references/thao-my-body-front-v003.png
-    sha256: 9f48d9c945a8f68adc740cb8b2a6693caf7a214d1a5cd957e6124d20e30f00ea
-  first_frame:
-    path: input/frames/sh010-frame-local-v001.png
-    sha256: d5fe6a9040901e2e780dd36f6948628a5a8cc7c90bf337e5073d8339c1888f96
-  frame_status: approved
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: abf8c02e87314ac86dae528f29fbc59d57a4ac41fbcfad28efdb8e487f895f16
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  first_frame: null
+  frame_status: missing_local
   flow_image_asset_id: null
   takes:
   - take_id: take001
     clip_id: 8cc9a421-0f47-43ad-a94d-13b9913e474d
     status: rejected_editorial
     file: null
-    note: Rev2 — mặt cũ, chỉ lưu lịch sử; không dùng cho rev3. Bàn gọn; bị loại ngày
-      2026-11-14. Chỉ có trên Flow theo nhật ký.
+    note: Không dùng cho rev5 vì đổi bộ nhận diện; giữ nguyên file/ID lịch sử. Rev2
+      — mặt cũ, chỉ lưu lịch sử; không dùng cho rev3. Bàn gọn; bị loại ngày 2026-11-14.
+      Chỉ có trên Flow theo nhật ký.
   - take_id: take002
     clip_id: 18ecd1fc-0109-48d6-bb72-49808a7a5bfc
     status: rejected_editorial
     file: null
-    note: 'Rev2 — mặt cũ, chỉ lưu lịch sử; không dùng cho rev3. File có tại workspace;
-      chưa QC hình/âm thanh trong đợt chuyển cấu trúc. Kiểm tra 2026-11-15: không
-      tìm thấy file local tại generated/sh010/take002.mp4; đường dẫn/hash cũ giữ trong
-      prep/rev2-record/episode.yaml.'
+    note: 'Không dùng cho rev5 vì đổi bộ nhận diện; giữ nguyên file/ID lịch sử. Rev2
+      — mặt cũ, chỉ lưu lịch sử; không dùng cho rev3. File có tại workspace; chưa
+      QC hình/âm thanh trong đợt chuyển cấu trúc. Kiểm tra 2026-11-15: không tìm thấy
+      file local tại generated/sh010/take002.mp4; đường dẫn/hash cũ giữ trong prep/rev2-record/episode.yaml.'
   - take_id: take003
     clip_id: 726e3f32-bcaf-4128-891f-c5a00d745b03
-    status: needs_review
+    status: rejected_editorial
     file:
       path: generated/sh010/take003.mp4
       sha256: 3192431350515cba7abbcb48ba0f0d6258e43a997bf5d1484e0f35ec2ee0c70a
-    note: 'Rev4 — mặt mới, frame local v001 đã duyệt 2026-11-16; gen Flow Frames Veo 3.1 Lite 1 lượt 10 credit. Lệch diễn: nhấc sổ đặt lên laptop thay vì kéo vuốt tại chỗ; bàn vẫn bừa. Chờ người dùng QC.'
+    note: 'Không dùng cho rev5 vì đổi bộ nhận diện; giữ nguyên file/ID lịch sử. Rev4
+      — mặt mới, frame local v001 đã duyệt 2026-11-16; gen Flow Frames Veo 3.1 Lite
+      1 lượt 10 credit. Lệch diễn: nhấc sổ đặt lên laptop thay vì kéo vuốt tại chỗ;
+      bàn vẫn bừa. Chờ người dùng QC.'
 - shot_id: sh020
-  approved_for_generation: true
+  approved_for_generation: false
   dialogue: Bàn gọn rồi. Đầu óc cũng trống luôn. Mai làm vậy.
   image_prompt:
-    path: input/prompts/sh020-local-imagegen-v001.txt
-    sha256: 25fd9d3b0b29506f7429aa9d31be0c856e58ad16bb50d737b71cea6ef015325d
+    path: input/prompts/sh020-image-rev5.txt
+    sha256: 5b07601c7800ba127f83de6640e5d0c88aa165fc2910174569e5b488be10e914
   motion_prompt:
     path: input/prompts/sh020-motion.txt
     sha256: 451f5d1af9d208d606cb2c1170a0ab9d9c2cc30da534076d716f15c84ff3694f
   image_sources:
-  - path: input/references/thao-my-face-front-v001.png
-    sha256: d05d9b911551df5d1dca84ca2bf44419a6d2a9d557d919ccae4065cf183a3324
-  - path: input/references/thao-my-body-front-v003.png
-    sha256: 9f48d9c945a8f68adc740cb8b2a6693caf7a214d1a5cd957e6124d20e30f00ea
-  first_frame:
-    path: input/frames/sh020-frame-local-v001.png
-    sha256: 47699cd78454ea41d31fc3963d753478f3823bf6c794e608b7ee42e7200e4fc4
-  frame_status: approved
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: abf8c02e87314ac86dae528f29fbc59d57a4ac41fbcfad28efdb8e487f895f16
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  first_frame: null
+  frame_status: missing_local
   flow_image_asset_id: null
   takes:
   - take_id: take001
     clip_id: 9c6adb5e-44d4-4155-9552-c4c1318f869e
     status: rejected_editorial
     file: null
-    note: 'Rev2 — mặt cũ, chỉ lưu lịch sử; không dùng cho rev3. File có tại workspace;
-      chưa QC hình/âm thanh trong đợt chuyển cấu trúc. Kiểm tra 2026-11-15: không
-      tìm thấy file local tại generated/sh020/take001.mp4; đường dẫn/hash cũ giữ trong
-      prep/rev2-record/episode.yaml.'
+    note: 'Không dùng cho rev5 vì đổi bộ nhận diện; giữ nguyên file/ID lịch sử. Rev2
+      — mặt cũ, chỉ lưu lịch sử; không dùng cho rev3. File có tại workspace; chưa
+      QC hình/âm thanh trong đợt chuyển cấu trúc. Kiểm tra 2026-11-15: không tìm thấy
+      file local tại generated/sh020/take001.mp4; đường dẫn/hash cũ giữ trong prep/rev2-record/episode.yaml.'
   - take_id: take002
     clip_id: bd0d0ba7-cfb2-4164-a47c-361ca581dfc5
-    status: needs_review
+    status: rejected_editorial
     file:
       path: generated/sh020/take002.mp4
       sha256: 1aaea043dfd99c55ce01c88636f4c70c7a629d27a96dd10bf3aad3641227147e
-    note: Rev4 — mặt mới, frame local v001 đã duyệt 2026-11-16; gen Flow Frames Veo 3.1 Lite 1 lượt 10 credit. Deadpan đạt; cuối clip tay rời mép bàn và khép mắt ~0,4s. Chờ người dùng QC.
+    note: Không dùng cho rev5 vì đổi bộ nhận diện; giữ nguyên file/ID lịch sử. Rev4
+      — mặt mới, frame local v001 đã duyệt 2026-11-16; gen Flow Frames Veo 3.1 Lite
+      1 lượt 10 credit. Deadpan đạt; cuối clip tay rời mép bàn và khép mắt ~0,4s.
+      Chờ người dùng QC.

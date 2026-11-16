@@ -1,3 +1,5 @@
+> Nhận diện cập nhật 2026-11-16: mặt/tóc `thao-my-face-front-v002.png`; body chính diện `thao-my-body-front-v003-face-v002-review.png`, đều trong `02_characters/thao-my/approved/`. Hai góc ghép nghiêng/sau chưa duyệt; không dùng các bản thử tóc về sau. Giữ thoại, hành động, góc máy và trang phục theo tập; biểu cảm diễn thay đổi theo shot, không cố định nụ cười ảnh mẫu. Chưa có frame mới từ bộ này.
+
 # ep008 — Tự thưởng có lãi
 
 > Cập nhật trang phục 2026-11-15: xem [wardrobe.md](wardrobe.md). Các ghi chú váy đen/bộ concept cố định bên dưới đã được thay bằng lựa chọn theo tập; bộ mới vẫn chờ duyệt.
@@ -12,7 +14,7 @@ Thoát chủ đề đàn ông sang thói quen mua sắm. My và Vy cùng lộ đ
 
 Phòng khách; một túi mua sắm trơn cạnh My, không logo hoặc sản phẩm cụ thể.
 
-- Thảo My: mặt/tóc từ `02_characters/thao-my/approved/thao-my-face-front-v001.png`, tỷ lệ từ `02_characters/thao-my/approved/thao-my-body-front-v003.png`; váy đen SANJOLI hiện hành. Không dùng ảnh cũ.
+- Thảo My: mặt/tóc từ `02_characters/thao-my/approved/thao-my-face-front-v002.png`, tỷ lệ từ `02_characters/thao-my/approved/thao-my-body-front-v003-face-v002-review.png`; váy đen SANJOLI hiện hành. Không dùng ảnh cũ.
 - Vy: tên/vai trò đã chốt; ngoại hình/trang phục theo đề xuất `02_characters/vy/concept-v001.md`, chưa duyệt, chưa có ảnh master. Đây là điểm cần hoàn tất trước dựng frame Vy.
 - Location còn chờ duyệt. Góc đơn qua lại, máy tĩnh; My nhìn sang phải khung hình, Vy nhìn sang trái; không lật ảnh để tạo góc. Không cần shot hai người trong cùng khung.
 - Tham chiếu sửa frame mỗi shot: ảnh đơn đã duyệt của đúng người nói và location sau duyệt. Chưa có file Vy/frame cụ thể, không bịa tên asset hoặc hash. Video chỉ nhận một frame cảnh đầu đã duyệt.

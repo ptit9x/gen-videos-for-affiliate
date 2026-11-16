@@ -1,6 +1,6 @@
 # Trang phục ep002 — lựa chọn cập nhật 2026-11-16
 
-- Nhân vật: Thảo My, mặt `thao-my-face-front-v001.png`, body v003 đã duyệt. Giữ mặt, tóc, thần thái và tỷ lệ từ ảnh approved hiện hành.
+- Nhân vật: Thảo My, mặt `thao-my-face-front-v002.png`, body v003 đã duyệt. Giữ mặt, tóc, thần thái và tỷ lệ từ ảnh approved hiện hành.
 - Lựa chọn của người dùng: váy hai dây maxi suông SANJOLI màu kem theo hai ảnh gửi trong chat. Bề mặt bóng nhẹ, cổ đổ nhẹ theo ảnh; không tự xác nhận chất liệu thực từ hình.
 - Nguồn: `02_characters/thao-my/wardrobe/inbox/ep002-sanjoli-kem/` (đường dẫn tính từ gốc repository); xem README cùng thư mục để đối chiếu tên file/hash. Ảnh 1 tham chiếu bộ váy; ảnh 2 bổ sung phom và bảng size, không mặc định dùng bảng ghép làm input nhận diện.
 - Affiliate: `aff-0001`, https://s.shopee.vn/5LDVnTeC4f — người dùng chọn dùng cùng link ep001; chưa gắn vào bài.

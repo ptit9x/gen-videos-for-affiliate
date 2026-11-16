@@ -78,3 +78,7 @@ Validator chỉ kiểm tra offline, không gen hoặc chứng nhận media. Khô
 ## Tình trạng ep001
 
 Rev3 dùng mặt mới/body v003; chưa gen frame/video mới. ID clip rev2 giữ để truy nguồn, hai đường dẫn clip local cũ không tìm thấy khi kiểm tra 2026-11-15. Cần duyệt kịch bản/frame và chốt giọng trước các bước tương ứng.
+
+### Nhận diện chốt cuối 2026-11-16
+
+Mặt/tóc hiện hành `thao-my-face-front-v002.png`; body chính diện hiện hành `thao-my-body-front-v003-face-v002-review.png` trong `02_characters/thao-my/approved/`. Hai góc ghép v002 khác chưa duyệt. Chỉ định này thay các hướng thử giữ mặt cũ hoặc hair-density-r02. ep001 rev5 đang chuẩn bị lại với bộ này; không coi media rev4 là media rev5.

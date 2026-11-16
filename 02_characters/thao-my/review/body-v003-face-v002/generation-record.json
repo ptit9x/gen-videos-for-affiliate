@@ -12,8 +12,10 @@
       "sha256": "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684",
       "width": 937,
       "height": 1678,
-      "user_review_status": "pending",
-      "flow_test_status": "not_tested"
+      "user_review_status": "approved",
+      "flow_test_status": "not_tested",
+      "approval_date": "2026-11-16",
+      "approved_file": "../../approved/thao-my-body-front-v003-face-v002-review.png"
     },
     {
       "angle": "profile-screen-left",

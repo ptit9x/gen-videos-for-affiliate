@@ -204,3 +204,8 @@ Postman CLI is installed on this device, and can be used for API Engineering wor
 - Bản ghép body với mặt/tóc mới ở `02_characters/thao-my/review/body-v003-face-v002/`, chờ duyệt riêng. Giữ bộ gốc và các revision tập cũ. Chưa kiểm chứng tổ hợp mới trong Flow.
 
 - Phản hồi tiếp theo 2026-11-16: giữ thay đổi nhận diện ít vì đã đăng video; ưu tiên tóc dày và đẹp hơn, không tiếp tục chỉnh cấu trúc mặt. Bộ review mới nhất: `02_characters/thao-my/review/body-v003-face-v002/hair-density-r02/`; chưa duyệt.
+
+## Lựa chọn nhận diện cuối 2026-11-16 — ưu tiên hơn ghi chú thử nghiệm trước
+
+- Chuẩn mặt/tóc: `thao-my-face-front-v002.png`; body chính diện: `thao-my-body-front-v003-face-v002-review.png`, đã duyệt rõ trong chat và copy nguyên byte vào approved. Bỏ hướng giữ mặt cũ chỉ làm tóc dày; không chọn hair-density-r02 hoặc face-correction. Hai góc ghép nghiêng/sau chưa duyệt.
+- Đã cập nhật kịch bản ep001–008; ep001 chuyển rev5, giữ hồ sơ rev4 tại prep/rev4-record và giữ nguyên nguồn/take/master. Rev5 chưa có frame/clip và chưa duyệt gen.

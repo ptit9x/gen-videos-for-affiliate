@@ -1,3 +1,5 @@
+> Nhận diện cập nhật 2026-11-16: mặt/tóc `thao-my-face-front-v002.png`; body chính diện `thao-my-body-front-v003-face-v002-review.png`, đều trong `02_characters/thao-my/approved/`. Hai góc ghép nghiêng/sau chưa duyệt; không dùng các bản thử tóc về sau. Giữ thoại, hành động, góc máy và trang phục theo tập; biểu cảm diễn thay đổi theo shot, không cố định nụ cười ảnh mẫu. Chưa có frame mới từ bộ này.
+
 # ep003 — Anh sắp tới
 
 > Cập nhật trang phục 2026-11-15: xem [wardrobe.md](wardrobe.md). Các ghi chú váy đen/bộ concept cố định bên dưới đã được thay bằng lựa chọn theo tập; bộ mới vẫn chờ duyệt.
@@ -10,7 +12,7 @@ Một tin nhắn trấn an bị Thảo My bóc ra bằng đúng trải nghiệm 
 
 ## Khóa nhân vật và bối cảnh
 
-- Mặt/tóc: `thao-my-face-front-v001.png` đã duyệt; body: `thao-my-body-front-v003.png` đã duyệt. Nguồn tại `02_characters/thao-my/approved/`, không dùng ảnh cũ.
+- Mặt/tóc: `thao-my-face-front-v002.png` đã duyệt; body: `thao-my-body-front-v003-face-v002-review.png` đã duyệt. Nguồn tại `02_characters/thao-my/approved/`, không dùng ảnh cũ.
 - Trang phục đề xuất: váy maxi satin đen SANJOLI hiện hành, giữ nguyên cả tập; phụ kiện tối giản, không tự thêm logo.
 - Bối cảnh: Sân nội khu chung cư. Ảnh ứng viên: `03_locations/apartment-courtyard/review/apartment-courtyard-v001.png`. **Location chưa duyệt**; chỉ dùng để lên kịch bản, chưa coi là nguồn đã được phép gen shot.
 - Một nhân vật trên hình; người được nhắc trong thoại không xuất hiện, không có tiếng đáp ngoài hình. Không cần tạo nam chính.
@@ -24,7 +26,7 @@ Một tin nhắn trấn an bị Thảo My bóc ra bằng đúng trải nghiệm 
 - Thoại (12 từ theo khoảng trắng): “Anh nhắn “sắp tới” rồi. Tôi thích đàn ông biết thông báo.”
 - Hành động/diễn: Cầm điện thoại, nhìn camera với nụ cười nhẹ.
 - Máy: Trung cảnh ngồi ghế gỗ, hàng cây và lối đi phía sau.
-- Tham chiếu sửa frame: mặt chính diện mới + body v003 + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
+- Tham chiếu sửa frame: mặt v002 + body chính diện ghép v002 đã duyệt + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
 - Nhịp dự kiến: mở 0–0,5s; nói trong khoảng 0,5–6,5s; giữ phản ứng cuối. Đọc thử trước khi khóa; nếu câu không đủ thời gian thì rút/tách, không tăng tốc thoại.
 
 ### sh020 — 8–16 giây
@@ -33,7 +35,7 @@ Một tin nhắn trấn an bị Thảo My bóc ra bằng đúng trải nghiệm 
 - Thoại (11 từ theo khoảng trắng): “Mười phút trước cũng sắp tới. Anh này nhất quán thật.”
 - Hành động/diễn: Liếc xuống điện thoại rồi ngẩng lên, nụ cười nhạt đi.
 - Máy: Cận vừa cùng phía ghế.
-- Tham chiếu sửa frame: mặt chính diện mới + body v003 + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
+- Tham chiếu sửa frame: mặt v002 + body chính diện ghép v002 đã duyệt + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
 - Nhịp dự kiến: mở 0–0,5s; nói trong khoảng 0,5–6,5s; giữ phản ứng cuối. Đọc thử trước khi khóa; nếu câu không đủ thời gian thì rút/tách, không tăng tốc thoại.
 
 ### sh030 — 16–24 giây
@@ -42,7 +44,7 @@ Một tin nhắn trấn an bị Thảo My bóc ra bằng đúng trải nghiệm 
 - Thoại (12 từ theo khoảng trắng): “Chắc anh đang đi chậm. Tình cảm mà, cần gì phải vội.”
 - Hành động/diễn: Nhìn về lối đi trống một nhịp rồi quay lại camera.
 - Máy: Trung cảnh, máy tĩnh.
-- Tham chiếu sửa frame: mặt chính diện mới + body v003 + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
+- Tham chiếu sửa frame: mặt v002 + body chính diện ghép v002 đã duyệt + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
 - Nhịp dự kiến: mở 0–0,5s; nói trong khoảng 0,5–6,5s; giữ phản ứng cuối. Đọc thử trước khi khóa; nếu câu không đủ thời gian thì rút/tách, không tăng tốc thoại.
 
 ### sh040 — 24–32 giây
@@ -51,7 +53,7 @@ Một tin nhắn trấn an bị Thảo My bóc ra bằng đúng trải nghiệm 
 - Thoại (12 từ theo khoảng trắng): “Tôi về trước đây. Cho anh thêm không gian để sắp tới.”
 - Hành động/diễn: Cất điện thoại vào túi, mắt vẫn nhìn camera; chưa đứng dậy trong câu.
 - Máy: Trung cảnh như sh010, giữ một nhịp sau câu.
-- Tham chiếu sửa frame: mặt chính diện mới + body v003 + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
+- Tham chiếu sửa frame: mặt v002 + body chính diện ghép v002 đã duyệt + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
 - Nhịp dự kiến: mở 0–0,5s; nói trong khoảng 0,5–6,5s; giữ phản ứng cuối. Đọc thử trước khi khóa; nếu câu không đủ thời gian thì rút/tách, không tăng tốc thoại.
 
 ## Chuẩn bị frame và dựng

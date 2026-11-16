@@ -15,3 +15,7 @@ Trạng thái: CHỜ DUYỆT, không đưa vào approved hoặc chọn làm ản
 ## Revision tóc dày r02 — hướng hiện hành
 
 Chốt từ phản hồi tiếp theo: thay đổi ít để giữ nhận diện video đã đăng; chủ yếu tăng độ dày, độ bồng và sóng tóc, không tiếp tục sửa cấu trúc mặt. Đã tạo đủ ba góc bằng image_gen, lưu trong `hair-density-r02/`; prompt và hash ở `revision-record.json`. Đã xem trực quan: tóc đầy hơn nhẹ ở sóng/đuôi, giữ trang phục và tư thế; không thấy lỗi hình thể nổi bật. Không khẳng định giữ nguyên từng pixel hoặc đối chiếu được với video đã đăng. Chờ duyệt hình; chưa thử Flow. Hai lượt chỉnh mặt trước khi nhận chỉ đạo mới được giữ riêng tại `face-correction-superseded/`, không chọn dùng.
+
+## Chốt cuối — ưu tiên hơn các ghi chú trước
+
+Người dùng chọn đúng `thao-my-body-front-v003-face-v002-review.png`, bản ghép đầu tiên, không phải hair-density-r02 hay face-correction. Đã copy nguyên byte vào ../../approved/. Hai góc còn lại chưa duyệt. Hướng giữ mặt body cũ rồi chỉ đổi tóc đã bỏ.

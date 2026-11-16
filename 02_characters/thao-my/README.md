@@ -6,7 +6,8 @@ Cập nhật 2026-11-16: người dùng chọn ảnh mặt/tóc v002 mới. Gi�
 
 - [Mặt và tóc v002](approved/thao-my-face-front-v002.png): chuẩn khuôn mặt, tóc và thần thái hiện hành.
 - [Mặt v001](approved/thao-my-face-front-v001.png): giữ lịch sử, không dùng làm chuẩn hiện hành.
-- [Body chính diện](approved/thao-my-body-front-v003.png).
+- [Body chính diện hiện hành](approved/thao-my-body-front-v003-face-v002-review.png): người dùng chọn 2026-11-16; giữ nguyên tên file đã chỉ định.
+- [Body chính diện v003 gốc](approved/thao-my-body-front-v003.png): lịch sử.
 - [Body nghiêng trái khung hình](approved/thao-my-body-profile-screen-left-v003.png).
 - [Body phía sau](approved/thao-my-body-back-v003.png).
 
@@ -33,9 +34,10 @@ Mặt trái xoan mềm, cằm gọn không nhọn; mắt nâu sẫm dáng hạnh
 Ánh sáng cửa sổ ấm không quyết định màu da/tóc cố định. Váy trắng ngà cổ V, tay phồng và trang sức trong ảnh không phải trang phục mặc định. Ảnh bán thân không dùng để suy ra chiều cao hoặc số đo.
 
 - Nguồn nguyên bản: `source/face-hair-reference-2026-11-16.jpg`, người dùng gửi và chọn trong chat ngày 2026-11-16. PNG v002 chuyển định dạng từ nguồn, không chỉnh sửa nhận diện.
-- Bản body cập nhật mặt/tóc: `review/body-v003-face-v002/`, chờ người dùng duyệt, không thay bộ body v003 gốc.
+- Body chính diện bản ghép đầu tiên đã được duyệt; hai góc nghiêng/sau ghép v002 chưa duyệt. Các góc body v003 gốc chỉ lưu lịch sử, không dùng mặt/tóc cũ thay chuẩn mới.
 - Chưa kiểm chứng mặt/tóc mới hoặc tổ hợp với body v003 trong Flow. Không sửa hồi tố frame/take/hồ sơ revision cũ.
 
-## Tinh chỉnh cuối ngày 2026-11-16
 
-Người dùng yêu cầu giữ thay đổi nhỏ vì đã đăng video; ưu tiên tóc dày và đẹp hơn, không tiếp tục chỉnh mắt/má/nụ cười. Bộ `review/body-v003-face-v002/hair-density-r02/` là bộ mới nhất đề xuất để duyệt. Các lượt chỉnh mặt trước đó giữ trong `face-correction-superseded/`, không chọn làm hướng sản xuất. Ảnh mẫu v002 tiếp tục lưu làm tham chiếu; không diễn giải thành yêu cầu làm lại khuôn mặt.
+## Lựa chọn cuối 2026-11-16
+
+Người dùng chốt mặt `thao-my-face-front-v002.png` và body `thao-my-body-front-v003-face-v002-review.png` từ bộ ghép đầu tiên. Bản body đã copy nguyên byte sang approved, giữ nguồn review. Bỏ hướng giữ mặt cũ chỉ tăng độ dày tóc; các bản hair-density-r02 và face-correction không được chọn. Không tự suy rộng duyệt sang hai góc còn lại. Không tự gen video.

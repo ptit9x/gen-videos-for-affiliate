@@ -1,3 +1,5 @@
+> Nhận diện cập nhật 2026-11-16: mặt/tóc `thao-my-face-front-v002.png`; body chính diện `thao-my-body-front-v003-face-v002-review.png`, đều trong `02_characters/thao-my/approved/`. Hai góc ghép nghiêng/sau chưa duyệt; không dùng các bản thử tóc về sau. Giữ thoại, hành động, góc máy và trang phục theo tập; biểu cảm diễn thay đổi theo shot, không cố định nụ cười ảnh mẫu. Chưa có frame mới từ bộ này.
+
 # ep004 — Buổi hẹn đúng giờ
 
 > Cập nhật trang phục 2026-11-15: xem [wardrobe.md](wardrobe.md). Các ghi chú váy đen/bộ concept cố định bên dưới đã được thay bằng lựa chọn theo tập; bộ mới vẫn chờ duyệt.
@@ -10,7 +12,7 @@ Thảo My tưởng cuộc hẹn đã thành công vì đủ lãng mạn, cuối 
 
 ## Khóa nhân vật và bối cảnh
 
-- Mặt/tóc: `thao-my-face-front-v001.png` đã duyệt; body: `thao-my-body-front-v003.png` đã duyệt. Nguồn tại `02_characters/thao-my/approved/`, không dùng ảnh cũ.
+- Mặt/tóc: `thao-my-face-front-v002.png` đã duyệt; body: `thao-my-body-front-v003-face-v002-review.png` đã duyệt. Nguồn tại `02_characters/thao-my/approved/`, không dùng ảnh cũ.
 - Trang phục đề xuất: váy maxi satin đen SANJOLI hiện hành, giữ nguyên cả tập; phụ kiện tối giản, không tự thêm logo.
 - Bối cảnh: Café sân vườn lúc chạng vạng. Ảnh ứng viên: `03_locations/date-cafe/review/date-cafe-v001.png`. **Location chưa duyệt**; chỉ dùng để lên kịch bản, chưa coi là nguồn đã được phép gen shot.
 - Một nhân vật trên hình; người được nhắc trong thoại không xuất hiện, không có tiếng đáp ngoài hình. Không cần tạo nam chính.
@@ -24,7 +26,7 @@ Thảo My tưởng cuộc hẹn đã thành công vì đủ lãng mạn, cuối 
 - Thoại (15 từ theo khoảng trắng): “Buổi hẹn đầu tiên, tôi đến sớm. Phải để người ta thấy mình nghiêm túc.”
 - Hành động/diễn: Ngồi ngay ngắn, nhìn camera, chỉnh nhẹ tay áo hoặc dây túi đặt bên cạnh.
 - Máy: Trung cảnh ngang tầm mắt, ghế đối diện trống thấy một phần.
-- Tham chiếu sửa frame: mặt chính diện mới + body v003 + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
+- Tham chiếu sửa frame: mặt v002 + body chính diện ghép v002 đã duyệt + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
 - Nhịp dự kiến: mở 0–0,5s; nói trong khoảng 0,5–6,5s; giữ phản ứng cuối. Đọc thử trước khi khóa; nếu câu không đủ thời gian thì rút/tách, không tăng tốc thoại.
 
 ### sh020 — 8–16 giây
@@ -33,7 +35,7 @@ Thảo My tưởng cuộc hẹn đã thành công vì đủ lãng mạn, cuối 
 - Thoại (14 từ theo khoảng trắng): “Bàn đẹp, đèn đẹp, nước cũng ngon. Thiếu mỗi người trả lời tin nhắn.”
 - Hành động/diễn: Nhìn ghế trống rồi trở lại camera.
 - Máy: Cận vừa, không quay màn hình điện thoại.
-- Tham chiếu sửa frame: mặt chính diện mới + body v003 + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
+- Tham chiếu sửa frame: mặt v002 + body chính diện ghép v002 đã duyệt + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
 - Nhịp dự kiến: mở 0–0,5s; nói trong khoảng 0,5–6,5s; giữ phản ứng cuối. Đọc thử trước khi khóa; nếu câu không đủ thời gian thì rút/tách, không tăng tốc thoại.
 
 ### sh030 — 16–24 giây
@@ -42,7 +44,7 @@ Thảo My tưởng cuộc hẹn đã thành công vì đủ lãng mạn, cuối 
 - Thoại (14 từ theo khoảng trắng): “Anh bảo chọn chỗ lãng mạn. Tôi chọn rồi, giờ tự tận hưởng luôn.”
 - Hành động/diễn: Nhấc ly nước của mình một đoạn ngắn, chưa uống khi nói.
 - Máy: Trung cảnh cùng trục máy, ghế kia vẫn trống.
-- Tham chiếu sửa frame: mặt chính diện mới + body v003 + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
+- Tham chiếu sửa frame: mặt v002 + body chính diện ghép v002 đã duyệt + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
 - Nhịp dự kiến: mở 0–0,5s; nói trong khoảng 0,5–6,5s; giữ phản ứng cuối. Đọc thử trước khi khóa; nếu câu không đủ thời gian thì rút/tách, không tăng tốc thoại.
 
 ### sh040 — 24–32 giây
@@ -51,7 +53,7 @@ Thảo My tưởng cuộc hẹn đã thành công vì đủ lãng mạn, cuối 
 - Thoại (14 từ theo khoảng trắng): “Buổi hẹn này có tương lai đấy. Lần sau tôi vẫn đến, một mình.”
 - Hành động/diễn: Đặt ly xuống rồi nhìn camera với vẻ bình thản.
 - Máy: Cận vừa, giữ nét mặt sau câu.
-- Tham chiếu sửa frame: mặt chính diện mới + body v003 + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
+- Tham chiếu sửa frame: mặt v002 + body chính diện ghép v002 đã duyệt + location nêu trên sau khi được duyệt; shot sau bám frame đầu đã duyệt để giữ bố cục.
 - Nhịp dự kiến: mở 0–0,5s; nói trong khoảng 0,5–6,5s; giữ phản ứng cuối. Đọc thử trước khi khóa; nếu câu không đủ thời gian thì rút/tách, không tăng tốc thoại.
 
 ## Chuẩn bị frame và dựng
