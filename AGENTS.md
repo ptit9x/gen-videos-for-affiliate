@@ -209,3 +209,11 @@ Postman CLI is installed on this device, and can be used for API Engineering wor
 
 - Chuẩn mặt/tóc: `thao-my-face-front-v002.png`; body chính diện: `thao-my-body-front-v003-face-v002-review.png`, đã duyệt rõ trong chat và copy nguyên byte vào approved. Bỏ hướng giữ mặt cũ chỉ làm tóc dày; không chọn hair-density-r02 hoặc face-correction. Hai góc ghép nghiêng/sau chưa duyệt.
 - Đã cập nhật kịch bản ep001–008; ep001 chuyển rev5, giữ hồ sơ rev4 tại prep/rev4-record và giữ nguyên nguồn/take/master. Rev5 chưa có frame/clip và chưa duyệt gen.
+
+## Đối soát ep002 và ep000 — chốt 2026-11-16
+
+Người dùng xác nhận ep002 “Tiêu chuẩn cơ bản” chính là ep000-pilot1 đã đăng. Mã chính là ep000-pilot1; không sản xuất/đo lặp ep002. Kịch bản ep002 đã gộp thành `05_episodes/ep000-pilot1/script.md`; bản prep đã xóa theo yêu cầu người dùng; thư mục ep002 là chỉ dẫn chuyển tiếp. Không tái sử dụng mã ep002 khi chưa được yêu cầu. Affiliate và lựa chọn váy kem trước đây cần chuyển sang kịch bản khác, đang chờ tập đích; không gán cho pilot. Cập nhật này ưu tiên hơn ghi chú ep002 cũ.
+
+### Chốt chuyển affiliate sau gộp — 2026-11-16
+
+Người dùng cho phép chọn tập gần nhất chưa có hồ sơ affiliate: đã chuyển link aff-0001 và bộ váy kem sang ep003-sap-toi. Hồ sơ hiện hành ở affiliate.md/wardrobe.md của ep003; bản prep cũ đã xóa theo yêu cầu người dùng. Các ghi chú chờ tập đích trước đây đã được giải quyết. ep004 trở đi vẫn theo nguồn trắng/xanh dương/hồng, chưa gán màu riêng. Không gắn link hoặc gen media trong lần cập nhật này.

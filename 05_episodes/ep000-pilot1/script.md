@@ -1,6 +1,8 @@
+> Hồ sơ gộp từ ep002 theo xác nhận người dùng 2026-11-16. Các ghi chú chuẩn bị dưới đây chưa được đối chiếu với video đã đăng; lựa chọn váy kem/link affiliate đã chuyển sang ep003.
+
 > Nhận diện cập nhật 2026-11-16: mặt/tóc `thao-my-face-front-v002.png`; body chính diện `thao-my-body-front-v003-face-v002-review.png`, đều trong `02_characters/thao-my/approved/`. Hai góc ghép nghiêng/sau chưa duyệt; không dùng các bản thử tóc về sau. Giữ thoại, hành động, góc máy và trang phục theo tập; biểu cảm diễn thay đổi theo shot, không cố định nụ cười ảnh mẫu. Chưa có frame mới từ bộ này.
 
-# ep002 — Tiêu chuẩn cơ bản
+# ep000-pilot1 — Tiêu chuẩn cơ bản
 
 Phiên bản 1 — 2026-11-15. **Bản nháp để người dùng review; chưa duyệt kịch bản, chưa gen frame/video.** Một Thảo My, bốn shot độc lập khoảng 8 giây, dự kiến 32 giây trước trim; khung dọc 9:16. Không affiliate, không tự đăng.
 
@@ -11,7 +13,7 @@ Thảo My khẳng định mình dễ tính, rồi tự nhận ra tiêu chuẩn �
 ## Khóa nhân vật và bối cảnh
 
 - Mặt/tóc: `thao-my-face-front-v002.png` đã duyệt; body: `thao-my-body-front-v003-face-v002-review.png` đã duyệt. Nguồn tại `02_characters/thao-my/approved/`, không dùng ảnh cũ.
-- Trang phục: váy SANJOLI màu kem theo lựa chọn 2026-11-16 trong `wardrobe.md`; ảnh mẫu mặt/body không quyết định trang phục cảnh. Phụ kiện chưa chốt, không sao chép từ ảnh người mẫu.
+- Trang phục: trang phục thực tế của video đã đăng chưa đối soát; bộ kem đã chuyển sang ep003; ảnh mẫu mặt/body không quyết định trang phục cảnh. Phụ kiện chưa chốt, không sao chép từ ảnh người mẫu.
 - Bối cảnh: Phòng khách chung cư. Ảnh ứng viên: `03_locations/thao-my-apartment/living-room/review/thao-my-living-room-v001.png`. **Location chưa duyệt**; chỉ dùng để lên kịch bản, chưa coi là nguồn đã được phép gen shot.
 - Một nhân vật trên hình; người được nhắc trong thoại không xuất hiện, không có tiếng đáp ngoài hình. Không cần tạo nam chính.
 - Máy tĩnh, từng shot chỉ một hành động chính. Biểu cảm lấy từ diễn xuất; không dùng ảnh biểu cảm cũ làm nguồn.

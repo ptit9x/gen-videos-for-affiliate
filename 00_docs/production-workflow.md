@@ -82,3 +82,11 @@ Rev3 dùng mặt mới/body v003; chưa gen frame/video mới. ID clip rev2 gi�
 ### Nhận diện chốt cuối 2026-11-16
 
 Mặt/tóc hiện hành `thao-my-face-front-v002.png`; body chính diện hiện hành `thao-my-body-front-v003-face-v002-review.png` trong `02_characters/thao-my/approved/`. Hai góc ghép v002 khác chưa duyệt. Chỉ định này thay các hướng thử giữ mặt cũ hoặc hair-density-r02. ep001 rev5 đang chuẩn bị lại với bộ này; không coi media rev4 là media rev5.
+
+## Đối soát ep002 và ep000 — chốt 2026-11-16
+
+Người dùng xác nhận ep002 “Tiêu chuẩn cơ bản” chính là ep000-pilot1 đã đăng. Mã chính là ep000-pilot1; không sản xuất/đo lặp ep002. Kịch bản ep002 đã gộp thành `05_episodes/ep000-pilot1/script.md`; bản prep đã xóa theo yêu cầu người dùng; thư mục ep002 là chỉ dẫn chuyển tiếp. Không tái sử dụng mã ep002 khi chưa được yêu cầu. Affiliate và lựa chọn váy kem trước đây cần chuyển sang kịch bản khác, đang chờ tập đích; không gán cho pilot. Cập nhật này ưu tiên hơn ghi chú ep002 cũ.
+
+### Chốt chuyển affiliate sau gộp — 2026-11-16
+
+Người dùng cho phép chọn tập gần nhất chưa có hồ sơ affiliate: đã chuyển link aff-0001 và bộ váy kem sang ep003-sap-toi. Hồ sơ hiện hành ở affiliate.md/wardrobe.md của ep003; bản prep cũ đã xóa theo yêu cầu người dùng. Các ghi chú chờ tập đích trước đây đã được giải quyết. ep004 trở đi vẫn theo nguồn trắng/xanh dương/hồng, chưa gán màu riêng. Không gắn link hoặc gen media trong lần cập nhật này.

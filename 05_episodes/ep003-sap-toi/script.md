@@ -2,9 +2,9 @@
 
 # ep003 — Anh sắp tới
 
-> Cập nhật trang phục 2026-11-15: xem [wardrobe.md](wardrobe.md). Các ghi chú váy đen/bộ concept cố định bên dưới đã được thay bằng lựa chọn theo tập; bộ mới vẫn chờ duyệt.
+> Cập nhật 2026-11-16: váy SANJOLI màu kem và link aff-0001 chuyển từ ep002 theo ủy quyền người dùng; xem [wardrobe.md](wardrobe.md) và [affiliate.md](affiliate.md). Bộ đồ đã chọn, frame chưa có/chưa duyệt.
 
-Phiên bản 1 — 2026-11-15. **Bản nháp để người dùng review; chưa duyệt kịch bản, chưa gen frame/video.** Một Thảo My, bốn shot độc lập khoảng 8 giây, dự kiến 32 giây trước trim; khung dọc 9:16. Không affiliate, không tự đăng.
+Phiên bản 1 — 2026-11-15. **Bản nháp để người dùng review; chưa duyệt kịch bản, chưa gen frame/video.** Một Thảo My, bốn shot độc lập khoảng 8 giây, dự kiến 32 giây trước trim; khung dọc 9:16. Link affiliate chỉ lưu cho tập, chưa gắn vào bài; không tự đăng.
 
 ## Ý tưởng
 
@@ -13,7 +13,7 @@ Một tin nhắn trấn an bị Thảo My bóc ra bằng đúng trải nghiệm 
 ## Khóa nhân vật và bối cảnh
 
 - Mặt/tóc: `thao-my-face-front-v002.png` đã duyệt; body: `thao-my-body-front-v003-face-v002-review.png` đã duyệt. Nguồn tại `02_characters/thao-my/approved/`, không dùng ảnh cũ.
-- Trang phục đề xuất: váy maxi satin đen SANJOLI hiện hành, giữ nguyên cả tập; phụ kiện tối giản, không tự thêm logo.
+- Trang phục đã chọn: váy hai dây maxi SANJOLI màu kem theo wardrobe.md, giữ nguyên cả tập; phụ kiện chưa chốt.
 - Bối cảnh: Sân nội khu chung cư. Ảnh ứng viên: `03_locations/apartment-courtyard/review/apartment-courtyard-v001.png`. **Location chưa duyệt**; chỉ dùng để lên kịch bản, chưa coi là nguồn đã được phép gen shot.
 - Một nhân vật trên hình; người được nhắc trong thoại không xuất hiện, không có tiếng đáp ngoài hình. Không cần tạo nam chính.
 - Máy tĩnh, từng shot chỉ một hành động chính. Biểu cảm lấy từ diễn xuất; không dùng ảnh biểu cảm cũ làm nguồn.

@@ -36,7 +36,7 @@ Nội dung mới dùng tên Thảo My. Tên Vy trong bản lưu được giữ n
 
 ## Ba pilot mới — bản nháp 2026-11-15
 
-- [ep002 — Tiêu chuẩn cơ bản](../05_episodes/ep002-tieu-chuan-co-ban/script.md).
+- [ep002 — Tiêu chuẩn cơ bản](../05_episodes/ep000-pilot1/README.md).
 - [ep003 — Anh sắp tới](../05_episodes/ep003-sap-toi/script.md).
 - [ep004 — Buổi hẹn đúng giờ](../05_episodes/ep004-hen-ho-dung-gio/script.md).
 

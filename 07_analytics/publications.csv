@@ -1,11 +1,9 @@
 episode,platform,publication_status,post_url,published_at,master_revision,verified_at,evidence_source,notes
 intro-ai,facebook,published,https://www.facebook.com/share/r/18EVd1BLCM/,,,,Người dùng xác nhận; AGENTS.md,Chưa review nội dung; chưa xác minh ngày đăng.
-ep000-pilot1,facebook,published,https://www.facebook.com/reel/2920996954966253,2026-11-15,,2026-11-16,Người dùng cung cấp URL và xác nhận đã upload hôm qua trong chat 2026-11-16,Ngày đăng theo Asia/Ho_Chi_Minh; chưa biết giờ. Reel ID 2920996954966253. Chưa xem video/lấy số liệu; web fetch bị giới hạn.
-ep000-pilot1,tiktok,unknown,,,,,,Chưa xác minh việc đăng.
+ep000-pilot1,facebook,published,https://www.facebook.com/reel/2920996954966253,2026-11-15,,2026-11-16,Người dùng cung cấp URL và xác nhận đã upload hôm qua trong chat 2026-11-16,Ngày đăng theo Asia/Ho_Chi_Minh; chưa biết giờ. Reel ID 2920996954966253. Chưa xem video/lấy số liệu; web fetch bị giới hạn. Gộp ep002 Tiêu chuẩn cơ bản theo người dùng 2026-11-16; không tính thành hai tập.
+ep000-pilot1,tiktok,unknown,,,,,,Chưa xác minh việc đăng. Gộp ep002 Tiêu chuẩn cơ bản theo người dùng 2026-11-16; không tính thành hai tập.
 ep001-don-ban,facebook,unknown,,,,,,Chưa xác minh việc đăng.
 ep001-don-ban,tiktok,unknown,,,,,,Chưa xác minh việc đăng.
-ep002-tieu-chuan-co-ban,facebook,unknown,,,,,,Chưa xác minh việc đăng.
-ep002-tieu-chuan-co-ban,tiktok,unknown,,,,,,Chưa xác minh việc đăng.
 ep003-sap-toi,facebook,unknown,,,,,,Chưa xác minh việc đăng.
 ep003-sap-toi,tiktok,unknown,,,,,,Chưa xác minh việc đăng.
 ep004-hen-ho-dung-gio,facebook,unknown,,,,,,Chưa xác minh việc đăng.
