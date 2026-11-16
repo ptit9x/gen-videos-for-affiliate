@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-16",
+  "status": "generation_in_progress",
+  "flow_project": "https://flow.google.com/project/b8892ffa-8616-4c50-af95-431b77e67968",
+  "observed_project_title": "CNTM LAB Thao MCNTM LAB Thao My",
+  "model_observed": "Nano Banana 2.1",
+  "price_observed": "0 credits in image settings",
+  "generated_outputs": [],
+  "recommended_outputs": [],
+  "inputs": [
+    {
+      "file": "02_characters/thao-my/approved/thao-my-face-front-v002.png",
+      "sha256": "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+    },
+    {
+      "file": "02_characters/thao-my/approved/thao-my-body-front-v003-face-v002-review.png",
+      "sha256": "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    }
+  ],
+  "blocker": "Native Chrome control: screenshots inconsistent with AX state; upload did not complete; coordinate actions return noWindowsAvailable. No generation submitted.",
+  "resume_observation_2026_11_16": {
+    "uploaded_assets_confirmed": [
+      "thao-my-face-front-v002-upload.jpg",
+      "thao-my-body-front-v003.png"
+    ],
+    "face_asset_id": "77ea1282-9046-4306-8010-6542ff2e339d",
+    "status": "blocked_before_generation",
+    "blocker": "After user upload, both source thumbnails confirmed. Add-to-prompt did not produce confirmed attachment; screenshots became black/stale, AX actions elementHasNoFrame. No generation submitted.",
+    "prompt_prepared": "body-natural-trial-01-prompt.txt"
+  },
+  "trials": [
+    {
+      "trial": "body-natural-01",
+      "status": "candidate",
+      "prompt_file": "body-natural-trial-01-prompt.txt",
+      "model": "Nano Banana 2.1",
+      "aspect_ratio": "9:16",
+      "output_count": 1,
+      "credits_displayed": 0,
+      "sources": [
+        {
+          "file": "02_characters/thao-my/review/flow-realism-test/thao-my-face-front-v002-upload.jpg",
+          "sha256": "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+        },
+        {
+          "file": "02_characters/thao-my/approved/thao-my-body-front-v003.png",
+          "sha256": "9f48d9c945a8f68adc740cb8b2a6693caf7a214d1a5cd957e6124d20e30f00ea"
+        }
+      ],
+      "file": "body-natural-trial-01.jpg",
+      "flow_asset_id": "949d5696-62f2-42d6-9e8a-dd536312d2eb",
+      "sha256": "ffbcafa848a578b015139361a0b8fff07bbd707219875166df49136343cde1c8",
+      "assessment": "More natural fabric/skin than previous composite; smile and face contours differ somewhat from current selfie. Candidate, not approved."
+    },
+    {
+      "trial": "body-natural-02",
+      "status": "recommended_for_review",
+      "prompt_file": "body-natural-trial-02-prompt.txt",
+      "model": "Nano Banana 2.1",
+      "aspect_ratio": "9:16",
+      "output_count": 1,
+      "credits_displayed": 0,
+      "file": "body-natural-trial-02.jpg",
+      "flow_asset_id": "66ad435d-15bf-40df-a3e8-666b85b5f2f0",
+      "sha256": "b4f451186e42abee6d30e39bd19cf7268c0a236bafb8e35c60cd4c024322b00e",
+      "assessment": "Natural wall/daylight, coherent head-neck-body, realistic fabric; smile broader than selfie. Preferred body candidate, pending user review."
+    }
+  ]
+}

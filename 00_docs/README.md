@@ -16,6 +16,7 @@ Ba hội thoại trong `research/` là **nghiên cứu**, không phải toàn b�
 
 ## Đọc và áp dụng
 
+- [Giữ mặt khi thay váy và thử body tự nhiên](flow-wardrobe-identity.md).
 - [Quy trình vận hành cho Muse Spark](production-workflow.md).
 - [Tracker tài khoản Muse ↔ tập](production-tracker.csv).
 - [Sổ sản phẩm và link affiliate](../04_products/README.md).

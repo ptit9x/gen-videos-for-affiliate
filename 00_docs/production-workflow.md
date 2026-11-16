@@ -90,3 +90,7 @@ Người dùng xác nhận ep002 “Tiêu chuẩn cơ bản” chính là ep000-
 ### Chốt chuyển affiliate sau gộp — 2026-11-16
 
 Người dùng cho phép chọn tập gần nhất chưa có hồ sơ affiliate: đã chuyển link aff-0001 và bộ váy kem sang ep003-sap-toi. Hồ sơ hiện hành ở affiliate.md/wardrobe.md của ep003; bản prep cũ đã xóa theo yêu cầu người dùng. Các ghi chú chờ tập đích trước đây đã được giải quyết. ep004 trở đi vẫn theo nguồn trắng/xanh dương/hồng, chưa gán màu riêng. Không gắn link hoặc gen media trong lần cập nhật này.
+
+## Giữ nhận diện khi thay váy — cập nhật 2026-11-16
+
+Muse đọc [hướng dẫn riêng](flow-wardrobe-identity.md) trước thử lại body hoặc thay váy. Người dùng muốn dùng mặt v002 hiện tại và làm lại body ghép cho tự nhiên, giữ vóc dáng. Được tự thử, đánh dấu bản tốt để đề xuất; không tự approved/gen video. Lần thử Flow này bị chặn trước generation, chưa có bản tốt mới; hướng dẫn phân biệt rõ bước đề xuất và kết quả thực.

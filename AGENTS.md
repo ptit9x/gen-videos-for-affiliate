@@ -217,3 +217,9 @@ Người dùng xác nhận ep002 “Tiêu chuẩn cơ bản” chính là ep000-
 ### Chốt chuyển affiliate sau gộp — 2026-11-16
 
 Người dùng cho phép chọn tập gần nhất chưa có hồ sơ affiliate: đã chuyển link aff-0001 và bộ váy kem sang ep003-sap-toi. Hồ sơ hiện hành ở affiliate.md/wardrobe.md của ep003; bản prep cũ đã xóa theo yêu cầu người dùng. Các ghi chú chờ tập đích trước đây đã được giải quyết. ep004 trở đi vẫn theo nguồn trắng/xanh dương/hồng, chưa gán màu riêng. Không gắn link hoặc gen media trong lần cập nhật này.
+
+## Thử lại body và giữ mặt khi thay váy — yêu cầu 2026-11-16
+
+- Người dùng đánh giá body `thao-my-body-front-v003-face-v002-review.png` thiếu tự nhiên, yêu cầu thử lại; giữ mặt v002 hiện tại và tỷ lệ body đã duyệt, không tự thay vóc dáng. Cho phép tự thử và đánh dấu bản tốt để đề xuất. Mức recommended không thay user-approved.
+- Đọc `00_docs/flow-wardrobe-identity.md` trước làm. Lần thử ghi tại `02_characters/thao-my/review/flow-realism-test/`: đã tạo LAB nhưng bị lỗi điều khiển Chrome trước khi gen, chưa có ảnh mới/recommended. Không dùng hướng dẫn đề xuất như kết quả đã kiểm chứng.
+- File mặt v002 hiện tại mang đuôi PNG nhưng dữ liệu JPEG; bản upload JPG chỉ là sao nguyên byte, không thay master. Tính lại hash khi dùng; không mặc định manifest cũ khớp file vừa được cập nhật bên ngoài.
