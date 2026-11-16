@@ -16,7 +16,11 @@ Ba hội thoại trong `research/` là **nghiên cứu**, không phải toàn b�
 
 ## Đọc và áp dụng
 
-- [Quy trình vận hành hiện hành](production-workflow.md).
+- [Quy trình vận hành cho Muse Spark](production-workflow.md).
+- [Tracker tài khoản Muse ↔ tập](production-tracker.csv).
+- [Sổ sản phẩm và link affiliate](../04_products/README.md).
+- [Sổ đăng và đo lường](../07_analytics/README.md).
+- [Giao việc Schedule review hằng tuần](../07_analytics/weekly-review-instructions.md).
 - [Lộ trình affiliate đề xuất](production-plan.md).
 - [Tổ chức từng tập](../05_episodes/README.md).
 - [skill thao-my-episode](/Users/richard/.codex/skills/thao-my-episode/SKILL.md): tạo kịch bản và hồ sơ tập, thay thư mục templates.

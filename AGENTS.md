@@ -6,6 +6,14 @@
 - Trao đổi, viết kịch bản và báo cáo bằng tiếng Việt. Prompt tạo hình/video có thể dùng tiếng Anh; lời thoại giữ tiếng Việt có dấu.
 - Ưu tiên hoàn thành đầu việc đã được yêu cầu. Phân biệt rõ đề xuất, nội dung đã chốt và kết quả đã kiểm chứng; không tự biến gợi ý trong tài liệu thành quyết định của chủ dự án.
 
+## Điều phối Muse Spark và đo lường — chốt 2026-11-16
+
+- `00_docs/production-workflow.md` là tài liệu giao việc cho Muse Spark. Chủ dự án dùng nhiều tài khoản Muse Spark, mỗi tài khoản được giao một tập. Không đồng nhất tài khoản Muse với tài khoản Google Flow.
+- Trước khi làm, đọc/cập nhật `00_docs/production-tracker.csv`: mã tài khoản, tập, trạng thái, URL Flow, thời điểm và nguồn phân công. Không tự nhận tập khác/ghi đè người phụ trách; mã tài khoản không chứa secret. Ghi tiến độ thực tế trong work-log.md của tập, cập nhật repository sau từng mốc.
+- `07_analytics/publications.csv` theo dõi từng bài theo nền tảng, URL, ngày đăng, revision và bằng chứng. Sản xuất xong không đồng nghĩa đã đăng; `unknown` là chưa xác minh. Không tự đăng bài.
+- Schedule Muse Spark hằng tuần phải theo `07_analytics/weekly-review-instructions.md`: đo số liệu thật, review nội dung/phản hồi trong phạm vi truy cập, lưu snapshot/báo cáo và đánh dấu lần chạy, cập nhật ngược repository. Chỉ báo đồng bộ remote sau push được kiểm chứng; thiếu quyền phải báo rõ và giữ bản local/patch. Không lưu secret, không force-push/tự merge.
+- Việc chốt hướng dẫn chưa có nghĩa đã tạo Schedule hoặc đã biết mã tài khoản, phân công, trạng thái đăng. Giữ trạng thái chưa xác minh cho tới khi có bằng chứng.
+
 ## Kênh chính thức
 
 - Tên kênh/Page: **Chuyện Nhà Thảo My**.
@@ -13,6 +21,16 @@
 - TikTok: https://www.tiktok.com/@chuyennhathaomy
 - Người dùng xác nhận đã làm video giới thiệu/công bố Thảo My là AI và cung cấp link Facebook: https://www.facebook.com/share/r/18EVd1BLCM/. Không đề xuất làm lại như một đầu việc chưa hoàn thành. Chưa review nội dung video; chưa có thông tin video này đã đăng TikTok.
 - Người dùng xác nhận đã tạo hai kênh trên ngày 2026-11-14. Dùng đúng các URL này khi chuẩn bị caption, lịch đăng và tài liệu bàn giao. Nhân vật chính là **Thảo My**, theo xác nhận bổ sung của người dùng cùng ngày.
+
+## Affiliate hiện tại — chốt 2026-11-16
+
+- Người dùng chưa thêm được link Shopee. Chỉ lưu link affiliate được cung cấp trong `04_products/affiliate-links.csv`, đề xuất tập/ngữ cảnh phù hợp trong `04_products/affiliate-suggestions.csv`. Chưa có link thật thì không tự tạo URL.
+- Gợi ý chưa phải lựa chọn được duyệt hoặc link đã gắn; không tự sửa kịch bản/gen media. Chưa yêu cầu đo click/đơn/hoa hồng khi chưa triển khai. `affiliate-placements.csv` chỉ dùng khi có kế hoạch gắn cụ thể hoặc bằng chứng vị trí dùng thực tế.
+
+## Pilot đầu tiên đã đăng — ghi nhận 2026-11-16
+
+- `ep000-pilot1`: người dùng xác nhận đã đăng thử Facebook ngày 2026-11-15 (chưa biết giờ), URL https://www.facebook.com/reel/2920996954966253. Hồ sơ hồi tố tại `05_episodes/ep000-pilot1/README.md`; số liệu tại `07_analytics/ep000.md` và `publications.csv`.
+- Chưa review video/lấy số liệu, chưa đối soát tài khoản Muse/project Flow/master; TikTok chưa xác minh. Không đồng nhất với video công bố AI hoặc đánh dấu QC đạt. Giữ số ep001 trở đi. Schedule hằng tuần phải đưa bài này vào phạm vi đo.
 
 ## Tổ chức workspace và bản đồ tài liệu
 
@@ -27,7 +45,7 @@ Thứ tự thư mục gốc đã chốt: `00_docs` → `01_brand` → `02_charac
 - `01_brand/`: avatar/banner đang dùng trên kênh, không phải ảnh master nhân vật.
 - `02_characters/thao-my/`: mặt mới và body v003 đã duyệt 2026-11-15; `approved/` hiện có 4 ảnh. `references.json` ghi tên và SHA-256, `character.yaml` ghi tạo hình/giọng. 27 ảnh cũ đã xoá theo yêu cầu, không khôi phục hoặc dùng lại cho sản xuất mới. `source/` giữ nguồn xuất xứ.
 - `03_locations/`: phòng khách căn hộ 50 m², sân nội khu và café hẹn hò. Mỗi location có `source/`, `review/`, `approved/`, README và `location.json`; cả ba đang chờ duyệt, chưa có master. 50 m² là tổng diện tích căn hộ, không phải phòng khách.
-- `04_products/`: hồ sơ sản phẩm và tư liệu xác thực; `07_analytics/`: kết quả từng tập/nền tảng, chỉ ghi số liệu thật.
+- `04_products/`: hồ sơ sản phẩm và tư liệu xác thực; `affiliate-links.csv` lưu link sản phẩm/link affiliate thực tế, `affiliate-placements.csv` ánh xạ link với tập/bài/vị trí dùng. Muse và Schedule cập nhật theo README của thư mục, giữ lịch sử, không tự coi lưu link là đã gắn hoặc có doanh thu; `07_analytics/`: kết quả từng tập/nền tảng, chỉ ghi số liệu thật.
 - `05_episodes/`: kịch bản, input, generated, edit và delivery theo từng tập. Dùng [skill thao-my-episode](/Users/richard/.codex/skills/thao-my-episode/SKILL.md) để viết kịch bản và lập hồ sơ tập; bộ khung nằm trong assets của skill, không còn thư mục templates tại gốc dự án. `06_automation/README.md` hướng dẫn validator offline; `episode.yaml` là hồ sơ sản xuất duy nhất, ghi take và ID Flow. Không lưu secret.
 - `/Users/richard/.codex/skills/sitcom-flow-assembly/SKILL.md`: quy trình hậu kỳ chi tiết; đọc trước khi dựng, xử lý âm thanh hoặc giao video. `SOURCES.md` trong cùng thư mục skill ghi nguồn; `scripts/` chứa công cụ QC. Gọi skill bằng `$sitcom-flow-assembly`.
 
@@ -60,7 +78,16 @@ Thứ tự thư mục gốc đã chốt: `00_docs` → `01_brand` → `02_charac
 - Ưu tiên hard cut trong hội thoại. Tính lại tổng thời lượng khi thêm chuyển cảnh chồng lấn; xem quy tắc concat/xfade trong skill hậu kỳ.
 - Tắt tiếng gốc Veo; lồng VieNeu-TTS bằng một giọng nữ miền Bắc đã được người dùng chốt trước khi render. Kiểm tra khớp môi, nhịp câu và khoảng nghỉ trên bản lồng tiếng; cùng câu chữ không bảo đảm đồng bộ.
 - Phụ đề lấy từ kịch bản, đối chiếu lời nói thực tế và canh theo bản dựng cuối. Mặc định giao `.srt` UTF-8 riêng, tối đa hai dòng/cue, không chồng thời gian hoặc vượt độ dài video; chỉ burn-in khi được yêu cầu.
+- **Crop icon Veo trước bàn giao — chốt 2026-11-16:** khi có bản dựng video cuối, kiểm tra icon Veo ở góc phải trên toàn bộ các shot. Nếu có, chủ động crop vừa đủ để loại icon; nếu không có thì không crop vì lý do này. Chọn vùng crop theo vị trí icon thực tế, không dùng một tọa độ cố định cho mọi clip. Giữ tỷ lệ 9:16, scale đồng đều về 1080×1920, không kéo méo hoặc để viền đen; ưu tiên giữ mặt, tay, đạo cụ và điểm gây cười. Nếu crop làm mất nội dung quan trọng, báo rõ và trình phương án trước khi chốt bản giao.
+- Thực hiện crop trên timeline/bản render tạm trước khi burn-in phụ đề hoặc đồ họa nếu có; giữ nguyên clip nguồn và master tốt. Ghi vùng crop, kích thước trước/sau, bộ lọc/lệnh dựng thật vào manifest. QC lại khung hình từng shot và quanh điểm cắt sau crop, bảo đảm icon không còn, bố cục đúng và thông số xuất đạt; không coi crop là đã đạt QC khi chưa kiểm tra. Giữ công bố nội dung AI phù hợp khi đăng.
 - Render ra file tạm, kiểm tra xong mới thay file giao. Không ghi đè bản master tốt duy nhất trước khi bản thay thế đạt QC.
+
+### Remotion sau bước crop — chốt 2026-11-16
+
+- Áp dụng skill [remotion-best-practices](/Users/richard/.codex/skills/remotion-best-practices/SKILL.md), cài từ repo chính thức https://github.com/remotion-dev/skills, để dựng composition/preview và hoàn thiện hậu kỳ sau khi xác định vùng crop icon Veo. Đọc các REFERENCE.md liên quan do skill chỉ dẫn trước triển khai; vẫn áp dụng sitcom-flow-assembly cho âm thanh, phụ đề và QC.
+- Mạch xử lý: chọn take → chuẩn hóa/crop nếu có icon → composition Remotion, lồng giọng và phụ đề theo yêu cầu → preview → render khi có yêu cầu xuất/bàn giao → QC → delivery. Có thể áp dụng crop trong composition để tránh mã hóa trung gian nhiều lần, nhưng crop nằm trước lớp chữ/đồ họa.
+- Không tự thêm title, hiệu ứng, nhạc, CTA hoặc burn-in phụ đề chỉ vì dùng Remotion; giữ nhịp hài/hard cut và mặc định SRT riêng. Giữ nguồn, lưu code/cấu hình theo từng tập dưới edit/remotion/, ghi phiên bản công cụ, thông số composition và lệnh thực tế trong manifest.
+- Cài skill không có nghĩa đã cài runtime Remotion hoặc đã dựng/render video. Kiểm tra môi trường khi bắt đầu hậu kỳ, không báo preview/render/QC đạt nếu chưa thực hiện.
 
 ## Kiểm tra và bàn giao
 
@@ -90,9 +117,17 @@ Quy trình UI dưới đây đã chạy thành công ngày 2026-11-14 theo báo 
 - **Muse lái giao diện Flow web chính chủ trong Chrome của người dùng** (không dùng gflow CLI hay bất kỳ công cụ reverse-engineered nào) để dựng ảnh cảnh và gen clip, theo từng gói shot được duyệt. Người dùng duyệt hướng/kịch bản và QC bản cuối; đăng bài vẫn chỉ khi người dùng yêu cầu rõ.
 - Đơn vị sản xuất của một shot = **1 ảnh tĩnh cảnh (frame đầu) + 1 prompt chuyển động ngắn**. Các “scene lock / prop lock / camera lock” chi tiết thuộc về khâu dựng ẢNH TĨNH, không còn viết thành prompt video dài.
 
+### Tổ chức project Flow — chốt 2026-11-16
+
+- Mỗi tập = một project sản xuất riêng, tên `CNTM · EP001 · Dọn bàn`… Tạo khi bắt đầu chuẩn bị frame; không tạo sẵn cho mọi ý tưởng. Project `CNTM · LAB · Thảo My` dành cho thử nghiệm khi cần, không thay thư viện nguồn local hoặc trạng thái duyệt.
+- Nếu UI có Collections, chia `00 · Tham chiếu`, `01 · Frame`, `02 · Takes`, `03 · Chọn dựng`. Gen lại shot/revision vẫn trong project tập; giữ lịch sử take.
+- Tải nguồn đã duyệt cần dùng vào đúng project, ghi URL vào `flow_project` hiện có trong `episode.yaml`, tải frame/clip về đúng thư mục tập và giữ ánh xạ/hash. Không thêm trường ngoài schema.
+- Giữ nguyên project/tài sản cũ; tập đang làm dở có thể hoàn tất ở project cũ, từ tập tiếp theo dùng project riêng. Không tự di chuyển/xóa tài sản để tổ chức lại. Chi tiết tại `00_docs/production-workflow.md`.
+- Đây là quy ước đã duyệt, không phải xác nhận đã tạo project trên UI hay ủy quyền gen video/đăng bài.
+
 ### Công thức gen (bắt buộc theo đúng thứ tự)
 
-1. Làm việc trong project Flow của nhân vật/tập; tài sản Flow **không dùng chung giữa các project** — cần ảnh nào thì tạo/tải ảnh đó ngay trong project.
+1. Làm việc trong project Flow riêng của tập theo quy ước trên (ngoại lệ chuyển tiếp cho tập đang làm dở); tài sản Flow **không dùng chung giữa các project** — cần ảnh nào thì tạo/tải ảnh đó ngay trong project.
 2. Dựng ảnh master/cảnh **bên trong project** bằng sửa ảnh (Nano Banana): bắt đầu từ ảnh tham chiếu đã duyệt (mặt `thao-my-face-front-v001.png` và tỷ lệ từ `thao-my-body-front-v003.png`, thêm location đã duyệt khi cần), sửa trang phục/bối cảnh/tư thế/biểu cảm theo shot. Sửa ảnh tốn **0 credit**. Kiểm tra cổng: mặt và tóc phải giữ nguyên nhân vật; lệch mặt là dừng, không đốt credit video vào frame đầu hỏng. Tối đa ~3 lượt sửa lấy bản tốt nhất. Flow sửa ảnh tại chỗ: trước khi sửa tiếp, tải và lưu từng frame đã duyệt vào `input/frames/`, ghi SHA-256 và ánh xạ shot trong `episode.yaml`. Không ghi đè frame đã dùng; clip là asset riêng.
 3. Gen video bằng **chế độ Frames (Khung hình) trực tiếp, TẮT Agent**: ảnh cảnh làm frame đầu duy nhất, không frame cuối, không đính kèm gì thêm. Đặt: Video, dọc 9:16, 8 giây, đúng 1 output, **Veo 3.1 Lite = 10 credit/clip**.
 4. Prompt video NGẮN, chỉ gồm: 1 hành động chính + câu thoại nguyên văn trong dấu “” + hướng giọng (nữ miền Bắc) + các cấm cơ bản (không nhạc, không phụ đề, không chữ, máy tĩnh). Không dùng prompt dài kiểu khóa cảnh.
@@ -108,11 +143,22 @@ Quy trình UI dưới đây đã chạy thành công ngày 2026-11-14 theo báo 
 
 ### Tự bổ sung bối cảnh bằng Flow — chốt 2026-11-15
 
-- Khi đang chuẩn bị tập/shot được yêu cầu mà thiếu ảnh bối cảnh hoặc frame cảnh, chủ động tạo/sửa ảnh bằng **Google Flow web chính chủ trong Chrome**, ngay trong project nhân vật/tập; không dừng chỉ để hỏi có tạo bối cảnh hay không. Đây là ủy quyền tạo ảnh phục vụ công việc, không phải ủy quyền gen video hoặc đăng bài.
+- Khi đang chuẩn bị tập/shot được yêu cầu mà thiếu ảnh bối cảnh hoặc frame cảnh, chủ động tạo/sửa ảnh bằng **Google Flow web chính chủ trong Chrome**, ngay trong project của tập (hoặc project cũ theo ngoại lệ chuyển tiếp); không dừng chỉ để hỏi có tạo bối cảnh hay không. Đây là ủy quyền tạo ảnh phục vụ công việc, không phải ủy quyền gen video hoặc đăng bài.
 - Dùng sửa ảnh Nano Banana theo quy trình trên; giữ nguồn nhận diện đã duyệt, không tự thay mặt/body, không dùng Agent/Ingredients để gen video. Kiểm tra model/giá trên UI; nếu tạo ảnh phát sinh phí ngoài quy trình 0 credit đã ghi nhận, không tự chấp nhận khoản phí mới.
 - Nếu thiếu location trống: tạo ứng viên, lưu bản tải về vào review/ của location, ghi nguồn/project và trạng thái chờ duyệt. Nếu thiếu frame có nhân vật: dựng trong project, tải vào input/frames/ từng tập, giữ phiên bản riêng và ghi SHA-256/ánh xạ shot trong episode.yaml.
 - Không tự ghi location/frame approved hoặc bật approved_for_generation chỉ vì đã tạo ảnh. Khi đã có ảnh phù hợp, trình ảnh để duyệt trước gen clip. Không dùng location trống thay frame có nhân vật.
 - Nếu không truy cập được Flow, báo rõ trở ngại; không tự chuyển sang công cụ tạo ảnh khác nếu chưa có ủy quyền tương ứng. Hai frame local ep001 tạo bằng imagegen ngày 2026-11-15 theo yêu cầu riêng, không chứng minh đã chạy Flow.
+
+### Cập nhật trang phục ep002 — chốt 2026-11-16
+
+- Người dùng chỉ định ep002 dùng cùng link affiliate ep001 (`aff-0001`, https://s.shopee.vn/5LDVnTeC4f), tham chiếu váy SANJOLI màu kem trong hai ảnh gửi. Xem `05_episodes/ep002-tieu-chuan-co-ban/wardrobe.md`; nguồn giữ tại `02_characters/thao-my/wardrobe/inbox/ep002-sanjoli-kem/`.
+- Chỉ định mới áp dụng khi chuẩn bị bản mới ep002, ưu tiên hơn ghi chú giữ bộ cũ. Không ghi đè take cũ; chưa tạo/duyệt ảnh ghép hoặc frame. Ảnh người mẫu chỉ tham chiếu bộ đồ, không thay nhận diện/body Thảo My. Chưa gắn link vào bài.
+
+### Các màu váy cho tập sau ep002 — chốt 2026-11-16
+
+- Người dùng xác nhận các tập sau tiếp tục link `aff-0001` nhưng đổi màu váy; ảnh trắng, xanh dương và hồng giữ tại `02_characters/thao-my/wardrobe/inbox/sanjoli-color-variants/`, README có tên file/hash.
+- ep002 vẫn màu kem. Từ ep003 chưa có ánh xạ màu cụ thể; đề xuất trong wardrobe.md rồi phân biệt rõ trạng thái duyệt, không gán thứ tự ảnh thành thứ tự tập. Chỉ định mới ưu tiên hơn đề xuất trang phục cũ khi chuẩn bị bản mới cho Thảo My; giữ lịch sử và continuity tập nối cảnh.
+- Ảnh chỉ tham chiếu đồ, không nhận diện/cơ thể/phụ kiện người mẫu. Chưa có frame thử đồ được duyệt hoặc ủy quyền gen video từ việc lưu nguồn.
 
 ### Quy tắc tủ đồ — chốt 2026-11-15
 
