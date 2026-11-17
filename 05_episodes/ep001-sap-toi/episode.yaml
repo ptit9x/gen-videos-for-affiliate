@@ -2,7 +2,7 @@ schema_version: 2
 episode_id: ep001
 revision: 1
 title: "Sắp tới"
-editorial_status: draft
+editorial_status: published
 flow_project: null
 generation:
   mode: frames

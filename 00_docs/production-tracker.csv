@@ -1,8 +1,17 @@
 episode,muse_account_id,work_status,flow_project_url,updated_at,assignment_source,notes
 ep000-pilot1,,unverified,,2026-11-16,Người dùng xác nhận trong chat 2026-11-16,Pilot đầu tiên đã đăng Facebook 2026-11-15.
-ep001-sap-toi,,draft,,2026-11-17,Người dùng viết kịch bản trực tiếp 2026-11-17,"Kịch bản v1. Hai nhân vật (Thảo My + nam chưa thiết kế). Váy SANJOLI chưa chốt màu. Chưa duyệt frame/location/gen."
+ep001-sap-toi,,published,,2026-11-17,Người dùng xác nhận đăng 2026-11-17,"Đã đăng TikTok + Facebook 2026-11-17. URL TikTok: https://vt.tiktok.com/ZSptuGTqL/ — URL Facebook: https://www.facebook.com/share/r/18qMTzas94/. Chưa review nội dung/lấy số liệu."
 ep002-ly-do,,draft,,2026-11-17,,Kịch bản v1 đã duyệt ý tưởng. Váy SANJOLI kem. Chưa duyệt frame/location/gen.
 ep003-co-hoi-cuoi,,draft,,2026-11-17,,Kịch bản v1 đã duyệt ý tưởng. Váy SANJOLI trắng. Chưa duyệt frame/location/gen.
 ep004-khong-co-anh,,draft,,2026-11-17,,Kịch bản v1 đã duyệt ý tưởng. Váy SANJOLI hồng. Chưa duyệt frame/location/gen.
 ep005-chua,,draft,,2026-11-17,,Kịch bản v1 đã duyệt ý tưởng. Váy SANJOLI xanh dương. Chưa duyệt frame/location/gen.
 ep006-hen-ho-voi-ai,,draft,,2026-11-17,,Kịch bản v1 đã duyệt ý tưởng. Váy SANJOLI kem. Chưa duyệt frame/location/gen.
+ep007-gio-hang,,draft,,2026-11-17,,Kịch bản v1. Thảo My solo canh sale nửa đêm. Chưa duyệt frame/location/gen.
+ep008-mo-hop,,draft,,2026-11-17,,Kịch bản v1. Nối tiếp Giỏ hàng. Chưa duyệt frame/location/gen.
+ep009-nau-cho-mot-nguoi,,draft,,2026-11-17,,Kịch bản v1. Living alone aesthetic. Chưa duyệt frame/location/gen.
+ep010-qua-noel,,draft,,2026-11-17,,Kịch bản v1. Chuỗi Giáng sinh. Tự tặng quà. Chưa duyệt frame/location/gen.
+ep011-dem-noel,,draft,,2026-11-17,,Kịch bản v1. Chuỗi Giáng sinh. Expectation vs reality. Chưa duyệt frame/location/gen.
+ep012-me-goi-dem-noel,,draft,,2026-11-17,,Kịch bản v1. Chuỗi Giáng sinh. Mẹ gọi hỏi chuyện. Chưa duyệt frame/location/gen.
+ep013-cay-thong,,draft,,2026-11-17,,Kịch bản v1. Chuỗi Giáng sinh. Cây thông mini. Chưa duyệt frame/location/gen.
+ep014-last-christmas,,draft,,2026-11-17,,Kịch bản v1. Chuỗi Giáng sinh. Nhớ đôi giày sale. Chưa duyệt frame/location/gen.
+ep015-bao-gio-lay-chong,,draft,,2026-11-17,,"Kịch bản v1. Tập dượt trả lời họ hàng. Đăng sau Noel, chuẩn bị Tết. Chưa duyệt frame/location/gen."

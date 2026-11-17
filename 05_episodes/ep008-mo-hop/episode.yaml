@@ -1,0 +1,96 @@
+schema_version: 2
+episode_id: ep008
+revision: 1
+title: "Mở hộp"
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 32
+shots:
+  - shot_id: sh010
+    approved_for_generation: false
+    dialogue: "Shipper gọi. Tim tôi đập nhanh hơn lúc ai nhắn."
+    image_prompt:
+      path: input/prompts/sh010-image.txt
+      sha256: 1b26e3e41aaa0fc145c0b7d2acd6439d9eb364d3fcd95ab0b0ad06e1f8f08e05
+    motion_prompt:
+      path: input/prompts/sh010-motion.txt
+      sha256: 296fc95d605374595e87facb585945c616e143f2e6bae1a8e26a0d02d15ad5df
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: false
+    dialogue: "Mở hộp. Hộp to. Đồ bé."
+    image_prompt:
+      path: input/prompts/sh020-image.txt
+      sha256: 6b6abaf536cd43965665b7df8f2f0c37dfef6f22691a3e8cfc2bc55041babd44
+    motion_prompt:
+      path: input/prompts/sh020-motion.txt
+      sha256: c38d86ba0609da888ad9075ce42fbff11a56302842d23648d745c96fa37b5f3a
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: false
+    dialogue: "Mặc thử. Im lặng mười giây."
+    image_prompt:
+      path: input/prompts/sh030-image.txt
+      sha256: 9a23cad694bd0677546b2da5f82e90fc816220106b2e1f11701474a79816e637
+    motion_prompt:
+      path: input/prompts/sh030-motion.txt
+      sha256: 58e1aa8fa1e899ae4392bb91429bde266001c8a4160057d0e3b3dbf00d52b27f
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh040
+    approved_for_generation: false
+    dialogue: "Chốt thêm hai màu."
+    image_prompt:
+      path: input/prompts/sh040-image.txt
+      sha256: 906de31f5ae9b99224e2ba5022bbbd5c879addd7f05eee924f80184f4bb077f9
+    motion_prompt:
+      path: input/prompts/sh040-motion.txt
+      sha256: 98a46d1e9ff0d50035d63e8a0598e8363f7deace809f916038fdd283d65a280e
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
