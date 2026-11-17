@@ -1,9 +1,8 @@
 episode,muse_account_id,work_status,flow_project_url,updated_at,assignment_source,notes
-ep000-pilot1,,unverified,,2026-11-16,Người dùng xác nhận trong chat 2026-11-16,Pilot đầu tiên đã đăng Facebook 2026-11-15; chưa đối soát tài khoản Muse/hồ sơ sản xuất hoặc QC. Gộp ep002 Tiêu chuẩn cơ bản theo người dùng 2026-11-16; không tính thành hai tập.
-ep001-don-ban,,unverified,,2026-11-16,,"Chưa đối soát phân công/tiến độ; xem hồ sơ tập và lịch sử trước khi cập nhật. Cập nhật kịch bản/tham chiếu mặt v002 và body ghép chính diện đã duyệt theo chat 2026-11-16; chưa gen mới, không đổi phân công."
-ep003-sap-toi,,unverified,,2026-11-16,,"Chưa đối soát phân công/tiến độ; xem hồ sơ tập và lịch sử trước khi cập nhật. Cập nhật kịch bản/tham chiếu mặt v002 và body ghép chính diện đã duyệt theo chat 2026-11-16; chưa gen mới, không đổi phân công."
-ep004-hen-ho-dung-gio,,unverified,,2026-11-16,,"Chưa đối soát phân công/tiến độ; xem hồ sơ tập và lịch sử trước khi cập nhật. Cập nhật kịch bản/tham chiếu mặt v002 và body ghép chính diện đã duyệt theo chat 2026-11-16; chưa gen mới, không đổi phân công."
-ep005-ban-den-la-du,,unverified,,2026-11-16,,"Chưa đối soát phân công/tiến độ; xem hồ sơ tập và lịch sử trước khi cập nhật. Cập nhật kịch bản/tham chiếu mặt v002 và body ghép chính diện đã duyệt theo chat 2026-11-16; chưa gen mới, không đổi phân công."
-ep006-ai-dang-tuyen-ai,,unverified,,2026-11-16,,"Chưa đối soát phân công/tiến độ; xem hồ sơ tập và lịch sử trước khi cập nhật. Cập nhật kịch bản/tham chiếu mặt v002 và body ghép chính diện đã duyệt theo chat 2026-11-16; chưa gen mới, không đổi phân công."
-ep007-chuyen-gia-quay-lai,,unverified,,2026-11-16,,"Chưa đối soát phân công/tiến độ; xem hồ sơ tập và lịch sử trước khi cập nhật. Cập nhật kịch bản/tham chiếu mặt v002 và body ghép chính diện đã duyệt theo chat 2026-11-16; chưa gen mới, không đổi phân công."
-ep008-tu-thuong-co-lai,,unverified,,2026-11-16,,"Chưa đối soát phân công/tiến độ; xem hồ sơ tập và lịch sử trước khi cập nhật. Cập nhật kịch bản/tham chiếu mặt v002 và body ghép chính diện đã duyệt theo chat 2026-11-16; chưa gen mới, không đổi phân công."
+ep000-pilot1,,unverified,,2026-11-16,Người dùng xác nhận trong chat 2026-11-16,Pilot đầu tiên đã đăng Facebook 2026-11-15.
+ep001-sap-toi,,draft,,2026-11-17,Người dùng viết kịch bản trực tiếp 2026-11-17,"Kịch bản v1. Hai nhân vật (Thảo My + nam chưa thiết kế). Váy SANJOLI chưa chốt màu. Chưa duyệt frame/location/gen."
+ep002-ly-do,,draft,,2026-11-17,,Kịch bản v1 đã duyệt ý tưởng. Váy SANJOLI kem. Chưa duyệt frame/location/gen.
+ep003-co-hoi-cuoi,,draft,,2026-11-17,,Kịch bản v1 đã duyệt ý tưởng. Váy SANJOLI trắng. Chưa duyệt frame/location/gen.
+ep004-khong-co-anh,,draft,,2026-11-17,,Kịch bản v1 đã duyệt ý tưởng. Váy SANJOLI hồng. Chưa duyệt frame/location/gen.
+ep005-chua,,draft,,2026-11-17,,Kịch bản v1 đã duyệt ý tưởng. Váy SANJOLI xanh dương. Chưa duyệt frame/location/gen.
+ep006-hen-ho-voi-ai,,draft,,2026-11-17,,Kịch bản v1 đã duyệt ý tưởng. Váy SANJOLI kem. Chưa duyệt frame/location/gen.

@@ -1,0 +1,78 @@
+schema_version: 2
+episode_id: ep003
+revision: 1
+title: "Cơ hội cuối"
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 24
+shots:
+  - shot_id: sh010
+    approved_for_generation: false
+    dialogue: "Anh ta nhắn 'cho anh cơ hội cuối, anh hứa sẽ thay đổi'."
+    image_prompt:
+      path: input/prompts/sh010-image.txt
+      sha256: 788aa67efd2e85c3201981ac529c6d81cbb704bff3aa59685063a3fdc0f4971f
+    motion_prompt:
+      path: input/prompts/sh010-motion.txt
+      sha256: 14bd163a7961a8d61a20ce805b7b4cc3c804270411aedc9e1cbe2de22fa14d29
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: false
+    dialogue: "Tôi đọc đi đọc lại. Không phải vì xúc động. Vì quen quen."
+    image_prompt:
+      path: input/prompts/sh020-image.txt
+      sha256: 724e42eb8672e3a99fd7ef41512cf1b5799ebc0efceb65e8a2802aadc228a487
+    motion_prompt:
+      path: input/prompts/sh020-motion.txt
+      sha256: 0ba482af1630537b687c5d54cd87306ee15eefb9d62bd01356998609228cf104
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: false
+    dialogue: "Lần thứ ba gửi y nguyên. 'Cuối' mà có ba lần. Toán kém."
+    image_prompt:
+      path: input/prompts/sh030-image.txt
+      sha256: 0c8787c9046902b8b85d6426cc75dc88e59ab12b28ef6a1d9282ded93d0079f2
+    motion_prompt:
+      path: input/prompts/sh030-motion.txt
+      sha256: 133ae0a4c4b4793df823a299993d5c817cb4ec35c4e388492e6eb5cc4e045198
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []

@@ -1,0 +1,96 @@
+schema_version: 2
+episode_id: ep006
+revision: 1
+title: "Hẹn hò với ai"
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 32
+shots:
+  - shot_id: sh010
+    approved_for_generation: false
+    dialogue: "Mặc đẹp. Son đỏ. Đặt bàn cho một người. Mọi người lại hỏi."
+    image_prompt:
+      path: input/prompts/sh010-image.txt
+      sha256: 7dfd87631c47c759f6aeb95b2ded3ae95ccd5a934613528be0654cfd0ed9bc83
+    motion_prompt:
+      path: input/prompts/sh010-motion.txt
+      sha256: c560e08736ca39956b089ada967906147759b7e848f8bb2234bbab5d47207a3b
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: false
+    dialogue: "'Hẹn với ai vậy?' 'Đi một mình à?' 'Tội ghê.'"
+    image_prompt:
+      path: input/prompts/sh020-image.txt
+      sha256: f8c1a821fcf1cdd81f4b98169e2065e42c3fd4f8b51ebecb34a31fb5dfacf4de
+    motion_prompt:
+      path: input/prompts/sh020-motion.txt
+      sha256: 41d1f1f0a6d29d5ae0bdf600a8795dfd69f685e6f76e3b2aaa990a4415c9eb37
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: false
+    dialogue: "Tôi không đi một mình. Tôi hẹn với người tôi thích nhất."
+    image_prompt:
+      path: input/prompts/sh030-image.txt
+      sha256: 4f045c68ab79f49ed507ea3976840e6fb2105b1313585356a22261bccacd1466
+    motion_prompt:
+      path: input/prompts/sh030-motion.txt
+      sha256: 724cdd69bdff77eccc2695fa3d6d92041a7856f54ffba59f09623ff25e015393
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh040
+    approved_for_generation: false
+    dialogue: "Là tôi."
+    image_prompt:
+      path: input/prompts/sh040-image.txt
+      sha256: ef354160154f36ed504d508da71bfb1977d9a8ba9eaeef01c2be34f7a54f3272
+    motion_prompt:
+      path: input/prompts/sh040-motion.txt
+      sha256: 23ebbd25b0ba3ba76f79551f7edf662ec57744714443c1865822bcbaeb6d1ba6
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []

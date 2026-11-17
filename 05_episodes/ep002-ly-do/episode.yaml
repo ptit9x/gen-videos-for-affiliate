@@ -1,0 +1,78 @@
+schema_version: 2
+episode_id: ep002
+revision: 1
+title: "Lý do"
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 24
+shots:
+  - shot_id: sh010
+    approved_for_generation: false
+    dialogue: "Mỗi lần tôi mặc đẹp, ai cũng hỏi 'đi đâu mà diện dữ vậy'."
+    image_prompt:
+      path: input/prompts/sh010-image.txt
+      sha256: b4d6e617c843b776a42350302f67fda9c9379b7eae4dca46d95a601073263e99
+    motion_prompt:
+      path: input/prompts/sh010-motion.txt
+      sha256: 66fe878837ce1fcb224533ccbd8aa9d6ecf3b4f6e926c5b642005df349fab35f
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: false
+    dialogue: "Hẹn hò à? Phỏng vấn à? Hay đám cưới ai mà son đỏ thế?"
+    image_prompt:
+      path: input/prompts/sh020-image.txt
+      sha256: c67913950043910e781bcbb90e76fb07eff4d83f2765bb0cebc63d47d852dd2f
+    motion_prompt:
+      path: input/prompts/sh020-motion.txt
+      sha256: 996a4f3eb17ac0c7a410345a542e81a0ce23ac7287eece49b3e65549464511cc
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: false
+    dialogue: "Tôi thích thì tôi mặc. Lý do hỏi mấy người mặc xấu ấy."
+    image_prompt:
+      path: input/prompts/sh030-image.txt
+      sha256: a5c7bede625d1c8ecc29c64589ddc67346bda371f507168b256bb52544909346
+    motion_prompt:
+      path: input/prompts/sh030-motion.txt
+      sha256: abd8fb2a0b7bac587541ad494132b6fa5d4ad563d13cf8f8bca1083c87ff945a
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []

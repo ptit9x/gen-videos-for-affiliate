@@ -60,6 +60,6 @@ Thảo My khẳng định mình dễ tính, rồi tự nhận ra tiêu chuẩn �
 
 Duyệt location và kịch bản trước, rồi lập `episode.yaml` cùng `edit/manifest.yaml` theo template. Đây mới là kịch bản, chưa có hồ sơ sản xuất/ID Flow. Mỗi shot cần frame có Thảo My đã duyệt, không dùng ảnh location trống thay frame. Prompt ảnh khóa bố cục/trang phục/đạo cụ; prompt video chỉ hành động + câu thoại + hướng giọng và các cấm cơ bản. Không tự gen video từ bản nháp này.
 
-Bản giao tắt tiếng gốc Veo, lồng một preset VieNeu nữ miền Bắc Đoan Trang đã chốt. Ghép hard cut, cắt gọn khoảng im nếu cần nhưng giữ nhịp chốt; SRT riêng canh theo audio cuối. Không chữ điện thoại do AI sinh, nhạc cười hay CTA. Chưa có audio/frame/clip để xác nhận nhịp và khớp môi.
+Bản giao tắt tiếng gốc Veo. **Lồng tiếng: Muse phụ trách.** Ghép hard cut, cắt gọn khoảng im nếu cần nhưng giữ nhịp chốt; SRT riêng canh theo audio cuối. Không chữ điện thoại do AI sinh, nhạc cười hay CTA. Chưa có audio/frame/clip để xác nhận nhịp và khớp môi.
 
 Điện thoại chỉ là đạo cụ, màn hình quay khỏi máy; không cần đồ họa danh sách. Giữ cùng chỗ ngồi, hướng sáng và gối/sofa giữa các shot.

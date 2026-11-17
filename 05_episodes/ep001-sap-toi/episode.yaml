@@ -1,0 +1,92 @@
+schema_version: 2
+episode_id: ep001
+revision: 1
+title: "Sắp tới"
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 32
+shots:
+  - shot_id: sh010
+    approved_for_generation: false
+    dialogue: "Anh ấy bảo sắp tới. Tôi trang điểm từ hai tiếng trước."
+    image_prompt:
+      path: input/prompts/sh010-image.txt
+      sha256: a12e3e021095027afb863b121ce99989496f5c9bfb50d13969a35d1ad39a1d00
+    motion_prompt:
+      path: input/prompts/sh010-motion.txt
+      sha256: b9be7992601792d882f799fc40c393fe3729fde92af8599b2198edb70242a5ec
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: false
+    dialogue: "Tôi đếm được bốn mươi viên gạch rồi. Anh ấy vẫn sắp tới."
+    image_prompt:
+      path: input/prompts/sh020-image.txt
+      sha256: aecb071df125ae1954cce27d9e7cce72da53c094de4a7a0e18665c3c57cf6e15
+    motion_prompt:
+      path: input/prompts/sh020-motion.txt
+      sha256: 107a7ed35e73528c49e51110fed3bc1983538bbac5b4b3b44f10fc77f40a4a65
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: false
+    dialogue: "Xin lỗi em, anh đến muộn hai phút."
+    image_prompt:
+      path: input/prompts/sh030-image.txt
+      sha256: 0e22ac031cab33c2e724801531e58ace8e858efe9adda2106843cf24c34a304a
+    motion_prompt:
+      path: input/prompts/sh030-motion.txt
+      sha256: 4ac2150b5bd25bf28aaef6bb51526ff9644d800a4b6ce6ba10919a455d50797b
+    image_sources: []
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh040
+    approved_for_generation: false
+    dialogue: "Chờ đợi không phải nghĩa vụ của phụ nữ. Cút."
+    image_prompt:
+      path: input/prompts/sh040-image.txt
+      sha256: 0b6fbf9a50e5b773e7cdb6fd13878e79664c9e0bb1d182cb3aa1961915bfecce
+    motion_prompt:
+      path: input/prompts/sh040-motion.txt
+      sha256: a3cc25b050e941e4eb3c16da55f4d29d8f99fe655869a0846523496b0c8ba3d1
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []

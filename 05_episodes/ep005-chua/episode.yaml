@@ -1,0 +1,78 @@
+schema_version: 2
+episode_id: ep005
+revision: 1
+title: "Chưa"
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 24
+shots:
+  - shot_id: sh010
+    approved_for_generation: false
+    dialogue: "Anh ta nhìn tôi, mắt sáng rỡ, hỏi 'em có người yêu chưa'."
+    image_prompt:
+      path: input/prompts/sh010-image.txt
+      sha256: 3057b4bd4409bd1ad7a4c953e0b2ade26e170c76a8ac3b9a6f93705ba6bed800
+    motion_prompt:
+      path: input/prompts/sh010-motion.txt
+      sha256: 39ecd3379a33fee9b50939dfc7fe5e23806a7ee9279877a7bcbcb026ecbb9e06
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: false
+    dialogue: "Tôi nói 'chưa'. Anh ta cười. Cười như vừa thắng xổ số."
+    image_prompt:
+      path: input/prompts/sh020-image.txt
+      sha256: b7f884bed20685d51dabd195c9b2b1e6867a05edf293e816011e065e88bd0c8d
+    motion_prompt:
+      path: input/prompts/sh020-motion.txt
+      sha256: d5f500e877e22b8cd693c1456af79589a697e5a7011802a1b05a5c3359c4b14c
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: false
+    dialogue: "'Chưa' là chưa có. Không phải chưa có nên nhận anh."
+    image_prompt:
+      path: input/prompts/sh030-image.txt
+      sha256: 5260bd7d441a90119b304fb2f6ca6de41d2f288c8de32481131acdf6acb9d0fc
+    motion_prompt:
+      path: input/prompts/sh030-motion.txt
+      sha256: 28cd632ae0911b82c3cc2422a7feb20cfd66ba13ef238504d42bc205942486eb
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
