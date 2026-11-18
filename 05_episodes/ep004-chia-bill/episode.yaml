@@ -2,8 +2,8 @@ schema_version: 2
 episode_id: ep004
 revision: 5
 title: Chia Bill
-editorial_status: script_approved
-flow_project: null
+editorial_status: ready_to_publish
+flow_project: https://flow.google.com/project/b19785af-f9bc-4736-a615-c8ca2bdf6ae7
 generation:
   mode: frames
   agent: false
@@ -23,70 +23,98 @@ export:
 target_duration_seconds: 32
 shots:
 - shot_id: sh010
-  approved_for_generation: false
+  approved_for_generation: true
   dialogue: Em chuyển anh bảy mươi hai nghìn nhé. Anh gửi mã rồi.
   image_prompt:
     path: input/prompts/sh010-image.txt
-    sha256: ab0c6f9002b6f6cc48b018cec13c0a7f4ca762fd117a368d2ecf208f3ee42a17
+    sha256: aede2ebef207cd2b1b58ee60dac6a680e299e3f9d8b24f84f962f792f0d6913f
   motion_prompt:
     path: input/prompts/sh010-motion.txt
-    sha256: 87c85c6758715b757608fbc51c0fe73bc797d7b8908ac350c86882018dd6afcb
+    sha256: daedf4664a7bd332fc573172ea87c063d9b122bc410ad84f3c178e085c432533
   image_sources:
   - path: input/references/bang-front-v001.jpg
     sha256: 4c120352aced23571b8e0d0dbf1fdc83814a8572a4c411256c5c41c858051ae1
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh010-first-frame-v2.jpg
+    sha256: 4bb095d2118c397d45304c87a0a760a0bbe44ff7b4fc19f750ca3cb1553fd4c7
+  frame_status: approved
   flow_image_asset_id: null
-  takes: []
+  takes:
+  - take_id: take002
+    clip_id: b7d66917-1a02-4467-b3e7-4ee5826c3ff3
+    status: accepted_editorial
+    file: null
+    note: "Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Take 2 tu frame v2 (bieu cam tinh toan); take 1 bi loai. Long kho clone BangTake2, tat han tieng goc. Clip local: ~/workspace/ep004-chia-bill-clips/sh010-take002.mp4 (khong luu trong repo); ban 2K ep004-sh010-clip-1080p-take2.mp4."
 - shot_id: sh020
-  approved_for_generation: false
+  approved_for_generation: true
   dialogue: Một giờ sáng… em tưởng anh gọi hỏi em về an toàn chưa.
   image_prompt:
     path: input/prompts/sh020-image.txt
-    sha256: 80935e9810a6ce80bf6ad17b4f459f15e6229652edc62b74faaa42af6f97ee3b
+    sha256: 9c117e8138a2118d4cd4b396ad8b831e5005d0cec03272ce689ee0edf263c802
   motion_prompt:
     path: input/prompts/sh020-motion.txt
-    sha256: 1bc257e3348d5f42d0f13dc708c934e230d37dc7475d5bd327beebd5a2aa0cd7
+    sha256: 680718c334e213347cade7482aea385f3f62848b6c6b8e0323d1b7c4828388f0
   image_sources:
   - path: input/references/thao-my-face-front-v002.png
     sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
   - path: input/references/thao-my-body-front-v003-face-v002-review.png
     sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh020-first-frame.jpg
+    sha256: 398f02c2bd78bb16541e5465246a20fa2d016fe1558be9856d5bbdab52f181eb
+  frame_status: approved
   flow_image_asset_id: null
-  takes: []
+  takes:
+  - take_id: take001
+    clip_id: b6cd5b64-b945-4bb0-a127-945c58770dfd
+    status: accepted_editorial
+    file: null
+    note: "Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Giu tieng Veo goc (giong Bac). Clip local: ~/workspace/ep004-chia-bill-clips/sh020-take001.mp4 (khong luu trong repo); ban 2K ep004-sh020-clip-1080p-take1.mp4."
 - shot_id: sh030
-  approved_for_generation: false
+  approved_for_generation: true
   dialogue: Thì em về rồi còn gì. Chuyển anh rồi ngủ tiếp.
   image_prompt:
     path: input/prompts/sh030-image.txt
-    sha256: 9d44129270e2f695ec8be1a9f43c34e558416080dd8fef46148d75e643730b43
+    sha256: df0d216032ebe746b23d77eba01f796d198abd9872b799d6611119d7ac1c1bad
   motion_prompt:
     path: input/prompts/sh030-motion.txt
-    sha256: f236c046da8a3e55f9292c6bc741f6ec41e7da0b28416d840bef41137122c658
+    sha256: 4b144341fbce980483de36e56116229495a52a41199a9a60650084b43753e7ad
   image_sources:
   - path: input/references/bang-front-v001.jpg
     sha256: 4c120352aced23571b8e0d0dbf1fdc83814a8572a4c411256c5c41c858051ae1
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh030-first-frame-v2.jpg
+    sha256: 41085e811be1e91a9278677e1486c2186a6ce1f5c5a9b3148a90d3f24b5b70f1
+  frame_status: approved
   flow_image_asset_id: null
-  takes: []
+  takes:
+  - take_id: take002
+    clip_id: bb96136c-3c84-4c4a-8ac8-d7c9d649d702
+    status: accepted_editorial
+    file: null
+    note: "Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Take 2 tu frame v2 (tinh bo); take 1 bi loai. Giu tieng Veo goc; giong nay la goc clone BangTake2 cho sh010. Clip local: ~/workspace/ep004-chia-bill-clips/sh030-take002.mp4 (khong luu trong repo); ban 2K ep004-sh030-clip-1080p-take2.mp4."
 - shot_id: sh040
-  approved_for_generation: false
+  approved_for_generation: true
   dialogue: Ừ, bảy mươi hai nghìn. Rẻ hơn phí đi nhầm chồng.
   image_prompt:
     path: input/prompts/sh040-image.txt
-    sha256: 97024730797d3c1dafa56566eea9bc11452841449626aa32379d8af0d89d6cee
+    sha256: bf1b391033637d1f011a9655b75bd1bb3c0e9f057dc958e3837ce59b2e8603dd
   motion_prompt:
     path: input/prompts/sh040-motion.txt
-    sha256: e72ab17a9cf4d5c03d70bc11e20c8e5bdcdf7aee4993f37907f5c0d955e9c8a5
+    sha256: cf4f87f9e44a20f308a7795273758e600db073fc8f2bbf877d5b215844c15e9d
   image_sources:
   - path: input/references/thao-my-face-front-v002.png
     sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
   - path: input/references/thao-my-body-front-v003-face-v002-review.png
     sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh040-first-frame.jpg
+    sha256: 3bbee69b33e56f87ae843d80a58fd9176343d8e6bdc8301502d79c86fb75f8fd
+  frame_status: approved
   flow_image_asset_id: null
-  takes: []
+  takes:
+  - take_id: take001
+    clip_id: 7bc890b2-7466-44e9-806a-623ed05ae896
+    status: accepted_editorial
+    file: null
+    note: "Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Long clone ThaoMyVeo vung thoai, giu tieng nen/cuoi goc. Clip local: ~/workspace/ep004-chia-bill-clips/sh040-take001.mp4 (khong luu trong repo); ban 2K ep004-sh040-clip-1080p-take1.mp4."

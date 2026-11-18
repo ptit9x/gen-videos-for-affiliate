@@ -14,8 +14,8 @@ Hai người gọi điện trực tiếp, cắt qua lại hai đầu dây. Mỗi
 
 | Shot | Người nói | Thoại tiếng Việt | Số tiếng | Một hành động chính | Góc máy | Thời lượng nguồn |
 |---|---|---|---|---|---|---|
-| sh010 | Bằng | Em chuyển anh bảy mươi hai nghìn nhé. Anh gửi mã rồi. | 12 | Bằng cầm hóa đơn, điện thoại áp tai, nhìn số tiền | Cận vừa, gọi điện | 8s |
-| sh020 | Thảo My | Một giờ sáng… em tưởng anh gọi hỏi em về an toàn chưa. | 13 | My nhấc điện thoại áp tai, ngồi sofa, mắt ngái ngủ | Cận vừa, gọi điện | 8s |
+| sh010 | Bằng | Em chuyển anh bảy mươi hai nghìn nhé. Anh gửi mã rồi. | 12 | Bằng nhìn hóa đơn trên bàn, điện thoại áp tai | Cận vừa, gọi điện | 8s |
+| sh020 | Thảo My | Một giờ sáng… em tưởng anh gọi hỏi em về an toàn chưa. | 13 | My ngồi sofa, điện thoại áp tai, mắt ngái ngủ | Cận vừa, gọi điện | 8s |
 | sh030 | Bằng | Thì em về rồi còn gì. Chuyển anh rồi ngủ tiếp. | 11 | Bằng nhìn hóa đơn, điện thoại vẫn áp tai, tỉnh bơ | Cận vừa, gọi điện | 8s |
 | sh040 | Thảo My | Ừ, bảy mươi hai nghìn. Rẻ hơn phí đi nhầm chồng. | 11 | My tỉnh hẳn, điện thoại áp tai, đáp nhẹ và dứt khoát | Cận vừa, gọi điện | 8s |
 
