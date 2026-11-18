@@ -1,40 +1,47 @@
 # ep011 — Gym
 
-Trạng thái: draft, chưa duyệt gen. Thảo My + một nam (quay lưng), ba shot 8 giây, dự kiến 24 giây trước trim; khung dọc 9:16.
+Bản sửa r02 ngày 2026-11-18: đối thoại trực tiếp Thảo My ↔ Tuấn theo yêu cầu người dùng. Draft chờ review, chưa duyệt gen. Bốn shot khoảng 8 giây, 32 giây nguồn trước trim; dọc 9:16.
 
 ## Ý tưởng và twist
 
-Hẹn ăn tối. Anh ta gọi ức gà luộc, không sốt. 20 phút nói về macro, protein, bắp tay. **Twist:** "Anh ơi, em là người yêu hay là client?"
+Hẹn ăn tối. Anh ta gọi ức gà luộc, không sốt. Nói về macro, protein, calo. **Twist:** "Em là người yêu hay là client?"
 
 **Trend khai thác:** Gym bro date — meme toàn cầu, VN chưa bão hòa. Thuật ngữ (protein, macro, cutting) quen thuộc Gen Z. Hài thuần, nam cũng xem vì thấy mình.
 
-## Khóa nhân vật và bối cảnh
+## Tình huống
 
-### Thảo My
-- Mặt/tóc: `thao-my-face-front-v002.png`; body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
+Hẹn ăn tối. Tuấn gọi ức gà cho cả hai không hỏi. My muốn gọi phở, Tuấn tính calo hộ. My chốt bằng câu hỏi trực tiếp. Không lời dẫn, không nhìn camera kể chuyện.
 
-### Nam
-- Quay lưng, áo ôm sát. Không mặt.
+## Nhân vật, trang phục và nguồn
 
-### Bối cảnh
-- Quán ăn / nhà hàng. Ảnh ứng viên: `03_locations/date-cafe/`. **Location chưa duyệt.**
+- Thảo My: mặt/tóc thao-my-face-front-v002.png, body thao-my-body-front-v003-face-v002-review.png trong 02_characters/thao-my/approved/.
+- Trang phục theo tập, chưa chốt.
+- Tuấn: quay lưng, áo ôm sát. Không mặt.
+- Quán ăn / nhà hàng. Ảnh ứng viên: 03_locations/date-cafe/. Location chưa duyệt.
 
 ## Storyboard
 
-| Shot | Thoại tiếng Việt | Từ | Một hành động chính | Góc máy/biểu cảm | Thời lượng |
-|---|---|---|---|---|---|
-| sh010 | "Hẹn ăn tối. Anh ta gọi ức gà, trứng luộc, không sốt." | 12 | Thảo My ngồi đối diện (thấy lưng anh), nhìn menu bất lực | Trung cảnh, bàn ăn | 8s |
-| sh020 | "Hai mươi phút. Anh ta nói về macro, protein, và cái bắp tay anh ta." | 14 | Chống cằm, mắt lơ đãng | Cận vừa, biểu cảm chán | 8s |
-| sh030 | "Anh ơi, em là người yêu hay là client?" | 10 | Đặt menu xuống, nhìn thẳng camera | Cận mặt, deadpan | 8s |
+Mỗi shot một người nói, quay đơn và cắt qua lại; người nghe ngoài khung. Hai người nhìn nhau, giữ trục đối thoại.
+
+| Shot | Người nói | Thoại tiếng Việt | Số tiếng | Một hành động chính | Góc máy | Thời lượng nguồn |
+|---|---|---|---|---|---|---|
+| sh010 | Tuấn | Ức gà luộc, trứng luộc, không sốt. Anh gọi cho em luôn nhé. | 13 | Gọi món cho cả hai, giọng quyết đoán | Cận vừa Tuấn, nhìn My ngoài khung | 8s |
+| sh020 | Thảo My | Dạ. Mà em thèm phở bò lắm anh. Em gọi phở được không? | 12 | Giơ menu, hỏi nhẹ nhàng | Cận vừa My, nhìn Tuấn ngoài khung | 8s |
+| sh030 | Tuấn | Phở nhiều carb lắm em. Để anh tính calo cho, ăn gì cũng phải tính. | 15 | Lấy điện thoại ra bấm, nghiêm túc | Cận vừa Tuấn, nghiêm túc | 8s |
+| sh040 | Thảo My | Anh ơi, em là người yêu anh hay là client của anh vậy? | 13 | Đặt menu xuống, nhìn thẳng Tuấn | Cận vừa My, deadpan | 8s |
+
+Tuấn gọi đồ với giọng quyết đoán như huấn luyện viên, không diễn ác. My hỏi nhẹ ở sh020, đến sh040 mới lạnh giọng. Trim phần chờ thừa khi dựng.
 
 **Câu chốt quotable:** "Em là người yêu hay là client?"
 
-**Hook 3 giây:** "Hẹn ăn tối. Anh ta gọi ức gà. Luộc. Không sốt."
+**Hook 3 giây:** "Ức gà luộc. Trứng luộc. Không sốt."
 
-## Tài sản và prompt
+## Sản xuất và âm thanh
 
-Khai báo trong `episode.yaml`. Prompt video: hành động + thoại + giọng nữ miền Bắc + camera tĩnh, không nhạc/chữ/phụ đề.
+Prompt và thoại đồng bộ trong episode.yaml. My dùng hướng giọng nữ miền Bắc; giữ native nếu đúng, sai thì tắt native và lồng clone ThaoMy. Tuấn dùng hướng giọng nam miền Bắc, chưa có preset; không lồng giọng ThaoMy vào Tuấn.
 
-## Hậu kỳ
+Hard cut, phụ đề Remotion BasicCaptions boxed và SRT. Một SFX Freesound tại cú chốt cuối, chọn nguồn/license khi hậu kỳ; không nhạc nền. Chưa có frame/take, chưa gen hoặc render.
 
-Chọn take trong manifest; hard cut, tắt tiếng Veo, một giọng clone ThaoMy nữ miền Bắc đã chốt.
+## Lịch sử
+
+Bản r01 monologue Thảo My tường thuật giữ tại prep/before-dialogue-r02/. r02 sửa thành đối thoại trực tiếp.
