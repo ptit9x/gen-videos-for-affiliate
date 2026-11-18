@@ -1,9 +1,9 @@
 schema_version: 2
 episode_id: ep003
-revision: 1
+revision: 2
 title: "Cơ hội cuối"
-editorial_status: draft
-flow_project: null
+editorial_status: published
+flow_project: https://flow.google.com/project/ffee54dc-efb7-418c-9746-c8717e3f6441
 generation:
   mode: frames
   agent: false
@@ -23,56 +23,77 @@ export:
 target_duration_seconds: 24
 shots:
   - shot_id: sh010
-    approved_for_generation: false
-    dialogue: "Anh ta nhắn 'cho anh cơ hội cuối, anh hứa sẽ thay đổi'."
+    approved_for_generation: true
+    dialogue: "Lần thứ ba. Vẫn tin nhắn đó. 'Cho anh cơ hội cuối.'"
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: 788aa67efd2e85c3201981ac529c6d81cbb704bff3aa59685063a3fdc0f4971f
+      sha256: 1df63149b18f6109ff4719ee552a4644190855b96df1abe36978ff4af1d30424
     motion_prompt:
       path: input/prompts/sh010-motion.txt
-      sha256: 14bd163a7961a8d61a20ce805b7b4cc3c804270411aedc9e1cbe2de22fa14d29
+      sha256: 8ea01a45db36b86d179470d6ad577f90812bf513d2141b8bead62da9d036c4bc
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+    first_frame:
+      path: input/frames/sh010-first-frame.jpg
+      sha256: 54ca0214b8ee6c0540ad7e69df09d2dc18192c0e149d576ac2285839c96e9467
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 266e904a-08a7-4805-b16d-5815c5f3a476
+        status: accepted_editorial
+        file: null
+        note: "Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Clip local: ~/workspace/ep003-co-hoi-cuoi-clips/ep003-sh010-clip-720p-v1.mp4 (khong luu trong repo)."
   - shot_id: sh020
-    approved_for_generation: false
-    dialogue: "Tôi đọc đi đọc lại. Không phải vì xúc động. Vì quen quen."
+    approved_for_generation: true
+    dialogue: "'Anh hứa sẽ thay đổi.' Y nguyên. Cả lỗi chính tả cũng y nguyên."
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: 724e42eb8672e3a99fd7ef41512cf1b5799ebc0efceb65e8a2802aadc228a487
+      sha256: 211f6f017c0d0e6d9a60f46e0d2981436be090d853e065e33ca4aab393c00983
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: 0ba482af1630537b687c5d54cd87306ee15eefb9d62bd01356998609228cf104
+      sha256: 1df8dcf28a1b864b43d762514cb5125f679c30ff04bcff26b5eb870101a507ab
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+    first_frame:
+      path: input/frames/sh020-first-frame.jpg
+      sha256: fcdc90b94c5c4d0dc01d40d8eb44bd76018b3ac9fd5df26efa63b23ec743a64b
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 01c5432f-8ea2-4ac3-ae2b-454323da104c
+        status: accepted_editorial
+        file: null
+        note: "Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Clip local: ~/workspace/ep003-co-hoi-cuoi-clips/ep003-sh020-clip-720p-v1.mp4 (khong luu trong repo)."
   - shot_id: sh030
-    approved_for_generation: false
-    dialogue: "Lần thứ ba gửi y nguyên. 'Cuối' mà có ba lần. Toán kém."
+    approved_for_generation: true
+    dialogue: "Thay đổi duy nhất hôm nay là tôi chặn số anh."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: 0c8787c9046902b8b85d6426cc75dc88e59ab12b28ef6a1d9282ded93d0079f2
+      sha256: f38de2fd8b346b3a32b7754be1fbbe1ffede4266f867c219e5d2b3e8729ed071
     motion_prompt:
       path: input/prompts/sh030-motion.txt
-      sha256: 133ae0a4c4b4793df823a299993d5c817cb4ec35c4e388492e6eb5cc4e045198
+      sha256: 6e3e8c70509aa9eaa1cfb2e3be7bc09a33a0563adc581ffbc1f764a4f8e45806
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+    first_frame:
+      path: input/frames/sh030-first-frame.jpg
+      sha256: 7d48c15c4790276959f6fd56a5fe5063e0434ed45344eb13296cddaf62bd41c9
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: e8515a5e-28bc-44e0-a0ee-2c983b443c93
+        status: accepted_editorial
+        file: null
+        note: "Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Clip local: ~/workspace/ep003-co-hoi-cuoi-clips/ep003-sh030-clip-720p-v1.mp4 (khong luu trong repo)."

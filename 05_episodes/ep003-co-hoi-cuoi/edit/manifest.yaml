@@ -1,14 +1,34 @@
 schema_version: 2
 episode_id: ep003
-revision: 1
-locked_duration_seconds: null
+revision: 2
+locked_duration_seconds: 25.14
 planned_source_duration_seconds: null
-selected_takes: []
-build_commands: []
+selected_takes:
+  - shot_id: sh010
+    take_id: take001
+  - shot_id: sh020
+    take_id: take001
+  - shot_id: sh030
+    take_id: take001
+build_commands:
+  - "python3 ~/workspace/ep003-co-hoi-cuoi-clips/build_stage1.py  # ghep 3 clip + long sh030 bang clone ThaoMyVeo"
+  - "Remotion BasicCaptions (boxed) tu ~/workspace/remotion-captions-test, out ep003-boxed-insert-tmp.mp4"
+  - "python3 ~/workspace/ep003-co-hoi-cuoi-clips/build_stage3_insert.py  # chen Laugh Track 1 + freeze-frame tail"
+build_notes:
+  - "Master v3: ep003-co-hoi-cuoi-boxed-laughtrack1-insert.mp4 (25.14s, 1080x1920, 24fps), tai ~/workspace/ep003-co-hoi-cuoi-clips/."
+  - "Chat insert 4s o 7.3-11.3s (bong bong chat, loi chinh ta khoanh do); sh010 0-7.3s, sh020 7.3-13.8s, sh030 13.8-20.7s."
+  - "Boxed captions (Remotion BasicCaptions); SRT kem theo: ep003-co-hoi-cuoi-subtitles-insert.srt."
+  - "Laugh Track 1 (LittleRainySeasons, CC BY, Freesound) o cuoi, tu 23.15s, kem freeze-frame tail."
+  - "v1/v2 giu lam backup: ep003-co-hoi-cuoi-boxed-laughtrack1.mp4 (khong insert), ep003-assembly-v2-boxed.mp4."
+  - "3 clip Flow: Frames-direct, Veo 3.1 Lite, 10cr/clip, tong 30cr, acc huynhdn.developer@gmail.com."
 audio_plan:
-  mute_veo_native: true
-  voice_by: muse
+  speakers:
+    thao_my:
+      voice_preset: ThaoMyVeo
+      voice_status: locked
+      policy: "Giu native nu mien Bac dung; sh010/sh020 giu tieng goc Veo; sh030 tat goc, long clone ThaoMyVeo."
+  lip_sync_qc: checked
 transition_plan: hard_cuts_only
 qc:
-  status: not_run
+  status: passed
   report_file: null
