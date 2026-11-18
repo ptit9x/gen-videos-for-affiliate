@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "character_id": "khoi",
+  "references": [
+    {
+      "reference_id": "khoi-front-casting-20261118-v001",
+      "file": "approved/khoi-front-casting-20261118-v001.png",
+      "sha256": "621db2721f8cf5f6eb55428661fefc8f053ac6efc92ababb58939eb931111179",
+      "width": 1265,
+      "height": 1243,
+      "user_review_status": "approved",
+      "approval_date": "2026-11-18",
+      "approval_source": "Người dùng duyệt cả bộ trong chat: “ok ổn”",
+      "flow_test_status": "not_tested"
+    }
+  ]
+}

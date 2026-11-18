@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "character_id": "tri",
+  "references": [
+    {
+      "reference_id": "tri-front-casting-20261118-v001",
+      "file": "approved/tri-front-casting-20261118-v001.png",
+      "sha256": "1f47f9acbff6d62e57ff23fa3a232b6318a966d6063a4062010492c1c5f8aa47",
+      "width": 1312,
+      "height": 1199,
+      "user_review_status": "approved",
+      "approval_date": "2026-11-18",
+      "approval_source": "Người dùng duyệt cả bộ trong chat: “ok ổn”",
+      "flow_test_status": "not_tested"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dat",
+  "episode": "ep017",
+  "role": "Chụp ảnh",
+  "prompt": "Use case: photorealistic-natural. ONE original fictional Vietnamese adult male casting portrait for sitcom role Chụp ảnh. Age 27, angular slim face, medium wavy black curtain-part hair, neatly trimmed small moustache, plain silver ear stud, pale sage overshirt over white tee. Relaxed creative styling, engaged subtle smile. Chest-up straight front portrait, eyes to lens, plain warm light-gray studio background, soft even daylight, natural skin pores and facial asymmetry, realistic cinematic photography, 85mm lens. Distinct individual, no celebrity resemblance, not a fashion advertisement. Reusable identity reference, mild expression. No hands, props, logos, text, collage or other people.",
+  "source": "/Users/richard/.codex/generated_images/01a1eceb-6b1d-7cd0-bd1a-97936eccc5ea/exec-183390e3-dc16-466c-a741-d3650f04e111.png",
+  "file": "02_characters/dat/review/dat-front-casting-20261118-v001.png",
+  "sha256": "7c66742bd9d8e71deffc07ada3358f93775e9f98f217ea494cb260712e44dc50",
+  "width": 1312,
+  "height": 1199,
+  "status": "pending_user_review",
+  "tool": "image_gen",
+  "generated_date": "2026-11-18"
+}

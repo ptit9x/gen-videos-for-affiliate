@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "character_id": "long",
+  "references": [
+    {
+      "reference_id": "long-front-casting-20261118-v001",
+      "file": "approved/long-front-casting-20261118-v001.png",
+      "sha256": "4cfa9b790a44e83afa5b27f213f3f0dfe769333eebfdac2ef201d43fef97465b",
+      "width": 1312,
+      "height": 1199,
+      "user_review_status": "approved",
+      "approval_date": "2026-11-18",
+      "approval_source": "Người dùng duyệt cả bộ trong chat: “ok ổn”",
+      "flow_test_status": "not_tested"
+    }
+  ]
+}

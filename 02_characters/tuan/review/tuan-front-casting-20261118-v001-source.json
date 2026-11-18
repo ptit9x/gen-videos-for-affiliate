@@ -1,0 +1,14 @@
+{
+  "id": "tuan",
+  "episode": "ep011",
+  "role": "Gym",
+  "prompt": "Use case: photorealistic-natural. ONE original fictional Vietnamese adult male casting portrait for sitcom role Gym. Age 28, broad jaw, very short crew-cut hair, clean shaven, athletic muscular shoulders in fitted forest-green sports tee. Relaxed focused expression, slight friendly smile, no flexing. Chest-up straight front portrait, eyes to lens, plain warm light-gray studio background, soft even daylight, natural skin pores and facial asymmetry, realistic cinematic photography, 85mm lens. Distinct everyday individual, not celebrity, not fashion advertisement. Reusable identity reference, no exaggerated evil expression. No hands, props, logos, text, collage or other people.",
+  "source": "/Users/richard/.codex/generated_images/01a1eceb-6b1d-7cd0-bd1a-97936eccc5ea/exec-e98098e3-e93d-4011-8396-06913ba8fca9.png",
+  "file": "02_characters/tuan/review/tuan-front-casting-20261118-v001.png",
+  "sha256": "e0a4dcb1a60dae3beac52a099153ef46aa7b9eb2ca7e47359b557ecc9ff09227",
+  "width": 1312,
+  "height": 1199,
+  "status": "pending_user_review",
+  "tool": "image_gen",
+  "generated_date": "2026-11-18"
+}

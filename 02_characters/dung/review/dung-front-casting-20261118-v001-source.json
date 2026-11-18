@@ -1,0 +1,14 @@
+{
+  "id": "dung",
+  "episode": "ep009",
+  "role": "Nói xấu ex",
+  "prompt": "Use case: photorealistic-natural. ONE original fictional Vietnamese adult male casting portrait for sitcom role Nói xấu ex. A 30-year-old man with a narrow tapered face, short slightly receding black hair, faint neat moustache, olive crewneck knit shirt. A restrained wistful smile, slightly tilted head, relaxed brows; a man ready to tell a long personal story, no caricature. Chest-up straight front portrait, eyes visible, plain warm light-gray background, soft even light, natural skin pores and subtle facial asymmetry, realistic everyday cinematic photography, 85mm lens. A distinct individual, not a celebrity or fashion model. Reusable identity reference, mild expression only, no exaggerated villain face. No hands, props, logos, text, collage or other people.",
+  "source": "/Users/richard/.codex/generated_images/01a1eceb-6b1d-7cd0-bd1a-97936eccc5ea/exec-41b03c60-a258-4b0b-8d96-5eedb651973c.png",
+  "file": "02_characters/dung/review/dung-front-casting-20261118-v001.png",
+  "sha256": "f0f32015ccb36bc0cb6af4e183412e4d289172c16198e3bb5ed5d1ffe31022f6",
+  "width": 1312,
+  "height": 1199,
+  "status": "pending_user_review",
+  "tool": "image_gen",
+  "generated_date": "2026-11-18"
+}

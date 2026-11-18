@@ -1,0 +1,14 @@
+{
+  "id": "ban-lam",
+  "episode": "ep006",
+  "role": "Bận lắm",
+  "prompt": "Use case: photorealistic-natural. ONE original fictional Vietnamese adult male casting portrait for sitcom role Bận lắm. A 29-year-old man with an elongated face, short textured cropped hair, clean shaven, charcoal casual overshirt over white tee. Relaxed upright pose, mildly distracted gaze close to lens, neutral mouth. Busy urban professional styling, not angry. Chest-up straight front portrait, eyes visible, plain warm light-gray background, soft even light, natural skin pores and subtle facial asymmetry, realistic everyday cinematic photography, 85mm lens. A distinct individual, not a celebrity or fashion model. Reusable identity reference, mild expression only, no exaggerated villain face. No hands, props, logos, text, collage or other people.",
+  "source": "/Users/richard/.codex/generated_images/01a1eceb-6b1d-7cd0-bd1a-97936eccc5ea/exec-120fa5ab-132a-4e93-a0bb-e9d4dcfdfd1a.png",
+  "file": "02_characters/ban-lam/review/ban-lam-front-casting-20261118-v001.png",
+  "sha256": "91e99181447323debf9bee1de3d5654a862bfae2dbb3fa55ce42b27c03cc329d",
+  "width": 1312,
+  "height": 1199,
+  "status": "pending_user_review",
+  "tool": "image_gen",
+  "generated_date": "2026-11-18"
+}

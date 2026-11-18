@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "character_id": "hung",
+  "references": [
+    {
+      "reference_id": "hung-front-casting-20261118-v001",
+      "file": "approved/hung-front-casting-20261118-v001.png",
+      "sha256": "d5ff1fe969bb2d4f04bff2e0de46cfdcb03013aa4dfff034ad752d36359dd5c0",
+      "width": 1312,
+      "height": 1199,
+      "user_review_status": "approved",
+      "approval_date": "2026-11-18",
+      "approval_source": "Người dùng duyệt cả bộ trong chat: “ok ổn”",
+      "flow_test_status": "not_tested"
+    }
+  ]
+}

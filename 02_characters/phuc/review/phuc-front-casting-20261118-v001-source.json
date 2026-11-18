@@ -1,0 +1,14 @@
+{
+  "id": "phuc",
+  "episode": "ep013",
+  "role": "Lo hết",
+  "prompt": "Use case: photorealistic-natural. ONE original fictional Vietnamese adult male casting portrait for sitcom role Lo hết. Age 32, rectangular face with softly rounded jaw, thick neatly parted black hair, clean shaven, navy blazer over pale blue open-collar shirt. Composed small courteous smile, squared upright shoulders, poised host styling. Chest-up straight front portrait, eyes to lens, plain warm light-gray studio background, soft even daylight, natural skin pores and facial asymmetry, realistic cinematic photography, 85mm lens. Distinct individual, no celebrity resemblance, not a fashion advertisement. Reusable identity reference, mild expression. No hands, props, logos, text, collage or other people.",
+  "source": "/Users/richard/.codex/generated_images/01a1eceb-6b1d-7cd0-bd1a-97936eccc5ea/exec-3571b4c3-044c-4b1c-9095-0ec0571e2520.png",
+  "file": "02_characters/phuc/review/phuc-front-casting-20261118-v001.png",
+  "sha256": "e983f28a0162bf5975bda4d13f41abbd9c76dd36fe5303d4115ef9f896b9f23b",
+  "width": 1312,
+  "height": 1199,
+  "status": "pending_user_review",
+  "tool": "image_gen",
+  "generated_date": "2026-11-18"
+}

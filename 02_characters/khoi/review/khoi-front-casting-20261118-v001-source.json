@@ -1,0 +1,14 @@
+{
+  "id": "khoi",
+  "episode": "ep005",
+  "role": "Mẹ anh bảo",
+  "prompt": "Use case: photorealistic-natural. Create ONE realistic casting reference portrait of an original fictional Vietnamese adult man, Khoi, age 27, for sitcom episode 'Me anh bao'. Waist-up straight front view, eyes to lens, hands outside image, plain warm light-gray studio background, soft even daylight, 85mm lens, natural skin pores, believable everyday appearance. Rounded oval face, short neatly side-parted black hair, clean shaven, ivory polo with navy collar edge. Relaxed brows, small polite closed-mouth smile, shoulders slightly held together. The wardrobe and modest posing support a sheltered young-adult role; avoid caricature or silly expression. Attractive ordinary person, not fashion model. No text, no logos, no props, no collage, no other people. Single reusable identity portrait, realistic cinematic photography.",
+  "source": "/Users/richard/.codex/generated_images/01a1eceb-6b1d-7cd0-bd1a-97936eccc5ea/exec-0f17939d-d045-430d-9658-dd3923f48b13.png",
+  "file": "02_characters/khoi/review/khoi-front-casting-20261118-v001.png",
+  "sha256": "621db2721f8cf5f6eb55428661fefc8f053ac6efc92ababb58939eb931111179",
+  "width": 1265,
+  "height": 1243,
+  "status": "pending_user_review",
+  "tool": "image_gen",
+  "generated_date": "2026-11-18"
+}

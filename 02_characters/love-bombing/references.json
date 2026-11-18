@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "character_id": "love-bombing",
+  "references": [
+    {
+      "reference_id": "love-bombing-front-casting-20261118-v001",
+      "file": "approved/love-bombing-front-casting-20261118-v001.png",
+      "sha256": "9b6dbe71dea42af3364dc88c441d60313e89f9184f90ad5853f929ce07405ca1",
+      "width": 1312,
+      "height": 1199,
+      "user_review_status": "approved",
+      "approval_date": "2026-11-18",
+      "approval_source": "Người dùng duyệt cả bộ trong chat: “ok ổn”",
+      "flow_test_status": "not_tested"
+    }
+  ]
+}

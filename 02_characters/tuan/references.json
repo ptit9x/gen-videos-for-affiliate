@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "character_id": "tuan",
+  "references": [
+    {
+      "reference_id": "tuan-front-casting-20261118-v001",
+      "file": "approved/tuan-front-casting-20261118-v001.png",
+      "sha256": "e0a4dcb1a60dae3beac52a099153ef46aa7b9eb2ca7e47359b557ecc9ff09227",
+      "width": 1312,
+      "height": 1199,
+      "user_review_status": "approved",
+      "approval_date": "2026-11-18",
+      "approval_source": "Người dùng duyệt cả bộ trong chat: “ok ổn”",
+      "flow_test_status": "not_tested"
+    }
+  ]
+}

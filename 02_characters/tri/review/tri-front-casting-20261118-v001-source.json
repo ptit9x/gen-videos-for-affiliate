@@ -1,0 +1,14 @@
+{
+  "id": "tri",
+  "episode": "ep012",
+  "role": "Dạy đời",
+  "prompt": "Use case: photorealistic-natural. ONE original fictional Vietnamese adult male casting portrait for sitcom role Dạy đời. Age 31, long oval face, softly wavy side-parted hair, thin round dark glasses, clean shaven, brown knit polo. Mild assured expression, relaxed brows, attentive upright posture, not a sneer. Chest-up straight front portrait, eyes to lens, plain warm light-gray studio background, soft even daylight, natural skin pores and facial asymmetry, realistic cinematic photography, 85mm lens. Distinct everyday individual, not celebrity, not fashion advertisement. Reusable identity reference, no exaggerated evil expression. No hands, props, logos, text, collage or other people.",
+  "source": "/Users/richard/.codex/generated_images/01a1eceb-6b1d-7cd0-bd1a-97936eccc5ea/exec-c0ac9a7c-ae6f-4e26-9d3b-3d4320a3dff2.png",
+  "file": "02_characters/tri/review/tri-front-casting-20261118-v001.png",
+  "sha256": "1f47f9acbff6d62e57ff23fa3a232b6318a966d6063a4062010492c1c5f8aa47",
+  "width": 1312,
+  "height": 1199,
+  "status": "pending_user_review",
+  "tool": "image_gen",
+  "generated_date": "2026-11-18"
+}

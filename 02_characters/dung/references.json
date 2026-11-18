@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "character_id": "dung",
+  "references": [
+    {
+      "reference_id": "dung-front-casting-20261118-v001",
+      "file": "approved/dung-front-casting-20261118-v001.png",
+      "sha256": "f0f32015ccb36bc0cb6af4e183412e4d289172c16198e3bb5ed5d1ffe31022f6",
+      "width": 1312,
+      "height": 1199,
+      "user_review_status": "approved",
+      "approval_date": "2026-11-18",
+      "approval_source": "Người dùng duyệt cả bộ trong chat: “ok ổn”",
+      "flow_test_status": "not_tested"
+    }
+  ]
+}

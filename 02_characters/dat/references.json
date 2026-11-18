@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "character_id": "dat",
+  "references": [
+    {
+      "reference_id": "dat-front-casting-20261118-v001",
+      "file": "approved/dat-front-casting-20261118-v001.png",
+      "sha256": "7c66742bd9d8e71deffc07ada3358f93775e9f98f217ea494cb260712e44dc50",
+      "width": 1312,
+      "height": 1199,
+      "user_review_status": "approved",
+      "approval_date": "2026-11-18",
+      "approval_source": "Người dùng duyệt cả bộ trong chat: “ok ổn”",
+      "flow_test_status": "not_tested"
+    }
+  ]
+}

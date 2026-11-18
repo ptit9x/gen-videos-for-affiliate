@@ -1,0 +1,14 @@
+{
+  "id": "long",
+  "episode": "ep016",
+  "role": "Cắm điện thoại",
+  "prompt": "Use case: photorealistic-natural. ONE original fictional Vietnamese adult male casting portrait for sitcom role Cắm điện thoại. Age 26, narrow oval face, medium straight black fringe with low fade, clean shaven, muted blue-gray hoodie. Mildly unfocused but relaxed expression, head upright, mouth neutral. Everyday young urban casual styling. Chest-up straight front portrait, eyes to lens, plain warm light-gray studio background, soft even daylight, natural skin pores and facial asymmetry, realistic cinematic photography, 85mm lens. Distinct individual, no celebrity resemblance, not a fashion advertisement. Reusable identity reference, mild expression. No hands, props, logos, text, collage or other people.",
+  "source": "/Users/richard/.codex/generated_images/01a1eceb-6b1d-7cd0-bd1a-97936eccc5ea/exec-cb7710c3-6716-4c43-9d61-cbe38b5717ed.png",
+  "file": "02_characters/long/review/long-front-casting-20261118-v001.png",
+  "sha256": "4cfa9b790a44e83afa5b27f213f3f0dfe769333eebfdac2ef201d43fef97465b",
+  "width": 1312,
+  "height": 1199,
+  "status": "pending_user_review",
+  "tool": "image_gen",
+  "generated_date": "2026-11-18"
+}
