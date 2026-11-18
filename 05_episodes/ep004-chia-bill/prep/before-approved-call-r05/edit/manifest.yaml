@@ -1,0 +1,23 @@
+schema_version: 2
+episode_id: ep004
+revision: 4
+locked_duration_seconds: null
+planned_source_duration_seconds: 32
+selected_takes: []
+build_commands: []
+audio_plan:
+  speakers:
+    thao_my:
+      voice_preset: ThaoMy
+      voice_status: locked
+      policy: Giữ native nữ miền Bắc đúng; sai thì tắt gốc và lồng clone ThaoMy.
+    bang:
+      voice_preset: null
+      voice_status: pending
+      policy: Giọng nam miền Bắc, cần nhất quán sh010/sh030; chưa có giọng được chốt.
+        Không dùng clone ThaoMy.
+  lip_sync_qc: not_run
+transition_plan: hard_cuts_only
+qc:
+  status: not_run
+  report_file: null

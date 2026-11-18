@@ -1,0 +1,28 @@
+schema_version: 1
+character_id: bang
+display_name: Bằng
+status: approved
+role: Nhân vật nam — ep004 (Chia Bill)
+archetype: Anh Chia Bill — neat, tính toán, lập Excel cho bữa ăn. Tên "Bằng" = công
+  bằng.
+selected_identity_references:
+- approved/bang-front-v001.jpg
+master_reference: approved/bang-front-v001.jpg
+body_design:
+  version: v001
+  adult_age_direction: 26-28
+  suggested_height_cm: 173
+  silhouette: slim_fit
+  description_vi: Nam thanh niên gầy gọn, gọn gàng, mặc sơ mi xanh nhạt bỏ trong quần,
+    đeo kính gọng mảnh chữ nhật.
+  measurements_status: visual_design_only_not_measured
+  identity_constraint: approved_bang_front_v001
+  user_review_status: approved_2026_11_18
+voice:
+  engine: null
+  accent: male_northern_vietnamese
+  preset: null
+  status: not_started
+commercial_source_rights: unverified
+notes: Người dùng duyệt ảnh bang-front-v001.jpg trong chat ngày 2026-11-18. Chưa kiểm
+  chứng trong Flow; giọng chưa chọn.

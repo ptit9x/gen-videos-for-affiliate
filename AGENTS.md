@@ -76,17 +76,19 @@ Thứ tự thư mục gốc đã chốt: `00_docs` → `01_brand` → `02_charac
 - Lưu `05_episodes/<episode>/edit/manifest.yaml`: thứ tự cảnh, file nguồn ↔ thoại ↔ prompt, ảnh/giọng tham chiếu, cách xử lý âm thanh, thời lượng đã khóa và thông số xuất. Lưu lệnh dựng trong manifest; lấy clip từ `generated/`, render tạm vào `edit/` và giao bản đạt QC trong `delivery/`.
 - Mặc định xuất 1080×1920, 30 fps, H.264, `yuv420p`, âm thanh AAC 48 kHz. Kiểm tra clip bằng `ffprobe` và chuẩn hóa trước khi ghép; xử lý tỷ lệ khung hình có chủ đích để tránh méo hình.
 - Ưu tiên hard cut trong hội thoại. Tính lại tổng thời lượng khi thêm chuyển cảnh chồng lấn; xem quy tắc concat/xfade trong skill hậu kỳ.
-- Tắt tiếng gốc Veo; lồng VieNeu-TTS bằng một giọng nữ miền Bắc đã được người dùng chốt trước khi render. Kiểm tra khớp môi, nhịp câu và khoảng nghỉ trên bản lồng tiếng; cùng câu chữ không bảo đảm đồng bộ.
-- Phụ đề lấy từ kịch bản, đối chiếu lời nói thực tế và canh theo bản dựng cuối. Mặc định giao `.srt` UTF-8 riêng, tối đa hai dòng/cue, không chồng thời gian hoặc vượt độ dài video; chỉ burn-in khi được yêu cầu.
+- Tắt tiếng gốc Veo; lồng giọng clone **ThaoMy** (clone trên Colab) đã được người dùng chốt trước khi render. Chỉ chèn giọng clone khi shot đó không phải giọng nữ miền Bắc; nếu Veo sinh ra đúng giọng miền Bắc thì giữ nguyên tiếng gốc. Kiểm tra khớp môi, nhịp câu và khoảng nghỉ trên bản lồng tiếng; cùng câu chữ không bảo đảm đồng bộ.
+- Phụ đề burn-in tự động bằng Remotion sau khi nối clip, dùng element **BasicCaptions** (boxed style từ `https://www.remotion.dev/elements/captions/basic-captions`). Lấy thoại từ kịch bản, đối chiếu lời nói thực tế và canh theo bản dựng cuối. Vẫn giao thêm `.srt` UTF-8 riêng, tối đa hai dòng/cue, không chồng thời gian hoặc vượt độ dài video.
+- **Sound effect cuối tập:** tại cú twist hài cuối video, chèn thêm 1 sound effect tải từ https://freesound.org/. Chọn hiệu ứng phù hợp ngữ cảnh hài, ghi nguồn/license vào manifest. Không tự thêm nhạc nền hay SFX ở chỗ khác ngoài twist cuối.
 - **Crop icon Veo trước bàn giao — chốt 2026-11-16:** khi có bản dựng video cuối, kiểm tra icon Veo ở góc phải trên toàn bộ các shot. Nếu có, chủ động crop vừa đủ để loại icon; nếu không có thì không crop vì lý do này. Chọn vùng crop theo vị trí icon thực tế, không dùng một tọa độ cố định cho mọi clip. Giữ tỷ lệ 9:16, scale đồng đều về 1080×1920, không kéo méo hoặc để viền đen; ưu tiên giữ mặt, tay, đạo cụ và điểm gây cười. Nếu crop làm mất nội dung quan trọng, báo rõ và trình phương án trước khi chốt bản giao.
 - Thực hiện crop trên timeline/bản render tạm trước khi burn-in phụ đề hoặc đồ họa nếu có; giữ nguyên clip nguồn và master tốt. Ghi vùng crop, kích thước trước/sau, bộ lọc/lệnh dựng thật vào manifest. QC lại khung hình từng shot và quanh điểm cắt sau crop, bảo đảm icon không còn, bố cục đúng và thông số xuất đạt; không coi crop là đã đạt QC khi chưa kiểm tra. Giữ công bố nội dung AI phù hợp khi đăng.
 - Render ra file tạm, kiểm tra xong mới thay file giao. Không ghi đè bản master tốt duy nhất trước khi bản thay thế đạt QC.
 
-### Remotion sau bước crop — chốt 2026-11-16
+### Remotion sau bước crop — cập nhật 2026-11-18
 
-- Áp dụng skill [remotion-best-practices](/Users/richard/.codex/skills/remotion-best-practices/SKILL.md), cài từ repo chính thức https://github.com/remotion-dev/skills, để dựng composition/preview và hoàn thiện hậu kỳ sau khi xác định vùng crop icon Veo. Đọc các REFERENCE.md liên quan do skill chỉ dẫn trước triển khai; vẫn áp dụng sitcom-flow-assembly cho âm thanh, phụ đề và QC.
-- Mạch xử lý: chọn take → chuẩn hóa/crop nếu có icon → composition Remotion, lồng giọng và phụ đề theo yêu cầu → preview → render khi có yêu cầu xuất/bàn giao → QC → delivery. Có thể áp dụng crop trong composition để tránh mã hóa trung gian nhiều lần, nhưng crop nằm trước lớp chữ/đồ họa.
-- Không tự thêm title, hiệu ứng, nhạc, CTA hoặc burn-in phụ đề chỉ vì dùng Remotion; giữ nhịp hài/hard cut và mặc định SRT riêng. Giữ nguồn, lưu code/cấu hình theo từng tập dưới edit/remotion/, ghi phiên bản công cụ, thông số composition và lệnh thực tế trong manifest.
+- Áp dụng skill [remotion-best-practices](/Users/richard/.codex/skills/remotion-best-practices/SKILL.md), cài từ repo chính thức https://github.com/remotion-dev/skills, để dựng composition/preview và hoàn thiện hậu kỳ sau khi xác định vùng crop icon Veo. Đọc các REFERENCE.md liên quan do skill chỉ dẫn trước triển khai; vẫn áp dụng sitcom-flow-assembly cho âm thanh và QC.
+- Mạch xử lý: chọn take → chuẩn hóa/crop nếu có icon → Muse ghép các clip lại → chèn giọng clone ThaoMy cho shot không phải giọng miền Bắc → composition Remotion burn-in phụ đề (BasicCaptions boxed) → chèn SFX cuối twist hài → preview → render khi có yêu cầu xuất/bàn giao → QC → delivery. Có thể áp dụng crop trong composition để tránh mã hóa trung gian nhiều lần, nhưng crop nằm trước lớp chữ/đồ họa.
+- Phụ đề burn-in bằng Remotion dùng element BasicCaptions (boxed) theo [remotion-captions](/Users/richard/.codex/skills/remotion-best-practices/remotion-captions/REFERENCE.md); lấy source từ `basic-captions.element.tsx`. Vẫn giao thêm `.srt` riêng.
+- SFX cuối twist hài: tải từ https://freesound.org/, ghi nguồn URL, license và tên file vào manifest. Không thêm nhạc nền, SFX ở chỗ khác, title, CTA chỉ vì dùng Remotion; giữ nhịp hài/hard cut. Giữ nguồn, lưu code/cấu hình theo từng tập dưới edit/remotion/, ghi phiên bản công cụ, thông số composition và lệnh thực tế trong manifest.
 - Cài skill không có nghĩa đã cài runtime Remotion hoặc đã dựng/render video. Kiểm tra môi trường khi bắt đầu hậu kỳ, không báo preview/render/QC đạt nếu chưa thực hiện.
 
 ## Kiểm tra và bàn giao
@@ -99,7 +101,7 @@ python3 /Users/richard/.codex/skills/sitcom-flow-assembly/scripts/clip_qa.py pat
 python3 /Users/richard/.codex/skills/sitcom-flow-assembly/scripts/qc_delivery.py path/to/MASTER.mp4 --srt path/to/subs.srt
 ```
 
-- Cần Python 3, `ffmpeg` và `ffprobe`; kiểm tra công cụ trước khi chạy. Không giả định các dịch vụ TTS, Colab hoặc đường dẫn VM nhắc trong skill có sẵn trên máy này.
+- Cần Python 3, `ffmpeg` và `ffprobe`; kiểm tra công cụ trước khi chạy. Không giả định các dịch vụ TTS hoặc đường dẫn VM nhắc trong skill có sẵn trên máy này.
 - Script `clip_qa.py` còn hạn chế đã review: chế độ QC phụ thuộc tên file `ab01.mp4`, có thể báo `fluid` khi không đo được sync và không trả mã lỗi khi phát hiện drift. Không coi nhãn hoặc exit code là chứng nhận đạt; đọc số đo và xem/nghe trực tiếp cho tới khi sửa công cụ.
 - Chạy `clip_qa.py` tuần tự trong cùng thư mục vì script dùng file tạm tên cố định. Điểm đồng bộ môi có `sync_r < 0.3` là không kết luận được; không báo là đạt.
 - `qc_delivery.py` hiện kiểm tra probe, giải mã và cấu trúc/thời gian SRT; không tự xác nhận đủ thông số đích, thời lượng khóa hay loudness. Đối chiếu metadata với manifest và đo loudness/true peak riêng theo skill.
@@ -169,10 +171,12 @@ Quy trình UI dưới đây đã chạy thành công ngày 2026-11-14 theo báo 
 - `wardrobe/inbox/` giữ nguồn đầu vào; `wardrobe/review/` giữ ảnh thử đồ chờ duyệt; `wardrobe/approved/` chỉ nhận bản được người dùng duyệt rõ. Gửi ảnh nguồn không đồng nghĩa duyệt frame cuối. Giữ phiên bản riêng, không ghi đè nguồn/master tốt.
 - Khi chuyển sang sản xuất, đồng bộ bộ đã chọn vào prompt ảnh, `image_sources` trong episode.yaml và ghi chú manifest theo schema hiện hành; không tự thêm trường ngoài schema. Video vẫn chỉ nhận một frame cảnh đầu đã duyệt. Đổi bộ sau gen phải tăng revision, giữ take cũ và không nhận take cũ là đầu ra bộ mới.
 
-### Âm thanh — quy tắc bắt buộc
+### Âm thanh — quy tắc bắt buộc (cập nhật 2026-11-18)
 
-- **Giọng native của Veo KHÔNG dùng làm giọng nhân vật**: mỗi lượt gen tự sinh một giọng khác nhau (đã kiểm chứng: 2 shot của ep001 ra 2 giọng, một Bắc một Nam). Prompt chỉ “hướng” giọng, không khóa được.
-- Giọng chính thức = **lồng tiếng VieNeu-TTS (nữ, miền Bắc) trên Colab T4**, một giọng duy nhất cho mọi shot/tập; tắt tiếng gốc Veo khi dựng. Hồ sơ `02_characters/thao-my/character.yaml` hiện ghi preset **Đoan Trang**, trạng thái `locked_by_user_2026_11_15`; dùng theo hồ sơ này. Chưa coi là đã có file audio hoặc môi trường Colab sẵn sàng. Khi chuẩn bị dựng, đồng bộ preset vào manifest của tập, không để ghi chú cũ “chưa chốt” ghi đè lựa chọn trong hồ sơ nhân vật.
+- **Giọng native của Veo không nhất quán**: mỗi lượt gen tự sinh một giọng khác nhau (đã kiểm chứng: 2 shot của ep001 ra 2 giọng, một Bắc một Nam). Prompt chỉ “hướng” giọng, không khóa được.
+- Giọng chính thức = **giọng clone ThaoMy** (clone trên Colab), một giọng duy nhất cho mọi shot/tập. Hồ sơ `02_characters/thao-my/character.yaml` hiện ghi preset **ThaoMy** (clone trên Colab), trạng thái `locked_by_user_2026_11_18`; dùng theo hồ sơ này.
+- **Quy tắc chèn giọng clone**: kiểm tra giọng native từng shot — nếu giọng Veo sinh ra là nữ miền Bắc thì **giữ nguyên tiếng gốc**; nếu không phải miền Bắc (hoặc sai giới tính/accent) thì **tắt tiếng gốc và lồng giọng clone ThaoMy**. Khi chuẩn bị dựng, đồng bộ preset vào manifest của tập kèm ghi chú shot nào giữ gốc, shot nào lồng clone.
+- **SFX cuối twist hài**: chèn 1 sound effect từ https://freesound.org/ tại cú twist hài cuối video. Ghi nguồn URL, license và tên file vào manifest. Không thêm nhạc nền hay SFX ở chỗ khác.
 
 ### Trạng thái ep001 “Dọn bàn”
 

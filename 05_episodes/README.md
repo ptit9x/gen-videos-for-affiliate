@@ -16,3 +16,36 @@ Mọi đường dẫn tài sản trong hồ sơ tính từ thư mục tập, đi
 Khi đổi nội dung/prompt/frame sau gen, tăng revision, giữ tài sản nguồn và lịch sử take; không sửa hồ sơ đang dùng để gửi. Chỉ bấm một lần cho mỗi lượt được yêu cầu; nếu không rõ đã gửi chưa, đối chiếu Flow trước, không tự gửi lại. Không lưu session/cookie/password.
 
 ep001 rev3 dùng mặt mới/body v003, chưa gen frame/clip mới; ID take rev2 được giữ, hai file clip local cũ không tìm thấy khi kiểm tra ngày 2026-11-15. Giọng còn chờ chọn preset. Tồn tại/hash file không chứng nhận hình, âm thanh hay khớp môi. Không tự đăng bài.
+
+---
+
+## Lineup — 19 tập (cập nhật 2026-11-18)
+
+### Solo (giữ nguyên)
+
+| Tập | Tên | Trạng thái |
+|---|---|---|
+| ep000-pilot1 | Pilot | Đã đăng |
+| ep002-ly-do | Lý do | Draft |
+| ep003-co-hoi-cuoi | Cơ hội cuối | Draft |
+| ep007-gio-hang | Giỏ hàng | Draft |
+| ep014-last-christmas | Last Christmas | Draft |
+| ep015-bao-gio-lay-chong | Bao giờ lấy chồng | Draft |
+
+### Series hẹn hò — Thảo My vs 13 chàng trai
+
+| Tập | Chàng | Câu chốt | Trend |
+|---|---|---|---|
+| ep001-sap-toi | Anh "2 Phút" | "Cút." | Speed date |
+| ep004-chia-bill | Anh Chia Bill | "Lập bảng Excel cho bữa ăn" | Chia bill first date |
+| ep005-me-anh-bao | Anh "Mẹ Anh Bảo" | "Hẹn hò với anh, không phải với mẹ anh" | Mama's boy |
+| ep006-ban-lam | Anh "Bận Lắm" | "Tổng thống cũng tweet hằng ngày" | Situationship |
+| ep008-love-bombing | Anh Love Bombing | "Dội bom xong rút quân" | Love bombing → ghost |
+| ep009-noi-xau-ex | Anh "Nói Xấu Ex" | "Bốn mối. Lần nào cũng lỗi người ta" | Toxic ex talk |
+| ep010-flex | Anh "Flex" | "Đồng hồ limited mà chia bill cà phê" | Thùng rỗng kêu to |
+| ep011-gym | Anh Gym | "Em là người yêu hay là client?" | Gym bro date |
+| ep012-day-doi | Anh "Dạy Đời" | "Em không cần thầy giáo" | Mansplaining |
+| ep013-lo-het | Anh "Lo Hết" | "Anh lo hết — trừ việc hỏi em muốn gì?" | Ga-lăng toxic |
+| ep016-cam-dien-thoai | Anh "Cắm Điện Thoại" | "Hẹn hò với wifi thôi, wifi còn kết nối" | Phone addict |
+| ep017-chup-anh | Anh Chụp Ảnh | "Hẹn hò hay casting?" | Date for content |
+| ep018-nice-guy | Anh "Nice Guy" | "Ba phút. Từ tử tế sang toxic. Nhanh hơn Grab" | Nice guy syndrome |

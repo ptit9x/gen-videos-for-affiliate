@@ -1,0 +1,92 @@
+schema_version: 2
+episode_id: ep004
+revision: 3
+title: Chia Bill
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: '9:16'
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 32
+shots:
+- shot_id: sh010
+  approved_for_generation: false
+  dialogue: Tiền sốt em trả sáu mươi phần trăm nhé.
+  image_prompt:
+    path: input/prompts/sh010-image.txt
+    sha256: 05752f1d68a9e397296faa988072d9ceb4e2ed576fd22160af569fe9bcc68265
+  motion_prompt:
+    path: input/prompts/sh010-motion.txt
+    sha256: 0234f8b1042b63ff23e1a8ac576cd4948ddbe86ced9814668f27d20ab6514489
+  image_sources:
+  - path: input/references/bang-front-v001.jpg
+    sha256: 4c120352aced23571b8e0d0dbf1fdc83814a8572a4c411256c5c41c858051ae1
+  first_frame: null
+  frame_status: missing_local
+  flow_image_asset_id: null
+  takes: []
+- shot_id: sh020
+  approved_for_generation: false
+  dialogue: Có bát nước chấm mà anh cũng chia lẻ à?
+  image_prompt:
+    path: input/prompts/sh020-image.txt
+    sha256: 1fa0968afea157cb26053d0c3546f4bae577fe3cae9252e40277dfcb5f7193cf
+  motion_prompt:
+    path: input/prompts/sh020-motion.txt
+    sha256: 542757afb3368867e71e9f068d3c189439a982f6c87e2de1b6b1aa812faeafd9
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  first_frame: null
+  frame_status: missing_local
+  flow_image_asset_id: null
+  takes: []
+- shot_id: sh030
+  approved_for_generation: false
+  dialogue: Em chấm ba lần, anh hai lần. Chia đôi anh thiệt.
+  image_prompt:
+    path: input/prompts/sh030-image.txt
+    sha256: 0c0149de58af64ef25676a64cb81676809ca7c85c93a16182eeebef93faf37df
+  motion_prompt:
+    path: input/prompts/sh030-motion.txt
+    sha256: 3e383001576a31d27d9ed229536171ed064279fb57c046145446ec2e6e7c25f2
+  image_sources:
+  - path: input/references/bang-front-v001.jpg
+    sha256: 4c120352aced23571b8e0d0dbf1fdc83814a8572a4c411256c5c41c858051ae1
+  first_frame: null
+  frame_status: missing_local
+  flow_image_asset_id: null
+  takes: []
+- shot_id: sh040
+  approved_for_generation: false
+  dialogue: Thế lần sau anh hẹn bát nước chấm đi. Em xin nghỉ.
+  image_prompt:
+    path: input/prompts/sh040-image.txt
+    sha256: 19c75679ce3f9021bbd1efde2bca5667dc4b4fa0582fdff5d51f7b735c736a20
+  motion_prompt:
+    path: input/prompts/sh040-motion.txt
+    sha256: e4476943922446164493141412cf3bc811d814da820feee759344dddfddc7fdc
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  first_frame: null
+  frame_status: missing_local
+  flow_image_asset_id: null
+  takes: []

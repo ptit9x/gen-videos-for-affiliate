@@ -19,10 +19,11 @@ body_design:
   identity_constraint: approved_face_v002_and_approved_body_front_v003_face_v002
   user_review_status: approved_2026_11_15
 voice:
-  engine: VieNeu-TTS
+  engine: Colab-TTS-clone
   accent: female_northern_vietnamese
-  preset: Đoan Trang
-  status: locked_by_user_2026_11_15
+  preset: ThaoMy
+  clone_source: Colab voice clone
+  status: locked_by_user_2026_11_18
 commercial_source_rights: unverified
 notes: 'Chốt cuối 2026-11-16: mặt/tóc v002 và body chính diện thao-my-body-front-v003-face-v002-review.png
   được người dùng chọn. Không dùng các lượt hair-density-r02, giữ mặt cũ hoặc face-correction.

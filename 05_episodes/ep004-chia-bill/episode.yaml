@@ -1,0 +1,92 @@
+schema_version: 2
+episode_id: ep004
+revision: 5
+title: Chia Bill
+editorial_status: script_approved
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: '9:16'
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 32
+shots:
+- shot_id: sh010
+  approved_for_generation: false
+  dialogue: Em chuyển anh bảy mươi hai nghìn nhé. Anh gửi mã rồi.
+  image_prompt:
+    path: input/prompts/sh010-image.txt
+    sha256: ab0c6f9002b6f6cc48b018cec13c0a7f4ca762fd117a368d2ecf208f3ee42a17
+  motion_prompt:
+    path: input/prompts/sh010-motion.txt
+    sha256: 87c85c6758715b757608fbc51c0fe73bc797d7b8908ac350c86882018dd6afcb
+  image_sources:
+  - path: input/references/bang-front-v001.jpg
+    sha256: 4c120352aced23571b8e0d0dbf1fdc83814a8572a4c411256c5c41c858051ae1
+  first_frame: null
+  frame_status: missing_local
+  flow_image_asset_id: null
+  takes: []
+- shot_id: sh020
+  approved_for_generation: false
+  dialogue: Một giờ sáng… em tưởng anh gọi hỏi em về an toàn chưa.
+  image_prompt:
+    path: input/prompts/sh020-image.txt
+    sha256: 80935e9810a6ce80bf6ad17b4f459f15e6229652edc62b74faaa42af6f97ee3b
+  motion_prompt:
+    path: input/prompts/sh020-motion.txt
+    sha256: 1bc257e3348d5f42d0f13dc708c934e230d37dc7475d5bd327beebd5a2aa0cd7
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  first_frame: null
+  frame_status: missing_local
+  flow_image_asset_id: null
+  takes: []
+- shot_id: sh030
+  approved_for_generation: false
+  dialogue: Thì em về rồi còn gì. Chuyển anh rồi ngủ tiếp.
+  image_prompt:
+    path: input/prompts/sh030-image.txt
+    sha256: 9d44129270e2f695ec8be1a9f43c34e558416080dd8fef46148d75e643730b43
+  motion_prompt:
+    path: input/prompts/sh030-motion.txt
+    sha256: f236c046da8a3e55f9292c6bc741f6ec41e7da0b28416d840bef41137122c658
+  image_sources:
+  - path: input/references/bang-front-v001.jpg
+    sha256: 4c120352aced23571b8e0d0dbf1fdc83814a8572a4c411256c5c41c858051ae1
+  first_frame: null
+  frame_status: missing_local
+  flow_image_asset_id: null
+  takes: []
+- shot_id: sh040
+  approved_for_generation: false
+  dialogue: Ừ, bảy mươi hai nghìn. Rẻ hơn phí đi nhầm chồng.
+  image_prompt:
+    path: input/prompts/sh040-image.txt
+    sha256: 97024730797d3c1dafa56566eea9bc11452841449626aa32379d8af0d89d6cee
+  motion_prompt:
+    path: input/prompts/sh040-motion.txt
+    sha256: e72ab17a9cf4d5c03d70bc11e20c8e5bdcdf7aee4993f37907f5c0d955e9c8a5
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  first_frame: null
+  frame_status: missing_local
+  flow_image_asset_id: null
+  takes: []

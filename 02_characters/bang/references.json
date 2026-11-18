@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "character_id": "bang",
+  "references": [
+    {
+      "reference_id": "bang-front-v001",
+      "file": "approved/bang-front-v001.jpg",
+      "sha256": "4c120352aced23571b8e0d0dbf1fdc83814a8572a4c411256c5c41c858051ae1",
+      "user_review_status": "approved",
+      "approval_date": "2026-11-18",
+      "approval_source": "Người dùng trong chat",
+      "flow_test_status": "not_tested"
+    }
+  ]
+}
