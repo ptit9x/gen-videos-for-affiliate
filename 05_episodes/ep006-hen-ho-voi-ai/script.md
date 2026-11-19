@@ -12,7 +12,7 @@ Thảo My mặc đẹp đi ăn nhà hàng một mình. Ai cũng hỏi "hẹn v�
 
 ### Thảo My (sh010–sh040)
 - Mặt/tóc: `thao-my-face-front-v002.png`; body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
-- Trang phục: Váy hai dây maxi suông kem + áo sơ mi linen dài tay form rộng màu tím nhạt khoác ngoài. Màu tím nhạt tạm chốt theo ảnh mẫu để làm frame sh010, chưa chốt chính thức.
+- Trang phục: Váy hai dây maxi suông SANJOLI màu đen, không áo khoác ngoài. Richard chốt 19/11 — đen là màu cũ duy nhất chưa lên video; áo linen bỏ vì không hợp bối cảnh nhà hàng tối.
 - Bối cảnh: Nhà hàng chiều tối, đèn vàng ấm, bàn cho một người, ghế đối diện trống. Location mới, chưa có master trong `03_locations/`.
 - Đạo cụ: Điện thoại iPhone 16/17/18 Pro Max có ốp lưng Slimcase trong suốt (sh020).
 
@@ -33,9 +33,10 @@ Thảo My mặc đẹp đi ăn nhà hàng một mình. Ai cũng hỏi "hẹn v�
 
 | Sản phẩm | Vị trí | Cách xuất hiện | Link affiliate |
 |---|---|---|---|
-| Váy hai dây maxi suông kem (SANJOLI) | sh010, sh040 | Mặc bên trong, trung cảnh thấy rõ | aff-0001 (sug-0006) |
-| Áo sơ mi linen dài tay form rộng (LAHSTORE) | Mọi shot | Khoác ngoài váy, visible xuyên suốt | aff-0002 (sug-0007) |
+| Váy hai dây maxi suông đen (SANJOLI) | sh010, sh040 | Mặc một mình, không áo khoác ngoài, trung cảnh thấy rõ | aff-0001 (sug-0006) |
 | Ốp lưng iPhone 16/17/18 Pro Max (Slimcase, trong suốt, MagSafe) | sh020 | Cầm điện thoại, cận vừa thấy ốp trong tay | aff-0003 (sug-0008) |
+
+Áo sơ mi linen dài tay form rộng (LAHSTORE, aff-0002) bỏ khỏi tập này 19/11 — không hợp bối cảnh nhà hàng tối; link vẫn giữ trong `affiliate-links.csv` cho tập sau.
 
 ## Tài sản và prompt
 
