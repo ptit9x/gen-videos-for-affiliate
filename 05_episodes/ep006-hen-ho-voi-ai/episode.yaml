@@ -98,6 +98,13 @@ shots:
           path: generated/sh020-take002.mp4
           sha256: 408d387a4fcc4890da7b3bde7e3d2a3eb3f4b7b9b24978cd07478e0880d827d5
         note: 'take002, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: đủ 3 câu (0.00-1.60, 2.32-3.00, 4.44-5.36); "à" xác minh bằng năng lượng 48kHz (nói liền 3.0-3.3s, Whisper gộp mất). Đuôi 5.5-7.9s lặng, không phụ đề giả. Ghế gỗ tối + sáng 56.0 khớp cả 4. Ốp MagSafe rõ. Giọng chờ Richard nghe.'
+      - take_id: take003
+        clip_id: 7952ed40-2fea-4a34-bf95-1d84c5c5af05
+        status: needs_review
+        file:
+          path: generated/sh020-take003.mp4
+          sha256: dca7b56cd1156a0ac6d7f5ff74dddeb4b2b5532391e77eb8c0ace04e5893d017
+        note: 'take003, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: đủ 3 câu (2.24-3.24, 4.1-4.8, 5.7-6.3); "à" xác minh bằng năng lượng 48kHz (nói liền 4.6-4.8s, Whisper gộp vào từ "tội"). Son đỏ giữ nguyên trong chuyển động, không vòng tay, cổ đổ đúng mẫu, móng tự nhiên. Sáng 53.5, hơi tối hơn 3 shot còn lại ~2 điểm (cân bằng lúc dựng). Giọng chờ Richard nghe.'
   - shot_id: sh030
     approved_for_generation: true
     dialogue: "Tôi không đi một mình. Tôi hẹn với người tôi thích nhất."
@@ -174,3 +181,10 @@ shots:
           path: generated/sh040-take002.mp4
           sha256: 1b310231063d59411b8256096459d84c0c9f16968c1a2a541e87d72789cf4009
         note: 'take002, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: "Là tôi" 4.66-5.38s; có tiếng cười "Hahaha" 0.00-0.34s đầu clip + "mmm" 3.32-4.08s trước câu. Không phụ đề giả. Ghế gỗ tối + sáng 54.9 khớp cả 4. Giọng chờ Richard nghe.'
+      - take_id: take003
+        clip_id: 426dae2e-350c-41d6-a4dd-c5e43e6a69e3
+        status: needs_review
+        file:
+          path: generated/sh040-take003.mp4
+          sha256: 2d71a7eb365dd23b2edf7a353c778533b0e876aeffa3907d298260b74e7a5546
+        note: 'take003, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: "Là tôi" 0.00-0.60s (nói ngay đầu clip), tiếng cười/nhai 4.6-6.0s. Son đỏ + cổ đổ giữ nguyên trong chuyển động, không phụ đề giả, không bóng ma. Sáng 56.0 khớp cả tập. Giọng chờ Richard nghe.'

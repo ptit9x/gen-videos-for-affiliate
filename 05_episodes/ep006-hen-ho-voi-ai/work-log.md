@@ -60,3 +60,10 @@
 - Frame mới (Flow Nano Banana, 1 edit từ master, 0cr): sh020 v5 (son đỏ) → v6 (bỏ vòng tay; lần 1 bị chặn chính sách, thử lại với prompt tả cổ tay trống thì qua), sh040 v3 (son đỏ, cổ V sai) → v4 (cổ đổ đúng mẫu). Cả 2: son đỏ đậm, móng tự nhiên, mặt/váy/nền khớp.
 - 19:29 Richard DUYỆT cả 2 frame. Đã đổi tên chuẩn: sh020-first-frame.jpg = v6 (sha 08323f4f…, Flow 870638e7…), sh040-first-frame.jpg = v4 (sha 554fda21…, Flow a465e73c…). Frame cũ giữ lại tên versioned. episode.yaml cập nhật frame + prompt shas, validator đạt.
 - Đang gen lại 2 clip sh020/sh040 take003 (20cr, số dư 790 → 770).
+
+## 2026-11-19 19:29–19:35 — take003 đã gen + QC
+- 2 clip take003 gen xong 19:35 (Frames-direct, Veo 3.1 Lite, 20cr, số dư 790 → 770): sh020 7952ed40…, sh040 426dae2e…. File 720p 7.93s 720×1280 24fps AAC đã về đủ, sha ghi trong episode.yaml.
+- QC Whisper base + năng lượng 48kHz: sh020 đủ 3 câu (2.24-3.24, 4.1-4.8, 5.7-6.3), "à" xác minh nói liền 4.6-4.8s (Whisper gộp vào từ "tội"); sh040 "Là tôi" 0.00-0.60s (nói ngay đầu clip) + tiếng cười/nhai 4.6-6.0s. Không phụ đề giả, không bóng ma đuôi.
+- Son đỏ giữ nguyên trong chuyển động cả 2; sh020 không vòng tay, cổ đổ đúng mẫu; sh040 cổ đổ giữ nguyên. Sáng: sh020 53.5 (hơi tối hơn 3 shot còn lại ~2 điểm, cân bằng lúc dựng), sh040 56.0.
+- Bộ take hiện tại: sh010 take002 + sh020 take003 + sh030 take002 + sh040 take003.
+- CHỜ Richard duyệt take003 + nghe giọng từng shot (giữ tiếng Veo nếu Bắc); sh010/sh030 take002 vẫn chờ nghe giọng.
