@@ -1,0 +1,69 @@
+schema_version: 2
+episode_id: ep020
+revision: 1
+title: "Con Nhỏ Đó"
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 40
+shots:
+  - shot_id: sh010
+    approved_for_generation: false
+    dialogue: "Anh yêu em hay là yêu con nhỏ đó?"
+    image_prompt: null
+    motion_prompt: null
+    image_sources: []
+    first_frame: null
+    frame_status: missing_local
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: false
+    dialogue: "Con nhỏ đó là nhỏ nào? Anh còn không biết."
+    image_prompt: null
+    motion_prompt: null
+    image_sources: []
+    first_frame: null
+    frame_status: missing_local
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: false
+    dialogue: "Giữa em với con nhỏ đó, anh chọn ai? Lỡ có thì sao?"
+    image_prompt: null
+    motion_prompt: null
+    image_sources: []
+    first_frame: null
+    frame_status: missing_local
+    takes: []
+  - shot_id: sh040
+    approved_for_generation: false
+    dialogue: "Cho là anh có đi, anh vẫn chọn em. Vừa lòng em chưa?"
+    image_prompt: null
+    motion_prompt: null
+    image_sources: []
+    first_frame: null
+    frame_status: missing_local
+    takes: []
+  - shot_id: sh050
+    approved_for_generation: false
+    dialogue: "Ừ, thừa nhận luôn: anh yêu con nhỏ đó. Chia tay đi, yêu khổ quá."
+    image_prompt: null
+    motion_prompt: null
+    image_sources: []
+    first_frame: null
+    frame_status: missing_local
+    takes: []
