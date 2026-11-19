@@ -16,11 +16,11 @@ Thảo My tra hỏi bạn trai ở quán cà phê ngoài trời: "Anh yêu em ha
 
 ### Thảo My (sh010, sh030)
 - Mặt/tóc: `thao-my-face-front-v002.png`; body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
-- Trang phục: chưa chốt — đề xuất áo trắng tay bồng + váy/chân váy tối màu như reel gốc (nữ chính mặc áo trắng tay phồng), hoặc váy SANJOLI theo lịch màu các tập. Chốt sau khi Richard duyệt kịch bản.
+- Trang phục: **Richard sẽ gửi trang phục sau** (cùng lúc với ảnh chàng trai) — chờ cậu ấy cấp rồi ghi vào `wardrobe.md` và làm frame. Gợi ý dự phòng: áo trắng tay bồng + váy/chân váy tối màu như reel gốc, hoặc váy SANJOLI theo lịch màu các tập.
 - Diễn xuất: sh010 chất vấn, mắt nhìn thẳng; sh030 dồn dập, tay gõ bàn; cuối tập sững sờ khi anh đứng dậy bỏ đi.
 
-### Chàng trai (sh020, sh040, sh050) — chưa chốt là ai trong 13 người
-- Nam khoảng 30 tuổi. Reel gốc: áo polo cam, tóc ngắn. Bản CNTM: chưa chốt nhân vật — có thể dùng 1 anh đã có mặt (Bằng ở ep004?) hoặc anh mới; Richard quyết.
+### Chàng trai (sh020, sh040, sh050) — Richard cấp sau
+- Nam khoảng 30 tuổi. Reel gốc: áo polo cam, tóc ngắn. **Richard sẽ gửi ảnh chàng trai sau** — chờ cậu ấy cấp rồi mới khóa mặt/đồ và làm frame. (Gợi ý dự phòng nếu cậu ấy không gửi: dùng 1 anh đã có mặt như Bằng ở ep004, hoặc anh mới.)
 - Diễn xuất: sh020 ngơ ngác thật; sh040 cười gượng, bất lực, chỉ tay "thấy chưa?"; sh050 đứng dậy, bình thản, bỏ đi.
 
 ### Bối cảnh
@@ -47,8 +47,8 @@ Thảo My tra hỏi bạn trai ở quán cà phê ngoài trời: "Anh yêu em ha
 
 - **Bỏ tát + bỏ chửi thề:** reel gốc có cảnh cô gái tát anh chàng (anh ôm má ở giây ~6) và thoại cuối chửi thề (phụ đề gốc che chữ). Bản draft này đã bỏ cả hai — chỉ giữ cãi nhau bằng logic + anh bỏ đi. Nếu muốn giữ độ "đanh đá" thì thay bằng hành động khác (đập bàn, đứng dậy trước), không dùng tát.
 - **Giọng:** thoại viết giọng Bắc, 1 người nói/shot, mỗi câu ≤15 từ — đúng ngân sách Flow 8s.
-- **Chàng trai là ai:** chưa gắn với 1 trong 13 chàng trai; chốt trước khi làm frame để khóa mặt/đồ.
-- **Trang phục My:** chưa chốt; ghi vào `wardrobe.md` khi duyệt kịch bản.
+- **Chàng trai là ai:** Richard sẽ cấp ảnh chàng trai sau; chờ cậu ấy gửi rồi mới khóa mặt và làm frame.
+- **Trang phục My:** Richard sẽ cấp sau cùng lúc với ảnh chàng trai; ghi vào `wardrobe.md` khi có.
 - **Không affiliate:** quán cà phê không hợp sản phẩm hiện có; chưa gắn link, chưa đăng.
 
 ## Tài sản và prompt

@@ -8,3 +8,8 @@
 - Viết `script.md` draft: phỏng theo reel gốc, viết lại giọng Bắc, 5 shot × 8s = 40s. Bỏ tát + bỏ chửi thề của bản gốc (ghi rõ trong script để Richard chốt). Chàng trai chưa chốt là ai trong 13 người; trang phục My chưa chốt; chưa affiliate.
 - `episode.yaml` draft: 5 shot, chưa prompt, chưa frame, `approved_for_generation: false` tất cả.
 - Chưa làm gì thêm: chưa duyệt kịch bản, chưa làm frame, chưa gen clip. Bước tiếp theo chờ Richard duyệt kịch bản (và chốt: 5 shot hay gộp 4, chàng trai là ai, có giữ độ đanh đá kiểu khác thay cho tát hay không).
+
+## 2026-11-20 00:08 — Richard bảo sẽ cấp chàng trai + trang phục sau
+
+- Cập nhật `script.md`: chàng trai (ảnh nhân vật) và trang phục My đều do Richard gửi sau — chờ cậu ấy cấp rồi mới khóa mặt/đồ, ghi `wardrobe.md` và làm frame. Không tự chọn người hay đồ trước.
+- Commit + push riêng ep020 (không đụng các thay đổi ep005 chưa commit của luồng khác).
