@@ -67,3 +67,9 @@
 - Son đỏ giữ nguyên trong chuyển động cả 2; sh020 không vòng tay, cổ đổ đúng mẫu; sh040 cổ đổ giữ nguyên. Sáng: sh020 53.5 (hơi tối hơn 3 shot còn lại ~2 điểm, cân bằng lúc dựng), sh040 56.0.
 - Bộ take hiện tại: sh010 take002 + sh020 take003 + sh030 take002 + sh040 take003.
 - CHỜ Richard duyệt take003 + nghe giọng từng shot (giữ tiếng Veo nếu Bắc); sh010/sh030 take002 vẫn chờ nghe giọng.
+
+## 2026-11-19 20:08–20:10 — phán giọng take003 + lỗi khăn sh010
+- Richard nghe 2 clip take003: sh040 giọng Bắc -> giữ tiếng Veo gốc; sh020 giọng Nam -> lồng clone ThaoMy (VieNeu Turbo, clone ThaoMyVeo). Đã ghi vào episode.yaml.
+- Richard bắt lỗi sh010 take002: khăn ăn trùm lên đĩa ăn. Lỗi từ frame đầu (prompt ảnh ghi "chỉnh khăn ăn" nên frame vẽ tay + khăn ngay trên đĩa; motion chỉ nối tiếp). take002 REJECTED. Sửa: sh010-image.txt mới (khăn gấp gọn bên trái đĩa, không che đĩa, hai tay đặt trên đùi) + sh010-motion.txt mới (ngồi thẳng, vuốt nhẹ váy, nhìn quanh, không chạm khăn). Làm frame mới từ master (Flow, 0cr) rồi gen lại take003 (10cr).
+- Ref clone ThaoMyVeo còn nguyên: ~/workspace/chuyen-nha-vy/voice-test/clone-test/ref-clip2.wav. Lồng sh020: 3 câu đặt theo cửa sổ miệng native (Q1 2.24s, Q2 4.1s, Q3 5.7s), tắt hẳn tiếng gốc.
+- Còn chờ Richard nghe giọng sh030 take002.
