@@ -110,3 +110,7 @@
 - Gen 20:40-20:44, clip fee00309-41d6-4a6a-813c-8cadd19f2852, 10cr, số dư 750. Frame v6 crop (upload thẳng, Frames-direct, Agent OFF, prompt verbatim không chạm khăn).
 - QC trên file đã tải về (sha de18da76…): 7.93s 720×1280 24fps; Whisper base nghe đủ 4 cụm 0.00-6.74s; khăn gấp gọn bên trái đĩa ở cả 3 mốc t=1/4/7.5, đĩa nhìn rõ — lỗi khăn ĐÃ HẾT; son/nốt ruồi/cổ đổ khớp; không phụ đề giả, không bóng ma đuôi (sau 7.0s chỉ còn ambience). Sáng 60.0, cao hơn các shot ~4-6 điểm — cân bằng lúc dựng.
 - Bộ take: sh010 take004 chờ duyệt, sh020 take003 DUYỆT (bản lồng), sh030 take002 DUYỆT (tiếng gốc), sh040 take003 giọng Bắc giữ tiếng gốc (chờ duyệt take).
+
+## 2026-11-19 21:43 — Richard DUYỆT sh010 take004, giữ tiếng gốc
+- take004 status accepted_editorial; giữ tiếng Veo gốc, KHÔNG lồng clone.
+- Bộ take hiện tại: sh010 take004 DUYỆT (tiếng gốc), sh020 take003 DUYỆT (bản lồng clone), sh030 take002 DUYỆT (tiếng gốc), sh040 take003 giọng Bắc giữ tiếng gốc (chờ duyệt take) — chỉ còn sh040 là chưa chốt.

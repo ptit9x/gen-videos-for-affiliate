@@ -69,11 +69,11 @@ shots:
         note: 'take003, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: đủ thoại 0.00-6.72s (Whisper nghe "đỏ" thành "đó", "Đặt" thành "lật" — lỗi thanh điệu quen thuộc của base). Son đỏ + cổ đổ khớp, sáng 56.2 khớp cả tập, không phụ đề giả, không bóng ma. NHƯNG khăn vẫn trùm lên đĩa ở t=4 và t=7.5 — motion mới không cứu được vì frame đầu đã vẽ tay + khăn ngay trên đĩa, Veo chỉ đặt khăn xuống đĩa. Cần frame mới (khăn bên trái đĩa) rồi gen lại. Giọng chờ Richard nghe.'
       - take_id: take004
         clip_id: fee00309-41d6-4a6a-813c-8cadd19f2852
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh010-take004.mp4
           sha256: de18da76e3f669f2ef87e800e3b7ece6c2e9ad8af8f28d2ccfa4682ae21f697a
-        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com, số dư 750. Frame v6 crop (Flow ID 05ae1bd2). QC 19/11: 7.93s 720x1280, Whisper base nghe đủ 4 cụm 0.00-6.74s (lỗi thanh điệu đã biết: đỏ->đó, Đặt->Đặc), không phụ đề giả, không bóng ma đuôi. Khăn GẤP GỌN bên trái đĩa suốt clip (t=1/4/7.5), đĩa nhìn rõ — lỗi khăn ĐÃ HẾT. Son đỏ sáng, nốt ruồi, cổ đổ khớp. Sáng 60.0 (cao hơn các shot ~4-6 điểm, cân bằng lúc dựng). Giọng chờ Richard nghe.'
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com, số dư 750. Frame v6 crop (Flow ID 05ae1bd2). QC 19/11: 7.93s 720x1280, Whisper base nghe đủ 4 cụm 0.00-6.74s (lỗi thanh điệu đã biết: đỏ->đó, Đặt->Đặc), không phụ đề giả, không bóng ma đuôi. Khăn GẤP GỌN bên trái đĩa suốt clip (t=1/4/7.5), đĩa nhìn rõ — lỗi khăn ĐÃ HẾT. Son đỏ sáng, nốt ruồi, cổ đổ khớp. Sáng 60.0 (cao hơn các shot ~4-6 điểm, cân bằng lúc dựng). Giọng chờ Richard nghe. Richard 21:43: DUYỆT take, giữ tiếng Veo gốc.'
   - shot_id: sh020
     approved_for_generation: true
     dialogue: "'Hẹn với ai vậy?' 'Đi một mình à?' 'Tội ghê.'"
