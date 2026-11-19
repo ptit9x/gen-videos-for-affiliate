@@ -27,7 +27,7 @@ shots:
     dialogue: "Mặc đẹp. Son đỏ. Đặt bàn cho một người. Mọi người lại hỏi."
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: 541217bbdce29a5bd34dbd626ba2b6cfbb07e1c5fc1a6f345297c1505cc297bc
+      sha256: ced2669eb354cfc42dbdbf2b2d3d834bc1708bbeb16f68cf8bff1b599ff36842
     motion_prompt:
       path: input/prompts/sh010-motion.txt
       sha256: 6249ac9f594b0b5d66d54ddd2d94aef38d42f331763f07f345ee7c5008b8284e
@@ -36,11 +36,15 @@ shots:
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/restaurant-bg-wood.jpg
+        sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
+      - path: input/references/dress-sample-sanjoli-kem.webp
+        sha256: "214c8c456d13e79ac4ee8c47b30cff26f14574426deec7c1405586b420a11c01"
     first_frame:
       path: input/frames/sh010-first-frame.jpg
-      sha256: ce0387b144b35b8c778558ab3921828dd682b8b7c6c54e92c58eb008aeef32b4
+      sha256: 5b12a656288689ddb983b64e7c06a75087fabf65ac3c5b5b32f087b2aad72f44
     frame_status: approved
-    flow_image_asset_id: null
+    flow_image_asset_id: 4ddd1011-11ca-4b98-90d7-3e4aae39caf5
     takes:
       - take_id: take001
         clip_id: e8444ca2-1daa-4a06-8f5c-afba2b1b9f8b
@@ -54,7 +58,7 @@ shots:
     dialogue: "'Hẹn với ai vậy?' 'Đi một mình à?' 'Tội ghê.'"
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: 3bbe251633b8f12aee8bc70b6c36e8d84b45c57cd9ecab083cb428ad9245b4ff
+      sha256: 068a4492098028f46e46d9467c58b495161723741fd8e4f7f1c95c5692a5ce52
     motion_prompt:
       path: input/prompts/sh020-motion.txt
       sha256: 25491246d424cdf46c33e49627157f9b1b240d21c58c5029cec9f31a06e122d6
@@ -63,11 +67,15 @@ shots:
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/restaurant-bg-wood.jpg
+        sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
+      - path: input/references/dress-sample-sanjoli-kem.webp
+        sha256: "214c8c456d13e79ac4ee8c47b30cff26f14574426deec7c1405586b420a11c01"
     first_frame:
       path: input/frames/sh020-first-frame.jpg
-      sha256: afc1dc9631d311b8c11d751ce27b7672259ff01a8e39e6d9fb1ec72a51068259
+      sha256: e7eee66f450fb87d77c35040328698383ede5ae81dc9f34266e09fe960a3f214
     frame_status: approved
-    flow_image_asset_id: null
+    flow_image_asset_id: 6f238f44-8753-4f6a-85d8-b35050f5f99c
     takes:
       - take_id: take001
         clip_id: 739fdcf6-12df-4821-af2a-a4c123975ec0
@@ -81,7 +89,7 @@ shots:
     dialogue: "Tôi không đi một mình. Tôi hẹn với người tôi thích nhất."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: dbb967b96ecdfbfa2938d3911d4f5d2db5eed1c6fe0517770978696e5edad4fc
+      sha256: ef6a7a970768aa6c5362b5a281c242392de120f1f7a1534f59c1678c7e56745a
     motion_prompt:
       path: input/prompts/sh030-motion.txt
       sha256: 7248f4ac7c593dd123629f927cc2fa435ea5a9bf5b5a87f5108ba6fb57224bac
@@ -90,11 +98,15 @@ shots:
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/restaurant-bg-wood.jpg
+        sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
+      - path: input/references/dress-sample-sanjoli-kem.webp
+        sha256: "214c8c456d13e79ac4ee8c47b30cff26f14574426deec7c1405586b420a11c01"
     first_frame:
       path: input/frames/sh030-first-frame.jpg
-      sha256: d69c2263c5c19ccf9df9a62bddbea6a81039ceca96e97186f053404dbc2e8ed2
+      sha256: 4e8bdbe01bc255adb8643f3a578466b4f2ab9b758a69a9da612017f28fab4671
     frame_status: approved
-    flow_image_asset_id: null
+    flow_image_asset_id: 226622b0-8b4e-474a-8b28-734ee9322503
     takes:
       - take_id: take001
         clip_id: af18e0b6-fa57-4f05-81c2-dfdca584a94e
@@ -108,7 +120,7 @@ shots:
     dialogue: "Là tôi."
     image_prompt:
       path: input/prompts/sh040-image.txt
-      sha256: 3f88419e2fa2dd6a115f82f66688b107c7512f495668abbefe5cb6c034efdd41
+      sha256: 30cac550711dbb3c3644fba8cb84c0a44b010ee18b9d0f1cd6348d2427ec88ce
     motion_prompt:
       path: input/prompts/sh040-motion.txt
       sha256: 01050c016d6614a75e29bec96612ba20ea4bed2ce83f2a24c8726756c6f55f89
@@ -117,11 +129,15 @@ shots:
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/restaurant-bg-wood.jpg
+        sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
+      - path: input/references/dress-sample-sanjoli-kem.webp
+        sha256: "214c8c456d13e79ac4ee8c47b30cff26f14574426deec7c1405586b420a11c01"
     first_frame:
       path: input/frames/sh040-first-frame.jpg
-      sha256: 284938b024bcfddc7f58a4595c51c855d14be72fdd476b8ace627002c3d71d67
+      sha256: ae581a32126a83162eeba69de81f408ad3df36c78d32509125fc7fdf35fd911f
     frame_status: approved
-    flow_image_asset_id: null
+    flow_image_asset_id: 0aff9866-c86c-40d4-a649-cd58e518c35e
     takes:
       - take_id: take001
         clip_id: e329e1c8-1e01-4afa-96cc-a8cfe7b3676e

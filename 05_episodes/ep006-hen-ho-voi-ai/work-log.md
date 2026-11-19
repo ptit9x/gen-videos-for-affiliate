@@ -37,3 +37,12 @@
 - QC Whisper base: sh010 đủ thoại 0.00–6.90s; sh020 đủ 3 câu (0.58–1.56, 2.24–3.00, 4.50–5.22 — "à" trong span 2.4–3.0 theo năng lượng 48kHz, đuôi lặng); sh030 đủ từng chữ 0.00–5.96s; sh040 "Là tôi" 4.68–6.90s + tiếng "mmm" 3.28–4.68s trước câu (đang nhai bánh). Cả 4: không phụ đề giả, không bóng ma đuôi (soi frame 4s + 7.5s). Veo watermark góc phải dưới còn nguyên — crop ở khâu dựng.
 - Lưu ý: preview Flow của sh020 từng báo "Không tải được video" nhưng file tải về decode bình thường.
 - episode.yaml: flow_project + 4 take take001 (status needs_review, file + sha256), editorial_status generating. Validator default exit 0. Chờ Richard duyệt take + nghe giọng từng shot.
+
+## 2026-11-19 16:06–17:07 — sửa continuity ghế + sáng (take002)
+- Richard phát hiện: ghế sau lưng 4 clip take001 không giống nhau (sh020 ghế gỗ tối, 3 clip còn lại ghế mây) + sáng sh010/sh040 hơn sh020/sh030. Đo độ sáng trung bình: sh010 63,4 / sh020 51,7 / sh030 65,2 / sh040 71,6.
+- Richard chốt: ghế mây đan dễ lỗi, lấy bàn ghế kiểu sh020 (ghế gỗ tối + bàn tròn gỗ) làm chuẩn nền.
+- Nền trống v1 (ghế mây, theo sh010) gen xong nhưng BỎ. Nền trống v2 theo sh020 (`input/restaurant-bg-wood.jpg`, 1184×2096, sha c035ab8e…, sáng 55,8) làm chuẩn.
+- Frame sh020 v3 pipeline Bee bị Richard chê sai váy đen (dây to + chữ SANJOLI in trên váy). Frame sh010 v4 / sh030 v3 / sh040 v2 pipeline Bee không tạo được (3/4 lỗi) — không thử lại.
+- Làm lại cả 4 frame trong Flow (Nano Banana 2.1, 1 edit từ master, 0 credit, 1536×2752) với master + nền gỗ + ảnh mẫu váy SANJOLI: sh010 v4-flow (5b12a656…), sh020 v4-flow (e7eee66f…), sh030 v3-flow (4e8bdbe0…), sh040 v2-flow (ae581a32…). Váy đen đúng mẫu (dây mảnh, cổ đổ, lụa bóng, không logo). Lưu ý: dấu sao Flow góc dưới phải cả 4; sh040 có 2 khách mờ phía sau.
+- Richard duyệt cả 4 frame 17:07 → frame cũ đổi tên v3/v2/v2/v1 giữ lại, frame Flow lên tên chuẩn; episode.yaml cập nhật frame + image_prompt sha + flow_image_asset_id + image_sources (nền gỗ, mẫu váy); validator exit 0.
+- Đang gen lại 4 clip take002 (Frames-direct, Veo 3.1 Lite, 40cr, số dư 830 → dự kiến 790).
