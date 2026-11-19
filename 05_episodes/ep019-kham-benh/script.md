@@ -1,6 +1,6 @@
 # ep019 — Khám Bệnh
 
-Trạng thái: draft, chưa duyệt gen. Thảo My + bác sĩ nam (nhân vật một lần, không thuộc series 13 chàng trai).
+Trạng thái: draft, 4 frame đã làm xong 19/11 (Flow Nano Banana, 0 credit, project CNTM · EP019 · Khám Bệnh), đang chờ Richard duyệt frame rồi mới gen clip. Thảo My + bác sĩ nam (nhân vật một lần, không thuộc series 13 chàng trai).
 
 ## Ý tưởng và twist
 
@@ -44,6 +44,14 @@ Thảo My đi khám vì tức ngực, khó thở. Bác sĩ hỏi có bảo hiể
 ## Sản phẩm lồng ghép
 
 Mặc định không affiliate. Phòng khám không hợp sản phẩm hiện có; chưa gắn link, chưa đăng.
+
+## Frame đã làm (19/11)
+
+- sh010 (Flow 941be21b…): mặt khớp v002, nốt ruồi cằm trái có (đã soi zoom), son hồng đỏ nhạt, áo hồng ôm sát, tay ôm ngực. Lưu ý nhỏ: bóng bác sĩ quay lưng ở tiền cảnh tóc trông như nữ (búi) trong khi bác sĩ ở sh020/sh040 là nam — mờ, chỉ thấy sau gáy.
+- sh020 (Flow fae1ad9b…): bác sĩ đúng mô tả (kính, blouse trắng, scrub navy, ống nghe, thẻ BÁC SĨ, clipboard), poster tim + biển BỆNH VIỆN + chậu cây.
+- sh030 (Flow ad62b7e1…, làm lại lần 2): lần 1 son đỏ quá đậm nên bỏ, làm lại từ master thì son hồng nhạt đúng, nốt ruồi có (đã soi zoom), áo hồng ôm, nghiêng người tò mò.
+- sh040 (Flow c38dea94…): cùng bác sĩ với sh020 (mặt/kính/đồ/bối cảnh khớp).
+- Cả 4 đều 768×1376, có dấu sao watermark nhỏ góc dưới phải (như frame ep006).
 
 ## Tài sản và prompt
 

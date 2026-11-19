@@ -3,7 +3,7 @@ episode_id: ep019
 revision: 1
 title: "Khám Bệnh"
 editorial_status: draft
-flow_project: null
+flow_project: https://flow.google.com/project/c02626e9-52dd-48fb-8c41-faf7323b9e22
 generation:
   mode: frames
   agent: false
@@ -36,9 +36,11 @@ shots:
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
-    flow_image_asset_id: null
+    first_frame:
+      path: input/frames/sh010-first-frame.jpg
+      sha256: 64bbd263bfa48512bfb3d2b561f34daa0a6a8d3f20687fe92a4decb4dd0d3566
+    frame_status: pending_review
+    flow_image_asset_id: 941be21b-cdbb-4ad6-b046-886c3b0ba137
     takes: []
   - shot_id: sh020
     approved_for_generation: false
@@ -50,9 +52,11 @@ shots:
       path: input/prompts/sh020-motion.txt
       sha256: b7106c45fab5220538e44d2767e5bd1c02b1a95b4331b2b380ad794f5072643a
     image_sources: []
-    first_frame: null
-    frame_status: missing_local
-    flow_image_asset_id: null
+    first_frame:
+      path: input/frames/sh020-first-frame.jpg
+      sha256: c405a804e85534a47773edfbdb2464acdec56b8f2ec95f2943b434598023afd3
+    frame_status: pending_review
+    flow_image_asset_id: fae1ad9b-14b4-48c5-8e11-30a3cc1343e2
     takes: []
   - shot_id: sh030
     approved_for_generation: false
@@ -68,9 +72,11 @@ shots:
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
-    flow_image_asset_id: null
+    first_frame:
+      path: input/frames/sh030-first-frame.jpg
+      sha256: 52342eca9601ed9a650ebe5d9c120fe627cee90b149dc6bcba8b76d24369a2b7
+    frame_status: pending_review
+    flow_image_asset_id: ad62b7e1-345c-4647-a0ae-3c5d655da211
     takes: []
   - shot_id: sh040
     approved_for_generation: false
@@ -82,7 +88,9 @@ shots:
       path: input/prompts/sh040-motion.txt
       sha256: 85583591d68c8047cf0be9d83b61159fc6f1ffe0580e419013219524070bbeb6
     image_sources: []
-    first_frame: null
-    frame_status: missing_local
-    flow_image_asset_id: null
+    first_frame:
+      path: input/frames/sh040-first-frame.jpg
+      sha256: e431bcf402074c95f30fe7f6463d8fc8fa23602e80dbd51f73db2c732e177236
+    frame_status: pending_review
+    flow_image_asset_id: c38dea94-5075-4e1a-9548-1ec976502bb1
     takes: []
