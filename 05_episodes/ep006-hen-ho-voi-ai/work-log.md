@@ -85,3 +85,8 @@
 ## 2026-11-19 20:23 — sh010 take003 vẫn lỗi khăn
 - Gen từ frame cũ v4 + motion mới (không chạm khăn), 10cr, số dư 770 → 760, clip f54cfebd….
 - QC: đủ thoại 0.00-6.72s, son + cổ đổ + sáng (56.2) đều khớp, không phụ đề giả/bóng ma. NHƯNG khăn vẫn trùm lên đĩa ở t=4 và t=7.5 — motion mới không cứu được vì frame đầu đã vẽ tay + khăn ngay trên đĩa, Veo chỉ đặt khăn xuống đĩa. Kết luận: lỗi nằm ở frame, không sửa được bằng motion. Đề xuất: làm frame mới từ master, khóa chặt theo đúng frame v4 (trung cảnh, bàn tròn gỗ + ghế gỗ tối như cũ, son đỏ sáng, nốt ruồi cằm trái còn) chỉ khác khăn gấp gọn bên trái đĩa + tay trên đùi, rồi gen lại take004. Chờ Richard gật.
+
+## 2026-11-19 20:25 — lồng xong sh020 take003 (clone ThaoMyVeo)
+- Clone ThaoMyVeo trên Colab T4 (VieNeu v3 Turbo, enroll ref-clip2.wav; gói pip tên `vieneu`, VM mới phải pip install). 3 câu đặt theo cửa sổ miệng native (Q1 2.24s, Q2 4.10s, Q3 5.70s), chuẩn hoá RMS từng câu, tắt hẳn tiếng gốc Nam.
+- File: generated/sh020-take003-dub-thaomy.mp4 (sha fceab9b8…, 7.93s 720p). Bee kiểm chứng độc lập: Whisper nghe đủ 3 câu đúng cửa sổ (sai thanh điệu trên giọng clone — lỗi đã biết của base); năng lượng 0-2.2s và 6.3-7.9s = 0.0000 (không rò tiếng gốc); F0 clone 229-246Hz khớp mẫu enroll 247Hz.
+- Lưu ý: Q1 dài hơn miệng gốc 0.33s (tới 3.63s), Q2 dài hơn 0.24s (tới 5.04s) — chưa time-stretch (kéo 1.3×+ sẽ vội giọng; ep004 sh040 từng duyệt với lệch 0.3s tương tự). Chờ Richard nghe tai thật.

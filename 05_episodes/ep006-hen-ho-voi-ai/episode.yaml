@@ -111,7 +111,7 @@ shots:
         file:
           path: generated/sh020-take003.mp4
           sha256: dca7b56cd1156a0ac6d7f5ff74dddeb4b2b5532391e77eb8c0ace04e5893d017
-        note: 'take003, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: đủ 3 câu (2.24-3.24, 4.1-4.8, 5.7-6.3); "à" xác minh bằng năng lượng 48kHz (nói liền 4.6-4.8s, Whisper gộp vào từ "tội"). Son đỏ giữ nguyên trong chuyển động, không vòng tay, cổ đổ đúng mẫu, móng tự nhiên. Sáng 53.5, hơi tối hơn 3 shot còn lại ~2 điểm (cân bằng lúc dựng). Giọng chờ Richard nghe. Richard 19/11: giọng Nam -> lồng clone ThaoMy (VieNeu Turbo, clone ThaoMyVeo).'
+        note: 'take003, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: đủ 3 câu (2.24-3.24, 4.1-4.8, 5.7-6.3); "à" xác minh bằng năng lượng 48kHz (nói liền 4.6-4.8s, Whisper gộp vào từ "tội"). Son đỏ giữ nguyên trong chuyển động, không vòng tay, cổ đổ đúng mẫu, móng tự nhiên. Sáng 53.5, hơi tối hơn 3 shot còn lại ~2 điểm (cân bằng lúc dựng). Giọng chờ Richard nghe. Richard 19/11: giọng Nam -> lồng clone ThaoMy (VieNeu Turbo, clone ThaoMyVeo). Bản lồng clone ThaoMy: generated/sh020-take003-dub-thaomy.mp4 (sha fceab9b8…, VieNeu Turbo trên Colab T4, enroll ref-clip2.wav). QC 19/11: không rò tiếng gốc (0-2.2s và 6.3-7.9s RMS 0.0000), đủ 3 câu đúng cửa sổ, F0 clone 229-246Hz khớp mẫu 247Hz; Q1/Q2 dài hơn miệng gốc 0.33/0.24s (chưa time-stretch). Chờ Richard nghe.'
   - shot_id: sh030
     approved_for_generation: true
     dialogue: "Tôi không đi một mình. Tôi hẹn với người tôi thích nhất."
