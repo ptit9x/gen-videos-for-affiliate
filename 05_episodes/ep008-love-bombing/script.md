@@ -34,8 +34,8 @@ Tuần 1 — năm mươi tin/ngày, "em là điều đẹp nhất". Tuần 2 —
 
 ## Tài sản và prompt
 
-Khai báo trong `episode.yaml`. Prompt video: hành động + thoại + giọng nữ miền Bắc + camera tĩnh, không nhạc/chữ/phụ đề.
+Khai báo trong `episode.yaml`. Prompt video: hành động + thoại + giọng nữ miền Bắc + camera tĩnh, không nhạc.
 
 ## Hậu kỳ
 
-Chọn take trong manifest; hard cut, tắt tiếng Veo, một giọng clone ThaoMy nữ miền Bắc đã chốt.
+Chọn take trong manifest; hard cut. Giữ tiếng Veo gốc nếu giọng Bắc; chỉ lồng clone ThaoMy nữ miền Bắc khi giọng Veo không phải Bắc hoặc Richard chỉ định lồng shot đó.

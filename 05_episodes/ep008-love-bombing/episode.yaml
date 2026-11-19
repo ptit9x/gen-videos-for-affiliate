@@ -1,7 +1,7 @@
 schema_version: 2
 episode_id: ep008
 revision: 1
-title: "Mở hộp"
+title: "Love Bombing"
 editorial_status: draft
 flow_project: null
 generation:
@@ -20,17 +20,17 @@ export:
   width: 1080
   height: 1920
   fps: 30
-target_duration_seconds: 32
+target_duration_seconds: 24
 shots:
   - shot_id: sh010
     approved_for_generation: false
-    dialogue: "Shipper gọi. Tim tôi đập nhanh hơn lúc ai nhắn."
+    dialogue: "Tuần đầu. 'Anh chưa gặp ai như em.' 'Em là điều đẹp nhất ngày anh.' Mỗi ngày năm mươi tin."
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: 1b26e3e41aaa0fc145c0b7d2acd6439d9eb364d3fcd95ab0b0ad06e1f8f08e05
+      sha256: e9ba0b37f5e685c14c19386d9bfaf066fb67ade77763a93faba6996833414a93
     motion_prompt:
       path: input/prompts/sh010-motion.txt
-      sha256: 296fc95d605374595e87facb585945c616e143f2e6bae1a8e26a0d02d15ad5df
+      sha256: 539dfaa887de4e1f104187b289b9e785ab16b9e33d93a37e8a09349c7b7a2d93
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
@@ -42,13 +42,13 @@ shots:
     takes: []
   - shot_id: sh020
     approved_for_generation: false
-    dialogue: "Mở hộp. Hộp to. Đồ bé."
+    dialogue: "Tuần hai. Một tin. 'Dạo này bận quá.' Rồi im."
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: 6b6abaf536cd43965665b7df8f2f0c37dfef6f22691a3e8cfc2bc55041babd44
+      sha256: 21816ead1adec8cecb2ca68da76a19240e6fc8fc9073870de922d0f4d0c43923
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: c38d86ba0609da888ad9075ce42fbff11a56302842d23648d745c96fa37b5f3a
+      sha256: 90ddec18bf95dbd71125bb7185e3a169b4e33e75c2cd698c2b8d2f01417858e3
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
@@ -60,31 +60,13 @@ shots:
     takes: []
   - shot_id: sh030
     approved_for_generation: false
-    dialogue: "Mặc thử. Im lặng mười giây."
+    dialogue: "Dội bom xong rút quân. Chiến thuật quân sự mà anh áp dụng vào hẹn hò."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: 9a23cad694bd0677546b2da5f82e90fc816220106b2e1f11701474a79816e637
+      sha256: ac03a4b20c21fe787420c2399d3dd13f1e85b89eb7b36ec2159554497e148255
     motion_prompt:
       path: input/prompts/sh030-motion.txt
-      sha256: 58e1aa8fa1e899ae4392bb91429bde266001c8a4160057d0e3b3dbf00d52b27f
-    image_sources:
-      - path: input/references/thao-my-face-front-v002.png
-        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
-      - path: input/references/thao-my-body-front-v003-face-v002-review.png
-        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
-    flow_image_asset_id: null
-    takes: []
-  - shot_id: sh040
-    approved_for_generation: false
-    dialogue: "Chốt thêm hai màu."
-    image_prompt:
-      path: input/prompts/sh040-image.txt
-      sha256: 906de31f5ae9b99224e2ba5022bbbd5c879addd7f05eee924f80184f4bb077f9
-    motion_prompt:
-      path: input/prompts/sh040-motion.txt
-      sha256: 98a46d1e9ff0d50035d63e8a0598e8363f7deace809f916038fdd283d65a280e
+      sha256: eb5569b3036da2669a7dc9b58ebd01048df3b4ca54fd632c8132e9f0cda0165f
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
