@@ -27,6 +27,7 @@ build_notes:
   - "4 clip Flow: Frames-direct, Veo 3.1 Lite, 10cr/clip; ban 2K upscale 0 credit, so du 750 (22:12 19/11)."
   - "Ban Boxed chua Laugh cuoi giu rieng: ep006-assembly-v1-boxed.mp4."
   - "Chua dang — chi dang/hen gio khi Richard bao. Bia: mat Thao My (theo quy tac 19/11). Facebook description mang link aff-0001 (vay SANJOLI den, theo tien le ep004); TikTok caption theo ban chot + dong CC BY Laugh Track 1."
+  - "Hen gio 19:00 thu Bay 21/11/2026 (GMT+7) ca 2 nen tang, Richard duyet master 00:06 20/11 va duyet caption qua widget 00:08. TikTok @chuyennhathaomy video 7709931957366377735 (Everyone, nhan AI bat, caption dung, bia ep006-cover-thaomy.jpg); Facebook Page post 1617186007117148 (Public, description dung ban chot + dong 'Vay den Thao My mac: https://s.shopee.vn/5LDVnTeC4f', bia mat Thao My; nhan AI khong bat duoc tren web Business Suite nhu moi lan). Cron ep006-record-publication chay 19:20 ngay 21/11 de xac minh len song that roi moi ghi published."
 audio_plan:
   mute_veo_native: false
   voice_by: mixed_native_and_clone

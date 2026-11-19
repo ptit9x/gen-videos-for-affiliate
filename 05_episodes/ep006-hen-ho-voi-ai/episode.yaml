@@ -2,7 +2,7 @@ schema_version: 2
 episode_id: ep006
 revision: 1
 title: "Hẹn Hò Với Ai"
-editorial_status: generating
+editorial_status: ready_to_publish
 flow_project: https://flow.google.com/project/c9fd3958-630c-47e1-8020-6d1db947a4b1
 generation:
   mode: frames

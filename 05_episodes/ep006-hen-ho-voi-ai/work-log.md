@@ -135,3 +135,12 @@
 - Remotion render: lần 1 fail OOM ở frame 448/674 (concurrency 2, RAM máy còn 2.5GB trống, swap đã dùng); lần 2 concurrency 1 OK 674/674 (32.1MB). Từ nay render Remotion trên máy này dùng concurrency 1 khi file ~28s trở lên.
 - Stage 3 (build_stage3.py): KHÔNG cắt assembly (giữ trọn tiếng nhai). Nhai chính kết thúc 27.4s; Laugh Track 1 nghe 28.15-29.8s, freeze 1.91s (28.08-30.00s, MSE mid-vs-end 0.0, seam 28.05-vs-29.0 MSE 0.1). Master: ep006-hen-ho-voi-ai-boxed-laughtrack1.mp4 (30.00s, 1080x1920, 24fps, -15.39 LUFS / TP -1.00, sha a3a422b1…), tại ~/workspace/ep006-hen-ho-voi-ai-clips/. Bản Boxed chưa Laugh giữ riêng: ep006-assembly-v1-boxed.mp4. Manifest edit/manifest.yaml (revision 1) đã ghi đầy đủ.
 - CHƯA ĐĂNG — chỉ đăng/hẹn giờ khi Richard bảo. Bìa: mặt Thảo My.
+
+## 2026-11-20 00:06 — Richard DUYỆT master, lệnh hẹn giờ 19:00 thứ Bảy 21/11
+- Master 30.00s DUYỆT ("ok đó, đăng đi"). Caption chốt qua widget 00:08: "Tôi hẹn với người tôi thích nhất. Là tôi. 😌" + #chuyennhathaomy #phimnganai #haiviet + dòng CC BY Laugh Track 1; Facebook thêm dòng "Váy đen Thảo My mặc: https://s.shopee.vn/5LDVnTeC4f".
+- Bìa: ep006-cover-thaomy.jpg (frame 20.9s của assembly, My cười nhìn vào camera, không chữ caption) — dùng làm custom cover/thumbnail cả 2 nền tảng.
+
+## 2026-11-20 00:09-00:15 — ĐÃ HẸN GIỜ cả 2 nền tảng (19:00 thứ Bảy 21/11)
+- TikTok @chuyennhathaomy: video 7709931957366377735, hẹn "Nov 21, 7:00 PM (GMT+7) Saigon" (badge xanh, top row, 00:30, 0 views), Everyone, nhãn AI bật (preview hiện "Creator labeled as AI-generated"), caption đúng y bản chốt, bìa mặt Thảo My. Link public lúc này 403 (chưa tới giờ, bình thường); scheduled post không sửa được trong Studio.
+- Facebook Page: post 1617186007117148, hẹn "Sat Nov 21, 7:00pm" (Asia/Jakarta GMT+7), Public, description đúng bản chốt kèm link aff-0001, thumbnail custom đã upload + chọn (dấu check xanh), Planner + Scheduled đều hiện mặt Thảo My. Nhãn AI không bật được trên web Business Suite (như mọi lần, đã kiểm tra đủ Create/Edit/Share/Advanced).
+- Hồ sơ: episode.yaml editorial_status → ready_to_publish; tracker + publications.csv (2 dòng unknown); cron ep006-record-publication chạy 19:20 ngày 21/11 để xác minh lên sóng thật rồi mới ghi published.
