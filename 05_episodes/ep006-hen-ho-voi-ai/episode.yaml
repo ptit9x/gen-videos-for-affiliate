@@ -197,7 +197,7 @@ shots:
         note: 'take002, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: "Là tôi" 4.66-5.38s; có tiếng cười "Hahaha" 0.00-0.34s đầu clip + "mmm" 3.32-4.08s trước câu. Không phụ đề giả. Ghế gỗ tối + sáng 54.9 khớp cả 4. Giọng chờ Richard nghe.'
       - take_id: take003
         clip_id: 426dae2e-350c-41d6-a4dd-c5e43e6a69e3
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh040-take003.mp4
           sha256: 2d71a7eb365dd23b2edf7a353c778533b0e876aeffa3907d298260b74e7a5546

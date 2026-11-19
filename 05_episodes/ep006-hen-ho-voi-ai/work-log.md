@@ -114,3 +114,7 @@
 ## 2026-11-19 21:43 — Richard DUYỆT sh010 take004, giữ tiếng gốc
 - take004 status accepted_editorial; giữ tiếng Veo gốc, KHÔNG lồng clone.
 - Bộ take hiện tại: sh010 take004 DUYỆT (tiếng gốc), sh020 take003 DUYỆT (bản lồng clone), sh030 take002 DUYỆT (tiếng gốc), sh040 take003 giọng Bắc giữ tiếng gốc (chờ duyệt take) — chỉ còn sh040 là chưa chốt.
+
+## 2026-11-19 22:12 — Richard DUYỆT sh040 take003 — ĐỦ 4 TAKE
+- take003 status accepted_editorial; giữ tiếng Veo gốc.
+- Bộ take CHỐT: sh010 take004 DUYỆT (tiếng gốc), sh020 take003 DUYỆT (bản lồng clone), sh030 take002 DUYỆT (tiếng gốc), sh040 take003 DUYỆT (tiếng gốc). Bắt đầu dựng master: tải 2K upscale cả 4 take → trim → crop watermark Veo → hard cut → Boxed captions + SRT → Laugh Track 1 cuối twist → loudness ~-14 LUFS → trình Richard duyệt master.
