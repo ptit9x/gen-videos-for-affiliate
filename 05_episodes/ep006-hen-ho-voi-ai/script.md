@@ -12,7 +12,7 @@ Thảo My mặc đẹp đi ăn nhà hàng một mình. Ai cũng hỏi "hẹn v�
 
 ### Thảo My (sh010–sh040)
 - Mặt/tóc: `thao-my-face-front-v002.png`; body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
-- Trang phục: Váy hai dây maxi suông kem + áo sơ mi linen dài tay form rộng khoác ngoài. Chưa chốt chính thức.
+- Trang phục: Váy hai dây maxi suông kem + áo sơ mi linen dài tay form rộng màu tím nhạt khoác ngoài. Màu tím nhạt tạm chốt theo ảnh mẫu để làm frame sh010, chưa chốt chính thức.
 - Bối cảnh: Nhà hàng chiều tối, đèn vàng ấm, bàn cho một người, ghế đối diện trống. Location mới, chưa có master trong `03_locations/`.
 - Đạo cụ: Điện thoại iPhone 16/17/18 Pro Max có ốp lưng Slimcase trong suốt (sh020).
 
@@ -39,8 +39,8 @@ Thảo My mặc đẹp đi ăn nhà hàng một mình. Ai cũng hỏi "hẹn v�
 
 ## Tài sản và prompt
 
-Khai báo trong `episode.yaml`. Prompt video: hành động + thoại + giọng nữ miền Bắc + camera tĩnh, không nhạc/chữ/phụ đề.
+Khai báo trong `episode.yaml`. Prompt video: hành động + thoại + giọng nữ miền Bắc + camera tĩnh, không nhạc.
 
 ## Hậu kỳ
 
-Chọn take trong manifest; hard cut, tắt tiếng Veo, một giọng clone ThaoMy nữ miền Bắc đã chốt.
+Chọn take trong manifest; hard cut. Giữ tiếng Veo gốc nếu giọng Bắc; chỉ lồng clone ThaoMy nữ miền Bắc khi giọng Veo không phải Bắc hoặc Richard chỉ định lồng shot đó.
