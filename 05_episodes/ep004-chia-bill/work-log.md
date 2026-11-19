@@ -111,3 +111,15 @@ Người dùng trả lời “ok đó” cho bản đối thoại kết “Rẻ 
 
 - Facebook Page Chuyện Nhà Thảo My: post ID 1585624176939181, hẹn 19:00 ngày 19/11 (Asia/Saigon GMT+7), Public, description có link Shopee (verify 2 lần: trong composer + preview bài hẹn giờ); nhãn AI không bật được trên web Business Suite. Bài ep003 hẹn 19h tối nay không bị đụng. Composer có spinner treo sau khi bấm Schedule nhưng lịch đã ăn server-side (hiện cả Scheduled list + Planner) nên không bấm lại, tránh trùng bài.
 - Cả 2 nền tảng đã hẹn xong 19h 19/11. Chưa public — chỉ ghi published sau khi xác minh cả 2 bài lên sóng thật (~19:20 ngày 19/11).
+
+## 2026-11-19 — Bee (Muse), quyết bìa ep004
+
+- Bìa cả 2 bài hẹn giờ 19h tối nay đều là mặt Bằng (TikTok không cho sửa bài đã hẹn giờ; Facebook không có mục đổi thumbnail). Người dùng quyết 13:20: ĐỂ NGUYÊN bìa Bằng tập này, không xóa/đăng lại. Hai bài giữ nguyên lịch 19h; cron 19:20 xác minh lên sóng rồi ghi nhận.
+
+## 2026-11-19 — Bee (Muse), đã đăng cả 2 nền tảng (xác minh 19:2x)
+
+- TikTok @chuyennhathaomy: video 7709443983012826386 public (Everyone), 5 views lúc xác minh; caption đúng; nhãn "Creator labeled as AI-generated" bật. URL: https://www.tiktok.com/@chuyennhathaomy/video/7709443983012826386
+- Facebook Page Chuyện Nhà Thảo My: reel 1950158259280138, Shared with Public, 0 views/lượt tương tác lúc xác minh; description có dòng link Shopee aff-0001. URL: https://www.facebook.com/reel/1950158259280138
+- Lưu ý ID: ID hẹn giờ 1585624176939181 là ID lịch hẹn, không hiển thị dạng ID bài đã đăng; Business Suite item ID 1232202395805917; reel ID công khai 1950158259280138.
+- Nhãn AI Facebook: không bật được trên web Business Suite (như ep003); chưa xác minh có hiển thị trên bài đã đăng hay không.
+- Ghi nhận: editorial_status → published; publications.csv + production-tracker.csv + affiliate-placements.csv (plc-0001, aff-0001 trên bài Facebook).

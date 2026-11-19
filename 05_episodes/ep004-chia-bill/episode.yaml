@@ -2,7 +2,7 @@ schema_version: 2
 episode_id: ep004
 revision: 5
 title: Chia Bill
-editorial_status: ready_to_publish
+editorial_status: published
 flow_project: https://flow.google.com/project/b19785af-f9bc-4736-a615-c8ca2bdf6ae7
 generation:
   mode: frames
