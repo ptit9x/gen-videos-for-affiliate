@@ -14,3 +14,8 @@
 - Richard: áo linen không hợp bối cảnh nhà hàng tối; hỏi còn màu váy cũ nào chưa lên video. Kiểm kê: kem ep001/ep002, trắng ep003, hồng ep004, xanh dương ep005 đều đã lên video; chỉ còn Đen chưa có clip nào (từng định cho ep001, chỉ có frame tĩnh).
 - Đổi ep006: váy hai dây maxi suông SANJOLI màu đen, không áo khoác ngoài — Richard chốt. Bỏ áo linen khỏi script/wardrobe/cả 4 image prompt; aff-0002 giữ trong `affiliate-links.csv` cho tập sau, không còn placement trong ep006.
 - Frame sh010 v1 tím (commit `4dcc74d`) đổi tên thành `sh010-first-frame-v1-linen.jpg`, giữ lại làm lịch sử. Frame v2 váy đen làm MỚI 1 lần từ master v002 gốc (không sửa nối từ frame v1), pipeline ảnh Bee, 0 Flow credit: `sh010-first-frame.jpg` (1152×2048, sha256 `cc02928254f59aa10e4d99ce30eac52e99ba39bfdb5fbd28f97d95f1e4a039f5`). Chờ Richard duyệt frame v2 trước khi gen clip.
+
+## 2026-11-19 — Frame sh010 v3: váy lụa đen cổ đổ đúng mẫu (Bee)
+- Richard: váy đen v2 chưa giống váy mẫu. Soi ảnh mẫu: váy lụa 2 dây maxi suông, cổ đổ, dây mảnh, suông dài 111cm, vải lụa bóng; v2 cổ tròn, vải mờ như camisole, khung cắt ngang eo nên không thấy độ dài maxi.
+- Sửa prompt cả 4 shot + script + wardrobe: "váy lụa ... màu đen, cổ đổ, dây mảnh, dáng suông dài, vải lụa bóng"; ghi nguồn mẫu kem vào wardrobe.md.
+- Frame v2 đổi tên thành `sh010-first-frame-v2-black.jpg`, giữ lại. Frame v3 làm MỚI 1 lần từ master v002 gốc + ảnh mẫu kem ngồi làm tham chiếu váy (cùng mẫu đổi sang đen), pipeline ảnh Bee, 0 Flow credit: `sh010-first-frame.jpg` (1152×2048, sha256 `ce0387b144b35b8c778558ab3921828dd682b8b7c6c54e92c58eb008aeef32b4`). Cổ đổ + lụa bóng + tà dài thấy rõ tới gần sàn. Chờ Richard duyệt frame v3.
