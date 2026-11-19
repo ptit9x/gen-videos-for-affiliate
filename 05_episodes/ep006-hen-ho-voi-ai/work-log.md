@@ -26,3 +26,8 @@
 - sh030 v1 lỗi: sân thượng ban ngày, áo dài tay có nhãn SANJOLI — giữ lại `sh030-first-frame-v1-outdoor.jpg`. v2 đạt: nhà hàng tối, váy hai dây cổ đổ vai trần, son đỏ, nhìn thẳng camera ánh mắt ấm. `sh030-first-frame.jpg` sha256 `d69c2263…`.
 - sh040 v1 đạt ngay: váy lụa đen cổ đổ, cắn bánh cười thoải mái, bàn nhà hàng ấm. `sh040-first-frame.jpg` sha256 `284938b0…`.
 - Cả 4 frame ep006 đã đủ, chờ Richard duyệt sh020/sh030/sh040 trước khi gen clip. Chưa làm: episode.yaml ep006, manifest, gen clip.
+
+## 2026-11-19 — episode.yaml + duyệt gen (Bee)
+- Richard duyệt sh020/sh030/sh040 → lập `episode.yaml` (4 shot, dialogue khớp script, prompt + frame hash đã tính, frame_status approved, approved_for_generation true) và `edit/manifest.yaml` (audio_plan: giữ tiếng Veo nếu giọng Bắc).
+- Validator default exit 0; generation gate chặn đúng kỳ vọng (chưa có Flow project, draft).
+- Cập nhật production-tracker.csv: váy đen (không còn kem), 4 frame duyệt, đang gen.

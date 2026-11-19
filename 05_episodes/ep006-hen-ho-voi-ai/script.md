@@ -1,6 +1,6 @@
 # ep006-1 — Hẹn Hò Với Ai
 
-Trạng thái: draft, chưa duyệt gen. Thảo My solo (kể lại), bốn shot 8 giây, dự kiến 32 giây trước trim; khung dọc 9:16.
+Trạng thái: draft, 4 frame đã duyệt 19/11, Richard duyệt gen 4 shot (Frames-direct, Veo 3.1 Lite). Chưa có Flow project.
 
 ## Ý tưởng và twist
 

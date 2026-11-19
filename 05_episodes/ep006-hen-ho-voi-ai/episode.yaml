@@ -1,0 +1,104 @@
+schema_version: 2
+episode_id: ep006
+revision: 1
+title: "Hẹn Hò Với Ai"
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 32
+shots:
+  - shot_id: sh010
+    approved_for_generation: true
+    dialogue: "Mặc đẹp. Son đỏ. Đặt bàn cho một người. Mọi người lại hỏi."
+    image_prompt:
+      path: input/prompts/sh010-image.txt
+      sha256: 541217bbdce29a5bd34dbd626ba2b6cfbb07e1c5fc1a6f345297c1505cc297bc
+    motion_prompt:
+      path: input/prompts/sh010-motion.txt
+      sha256: 6249ac9f594b0b5d66d54ddd2d94aef38d42f331763f07f345ee7c5008b8284e
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame:
+      path: input/frames/sh010-first-frame.jpg
+      sha256: ce0387b144b35b8c778558ab3921828dd682b8b7c6c54e92c58eb008aeef32b4
+    frame_status: approved
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: true
+    dialogue: "'Hẹn với ai vậy?' 'Đi một mình à?' 'Tội ghê.'"
+    image_prompt:
+      path: input/prompts/sh020-image.txt
+      sha256: 3bbe251633b8f12aee8bc70b6c36e8d84b45c57cd9ecab083cb428ad9245b4ff
+    motion_prompt:
+      path: input/prompts/sh020-motion.txt
+      sha256: 25491246d424cdf46c33e49627157f9b1b240d21c58c5029cec9f31a06e122d6
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame:
+      path: input/frames/sh020-first-frame.jpg
+      sha256: afc1dc9631d311b8c11d751ce27b7672259ff01a8e39e6d9fb1ec72a51068259
+    frame_status: approved
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: true
+    dialogue: "Tôi không đi một mình. Tôi hẹn với người tôi thích nhất."
+    image_prompt:
+      path: input/prompts/sh030-image.txt
+      sha256: dbb967b96ecdfbfa2938d3911d4f5d2db5eed1c6fe0517770978696e5edad4fc
+    motion_prompt:
+      path: input/prompts/sh030-motion.txt
+      sha256: 7248f4ac7c593dd123629f927cc2fa435ea5a9bf5b5a87f5108ba6fb57224bac
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame:
+      path: input/frames/sh030-first-frame.jpg
+      sha256: d69c2263c5c19ccf9df9a62bddbea6a81039ceca96e97186f053404dbc2e8ed2
+    frame_status: approved
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh040
+    approved_for_generation: true
+    dialogue: "Là tôi."
+    image_prompt:
+      path: input/prompts/sh040-image.txt
+      sha256: 3f88419e2fa2dd6a115f82f66688b107c7512f495668abbefe5cb6c034efdd41
+    motion_prompt:
+      path: input/prompts/sh040-motion.txt
+      sha256: 01050c016d6614a75e29bec96612ba20ea4bed2ce83f2a24c8726756c6f55f89
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame:
+      path: input/frames/sh040-first-frame.jpg
+      sha256: 284938b024bcfddc7f58a4595c51c855d14be72fdd476b8ace627002c3d71d67
+    frame_status: approved
+    flow_image_asset_id: null
+    takes: []

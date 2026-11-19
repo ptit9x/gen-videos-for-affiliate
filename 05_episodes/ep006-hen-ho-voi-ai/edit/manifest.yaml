@@ -1,0 +1,15 @@
+schema_version: 2
+episode_id: ep006
+revision: 1
+locked_duration_seconds: null
+planned_source_duration_seconds: null
+selected_takes: []
+build_commands: []
+audio_plan:
+  mute_veo_native: false
+  voice_by: veo_native_if_northern
+  note: "Giữ tiếng Veo gốc nếu giọng Bắc; chỉ lồng clone ThaoMy nữ miền Bắc khi giọng Veo không phải Bắc hoặc Richard chỉ định lồng shot đó."
+transition_plan: hard_cuts_only
+qc:
+  status: not_run
+  report_file: null
