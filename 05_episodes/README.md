@@ -19,7 +19,7 @@ ep001 rev3 dùng mặt mới/body v003, chưa gen frame/clip mới; ID take rev2
 
 ---
 
-## Lineup — 19 tập (cập nhật 2026-11-18)
+## Lineup — 20 tập (cập nhật 2026-11-19)
 
 ### Solo (giữ nguyên)
 
@@ -31,6 +31,12 @@ ep001 rev3 dùng mặt mới/body v003, chưa gen frame/clip mới; ID take rev2
 | ep007-gio-hang | Giỏ hàng | Draft |
 | ep014-last-christmas | Last Christmas | Draft |
 | ep015-bao-gio-lay-chong | Bao giờ lấy chồng | Draft |
+
+### Ngoài series
+
+| Tập | Tên | Câu chốt | Trend |
+|---|---|---|---|
+| ep019-kham-benh | Khám Bệnh | "Không có thì khỏi cần." | Châm biếm bảo hiểm y tế |
 
 ### Series hẹn hò — Thảo My vs 13 chàng trai
 
