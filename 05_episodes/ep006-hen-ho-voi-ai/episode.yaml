@@ -60,6 +60,13 @@ shots:
           path: generated/sh010-take002.mp4
           sha256: 71b3b181817d4caed959447614ebc983454d4b034ae00442d4d0cfff5e612555
         note: 'take002, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: 7.93s 720x1280, Whisper base nghe đủ thoại 0.00-6.32s, không phụ đề giả, không bóng ma đuôi. Ghế gỗ tối + sáng 55.7 khớp cả 4. Giọng chờ Richard nghe. Richard 19/11: khăn ăn trùm lên đĩa (lỗi từ frame đầu: tay + khăn đã ở ngay trên đĩa) -> REJECTED, làm frame mới (khăn gấp gọn bên trái đĩa, tay đặt trên đùi) + gen lại take003.'
+      - take_id: take003
+        clip_id: f54cfebd-e50d-41ff-9521-c67dded09fe7
+        status: needs_review
+        file:
+          path: generated/sh010-take003.mp4
+          sha256: 3b7d82dc308dcbfc8f5421a8bfcc7252b5bb30077704323f44d34f6ffd27bd40
+        note: 'take003, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: đủ thoại 0.00-6.72s (Whisper nghe "đỏ" thành "đó", "Đặt" thành "lật" — lỗi thanh điệu quen thuộc của base). Son đỏ + cổ đổ khớp, sáng 56.2 khớp cả tập, không phụ đề giả, không bóng ma. NHƯNG khăn vẫn trùm lên đĩa ở t=4 và t=7.5 — motion mới không cứu được vì frame đầu đã vẽ tay + khăn ngay trên đĩa, Veo chỉ đặt khăn xuống đĩa. Cần frame mới (khăn bên trái đĩa) rồi gen lại. Giọng chờ Richard nghe.'
   - shot_id: sh020
     approved_for_generation: true
     dialogue: "'Hẹn với ai vậy?' 'Đi một mình à?' 'Tội ghê.'"

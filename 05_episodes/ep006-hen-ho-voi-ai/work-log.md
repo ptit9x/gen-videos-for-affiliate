@@ -77,3 +77,11 @@
 ## 2026-11-19 20:16 — Richard duyệt sh030 take002
 - sh030 take002: giọng Bắc, DUYỆT luôn (giữ tiếng Veo gốc). status accepted_editorial.
 - Bộ take hiện tại: sh010 take002 rejected (đang làm frame mới), sh020 take003 chờ lồng clone ThaoMy, sh030 take002 DUYỆT, sh040 take003 giọng Bắc (giữ tiếng gốc, chờ duyệt take).
+
+## 2026-11-19 20:18–20:19 — frame sh010 v5 BỊ LOẠI, gen lại từ frame cũ
+- Richard loại frame v5: son đỏ ĐẬM hơn 3 shot kia, nốt ruồi cằm trái MẤT, bàn ghế không đúng. Bee QC frame v5 sót cả 3 điểm (chỉ check "có son đỏ" chứ không so sắc son; không check nốt ruồi; không so đồ đạc với 3 shot kia). Bài học: QC frame phải so son (màu + độ đậm), nốt ruồi, đồ đạc TRỰC TIẾP với các frame đã duyệt của tập, không check lẻ từng ảnh.
+- Richard quyết: KHÔNG cần frame mới, gen lại từ ảnh cũ (sh010 v4-flow đã duyệt) với motion prompt mới (không chạm khăn). Đang gen sh010 take003 (10cr, số dư 770 → 760). Frame v5 giữ lại làm lịch sử, không dùng.
+
+## 2026-11-19 20:23 — sh010 take003 vẫn lỗi khăn
+- Gen từ frame cũ v4 + motion mới (không chạm khăn), 10cr, số dư 770 → 760, clip f54cfebd….
+- QC: đủ thoại 0.00-6.72s, son + cổ đổ + sáng (56.2) đều khớp, không phụ đề giả/bóng ma. NHƯNG khăn vẫn trùm lên đĩa ở t=4 và t=7.5 — motion mới không cứu được vì frame đầu đã vẽ tay + khăn ngay trên đĩa, Veo chỉ đặt khăn xuống đĩa. Kết luận: lỗi nằm ở frame, không sửa được bằng motion. Đề xuất: làm frame mới từ master, khóa chặt theo đúng frame v4 (trung cảnh, bàn tròn gỗ + ghế gỗ tối như cũ, son đỏ sáng, nốt ruồi cằm trái còn) chỉ khác khăn gấp gọn bên trái đĩa + tay trên đùi, rồi gen lại take004. Chờ Richard gật.
