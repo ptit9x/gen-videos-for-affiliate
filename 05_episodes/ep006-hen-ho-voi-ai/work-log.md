@@ -118,3 +118,8 @@
 ## 2026-11-19 22:12 — Richard DUYỆT sh040 take003 — ĐỦ 4 TAKE
 - take003 status accepted_editorial; giữ tiếng Veo gốc.
 - Bộ take CHỐT: sh010 take004 DUYỆT (tiếng gốc), sh020 take003 DUYỆT (bản lồng clone), sh030 take002 DUYỆT (tiếng gốc), sh040 take003 DUYỆT (tiếng gốc). Bắt đầu dựng master: tải 2K upscale cả 4 take → trim → crop watermark Veo → hard cut → Boxed captions + SRT → Laugh Track 1 cuối twist → loudness ~-14 LUFS → trình Richard duyệt master.
+
+## 2026-11-19 22:45 — 2K upscale cả 4 take đã về + kiểm chứng
+- Tải 22:13-22:44 (Flow, 0cr), xác minh trên disk (không tin toast): 4 file 1080×1920 24fps, AAC 48kHz stereo, 7.85s mỗi clip (ngắn hơn bản 1K 7.93s đúng như đã biết). Soi frame t=4 từng file: đúng shot (sh010 khăn bên đĩa, sh020 cầm điện thoại, sh030 nói vào camera, sh040 ăn/nhai).
+- File: generated/2k/sh010-take004-2k.mp4 (sha f7c19e4d…), sh020-take003-2k.mp4 (sha adee589c…), sh030-take002-2k.mp4 (sha 94ec3d2e…), sh040-take003-2k.mp4 (sha 23d29cf7…).
+- Lưu ý dựng: sh020 bản 2K là tiếng gốc Nam — phải lồng lại bằng dub track đã có (generated/dub/sh020-take003-dub-track.wav), kiểm tra lại cửa sổ miệng trên bản 2K vì thời lượng lệch 0.08s so với bản 1K. sh010 sáng hơn các shot ~4-6 điểm — cân bằng lúc dựng. Watermark Veo góc dưới phải còn trên cả 4 bản 2K — crop theo quy tắc repo trước khi burn phụ đề.
