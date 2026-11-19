@@ -1,15 +1,37 @@
 schema_version: 2
 episode_id: ep006
 revision: 1
-locked_duration_seconds: null
+locked_duration_seconds: 30.0
 planned_source_duration_seconds: null
-selected_takes: []
-build_commands: []
+selected_takes:
+  - shot_id: sh010
+    take_id: take004
+  - shot_id: sh020
+    take_id: take003
+  - shot_id: sh030
+    take_id: take002
+  - shot_id: sh040
+    take_id: take003
+build_commands:
+  - "python3 ~/workspace/ep006-hen-ho-voi-ai-clips/build_stage1.py  # ghep 4 clip 2K, crop watermark Veo, can sang, concat filter, loudnorm"
+  - "python3 ~/workspace/ep006-hen-ho-voi-ai-clips/build_captions.py  # Whisper base + can theo kich ban, xuat captions.json/SRT"
+  - "Remotion BasicCaptions (boxed) tu ~/workspace/remotion-captions-test, out ep006-boxed-tmp.mp4, accent #F59E0B, khong title card (lan 1 fail OOM frame 448/674 voi concurrency 2; lan 2 concurrency 1 OK, 674/674)"
+  - "python3 ~/workspace/ep006-hen-ho-voi-ai-clips/build_stage3.py  # chen Laugh Track 1 cuoi (sau tieng nhai) + freeze-frame tail"
+build_notes:
+  - "Master: ep006-hen-ho-voi-ai-boxed-laughtrack1.mp4 (30.00s, 1080x1920, 24fps, -15.39 LUFS/TP -1.00, sha a3a422b1fcdfb1748ef4c9ae4c4450b44c00cbe2154b33f19c83c503b95b1d11), tai ~/workspace/ep006-hen-ho-voi-ai-clips/."
+  - "Trim: sh010 7.5s / sh020 7.0s / sh030 7.0s / sh040 6.5s (tong assembly 28.0s); crop 960:1707:60:0 + lanczos 1080x1920, sach watermark Veo + sparkle (kiem tra 4 goc tren QC sheet)."
+  - "Can sang theo vung crop (khong phai full-frame): post-crop sh010 65.2 / sh020 57.7 / sh030 59.5 / sh040 61.2, dich 60.9; eq sh010 -0.010, sh020 +0.007, sh030 +0.003; ket qua 60.6 / 56.6 / 58.4 / 61.2 (eq duong khong sang len nhu ky vong, du 4.6 diem, chap nhan — nhin tren QC sheet deu). Bai hoc: eq brightness -0.023 do duoc -10.0 diem (he so ~435 diem/1.0), khong phai -5.9."
+  - "sh020: ban 2K goc la giong Nam, da long lai bang dub track cua ban 1K da duyet (clone ThaoMyVeo, Richard duyet 20:27); audio 2K dub giong het ban 1K (corr 1.00000, max diff 0.0026), Whisper nghe du 3 cau, khoang lang 0-2.0s va 6.5-7.85s tuyet doi, moi mo dung cua so 2.5/4.1/5.7s. Luu y: Whisper dat tu 'Toi' (Q3) o 4.90s la SAI — cua so mieng that 5.70-6.25s theo nang luong 48kHz."
+  - "Boxed captions #F59E0B 37 tu; SRT kem theo: ep006-hen-ho-voi-ai-subtitles.srt. Fix bien: tu 'La' cua sh040 bi Whisper dat sang sh030 (chuyen lai + clamp ve 21.50s); tieng nhai sh040 bi nghe thanh 'Mhmmm' (bo qua)."
+  - "Laugh Track 1 (LittleRainySeasons, CC BY, Freesound; file ~/workspace/laugh-sfx/final/laugh-track-1-ccby.mp3) 1 lan cuoi tap: tieng nhai chinh ket thuc 27.4s, cuoi nghe 28.15-29.8s, freeze 1.91s (28.08-30.00s, MSE mid-vs-end 0.0). Khong cat ngan assembly (giu tron tieng nhai nhu content)."
+  - "4 clip Flow: Frames-direct, Veo 3.1 Lite, 10cr/clip; ban 2K upscale 0 credit, so du 750 (22:12 19/11)."
+  - "Ban Boxed chua Laugh cuoi giu rieng: ep006-assembly-v1-boxed.mp4."
+  - "Chua dang — chi dang/hen gio khi Richard bao. Bia: mat Thao My (theo quy tac 19/11). Facebook description mang link aff-0001 (vay SANJOLI den, theo tien le ep004); TikTok caption theo ban chot + dong CC BY Laugh Track 1."
 audio_plan:
   mute_veo_native: false
-  voice_by: veo_native_if_northern
-  note: "Giữ tiếng Veo gốc nếu giọng Bắc; chỉ lồng clone ThaoMy nữ miền Bắc khi giọng Veo không phải Bắc hoặc Richard chỉ định lồng shot đó."
+  voice_by: mixed_native_and_clone
+  note: "Giữ tiếng Veo gốc nếu giọng Bắc (sh010/sh030/sh040); sh020 lồng clone ThaoMy (giọng Veo gốc là Nam), track dub đã được Richard duyệt 20:27."
 transition_plan: hard_cuts_only
 qc:
-  status: not_run
+  status: passed
   report_file: null
