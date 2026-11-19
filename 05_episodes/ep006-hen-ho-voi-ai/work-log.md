@@ -105,3 +105,8 @@
 ## 2026-11-19 20:40 — Richard DUYỆT frame sh010 v6 đã crop
 - Frame v6 crop (box 150,0,1387,2200 → 1080×1920, sha 7ed61229…) DUYỆT, thay canonical sh010-first-frame.jpg (v4 giữ nguyên ở sh010-first-frame-v4-flow.jpg). Flow ID 05ae1bd2-913e-45f8-a79c-d5f04867c194. Luminance crop 59.7 (sáng hơn ~4 điểm so với các shot, cân bằng lúc dựng).
 - Gen sh010 take004 (Veo 3.1 Lite, 10cr, số dư 760 → 750) với motion prompt đã viết lại (không chạm khăn).
+
+## 2026-11-19 20:44 — sh010 take004 xong, QC đạt (chờ Richard duyệt take + giọng)
+- Gen 20:40-20:44, clip fee00309-41d6-4a6a-813c-8cadd19f2852, 10cr, số dư 750. Frame v6 crop (upload thẳng, Frames-direct, Agent OFF, prompt verbatim không chạm khăn).
+- QC trên file đã tải về (sha de18da76…): 7.93s 720×1280 24fps; Whisper base nghe đủ 4 cụm 0.00-6.74s; khăn gấp gọn bên trái đĩa ở cả 3 mốc t=1/4/7.5, đĩa nhìn rõ — lỗi khăn ĐÃ HẾT; son/nốt ruồi/cổ đổ khớp; không phụ đề giả, không bóng ma đuôi (sau 7.0s chỉ còn ambience). Sáng 60.0, cao hơn các shot ~4-6 điểm — cân bằng lúc dựng.
+- Bộ take: sh010 take004 chờ duyệt, sh020 take003 DUYỆT (bản lồng), sh030 take002 DUYỆT (tiếng gốc), sh040 take003 giọng Bắc giữ tiếng gốc (chờ duyệt take).
