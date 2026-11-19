@@ -90,3 +90,7 @@
 - Clone ThaoMyVeo trên Colab T4 (VieNeu v3 Turbo, enroll ref-clip2.wav; gói pip tên `vieneu`, VM mới phải pip install). 3 câu đặt theo cửa sổ miệng native (Q1 2.24s, Q2 4.10s, Q3 5.70s), chuẩn hoá RMS từng câu, tắt hẳn tiếng gốc Nam.
 - File: generated/sh020-take003-dub-thaomy.mp4 (sha fceab9b8…, 7.93s 720p). Bee kiểm chứng độc lập: Whisper nghe đủ 3 câu đúng cửa sổ (sai thanh điệu trên giọng clone — lỗi đã biết của base); năng lượng 0-2.2s và 6.3-7.9s = 0.0000 (không rò tiếng gốc); F0 clone 229-246Hz khớp mẫu enroll 247Hz.
 - Lưu ý: Q1 dài hơn miệng gốc 0.33s (tới 3.63s), Q2 dài hơn 0.24s (tới 5.04s) — chưa time-stretch (kéo 1.3×+ sẽ vội giọng; ep004 sh040 từng duyệt với lệch 0.3s tương tự). Chờ Richard nghe tai thật.
+
+## 2026-11-19 20:27 — Richard duyệt bản lồng sh020
+- Bản lồng sh020 take003 (clone ThaoMyVeo) DUYỆT — giọng clone ok, không cần kéo nhanh Q1/Q2. take003 status accepted_editorial; bản được duyệt là file lồng (generated/sh020-take003-dub-thaomy.mp4), không phải file gốc.
+- Bộ take hiện tại: sh010 chờ frame v6 + take004, sh020 take003 DUYỆT (bản lồng), sh030 take002 DUYỆT (tiếng gốc), sh040 take003 giọng Bắc giữ tiếng gốc (chờ duyệt take).
