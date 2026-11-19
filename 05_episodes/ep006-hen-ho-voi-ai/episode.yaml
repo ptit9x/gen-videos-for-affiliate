@@ -2,8 +2,8 @@ schema_version: 2
 episode_id: ep006
 revision: 1
 title: "Hẹn Hò Với Ai"
-editorial_status: draft
-flow_project: null
+editorial_status: generating
+flow_project: https://flow.google.com/project/c9fd3958-630c-47e1-8020-6d1db947a4b1
 generation:
   mode: frames
   agent: false
@@ -41,7 +41,14 @@ shots:
       sha256: ce0387b144b35b8c778558ab3921828dd682b8b7c6c54e92c58eb008aeef32b4
     frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: e8444ca2-1daa-4a06-8f5c-afba2b1b9f8b
+        status: needs_review
+        file:
+          path: generated/sh010-take001.mp4
+          sha256: e9cde7522483dac71b1aae307ee7b6ea0bbd91af69dd836010f2b214219be83c
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: 7.93s 720x1280, Whisper base nghe đủ thoại 0.00-6.90s, không phụ đề giả, không bóng ma đuôi. Giọng chờ Richard nghe.'
   - shot_id: sh020
     approved_for_generation: true
     dialogue: "'Hẹn với ai vậy?' 'Đi một mình à?' 'Tội ghê.'"
@@ -61,7 +68,14 @@ shots:
       sha256: afc1dc9631d311b8c11d751ce27b7672259ff01a8e39e6d9fb1ec72a51068259
     frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 739fdcf6-12df-4821-af2a-a4c123975ec0
+        status: needs_review
+        file:
+          path: generated/sh020-take001.mp4
+          sha256: ca93548f809baf7416d8e9fb683c29a82843905e92b091286deb28bec7cf858a
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: đủ 3 câu (0.58-1.56, 2.24-3.00, 4.50-5.22); "à" nằm trong span 2.4-3.0 theo năng lượng 48kHz. Đuôi 5.4-7.9s lặng, không phụ đề giả. Preview Flow từng báo "Không tải được video" nhưng file tải về decode bình thường.'
   - shot_id: sh030
     approved_for_generation: true
     dialogue: "Tôi không đi một mình. Tôi hẹn với người tôi thích nhất."
@@ -81,7 +95,14 @@ shots:
       sha256: d69c2263c5c19ccf9df9a62bddbea6a81039ceca96e97186f053404dbc2e8ed2
     frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: af18e0b6-fa57-4f05-81c2-dfdca584a94e
+        status: needs_review
+        file:
+          path: generated/sh030-take001.mp4
+          sha256: 6834c7e0dc8a2ff3dd3a697ea2fea15ad6d3e2dc7a6263a3f19cfc002a676325
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: thoại đủ từng chữ 0.00-5.96s, không phụ đề giả, không bóng ma đuôi. Giọng chờ Richard nghe.'
   - shot_id: sh040
     approved_for_generation: true
     dialogue: "Là tôi."
@@ -101,4 +122,11 @@ shots:
       sha256: 284938b024bcfddc7f58a4595c51c855d14be72fdd476b8ace627002c3d71d67
     frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: e329e1c8-1e01-4afa-96cc-a8cfe7b3676e
+        status: needs_review
+        file:
+          path: generated/sh040-take001.mp4
+          sha256: 2b1a2c01413b921441e03b3cb118b66c73f84cc884f2a16b534f2c6f5ff78435
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: "Là tôi" 4.68-6.90s; có tiếng "mmm" 3.28-4.68s trước câu (đang nhai bánh), không phụ đề giả. Giọng chờ Richard nghe.'

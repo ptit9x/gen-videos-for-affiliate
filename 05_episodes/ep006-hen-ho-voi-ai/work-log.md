@@ -31,3 +31,9 @@
 - Richard duyệt sh020/sh030/sh040 → lập `episode.yaml` (4 shot, dialogue khớp script, prompt + frame hash đã tính, frame_status approved, approved_for_generation true) và `edit/manifest.yaml` (audio_plan: giữ tiếng Veo nếu giọng Bắc).
 - Validator default exit 0; generation gate chặn đúng kỳ vọng (chưa có Flow project, draft).
 - Cập nhật production-tracker.csv: váy đen (không còn kem), 4 frame duyệt, đang gen.
+
+## 2026-11-19 — Gen 4 clip take001 + QC (Bee)
+- Project Flow mới: "CNTM · EP006 · Hẹn Hò Với Ai" (https://flow.google.com/project/c9fd3958-630c-47e1-8020-6d1db947a4b1), acc huynhdn Pro. 4 clip Frames-direct Veo 3.1 Lite, 10cr/clip, tổng 40cr, số dư 870 → 830 (reset 16/12). Tải bản 720p về `generated/sh0X0-take001.mp4`, đã kiểm tra file trên disk + ffprobe (7.93s, 720×1280, 24fps, có tiếng).
+- QC Whisper base: sh010 đủ thoại 0.00–6.90s; sh020 đủ 3 câu (0.58–1.56, 2.24–3.00, 4.50–5.22 — "à" trong span 2.4–3.0 theo năng lượng 48kHz, đuôi lặng); sh030 đủ từng chữ 0.00–5.96s; sh040 "Là tôi" 4.68–6.90s + tiếng "mmm" 3.28–4.68s trước câu (đang nhai bánh). Cả 4: không phụ đề giả, không bóng ma đuôi (soi frame 4s + 7.5s). Veo watermark góc phải dưới còn nguyên — crop ở khâu dựng.
+- Lưu ý: preview Flow của sh020 từng báo "Không tải được video" nhưng file tải về decode bình thường.
+- episode.yaml: flow_project + 4 take take001 (status needs_review, file + sha256), editorial_status generating. Validator default exit 0. Chờ Richard duyệt take + nghe giọng từng shot.
