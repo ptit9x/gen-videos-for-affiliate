@@ -19,3 +19,10 @@
 - Richard: váy đen v2 chưa giống váy mẫu. Soi ảnh mẫu: váy lụa 2 dây maxi suông, cổ đổ, dây mảnh, suông dài 111cm, vải lụa bóng; v2 cổ tròn, vải mờ như camisole, khung cắt ngang eo nên không thấy độ dài maxi.
 - Sửa prompt cả 4 shot + script + wardrobe: "váy lụa ... màu đen, cổ đổ, dây mảnh, dáng suông dài, vải lụa bóng"; ghi nguồn mẫu kem vào wardrobe.md.
 - Frame v2 đổi tên thành `sh010-first-frame-v2-black.jpg`, giữ lại. Frame v3 làm MỚI 1 lần từ master v002 gốc + ảnh mẫu kem ngồi làm tham chiếu váy (cùng mẫu đổi sang đen), pipeline ảnh Bee, 0 Flow credit: `sh010-first-frame.jpg` (1152×2048, sha256 `ce0387b144b35b8c778558ab3921828dd682b8b7c6c54e92c58eb008aeef32b4`). Cổ đổ + lụa bóng + tà dài thấy rõ tới gần sàn. Chờ Richard duyệt frame v3.
+
+## 2026-11-19 — Frame sh020/sh030/sh040 (Bee)
+- Richard 👍 duyệt frame sh010 v3 → làm tiếp 3 frame còn lại, mỗi frame 1 lần sửa từ master v002 gốc (+ ảnh mẫu kem làm tham chiếu váy khi váy thấy rõ), pipeline ảnh Bee, 0 Flow credit, 1152×2048.
+- sh020 v1 lỗi: đeo kính (không có trong prompt), điện thoại đen không thấy ốp, bối cảnh phòng khách — giữ lại `sh020-first-frame-v1-glasses.jpg`. v2 đạt: nhà hàng tối, không kính, ốp trong suốt + vòng MagSafe thấy rõ, cười khẩy. `sh020-first-frame.jpg` sha256 `afc1dc96…`.
+- sh030 v1 lỗi: sân thượng ban ngày, áo dài tay có nhãn SANJOLI — giữ lại `sh030-first-frame-v1-outdoor.jpg`. v2 đạt: nhà hàng tối, váy hai dây cổ đổ vai trần, son đỏ, nhìn thẳng camera ánh mắt ấm. `sh030-first-frame.jpg` sha256 `d69c2263…`.
+- sh040 v1 đạt ngay: váy lụa đen cổ đổ, cắn bánh cười thoải mái, bàn nhà hàng ấm. `sh040-first-frame.jpg` sha256 `284938b0…`.
+- Cả 4 frame ep006 đã đủ, chờ Richard duyệt sh020/sh030/sh040 trước khi gen clip. Chưa làm: episode.yaml ep006, manifest, gen clip.
