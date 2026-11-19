@@ -138,11 +138,11 @@ shots:
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: thoại đủ từng chữ 0.00-5.96s, không phụ đề giả, không bóng ma đuôi. Giọng chờ Richard nghe.'
       - take_id: take002
         clip_id: 3846e48c-f92d-40fe-b85f-69cd3554ed53
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh030-take002.mp4
           sha256: ee57a41b67f2b4fc079d858c761023fc4482a09ced491ccf1f91386e5878efd8
-        note: 'take002, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: thoại đủ từng chữ 0.00-6.24s, không phụ đề giả, không bóng ma đuôi. Ghế gỗ tối + sáng 55.1 khớp cả 4. Giọng chờ Richard nghe.'
+        note: 'take002, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: thoại đủ từng chữ 0.00-6.24s, không phụ đề giả, không bóng ma đuôi. Ghế gỗ tối + sáng 55.1 khớp cả 4. Giọng chờ Richard nghe. Richard 19/11: giọng Bắc, DUYỆT luôn (giữ tiếng Veo gốc).'
   - shot_id: sh040
     approved_for_generation: true
     dialogue: "Là tôi."

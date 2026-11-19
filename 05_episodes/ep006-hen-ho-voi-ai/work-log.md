@@ -73,3 +73,7 @@
 - Richard bắt lỗi sh010 take002: khăn ăn trùm lên đĩa ăn. Lỗi từ frame đầu (prompt ảnh ghi "chỉnh khăn ăn" nên frame vẽ tay + khăn ngay trên đĩa; motion chỉ nối tiếp). take002 REJECTED. Sửa: sh010-image.txt mới (khăn gấp gọn bên trái đĩa, không che đĩa, hai tay đặt trên đùi) + sh010-motion.txt mới (ngồi thẳng, vuốt nhẹ váy, nhìn quanh, không chạm khăn). Làm frame mới từ master (Flow, 0cr) rồi gen lại take003 (10cr).
 - Ref clone ThaoMyVeo còn nguyên: ~/workspace/chuyen-nha-vy/voice-test/clone-test/ref-clip2.wav. Lồng sh020: 3 câu đặt theo cửa sổ miệng native (Q1 2.24s, Q2 4.1s, Q3 5.7s), tắt hẳn tiếng gốc.
 - Còn chờ Richard nghe giọng sh030 take002.
+
+## 2026-11-19 20:16 — Richard duyệt sh030 take002
+- sh030 take002: giọng Bắc, DUYỆT luôn (giữ tiếng Veo gốc). status accepted_editorial.
+- Bộ take hiện tại: sh010 take002 rejected (đang làm frame mới), sh020 take003 chờ lồng clone ThaoMy, sh030 take002 DUYỆT, sh040 take003 giọng Bắc (giữ tiếng gốc, chờ duyệt take).
