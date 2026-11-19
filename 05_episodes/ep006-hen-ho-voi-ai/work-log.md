@@ -94,3 +94,14 @@
 ## 2026-11-19 20:27 — Richard duyệt bản lồng sh020
 - Bản lồng sh020 take003 (clone ThaoMyVeo) DUYỆT — giọng clone ok, không cần kéo nhanh Q1/Q2. take003 status accepted_editorial; bản được duyệt là file lồng (generated/sh020-take003-dub-thaomy.mp4), không phải file gốc.
 - Bộ take hiện tại: sh010 chờ frame v6 + take004, sh020 take003 DUYỆT (bản lồng), sh030 take002 DUYỆT (tiếng gốc), sh040 take003 giọng Bắc giữ tiếng gốc (chờ duyệt take).
+
+## 2026-11-19 20:31 — frame v6: 2 lần đều lệch khung hình
+- Flow Nano Banana làm frame v6 từ master (prompt khóa theo v4), 0cr, 2 lần đều ra khung RỘNG toàn thân (đầu tới chân, ghế trống nổi bật góc phải, thấy sàn) thay vì trung cảnh như v4 — dù prompt ghi rõ "Trung cảnh, khung hình vừa như ảnh tham chiếu". Cả 2 lần: khăn bên trái đĩa ✓, son đỏ sáng ✓, bàn ghế như cũ ✓; lần 1 nốt ruồi còn rõ, lần 2 nốt ruồi mờ.
+- Không đốt thêm lượt sửa (đã 0/3 lần về khung hình: v5 + v6 x2). Cách khác: tải bản lần 1 (05ae1bd2…, nốt ruồi rõ) về crop hậu kỳ đúng khung v4 (cắt đáy + 2 bên, giữ mặt/váy/bàn ghế nguyên — crop là phép biến đổi xác định, không gen lại mặt nên không drift), rồi trình Richard duyệt trước khi gen take004.
+
+## 2026-11-19 20:34 — crop frame v6 về trung cảnh (không gen lại)
+- Tải bản v6 lần 1 (05ae1bd2…, 2K, sha 1601f509…) về: khăn ✓, son đỏ sáng ✓, nốt ruồi ✓, bàn ghế ✓ — chỉ khung rộng. Crop hậu kỳ (PIL lanczos): box (150, 0, 1387, 2200) trên ảnh 1536×2752 → resize 1080×1920, file sh010-first-frame-v6-crop.jpg (sha 7ed61229…). Kết quả: trung cảnh đầu tới gối, bàn lớn phía trước, không sàn/chân/ghế nổi bật; vai ~51% bề rộng (khớp sh020/sh040 hơn cả v4 39%). Trình Richard duyệt trước khi gen take004.
+
+## 2026-11-19 20:40 — Richard DUYỆT frame sh010 v6 đã crop
+- Frame v6 crop (box 150,0,1387,2200 → 1080×1920, sha 7ed61229…) DUYỆT, thay canonical sh010-first-frame.jpg (v4 giữ nguyên ở sh010-first-frame-v4-flow.jpg). Flow ID 05ae1bd2-913e-45f8-a79c-d5f04867c194. Luminance crop 59.7 (sáng hơn ~4 điểm so với các shot, cân bằng lúc dựng).
+- Gen sh010 take004 (Veo 3.1 Lite, 10cr, số dư 760 → 750) với motion prompt đã viết lại (không chạm khăn).

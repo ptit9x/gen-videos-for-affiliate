@@ -42,9 +42,9 @@ shots:
         sha256: "214c8c456d13e79ac4ee8c47b30cff26f14574426deec7c1405586b420a11c01"
     first_frame:
       path: input/frames/sh010-first-frame.jpg
-      sha256: 5b12a656288689ddb983b64e7c06a75087fabf65ac3c5b5b32f087b2aad72f44
+      sha256: 7ed61229515f2197a3b8a2c86f3a2178bce270aca7fef951c172955dd3fa95e1
     frame_status: approved
-    flow_image_asset_id: 4ddd1011-11ca-4b98-90d7-3e4aae39caf5
+    flow_image_asset_id: 05ae1bd2-913e-45f8-a79c-d5f04867c194
     takes:
       - take_id: take001
         clip_id: e8444ca2-1daa-4a06-8f5c-afba2b1b9f8b
