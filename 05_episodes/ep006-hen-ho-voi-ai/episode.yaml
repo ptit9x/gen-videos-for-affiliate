@@ -53,6 +53,13 @@ shots:
           path: generated/sh010-take001.mp4
           sha256: e9cde7522483dac71b1aae307ee7b6ea0bbd91af69dd836010f2b214219be83c
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: 7.93s 720x1280, Whisper base nghe đủ thoại 0.00-6.90s, không phụ đề giả, không bóng ma đuôi. Giọng chờ Richard nghe.'
+      - take_id: take002
+        clip_id: d09e4bfd-36dd-4cc4-a8e8-befca0eccd62
+        status: needs_review
+        file:
+          path: generated/sh010-take002.mp4
+          sha256: 71b3b181817d4caed959447614ebc983454d4b034ae00442d4d0cfff5e612555
+        note: 'take002, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: 7.93s 720x1280, Whisper base nghe đủ thoại 0.00-6.32s, không phụ đề giả, không bóng ma đuôi. Ghế gỗ tối + sáng 55.7 khớp cả 4. Giọng chờ Richard nghe.'
   - shot_id: sh020
     approved_for_generation: true
     dialogue: "'Hẹn với ai vậy?' 'Đi một mình à?' 'Tội ghê.'"
@@ -84,6 +91,13 @@ shots:
           path: generated/sh020-take001.mp4
           sha256: ca93548f809baf7416d8e9fb683c29a82843905e92b091286deb28bec7cf858a
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: đủ 3 câu (0.58-1.56, 2.24-3.00, 4.50-5.22); "à" nằm trong span 2.4-3.0 theo năng lượng 48kHz. Đuôi 5.4-7.9s lặng, không phụ đề giả. Preview Flow từng báo "Không tải được video" nhưng file tải về decode bình thường.'
+      - take_id: take002
+        clip_id: 7db77728-d90c-45c2-8b71-ac7daacb6d18
+        status: needs_review
+        file:
+          path: generated/sh020-take002.mp4
+          sha256: 408d387a4fcc4890da7b3bde7e3d2a3eb3f4b7b9b24978cd07478e0880d827d5
+        note: 'take002, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: đủ 3 câu (0.00-1.60, 2.32-3.00, 4.44-5.36); "à" xác minh bằng năng lượng 48kHz (nói liền 3.0-3.3s, Whisper gộp mất). Đuôi 5.5-7.9s lặng, không phụ đề giả. Ghế gỗ tối + sáng 56.0 khớp cả 4. Ốp MagSafe rõ. Giọng chờ Richard nghe.'
   - shot_id: sh030
     approved_for_generation: true
     dialogue: "Tôi không đi một mình. Tôi hẹn với người tôi thích nhất."
@@ -115,6 +129,13 @@ shots:
           path: generated/sh030-take001.mp4
           sha256: 6834c7e0dc8a2ff3dd3a697ea2fea15ad6d3e2dc7a6263a3f19cfc002a676325
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: thoại đủ từng chữ 0.00-5.96s, không phụ đề giả, không bóng ma đuôi. Giọng chờ Richard nghe.'
+      - take_id: take002
+        clip_id: 3846e48c-f92d-40fe-b85f-69cd3554ed53
+        status: needs_review
+        file:
+          path: generated/sh030-take002.mp4
+          sha256: ee57a41b67f2b4fc079d858c761023fc4482a09ced491ccf1f91386e5878efd8
+        note: 'take002, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: thoại đủ từng chữ 0.00-6.24s, không phụ đề giả, không bóng ma đuôi. Ghế gỗ tối + sáng 55.1 khớp cả 4. Giọng chờ Richard nghe.'
   - shot_id: sh040
     approved_for_generation: true
     dialogue: "Là tôi."
@@ -146,3 +167,10 @@ shots:
           path: generated/sh040-take001.mp4
           sha256: 2b1a2c01413b921441e03b3cb118b66c73f84cc884f2a16b534f2c6f5ff78435
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: "Là tôi" 4.68-6.90s; có tiếng "mmm" 3.28-4.68s trước câu (đang nhai bánh), không phụ đề giả. Giọng chờ Richard nghe.'
+      - take_id: take002
+        clip_id: 4d889094-c80d-4dbd-a4fe-79bd6662d9c1
+        status: needs_review
+        file:
+          path: generated/sh040-take002.mp4
+          sha256: 1b310231063d59411b8256096459d84c0c9f16968c1a2a541e87d72789cf4009
+        note: 'take002, Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 19/11: "Là tôi" 4.66-5.38s; có tiếng cười "Hahaha" 0.00-0.34s đầu clip + "mmm" 3.32-4.08s trước câu. Không phụ đề giả. Ghế gỗ tối + sáng 54.9 khớp cả 4. Giọng chờ Richard nghe.'

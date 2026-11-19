@@ -46,3 +46,10 @@
 - Làm lại cả 4 frame trong Flow (Nano Banana 2.1, 1 edit từ master, 0 credit, 1536×2752) với master + nền gỗ + ảnh mẫu váy SANJOLI: sh010 v4-flow (5b12a656…), sh020 v4-flow (e7eee66f…), sh030 v3-flow (4e8bdbe0…), sh040 v2-flow (ae581a32…). Váy đen đúng mẫu (dây mảnh, cổ đổ, lụa bóng, không logo). Lưu ý: dấu sao Flow góc dưới phải cả 4; sh040 có 2 khách mờ phía sau.
 - Richard duyệt cả 4 frame 17:07 → frame cũ đổi tên v3/v2/v2/v1 giữ lại, frame Flow lên tên chuẩn; episode.yaml cập nhật frame + image_prompt sha + flow_image_asset_id + image_sources (nền gỗ, mẫu váy); validator exit 0.
 - Đang gen lại 4 clip take002 (Frames-direct, Veo 3.1 Lite, 40cr, số dư 830 → dự kiến 790).
+
+## 2026-11-19 17:07–17:16 — take002 đã gen + QC
+- 4 clip take002 gen xong 17:16 (Frames-direct, Veo 3.1 Lite, 40cr, số dư 830 → 790): sh010 d09e4bfd…, sh020 7db77728…, sh030 3846e48c…, sh040 4d889094…. File 720p 7.93s 720×1280 24fps AAC đã về đủ, sha ghi trong episode.yaml.
+- QC Whisper base: đủ thoại cả 4 (sh010 0.00-6.32; sh020 3 câu, "à" xác minh bằng năng lượng 48kHz nói liền 3.0-3.3s; sh030 0.00-6.24; sh040 "Là tôi" 4.66-5.38 + cười "Hahaha" 0.00-0.34 đầu clip + "mmm" 3.32-4.08). Không phụ đề giả, không bóng ma đuôi.
+- Ghế: gỗ tối cả 4 (soi t=4 + t=7.5). Sáng: 55.7 / 56.0 / 55.1 / 54.9 — chênh ~1 điểm (take001 chênh 20 điểm). Váy đen đúng mẫu cả 4.
+- Lưu ý: sh010 đĩa bị khăn ăn phủ giữa clip (do động tác chỉnh khăn); sh040 còn 2 khách mờ phía sau (từ frame); watermark Veo góc dưới phải (crop lúc dựng).
+- CHỜ Richard duyệt take002 + nghe giọng từng shot (giữ tiếng Veo nếu Bắc).
