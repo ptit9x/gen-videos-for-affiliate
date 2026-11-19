@@ -11,6 +11,7 @@ Tuần 1 — năm mươi tin/ngày, "em là điều đẹp nhất". Tuần 2 —
 ## Khóa nhân vật và bối cảnh
 
 - Mặt/tóc: `thao-my-face-front-v002.png`; body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
+- Trang phục: Áo sơ mi linen dài tay form rộng (LAHSTORE), mặc ở nhà — áo chính xuyên suốt tập, link aff-0002 (sug-0007). Màu chưa chốt; ảnh mẫu màu Tím, dùng Tím khi làm frame nếu Richard không đổi.
 - Bối cảnh: Phòng khách, sofa. Ảnh ứng viên: `03_locations/thao-my-apartment/`. **Location chưa duyệt.**
 
 ## Storyboard
@@ -24,6 +25,12 @@ Tuần 1 — năm mươi tin/ngày, "em là điều đẹp nhất". Tuần 2 —
 **Câu chốt quotable:** "Dội bom xong rút quân."
 
 **Hook 3 giây:** "Tuần đầu. Năm mươi tin một ngày. Tuần hai—"
+
+## Sản phẩm lồng ghép
+
+| Sản phẩm | Vị trí | Cách xuất hiện | Link affiliate |
+|---|---|---|---|
+| Áo sơ mi linen dài tay form rộng (LAHSTORE) | sh010–sh030 | Mặc ở nhà, sofa ban ngày, visible xuyên suốt | aff-0002 (sug-0007) |
 
 ## Tài sản và prompt
 
