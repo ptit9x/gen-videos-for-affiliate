@@ -14,7 +14,7 @@ Thảo My mặc đẹp đi ăn nhà hàng một mình. Ai cũng hỏi "hẹn v�
 - Mặt/tóc: `thao-my-face-front-v002.png`; body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
 - Trang phục: Váy hai dây maxi suông kem + áo sơ mi linen dài tay form rộng khoác ngoài. Chưa chốt chính thức.
 - Bối cảnh: Nhà hàng chiều tối, đèn vàng ấm, bàn cho một người, ghế đối diện trống. Location mới, chưa có master trong `03_locations/`.
-- Đạo cụ: Điện thoại iPhone có ốp lưng (sh020).
+- Đạo cụ: Điện thoại iPhone 16/17/18 Pro Max có ốp lưng Slimcase trong suốt (sh020).
 
 ## Storyboard
 
@@ -34,8 +34,8 @@ Thảo My mặc đẹp đi ăn nhà hàng một mình. Ai cũng hỏi "hẹn v�
 | Sản phẩm | Vị trí | Cách xuất hiện | Link affiliate |
 |---|---|---|---|
 | Váy hai dây maxi suông kem (SANJOLI) | sh010, sh040 | Mặc bên trong, trung cảnh thấy rõ | aff-0001 (sug-0006) |
-| Áo sơ mi linen dài tay form rộng | Mọi shot | Khoác ngoài váy, visible xuyên suốt | Chưa có link |
-| Ốp lưng iPhone 14 Pro Max | sh020 | Cầm điện thoại, cận vừa thấy ốp trong tay | Chưa có link |
+| Áo sơ mi linen dài tay form rộng (LAHSTORE) | Mọi shot | Khoác ngoài váy, visible xuyên suốt | aff-0002 (sug-0007) |
+| Ốp lưng iPhone 16/17/18 Pro Max (Slimcase, trong suốt, MagSafe) | sh020 | Cầm điện thoại, cận vừa thấy ốp trong tay | aff-0003 (sug-0008) |
 
 ## Tài sản và prompt
 
