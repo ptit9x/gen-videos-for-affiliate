@@ -65,10 +65,10 @@ shots:
     dialogue: "'Hẹn với ai vậy?' 'Đi một mình à?' 'Tội ghê.'"
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: 068a4492098028f46e46d9467c58b495161723741fd8e4f7f1c95c5692a5ce52
+      sha256: 06acfa6027353ac025ee2f1b0a47733c356c8339a68b0b66c8c4b63bb80fc1be
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: 25491246d424cdf46c33e49627157f9b1b240d21c58c5029cec9f31a06e122d6
+      sha256: 2e0d9abfcac1ec9034b73fd18514f8724ff41e945dde036efc9d240e1e9e2933
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
@@ -80,9 +80,9 @@ shots:
         sha256: "214c8c456d13e79ac4ee8c47b30cff26f14574426deec7c1405586b420a11c01"
     first_frame:
       path: input/frames/sh020-first-frame.jpg
-      sha256: e7eee66f450fb87d77c35040328698383ede5ae81dc9f34266e09fe960a3f214
+      sha256: 08323f4f27694a6dea52ac0780afed68b37baccefc9d53232e219d72dc216ce1
     frame_status: approved
-    flow_image_asset_id: 6f238f44-8753-4f6a-85d8-b35050f5f99c
+    flow_image_asset_id: 870638e7-e9ea-4554-bded-ab16ab9e96e5
     takes:
       - take_id: take001
         clip_id: 739fdcf6-12df-4821-af2a-a4c123975ec0
@@ -141,10 +141,10 @@ shots:
     dialogue: "Là tôi."
     image_prompt:
       path: input/prompts/sh040-image.txt
-      sha256: 30cac550711dbb3c3644fba8cb84c0a44b010ee18b9d0f1cd6348d2427ec88ce
+      sha256: b2b94c513363771171e1cd8249cd82515fe9cf0d27841d9b5d7b806a9f55881a
     motion_prompt:
       path: input/prompts/sh040-motion.txt
-      sha256: 01050c016d6614a75e29bec96612ba20ea4bed2ce83f2a24c8726756c6f55f89
+      sha256: 0b7c71a8b6f173eddd5991ec1141b93158d0f4f9132859dc598ed7e78fabb27a
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
@@ -156,9 +156,9 @@ shots:
         sha256: "214c8c456d13e79ac4ee8c47b30cff26f14574426deec7c1405586b420a11c01"
     first_frame:
       path: input/frames/sh040-first-frame.jpg
-      sha256: ae581a32126a83162eeba69de81f408ad3df36c78d32509125fc7fdf35fd911f
+      sha256: 554fda21c0bbc3562e2f4acea2c66229388789967c3ac1946de7ef09f5b8dbc4
     frame_status: approved
-    flow_image_asset_id: 0aff9866-c86c-40d4-a649-cd58e518c35e
+    flow_image_asset_id: a465e73c-12ee-4693-b677-c81e526e5638
     takes:
       - take_id: take001
         clip_id: e329e1c8-1e01-4afa-96cc-a8cfe7b3676e

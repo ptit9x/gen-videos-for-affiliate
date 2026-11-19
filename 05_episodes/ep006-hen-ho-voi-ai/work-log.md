@@ -53,3 +53,10 @@
 - Ghế: gỗ tối cả 4 (soi t=4 + t=7.5). Sáng: 55.7 / 56.0 / 55.1 / 54.9 — chênh ~1 điểm (take001 chênh 20 điểm). Váy đen đúng mẫu cả 4.
 - Lưu ý: sh010 đĩa bị khăn ăn phủ giữa clip (do động tác chỉnh khăn); sh040 còn 2 khách mờ phía sau (từ frame); watermark Veo góc dưới phải (crop lúc dựng).
 - CHỜ Richard duyệt take002 + nghe giọng từng shot (giữ tiếng Veo nếu Bắc).
+
+## 2026-11-19 18:12–19:29 — sửa son + cổ váy + vòng tay, duyệt frame mới
+- Richard phát hiện son lệch (sh010/sh030 đỏ, sh020/sh040 hồng nhạt) + móng lệch (móng đỏ chỉ ở take001 sh010, take002 đều tự nhiên). Nguyên nhân: prompt ảnh sh020/sh040 thiếu "son đỏ đậm"; QC frame sót son + móng.
+- Richard chốt móng TỰ NHIÊN cho cả tập. Cổ V ở sh040 v3 KHÔNG đúng mẫu (mẫu thật cổ đổ nhẹ, cong mềm, nếp rủ giữa ngực — đã đối chiếu ảnh mẫu) nên phải sửa lại cổ đổ.
+- Frame mới (Flow Nano Banana, 1 edit từ master, 0cr): sh020 v5 (son đỏ) → v6 (bỏ vòng tay; lần 1 bị chặn chính sách, thử lại với prompt tả cổ tay trống thì qua), sh040 v3 (son đỏ, cổ V sai) → v4 (cổ đổ đúng mẫu). Cả 2: son đỏ đậm, móng tự nhiên, mặt/váy/nền khớp.
+- 19:29 Richard DUYỆT cả 2 frame. Đã đổi tên chuẩn: sh020-first-frame.jpg = v6 (sha 08323f4f…, Flow 870638e7…), sh040-first-frame.jpg = v4 (sha 554fda21…, Flow a465e73c…). Frame cũ giữ lại tên versioned. episode.yaml cập nhật frame + prompt shas, validator đạt.
+- Đang gen lại 2 clip sh020/sh040 take003 (20cr, số dư 790 → 770).
