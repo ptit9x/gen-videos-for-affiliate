@@ -168,7 +168,7 @@ shots:
     sha256: 4df0c73191533ff4c59d02229471f6ad653003b4181e7961a04931cdd9adbc7f
   motion_prompt:
     path: input/prompts/sh050-motion.txt
-    sha256: cd4f4ab980c81209f37a63432635de3937779e966f3369c832ced864c33708fd
+    sha256: d4b84e95a6beda001785ad59efe35e772b7c2b937dd0ecbcd7ce7f77e22805ce
   image_sources:
   - path: input/references/thao-my-face-front-v002.png
     sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
@@ -199,3 +199,17 @@ shots:
       schedule further tests right away.'') - My khong noi gi. Luc dung BO HOAN TOAN
       audio clip nay, chi lay hinh 3-4s (doan sau co ay ngang len nhin bac si, khoang
       4-7s).'
+  - take_id: take002
+    clip_id: f0143ecd-a97d-4eb0-8c38-58dc35927a62
+    status: needs_review
+    file:
+      path: generated/sh050-take002.mp4
+      sha256: 6096f96b0d37e39ee926cb41ec8a2c921903e8470761b49a0d7ec4e581e2c0b5
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Prompt
+      khoa im lang manh hon (bac si ngoi yen im lang, khong ai noi gi, khong thoai).
+      Lan gen 1 LOI ''Khong tao duoc am thanh'' (duoc hoan credit), bat setting ''Return
+      videos without audio'' roi retry thanh cong. QC 20/11: 7.93s 720x1280, IM LANG
+      THAT - Whisper base khong nghe duoc loi nao, audio chi co room tone nho (rms
+      ~0.006); cung nguoi/ao/phong kham, nguc rat day va cang suot clip, mat mo to
+      sung so, mieng hoi ha, tay ha khoi nguc xuong dui, bac si ngoi yen, khong chu
+      gia. (File van co track AAC nhung chi la tieng nen rat nho - luc dung bo audio.)'
