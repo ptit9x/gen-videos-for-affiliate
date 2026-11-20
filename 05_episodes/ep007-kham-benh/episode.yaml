@@ -20,7 +20,7 @@ export:
   width: 1080
   height: 1920
   fps: 30
-target_duration_seconds: 32
+target_duration_seconds: 40
 shots:
 - shot_id: sh010
   approved_for_generation: true
@@ -148,7 +148,7 @@ shots:
       phản ứng không dùng được. Cần gen lại take002 với prompt khóa cú cắt.'
   - take_id: take002
     clip_id: 74fdc885-7db6-4f22-8418-5b06ea4b22da
-    status: needs_review
+    status: accepted_editorial
     file:
       path: generated/sh040-take002.mp4
       sha256: dac85dd6664be46d1cca97c3725e9c01a92dae8feac295ae8f939aa9d1f95169
@@ -157,4 +157,45 @@ shots:
       720x1280, Whisper base nghe đủ thoại bác sĩ 0.00-4.24s (đủ chữ), không phụ đề
       giả. Cú cắt ~4.5s ĐÃ ĐÚNG: Thảo My áo hồng pastel, phòng khám, mắt mở to sững
       sờ, im lặng. Lưu ý nhỏ: tóc xoăn hơn frame v5 một chút, áo ít căng hơn frame
-      v5. Giọng chờ Richard nghe.'
+      v5. Giọng chờ Richard nghe. Richard 20/11: sh040 ĐẠT phần bác sĩ, nhưng đoạn
+      cuối (cú cắt sang My) mặt không giống — lúc dựng CẮT sh040 ngay sau khi bác
+      sĩ nói xong (~4.24s), phần phản ứng chuyển sang shot mới sh050.'
+- shot_id: sh050
+  approved_for_generation: true
+  dialogue: ''
+  image_prompt:
+    path: input/prompts/sh050-image.txt
+    sha256: 4df0c73191533ff4c59d02229471f6ad653003b4181e7961a04931cdd9adbc7f
+  motion_prompt:
+    path: input/prompts/sh050-motion.txt
+    sha256: cd4f4ab980c81209f37a63432635de3937779e966f3369c832ced864c33708fd
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  - path: input/references/thao-my-pink-pastel-fitted-tee-reference.jpg
+    sha256: 5e9012df90cd106c7572f97c3a3aedabf6292e6980aff1ff4e43ca0ae18d8f11
+  - path: input/references/thao-my-pink-pastel-fitted-tee-worn-reference.jpg
+    sha256: d415d5df4b965260a58a7974e5f6dd8693353561db1a2356c1031181c70127f8
+  first_frame:
+    path: input/frames/sh010-first-frame.jpg
+    sha256: 3e61814629a6b3c7bc62a7164875c93a4ad7578a66664502a4d54fc2ae5bb3f7
+  frame_status: approved
+  flow_image_asset_id: 5c07830b-85c6-48da-b3de-8fb17a9fde41
+  takes:
+  - take_id: take001
+    clip_id: 856635d5-e7d4-4f27-8412-3e4ae7980bfa
+    status: needs_review
+    file:
+      path: generated/sh050-take001.mp4
+      sha256: 9ce958c1fef91bc446e18485ac02923778f8826413daee597e90965538f14f3e
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Motion
+      prompt sua theo dan Richard: khoa nguc rat day nhu frame dau. QC 20/11: 7.85s
+      1080x1920 (ban tai ve da upscale), cung nguoi/ao/phong kham, nguc rat day va
+      cang suot clip, tay ha khoi nguc xuong dui, khong chu gia. KHONG IM LANG nhu
+      brief: bac si noi tieng Anh suot clip (Whisper en nghe ''Based on these results,
+      it seems the condition is more advanced than we initially thought. We should
+      schedule further tests right away.'') - My khong noi gi. Luc dung BO HOAN TOAN
+      audio clip nay, chi lay hinh 3-4s (doan sau co ay ngang len nhin bac si, khoang
+      4-7s).'

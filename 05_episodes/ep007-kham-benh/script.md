@@ -1,6 +1,6 @@
 # ep007 — Khám Bệnh
 
-Trạng thái: draft, frame sh010/sh030 v5 ĐÃ DUYỆT 20/11 17:54, đang gen 4 clip take001 (Flow Nano Banana frame 0 credit, project CNTM · EP019 · Khám Bệnh — tên project Flow chưa đổi, tập đổi số từ ep019 thành ep007 ngày 20/11). Thảo My + bác sĩ nam (nhân vật một lần, không thuộc series 13 chàng trai).
+Trạng thái: draft, frame sh010/sh030 v5 ĐÃ DUYỆT 20/11 17:54, 4 clip take001 + sh040 take002 đã gen (sh010/sh020/sh030 đạt, sh040 take002 đạt phần bác sĩ). 20/11 Richard chốt: sh040 cắt ngay sau khi bác sĩ nói xong, gen thêm sh050 (Thảo My sững sờ, không thoại) thay cho cú cắt cuối sh040. Đang gen sh050 take001.
 
 ## Ý tưởng và twist
 
@@ -33,7 +33,8 @@ Thảo My đi khám vì tức ngực, khó thở. Bác sĩ hỏi có bảo hiể
 | sh010 | Thảo My | "Bác sĩ ơi, ngực em cứ tức tức, thở không ra hơi." | 12 | Tay ôm ngực, lo lắng | Trung cảnh, ngồi đối diện bác sĩ | 8s |
 | sh020 | Bác sĩ | "Có bảo hiểm thì làm đủ: chụp chiếu, điện tim, siêu âm, xét nghiệm, nằm viện theo dõi." | 18 | Vừa ghi clipboard vừa liệt kê | Trung cảnh, sau bàn khám, điềm nhiên | 8s |
 | sh030 | Thảo My | "Thế còn không có bảo hiểm thì sao ạ?" | 9 | Nghiêng người về trước, tò mò | Cận vừa | 8s |
-| sh040 | Bác sĩ | "Không có thì khỏi cần. Đổi sang bộ đồ rộng đi, mặc chật thế thở làm sao được." | 18 | Nói bình thản, rồi cắt sang My sững sờ im lặng | Trung cảnh, rồi cắt sang cận mặt My | 8s |
+| sh040 | Bác sĩ | "Không có thì khỏi cần. Đổi sang bộ đồ rộng đi, mặc chật thế thở làm sao được." | 18 | Nói bình thản | Trung cảnh | 8s (lúc dựng cắt ngay sau thoại, ~4,2s) |
+| sh050 | Thảo My | *(không thoại — sững sờ im lặng)* | 0 | Mắt mở to, miệng hơi há, tay hạ khỏi ngực, ngực to như frame | Trung cảnh, đối diện bác sĩ | 8s (lúc dựng chỉ lấy 3–4s) |
 
 **Câu chốt quotable:** "Không có thì khỏi cần."
 
@@ -67,7 +68,11 @@ Thảo My đi khám vì tức ngực, khó thở. Bác sĩ hỏi có bảo hiể
 - **v5 (ĐÃ DUYỆT 17:54)**: làm lại cả 2, ngực tăng thêm một nấc ("rất to, căng cực kỳ"), khóa màu 2 frame giống hệt nhau + khớp ref. Asset Flow riêng: sh010 `5c07830b-85c6-48da-b3de-8fb17a9fde41`, sh030 `bb070fd7-871c-4cfc-9315-67c19067e23a` (upload master mới từng shot; asset cũ cùng tên trong project là frame phòng khám, không phải master). QC trên file tải về: ngực rất to, tròn, áo căng cực kỳ cả 2; khung đúng khóa; mặt khớp v002; nốt ruồi cằm trái còn cả 2 (soi zoom, hơi mờ); son hồng nhạt đúng cả 2. Màu áo: hue/saturation khớp ref, nhưng lightness vẫn lệch ~11 điểm (sh010 L70, sh030 L81) — Richard duyệt dù còn lệch này. Đưa lên canonical `sh010-first-frame.jpg` / `sh030-first-frame.jpg`, giữ tên `*-v5-padded.jpg`.
 - Lưu ý master: file mặt chuẩn `thao-my-face-front-v002.png` (sha 8793c0ce, 720×1280) là ảnh selfie ngoài trời, áo cardigan kem — không phải chân dung nền xám áo trắng; mọi frame ep007 đều sửa từ đúng file này.
 
-## Tài sản và prompt
+## Shot mới sh050 (20/11, Richard chốt)
+
+- sh040 take002 đạt phần bác sĩ (thoại đủ chữ 0–4,24s), nhưng cú cắt cuối sang My mặt không giống (tóc xoăn hơn, mặt hơi khác) — Richard quyết: **cắt sh040 ngay sau khi bác sĩ nói xong (~4,24s)**, gen thêm **sh050** riêng cho phản ứng sững sờ của My.
+- sh050: không thoại, My ngồi đối diện bác sĩ, mắt mở to, miệng hơi há, tay hạ khỏi ngực, im lặng. Frame đầu = frame sh010 v5 đã duyệt (trung cảnh, tay ôm ngực, đối diện bác sĩ), motion prompt riêng `input/prompts/sh050-motion.txt`. Gen Frames-direct, Veo 3.1 Lite, 10 credit.
+- Tập giờ có 5 shot (target 40s, lúc dựng cắt ngắn từng clip theo thoại + phản ứng).
 
 Khai báo trong `episode.yaml`. Prompt video: hành động + thoại + giọng miền Bắc + camera tĩnh, không nhạc.
 
