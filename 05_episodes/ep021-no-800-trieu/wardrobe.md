@@ -26,7 +26,8 @@ Trạng thái: My CHỐT 21/11 (áo dài Thanh Nghi hồng đậm, mặc tiếp 
 
 - **Nam, khoảng 25–30 tuổi. TẠM THỜI dùng ảnh Richard gửi 21/11** — `input/references/nam-front-temp-v001.jpg` (1023×1537, sha256 `f9c75fe8ba0144f536bcc35cfd6dc9bfcdeebff8b2b6d8ec0d7901d491c5f889`) để sinh nhân vật trên Google Flow khi làm tới. **Chưa tạo nhân vật Flow — chỉ lưu ảnh lại theo lệnh "lưu lại vậy đã nhé" (21/11).**
 - Ảnh ref: tóc đen rối, râu nhẹ, áo sơ mi linen trắng mở cổ, quần be, đứng ở biển. Chỉ lấy mặt/tóc/dáng — KHÔNG lấy nền biển, quần be.
-- **LƯU Ý QUAN TRỌNG: mặt này KHÁC mặt Nam của ep008** (`02_characters/nam/approved/nam-front-v001.jpg` — không râu, tóc vuốt phồng, sơ mi trắng cài kín, nhân vật Flow đã tạo xong trong project `CNTM · EP008 · Con Nhỏ Đó`). Vì vậy ảnh mới lưu riêng trong thư mục tập ep021, KHÔNG ghi đè `nam-front-v001.jpg`, KHÔNG đưa vào `02_characters/nam/`. Nếu Richard muốn cùng 1 Nam xuyên 2 tập thì phải chọn 1 mặt duy nhất; còn không thì đây là Nam-bản-tạm chỉ dùng cho ep021.
+- **CỐ TÌNH KHÁC Nam ep008 — Richard xác nhận 06:54 21/11:** mặt này khác mặt Nam của ep008 (`02_characters/nam/approved/nam-front-v001.jpg` — không râu, tóc vuốt phồng, sơ mi trắng cài kín, nhân vật Flow đã tạo xong trong project `CNTM · EP008 · Con Nhỏ Đó`) là đúng ý đồ — Richard muốn để khán giả so sánh xem thích anh nào. Vì vậy ảnh mới lưu riêng trong thư mục tập ep021, KHÔNG ghi đè `nam-front-v001.jpg`, KHÔNG đưa vào `02_characters/nam/`. Đây là một chàng trai KHÁC, không phải cùng 1 Nam xuyên 2 tập.
+- **Tên gọi — CẦN CHỐT:** hiện cả 2 anh đều đang gọi là "Nam" trong hồ sơ, khán giả vote sẽ khó phân biệt. Cần Richard đặt tên riêng cho anh ep021 trước khi làm frame.
 - Trang phục trong tập: chưa chốt riêng — tạm giữ sơ mi trắng như ảnh ref; chờ Richard chốt.
 
 ## Bối cảnh

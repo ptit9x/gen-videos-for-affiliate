@@ -23,3 +23,10 @@
 - Ảnh đã lưu vào `input/references/nam-front-temp-v001.jpg` (1023×1537, sha256 `f9c75fe8…5f889`). **Chỉ lưu, CHƯA tạo nhân vật Flow, chưa gen gì.**
 - **Cờ đỏ đã ghi vào script.md + wardrobe.md: mặt này KHÁC mặt Nam ep008** (`nam-front-v001.jpg`, không râu, tóc vuốt phồng) — nên lưu riêng trong thư mục tập ep021, KHÔNG ghi đè file Nam của ep008, KHÔNG đưa vào `02_characters/nam/`. Cần Richard xác nhận: cùng 1 Nam xuyên 2 tập (chọn 1 mặt) hay Nam-bản-tạm chỉ dùng cho ep021.
 - Chưa làm gì thêm: chưa duyệt kịch bản rev2, chưa làm frame, chưa gen clip.
+
+## 2026-11-21 06:54 — Richard xác nhận: cố tình khác để khán giả so sánh
+
+- Richard nhắn: tập này ảnh Nam khác là đúng rồi, cậu ấy muốn so sánh xem khán giả muốn anh nào.
+- Đã sửa ghi chú trong script.md + wardrobe.md: KHÔNG còn là cờ đỏ — đây là ý đồ: ep021 là một chàng trai KHÁC ep008, để khán giả vote/compare. Ảnh vẫn lưu riêng trong thư mục ep021, không đụng `nam-front-v001.jpg` của ep008.
+- Còn mở: cả 2 anh hiện đều gọi là "Nam" trong hồ sơ — cần Richard đặt tên riêng cho anh ep021 trước khi làm frame, không thì khán giả vote khó phân biệt.
+- Chưa làm gì thêm: chưa duyệt kịch bản rev2, chưa làm frame, chưa gen clip.
