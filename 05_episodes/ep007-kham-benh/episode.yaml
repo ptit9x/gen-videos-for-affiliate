@@ -1,7 +1,7 @@
 schema_version: 2
 episode_id: ep007
 revision: 1
-title: "Khám Bệnh"
+title: Khám Bệnh
 editorial_status: draft
 flow_project: https://flow.google.com/project/c02626e9-52dd-48fb-8c41-faf7323b9e22
 generation:
@@ -9,7 +9,7 @@ generation:
   agent: false
   model: Veo 3.1 Lite
   duration_seconds: 8
-  aspect_ratio: "9:16"
+  aspect_ratio: '9:16'
   outputs: 1
   last_frame: null
 expected_source:
@@ -22,83 +22,127 @@ export:
   fps: 30
 target_duration_seconds: 32
 shots:
-  - shot_id: sh010
-    approved_for_generation: true
-    dialogue: "Bác sĩ ơi, ngực em cứ tức tức, thở không ra hơi."
-    image_prompt:
-      path: input/prompts/sh010-image.txt
-      sha256: 4df0c73191533ff4c59d02229471f6ad653003b4181e7961a04931cdd9adbc7f
-    motion_prompt:
-      path: input/prompts/sh010-motion.txt
-      sha256: 1f04b9caeebfb84a4dd8cfd240339bd856eb962b8a3b3e41dd2e5dca88a8813e
-    image_sources:
-      - path: input/references/thao-my-face-front-v002.png
-        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
-      - path: input/references/thao-my-body-front-v003-face-v002-review.png
-        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-      - path: input/references/thao-my-pink-pastel-fitted-tee-reference.jpg
-        sha256: "5e9012df90cd106c7572f97c3a3aedabf6292e6980aff1ff4e43ca0ae18d8f11"
-      - path: input/references/thao-my-pink-pastel-fitted-tee-worn-reference.jpg
-        sha256: "d415d5df4b965260a58a7974e5f6dd8693353561db1a2356c1031181c70127f8"
-    first_frame:
-      path: input/frames/sh010-first-frame.jpg
-      sha256: 3e61814629a6b3c7bc62a7164875c93a4ad7578a66664502a4d54fc2ae5bb3f7
-    frame_status: approved
-    flow_image_asset_id: 5c07830b-85c6-48da-b3de-8fb17a9fde41
-    takes: []
-  - shot_id: sh020
-    approved_for_generation: true
-    dialogue: "Có bảo hiểm thì làm đủ: chụp chiếu, điện tim, siêu âm, xét nghiệm, nằm viện theo dõi."
-    image_prompt:
-      path: input/prompts/sh020-image.txt
-      sha256: 0ee1df81ccf57d94388ca592bb36463444c64859a244b4a12527278bd15ffd43
-    motion_prompt:
-      path: input/prompts/sh020-motion.txt
-      sha256: 9688b109368385a2bdbfe246990df93918d4b61bdaca52fdaad133bc623e2048
-    image_sources: []
-    first_frame:
-      path: input/frames/sh020-first-frame.jpg
-      sha256: c405a804e85534a47773edfbdb2464acdec56b8f2ec95f2943b434598023afd3
-    frame_status: pending_review
-    flow_image_asset_id: fae1ad9b-14b4-48c5-8e11-30a3cc1343e2
-    takes: []
-  - shot_id: sh030
-    approved_for_generation: true
-    dialogue: "Thế còn không có bảo hiểm thì sao ạ?"
-    image_prompt:
-      path: input/prompts/sh030-image.txt
-      sha256: b7b6a182d1db2050dd686f05df05114207b2ed1b1c2f7e074b78c1093f6f0ada
-    motion_prompt:
-      path: input/prompts/sh030-motion.txt
-      sha256: 82af0554d761659ee9534259f328bcc681da5ec16f489cb19e92bb0059734396
-    image_sources:
-      - path: input/references/thao-my-face-front-v002.png
-        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
-      - path: input/references/thao-my-body-front-v003-face-v002-review.png
-        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-      - path: input/references/thao-my-pink-pastel-fitted-tee-reference.jpg
-        sha256: "5e9012df90cd106c7572f97c3a3aedabf6292e6980aff1ff4e43ca0ae18d8f11"
-      - path: input/references/thao-my-pink-pastel-fitted-tee-worn-reference.jpg
-        sha256: "d415d5df4b965260a58a7974e5f6dd8693353561db1a2356c1031181c70127f8"
-    first_frame:
-      path: input/frames/sh030-first-frame.jpg
-      sha256: 72637f1fd8d2cb7648b74edf358cd220d0bd927abb4316ef115054513620ce71
-    frame_status: approved
-    flow_image_asset_id: bb070fd7-871c-4cfc-9315-67c19067e23a
-    takes: []
-  - shot_id: sh040
-    approved_for_generation: true
-    dialogue: "Không có thì khỏi cần. Đổi sang bộ đồ rộng đi, mặc chật thế thở làm sao được."
-    image_prompt:
-      path: input/prompts/sh040-image.txt
-      sha256: 01826b91ea5b2920784978559590667d72613fe2ba17b7c5e1d06ffc1222253c
-    motion_prompt:
-      path: input/prompts/sh040-motion.txt
-      sha256: 74c41cd12e26e40c6a3fe5d6d494a1edcb4681464260a494368aea544d1f9b54
-    image_sources: []
-    first_frame:
-      path: input/frames/sh040-first-frame.jpg
-      sha256: e431bcf402074c95f30fe7f6463d8fc8fa23602e80dbd51f73db2c732e177236
-    frame_status: pending_review
-    flow_image_asset_id: c38dea94-5075-4e1a-9548-1ec976502bb1
-    takes: []
+- shot_id: sh010
+  approved_for_generation: true
+  dialogue: Bác sĩ ơi, ngực em cứ tức tức, thở không ra hơi.
+  image_prompt:
+    path: input/prompts/sh010-image.txt
+    sha256: 4df0c73191533ff4c59d02229471f6ad653003b4181e7961a04931cdd9adbc7f
+  motion_prompt:
+    path: input/prompts/sh010-motion.txt
+    sha256: 1f04b9caeebfb84a4dd8cfd240339bd856eb962b8a3b3e41dd2e5dca88a8813e
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  - path: input/references/thao-my-pink-pastel-fitted-tee-reference.jpg
+    sha256: 5e9012df90cd106c7572f97c3a3aedabf6292e6980aff1ff4e43ca0ae18d8f11
+  - path: input/references/thao-my-pink-pastel-fitted-tee-worn-reference.jpg
+    sha256: d415d5df4b965260a58a7974e5f6dd8693353561db1a2356c1031181c70127f8
+  first_frame:
+    path: input/frames/sh010-first-frame.jpg
+    sha256: 3e61814629a6b3c7bc62a7164875c93a4ad7578a66664502a4d54fc2ae5bb3f7
+  frame_status: approved
+  flow_image_asset_id: 5c07830b-85c6-48da-b3de-8fb17a9fde41
+  takes:
+  - take_id: take001
+    clip_id: a640a7f9-4af0-47f1-bc6c-b95818b2660e
+    status: needs_review
+    file:
+      path: generated/sh010-take001.mp4
+      sha256: f67ca9ab04dc14627e148cab6adca7bdc245a20113ee28a4d4082f192eaefe1b
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 20/11:
+      7.93s 720x1280, Whisper base nghe đủ thoại 0.00-3.82s (đủ chữ), không phụ đề
+      giả, không bóng ma đuôi, mặt/khung khớp frame v5. Giọng chờ Richard nghe.'
+- shot_id: sh020
+  approved_for_generation: true
+  dialogue: 'Có bảo hiểm thì làm đủ: chụp chiếu, điện tim, siêu âm, xét nghiệm, nằm
+    viện theo dõi.'
+  image_prompt:
+    path: input/prompts/sh020-image.txt
+    sha256: 0ee1df81ccf57d94388ca592bb36463444c64859a244b4a12527278bd15ffd43
+  motion_prompt:
+    path: input/prompts/sh020-motion.txt
+    sha256: 9688b109368385a2bdbfe246990df93918d4b61bdaca52fdaad133bc623e2048
+  image_sources: []
+  first_frame:
+    path: input/frames/sh020-first-frame.jpg
+    sha256: c405a804e85534a47773edfbdb2464acdec56b8f2ec95f2943b434598023afd3
+  frame_status: pending_review
+  flow_image_asset_id: fae1ad9b-14b4-48c5-8e11-30a3cc1343e2
+  takes:
+  - take_id: take001
+    clip_id: 1be12447-0b36-4b23-817f-a89ebac310b3
+    status: needs_review
+    file:
+      path: generated/sh020-take001.mp4
+      sha256: ccef0fbcb7c93728d77d1aa7c11c3a7affb608a66c42d07ea511fb18cc2073fd
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 20/11:
+      7.93s 720x1280, Whisper base nghe đủ thoại 0.00-5.76s (đủ chữ), không phụ đề
+      giả, bác sĩ khớp frame (kính, blouse, scrub navy, ống nghe, clipboard, chậu
+      cây, biển BỆNH VIỆN). Giọng chờ Richard nghe.'
+- shot_id: sh030
+  approved_for_generation: true
+  dialogue: Thế còn không có bảo hiểm thì sao ạ?
+  image_prompt:
+    path: input/prompts/sh030-image.txt
+    sha256: b7b6a182d1db2050dd686f05df05114207b2ed1b1c2f7e074b78c1093f6f0ada
+  motion_prompt:
+    path: input/prompts/sh030-motion.txt
+    sha256: 82af0554d761659ee9534259f328bcc681da5ec16f489cb19e92bb0059734396
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  - path: input/references/thao-my-pink-pastel-fitted-tee-reference.jpg
+    sha256: 5e9012df90cd106c7572f97c3a3aedabf6292e6980aff1ff4e43ca0ae18d8f11
+  - path: input/references/thao-my-pink-pastel-fitted-tee-worn-reference.jpg
+    sha256: d415d5df4b965260a58a7974e5f6dd8693353561db1a2356c1031181c70127f8
+  first_frame:
+    path: input/frames/sh030-first-frame.jpg
+    sha256: 72637f1fd8d2cb7648b74edf358cd220d0bd927abb4316ef115054513620ce71
+  frame_status: approved
+  flow_image_asset_id: bb070fd7-871c-4cfc-9315-67c19067e23a
+  takes:
+  - take_id: take001
+    clip_id: a5524f54-d235-4525-94ab-4fb4f96a8480
+    status: needs_review
+    file:
+      path: generated/sh030-take001.mp4
+      sha256: 79ba5f47aa3e6431bf1ba2f608e2b265887395dbdabf16471dae7e3b544f81cb
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Lần 1 lỗi
+      ''Không tạo được âm thanh'' (Flow báo hoàn credit), gen lại lần 2 cùng prompt
+      thì được. QC 20/11: 7.93s 720x1280, thoại bắt đầu muộn 1.62s và Veo lặp câu
+      2 lần (1.62-3.42s rồi 3.42-4.80s) — lúc dựng chỉ lấy lần nói đầu. Mặt/khung
+      khớp frame v5, không phụ đề giả, không bóng ma đuôi. Giọng chờ Richard nghe.'
+- shot_id: sh040
+  approved_for_generation: true
+  dialogue: Không có thì khỏi cần. Đổi sang bộ đồ rộng đi, mặc chật thế thở làm sao
+    được.
+  image_prompt:
+    path: input/prompts/sh040-image.txt
+    sha256: 01826b91ea5b2920784978559590667d72613fe2ba17b7c5e1d06ffc1222253c
+  motion_prompt:
+    path: input/prompts/sh040-motion.txt
+    sha256: 74c41cd12e26e40c6a3fe5d6d494a1edcb4681464260a494368aea544d1f9b54
+  image_sources: []
+  first_frame:
+    path: input/frames/sh040-first-frame.jpg
+    sha256: e431bcf402074c95f30fe7f6463d8fc8fa23602e80dbd51f73db2c732e177236
+  frame_status: pending_review
+  flow_image_asset_id: c38dea94-5075-4e1a-9548-1ec976502bb1
+  takes:
+  - take_id: take001
+    clip_id: 215b5922-db39-4e26-a879-1d3ae53cfabf
+    status: rejected_editorial
+    file:
+      path: generated/sh040-take001.mp4
+      sha256: cd5af82f993b85f77cb4211e01cac68a5b58d33768d894664211587ec2819836
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. QC 20/11:
+      7.93s 720x1280, Whisper base nghe đủ thoại bác sĩ 0.00-4.54s (đủ chữ), không
+      phụ đề giả. NHƯNG cú cắt ~4.5s sang người KHÁC HẲN: phụ nữ lớn tuổi hơn, tóc
+      buộc, mặc áo bệnh nhân xanh lá, đứng ở hành lang — không phải Thảo My, không
+      phải áo hồng pastel, không phải phòng khám. Phần bác sĩ 0-4.6s dùng được, phần
+      phản ứng không dùng được. Cần gen lại take002 với prompt khóa cú cắt.'
