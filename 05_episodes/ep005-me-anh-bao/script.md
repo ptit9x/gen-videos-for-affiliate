@@ -15,8 +15,8 @@ Hẹn café. Khôi mở miệng là "mẹ anh bảo" — nấu ăn, giờ giấc
 ## Nhân vật, trang phục và nguồn
 
 - Thảo My: mặt/tóc thao-my-face-front-v002.png, body thao-my-body-front-v003-face-v002-review.png trong 02_characters/thao-my/approved/.
-- Trang phục theo tập, chưa chốt.
-- Khôi: quay lưng hoặc quay ngang, không thiết kế khuôn mặt. Áo sơ mi hoặc áo thun.
+- Trang phục: My váy SANJOLI xanh dương (Richard chốt 18/11); Khôi polo kem cổ navy theo ảnh duyệt.
+- Khôi: cận vừa thấy mặt, dùng ảnh chính diện đã duyệt 18/11, nhìn sang My ngoài khung. Polo kem cổ navy theo ảnh duyệt.
 - Quán café, bàn hai người. Ảnh ứng viên: 03_locations/date-cafe/. Location chưa duyệt.
 
 ## Storyboard
@@ -26,11 +26,11 @@ Mỗi shot một người nói, quay đơn và cắt qua lại; người nghe ng
 | Shot | Người nói | Thoại tiếng Việt | Số tiếng | Một hành động chính | Góc máy | Thời lượng nguồn |
 |---|---|---|---|---|---|---|
 | sh010 | Khôi | Mẹ anh bảo con gái phải biết nấu ăn. Em biết nấu gì chưa? | 14 | Nhấp cà phê, giọng hiển nhiên | Cận vừa Khôi, nhìn My ngoài khung | 8s |
-| sh020 | Thảo My | Dạ em biết nấu nước sôi. Mẹ anh còn bảo gì nữa không anh? | 13 | Uống nước, bình thản | Cận vừa My, nhìn Khôi ngoài khung | 8s |
-| sh030 | Khôi | Mẹ anh bảo phải về trước mười giờ. À, mẹ anh bảo đừng yêu xa nữa. | 15 | Đếm bằng ngón tay, nghiêm túc | Cận vừa Khôi, nghiêm túc | 8s |
-| sh040 | Thảo My | Anh hỏi luôn mẹ có cho anh yêu em không. Đỡ gọi hai lần. | 13 | Đặt ly, nhìn thẳng Khôi | Cận vừa My, bình thản | 8s |
+| sh020 | Thảo My | Dạ em biết nấu nước sôi. Mẹ anh còn bảo gì nữa không anh? | 14 | Uống nước, bình thản | Cận vừa My, nhìn Khôi ngoài khung | 8s |
+| sh030 | Khôi | Mẹ anh bảo phải về trước mười giờ. À, mẹ anh bảo đừng yêu xa nữa. | 16 | Đếm bằng ngón tay, nghiêm túc | Cận vừa Khôi, nghiêm túc | 8s |
+| sh040 | Thảo My | Thế sao mẹ anh không đi hẹn hò thay anh luôn đi? | 12 | Đặt ly, nhìn thẳng Khôi | Cận vừa My, bình thản | 8s |
 
-Khôi nói "mẹ anh bảo" với giọng hiển nhiên, không diễn ác. My bình thản ở sh020, đến sh040 mới lạnh giọng; ngừng nhẹ trước "Không phải hẹn hò với mẹ anh". Trim phần chờ thừa khi dựng, không kéo dài biểu cảm chỉ để đủ 8 giây.
+Khôi nói "mẹ anh bảo" với giọng hiển nhiên, không diễn ác. My bình thản ở sh020, đến sh040 mới lạnh giọng; nhấn vào "thay anh luôn đi". Trim phần chờ thừa khi dựng, không kéo dài biểu cảm chỉ để đủ 8 giây.
 
 **Câu chốt quotable:** "Hẹn hò với anh, không phải hẹn hò với mẹ anh."
 

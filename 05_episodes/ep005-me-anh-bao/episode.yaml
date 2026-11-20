@@ -1,9 +1,9 @@
 schema_version: 2
 episode_id: ep005
-revision: 1
-title: "Chưa"
-editorial_status: draft
-flow_project: null
+revision: 2
+title: "Mẹ Anh Bảo"
+editorial_status: published
+flow_project: https://flow.google.com/project/3c6a1998-de57-4187-9ee7-82f9bf3157e9
 generation:
   mode: frames
   agent: false
@@ -20,59 +20,101 @@ export:
   width: 1080
   height: 1920
   fps: 30
-target_duration_seconds: 24
+target_duration_seconds: 32
 shots:
   - shot_id: sh010
-    approved_for_generation: false
-    dialogue: "Anh ta nhìn tôi, mắt sáng rỡ, hỏi 'em có người yêu chưa'."
+    approved_for_generation: true
+    dialogue: "Mẹ anh bảo con gái phải biết nấu ăn. Em biết nấu gì chưa?"
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: 3057b4bd4409bd1ad7a4c953e0b2ade26e170c76a8ac3b9a6f93705ba6bed800
+      sha256: f76866cb2201c87b372533ef1326568dd7a56dfb62eddb06734061449f057f7d
     motion_prompt:
       path: input/prompts/sh010-motion.txt
-      sha256: 39ecd3379a33fee9b50939dfc7fe5e23806a7ee9279877a7bcbcb026ecbb9e06
+      sha256: edee0f02c739b7591488841299de3a97a7db520e2d0f683c5da13f1e0807e2f4
     image_sources:
-      - path: input/references/thao-my-face-front-v002.png
-        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
-      - path: input/references/thao-my-body-front-v003-face-v002-review.png
-        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/khoi-front-casting-20261118-v001.png
+        sha256: "621db2721f8cf5f6eb55428661fefc8f053ac6efc92ababb58939eb931111179"
+    first_frame: 
+      path: input/frames/sh010-first-frame.jpg
+      sha256: d99ed3b333eb49a278fc738bebe1733a60a21ee1040ead4e94e7c90264d4e5c0
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 04cdb21d-3e3e-484e-9633-a7dbc2b829de
+        status: accepted_editorial
+        file: null
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Giu tieng Veo goc (giong Bac nam). Clip local: ~/workspace/ep005-me-anh-bao-clips/ep005-sh010-take1.mp4; ban 2K ep005-sh010-clip-1080p-take1.mp4.'
   - shot_id: sh020
-    approved_for_generation: false
-    dialogue: "Tôi nói 'chưa'. Anh ta cười. Cười như vừa thắng xổ số."
+    approved_for_generation: true
+    dialogue: "Dạ em biết nấu nước sôi. Mẹ anh còn bảo gì nữa không anh?"
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: b7f884bed20685d51dabd195c9b2b1e6867a05edf293e816011e065e88bd0c8d
+      sha256: 6936af054496224383f565d13ccf5342708538a16249061013763192f9924183
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: d5f500e877e22b8cd693c1456af79589a697e5a7011802a1b05a5c3359c4b14c
+      sha256: 919efe11967a004afb5c0abf468c92aca76b31041cff5b1ea2e0e134540433a1
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+    first_frame: 
+      path: input/frames/sh020-first-frame-v3.jpg
+      sha256: 20650d15919efd2aea23458ea026efc29357e8882d700d62ea3745e907081aaf
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 380c484d-e278-4e91-a6af-4845a19e90f6
+        status: accepted_editorial
+        file: null
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Giu tieng Veo goc (giong Bac nu). Clip local: ~/workspace/ep005-me-anh-bao-clips/ep005-sh020-take1.mp4; ban 2K ep005-sh020-clip-1080p-take1.mp4.'
   - shot_id: sh030
-    approved_for_generation: false
-    dialogue: "'Chưa' là chưa có. Không phải chưa có nên nhận anh."
+    approved_for_generation: true
+    dialogue: "Mẹ anh bảo phải về trước mười giờ. À, mẹ anh bảo đừng yêu xa nữa."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: 5260bd7d441a90119b304fb2f6ca6de41d2f288c8de32481131acdf6acb9d0fc
+      sha256: f31c619c8d861da00d7cd4033dcf2047784768ebd1f623b2a048529d333d7454
     motion_prompt:
       path: input/prompts/sh030-motion.txt
-      sha256: 28cd632ae0911b82c3cc2422a7feb20cfd66ba13ef238504d42bc205942486eb
+      sha256: 301769e6003b950668fdf0821a776f198decd48cd04396dc7623c78362f25f72
+    image_sources:
+      - path: input/references/khoi-front-casting-20261118-v001.png
+        sha256: "621db2721f8cf5f6eb55428661fefc8f053ac6efc92ababb58939eb931111179"
+    first_frame: 
+      path: input/frames/sh030-first-frame.jpg
+      sha256: 1db0fe74279ee570f2f6c02e07eedd09d431a51097218f68e8fdadde628a1e78
+    frame_status: approved
+    flow_image_asset_id: null
+    takes:
+      - take_id: take001
+        clip_id: 0bff7bd9-d017-4ba7-960d-9b997f9364b3
+        status: accepted_editorial
+        file: null
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Giu tieng Veo goc (giong Bac nam). Clip local: ~/workspace/ep005-me-anh-bao-clips/ep005-sh030-take1.mp4; ban 2K ep005-sh030-clip-1080p-take1.mp4.'
+  - shot_id: sh040
+    approved_for_generation: true
+    dialogue: "Thế sao mẹ anh không đi hẹn hò thay anh luôn đi?"
+    image_prompt:
+      path: input/prompts/sh040-image.txt
+      sha256: b17b62e6ddaf600e5cfd03bee3f32b98eb06bcded57a8d48bd318f5ab72632c5
+    motion_prompt:
+      path: input/prompts/sh040-motion.txt
+      sha256: 9141008046869cc4bf10e11aa0e0e117cac8d0feefbb7b78ff7f4b6d7eeaffbf
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+    first_frame: 
+      path: input/frames/sh040-first-frame.jpg
+      sha256: 2170f25418fe2111f90752c72a5b54867d6f64594e1c2428dbe49c5d7f449c95
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take002
+        clip_id: b72ae899-1e56-41a2-9c9d-b5bc9d38622e
+        status: accepted_editorial
+        file: null
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Take 2 (sac hon, smirk); take 1 bi loai (hien qua). Giu tieng Veo goc (giong Bac nu). Clip local: ~/workspace/ep005-me-anh-bao-clips/ep005-sh040-take2.mp4; ban 2K ep005-sh040-clip-1080p-take2.mp4.'

@@ -1,14 +1,34 @@
 schema_version: 2
 episode_id: ep005
-revision: 1
-locked_duration_seconds: null
+revision: 2
+locked_duration_seconds: 30.08
 planned_source_duration_seconds: null
-selected_takes: []
-build_commands: []
+selected_takes:
+  - shot_id: sh010
+    take_id: take001
+  - shot_id: sh020
+    take_id: take001
+  - shot_id: sh030
+    take_id: take001
+  - shot_id: sh040
+    take_id: take002
+build_commands:
+  - "python3 ~/workspace/ep005-me-anh-bao-clips/build_stage1.py  # ghep 4 clip 2K, crop watermark Veo, chen Laugh Track 1 sau sh020 + freeze 1.16s"
+  - "python3 ~/workspace/ep005-me-anh-bao-clips/build_captions.py  # Whisper base + can theo kich ban, xuat captions.json/SRT"
+  - "Remotion BasicCaptions (boxed) tu ~/workspace/remotion-captions-test, out ep005-boxed-tmp.mp4, accent #F59E0B, khong title card"
+  - "python3 ~/workspace/ep005-me-anh-bao-clips/build_stage3.py  # chen Laugh Track 1 cuoi + freeze-frame tail"
+build_notes:
+  - "Master: ep005-me-anh-bao-boxed-laughtrack1.mp4 (30.08s, 1080x1920, 24fps, -15.45 LUFS/TP -0.78), tai ~/workspace/ep005-me-anh-bao-clips/."
+  - "Trim: sh010 6.5s / sh020 7.5s / sh030 6.5s / sh040 7.5s (deu tieng Veo goc); crop 960:1707:60:0 + lanczos 1080x1920, sach watermark."
+  - "Boxed captions #F59E0B 56 tu; SRT kem theo: ep005-me-anh-bao-subtitles.srt."
+  - "Laugh Track 1 (LittleRainySeasons, CC BY, Freesound) 2 lan: sau sh020 (nghe 13.12-14.96s, freeze 14.0-15.16s) theo lenh truc tiep cua Richard 2026-11-19 08:28 (ngoai le quy tac SFX-chi-cuoi-tap trong AGENTS.md), va cuoi tap (nghe 28.24-30.08s, freeze 0.87s)."
+  - "4 clip Flow: Frames-direct, Veo 3.1 Lite, 10cr/clip, tong 50cr (40 gen take 1 + 10 gen lai sh040 take 2), acc huynhdn.developer@gmail.com; ban 2K upscale 0 credit, so du 870."
+  - "Ban Boxed chua Laugh cuoi giu rieng: ep005-assembly-v1-boxed.mp4."
+  - "Da dang 19:00 ngay 20/11/2026 (GMT+7), Bee xac minh 19:21-19:25 cung ngay: TikTok https://www.tiktok.com/@chuyennhathaomy/video/7709707638719778066 (Everyone, nhan AI bat, caption dung, bia mat Thao My, 3 views luc xac minh); Facebook https://www.facebook.com/reel/1686275046422515/ (Public, description co dong link aff-0001, bia mat Thao My, 0 view luc xac minh; ID hen gio 1121844250750225 khong mo duoc dang URL public — la ID lich hen, reel cong khai 1686275046422515, Business Suite content ID 1233666195659537). Nhan AI Facebook khong bat duoc tren web Business Suite (nhu cac tap truoc)."
 audio_plan:
-  mute_veo_native: true
-  voice_by: muse
+  mute_veo_native: false
+  voice_by: veo_native
 transition_plan: hard_cuts_only
 qc:
-  status: not_run
+  status: passed
   report_file: null
