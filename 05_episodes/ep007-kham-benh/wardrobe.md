@@ -1,11 +1,11 @@
 # ep007 — Khám Bệnh — Wardrobe: Thảo My
 
-Trạng thái: ref đã nhận 20/11/2026 từ Richard, frame sh010/sh030 ĐÃ làm lại 20/11 theo áo mới (v2, xem script.md). Tập đổi số từ ep019 thành ep007 ngày 20/11.
+Trạng thái: ref đã nhận 20/11/2026 từ Richard, frame sh010/sh030 v5 ĐÃ DUYỆT 20/11 (17:54) — ngực rất to, căng cực kỳ, áo pastel bó sát; đang gen 4 clip take001. Tập đổi số từ ep019 thành ep007 ngày 20/11.
 
 ## Áo Thảo My — chốt theo ref Richard gửi 20/11
 
 - Sản phẩm: áo thun chiết eo có mút rời, KVK KIVIKA FITWEAR.
-- Màu dùng trong tập: **Hồng Pastel** (chỉ màu này; listing có 4 màu: Đen, Trắng, Xám than, Hồng pastel).
+- Màu dùng trong tập: **Hồng Pastel** (chỉ màu này; listing có 4 màu: Đen, Trắng, Xám than, Hồng pastel). QUY TẮC MÀU 20/11 (Richard dặn): màu hồng trên frame/clip phải khớp đúng màu áo thật đang bán — không đậm hơn, không bão hòa hơn, không lệch sang hồng đậm/hồng cánh sen — vì khán giả mua theo đúng màu nhìn thấy.
 - Kiểu: ngắn tay, cổ tròn, tay raglan, vải trơn mịn (không dệt kim), co giãn 4 chiều, thoáng mát, có mút rời bên trong.
 - Độ ôm: **bó sát, chiết eo, tôn dáng — phải nhìn rõ là đang chật**. Đây là điểm mấu chốt của cú chốt sh040 ("mặc chật thế thở làm sao được"), nên độ bó sát không được làm nhẹ đi.
 - Quần: quần dài tối màu đơn giản như kịch bản cũ. Ảnh mẫu mặc quần legging xám — KHÔNG dùng legging trong cảnh phòng khám, chỉ giữ quần tối màu.
@@ -30,5 +30,6 @@ Trạng thái: ref đã nhận 20/11/2026 từ Richard, frame sh010/sh030 ĐÃ l
 
 ## Affiliate
 
-- Link Richard gửi 20/11: https://s.shopee.vn/8fU4QqQvWj — ghi aff-0004 / prd-0004, đang chờ xác minh đích (trình duyệt đang mở link để đối chiếu với 2 ảnh ref).
+- Link Richard gửi 20/11: https://s.shopee.vn/8fU4QqQvWj — ghi aff-0004 / prd-0004, ĐÍCH ĐÃ XÁC MINH 20/11: đúng 'Áo Thun Thể Thao Nữ Chiết Eo Có Mút Ngực Rời, Áo Gym Yoga Ôm Dáng Co Giãn Mềm Mịn', 4 màu, size S/M/L.
+- Lưu ý màu 20/11: đo HLS vùng áo — ref flatlay H357 L87 S31; frame v5 sh010 L70, sh030 L81: hue/saturation khớp, lightness lệch ~11 điểm do ánh sáng cảnh sh010 tối hơn (không phải nhuộm khác màu). Richard duyệt v5 dù còn lệch lightness này.
 - Chưa gắn vào bài, chưa đăng.

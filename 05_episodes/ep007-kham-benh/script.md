@@ -1,6 +1,6 @@
 # ep007 — Khám Bệnh
 
-Trạng thái: draft, 4 frame đã làm xong 19/11 (Flow Nano Banana, 0 credit, project CNTM · EP019 · Khám Bệnh — tên project Flow chưa đổi, tập đổi số từ ep019 thành ep007 ngày 20/11), đang chờ Richard duyệt frame rồi mới gen clip. Thảo My + bác sĩ nam (nhân vật một lần, không thuộc series 13 chàng trai).
+Trạng thái: draft, frame sh010/sh030 v5 ĐÃ DUYỆT 20/11 17:54, đang gen 4 clip take001 (Flow Nano Banana frame 0 credit, project CNTM · EP019 · Khám Bệnh — tên project Flow chưa đổi, tập đổi số từ ep019 thành ep007 ngày 20/11). Thảo My + bác sĩ nam (nhân vật một lần, không thuộc series 13 chàng trai).
 
 ## Ý tưởng và twist
 
@@ -43,7 +43,7 @@ Thảo My đi khám vì tức ngực, khó thở. Bác sĩ hỏi có bảo hiể
 
 ## Sản phẩm lồng ghép
 
-- Áo Thảo My mặc trong tập là sản phẩm affiliate: áo thun chiết eo có mút rời, màu Hồng Pastel (KVK KIVIKA FITWEAR), link aff-0004 https://s.shopee.vn/8fU4QqQvWj — Richard gửi 20/11, đang chờ xác minh đích. Xem `wardrobe.md` và `04_products/prd-0004/README.md`. Chưa gắn vào bài, chưa đăng.
+- Áo Thảo My mặc trong tập là sản phẩm affiliate: áo thun chiết eo có mút rời, màu Hồng Pastel (KVK KIVIKA FITWEAR), link aff-0004 https://s.shopee.vn/8fU4QqQvWj — Richard gửi 20/11, ĐÍCH ĐÃ XÁC MINH 20/11. Xem `wardrobe.md` và `04_products/prd-0004/README.md`. Chưa gắn vào bài, chưa đăng.
 
 ## Frame đã làm (19/11, v1 len hồng đậm)
 
@@ -59,6 +59,13 @@ Thảo My đi khám vì tức ngực, khó thở. Bác sĩ hỏi có bảo hiể
 - sh010 + sh030 làm lại 1 lần từ master v002 (Nano Banana, 0 credit), asset Flow chung `00c69f98-0917-4f2e-a10b-c9a01671a547` (sh010 gen 1, sh030 gen 2 trong cùng asset). Ảnh ref áo chỉ ghi bằng chữ trong prompt (upload file vào Flow không mở được picker) nhưng frame ra đúng: áo thun hồng pastel trơn mịn, cổ tròn, tay raglan, chiết eo bó sát — không dệt kim, không hồng đậm.
 - Tự soi trên file tải về: mặt khớp v002 cả 2, nốt ruồi cằm trái có cả 2 (sh010 soi zoom thấy), son hồng nhạt, quần tối màu. sh010: tay ôm ngực, bác sĩ nam nghiêng mặt bên phải khung (hết lỗi tóc nữ ở v1). sh030: nghiêng người về trước, tò mò.
 - Cả 2 đều 768×1376, vẫn có dấu sao watermark nhỏ góc dưới phải.
+
+## Frame làm lại tiếp (20/11, v3 → v5)
+
+- **v3**: Richard bác 14:30 — ngực chưa đủ căng. Làm lại cả 2, giữ tên `*-v3-padded.jpg`. QC: sh010 ngực đầy hơn nhưng khung trôi rộng (thấy cả chân); sh030 gần như trùng bố cục sh010, không nghiêng về trước, không cận vừa, ngực không đầy hơn v2 rõ. Không đưa lên canonical.
+- **v4**: làm lại cả 2, siết khung (sh010 waist-up, sh030 cận ngực 3/4) + tăng ngực một nấc, giữ tên `*-v4-padded.jpg`. QC đạt khung hình + ngực đầy hơn, son sh010 hơi đậm hơn master. Richard bác 17:01: màu áo 2 frame hơi khác, ngực cần to và căng hơn. Đo HLS: sh010 L72, sh030 L83 (ref L87) — hue/saturation khớp, lệch ở lightness do ánh sáng cảnh.
+- **v5 (ĐÃ DUYỆT 17:54)**: làm lại cả 2, ngực tăng thêm một nấc ("rất to, căng cực kỳ"), khóa màu 2 frame giống hệt nhau + khớp ref. Asset Flow riêng: sh010 `5c07830b-85c6-48da-b3de-8fb17a9fde41`, sh030 `bb070fd7-871c-4cfc-9315-67c19067e23a` (upload master mới từng shot; asset cũ cùng tên trong project là frame phòng khám, không phải master). QC trên file tải về: ngực rất to, tròn, áo căng cực kỳ cả 2; khung đúng khóa; mặt khớp v002; nốt ruồi cằm trái còn cả 2 (soi zoom, hơi mờ); son hồng nhạt đúng cả 2. Màu áo: hue/saturation khớp ref, nhưng lightness vẫn lệch ~11 điểm (sh010 L70, sh030 L81) — Richard duyệt dù còn lệch này. Đưa lên canonical `sh010-first-frame.jpg` / `sh030-first-frame.jpg`, giữ tên `*-v5-padded.jpg`.
+- Lưu ý master: file mặt chuẩn `thao-my-face-front-v002.png` (sha 8793c0ce, 720×1280) là ảnh selfie ngoài trời, áo cardigan kem — không phải chân dung nền xám áo trắng; mọi frame ep007 đều sửa từ đúng file này.
 
 ## Tài sản và prompt
 

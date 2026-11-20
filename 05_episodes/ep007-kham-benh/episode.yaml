@@ -23,11 +23,11 @@ export:
 target_duration_seconds: 32
 shots:
   - shot_id: sh010
-    approved_for_generation: false
+    approved_for_generation: true
     dialogue: "Bác sĩ ơi, ngực em cứ tức tức, thở không ra hơi."
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: d814543f410d41eddbbbdc164328d59dc41b6779b1b73a19560b75fcfe272671
+      sha256: 4df0c73191533ff4c59d02229471f6ad653003b4181e7961a04931cdd9adbc7f
     motion_prompt:
       path: input/prompts/sh010-motion.txt
       sha256: a0502156cbba0715800a21130ed61c718e5186167cc0585216c74ca5ceb64d0a
@@ -42,12 +42,12 @@ shots:
         sha256: "d415d5df4b965260a58a7974e5f6dd8693353561db1a2356c1031181c70127f8"
     first_frame:
       path: input/frames/sh010-first-frame.jpg
-      sha256: bad5815e4ba42b8ec78b416316d5d73e9f74366abf0082554d40874bb5837960
-    frame_status: pending_review
-    flow_image_asset_id: 00c69f98-0917-4f2e-a10b-c9a01671a547
+      sha256: 3e61814629a6b3c7bc62a7164875c93a4ad7578a66664502a4d54fc2ae5bb3f7
+    frame_status: approved
+    flow_image_asset_id: 5c07830b-85c6-48da-b3de-8fb17a9fde41
     takes: []
   - shot_id: sh020
-    approved_for_generation: false
+    approved_for_generation: true
     dialogue: "Có bảo hiểm thì làm đủ: chụp chiếu, điện tim, siêu âm, xét nghiệm, nằm viện theo dõi."
     image_prompt:
       path: input/prompts/sh020-image.txt
@@ -63,11 +63,11 @@ shots:
     flow_image_asset_id: fae1ad9b-14b4-48c5-8e11-30a3cc1343e2
     takes: []
   - shot_id: sh030
-    approved_for_generation: false
+    approved_for_generation: true
     dialogue: "Thế còn không có bảo hiểm thì sao ạ?"
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: 0e05a6901ba125f8f0b144ce2c53cc016a0d4a1550c4ea4ee4c5bb5378c88265
+      sha256: b7b6a182d1db2050dd686f05df05114207b2ed1b1c2f7e074b78c1093f6f0ada
     motion_prompt:
       path: input/prompts/sh030-motion.txt
       sha256: 6ea21ce9e90630b5003fc33447c479249a47d94809332b0d975b65f23b31324b
@@ -82,12 +82,12 @@ shots:
         sha256: "d415d5df4b965260a58a7974e5f6dd8693353561db1a2356c1031181c70127f8"
     first_frame:
       path: input/frames/sh030-first-frame.jpg
-      sha256: 63486b6437b18af66179783477fb60727899b1bbd25b0267348cb3339062484d
-    frame_status: pending_review
-    flow_image_asset_id: 00c69f98-0917-4f2e-a10b-c9a01671a547
+      sha256: 72637f1fd8d2cb7648b74edf358cd220d0bd927abb4316ef115054513620ce71
+    frame_status: approved
+    flow_image_asset_id: bb070fd7-871c-4cfc-9315-67c19067e23a
     takes: []
   - shot_id: sh040
-    approved_for_generation: false
+    approved_for_generation: true
     dialogue: "Không có thì khỏi cần. Đổi sang bộ đồ rộng đi, mặc chật thế thở làm sao được."
     image_prompt:
       path: input/prompts/sh040-image.txt
