@@ -14,7 +14,7 @@ Thảo My đi khám vì tức ngực, khó thở. Bác sĩ hỏi có bảo hiể
 
 ### Thảo My (sh010, sh030)
 - Mặt/tóc: `thao-my-face-front-v002.png`; body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
-- Trang phục: áo len hồng ôm sát, ngắn tay, cổ tròn — **phải nhìn rõ là đang chật** thì cú chốt mới có đất diễn (quy tắc: chi tiết thoại nhắc tới thì hình phải cho thấy). Quần dài tối màu đơn giản. Son đỏ nhẹ, tóc nâu dài buông tự nhiên.
+- Trang phục: áo thun bó sát hồng pastel, ngắn tay, cổ tròn, tay raglan, vải trơn mịn, chiết eo (KVK KIVIKA FITWEAR, áo thun chiết eo có mút rời — ref Richard gửi 20/11, xem `wardrobe.md`) — **phải nhìn rõ là đang chật** thì cú chốt mới có đất diễn (quy tắc: chi tiết thoại nhắc tới thì hình phải cho thấy). Quần dài tối màu đơn giản. Son đỏ nhẹ, tóc nâu dài buông tự nhiên.
 - Diễn xuất: sh010 tay ôm ngực, mặt lo lắng thật; sh030 nghiêng người về trước, tò mò; cuối sh040 sững sờ, mắt mở to, im lặng.
 
 ### Bác sĩ (sh020, sh040) — nhân vật một lần
@@ -43,7 +43,7 @@ Thảo My đi khám vì tức ngực, khó thở. Bác sĩ hỏi có bảo hiể
 
 ## Sản phẩm lồng ghép
 
-Mặc định không affiliate. Phòng khám không hợp sản phẩm hiện có; chưa gắn link, chưa đăng.
+- Áo Thảo My mặc trong tập là sản phẩm affiliate: áo thun chiết eo có mút rời, màu Hồng Pastel (KVK KIVIKA FITWEAR), link aff-0004 https://s.shopee.vn/8fU4QqQvWj — Richard gửi 20/11, đang chờ xác minh đích. Xem `wardrobe.md` và `04_products/prd-0004/README.md`. Chưa gắn vào bài, chưa đăng.
 
 ## Frame đã làm (19/11)
 
