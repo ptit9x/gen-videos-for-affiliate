@@ -22,11 +22,11 @@ Thảo My hẹn hò với bạn trai ở quán cà phê ngoài trời, mới que
 - Son đỏ + móng tự nhiên (quy tắc QC 19/11: ghi rõ trong mọi image prompt, kiểm tra từng frame).
 - Diễn xuất: sh010 nũng nịu, chống cằm cười; sh030 khoe khoang, tự tin; sh050 thản nhiên như chuyện đương nhiên; sh070 tỉnh bơ chốt hạ.
 
-### Chàng trai — Nam (sh020, sh040, sh060) — TẠM, ảnh ref đã lưu 21/11
-- **Nam, khoảng 25–30 tuổi. TẠM THỜI dùng ảnh Richard gửi 21/11** (`input/references/nam-front-temp-v001.jpg`, 1023×1537, sha256 `f9c75fe8ba0144f536bcc35cfd6dc9bfcdeebff8b2b6d8ec0d7901d491c5f889`) để sinh nhân vật trên Google Flow khi làm tới — **chưa tạo nhân vật Flow, chỉ lưu ảnh lại theo lệnh "lưu lại vậy đã nhé".**
+### Chàng trai — Thảo (sh020, sh040, sh060) — TẠM, ảnh ref đã lưu 21/11
+- **Thảo, khoảng 25–30 tuổi. TẠM THỜI dùng ảnh Richard gửi 21/11** (`input/references/thao-front-temp-v001.jpg`, 1023×1537, sha256 `f9c75fe8ba0144f536bcc35cfd6dc9bfcdeebff8b2b6d8ec0d7901d491c5f889`) để sinh nhân vật trên Google Flow khi làm tới — **chưa tạo nhân vật Flow, chỉ lưu ảnh lại theo lệnh "lưu lại vậy đã nhé".**
 - Ảnh ref: tóc đen rối, râu nhẹ, áo sơ mi linen trắng mở cổ, quần be, đứng ở biển. Chỉ lấy mặt/tóc/dáng — KHÔNG lấy nền biển, quần be.
 - **CỐ TÌNH KHÁC Nam ep008 — Richard xác nhận 06:54 21/11:** ảnh này khác mặt Nam của ep008 (`02_characters/nam/approved/nam-front-v001.jpg` — không râu, tóc vuốt phồng, sơ mi trắng cài kín, nhân vật Flow đã tạo xong) là đúng ý đồ — Richard muốn để khán giả so sánh xem thích anh nào. Vì vậy ảnh mới lưu riêng trong thư mục tập ep021, KHÔNG ghi đè `nam-front-v001.jpg`, KHÔNG đưa vào `02_characters/nam/`. Đây là một chàng trai KHÁC, không phải cùng 1 Nam xuyên 2 tập.
-- **Tên gọi — CẦN CHỐT:** hiện cả 2 anh đều đang gọi là "Nam" trong hồ sơ, khán giả vote sẽ khó phân biệt. Cần Richard đặt tên riêng cho anh ep021 trước khi làm frame (hoặc chốt gọi anh này là Nam-bản-tạm và đặt tên sau).
+- **Tên gọi — CHỐT 21/11: tên Thảo** (Richard chốt 06:57). Nếu cưới nhau thì thành "Gia đình Thảo My" — Thảo + My, đúng ý đồ đặt tên của Richard. Từ nay anh ep021 gọi là Thảo trong mọi hồ sơ, không gọi Nam nữa.
 - Trang phục trong tập: chưa chốt riêng — tạm giữ sơ mi trắng như ảnh ref; chờ Richard chốt rồi ghi vào `wardrobe.md`.
 - Diễn xuất: sh020 ngơ ngác, gãi đầu; sh040 ngây thơ hỏi lại; sh060 sững sờ khi nghe "nợ" ở shot sau.
 
@@ -57,7 +57,7 @@ Thảo My hẹn hò với bạn trai ở quán cà phê ngoài trời, mới que
 - **sh060/sh070 tách 2 shot (CHỐT 21/11):** Richard chốt chia shot chốt thành 2 để giữ đúng luật 1 người nói/shot — sh060 anh hỏi "Trả gì?", sh070 My đáp "Trả nợ 800 triệu, là tiền em nợ." Tổng thành 7 shot / 56s.
 - **sh030 18 từ:** sát trần ngân sách Flow 8s (12–18 từ). Nếu Veo đọc vội thì tách "sau cưới sẽ là của chung" sang sh040, nhưng sẽ mất beat "Đó là tiền của em mà".
 - **Giọng:** thoại viết giọng Bắc, mỗi câu ≤18 từ — đúng ngân sách Flow 8s.
-- **Chàng trai là ai:** Nam — ảnh ref tạm đã lưu 21/11 (`input/references/nam-front-temp-v001.jpg`); chưa tạo nhân vật Flow, chỉ lưu lại. Lưu ý mặt này khác Nam ep008 — xem phần "Khóa nhân vật".
+- **Chàng trai là ai:** Thảo — ảnh ref tạm đã lưu 21/11 (`input/references/thao-front-temp-v001.jpg`); chưa tạo nhân vật Flow, chỉ lưu lại. Chàng trai khác Nam ep008 — xem phần "Khóa nhân vật".
 - **Trang phục My:** áo dài Thanh Nghi hồng đậm, quần hồng nhạt — CHỐT 21/11, mặc tiếp sau ep008; chi tiết trong `wardrobe.md`. Áo dài không có affiliate.
 - **Không affiliate:** quán cà phê không hợp sản phẩm hiện có; chưa gắn link, chưa đăng.
 - **Không dùng phần sau của reel gốc:** con gái có sẵn, bầu con trai, "không biết bố nó là ai" — đã cắt theo yêu cầu, chỉ ghi trong `source-transcript.md` để đối chiếu, không đưa vào storyboard.

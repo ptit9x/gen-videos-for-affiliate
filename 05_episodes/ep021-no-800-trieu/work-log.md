@@ -30,3 +30,9 @@
 - Đã sửa ghi chú trong script.md + wardrobe.md: KHÔNG còn là cờ đỏ — đây là ý đồ: ep021 là một chàng trai KHÁC ep008, để khán giả vote/compare. Ảnh vẫn lưu riêng trong thư mục ep021, không đụng `nam-front-v001.jpg` của ep008.
 - Còn mở: cả 2 anh hiện đều gọi là "Nam" trong hồ sơ — cần Richard đặt tên riêng cho anh ep021 trước khi làm frame, không thì khán giả vote khó phân biệt.
 - Chưa làm gì thêm: chưa duyệt kịch bản rev2, chưa làm frame, chưa gen clip.
+
+## 2026-11-21 06:57 — Richard chốt tên anh ep021 là Thảo
+
+- Richard nhắn: tên là Thảo, nếu kết hôn thành "Gia đình Thảo My" quá hợp.
+- Đã đổi tên trong script.md + wardrobe.md: anh ep021 từ nay gọi là **Thảo** (không gọi Nam nữa). File ref đổi tên theo: `input/references/nam-front-temp-v001.jpg` → `input/references/thao-front-temp-v001.jpg` (git mv, sha256 giữ nguyên `f9c75fe8…5f889`). Các entry work-log cũ giữ nguyên chữ "Nam" vì đó là cách gọi lúc ghi.
+- Chưa làm gì thêm: chưa duyệt kịch bản rev2, chưa làm frame, chưa gen clip. Bước tiếp theo chờ Richard duyệt kịch bản rev2 rồi mới làm frame.
