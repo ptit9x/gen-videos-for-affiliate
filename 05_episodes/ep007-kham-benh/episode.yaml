@@ -48,7 +48,7 @@ shots:
   takes:
   - take_id: take001
     clip_id: a640a7f9-4af0-47f1-bc6c-b95818b2660e
-    status: needs_review
+    status: accepted_editorial
     file:
       path: generated/sh010-take001.mp4
       sha256: f67ca9ab04dc14627e148cab6adca7bdc245a20113ee28a4d4082f192eaefe1b
@@ -74,7 +74,7 @@ shots:
   takes:
   - take_id: take001
     clip_id: 1be12447-0b36-4b23-817f-a89ebac310b3
-    status: needs_review
+    status: accepted_editorial
     file:
       path: generated/sh020-take001.mp4
       sha256: ccef0fbcb7c93728d77d1aa7c11c3a7affb608a66c42d07ea511fb18cc2073fd
@@ -108,7 +108,7 @@ shots:
   takes:
   - take_id: take001
     clip_id: a5524f54-d235-4525-94ab-4fb4f96a8480
-    status: needs_review
+    status: accepted_editorial
     file:
       path: generated/sh030-take001.mp4
       sha256: 79ba5f47aa3e6431bf1ba2f608e2b265887395dbdabf16471dae7e3b544f81cb
@@ -186,7 +186,7 @@ shots:
   takes:
   - take_id: take001
     clip_id: 856635d5-e7d4-4f27-8412-3e4ae7980bfa
-    status: needs_review
+    status: rejected_editorial
     file:
       path: generated/sh050-take001.mp4
       sha256: 9ce958c1fef91bc446e18485ac02923778f8826413daee597e90965538f14f3e
@@ -201,7 +201,7 @@ shots:
       4-7s).'
   - take_id: take002
     clip_id: f0143ecd-a97d-4eb0-8c38-58dc35927a62
-    status: needs_review
+    status: accepted_editorial
     file:
       path: generated/sh050-take002.mp4
       sha256: 6096f96b0d37e39ee926cb41ec8a2c921903e8470761b49a0d7ec4e581e2c0b5
