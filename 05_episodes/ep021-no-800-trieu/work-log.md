@@ -16,3 +16,10 @@
 - script.md rev2: tách sh060 thành sh060 anh hỏi "Trả gì?" + sh070 My đáp "Trả nợ 800 triệu, là tiền em nợ." — giờ 7 shot × 8s = 56s, đúng luật 1 người nói/shot. Trang phục My CHỐT: áo dài Thanh Nghi hồng đậm, quần hồng nhạt, tóc xõa (mặc tiếp sau ep008).
 - Tạo `wardrobe.md` mới cho ep021 (ref áo dài + sha như ep008). episode.yaml + manifest lên rev2, target 56s.
 - Chưa làm gì thêm: chưa duyệt kịch bản rev2, chưa làm frame, chưa gen clip. Bước tiếp theo chờ Richard duyệt kịch bản rev2 + cấp ảnh chàng trai rồi mới làm frame.
+
+## 2026-11-21 06:52 — Richard gửi ảnh Nam tạm, chỉ lưu lại
+
+- Richard gửi ảnh nam (biển, sơ mi linen trắng mở cổ, quần be, tóc rối + râu nhẹ) và dặn: nhân vật Nam tạm thời dùng ảnh này sinh trong Google Flow — rồi nhắn thêm "lưu lại vậy đã nhé".
+- Ảnh đã lưu vào `input/references/nam-front-temp-v001.jpg` (1023×1537, sha256 `f9c75fe8…5f889`). **Chỉ lưu, CHƯA tạo nhân vật Flow, chưa gen gì.**
+- **Cờ đỏ đã ghi vào script.md + wardrobe.md: mặt này KHÁC mặt Nam ep008** (`nam-front-v001.jpg`, không râu, tóc vuốt phồng) — nên lưu riêng trong thư mục tập ep021, KHÔNG ghi đè file Nam của ep008, KHÔNG đưa vào `02_characters/nam/`. Cần Richard xác nhận: cùng 1 Nam xuyên 2 tập (chọn 1 mặt) hay Nam-bản-tạm chỉ dùng cho ep021.
+- Chưa làm gì thêm: chưa duyệt kịch bản rev2, chưa làm frame, chưa gen clip.
