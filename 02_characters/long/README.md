@@ -1,6 +1,6 @@
 # Long — Cắm điện thoại
 
-Tập: ep016. Người dùng duyệt ảnh ngày 2026-11-18 trong chat (“ok ổn”).
+Tập: ep018. Người dùng duyệt ảnh ngày 2026-11-18 trong chat (“ok ổn”).
 
 Ảnh chuẩn: [ảnh đã duyệt](approved/long-front-casting-20261118-v001.png)
 

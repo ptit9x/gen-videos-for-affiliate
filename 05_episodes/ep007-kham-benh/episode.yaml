@@ -1,0 +1,104 @@
+schema_version: 2
+episode_id: ep007
+revision: 1
+title: "Khám Bệnh"
+editorial_status: draft
+flow_project: https://flow.google.com/project/c02626e9-52dd-48fb-8c41-faf7323b9e22
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 32
+shots:
+  - shot_id: sh010
+    approved_for_generation: false
+    dialogue: "Bác sĩ ơi, ngực em cứ tức tức, thở không ra hơi."
+    image_prompt:
+      path: input/prompts/sh010-image.txt
+      sha256: d814543f410d41eddbbbdc164328d59dc41b6779b1b73a19560b75fcfe272671
+    motion_prompt:
+      path: input/prompts/sh010-motion.txt
+      sha256: a0502156cbba0715800a21130ed61c718e5186167cc0585216c74ca5ceb64d0a
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/references/thao-my-pink-pastel-fitted-tee-reference.jpg
+        sha256: "5e9012df90cd106c7572f97c3a3aedabf6292e6980aff1ff4e43ca0ae18d8f11"
+      - path: input/references/thao-my-pink-pastel-fitted-tee-worn-reference.jpg
+        sha256: "d415d5df4b965260a58a7974e5f6dd8693353561db1a2356c1031181c70127f8"
+    first_frame:
+      path: input/frames/sh010-first-frame.jpg
+      sha256: bad5815e4ba42b8ec78b416316d5d73e9f74366abf0082554d40874bb5837960
+    frame_status: pending_review
+    flow_image_asset_id: 00c69f98-0917-4f2e-a10b-c9a01671a547
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: false
+    dialogue: "Có bảo hiểm thì làm đủ: chụp chiếu, điện tim, siêu âm, xét nghiệm, nằm viện theo dõi."
+    image_prompt:
+      path: input/prompts/sh020-image.txt
+      sha256: 0ee1df81ccf57d94388ca592bb36463444c64859a244b4a12527278bd15ffd43
+    motion_prompt:
+      path: input/prompts/sh020-motion.txt
+      sha256: b7106c45fab5220538e44d2767e5bd1c02b1a95b4331b2b380ad794f5072643a
+    image_sources: []
+    first_frame:
+      path: input/frames/sh020-first-frame.jpg
+      sha256: c405a804e85534a47773edfbdb2464acdec56b8f2ec95f2943b434598023afd3
+    frame_status: pending_review
+    flow_image_asset_id: fae1ad9b-14b4-48c5-8e11-30a3cc1343e2
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: false
+    dialogue: "Thế còn không có bảo hiểm thì sao ạ?"
+    image_prompt:
+      path: input/prompts/sh030-image.txt
+      sha256: 0e05a6901ba125f8f0b144ce2c53cc016a0d4a1550c4ea4ee4c5bb5378c88265
+    motion_prompt:
+      path: input/prompts/sh030-motion.txt
+      sha256: 6ea21ce9e90630b5003fc33447c479249a47d94809332b0d975b65f23b31324b
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/references/thao-my-pink-pastel-fitted-tee-reference.jpg
+        sha256: "5e9012df90cd106c7572f97c3a3aedabf6292e6980aff1ff4e43ca0ae18d8f11"
+      - path: input/references/thao-my-pink-pastel-fitted-tee-worn-reference.jpg
+        sha256: "d415d5df4b965260a58a7974e5f6dd8693353561db1a2356c1031181c70127f8"
+    first_frame:
+      path: input/frames/sh030-first-frame.jpg
+      sha256: 63486b6437b18af66179783477fb60727899b1bbd25b0267348cb3339062484d
+    frame_status: pending_review
+    flow_image_asset_id: 00c69f98-0917-4f2e-a10b-c9a01671a547
+    takes: []
+  - shot_id: sh040
+    approved_for_generation: false
+    dialogue: "Không có thì khỏi cần. Đổi sang bộ đồ rộng đi, mặc chật thế thở làm sao được."
+    image_prompt:
+      path: input/prompts/sh040-image.txt
+      sha256: 01826b91ea5b2920784978559590667d72613fe2ba17b7c5e1d06ffc1222253c
+    motion_prompt:
+      path: input/prompts/sh040-motion.txt
+      sha256: 85583591d68c8047cf0be9d83b61159fc6f1ffe0580e419013219524070bbeb6
+    image_sources: []
+    first_frame:
+      path: input/frames/sh040-first-frame.jpg
+      sha256: e431bcf402074c95f30fe7f6463d8fc8fa23602e80dbd51f73db2c732e177236
+    frame_status: pending_review
+    flow_image_asset_id: c38dea94-5075-4e1a-9548-1ec976502bb1
+    takes: []

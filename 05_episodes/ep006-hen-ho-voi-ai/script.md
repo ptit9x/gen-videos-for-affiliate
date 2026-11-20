@@ -36,7 +36,7 @@ Thảo My mặc đẹp đi ăn nhà hàng một mình. Ai cũng hỏi "hẹn v�
 | Váy lụa hai dây maxi suông đen (SANJOLI), cổ đổ | sh010, sh040 | Mặc một mình, không áo khoác ngoài, trung cảnh thấy rõ | aff-0001 (sug-0006) |
 | Ốp lưng iPhone 16/17/18 Pro Max (Slimcase, trong suốt, MagSafe) | sh020 | Cầm điện thoại, cận vừa thấy ốp trong tay | aff-0003 (sug-0008) |
 
-Áo sơ mi linen dài tay form rộng (LAHSTORE, aff-0002) bỏ khỏi tập này 19/11 — không hợp bối cảnh nhà hàng tối; link đã chuyển sang ep008 (19/11).
+Áo sơ mi linen dài tay form rộng (LAHSTORE, aff-0002) bỏ khỏi tập này 19/11 — không hợp bối cảnh nhà hàng tối; link đã chuyển sang ep010 (19/11).
 
 ## Tài sản và prompt
 

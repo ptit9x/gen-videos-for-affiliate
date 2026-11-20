@@ -28,15 +28,15 @@ ep001 rev3 dùng mặt mới/body v003, chưa gen frame/clip mới; ID take rev2
 | ep000-pilot1 | Pilot | Đã đăng |
 | ep002-ly-do | Lý do | Draft |
 | ep003-co-hoi-cuoi | Cơ hội cuối | Draft |
-| ep007-gio-hang | Giỏ hàng | Draft |
-| ep014-last-christmas | Last Christmas | Draft |
-| ep015-bao-gio-lay-chong | Bao giờ lấy chồng | Draft |
+| ep009-gio-hang | Giỏ hàng | Draft |
+| ep016-last-christmas | Last Christmas | Draft |
+| ep017-bao-gio-lay-chong | Bao giờ lấy chồng | Draft |
 
 ### Ngoài series
 
 | Tập | Tên | Câu chốt | Trend |
 |---|---|---|---|
-| ep019-kham-benh | Khám Bệnh | "Không có thì khỏi cần." | Châm biếm bảo hiểm y tế |
+| ep007-kham-benh | Khám Bệnh | "Không có thì khỏi cần." | Châm biếm bảo hiểm y tế |
 
 ### Series hẹn hò — Thảo My vs 13 chàng trai
 
@@ -46,12 +46,12 @@ ep001 rev3 dùng mặt mới/body v003, chưa gen frame/clip mới; ID take rev2
 | ep004-chia-bill | Anh Chia Bill | "Lập bảng Excel cho bữa ăn" | Chia bill first date |
 | ep005-me-anh-bao | Anh "Mẹ Anh Bảo" | "Hẹn hò với anh, không phải với mẹ anh" | Mama's boy |
 | ep006-ban-lam | Anh "Bận Lắm" | "Tổng thống cũng tweet hằng ngày" | Situationship |
-| ep008-love-bombing | Anh Love Bombing | "Dội bom xong rút quân" | Love bombing → ghost |
-| ep009-noi-xau-ex | Anh "Nói Xấu Ex" | "Bốn mối. Lần nào cũng lỗi người ta" | Toxic ex talk |
-| ep010-flex | Anh "Flex" | "Đồng hồ limited mà chia bill cà phê" | Thùng rỗng kêu to |
-| ep011-gym | Anh Gym | "Em là người yêu hay là client?" | Gym bro date |
-| ep012-day-doi | Anh "Dạy Đời" | "Em không cần thầy giáo" | Mansplaining |
-| ep013-lo-het | Anh "Lo Hết" | "Anh lo hết — trừ việc hỏi em muốn gì?" | Ga-lăng toxic |
-| ep016-cam-dien-thoai | Anh "Cắm Điện Thoại" | "Hẹn hò với wifi thôi, wifi còn kết nối" | Phone addict |
-| ep017-chup-anh | Anh Chụp Ảnh | "Hẹn hò hay casting?" | Date for content |
-| ep018-nice-guy | Anh "Nice Guy" | "Ba phút. Từ tử tế sang toxic. Nhanh hơn Grab" | Nice guy syndrome |
+| ep010-love-bombing | Anh Love Bombing | "Dội bom xong rút quân" | Love bombing → ghost |
+| ep011-noi-xau-ex | Anh "Nói Xấu Ex" | "Bốn mối. Lần nào cũng lỗi người ta" | Toxic ex talk |
+| ep012-flex | Anh "Flex" | "Đồng hồ limited mà chia bill cà phê" | Thùng rỗng kêu to |
+| ep013-gym | Anh Gym | "Em là người yêu hay là client?" | Gym bro date |
+| ep014-day-doi | Anh "Dạy Đời" | "Em không cần thầy giáo" | Mansplaining |
+| ep015-lo-het | Anh "Lo Hết" | "Anh lo hết — trừ việc hỏi em muốn gì?" | Ga-lăng toxic |
+| ep018-cam-dien-thoai | Anh "Cắm Điện Thoại" | "Hẹn hò với wifi thôi, wifi còn kết nối" | Phone addict |
+| ep019-chup-anh | Anh Chụp Ảnh | "Hẹn hò hay casting?" | Date for content |
+| ep020-nice-guy | Anh "Nice Guy" | "Ba phút. Từ tử tế sang toxic. Nhanh hơn Grab" | Nice guy syndrome |

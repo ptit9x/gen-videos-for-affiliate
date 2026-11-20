@@ -1,6 +1,6 @@
 # Love-bombing — Love Bombing
 
-Tập: ep008. Người dùng duyệt ảnh ngày 2026-11-18 trong chat (“ok ổn”).
+Tập: ep010. Người dùng duyệt ảnh ngày 2026-11-18 trong chat (“ok ổn”).
 
 Ảnh chuẩn: [ảnh đã duyệt](approved/love-bombing-front-casting-20261118-v001.png)
 

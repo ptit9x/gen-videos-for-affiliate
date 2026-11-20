@@ -1,6 +1,6 @@
 # Trí — Dạy đời
 
-Tập: ep012. Người dùng duyệt ảnh ngày 2026-11-18 trong chat (“ok ổn”).
+Tập: ep014. Người dùng duyệt ảnh ngày 2026-11-18 trong chat (“ok ổn”).
 
 Ảnh chuẩn: [ảnh đã duyệt](approved/tri-front-casting-20261118-v001.png)
 

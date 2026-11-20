@@ -1,6 +1,6 @@
 # Đạt — Chụp ảnh
 
-Tập: ep017. Người dùng duyệt ảnh ngày 2026-11-18 trong chat (“ok ổn”).
+Tập: ep019. Người dùng duyệt ảnh ngày 2026-11-18 trong chat (“ok ổn”).
 
 Ảnh chuẩn: [ảnh đã duyệt](approved/dat-front-casting-20261118-v001.png)
 

@@ -1,0 +1,78 @@
+schema_version: 2
+episode_id: ep015
+revision: 1
+title: "Cây thông"
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 24
+shots:
+  - shot_id: sh010
+    approved_for_generation: false
+    dialogue: "Người ta có cây thông hai mét. Tôi có cây thông…"
+    image_prompt:
+      path: input/prompts/sh010-image.txt
+      sha256: 85f6c29b0be7b932faf0fc9bd525d4d4ed2af57f1c4b0efeec7efdbc37fe6aac
+    motion_prompt:
+      path: input/prompts/sh010-motion.txt
+      sha256: 8e7089051ca35d58eae77ad112ef771f990341124cc4299da1311f377c09c2c7
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: false
+    dialogue: "…cao ba mươi cen-ti. Mua trên mạng."
+    image_prompt:
+      path: input/prompts/sh020-image.txt
+      sha256: 64944ac3c0d5564e22294eb155bc45eaa85888a80f6b131a90326078899eec05
+    motion_prompt:
+      path: input/prompts/sh020-motion.txt
+      sha256: 6e97a36442146b4db8211a61204c0c2f461d8d6761beffe8ece909758f76a836
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: false
+    dialogue: "Nhưng tôi treo đủ. Đèn. Nơ. Và một tấm giấy ghi 'năm sau sẽ khá hơn'."
+    image_prompt:
+      path: input/prompts/sh030-image.txt
+      sha256: 530f4861559c611cfcbb976897124639f9c9a605eac3b9254fbd79598f5e2a8c
+    motion_prompt:
+      path: input/prompts/sh030-motion.txt
+      sha256: 12ae4230cacec4aab9e42d188f21ed402b20e05e6e4e852fb6b38a1fedad96bf
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []

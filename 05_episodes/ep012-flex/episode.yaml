@@ -1,0 +1,96 @@
+schema_version: 2
+episode_id: ep012
+revision: 1
+title: "Quà Noel"
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: "9:16"
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 32
+shots:
+  - shot_id: sh010
+    approved_for_generation: false
+    dialogue: "Năm nay cuối cùng cũng có người tặng quà Noel."
+    image_prompt:
+      path: input/prompts/sh010-image.txt
+      sha256: 8c34ae181783d13d046ca7f177eea44e824d7bf28c9f40e8046a4c2da04dc02e
+    motion_prompt:
+      path: input/prompts/sh010-motion.txt
+      sha256: b6ad5fa70f1bea21525f28b2d04032136feffd94366eb6867dd91756a0cfe03c
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh020
+    approved_for_generation: false
+    dialogue: "Mở ra. Đúng size. Đúng màu. Đúng ý."
+    image_prompt:
+      path: input/prompts/sh020-image.txt
+      sha256: a710571657d89ed029cba4b1882cd9b96772400d6dc1185e3e421822ffa12fd4
+    motion_prompt:
+      path: input/prompts/sh020-motion.txt
+      sha256: eae461236ecf6f8c15985e5134fdb8d5058d7c10db3ec19a00fdde592e5db6e8
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh030
+    approved_for_generation: false
+    dialogue: "Vì người tặng hiểu tôi nhất trên đời."
+    image_prompt:
+      path: input/prompts/sh030-image.txt
+      sha256: 8a13890582521345cf9d38fe8f63ec9654d718a581c78a006287e83ad7151e79
+    motion_prompt:
+      path: input/prompts/sh030-motion.txt
+      sha256: 030b588ee479d0f6ec94b7c4784d37d3af384aeac9f8d68b33aafe6762c9550f
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh040
+    approved_for_generation: false
+    dialogue: "Là tôi."
+    image_prompt:
+      path: input/prompts/sh040-image.txt
+      sha256: 2178ff90d3a7541c08fa749efb619726eafc713d0428ca77f864ca6282fc3771
+    motion_prompt:
+      path: input/prompts/sh040-motion.txt
+      sha256: 76120c9ff4ec2f25f433366e15e46acbed9448526333e5cc035a6f73ea0ccc4b
+    image_sources:
+      - path: input/references/thao-my-face-front-v002.png
+        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
+      - path: input/references/thao-my-body-front-v003-face-v002-review.png
+        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+    first_frame: null
+    frame_status: missing_local
+    flow_image_asset_id: null
+    takes: []
