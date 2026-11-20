@@ -1,7 +1,7 @@
 schema_version: 2
 episode_id: ep007
-revision: 1
-locked_duration_seconds: 21.62
+revision: 2
+locked_duration_seconds: 21.29
 planned_source_duration_seconds: null
 selected_takes:
   - shot_id: sh010
@@ -20,8 +20,11 @@ build_commands:
   - "Remotion BasicCaptions (boxed) tu ~/workspace/remotion-captions-test, out ep007-boxed-tmp.mp4, accent #F59E0B, khong title card, concurrency 1 (482/482 frames, exit 0)"
   - "python3 ~/workspace/ep007-kham-benh-clips/build_stage3.py  # chen Laugh Track 1 cuoi (sau phan ung) + freeze-frame tail"
 build_notes:
-  - "Master v1: delivery/ep007-kham-benh-master-v1.mp4 (21.62s, 1080x1920, 24fps, -14.42 LUFS/TP -1.25, sha 1965039c55ff4bf7218a6bd65cc3dfb1f0aafc669a8956f937c2d363eff37edf), ban 1K de Richard duyet; sau khi duyet moi download 2K va dung lai ban 2K. SRT kem theo: delivery/ep007-kham-benh-subtitles.srt (sha 875fe1e7ef4f82214bcf0790dfa34cb47e4eeadfd199783040b0aaad6d761bea)."
-  - "Trim: sh010 0-4.2s / sh020 0-6.1s / sh030 1.45-3.42s (CHI lay lan noi dau, Veo lap cau 3.42-4.80s) / sh040 take002 0-4.6s (cat ngay sau thoai bac si) / sh050 take002 3.5-6.23s (2.73s, phan ung sung so) + freeze 1.98s. Tong assembly 19.87s truoc laugh."
+  - "Master v2: delivery/ep007-kham-benh-master-v2.mp4 (21.29s, 1080x1920, 24fps, -14.49 LUFS/TP -1.25, sha 88712050e4eab3da07ac289bbb5639b9e985056c6141c918c7a5660b27c1e038), ban 1K de Richard duyet; sau khi duyet moi download 2K va dung lai ban 2K. SRT kem theo: delivery/ep007-kham-benh-subtitles-v2.srt (noi dung giong v1, sha 875fe1e7ef4f82214bcf0790dfa34cb47e4eeadfd199783040b0aaad6d761bea)."
+  - "V2 SUA: sh040 take002 cat o 4.28s thay vi 4.6s. Ly do: clip goc tu cat sang Thao My o ~4.29s (frame 4.28s van la bac si, frame 4.30s da la Thao My); ban v1 lo 0.3s Thao My cua clip sh040 (toc xoan hon, Richard da bao 'khong giong') sau cau punchline. V2: cau 'duoc.' ket thuc 16.54s, cat o 16.55s, frame 16.60s da la Thao My cua sh050 — khong con frame nao cua co ay. Kiem tra bang frame 16.40/16.60s."
+  - "V1 (21.62s, sha 1965039c...) KHONG DUOC DUYET: Richard bao sau cau 'tho lam sao duoc' van hien nguoi cu. V1 giu lai o delivery/ep007-kham-benh-master-v1.mp4 de doi chieu."
+  - "Ghi chu continuity (Richard phat hien 21:44, 20/11): bac si KHONG deo kinh o sh010 va sh050 (nhin nghieng o mep phai khung hinh) nhung DEO kinh o sh020/sh040. Richard chon DE NGUYEN, khong gen lai (20 credit + rui ro take moi) — bac si o 2 shot do chi luot o mep khung, mat nguoi xem don vao Thao My."
+  - "Trim v2: sh010 0-4.2s / sh020 0-6.1s / sh030 1.45-3.42s (CHI lay lan noi dau, Veo lap cau 3.42-4.80s) / sh040 take002 0-4.28s (cat ngay khi bac si dut loi) / sh050 take002 3.5-6.23s (2.73s, phan ung sung so) + freeze 1.99s. Tong assembly 19.55s truoc laugh."
   - "Crop 630:1120:45:0 + lanczos 1080x1920, sach watermark Veo + sparkle (do vi tri that tren ca 5 clip: chu 'Veo' y~1250-1265, sparkle top ~y1150; crop cao 1120 cat sach voi >=30px margin; kiem tra 5 goc tren QC sheet, khong con dau)."
   - "Can sang theo vung crop: pass1 sh010 160.9 / sh020 151.0 / sh030 150.3 / sh040 148.9 / sh050 163.3 (dich 154.9); eq -0.0139/+0.0090/+0.0106/+0.0138/-0.0194 (he so 435 diem/1.0 theo ep006) -> 154.0/149.8/152.6/151.2/156.4. Chenh 6.6 diem tren nen sang ~155 (~4%), chap nhan."
   - "Loudnorm I=-15.5:TP=-1.0:LRA=11; file assembly bi len 96kHz (loudnorm upsample) nen chay lai loudnorm + aresample=48000 truoc khi lam caption. Assembly do duoc -15.18 LUFS, final -14.42 LUFS."
