@@ -126,7 +126,7 @@ shots:
     sha256: 01826b91ea5b2920784978559590667d72613fe2ba17b7c5e1d06ffc1222253c
   motion_prompt:
     path: input/prompts/sh040-motion.txt
-    sha256: 74c41cd12e26e40c6a3fe5d6d494a1edcb4681464260a494368aea544d1f9b54
+    sha256: 20b78710e8221ed3d07b2fb9e9a451a817ee8404c363f24120c48024d294b4fe
   image_sources: []
   first_frame:
     path: input/frames/sh040-first-frame.jpg
@@ -146,3 +146,15 @@ shots:
       buộc, mặc áo bệnh nhân xanh lá, đứng ở hành lang — không phải Thảo My, không
       phải áo hồng pastel, không phải phòng khám. Phần bác sĩ 0-4.6s dùng được, phần
       phản ứng không dùng được. Cần gen lại take002 với prompt khóa cú cắt.'
+  - take_id: take002
+    clip_id: 74fdc885-7db6-4f22-8418-5b06ea4b22da
+    status: needs_review
+    file:
+      path: generated/sh040-take002.mp4
+      sha256: PLACEHOLDER
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Motion
+      prompt khóa cú cắt bằng chữ (cùng mặt/tóc/áo hồng/phòng khám). QC 20/11: 7.93s
+      720x1280, Whisper base nghe đủ thoại bác sĩ 0.00-4.24s (đủ chữ), không phụ đề
+      giả. Cú cắt ~4.5s ĐÃ ĐÚNG: Thảo My áo hồng pastel, phòng khám, mắt mở to sững
+      sờ, im lặng. Lưu ý nhỏ: tóc xoăn hơn frame v5 một chút, áo ít căng hơn frame
+      v5. Giọng chờ Richard nghe.'
