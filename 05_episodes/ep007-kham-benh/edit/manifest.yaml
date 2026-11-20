@@ -1,17 +1,41 @@
 schema_version: 2
 episode_id: ep007
 revision: 1
-locked_duration_seconds: null
+locked_duration_seconds: 21.62
 planned_source_duration_seconds: null
-selected_takes: []
-build_commands: []
+selected_takes:
+  - shot_id: sh010
+    take_id: take001
+  - shot_id: sh020
+    take_id: take001
+  - shot_id: sh030
+    take_id: take001
+  - shot_id: sh040
+    take_id: take002
+  - shot_id: sh050
+    take_id: take002
+build_commands:
+  - "python3 ~/workspace/ep007-kham-benh-clips/build_stage1.py  # cat ghep 5 clip 1K, crop watermark Veo, can sang, concat filter, loudnorm"
+  - "python3 ~/workspace/ep007-kham-benh-clips/build_captions.py  # Whisper base + can theo kich ban, xuat captions.json/SRT"
+  - "Remotion BasicCaptions (boxed) tu ~/workspace/remotion-captions-test, out ep007-boxed-tmp.mp4, accent #F59E0B, khong title card, concurrency 1 (482/482 frames, exit 0)"
+  - "python3 ~/workspace/ep007-kham-benh-clips/build_stage3.py  # chen Laugh Track 1 cuoi (sau phan ung) + freeze-frame tail"
+build_notes:
+  - "Master v1: delivery/ep007-kham-benh-master-v1.mp4 (21.62s, 1080x1920, 24fps, -14.42 LUFS/TP -1.25, sha 1965039c55ff4bf7218a6bd65cc3dfb1f0aafc669a8956f937c2d363eff37edf), ban 1K de Richard duyet; sau khi duyet moi download 2K va dung lai ban 2K. SRT kem theo: delivery/ep007-kham-benh-subtitles.srt (sha 875fe1e7ef4f82214bcf0790dfa34cb47e4eeadfd199783040b0aaad6d761bea)."
+  - "Trim: sh010 0-4.2s / sh020 0-6.1s / sh030 1.45-3.42s (CHI lay lan noi dau, Veo lap cau 3.42-4.80s) / sh040 take002 0-4.6s (cat ngay sau thoai bac si) / sh050 take002 3.5-6.23s (2.73s, phan ung sung so) + freeze 1.98s. Tong assembly 19.87s truoc laugh."
+  - "Crop 630:1120:45:0 + lanczos 1080x1920, sach watermark Veo + sparkle (do vi tri that tren ca 5 clip: chu 'Veo' y~1250-1265, sparkle top ~y1150; crop cao 1120 cat sach voi >=30px margin; kiem tra 5 goc tren QC sheet, khong con dau)."
+  - "Can sang theo vung crop: pass1 sh010 160.9 / sh020 151.0 / sh030 150.3 / sh040 148.9 / sh050 163.3 (dich 154.9); eq -0.0139/+0.0090/+0.0106/+0.0138/-0.0194 (he so 435 diem/1.0 theo ep006) -> 154.0/149.8/152.6/151.2/156.4. Chenh 6.6 diem tren nen sang ~155 (~4%), chap nhan."
+  - "Loudnorm I=-15.5:TP=-1.0:LRA=11; file assembly bi len 96kHz (loudnorm upsample) nen chay lai loudnorm + aresample=48000 truoc khi lam caption. Assembly do duoc -15.18 LUFS, final -14.42 LUFS."
+  - "Boxed captions #F59E0B 57 tu; SRT 4 cues. Whisper nghe sai thanh dieu tieng Viet (vd 'nguoc', 'chuc', 'set', 'trat', 'xa hoa') nhung caption dung tu kich ban, chi lay timing tu Whisper. 44 overlap clamp (binh thuong, nhu ep006)."
+  - "Laugh Track 1 (LittleRainySeasons, CC BY, Freesound; file ~/workspace/laugh-sfx/final/laugh-track-1-ccby.mp3) 1 lan cuoi tap: phan ung ket thuc 19.62s, cuoi nghe 19.77-21.5s, freeze 1.98s (19.62-21.60s, MSE mid-vs-end 0.0). Khong cat ngan assembly."
+  - "Freeze frame: cat boxed render o 19.60s (sh050 clip 6.23s, mat van mo to) roi dong bang frame do; ban dau dinh dong bang frame 18.87s (mat sung so nhat) nhung se jump-cut tu frame cuoi (mat nham o 6.5s) nen doi sang trim + dong bang frame cuoi (MSE pre-vs-mid 79.6, mid-vs-end 0.0)."
+  - "5 clip Flow: Frames-direct, Veo 3.1 Lite, 10cr/clip (sh040 take002 + sh050 take002 la gen lai); sh050 take002 gen bang setting 'Return videos without audio' sau lan 1 loi 'Khong tao duoc am thanh' (duoc hoan credit)."
+  - "Ban Boxed chua Laugh cuoi giu rieng: ~/workspace/ep007-kham-benh-clips/ep007-assembly-v1-boxed.mp4. Ban assembly chua caption: ~/workspace/ep007-kham-benh-clips/ep007-assembly-v1.mp4."
+  - "Chua dang — chi dang/hen gio khi Richard bao. Bia: mat Thao My (theo quy tac 19/11). Facebook description mang link aff-0004 (ao KVK hong pastel, https://s.shopee.vn/8fU4QqQvWj); TikTok caption theo ban chot + dong CC BY Laugh Track 1."
 audio_plan:
-  mute_veo_native: true
-  engine: VieNeu-TTS
-  voice_preset: null
-  voice_status: pending_user_choice
-  lip_sync_qc: not_run
+  mute_veo_native: false
+  voice_by: native_veo_all_dialogue_shots
+  note: "Giữ tiếng Veo gốc cả 4 shot thoại (Richard nghe và phán giọng Bắc bằng tai; Bee chỉ kiểm chứng đủ chữ qua transcript). sh050 không có tiếng (gen bằng setting no-audio, Whisper không nghe được lời nào). Nếu Richard bảo shot nào không phải Bắc thì lồng clone ThaoMy cho shot đó rồi render lại."
 transition_plan: hard_cuts_only
 qc:
-  status: not_run
+  status: passed
   report_file: null
