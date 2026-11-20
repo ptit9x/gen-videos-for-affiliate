@@ -151,7 +151,7 @@ shots:
     status: needs_review
     file:
       path: generated/sh040-take002.mp4
-      sha256: PLACEHOLDER
+      sha256: dac85dd6664be46d1cca97c3725e9c01a92dae8feac295ae8f939aa9d1f95169
     note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Motion
       prompt khóa cú cắt bằng chữ (cùng mặt/tóc/áo hồng/phòng khám). QC 20/11: 7.93s
       720x1280, Whisper base nghe đủ thoại bác sĩ 0.00-4.24s (đủ chữ), không phụ đề
