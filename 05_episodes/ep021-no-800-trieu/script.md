@@ -6,7 +6,7 @@ Trạng thái: draft, chưa duyệt kịch bản, chưa làm frame, chưa gen cl
 
 Thảo My hẹn hò với bạn trai ở quán cà phê ngoài trời, mới quen nhau một tuần đã đòi cưới: "Mình quen nhau lâu rồi đó, bao giờ anh cưới em?" Anh chàng ngơ ngác vì mới quen một tuần, còn cô thì gạt phắt chuyện tìm hiểu, khoe nhà không cần sính lễ, cô còn 800 triệu, sau cưới sẽ là của chung. **Twist:** 800 triệu đó không phải tiền cô có, mà là tiền cô nợ — "Trả nợ 800 triệu, là tiền em nợ."
 
-**Nguồn ý tưởng:** reel của Hoàng Hiếu, caption "Mới yêu nhau 1 tuần mà anh đã gặp ngay thử thách cuộc đời 😂 Nếu là anh chàng này, bạn có dám cưới không? 🤣", 65 giây, 182 reactions / 17 comments / 8 shares (lúc xem 21/11/2026). Link share Richard gửi: https://www.facebook.com/share/r/1FLJCF8WDB/?mibextid=wwXIfr — reel gốc (id 1426807959536187). Video gốc đã lưu tại `input/references/source-reel-hoang-hieu-cuoi-sau-mot-tuan.mp4` (720×1280, 65,18s, sha256 `6628dfc2aa2f44566dab12ab2d081e9eeb578bbb08c2a5b8767cf0106e9e7757`). Toàn bộ thoại dưới đây viết lại hoàn toàn sang giọng Bắc, rút gọn từ 65s về 6 shot; không copy thoại gốc.
+**Nguồn ý tưởng:** reel của Hoàng Hiếu, caption "Mới yêu nhau 1 tuần mà anh đã gặp ngay thử thách cuộc đời 😂 Nếu là anh chàng này, bạn có dám cưới không? 🤣", 65 giây, 182 reactions / 17 comments / 8 shares (lúc xem 21/11/2026). Link share Richard gửi: https://www.facebook.com/share/r/1FLJCF8WDB/?mibextid=wwXIfr — reel gốc (id 1426807959536187). Video gốc đã lưu tại `input/references/source-reel-hoang-hieu-cuoi-sau-mot-tuan.mp4` (720×1280, 65,18s, sha256 `6628dfc2aa2f44566dab12ab2d081e9eeb578bbb08c2a5b8767cf0106e9e7757`). Toàn bộ thoại dưới đây viết lại hoàn toàn sang giọng Bắc, rút gọn từ 65s về 7 shot; không copy thoại gốc.
 
 **Cơ chế hài:** mồi "của chung" — cô nói 800 triệu sau cưới là của chung, khán giả tưởng cô giàu, rồi lật lại: của chung nghĩa là nợ chung. Cú chốt nằm ở chữ "trả": anh hỏi "Trả gì?" thì cô đáp "Trả nợ 800 triệu".
 
@@ -16,23 +16,23 @@ Thảo My hẹn hò với bạn trai ở quán cà phê ngoài trời, mới que
 
 ## Khóa nhân vật và bối cảnh
 
-### Thảo My (sh010, sh030, sh050, sh060)
+### Thảo My (sh010, sh030, sh050, sh070)
 - Mặt/tóc: `thao-my-face-front-v002.png`; body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
-- Trang phục: **chưa chốt** — reel gốc cô mặc váy ren trắng, giày cao gót trắng. Chờ Richard chốt: giữ váy ren trắng như gốc, hay váy SANJOLI theo lịch màu các tập. Ghi vào `wardrobe.md` khi có.
+- Trang phục: **áo dài Thanh Nghi — hồng đậm, quần hồng nhạt (CHỐT 21/11, mặc tiếp sau ep008).** Ảnh ref tại `~/workspace/ao-dai-2011/` (bản My mặc tóc xõa v3; xem `wardrobe.md`). Tóc xõa tự nhiên.
 - Son đỏ + móng tự nhiên (quy tắc QC 19/11: ghi rõ trong mọi image prompt, kiểm tra từng frame).
-- Diễn xuất: sh010 nũng nịu, chống cằm cười; sh030 khoe khoang, tự tin; sh050 thản nhiên như chuyện đương nhiên; sh060 tỉnh bơ chốt hạ.
+- Diễn xuất: sh010 nũng nịu, chống cằm cười; sh030 khoe khoang, tự tin; sh050 thản nhiên như chuyện đương nhiên; sh070 tỉnh bơ chốt hạ.
 
 ### Chàng trai (sh020, sh040, sh060) — Richard cấp sau
 - Nam khoảng 25–30 tuổi. Reel gốc: áo phông trắng, quần jeans, giày thể thao trắng. **Richard sẽ gửi ảnh chàng trai sau** — chờ cậu ấy cấp rồi mới khóa mặt/đồ và làm frame. (Gợi ý dự phòng nếu cậu ấy không gửi: dùng 1 anh đã có mặt như Bằng ở ep004, hoặc anh mới.)
-- Diễn xuất: sh020 ngơ ngác, gãi đầu; sh040 ngây thơ hỏi lại; sh060 sững sờ khi nghe "nợ".
+- Diễn xuất: sh020 ngơ ngác, gãi đầu; sh040 ngây thơ hỏi lại; sh060 sững sờ khi nghe "nợ" ở shot sau.
 
 ### Bối cảnh
 - Quán cà phê ngoài trời, bàn tròn gỗ, 2 ly nước đá, hoa giấy hồng, đèn thả vàng. Giống cấu trúc reel gốc: 2 người đối diện qua bàn, quay shot-reverse-shot tĩnh, dọc 9:16.
 - Location: có thể dùng `03_locations/` (café hẹn hò, date-cafe v001 đang chờ duyệt) hoặc tạo location mới cho quán sân vườn. Chưa chốt.
 
-## Storyboard (draft — 6 shot × 8s = 48s)
+## Storyboard (draft rev2 — 7 shot × 8s = 56s)
 
-6 shot thay vì 4 vì cần đủ vòng: đòi cưới → chối (mới 1 tuần) → khoe 800 triệu → "tiền của em mà" → "trả là hết" → lật "trả nợ". Tổng 48s, dài hơn chuẩn 40s của series, tốn thêm 10 credit/clip so với 5 shot. Nếu Richard muốn giữ chuẩn 4–5 shot thì cắt sh040 ("Đó là tiền của em mà") — beat này chỉ làm nhịp thở, không mang twist.
+7 shot thay vì 4 vì cần đủ vòng: đòi cưới → chối (mới 1 tuần) → khoe 800 triệu → "tiền của em mà" → "trả là hết" → anh hỏi "Trả gì?" → My lật "trả nợ". Shot chốt tách thành 2 theo quyết định của Richard 21/11 (sh060 anh hỏi, sh070 My đáp) để giữ đúng luật 1 người nói/shot. Tổng 56s, dài hơn chuẩn 40s của series. Nếu Richard muốn giữ chuẩn 4–5 shot thì cắt sh040 ("Đó là tiền của em mà") — beat này chỉ làm nhịp thở, không mang twist.
 
 | Shot | Người nói | Thoại tiếng Việt | Từ | Một hành động chính | Góc máy/biểu cảm | Thời lượng |
 |---|---|---|---|---|---|---|
@@ -41,7 +41,8 @@ Thảo My hẹn hò với bạn trai ở quán cà phê ngoài trời, mới que
 | sh030 | Thảo My | "Bố mẹ em không cần sính lễ đâu, em còn 800 triệu, sau cưới sẽ là của chung." | 18 | Khoe khoang, tự tin | Cận vừa, cười | 8s |
 | sh040 | Chàng trai | "Đó là tiền của em mà." | 7 | Ngây thơ hỏi lại | Cận vừa, nhíu mày nhẹ | 8s |
 | sh050 | Thảo My | "Cưới nhau xong thì tiền của em cũng là của anh, mình trả là hết thôi." | 16 | Thản nhiên như chuyện đương nhiên | Cận vừa, tỉnh bơ | 8s |
-| sh060 | Chàng trai + Thảo My | "Trả gì?" — "Trả nợ 800 triệu, là tiền em nợ." | 2 + 8 | Anh sững sờ, My tỉnh bơ chốt hạ | Trung cảnh 2 người, giữ mặt My 2s cuối | 8s |
+| sh060 | Chàng trai | "Trả gì?" | 2 | Sững sờ, nhíu mày | Cận vừa, ngơ ngác | 8s |
+| sh070 | Thảo My | "Trả nợ 800 triệu, là tiền em nợ." | 8 | Tỉnh bơ chốt hạ | Cận vừa, giữ mặt My 2s cuối | 8s |
 
 **Câu chốt quotable:** "Trả nợ 800 triệu, là tiền em nợ."
 
@@ -49,11 +50,11 @@ Thảo My hẹn hò với bạn trai ở quán cà phê ngoài trời, mới que
 
 ## Lưu ý khi chuyển thể (cần Richard chốt)
 
-- **sh060 phá luật 1 người nói/shot:** đây là shot 2 người, anh hỏi 2 từ rồi My đáp 8 từ trong cùng 1 clip 8s (tổng 10 từ, đủ nhịp). Nếu muốn giữ nghiêm luật thì tách thành 7 shot (sh060 anh hỏi, sh070 My đáp) — tốn thêm 10 credit và tổng 56s. Draft này chọn 6 shot, chờ cậu ấy chốt.
+- **sh060/sh070 tách 2 shot (CHỐT 21/11):** Richard chốt chia shot chốt thành 2 để giữ đúng luật 1 người nói/shot — sh060 anh hỏi "Trả gì?", sh070 My đáp "Trả nợ 800 triệu, là tiền em nợ." Tổng thành 7 shot / 56s.
 - **sh030 18 từ:** sát trần ngân sách Flow 8s (12–18 từ). Nếu Veo đọc vội thì tách "sau cưới sẽ là của chung" sang sh040, nhưng sẽ mất beat "Đó là tiền của em mà".
 - **Giọng:** thoại viết giọng Bắc, mỗi câu ≤18 từ — đúng ngân sách Flow 8s.
 - **Chàng trai là ai:** Richard sẽ cấp ảnh chàng trai sau; chờ cậu ấy gửi rồi mới khóa mặt và làm frame.
-- **Trang phục My:** Richard chốt sau — váy ren trắng như reel gốc hay váy SANJOLI theo lịch màu; ghi vào `wardrobe.md` khi có.
+- **Trang phục My:** áo dài Thanh Nghi hồng đậm, quần hồng nhạt — CHỐT 21/11, mặc tiếp sau ep008; chi tiết trong `wardrobe.md`. Áo dài không có affiliate.
 - **Không affiliate:** quán cà phê không hợp sản phẩm hiện có; chưa gắn link, chưa đăng.
 - **Không dùng phần sau của reel gốc:** con gái có sẵn, bầu con trai, "không biết bố nó là ai" — đã cắt theo yêu cầu, chỉ ghi trong `source-transcript.md` để đối chiếu, không đưa vào storyboard.
 
@@ -63,4 +64,4 @@ Khai báo trong `episode.yaml`. Chưa có frame, chưa có prompt ảnh/motion �
 
 ## Hậu kỳ
 
-Chưa tới bước này. Dự kiến: giữ tiếng Veo gốc nếu giọng Bắc, lồng clone ThaoMy cho shot My nếu lệch giọng; Laugh Track 1 ở cú chốt sh060 nếu Richard muốn.
+Chưa tới bước này. Dự kiến: giữ tiếng Veo gốc nếu giọng Bắc, lồng clone ThaoMy cho shot My nếu lệch giọng; Laugh Track 1 ở cú chốt sh070 nếu Richard muốn.

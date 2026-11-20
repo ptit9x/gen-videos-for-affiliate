@@ -9,3 +9,10 @@
 - `episode.yaml` draft: 6 shot, chưa prompt, chưa frame, `approved_for_generation: false` tất cả.
 - Số tập: ep001–020 đều đã có tên (ep009 đã có draft Giỏ hàng) nên tập mới là ep021 — slot trống tiếp theo, Richard đã 👍 xác nhận.
 - Chưa làm gì thêm: chưa duyệt kịch bản, chưa làm frame, chưa gen clip. Bước tiếp theo chờ Richard duyệt kịch bản (và chốt: giữ 6 shot hay cắt sh040 về 5, sh060 2 người trong 1 shot hay tách 7 shot, chàng trai là ai, trang phục My váy ren trắng hay SANJOLI).
+
+## 2026-11-21 06:51 — Richard chốt tách shot + trang phục (rev2)
+
+- Richard nhắn: sh060 chia thành 2 shot là chuẩn; trang phục mặc áo dài Thanh Nghi tiếp theo.
+- script.md rev2: tách sh060 thành sh060 anh hỏi "Trả gì?" + sh070 My đáp "Trả nợ 800 triệu, là tiền em nợ." — giờ 7 shot × 8s = 56s, đúng luật 1 người nói/shot. Trang phục My CHỐT: áo dài Thanh Nghi hồng đậm, quần hồng nhạt, tóc xõa (mặc tiếp sau ep008).
+- Tạo `wardrobe.md` mới cho ep021 (ref áo dài + sha như ep008). episode.yaml + manifest lên rev2, target 56s.
+- Chưa làm gì thêm: chưa duyệt kịch bản rev2, chưa làm frame, chưa gen clip. Bước tiếp theo chờ Richard duyệt kịch bản rev2 + cấp ảnh chàng trai rồi mới làm frame.

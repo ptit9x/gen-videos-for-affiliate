@@ -1,6 +1,6 @@
 schema_version: 2
 episode_id: ep021
-revision: 1
+revision: 2
 title: Nợ 800 Triệu
 editorial_status: draft
 flow_project: null
@@ -20,7 +20,7 @@ export:
   width: 1080
   height: 1920
   fps: 30
-target_duration_seconds: 48
+target_duration_seconds: 56
 shots:
 - shot_id: sh010
   approved_for_generation: false
@@ -74,7 +74,7 @@ shots:
   flow_image_asset_id: null
 - shot_id: sh060
   approved_for_generation: false
-  dialogue: Trả gì? — Trả nợ 800 triệu, là tiền em nợ.
+  dialogue: Trả gì?
   image_prompt: null
   motion_prompt: null
   image_sources: []
@@ -82,3 +82,13 @@ shots:
   frame_status: missing_local
   takes: []
   flow_image_asset_id: null
+- shot_id: sh070
+  approved_for_generation: false
+  dialogue: Trả nợ 800 triệu, là tiền em nợ.
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  flow_image_asset_id: null
+  takes: []
