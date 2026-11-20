@@ -30,7 +30,7 @@ shots:
       sha256: 4df0c73191533ff4c59d02229471f6ad653003b4181e7961a04931cdd9adbc7f
     motion_prompt:
       path: input/prompts/sh010-motion.txt
-      sha256: a0502156cbba0715800a21130ed61c718e5186167cc0585216c74ca5ceb64d0a
+      sha256: 1f04b9caeebfb84a4dd8cfd240339bd856eb962b8a3b3e41dd2e5dca88a8813e
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
@@ -54,7 +54,7 @@ shots:
       sha256: 0ee1df81ccf57d94388ca592bb36463444c64859a244b4a12527278bd15ffd43
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: b7106c45fab5220538e44d2767e5bd1c02b1a95b4331b2b380ad794f5072643a
+      sha256: 9688b109368385a2bdbfe246990df93918d4b61bdaca52fdaad133bc623e2048
     image_sources: []
     first_frame:
       path: input/frames/sh020-first-frame.jpg
@@ -70,7 +70,7 @@ shots:
       sha256: b7b6a182d1db2050dd686f05df05114207b2ed1b1c2f7e074b78c1093f6f0ada
     motion_prompt:
       path: input/prompts/sh030-motion.txt
-      sha256: 6ea21ce9e90630b5003fc33447c479249a47d94809332b0d975b65f23b31324b
+      sha256: 82af0554d761659ee9534259f328bcc681da5ec16f489cb19e92bb0059734396
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
@@ -94,7 +94,7 @@ shots:
       sha256: 01826b91ea5b2920784978559590667d72613fe2ba17b7c5e1d06ffc1222253c
     motion_prompt:
       path: input/prompts/sh040-motion.txt
-      sha256: 85583591d68c8047cf0be9d83b61159fc6f1ffe0580e419013219524070bbeb6
+      sha256: 74c41cd12e26e40c6a3fe5d6d494a1edcb4681464260a494368aea544d1f9b54
     image_sources: []
     first_frame:
       path: input/frames/sh040-first-frame.jpg
