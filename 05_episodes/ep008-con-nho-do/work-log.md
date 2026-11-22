@@ -583,3 +583,17 @@
 ## 2026-11-22 09:14 — TikTok ĐÃ HẸN 19:00 hôm nay (video 7710813089712622856)
 - Đã xác minh trên trang TikTok: "Scheduled for: 2026-11-22 19:00", Studio > Posts hiện "Nov 22, 7:00 PM (GMT+7) Saigon" + badge scheduled, top row (14 posts), 0 view. Caption đúng từng chữ, Everyone, nhãn AI BẬT ("Creator labeled as AI-generated"), bìa custom mặt Thảo My đã upload, content check đạt. Link: https://www.tiktok.com/@chuyennhathaomy/video/7710813089712622856
 - 09:14: browser task Facebook (cloud) đang hẹn Reel 19:00 hôm nay; xong sẽ đặt cron xác minh 19:20 + commit/push git.
+
+## 2026-11-22 09:18 — Facebook ĐÃ HẸN 19:00 hôm nay (post 1875707280232462)
+- Đã xác minh trong Business Suite > Content > Scheduled: Sun Nov 22, 7:00pm, Public, Reel, Page Chuyện Nhà Thảo My; mô tả đúng từng chữ (caption + link aff-0005 + dòng CC BY); thumbnail custom mặt Thảo My; Planner cũng hiện 19:00; toast "Reel scheduled". Không có copyright issue. Nhãn AI: KHÔNG có tùy chọn trên web (đúng như đã kiểm chứng 18/11) — không tìm thêm.
+- Lưu ý: ep007 cũng hẹn 19:00 hôm nay cả 2 nền tảng — 2 tập lên cùng lúc, đã báo Richard.
+- Cron xác minh 19:20 đã đặt (ep008-record-publication, runonce 2026-11-22T19:20 Asia/Ho_Chi_Minh).
+- Git: commit e732bd9 đã push (98 file, scope ep008 + Nam + date-cafe + aff-0005; KHÔNG động file ep009/tracker — để cho chat ep009 và cron 19:20 ghi nhận sau).
+
+## 2026-11-22 09:41 — Dời ep008 sang mai 23/11: TikTok KHÔNG sửa được giờ hẹn
+- Richard lệnh dời ep008 sang mai (vì ep007 cũng 19:00 hôm nay). TikTok: KHÔNG cho sửa bài đã hẹn — nút edit bị khóa, tooltip "Scheduled posts cannot be edited.", menu chỉ có Download/Delete. Bài vẫn hẹn 19:00 hôm nay (đã xác minh lại trên trang video). Cách duy nhất: xóa bài đã hẹn rồi upload/hẹn lại mai 19:00 — CHỜ Richard ok xóa hay không. Không xóa, không đăng lại khi chưa có lệnh.
+- Facebook: đang thử dời bằng edit/reschedule trong Business Suite (chưa có kết quả).
+
+## 2026-11-22 09:43 — Facebook ĐÃ DỜI sang mai 23/11 19:00 (post 1875707280232462)
+- Business Suite > Content > Scheduled: dùng "Reschedule post", đổi ngày 22 → 23/11, giữ 19:00. Đã xác minh sau reload: "Mon Nov 23, 7:00pm, Public", mô tả + link aff-0005 + dòng CC BY nguyên vẹn, thumbnail mặt Thảo My; Planner hiện cột Mon 23 lúc 7:00 PM. Không xóa, không đăng lại, không đổi gì khác. Reel ep007 ("Không có thì khỏi cần…") vẫn ở Sun 22, 7:00 PM, không động.
+- TikTok vẫn chờ Richard quyết: xóa bài đã hẹn rồi đăng lại hẹn mai 19h, hay để nguyên 19h hôm nay.
