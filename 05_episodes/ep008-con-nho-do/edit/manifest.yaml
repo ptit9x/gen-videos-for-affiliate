@@ -1,0 +1,50 @@
+# ep008 'Con Nhỏ Đó' — edit manifest (DRAFT, schema v2)
+# Trạng thái: Richard 19:55 duyệt bản lồng clone ThaoMy wordalign sh010+sh030 ("lấy tạm bản này"); đang dựng master 1K preview.
+# 2K upscale chưa tải — render cuối dùng bản 2K thay cho 1K trong generated/ (như ep007: dựng 1K cho Richard duyệt, duyệt xong mới dựng lại 2K).
+schema_version: 2
+episode_id: ep008
+revision: 6
+locked_duration_seconds: null
+planned_source_duration_seconds: null
+selected_takes:
+  - shot_id: sh010
+    take_id: take005
+  - shot_id: sh020
+    take_id: take003
+  - shot_id: sh030
+    take_id: take002
+  - shot_id: sh040
+    take_id: take004
+  - shot_id: sh050
+    take_id: take002
+  - shot_id: sh060
+    take_id: take015
+  - shot_id: sh070
+    take_id: take002
+build_commands:
+  - "TODO: build_stage1.py — cat ghep 7 clip 1K (concat FILTER, re-encode), trim theo build_notes, crop watermark Veo, can sang, loudnorm"
+  - "TODO: build_captions.py — Whisper base + can theo kich ban, xuat captions.json/SRT"
+  - "Remotion BasicCaptions (boxed) tu ~/workspace/remotion-captions-test, accent #F59E0B, khong title card"
+  - "TODO: build_stage3.py — chen Laugh Track 1 (neu Richard chot) + freeze-frame tail"
+build_notes:
+  - "Title đầu video KIỂU ep004 'CHIA TIỀN' (Richard 22/11 07:42 — nhớ đúng bản ep004): chữ 'CON NHỎ ĐÓ' in hoa, đè lên shot đầu (sh010) trong 2s đầu, nằm ở dải trên, KHÔNG lấp đầu nhân vật (yêu cầu cứng từ ep004); dùng lại Remotion TitleCard của ep004. KHÔNG làm card đứng riêng trước video; tổng thời lượng giữ ~28.7s."
+  - "Voice plan CUỐI (Richard 19:23 + 19:25 + 19:55): lồng clone ThaoMy cho My ở sh010 + sh030 (bản wordalign — căn từng từ theo timestamp miệng gốc, file generated/sh010-take005-dub-thaomy-wordalign.mp4 sha 0091753b… và generated/sh030-take002-dub-thaomy-wordalign.mp4 sha 0cc8431a…; Richard duyệt 19:55 'lấy tạm bản này', sh030 'video 2 ổn đó'); sh050 GIỮ TIẾNG GỐC (đã giọng Bắc, Richard 19:25); Nam GIỮ TIẾNG GỐC cả 3 shot (sh020 take003, sh040 take004 Bắc, sh060 take015 Nam — đã chấp nhận). Bản lồng Minh Quân sh060 (sha 3a10e4ca…) chỉ là dự phòng, KHÔNG dùng. Các bản lồng chậm/nhanh (atempo) và bản hình chậm 1.35x đều đã bị loại vì chưa khớp môi."
+  - "Trim đã chốt: sh010 take005 wordalign 0-2.8s (Veo lặp nửa sau câu ở 3.28-4.66s — miệng lặp 'yêu con đó' 2 lần trong clip gốc; Richard 19:55 'cắt đi được thì là ok', điểm cắt 2.8s loại hẳn đoạn lặp); sh030 take002 wordalign 0-5.2s (thoại wordalign kết thúc 4.48s + ~0.7s beat); sh040 take004 0-5.0s (Richard 17:19 cắt bỏ câu 2 'Vừa lòng em chưa?' — Veo gán miệng sai 2/2 take); sh050 take002 0-2.0s (thoại 0-1.28s, cắt đuôi My cười lớn, đỉnh năng lượng 4.1s/6.1s); sh070 take002 0-3.0s (shot câm lặng, quay 8s dựng cắt còn ~3s). Chưa khóa hẳn: sh020 0-3.6s (thoại 0-2.82s + ~0.8s beat), sh060 gốc 0-7.0s (thoại gốc 0-2.92s + 4.38-6.40s)."
+  - "sh060 dub (DỰ PHÒNG, không dùng): VieNeu Minh Quân qua Colab T4 (half1 2.16s + half2 1.60s, đặt 0.0s/4.38s), mix numpy (gốc -8dB, -40dB trong span thoại gốc, ramp 0.1s), file sh060-take015-dub-minhquan.mp4 sha 3a10e4ca…. Richard 18:56: bỏ bản lồng, thay bằng bản gốc take015."
+  - "2K: chưa tải. Sau khi Richard duyệt bản 1K mới download 2K ('1080p Đã tăng độ phân giải', download-capture — click thường không lưu được file) rồi dựng lại, như ep007."
+  - "Captions: Boxed (Remotion BasicCaptions) + file .srt riêng; sh040 chỉ lấy câu 1 (câu 2 đã cắt); sh060 lấy đúng lời thoại gốc."
+  - "Laugh Track 1 (LittleRainySeasons, CC BY, Freesound; file ~/workspace/laugh-sfx/final/laugh-track-1-ccby.mp3): ĐỀ XUẤT chèn trên sh070 (chưa chốt), không đè câu 'Chia tay đi'."
+  - "LƯU Ý validator: cổng --stage edit yêu cầu mute_veo_native=true + VieNeu-TTS + voice_status locked (luật lồng full). Plan A của Richard (giữ gốc chọn lọc) không thỏa cổng đó — manifest này ghi đúng plan A; chỉ chạy validate mặc định (không --stage edit) cho tới khi luật được sửa."
+  - "Xuất: 1080x1920 30fps H.264 yuv420p, AAC 48kHz; kiểm tra icon Veo ở góc phải từng shot trước bàn giao (crop nếu có)."
+  - "Chưa đăng — chỉ đăng/hẹn giờ khi Richard bảo. Bìa: mặt Thảo My (quy tắc 19/11). Facebook description mang link aff-0005 (áo Nam Phan Nguyễn, https://s.shopee.vn/9zzT7PVjWK); TikTok caption theo bản chốt + dòng CC BY Laugh Track 1."
+audio_plan:
+  mute_veo_native: false
+  voice_by: mixed_clone_wordalign_sh010_sh030_native_rest
+  voice_status: locked
+  voice_preset: ThaoMy (clone VieNeu v3 Turbo, enroll ThaoMyVeo từ ref-clip2.wav) — wordalign sh010+sh030; sh050 + Nam giữ tiếng Veo gốc
+  lip_sync_qc: wordalign_approved_by_user_2026_11_21
+  note: "sh010+sh030 lồng clone wordalign (Richard duyệt 19:55 'lấy tạm bản này'); sh050 native Bắc; Nam native cả 3 shot. Bài học 21/11: Whisper bôi từ đầu câu ra khoảng lặng đầu clip — onset thật ('Anh' 0.88s) phải đo bằng energy envelope, xem AGENTS.md."
+transition_plan: hard_cuts_only
+qc:
+  status: pending
+  report_file: null

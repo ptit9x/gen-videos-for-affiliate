@@ -1,0 +1,43 @@
+schema_version: 1
+character_id: nam
+display_name: Nam
+status: created_in_flow
+role: Nhân vật nam — ep008 (Con Nhỏ Đó)
+archetype: Bạn trai bị tra hỏi — tự tin, ngơ ngác, cuối cùng nhận bừa rồi chia tay.
+selected_identity_references:
+- approved/nam-front-v001.jpg
+- approved/nam-front-v002.jpg
+master_reference: approved/nam-front-v002.jpg
+reference_portrait_v002:
+  file: approved/nam-front-v002.jpg
+  sha256: 340a246d8119201bc28bd18721fede3cb2a14a44fac1e003efae2ca3b92a0d1f
+  source: Flow Nano Banana edit of nam-front-v001.jpg (ThaoMyv002-style: front-facing, chest-up, plain light-grey background)
+  flow_asset_id: 968c836f-bec9-4061-b9d7-4a0480a6cbda
+  dimensions: 1536x2752
+  approved_by_user: 2026-11-21
+  note: v001 kept as the original source photo Richard sent; v002 is the clean canonical reference for rebuilding ep008 frames from scratch.
+body_design:
+  version: v001
+  adult_age_direction: ~30
+  suggested_height_cm: null
+  silhouette: tall_broad_shoulders
+  description_vi: Nam thanh niên cao ráo, tóc đen dày vuốt ngược phồng, lông mày rậm, mặc sơ mi trắng dài tay xắn tay áo.
+  measurements_status: visual_design_only_not_measured
+  identity_constraint: approved_nam_front_v001
+  user_review_status: reference_received_2026_11_21
+voice:
+  engine: null
+  accent: male_northern_vietnamese
+  preset: null
+  status: not_started
+flow_reference:
+  name: Nam
+  project: CNTM · EP008 · Con Nhỏ Đó
+  project_url: https://flow.google.com/project/da396a3f-bfc4-45d7-abb7-98ed1c151f3c
+  character_url: https://flow.google.com/project/da396a3f-bfc4-45d7-abb7-98ed1c151f3c/character/c759064c-1e4c-4fe7-86ef-54ab519029bc
+  character_id: c759064c-1e4c-4fe7-86ef-54ab519029bc
+  reusable: true
+  created_at: 2026-11-21
+  reuse_note: Tên tham chiếu dùng lại cho các tập sau là "Nam" — nhân vật Flow tên "Nam", character_id repo "nam". Không dùng tên này cho nhân vật khác; anh ep021 đã đổi tên riêng là "Thảo".
+commercial_source_rights: unverified
+notes: Richard gửi ảnh ref trong chat ngày 2026-11-21, lệnh dùng Google Flow sinh nhân vật Nam mới với tham chiếu này. Nhân vật Nam đã tạo xong trên Flow 21/11 (project CNTM · EP008 · Con Nhỏ Đó, https://flow.google.com/project/da396a3f-bfc4-45d7-abb7-98ed1c151f3c/character/c759064c-1e4c-4fe7-86ef-54ab519029bc), không bị chặn chính sách. Trang phục trong tập đã chốt: sơ mi trắng dài tay (như ảnh ref). Giọng chưa chọn.

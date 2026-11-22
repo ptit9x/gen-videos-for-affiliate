@@ -1,15 +1,15 @@
 schema_version: 2
 episode_id: ep008
-revision: 1
-title: "Con Nhỏ Đó"
-editorial_status: draft
-flow_project: null
+revision: 6
+title: Con Nhỏ Đó
+editorial_status: generating
+flow_project: https://flow.google.com/project/da396a3f-bfc4-45d7-abb7-98ed1c151f3c
 generation:
   mode: frames
   agent: false
   model: Veo 3.1 Lite
   duration_seconds: 8
-  aspect_ratio: "9:16"
+  aspect_ratio: '9:16'
   outputs: 1
   last_frame: null
 expected_source:
@@ -20,50 +20,567 @@ export:
   width: 1080
   height: 1920
   fps: 30
-target_duration_seconds: 40
+target_duration_seconds: 56
 shots:
-  - shot_id: sh010
-    approved_for_generation: false
-    dialogue: "Anh yêu em hay là yêu con nhỏ đó?"
-    image_prompt: null
-    motion_prompt: null
-    image_sources: []
-    first_frame: null
-    frame_status: missing_local
-    takes: []
-  - shot_id: sh020
-    approved_for_generation: false
-    dialogue: "Con nhỏ đó là nhỏ nào? Anh còn không biết."
-    image_prompt: null
-    motion_prompt: null
-    image_sources: []
-    first_frame: null
-    frame_status: missing_local
-    takes: []
-  - shot_id: sh030
-    approved_for_generation: false
-    dialogue: "Giữa em với con nhỏ đó, anh chọn ai? Lỡ có thì sao?"
-    image_prompt: null
-    motion_prompt: null
-    image_sources: []
-    first_frame: null
-    frame_status: missing_local
-    takes: []
-  - shot_id: sh040
-    approved_for_generation: false
-    dialogue: "Cho là anh có đi, anh vẫn chọn em. Vừa lòng em chưa?"
-    image_prompt: null
-    motion_prompt: null
-    image_sources: []
-    first_frame: null
-    frame_status: missing_local
-    takes: []
-  - shot_id: sh050
-    approved_for_generation: false
-    dialogue: "Ừ, thừa nhận luôn: anh yêu con nhỏ đó. Chia tay đi, yêu khổ quá."
-    image_prompt: null
-    motion_prompt: null
-    image_sources: []
-    first_frame: null
-    frame_status: missing_local
-    takes: []
+- shot_id: sh010
+  approved_for_generation: true
+  dialogue: Anh yêu em hay là yêu con đó?
+  image_prompt:
+    path: input/prompts/sh010-image.txt
+    sha256: 9fdf5ed1fc64e456a82e9fb518a9f9c85b7d94bf6734f5f8a1d6f6db8ca269bb
+  motion_prompt:
+    path: input/prompts/sh010-motion.txt
+    sha256: a815de9c3f651bfeccc5b902ad7a07a8ca38afa2ab6a44ca486dadaff918b00f
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  - path: input/references/aodai-van-linh-xoa-v3.jpg
+    sha256: 2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8
+  - &id001
+    path: input/references/date-cafe-v003-day.png
+    sha256: 1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb
+  first_frame:
+    path: input/frames/sh010-first-frame.jpg
+    sha256: 1150257c12f331beb51f95a8947573b965a3cdcea5f7f6f39c42fa7ca07894d8
+  frame_status: approved
+  takes:
+  - take_id: take001
+    clip_id: 15a2af2e-4a85-418e-9dd8-76dfdee00dfd
+    status: rejected_editorial
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn.developer@gmail.com. Clip local:
+      ~/workspace/ep008-con-nho-do-clips/sh010-take001.mp4 (khong luu trong repo).
+      LOI: Veo lap cau "hay la yeu con do" 2 lan (noi 0.62-2.36s + 2.72-4.54s, chung
+      minh bang nang luong 48k + whisper base+tiny). Gen lai take002.'
+  - take_id: take002
+    clip_id: d974499d-d730-40b3-8207-0a8f1d62e6b9
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh010-take002.mp4.
+      Re-roll take001: thoai chi 1 lan 0.80-2.52s, du 8 tu (Whisper base + nang luong
+      48k xac nhan, khong lap). Khong phu de gia, duoi sach.'
+  - take_id: take003
+    clip_id: f57b0cb4-3d8e-458e-b873-56ce14770135
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh010-take003.mp4.
+      Re-roll mat take002: thoai chi 1 lan 0.82-2.44s, du 8 tu (Whisper base + nang
+      luong 48k xac nhan, khong lap). Khong phu de gia, duoi sach. Mat gan nhu y
+      het take002 (cung frame nen Veo ve lai tuong tu) — drift so voi cac clip My
+      khac chua cai thien ro.'
+  - take_id: take004
+    clip_id: 12dbb684-add3-40e5-b303-6d2b09d02271
+    status: rejected_editorial
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round (frame v3, ao dai Van Linh).
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh010-take004.mp4. LOI: Veo
+      lap cau "Anh yeu em hay la yeu con do" 2 lan (0.64-2.44s + 2.92-4.66s,
+      chung minh bang whisper base + nang luong 48k) — giong het loi take001 v2.
+      Can re-roll.'
+  - take_id: take005
+    clip_id: 3622bcb9-a04f-4838-a1d5-e340a28468c8
+    status: accepted_editorial
+    file:
+      path: generated/sh010-take005-dub-thaomy-wordalign.mp4
+      sha256: 0091753bfdbdd549e274949ff19a17b751a1659a9ea37395417257d6b26c65d0
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round re-roll cua take004. Clip
+      local: ~/workspace/ep008-con-nho-do-clips/sh010-take005.mp4. Cau day du 1
+      lan 0.00-2.32s, NHUNG Veo lap lai nua sau cau "hay la yeu con do" o
+      3.28-4.66s (whisper base + nang luong 48k). Dung duoc neu cat o ~2.8s sau
+      cau dau; hoac re-roll them 1 lan. Mat khop frame, khong phu de gia,
+      duoi sach. Richard duyet 13:50 — cat o ~2.8s sau cau dau. Ban dung: long
+      clone ThaoMy wordalign (VieNeu v3 Turbo, enroll ThaoMyVeo; can tung tu
+      theo timestamp mieng goc). Richard 19:55 duyet tam ("lay tam ban nay"):
+      cat 0-2.8s loai phan mieng lap o 3.28s.'
+  flow_image_asset_id: f71131fd-8f75-4f96-b128-e9a669f002a0
+- shot_id: sh020
+  approved_for_generation: true
+  dialogue: Con đó là đứa nào? Anh còn không biết.
+  image_prompt:
+    path: input/prompts/sh020-image.txt
+    sha256: cd8972ed14413c505075c7ca9d596da5bda0016d581861274580ab351c854150
+  motion_prompt:
+    path: input/prompts/sh020-motion.txt
+    sha256: 8be044b5739dc1885b6875163f4ce3a90aeb70f397eb94abafcb192bc3c20183
+  image_sources:
+  - path: input/references/nam-front-v002.jpg
+    sha256: 340a246d8119201bc28bd18721fede3cb2a14a44fac1e003efae2ca3b92a0d1f
+  - *id001
+  first_frame:
+    path: input/frames/sh020-first-frame.jpg
+    sha256: 441974b929562b14c6fa608fad7ea2b163ae592b2be7d444f7fa6b5a36459fe2
+  frame_status: approved
+  takes:
+  - take_id: take001
+    clip_id: 95e231bd-e15e-43c2-8c63-c3641e51a10b
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh020-take001.mp4.
+      Thoai du 0.00-3.58s; Whisper nghe "Con do" (F0 tang -> ngang, khong phai "Con").
+      Khong phu de gia, duoi sach.'
+  - take_id: take002
+    clip_id: 142a51e9-77b5-4a9f-8fbd-c302daa4d483
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh020-take002.mp4.
+      Re-roll mat take001: thoai du "Con do la dua nao? Anh con khong biet."
+      (base+tiny nghe "Con do"; F0 tu dau 130->210Hz tang -> ngang, la "Con").
+      Tay phai gio len xua. Khong phu de gia, duoi sach. Mat tuong tu take001.'
+  - take_id: take003
+    clip_id: c3e21d9c-72a7-4146-bb44-5219e5fc731c
+    status: accepted_editorial
+    file:
+      path: generated/sh020-take003.mp4
+      sha256: 3fef133ae5ed6b32af018e92d2c7759afb2c0fdcc5a8b05c3dcb453097f0e3f3
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round (frame v3 media pipeline).
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh020-take003.mp4. Thoai du
+      1 lan 0.00-2.82s, du 8 tu (base nghe "Con" thanh "Con", giong take v2 da
+      xac nhan bang F0). Ben ngoi My trai / Nam phai dung, duoi sach, khong phu
+      de gia. Richard duyet 13:50.'
+  flow_image_asset_id: null
+- shot_id: sh030
+  approved_for_generation: true
+  dialogue: Giữa em với con đó, anh chọn ai? Lỡ có thì sao?
+  image_prompt:
+    path: input/prompts/sh030-image.txt
+    sha256: 712aa4c313d7f7270365b1686d2c478a1c79cdbfedad14ab95adb1259684b6a0
+  motion_prompt:
+    path: input/prompts/sh030-motion.txt
+    sha256: 15758615eb1bf53263b070203f7251b304e4d749f297716ced3ef5a836e535e0
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  - path: input/references/aodai-van-linh-xoa-v3.jpg
+    sha256: 2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8
+  - *id001
+  first_frame:
+    path: input/frames/sh030-first-frame.jpg
+    sha256: 4fd321c3d06537c68ec6fc78c142c53d7c291aaac622dacb0585504088531093
+  frame_status: approved
+  takes:
+  - take_id: take001
+    clip_id: acbb0fbc-ff04-4914-9bc7-644c552e3203
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh030-take001.mp4.
+      Thoai du 0.00-4.56s; "giua" dung (F0 loai "duoi"), "chon ai" dung. Khong phu
+      de gia, duoi sach.'
+  - take_id: take002
+    clip_id: 5c6fd75c-6f70-475e-837e-a7ca90bef702
+    status: accepted_editorial
+    file:
+      path: generated/sh030-take002-dub-thaomy-wordalign.mp4
+      sha256: 0cc8431a81003e3d60f8e8c4cfecd96d1526cd197fecc244492ce528bde155ff
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round. Clip local:
+      ~/workspace/ep008-con-nho-do-clips/sh030-take002.mp4. Thoai du 0.00-4.38s,
+      du 11 tu (base nghe tu dau "Dữ" p=0.40; F0 tang 180->254Hz loai "Dưới",
+      do dai + tien le v2 = "Giữa"). Duoi sach, khong phu de gia. Richard duyet 13:50.
+      Ban dung: long clone ThaoMy wordalign. Richard 19:55 duyet ("video 2 on do").'
+  flow_image_asset_id: 077631cd-e395-4637-91a9-62b5225757a2
+- shot_id: sh040
+  approved_for_generation: true
+  dialogue: Cho là anh có đi, anh vẫn chọn em. Vừa lòng em chưa?
+  image_prompt:
+    path: input/prompts/sh040-image.txt
+    sha256: 53813c662acfde69e5d0268049a7f57bad22886c8f218296f34e14b23f137c1a
+  motion_prompt:
+    path: input/prompts/sh040-motion.txt
+    sha256: 1d66881ea55a40bd090366b55e8abf50b1fa6665056790833bcaee3f834bc729
+  image_sources:
+  - path: input/references/nam-front-v002.jpg
+    sha256: 340a246d8119201bc28bd18721fede3cb2a14a44fac1e003efae2ca3b92a0d1f
+  - *id001
+  first_frame:
+    path: input/frames/sh040-first-frame.jpg
+    sha256: 3311d6af67a89021e8a42d1a84e9241d475f09b33c3ce08b00d354fb46ad4154
+  frame_status: approved
+  takes:
+  - take_id: take001
+    clip_id: 9801046d-56e5-4796-a571-936b87f55c03
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh040-take001.mp4.
+      Thoai du 0.00-4.18s; tiny xac nhan "chon em" + "vua long em chua". Khong phu
+      de gia, duoi sach. LUU Y: take001 BI LAT BEN (Nam trai / My phai), nguoc voi
+      cac shot khac; frame da sua lai (My trai / Nam phai, sha 3b138b65), file cu
+      giu lai sh040-first-frame-v2-flipped.jpg.'
+  - take_id: take002
+    clip_id: 91bf5329-4771-41e6-b80c-f079e6aa8ea6
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh040-take002.mp4.
+      Frame da sua ben ngoi (My trai / Nam phai, sha 3b138b65). Thoai du, tiny xac
+      nhan dung kich ban "cho la anh co di, anh van chon em, vua long em chua?"
+      (base nghe nham "ung trong em" / "Vua lam"). Nam chi tay ve phia My. Ben
+      ngoi dung o t1/t3/t7.8. Khong phu de gia, duoi sach.'
+  - take_id: take003
+    clip_id: 390570f3-14c1-4278-b8a1-b9ccd6da48bb
+    status: accepted_editorial
+    # LOI PHAT HIEN 16:53 (Richard): cau 2 "Vua long em chua?"
+    # (5.84-6.58s) — am thanh DUNG giong Nam (F0 median 156Hz),
+    # nhung HINH SAI: Veo cho My mo mieng noi, Nam mieng dong cuoi
+    # (frame 6.0/6.25/6.5s). Cau 1 (0-4.46s) dung: Nam noi ro.
+    # Take cu take001/take002 la v2 (ao hong + quan cu) — khong dung duoc.
+    # Huong sua: Richard 16:57 "gen lai di" — take004, prompt moi
+    # nhan manh Nam noi ca 2 cau (mieng mo ca 2 cau), My chi nghe im
+    # (mieng dong). Motion sha moi: 1d66881ea55a40bd090366b55e8abf50b1fa6665056790833bcaee3f834bc729.
+    # QUYET 17:19 Richard: "cat luon doan co vua long em chua di" —
+    # take003 bi thay the boi take004 (khong dung nua).
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round (frame v3 media pipeline).
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh040-take003.mp4. Thoai du
+      (base sot "là", tiny xac nhan "cho là anh có đi, anh vẫn chọn em, vừa
+      lòng em chưa?"). Ben ngoi My trai / Nam phai DUNG (sua duoc loi lat ben
+      v2), Nam chi tay + cuoi guong, duoi sach. Richard duyet 13:50.'
+  - take_id: take004
+    clip_id: 9c99c366-ab51-41d5-aaab-b6bf5b187cf2
+    status: accepted_editorial
+    file:
+      path: generated/sh040-take004.mp4
+      sha256: 6e57f53a67021ef56f5736da865fe1f0d2775248d6d678cf1cac98b2a9b61427
+    note: 'Re-roll sua loi take003 (Richard 16:57). Prompt moi nhan manh
+      Nam noi ca 2 cau, My chi nghe im (mieng dong). Gen 17:01, 10cr,
+      430 -> 420. Clip local: ~/workspace/ep008-con-nho-do-clips/sh040-take004.mp4.
+      Thoai du (0.00-4.48s + 5.52-6.46s; "long" nghe thanh "lam" — lop ASR
+      da biet). Cau 1 DUNG: Nam noi ro + chi tay. NHUNG cau 2 VAN LOI:
+      frame 5.6/5.9/6.2/6.4s cho thay mieng My van hoi mo, mieng Nam dong
+      (nhe hon take003 nhung cung dang loi). Am thanh dung giong Nam
+      (F0 median cau 2 = 142Hz). Ben ngoi My trai / Nam phai dung, duoi sach.
+      LOI LAP LAI 2/2 take — co ve Veo he thong gan animation cau 2 cho My.
+      QUYET 17:19 Richard: CAT BO cau 2 "Vua long em chua?" — dung
+      take004 chi 0-5.0s (cau 1 + khoang lang; cau 2 bat dau 5.52s).
+      Richard 17:20: giong Nam take004 la MIEN BAC (khac take003
+      mien Nam) — take004 la take sh040 CHINH THUC.'
+  flow_image_asset_id: null
+- shot_id: sh050
+  approved_for_generation: true
+  dialogue: Thế là anh có thật à?
+  image_prompt:
+    path: input/prompts/sh050-image.txt
+    sha256: 09f55b8927847cde3001f45d2f1955dbf6e433a0030f83b08d79a2db2c17be03
+  motion_prompt:
+    path: input/prompts/sh050-motion.txt
+    sha256: 9e4cf60e7b823a643da2c4df0f215802af06938f73ac1e9727434f1fa1e71d0b
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  - path: input/references/aodai-van-linh-xoa-v3.jpg
+    sha256: 2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8
+  - *id001
+  first_frame:
+    path: input/frames/sh050-first-frame.jpg
+    sha256: bc724f4e445bf41f3eed0e4419ff2ab5cded91095cc3c90a58d885fdb4c7ce45
+  frame_status: approved
+  takes:
+  - take_id: take001
+    clip_id: a86783e7-20c2-45d7-8ff0-8b8935b7315b
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh050-take001.mp4.
+      Thoai du 0.00-1.22s ("a" vs "a" chi khac dau). Cuoi clip My cuoi lon o 7.8s
+      - cat khi dung.'
+  - take_id: take002
+    clip_id: c59b3807-b810-4a88-904d-b1fea1fad7d1
+    status: accepted_editorial
+    file:
+      path: generated/sh050-take002.mp4
+      sha256: 9d69ce72f4b13e8b64b30349b5aded222ab3dc63f1e83ecfd90869bc97fd4b20
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round. Clip local:
+      ~/workspace/ep008-con-nho-do-clips/sh050-take002.mp4. Retry cua take
+      6bdf78ca (khong co audio, 10cr, khong tai ve). Thoai du 0.00-1.28s (F0
+      roi 364->182Hz xac nhan "à" khong phai "á"). LUU Y: My cuoi lon suot duoi
+      clip (dinh nang luong 4.1s, 6.1s) — giong take001 v2, cat khi dung. Richard duyet 13:50 (My cuoi lon o duoi — cat khi dung).'
+  flow_image_asset_id: 50def2fb-bdf3-452b-a360-c4ea32efc61f
+- shot_id: sh060
+  approved_for_generation: true
+  dialogue: 'Ừ, thừa nhận luôn: anh yêu con đó. Chia tay đi, yêu khổ quá.'
+  image_prompt:
+    path: input/prompts/sh060-image.txt
+    sha256: e3a2e45f44e3e5aa6259f43dde910087eaeffcd4125c16344aa414ad0722eeee
+  motion_prompt:
+    path: input/prompts/sh060-motion.txt
+    sha256: 5fcb1ccf0973f30a214833ebeb171de4122e69ffceb27139ee37a133c2c551b8
+  image_sources:
+  - path: input/references/nam-front-v002.jpg
+    sha256: 340a246d8119201bc28bd18721fede3cb2a14a44fac1e003efae2ca3b92a0d1f
+  - *id001
+  first_frame:
+    path: input/frames/sh060-first-frame.jpg
+    sha256: a41d3f1f8c1f9a681eda7f8057825a44d27a783fb9671ee683620a653f89ae7e
+  frame_status: approved
+  takes:
+  - take_id: take001
+    clip_id: cb1de62f-1701-475f-a48a-7e22261eeab7
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take001.mp4.
+      Thoai du 0.00-4.28s; Nam dung day + quay di dung kich ban, duoi sach. LUU Y:
+      frame goc Nam dung san nen clip mo dau bang anh dung roi di luon, dong tac
+      dung day khong duoc quay; cat tu sh050 (ngoi) sang sh060 (dung) bi giat.'
+  - take_id: take002
+    clip_id: aa2683a3-512f-41bd-b7a6-c786f1519fe0
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take002.mp4.
+      First frame = input/frames/sh040-first-frame.jpg (frame da sua, ca 2 ngoi,
+      My trai / Nam phai) — KHONG dung sh060-first-frame.jpg (Nam dung san).
+      Clip mo dau ca 2 ngoi (t1), Nam dung day giua chung (t3, tay chong goi),
+      quay di (t5), di xa (t7) — quay du dong tac dung day. Thoai du 0.00-3.84s
+      (base+tiny xac nhan "anh yeu con do" + "Chia tay di, yeu kho qua"). Khong
+      phu de gia, duoi sach.'
+  - take_id: take003
+    clip_id: fec7b5bf-bc92-44ed-a79b-3fbaa83df703
+    status: rejected_editorial
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round (frame v3 media pipeline).
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take003.mp4. Thoai du
+      0.00-4.24s (base nghe nham thanh "nhẳng"/"ăn"; F0 phang ~150Hz xac nhan
+      "anh", am tiet "nhận" dung, thanh giam trong loi noi nhanh). Quay DU dong
+      tac dung day (ngoi -> nhom day -> dung -> quay di, 7.5s) — sua duoc cu
+      nhay cat v2. Duoi sach. Richard 13:50: mat My khong giong ThaoMy — can gen lai.'
+  - take_id: take004
+    clip_id: 14e7efc8-b1f1-4784-a4e9-e22cfdaa45ff
+    status: rejected_editorial
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round re-roll cua take003
+      (Richard loai take003: mat My khong giong ThaoMy). Clip local:
+      ~/workspace/ep008-con-nho-do-clips/sh060-take004.mp4. Thoai du 0.00-3.98s
+      (base nghe "anh" thanh "an" p=0.37 — cung pattern take003 da xac nhan bang
+      F0). Quay DU dong tac dung day (nhom -> dung -> quay di, 7.5s), duoi sach,
+      khong phu de gia. Mat My so voi take003 + sh070: xem file
+      sheets/sh060-face-compare.png — Bee thay gan hon, Richard quyet cuoi. Richard 14:01 LOAI: Nam tu nhien cui nguoi, khong thay bo di; ghe khong thay dau; mat My van khong giong ThaoMy — can gen lai.'
+  - take_id: take005
+    clip_id: 8f449015-0c39-4397-90cd-26737b3a6367
+    status: rejected_editorial
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round re-roll cua take004
+      (motion prompt sua: "rises from his chair and walks away... leaving his
+      empty chair behind him"). Clip local:
+      ~/workspace/ep008-con-nho-do-clips/sh060-take005.mp4. Thoai du 0.00-4.86s,
+      base nghe dung ca "Anh" (p=0.85) lan dau. Nam dung day tu ~2s, quay lung
+      bo di ro rang, GHE TRONG hien ro tu 3s (Veo ve theo prompt). My tay om
+      nguc o 7.5s. Duoi sach, khong phu de gia. Mat My so voi take004 + sh070:
+      xem sheets/sh060-face-compare2.png — Bee thay gan hon, Richard quyet
+      cuoi. Richard 14:18 LOAI: mat My van khong giong ThaoMy — doi goc quay sang phia doi dien, chi lay lung My.'
+  - take_id: take006
+    clip_id: 06dc77d0-cd79-465c-a63e-d09ed6c1a6ce
+    status: rejected_editorial
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round, frame v4 goc moi
+      (camera sau lung My). Clip local:
+      ~/workspace/ep008-con-nho-do-clips/sh060-take006.mp4. Thoai du 0.00-4.26s
+      (base nghe nham thanh "nhang"/"an" — cung pattern take003 da xac nhan
+      bang F0). Nam dung day tu dau clip, quay lung bo di ro rang, GHE TRONG
+      hien ro tu 3s. Mat My KHONG thay (chi lung + toc) — het loi drift mat.
+      Duoi sach, khong phu de gia. Richard 14:32 LOAI: mat Nam khong giong. Huong moi: noi giong tuc gian xong roi moi dung day di.'
+  - take_id: take007
+    clip_id: c5ff1732-631d-4ec4-933b-80c7ba49097c
+    status: rejected_editorial
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, huong moi: noi giong tuc gian
+      xong roi moi dung day. Clip local:
+      ~/workspace/ep008-con-nho-do-clips/sh060-take007.mp4. Thoai CHUAN
+      tung chu 0.00-3.92s (nhan/anh nghe dung lan dau). Nam chom toi noi
+      (giong noi + chi tay, goc 2-4s) roi moi quay lung bo di ~4.5s, ghe
+      trong hien ro. Mat My khong thay. Luu y: 2 lan gen dau bi Flow bao
+      "unusual activity" (0cr), phai doi sang trinh duyet moi moi gen
+      duoc. Mat Nam o the chom toi doc hep hon v002 — cho Richard quyet. Richard 14:43 LOAI: mat Nam khong giong. Huong moi: gen anh Nam ngoi doi dien (mat chinh dien), noi xong dung day bo di.'
+  - take_id: take008
+    clip_id: 32849369-c0b2-462a-802a-7c5ac23d22d5
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, frame v6 (Richard chot).
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take008.mp4.
+      Thoai du 0.00-4.10s, giong tuc gian manh (transcript co dau "!").
+      Nam ngoi noi ~1.5s dau, nhom day giua cau, quay lung bo di sau khi
+      het thoai (~4.2s), ghe trong hien ro. Mat Nam luc ngoi o 1.0s khop
+      v002 tot nhat tu truoc toi nay. Mat My khong thay. Duoi sach, khong
+      phu de gia.'
+  - take_id: take009
+    clip_id: c3840654-3799-4a70-b1d1-f4309a233539
+    status: needs_review
+    file: null
+    note: 'Re-roll y het take008, frame v6, Veo 3.1 Lite, 10cr.
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take009.mp4.
+      Thoai du 0.00-4.10s. Nam ngoi noi, nhom day giua cau, bo di sau
+      het thoai, ghe trong hien ro. Mat rong khi noi/het VAN CON nhu
+      take008 (soi side-by-side sheet sh060-take009-face-wide-compare.png).
+      Khac take008: luc 0.5s Nam quay sang nhin My (khong nhin thang
+      may), giong nghe it gian hon (transcript khong co dau "!").
+      Duoi sach, khong phu de gia.'
+  - take_id: take010
+    clip_id: 4b276bb6-3a4d-477d-a1fe-573bd121ee00
+    status: needs_review
+    file: null
+    note: 'Giong binh tinh/lanh/khong het, frame v6, Veo 3.1 Lite, 10cr.
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take010.mp4.
+      Thoai du 0.00-4.44s, nghe dung "thua" (p=0.65), giong binh tinh
+      that (transcript dau "." khong "!"). Nam ngoi noi den ~3s moi
+      nhom day, bo di sau het thoai, ghe trong hien ro.
+      MAT LUC NOI: hep nhu v002 tu 0.5-3.5s (soi side-by-side
+      sh060-take010-face-wide-compare.png) — cai thien ro so voi
+      take008/009. Chi con 1 khoanh khac ~4.0s (chu "qua" cuoi, mieng
+      mo rong hinh "o") mat van rong hon v002 chut.
+      Duoi sach, khong phu de gia.'
+  - take_id: take011
+    clip_id: 07957222-e514-4f97-abfc-7e7d6cf0bafe
+    status: needs_review
+    file: null
+    note: 'Giong binh tinh, frame v6, Veo 3.1 Lite, 10cr.
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take011.mp4.
+      Thoai du 0.00-4.42s (nghe "nhan" thanh "nhang" — loi nghe thanh
+      dieu quen thuoc). Nam ngoi noi den ~3.5s moi nhom day, bo di sau
+      het thoai, ghe trong hien ro.
+      MAT LUC NOI: giong he take010 — hep nhu v002 tu 0.5-3.5s, chi
+      con khoanh khac ~4.0s (chu "qua" cuoi, mieng mo rong hinh "o")
+      mat van rong hon v002 chut. Chua khac phuc hoan toan.
+      Duoi sach, khong phu de gia.'
+  - take_id: take012
+    clip_id: d716c51e-27b2-4625-8269-de7b34540bf9
+    status: needs_review
+    file: null
+    note: 'Giong binh tinh, frame v6, Veo 3.1 Lite, 10cr.
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take012.mp4.
+      Thoai du 0.00-4.12s (nghe "nhan" thanh "nhang"). Nam ngoi noi
+      den ~3.5s moi nhom day, bo di sau het thoai, ghe trong hien ro.
+      MAT LUC NOI: giong he take010/011 — hep nhu v002 tu 0.5-3.5s,
+      chi con khoanh khac ~4.0s (chu "qua" cuoi, mieng mo rong hinh
+      "o") mat van rong hon v002 chut. 3/3 take giong binh tinh deu
+      lap lai khoanh khac nay → gen y het khong sua duoc nua.
+      Duoi sach, khong phu de gia.'
+  - take_id: take013
+    clip_id: aaccd00c-adeb-4557-8804-7ef9afafe32b
+    status: needs_review
+    file: null
+    note: 'Giong binh tinh + chu cuoi noi khe (lips barely parting),
+      frame v6, Veo 3.1 Lite, 10cr.
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take013.mp4.
+      Thoai du 0.00-5.18s (cham hon, nghe "nhan" thanh "nhang").
+      Nam dung day trong luc noi chu cuoi (4s, thoai den 5.18s) —
+      lech huong "noi xong moi dung day".
+      MAT LUC NOI: HON HOP — chu cuoi 4.0s hep (lever co tac dung
+      o do), nhung giua cau 2.0s/3.5s lai rong hon take010/011/012.
+      Khong tot hon 3 take binh tinh truoc.
+      Duoi sach, khong phu de gia.'
+  - take_id: take014
+    clip_id: adcc785c-dcdc-40c2-9b69-502e2d55bc04
+    status: needs_review
+    file: null
+    note: 'Bieu cam BUON BA (test 1/3), frame v6, Veo 3.1 Lite, 10cr.
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take014.mp4.
+      Thoai 0.00-4.44s: "thua nhan" nghe DUNG, nhung "chia tay"
+      nghe thanh "chi tai" (p thap 0.54/0.67 — giong buon noi cham
+      co the lam nheo chu, hoac Whisper nghe nham).
+      MAT LUC NOI: HEP 0.5-2.0s, tot hon ca take010/011/012/013 —
+      buon ba giu mat hep khi noi.
+      Hanh dong dung (noi xong dung day, bo di, ghe trong).
+      Da bi huong moi (tinh, khong chuyen dong) thay the.'
+  - take_id: take015
+    clip_id: 2bfecc28-7083-475d-9ee5-d0c3fb5fbaa2
+    status: accepted_editorial
+    file:
+      path: generated/sh060-take015.mp4
+      sha256: 86435464ded4bc06bbd607a6c302ac13c4bc32356f965f3e2e71a0a40d1860fc
+    note: 'Clip TINH: frame Nam zoom chat da duyet, giong BUON BA,
+      ngoi yen suot clip, Veo 3.1 Lite, 10cr.
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take015.mp4.
+      MAT LUC NOI: hep 0.5-3.0s (tot), chi rong o ~5.0s (nua sau cau).
+      Hanh dong dung (ngoi yen, khong dung day/khong bo di).
+      THOAI LOI: "chia tay" nghe thanh "chi tai" — XAC NHAN boi
+      ca base lan tiny, va lap lai tu take014 (2 take buon deu loi
+      cung cho). Giong buon lam nheo "chia tay". KHONG DUNG DUOC.
+      DÍNH CHÍNH 16:33: Richard nghe truc tiep — Veo NOI DUNG
+      "chia tay", Whisper nghe nham thanh "chi tai" (artifact ASR
+      tren giong mien Nam). Thoai take015 DUNG.
+      Richard 16:33: "cai nay lay duoc" — DUYET take015.
+      NHUNG giong take015 la MIEN NAM (Richard 16:34) — can quyet
+      long tieng Bac hay chap nhan giong Nam.
+      DUB THU 16:40-16:43 (Richard: "long tieng thu"): TTS VieNeu
+      Minh Quan (nam Bac) gen tren Colab T4 (half1 2.16s, half2
+      1.60s), mix numpy: goc -8dB, -40dB trong span thoai goc
+      (0.00-2.92s, 4.38-6.40s), ramp 0.1s; TTS dat 0.0s + 4.38s.
+      File: ~/workspace/ep008-con-nho-do-clips/sh060-take015-dub-minhquan.mp4
+      (sha 3a10e4ca...). Whisper nghe dung het cau, khong con
+      tieng goc lot ra sau TTS. Cho Richard nghe va quyet.
+      QUYET 16:45: Richard "Thoi lay giong mien Nam cung duoc" —
+      CHAP NHAN giong Nam cho take015 (giong goc), ban dub Minh
+      Quan chi la du phong, khong dung.'
+  - take_id: take016
+    clip_id: d5c80b1e-9f3f-40fc-be50-74d386ab5d67
+    status: needs_review
+    file: null
+    note: 'Clip TINH + BINH TINH: frame Nam zoom chat, ngoi yen,
+      Veo 3.1 Lite, 10cr.
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take016.mp4.
+      MAT LUC NOI: TE HON take015 — rong o 1.0s/2.0s/5.0s (mieng
+      mo tron chu "o" rat to trong khung can), chi hep luc ngam
+      mieng 0.5s/3.0s.
+      THOAI LOI: "chia tay" nghe thanh "chi tai/tay" — ca base
+      lan tiny deu nghe vay (p thap 0.22-0.34).
+      3 take lien tiep (014/015/016) deu hong "chia tay" trong
+      khi 4 take binh tinh truoc (010-013) noi dung — nghi la
+      voice roll cua Veo (giong doi theo moi lan gen).
+      Huong tiep: tinh + binh tinh + "lips barely parting" ca cau
+      (khoa mieng nho ca luc noi chu "o") — take017.'
+  - take_id: take017
+    clip_id: b6e3fe7d-eea7-461d-a36e-22465df6e7da
+    status: needs_review
+    file: null
+    note: 'Clip TINH + BINH TINH + lips barely parting ca cau.
+      Gen 2 lan: lan 1 (task c70a3df6) bi chan "unusual activity"
+      0cr; lan 2 (task c5340b12, trinh duyet moi) xong 16:34,
+      10cr, 440 -> 430.
+      Clip local: ~/workspace/ep008-con-nho-do-clips/sh060-take017.mp4.
+      Thoai du 0.00-5.66s, Whisper nghe "Chia tay" DUNG lan nay.
+      MAT LUC NOI: hep 0.5-3.0s, chi hoi rong o ~5.0s (tuong duong
+      take015, tot hon take016). Hanh dong dung (ngoi yen).
+      Giong Bac hay Nam — cho Richard nghe va quyet (take015 da
+      duyet nhung giong Nam).'
+  flow_image_asset_id: null
+- shot_id: sh070
+  approved_for_generation: true
+  dialogue: ''
+  image_prompt:
+    path: input/prompts/sh070-image.txt
+    sha256: c162217f34419d6aae6c6737912fe1b5e3ad979a02a27e7e6fe269768c78a4bf
+  motion_prompt:
+    path: input/prompts/sh070-motion.txt
+    sha256: 0207450c5a7e1a6d2cf98845537b50b417bd3d6b2e9783c8ab8bcc532c4fd758
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  - path: input/references/aodai-van-linh-xoa-v3.jpg
+    sha256: 2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8
+  - *id001
+  first_frame:
+    path: input/frames/sh070-first-frame.jpg
+    sha256: d17366ccfbd9017d102d58253d28b33fe746acad86c38449d4eae0d0e09de6a3
+  frame_status: approved
+  takes:
+  - take_id: take001
+    clip_id: b4e2347a-d614-4340-9f78-89e391e9eb15
+    status: needs_review
+    file: null
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr. Clip local: ~/workspace/ep008-con-nho-do-clips/sh070-take001.mp4.
+      Shot cam lang, khong co audio track (dung kich ban); My sung so dung. Cat ~3s
+      khi dung.'
+  - take_id: take002
+    clip_id: 80cca483-a3a1-42d1-8c10-ea15bb76ae6a
+    status: accepted_editorial
+    file:
+      path: generated/sh070-take002.mp4
+      sha256: baaf5ab21fd359f3e0195ddf588365d254a24920eb5ed9d742c5549a68bb30e9
+    note: 'Frames-direct, Veo 3.1 Lite, 10cr, v3 round. Clip local:
+      ~/workspace/ep008-con-nho-do-clips/sh070-take002.mp4. Shot cam lang dung
+      kich ban (whisper ao giac CTA subscribe o 6.5-7.9s tren tieng nen — tat ca
+      tu cung timestamp 7.90, khong phai loi noi that). My sung so -> cui mat,
+      duoi sach. Richard duyet 13:50.'
+  flow_image_asset_id: 1e2b4a90-e2e9-4cfb-8447-24ef221520d4
