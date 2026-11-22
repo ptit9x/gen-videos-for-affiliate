@@ -27,10 +27,10 @@ shots:
     dialogue: "Mười hai giờ. Tôi hứa chỉ mua một món."
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: ba03c0078f8b8bf16f53a288e6624db146037523e136b519b14dc04207e5b172
+      sha256: a32234567f29cff058098df64cbf0a7d55700523856fc467816d6fb690cc2e9d
     motion_prompt:
       path: input/prompts/sh010-motion.txt
-      sha256: 86a1a31b64972e4204199ff1ac458fee447b8cdd6e64db08f649d278fc20e15d
+      sha256: d0f0b50ab46afba14de2d554068e4ce8ad4af365dbbe5c549790d6926b5caffd
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
@@ -45,10 +45,10 @@ shots:
     dialogue: "Ba mươi phút sau. Giỏ hàng có bảy món."
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: 575975c3755e56b58cf92565f690e065dc56726852e65a6b7cc29a5800e45946
+      sha256: 7cdf5858af9dc6955da952f2fa2ed1a0c20b979d3a1b1235f58030a261be0202
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: 8b170d4950458ad7ced793df5e60e284191844e7480f42b84856596f8d24afb8
+      sha256: fb3540f65507fa86a1833408b83e0d196e8a259aeea89ef041261c8cffe1d36a
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
@@ -63,10 +63,10 @@ shots:
     dialogue: "Tôi xóa hết. Rồi thêm lại. Rồi xóa."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: a9c7d401a0b3a931a73a4b0b43033849ae1b4d080ec8c8e61beb38409a424441
+      sha256: 85dd887c7cd7dd66c734174b2292cedebb934d893a571ad0bb9d0688029f5864
     motion_prompt:
       path: input/prompts/sh030-motion.txt
-      sha256: f1a8af24461408d9a48023d6d2731b6b5f722a41ae39c0abd032bbff9428999e
+      sha256: 37f838ef0baf4fd327d0a8cc724d7a0db9a1e1828c3e524d7f0b1b49ef37a534
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
@@ -81,10 +81,10 @@ shots:
     dialogue: "Tiết kiệm bảy trăm ngàn. Chỉ tốn hai triệu."
     image_prompt:
       path: input/prompts/sh040-image.txt
-      sha256: 357713ad53ca7ed1a2b1ee500f625df4a7a0b5f16e12a451d7b223e471e13954
+      sha256: 0cf83b0befd58abf0118a1c5f2c1150102f7b36554e4f6314eb88e2a7d6bc05a
     motion_prompt:
       path: input/prompts/sh040-motion.txt
-      sha256: 81a2453f899f2ea27792f8ec634570fedc24e659e4f4b22ca3d5cd30e1a1aece
+      sha256: fdcdaa71d40234025238ae669ea7eacd1db8562ee03b71fb91f4a7546a70f324
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"

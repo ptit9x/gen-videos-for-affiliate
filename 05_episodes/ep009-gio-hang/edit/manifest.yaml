@@ -5,11 +5,14 @@ locked_duration_seconds: null
 planned_source_duration_seconds: null
 selected_takes: []
 build_commands: []
+build_notes:
+  - "SFX cuối tập (đề xuất, chờ chốt vị trí): Laugh Track 1 (LittleRainySeasons, CC BY, Freesound) ngay sau câu chốt sh040."
 audio_plan:
-  mute_veo_native: true
-  engine: VieNeu-TTS
-  voice_preset: null
-  voice_status: pending_user_choice
+  speakers:
+    thao_my:
+      voice_preset: ThaoMyVeo
+      voice_status: locked
+      policy: "Kiểm tra giọng native từng shot; giữ nguyên tiếng gốc nếu là nữ miền Bắc, chỉ tắt gốc và lồng clone ThaoMy cho shot không phải Bắc."
   lip_sync_qc: not_run
 transition_plan: hard_cuts_only
 qc:
