@@ -597,3 +597,8 @@
 ## 2026-11-22 09:43 — Facebook ĐÃ DỜI sang mai 23/11 19:00 (post 1875707280232462)
 - Business Suite > Content > Scheduled: dùng "Reschedule post", đổi ngày 22 → 23/11, giữ 19:00. Đã xác minh sau reload: "Mon Nov 23, 7:00pm, Public", mô tả + link aff-0005 + dòng CC BY nguyên vẹn, thumbnail mặt Thảo My; Planner hiện cột Mon 23 lúc 7:00 PM. Không xóa, không đăng lại, không đổi gì khác. Reel ep007 ("Không có thì khỏi cần…") vẫn ở Sun 22, 7:00 PM, không động.
 - TikTok vẫn chờ Richard quyết: xóa bài đã hẹn rồi đăng lại hẹn mai 19h, hay để nguyên 19h hôm nay.
+
+## 2026-11-22 10:41 — TikTok ĐÃ XÓA + ĐĂNG LẠI, hẹn 19:00 mai 23/11 (video mới 7710835700802833682)
+- Bài cũ 7710813089712622856 đã xóa (TikTok báo "Post deleted"; URL cũ giờ "Video currently unavailable", không còn trong Posts list).
+- Bài mới: video 7710835700802833682, hẹn "Nov 23, 7:00 PM (GMT+7) Saigon" (top row, 00:28, Everyone, 0 view). Caption đúng từng chữ, nhãn AI BẬT, bìa custom mặt Thảo My, content check đạt. Link: https://www.tiktok.com/@chuyennhathaomy/video/7710835700802833682
+- Cả 2 nền tảng giờ đều hẹn 19:00 T2 23/11. Cron xác minh đã dời sang 19:20 T2 23/11 (ep008-record-publication, cập nhật video ID TikTok mới).
