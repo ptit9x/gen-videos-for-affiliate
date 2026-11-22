@@ -1,0 +1,84 @@
+schema_version: 2
+episode_id: ep025
+revision: 1
+title: Người Một Tay
+editorial_status: script_approved
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: '9:16'
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 48
+shots:
+- shot_id: sh010
+  approved_for_generation: false
+  dialogue: Anh tháo giúp em cái vòng cổ này với.
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh020
+  approved_for_generation: false
+  dialogue: Anh tháo nhanh thế chứ? Anh tháo cho nhiều cô lắm à?
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh030
+  approved_for_generation: false
+  dialogue: Thế ai tháo chậm cho em? Ai tháo vòng em một tay, tay kia vuốt tóc em?
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh040
+  approved_for_generation: false
+  dialogue: Không có ai cả. Em không biết.
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh050
+  approved_for_generation: false
+  dialogue: Không biết là sao? Người một tay đó là ai?
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh060
+  approved_for_generation: false
+  dialogue: Là Ghost đó. Ghost ơi, lại đây!
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
