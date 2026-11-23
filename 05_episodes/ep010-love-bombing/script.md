@@ -11,26 +11,26 @@ Tuần 1 — năm mươi tin/ngày, "em là điều đẹp nhất". Tuần 2 —
 ## Khóa nhân vật và bối cảnh
 
 - Mặt/tóc: `thao-my-face-front-v002.png`; body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
-- Trang phục: Áo sơ mi linen dài tay form rộng (LAHSTORE), mặc ở nhà — áo chính xuyên suốt tập, link aff-0002 (sug-0007). Màu chưa chốt; ảnh mẫu màu Tím, dùng Tím khi làm frame nếu Richard không đổi.
-- Bối cảnh: Phòng khách, sofa. Ảnh ứng viên: `03_locations/thao-my-apartment/`. **Location chưa duyệt.**
+- Trang phục: Áo sơ mi linen dài tay form rộng (LAHSTORE) — áo chính xuyên suốt tập, link aff-0002 (sug-0007). **Màu Tím nhạt CHỐT 23/11 (như ảnh mẫu).** Son tự nhiên, móng tự nhiên.
+- Bối cảnh: Quán café ngoài trời ban ngày — date-cafe v003-day (Richard duyệt 21/11), bàn tròn phủ khăn trắng, ghế gỗ tối cao đệm be, 1 ly nước cam, cây xanh sau lưng.
 
 ## Storyboard
 
 | Shot | Thoại tiếng Việt | Từ | Một hành động chính | Góc máy/biểu cảm | Thời lượng |
 |---|---|---|---|---|---|
-| sh010 | "Tuần đầu. 'Anh chưa gặp ai như em.' 'Em là điều đẹp nhất ngày anh.' Mỗi ngày năm mươi tin." | 18 | Kể lại, mặt bối rối nhưng hơi vui | Trung cảnh, sofa, ban ngày | 8s |
+| sh010 | "Tuần đầu, năm mươi tin một ngày. 'Anh chưa gặp ai như em.'" | 13 | Kể lại, tay cầm điện thoại lướt tin nhắn, mặt bối rối nhưng hơi vui | Trung cảnh, bàn café, ban ngày | 8s |
 | sh020 | "Tuần hai. Một tin. 'Dạo này bận quá.' Rồi im." | 10 | Nhìn điện thoại, mặt chuyển từ chờ đợi sang hiểu ra | Cận vừa, ánh mắt buồn rồi tỉnh | 8s |
-| sh030 | "Dội bom xong rút quân. Chiến thuật quân sự mà anh áp dụng vào hẹn hò." | 13 | Nhìn camera, gật đầu chậm, deadpan | Cận mặt, ánh mắt sắc | 8s |
+| sh030 | "Dội bom xong rút quân. Chiến thuật quân sự đem áp vào hẹn hò." | 14 | Nhìn camera, gật đầu chậm, deadpan | Cận mặt, ánh mắt sắc | 8s |
 
 **Câu chốt quotable:** "Dội bom xong rút quân."
 
-**Hook 3 giây:** "Tuần đầu. Năm mươi tin một ngày. Tuần hai—"
+**Hook 3 giây:** "Tuần đầu, năm mươi tin một ngày."
 
 ## Sản phẩm lồng ghép
 
 | Sản phẩm | Vị trí | Cách xuất hiện | Link affiliate |
 |---|---|---|---|
-| Áo sơ mi linen dài tay form rộng (LAHSTORE) | sh010–sh030 | Mặc ở nhà, sofa ban ngày, visible xuyên suốt | aff-0002 (sug-0007) |
+| Áo sơ mi linen dài tay form rộng (LAHSTORE) | sh010–sh030 | Mặc ở quán café, ban ngày, visible xuyên suốt | aff-0002 (sug-0007) |
 
 ## Tài sản và prompt
 

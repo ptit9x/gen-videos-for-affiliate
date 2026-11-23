@@ -2,8 +2,8 @@ schema_version: 2
 episode_id: ep010
 revision: 1
 title: "Love Bombing"
-editorial_status: draft
-flow_project: null
+editorial_status: script_approved
+flow_project: https://flow.google.com/project/7162f595-d11b-49d7-aab5-47eae89dc6c9
 generation:
   mode: frames
   agent: false
@@ -23,29 +23,54 @@ export:
 target_duration_seconds: 24
 shots:
   - shot_id: sh010
-    approved_for_generation: false
-    dialogue: "Tuần đầu. 'Anh chưa gặp ai như em.' 'Em là điều đẹp nhất ngày anh.' Mỗi ngày năm mươi tin."
+    approved_for_generation: true
+    dialogue: "Tuần đầu, năm mươi tin một ngày. 'Anh chưa gặp ai như em.'"
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: e9ba0b37f5e685c14c19386d9bfaf066fb67ade77763a93faba6996833414a93
+      sha256: 5f07f3b46da0e13e37b8cbc7f13765050844b2666335609b6b4c15ff3abdc883
     motion_prompt:
       path: input/prompts/sh010-motion.txt
-      sha256: 539dfaa887de4e1f104187b289b9e785ab16b9e33d93a37e8a09349c7b7a2d93
+      sha256: d005095f7eb1f48cd1ea9a9f6ac16dcdaabc4fd3d0718a4bd42b11be7208c558
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
+    first_frame:
+      path: input/frames/sh010-first-frame.jpg
+      sha256: b260177460d13e7c4b291588229b27127916cf8e5be59032d00973a6a976124d
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 393a8d92-a44b-46f4-85aa-2a9afd90c4ce
+        status: rejected_editorial
+        file:
+          path: generated/sh010-take001.mp4
+          sha256: b992ed010f16d6a7a5c855a575eb60a552ce0d6696be502f4e3fb704582b94c7
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr. Whisper base: cau day du, 12 tu, 0.1-4.7s (Whisper nghe Toan dau 50 tien — loi dong am + gop so). Giong nu, dung huong Bac. Mat khop frame v2, 1 ly nuoc cam, logo Veo goc duoi phai (crop luc ghep). REJECTED 23/11: Richard thay mat khong giong; Bee soi frame giua clip: Veo dien qua da — quay dau cuoi lon o ~2s, cuoi pha len nham tit mat + gio ca 2 tay + dat dien thoai xuong ban o ~4s, lech ca mat lan hanh dong so voi prompt (cam dien thoai luot tin, boi roi nhung hoi vui). Re-roll take002.'
+      - take_id: take002
+        clip_id: 0eddbd03-58c2-4aab-98ff-aaa87cf055e4
+        status: needs_review
+        file:
+          path: generated/sh010-take002.mp4
+          sha256: 37575e50196cb0f2119ca8cd13ac8363a4aaee0eacfb10d8e0c6f9691ee917c8
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr. Whisper base: cau day du, 12 tu, 0.0-2.0s + 2.8-4.5s (Whisper nghe tuan dau 50 tien 1 ngay — loi gop so; ASR trinh duyet nghe nham nam 2019 la sai, Whisper base khang dinh du chu). Giong nu, dung huong Bac. Binh tinh hon take001 (khong gio tay, khong dat dien thoai xuong ban) NHUNG van cuoi lon nham mat o ~2-4s, dien thoai roi khoi tay tu ~4s — mat van lech luc cuoi. De xuat: insert man hinh chat (lam o hau ky, chu that) + quay take003 voi prompt siet lai.'
+      - take_id: take003
+        clip_id: 76b3a29a-baa6-4adf-8deb-419466365653
+        status: accepted_editorial
+        file:
+          path: generated/sh010-take003.mp4
+          sha256: 8ce3e34f544029a4f701715b3e2c57f5b75e9b842aff091a53b44543851ba3f9
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, prompt siet d005095f (mim nhe, mat mo, binh tinh, cam dien thoai suot clip). Whisper base: cau day du, 12 tu, 0.0-2.4s + 3.0-5.6s (Whisper nghe tuan dau 50 ten 1 ngay — loi gop so). Giong nu, dung huong Bac. BINH TINH NHAT: cam dien thoai 2 tay suot clip, khong cuoi lon, khong gio tay; mat giu o t=2/6s; chi co 1 khoanh khac mim cuoi nham mat nhe o ~4s luc cuoi xuong nhin dien thoai. Richard DUYET 09:16 ("Shot nay ok").'
   - shot_id: sh020
-    approved_for_generation: false
+    approved_for_generation: true
     dialogue: "Tuần hai. Một tin. 'Dạo này bận quá.' Rồi im."
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: 21816ead1adec8cecb2ca68da76a19240e6fc8fc9073870de922d0f4d0c43923
+      sha256: 1e020f65afc60886e8a82ee8586fe0e26291f93487631a5d83d79fa556bc4036
     motion_prompt:
       path: input/prompts/sh020-motion.txt
       sha256: 90ddec18bf95dbd71125bb7185e3a169b4e33e75c2cd698c2b8d2f01417858e3
@@ -54,25 +79,54 @@ shots:
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
+    first_frame:
+      path: input/frames/sh020-first-frame.jpg
+      sha256: c25b905b207e9f5a27272707d3d8a63ecb6f1fb974af6547a7f2f67ee1ed7206
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: e560258e-3ad5-4bd3-8e52-5f8f946a3807
+        status: accepted_editorial
+        file:
+          path: generated/sh020-take001.mp4
+          sha256: a2d9bc8ec632b5042ec45be93deb532edb4c71ce561c842b4d54920a58dcbcd3
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr. Whisper base: cau day du, 10 tu, 0.0-6.4s, nghi 1.3s truoc cau cuoi Roi im (Whisper nghe Tung hai mot tinh giao nay bon qua — loi dong am). Giong nu, HUONG GIONG KHONG BAC theo tai Richard (09:33: chi sh010 + sh030 la giong Bac). => TAT TIENG GOC, LONG CLONE ThaoMy wordalign (nhu ep009). Mat khop frame v2, 1 ly nuoc cam.'
   - shot_id: sh030
-    approved_for_generation: false
-    dialogue: "Dội bom xong rút quân. Chiến thuật quân sự mà anh áp dụng vào hẹn hò."
+    approved_for_generation: true
+    dialogue: "Dội bom xong rút quân. Chiến thuật quân sự đem áp vào hẹn hò."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: ac03a4b20c21fe787420c2399d3dd13f1e85b89eb7b36ec2159554497e148255
+      sha256: f4d44477436699313824946fa7242a6555344227dca2aaa2f892662d1e9d980a
     motion_prompt:
       path: input/prompts/sh030-motion.txt
-      sha256: eb5569b3036da2669a7dc9b58ebd01048df3b4ca54fd632c8132e9f0cda0165f
+      sha256: a485a3ee0008a7f8dc032b41a3e576b31816e07f31987a0daac1005cdc3f3312
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
+    first_frame:
+      path: input/frames/sh030-first-frame.jpg
+      sha256: 357709a82308aef542b12935dcb704b727ef6e8f71c86dda2753bd7442cd5c3c
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: ece56c2b-a234-4c47-843a-16eaac9b6372
+        status: needs_review
+        file:
+          path: generated/sh030-take001.mp4
+          sha256: db77c364e2e413e504f30b34fe85b478eb4ce4503dc8b9bf81c35e380fe7a30b
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr. Whisper base: cau day du, 14 tu, 0.6-6.3s (Whisper dat tu dau 0.00 do smear — nang luong 48k cho thay giong bat dau ~0.6s; nghe dem ac vao — loi dong am cua ap vao). Giong nu, dung huong Bac. Mat khop frame v2, 1 ly nuoc cam. 09:16 Richard: shot cuoi chua du hai — Bee soi frame: huong deadpan + gat dau cham KHONG len hinh, mat mo to kieu ngac nhien o ~6s, khong co cai nhech mep cuoi khay. De xuat quay take002 siet prompt (tinh bo, nhech mep cuoi khay + gat dau cham sau cau chot).'
+      - take_id: take002
+        clip_id: 32d9d536-d3cc-4df5-975d-73eab11332ba
+        status: accepted_editorial
+        file:
+          path: generated/sh030-take002.mp4
+          sha256: 8688d27bed9ca5198bbdad081bfdad4fa7e9b7abdaf6e088bf370d8b2e824ab0
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, prompt siet a485a3ee (tinh bo, nhech mep cuoi khay + gat dau cham sau cau chot). Whisper base: cau day du, 14 tu, 0.0-1.84s + 2.72-6.04s (Whisper nghe doi bong / dem ac — loi dong am). Giong nu, dung huong Bac. DEADPAN LEN HINH: mat binh tinh xuyen cau, khong con mieng ha to ngac nhien; cuoi clip ~7.5s co nhịp khép: mim cuoi nhe, nham mat, cui dau xuong — mem hon cai nhech mep + gat dau sac net trong prompt, nhung la cai ket co y. De xuat dung take nay (kem Laugh Track 1 o cuoi).'

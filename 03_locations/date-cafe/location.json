@@ -1,16 +1,1 @@
-{
-  "location_id": "date-cafe",
-  "title": "Café sân vườn hẹn hò",
-  "status": "pending_user_review",
-  "master_reference": null,
-  "candidates": [
-    {
-      "file": "review/date-cafe-v001.png",
-      "width": 1536,
-      "height": 1024,
-      "sha256": "23b9f01c457e5f13ce5cbd467b25039390479c10d475cbecde6a771b293a1a86",
-      "tool": "image_gen",
-      "created_date": "2026-11-15"
-    }
-  ]
-}
+{"candidates":[{"created_date":"2026-11-15","file":"review/date-cafe-v001.png","height":1024,"sha256":"23b9f01c457e5f13ce5cbd467b25039390479c10d475cbecde6a771b293a1a86","tool":"image_gen","width":1536},{"created_date":"2026-11-21","file":"review/date-cafe-v002-day.png","height":1376,"sha256":"e79164150167298131e6f2ad9b9886ca05dfc4a82923983ea349700b30877d5e","tool":"Flow Nano Banana","width":768}],"location_id":"date-cafe","master_reference":{"approved_date":"2026-11-21","created_date":"2026-11-21","file":"review/date-cafe-v003-day.png","height":2752,"sha256":"1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb","tool":"Flow Nano Banana","width":1536},"status":"approved","title":"Café sân vườn hẹn hò"}

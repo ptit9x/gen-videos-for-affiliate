@@ -1,17 +1,39 @@
 schema_version: 2
 episode_id: ep010
 revision: 1
-locked_duration_seconds: null
-planned_source_duration_seconds: null
-selected_takes: []
-build_commands: []
+locked_duration_seconds: 21.44
+planned_source_duration_seconds: 21.1
+selected_takes:
+  - shot_id: sh010
+    take_id: take003
+  - shot_id: sh020
+    take_id: take001
+  - shot_id: sh030
+    take_id: take002
+build_commands:
+  - "python3 05_episodes/ep010-love-bombing/edit/build_master_2k.py  # stage 1-3 + QC (captions Whisper re-run on assembly audio, aligned to script words)"
+  - "Remotion BasicCaptions (boxed) tu ~/workspace/remotion-captions-test, props {\"accent\": \"#F59E0B\"}, chunked <=287 frames, --concurrency=1 --muted, --crf=18, out ep010-boxed-2k-chunk{0,1,2}.mp4, KHONG title card"
+build_notes:
+  - "Giong (Richard chot 09:33 sau khi nghe take): sh010 + sh030 giu tieng goc Veo (nu Bac); sh020 TAT tieng goc, long clone ThaoMyVeo wordalign (nhu ep009) vi giong native khong phai Bac."
+  - "Ban 2K: generated/sh010-take003-1080p.mp4 + sh020-take001-1080p.mp4 + sh030-take002-1080p.mp4 (1080x1920, 7.93s, 0 credit; frame-diff vs take 1K de xac nhan dung take khi file ve)."
+  - "Trims (do luong, Whisper base + energy envelope 48kHz): sh010 take003 thoai 0.0-2.4s + 3.0-5.6s -> 6.3s; sh020 take001 thoai 0.0-6.4s -> 7.1s; sh030 take002 thoai 0.0-1.84s + 2.72-6.04s -> 7.7s (giu nhịp mim cuoi nham mat ~7.5s). Tong 21.1s + laugh tail."
+  - "Insert man hinh chat: edit/chat-insert-sh010.png (1080x1920, PIL, chu that, 0 credit; 10 tin nhan 06:12-06:31, pill '50 tin nhan moi') overlay len sh010 0-2.5s, audio goc giu nguyen; cat ve mat My luc cau quote (pause 2.4-3.0s)."
+  - "Crop DA DO tren 2K: sh010 + sh020 CO sparkle (~y1770) + chu 'Veo' (~y1880, x1020+) o goc duoi phai; sh030 KHONG co icon o vung do (khung toan canh t=2.5/6 cung khong thay). Crop thong nhat crop=960:1707:60:0 nhu ep008/ep009 — cat icon o sh010/sh020, chi mat khan trai ban trong o sh030, giu framing/scale dong nhat qua hard cut."
+  - "SFX cuoi tap: Laugh Track 1 (LittleRainySeasons, CC BY, Freesound) ngay sau cau chot sh030 (last word ket ~19.44s master time) + freeze-frame tail kieu ep004."
+  - "Captions: Whisper base chay lai tren audio assembly, align theo script words (khong dung text Whisper — no gop so thanh digit), energy-refined, clamp theo shot bounds."
 audio_plan:
-  mute_veo_native: true
-  engine: VieNeu-TTS
-  voice_preset: null
-  voice_status: pending_user_choice
-  lip_sync_qc: not_run
+  speakers:
+    thao_my:
+      voice_preset: ThaoMyVeo
+      voice_status: locked
+      policy: "sh010 + sh030 giu tieng goc Veo (nu mien Bac, Richard chot 09:33); sh020 tat tieng goc, long clone ThaoMyVeo wordalign (native khong phai Bac)."
+  lip_sync_qc: passed
 transition_plan: hard_cuts_only
 qc:
-  status: not_run
-  report_file: null
+  status: passed
+  report_file: edit/build2k/build-report.md
+  notes:
+    - "Master 2K: delivery/ep010-master-2k.mp4 sha256 780df2bf9fcd57bd008f8f0e5978ca2512ccca20aed32954a037e4a8dfc2378f, 21.44s, 1080x1920 30fps, AAC 48kHz stereo, -14.99 LUFS. ffprobe + frame means (no black) + energy per shot + Whisper transcript (all 3 dialogues complete) + visual check of contact sheet and frames 1.0/3.0/6.5/13.6/21.3s — all pass."
+    - "Build lan 1 chet ~09:53 (VM replacement giet job nen giua chung, assembly-raw.mp4 corrupt). Build lai tu dau 11:13-11:24 bang python3 -u, exit 0."
+    - "WART da bao Richard: caption Boxed de len khung chat 0-2.5s, che mot phan bubble. Fix neu Richard muon: tat caption 0-2.5s, render lai chunk 0."
+    - "build-report.md ban dau con text template ep009 (sh040, dubbed takes, 'PROPOSED'); da sua tay 11:30, file master KHONG build lai."
