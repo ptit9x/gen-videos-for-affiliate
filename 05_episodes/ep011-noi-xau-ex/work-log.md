@@ -97,3 +97,44 @@
 - Stretch: P1 0.989x, P2 0.737x, P3 0.952x (đều trong khoảng ep009 0.60x–1.70x). Build `edit/build_wordalign_sh020.py`.
 - Output: `generated/sh020-take001-dubbed.mp4` (video copy 1K 720x1280, audio clone mono 48kHz AAC 192k, 7.93s; sha ab4cd7f3...). Take gốc không ghi đè (sha vẫn 3bb1a1b8...).
 - QC (`edit/dub-qc-ep011-sh020.md`): Whisper base nghe đủ 13/13 từ đúng 3 cửa sổ (nhầm đồng âm "của"≈cô, "sướng"≈xứng như mọi lần); năng lượng ngoài cửa sổ = 0.000 tuyệt đối (đuôi 0.1s). ĐẠT — chờ tai Richard chốt cuối.
+
+## 2026-11-24 ~09:18 — Takes chốt hết, commit + bắt đầu tải 2K
+- Richard 09:17: "2 video của Dũng là giọng miền nam nhưng ko sao, duyệt đc" → sh010 take001 + sh030 take002 ACCEPTED (giữ tiếng gốc Nam). Cả 4 shot đã chốt: sh010 take001 (Nam), sh020 take001 (lồng clone, QC đạt), sh030 take002 (Nam), sh040 take001 (giữ gốc).
+- episode.yaml: statuses cập nhật (cả 4 accepted_editorial), validator generation đạt. Tracker ep011 cập nhật (nau-cho-mot-nguoi → noi-xau-ex, script_approved, URL project EP011).
+- Commit 10e808e đã push (18 file: ep011 scope + tracker; KHÔNG gồm file bẩn ep008/ep009/ep010 hay affiliate-placements.csv của chat khác).
+- Tải 2K: browser task đang chạy upscale + download-capture từng take (sh010 → sh020 → sh030 take002 → sh040); verify bằng frame-diff vs 1K đã duyệt sau khi file về. Dub sh020 sẽ rebuild trên video 2K sau.
+- Chờ Richard nghe bản lồng sh020 (đã gửi 09:17).
+
+## 2026-11-24 ~09:49 — 2K về đủ + verify đúng take + dub rebuild trên 2K
+- Tải 2K xong 09:19–09:49 (browser, upscale mỗi clip ~7 phút, không chạm giữa chừng, không paywall; 4K khóa không dùng): sh010 10.314.763 byte sha 92ffac3d…; sh020 8.271.057 byte sha fe4d2622…; sh030 take002 6.929.729 byte sha 26336e41…; sh040 8.763.089 byte sha d2ca0202… — tất cả 1080×1920, video 7.83s / audio 7.85s.
+- Verify bằng frame-diff vs 1K đã duyệt (t=2.5/4.0s, mean abs diff): sh010 4.66/5.05, sh020 3.38/3.58, sh030 take002 3.24/3.52, sh040 4.49/4.73 — ĐÚNG take cả 4. Control sh030 2K vs take001: 10.37/10.24 (khác rõ) → 2K đúng là take002, không phải take001.
+- 2K copy vào generated/ theo quy ước ep010 (*-1080p.mp4).
+- Dub sh020 rebuild trên video 2K: generated/sh020-take001-dubbed-1080p.mp4 (1080×1920, 7.83s, sha e4aa1b02…, video copy 2K + audio clone từ edit/wordalign/sh020-aligned.wav, -shortest). QC: Whisper đủ 13 từ đúng cửa sổ, năng lượng ngoài cửa sổ ≤0.001. ĐẠT.
+- Chờ Richard nghe bản lồng (bản 2K) rồi dựng master.
+
+## 2026-11-24 ~12:06–12:35 — Dựng master 2K XONG, QC ĐẠT (chờ Richard duyệt)
+- Lệnh: Richard 12:05 "ok" (duyệt bản lồng sh020) → dựng master theo pipeline ep010 (`edit/build_master_2k.py`, adapt từ ep010, không ghi đè file ep010).
+- Nguồn (2K, đã verify đúng take bằng frame-diff): sh010 take001-1080p (native Dũng Nam), sh020 take001-dubbed-1080p (clone ThaoMy wordalign, native thay hẳn), sh030 take002-1080p (native Dũng Nam), sh040 take001-1080p (native My Bắc).
+- Đo lại trên 2K (Whisper base + energy 48kHz 0.1s): sh010 thoại 0.00–5.68s → trim 6.4s; sh020 dub 3 cụm 1.00–1.90 / 2.80–4.20 / 5.85–6.65 → trim 7.35s; sh030 take002 0.00–5.48s → trim 6.2s; sh040 0.66–3.58 + 5.16–6.30s → trim 7.7s (giữ nụ cười nhắm mắt tới 7.5s như ep010). Tổng video 27.65s.
+- Crop: Veo + sao Gemini xác minh ở góc dưới phải trên file 2K (corner crop x900–1080/y1700–1920: sao ~y1735, chữ "Veo" ~y1855–1885) → crop `960:1707:60:0` + lanczos 1080×1920, giống ep010, một crop chung cả 4 shot.
+- Caption: Remotion BasicCaptions Boxed (accent #F59E0B), 56 từ, Whisper base chạy lại trên assembly, align theo thứ tự + energy-refine. Fix biên: "Cũng" (13.20–13.92s) chuyển từ sh020 sang sh030. Lần này "Bốn mối" Whisper nghe 2 từ ("Bộ"+"mỗi") nên fix 3-cho-2 đã chuẩn bị không cần dùng. `captions-PROBLEMS.txt` chỉ có clamp cuối từ thường lệ. Render chunked ≤287 frame, concurrency 1, chrome-headless-shell 131: chunk0 287f/9.57s, chunk1 287f/9.57s, chunk2 257f/8.57s.
+- SỰ CỐ GIỮA CHỪNG: lần chạy đầu bị SIGTERM kill ~phút 10, đúng lúc đang concat video-only (sau khi cả 3 chunk đã verify đạt) → `boxed-video-only.mp4` hỏng (thiếu moov). Resume bằng `edit/build2k/resume_build.py`: xóa file hỏng, dựng lại từ 3 chunk đã verify (27.70s, mean frame 100.3 @ 13.8s), tiếp tục mux + stage 3 + QC. Không render lại, không gen lại, không lồng lại, không tốn credit.
+- SFX: Laugh Track 1 duy nhất sau punchline sh040 — mix bằng numpy (KHÔNG adelay), audible 26.46s (từ cuối "anh." 26.31s + 0.15s), stem_start 26.20s, kết 28.30s; đuôi freeze-frame 0.60s.
+- Master: `delivery/ep011-master-2k.mp4` (28.30s, 1080×1920, 30fps, H.264 yuv420p, AAC 48kHz stereo; sha ebfdb8573e28e332b2f6a98c7e1c82f641380aed5c7554c81fe944d5e80d314b; 43.463.754 byte; loudness −14.92 LUFS, TP −0.97 — ngang ep010 −14.99). SRT: `delivery/ep011-master-2k.srt` (8 cue).
+- Cover candidate: `delivery/ep011-cover-thaomy.jpg` (sh040 6.5s, master 26.45s; My mắt mở, cười nhẹ, nhìn camera; sha 011f463d…). LƯU Ý: bản đầu trích từ master đã caption nên dính chữ "ANH." trên đùi → đã trích lại từ assembly chưa caption (không chữ, không icon Veo). Đây là ỨNG VIÊN cho Richard chốt, không phải quyết định.
+- QC ĐẠT (chi tiết `edit/build2k/build-report.md`): ffprobe đủ thông số; frame mean 100.6–120.0 khắp 0.5–28.2s, không đoạn đen; Whisper final đủ 56 từ đúng 4 câu theo thứ tự (chỉ nhầm đồng âm quen thuộc: "tệ"→"tài", "xứng"→"sướng", "Bốn mối"→"Bộ mỗi", "đấy"→"để"); energy đúng cửa sổ từng shot, sh020 có khoảng lặng đúng giữa 3 cụm dub; caption xem trực tiếp: 1.5s "ANH TỆ LẮM" (highlight "TỆ"), 8.0s "THƯƠNG ANH GHÊ." ("GHÊ."), 22.0s "LẦN NÀO CŨNG" ("LẦN"); cut 3 chỗ xem trực tiếp đều sạch (sh030→sh040: Dũng cúi đầu/nhắm mắt, caption đã tắt → My nhìn camera, chưa caption); laugh kiểm tra TỪNG KÊNH trên file đã build: RMS L=0.1291 R=0.1292 (tỉ lệ 1.00), L−R/L+R = 0.062, tương quan envelope L/R = 0.995 — không rò 1 kênh.
+- Nit ghi nhận: contact sheet `edit/build2k/qc-contact.png` rộng 4 cột nhưng paste 6 frame cắt nên 2 frame cắt sh040 rơi khỏi sheet (2 frame đó đã xem riêng ở `edit/build2k/qc/final-cut-sh040-pre/post.png`).
+- Manifest cập nhật rev 3 (takes đã khóa + sha đầy đủ, crop, trim, build commands, SFX nguồn/license, QC passed). KHÔNG commit, KHÔNG đăng/hẹn — master chờ Richard duyệt. episode.yaml editorial_status không đổi (để parent).
+
+## 2026-11-24 ~13:46 — Bìa v1 bị chê, trích 3 bìa khác
+- Richard: "Bìa nhìn hơi giả không giống mặt My lắm" — bìa v1 (sh040 6.5s, master 26.45s, My nhắm mắt cười nhẹ) KHÔNG dùng nữa.
+- 3 bìa khác trích từ take 2K chưa caption (mắt mở, giống My hơn), crop Veo icon như master (crop=960:1707:60:0 + lanczos 1080×1920):
+  - ep011-cover-alt-sh040-1p4.jpg — sh040 1.4s, My nhìn thẳng camera, mặt tỉnh (khoảnh khắc 22.0s của master).
+  - ep011-cover-alt-sh020-1p6.jpg — sh020 1.6s, My chống cằm, mặt rõ, miệng mở ("Thương anh ghê").
+  - ep011-cover-alt-sh020-3p0.jpg — sh020 3.0s, My chống cằm, miệng chữ o ngạc nhiên.
+- Chờ Richard chốt bìa + duyệt master + lịch đăng.
+
+## 2026-11-24 ~14:08 — Richard chốt bìa số 2
+- Bìa CHỐT: ep011-cover-alt-sh020-1p6.jpg (sh020 1.6s, My chống cằm) → copy thành ep011-cover-thaomy.jpg (canonical).
+- Bìa v1 đổi tên thành ep011-cover-v1-rejected.jpg (giữ lại làm lịch sử, không dùng).
+- Chờ Richard duyệt master + lịch đăng (slot trống tiếp theo: 19:00 T4 26/11 — ep009 tối nay 24/11, ep010 tối mai 25/11).

@@ -1,0 +1,122 @@
+bounds: {'sh010': (0.0, 6.4), 'sh020': (6.4, 13.75), 'sh030': (13.75, 19.95), 'sh040': (19.95, 27.65)} total=27.65s
+== stage 1: segments (2K sources, single input each) ==
+  sh010 src sha 92ffac3d...
+  sh010: fmt=6.40s v=1080x1920 30/1 a=aac 48000Hz 2ch
+  sh020 src sha e4aa1b02...
+  sh020: fmt=7.37s v=1080x1920 30/1 a=aac 48000Hz 2ch
+  sh030 src sha 26336e41...
+  sh030: fmt=6.20s v=1080x1920 30/1 a=aac 48000Hz 2ch
+  sh040 src sha d2ca0202...
+  sh040: fmt=7.70s v=1080x1920 30/1 a=aac 48000Hz 2ch
+concat raw: fmt=27.68s
+assembly-norm: fmt=27.70s (expect 27.65s)
+loudnorm measure: {
+	"input_i" : "-14.60",
+	"input_tp" : "-1.04",
+	"input_lra" : "6.90",
+	"input_thresh" : "-26.33",
+	"output_i" : "-23.21",
+	"output_tp" : "-9.36",
+	"output_lra" : "5.40",
+	"output_thresh" : "-34.74",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.79"
+}
+== stage 2: captions (Whisper base on assembly audio) ==
+audio: 27.69s @ 16000Hz
+whisper words: 56
+  0.00-0.76 'Người' p=0.74
+  0.76-0.92 'yêu' p=1.00
+  0.92-1.18 'cậu' p=0.57
+  1.18-1.36 'ăn' p=0.35
+  1.36-1.68 'tài' p=0.73
+  1.68-1.88 'lắm' p=0.86
+  1.88-2.02 'mê' p=0.35
+  2.02-2.24 'mới' p=0.70
+  2.24-3.18 'Ý' p=0.19
+  3.18-3.66 'kỳ,' p=0.67
+  4.14-4.32 'kìm' p=0.78
+  4.32-4.76 'sóc,' p=0.64
+  5.06-5.18 'không' p=0.99
+  5.18-5.50 'hiểu' p=0.94
+  5.50-5.88 'ăn' p=0.89
+  7.16-7.68 'Thường' p=0.63
+  7.68-7.88 'anh' p=0.53
+  7.88-8.26 'ghê' p=0.92
+  8.90-9.42 'Chắc' p=0.72
+  9.42-9.60 'cô' p=0.41
+  9.60-9.76 'đỏ' p=0.64
+  9.76-9.98 'không' p=0.99
+  9.98-10.22 'sướng' p=0.72
+  10.22-10.40 'với' p=0.58
+  10.40-10.58 'anh' p=0.93
+  12.02-12.54 'Rồi' p=0.53
+  12.54-12.76 'trước' p=0.85
+  12.76-13.20 'đó' p=0.51
+  13.20-13.92 'Cũng' p=0.78
+  13.92-14.30 'tài' p=0.92
+  15.16-15.68 'Mà' p=0.75
+  15.68-15.82 'cô' p=0.97
+  15.82-16.08 'trước' p=0.79
+  16.08-16.22 'nó' p=0.53
+  16.22-16.36 'cũng' p=0.98
+  16.36-16.60 'vậy' p=0.80
+  17.14-17.66 'Bộ' p=0.44
+  17.66-18.00 'mỗi' p=0.50
+  18.00-18.28 'rồi,' p=0.99
+  18.62-18.72 'lần' p=0.93
+  18.72-18.92 'nào' p=0.99
+  18.92-19.04 'cũng' p=0.99
+  19.04-19.32 'vậy' p=0.93
+  20.58-21.10 'Bộ' p=0.90
+  21.10-21.50 'mỗi' p=0.87
+  21.50-21.76 'mà' p=0.79
+  21.76-22.00 'lần' p=0.98
+  22.00-22.38 'nào' p=1.00
+  22.38-22.60 'cũng' p=0.98
+  22.60-22.90 'lỗi' p=0.97
+  22.90-23.10 'người' p=1.00
+  23.10-23.70 'ta' p=1.00
+  25.16-25.68 'Hày' p=0.47
+  25.68-25.90 'thật' p=0.97
+  25.90-26.02 'đấy' p=0.53
+  26.02-26.30 'anh' p=0.98
+boundary fix: moved 'Cũng' 13.20-13.92 from sh020 to sh030
+sh010: whisper=15 script=15
+sh020: whisper=13 script=13
+sh030: whisper=15 script=15
+sh040: whisper=13 script=13
+caps: 56 (expect 56)
+  sh010 0.02-0.76 'Người' (heard 'Người')
+  sh010 0.76-0.92 'yêu' (heard 'yêu')
+  sh010 0.92-1.18 'cũ' (heard 'cậu')
+  sh010 1.18-1.36 'anh' (heard 'ăn')
+  sh010 1.36-1.68 'tệ' (heard 'tài')
+  sh010 1.68-1.88 'lắm' (heard 'lắm')
+  sh010 1.88-2.02 'em' (heard 'mê')
+  sh010 2.02-2.24 'ơi.' (heard 'mới')
+  sh010 2.24-3.18 'Ích' (heard 'Ý')
+  sh010 3.18-3.67 'kỷ,' (heard 'kỳ,')
+  sh010 4.13-4.32 'kiểm' (heard 'kìm')
+  sh010 4.32-4.67 'soát,' (heard 'sóc,')
+  sh010 5.05-5.18 'không' (heard 'không')
+  sh010 5.18-5.50 'hiểu' (heard 'hiểu')
+  sh010 5.50-5.85 'anh.' (heard 'ăn')
+  sh020 7.50-7.68 'Thương' (heard 'Thường')
+  sh020 7.68-7.88 'anh' (heard 'anh')
+  sh020 7.88-8.27 'ghê.' (heard 'ghê')
+  sh020 9.30-9.42 'Chắc' (heard 'Chắc')
+  sh020 9.42-9.60 'cô' (heard 'cô')
+  sh020 9.60-9.76 'đó' (heard 'đỏ')
+  sh020 9.76-9.98 'không' (heard 'không')
+  sh020 9.98-10.22 'xứng' (heard 'sướng')
+  sh020 10.22-10.40 'với' (heard 'với')
+  sh020 10.40-10.59 'anh.' (heard 'anh')
+  sh020 12.30-12.54 'Rồi' (heard 'Rồi')
+  sh020 12.54-12.76 'trước' (heard 'trước')
+  sh020 12.76-13.05 'đó?' (heard 'đó')
+  sh030 13.77-13.92 'Cũng' (heard 'Cũng')
+  sh030 13.92-14.31 'tệ.' (heard 'tài')
+  sh030 15.15-15.68 'Mà' (heard 'Mà')
+  sh030 15.68-15.82 'cô' (heard 'cô')
+  sh030 15.82-16.07 'trước' (heard 'tr�

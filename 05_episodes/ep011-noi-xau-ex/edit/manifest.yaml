@@ -1,19 +1,75 @@
 schema_version: 2
 episode_id: ep011
 revision: 2
-locked_duration_seconds: null
-planned_source_duration_seconds: null
-selected_takes: []
-build_commands: []
+locked_duration_seconds: 28.3
+planned_source_duration_seconds: 27.65
+selected_takes:
+  - shot_id: sh010
+    take_id: take001
+    clip_id: e8c3b603-d8e1-4fc0-82a8-caa261bd7876
+    file: generated/sh010-take001-1080p.mp4
+    sha256: 92ffac3dbfdcb38c8bfcda03e269f8b904e3978699b5f9275ee651ddc324b365
+    audio: native Veo (Dũng, Southern — accepted by Richard 2026-11-24 09:17)
+    trim: 0-6.4
+  - shot_id: sh020
+    take_id: take001
+    clip_id: 8d950a41-9d0f-41d4-bd1b-85542c087ac8
+    file: generated/sh020-take001-dubbed-1080p.mp4
+    sha256: e4aa1b0216630061c5a2336a09c8ab4e9b755e7f27bfa780d585386e4fee4e82
+    audio: clone ThaoMy wordalign (native fully replaced; APPROVED by Richard 2026-11-24 12:05)
+    trim: 0-7.35
+  - shot_id: sh030
+    take_id: take002
+    clip_id: e6f4ee42-8aad-4a17-9d5d-9bbb21d9902c
+    file: generated/sh030-take002-1080p.mp4
+    sha256: 26336e41fbfa77f1f6ead03955f674ebd73e78435f5064ed6a0ebf9b3566ca5c
+    audio: native Veo (Dũng, Southern — accepted by Richard 2026-11-24 09:17)
+    trim: 0-6.2
+  - shot_id: sh040
+    take_id: take001
+    clip_id: b03b7790-8332-4f4f-8ad2-52a0cab7b3b8
+    file: generated/sh040-take001-1080p.mp4
+    sha256: d2ca0202d961f76ca0afc098f2339d787541810bab7cbfd159239b632db4486d
+    audio: native Veo (My, Northern — accepted by Richard 2026-11-24 09:09)
+    trim: 0-7.7
+build_commands:
+  - 'ffmpeg -i <source> -vf "trim=0:<T>,setpts=PTS-STARTPTS,crop=960:1707:60:0,scale=1080:1920:flags=lanczos,fps=30" -af "atrim=0:<T>,asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo" -c:v libx264 -crf 18 -preset medium -pix_fmt yuv420p -c:a aac -b:a 192k -t <T> edit/build2k/seg-<sh>.mp4'
+  - 'ffmpeg -i seg-sh010.mp4 -i seg-sh020.mp4 -i seg-sh030.mp4 -i seg-sh040.mp4 -filter_complex "[0:v][0:a][1:v][1:a][2:v][2:a][3:v][3:a]concat=n=4:v=1:a=1[v][a]" -map "[v]" -map "[a]" -c:v libx264 -crf 18 -preset medium -pix_fmt yuv420p -c:a aac -b:a 192k edit/build2k/assembly-raw.mp4'
+  - 'ffmpeg -i assembly-raw.mp4 -af "loudnorm=I=-15.5:TP=-1.0:LRA=11" -c:v copy -c:a aac -b:a 192k edit/build2k/assembly-norm.mp4'
+  - 'cd ~/workspace/remotion-captions-test && npx remotion render Boxed out/ep011-boxed-2k-chunk<N>.mp4 --props ''{"accent":"#F59E0B"}'' --browser-executable <chrome-headless-shell-131> --concurrency=1 --crf=18 --frames <0-286|287-573|574-830> --muted'
+  - 'ffmpeg -i chunk0.mp4 -i chunk1.mp4 -i chunk2.mp4 -filter_complex "[0:v][1:v][2:v]concat=n=3:v=1:a=0[v]" -map "[v]" -c:v libx264 -crf 18 -preset medium -pix_fmt yuv420p edit/build2k/boxed-video-only.mp4'
+  - 'ffmpeg -i boxed-video-only.mp4 -i assembly-norm.mp4 -map 0:v -map 1:a -c:v copy -c:a copy ~/workspace/remotion-captions-test/out/ep011-boxed-2k-tmp.mp4'
+  - 'python3 edit/build2k/resume_build.py  # stage 3: numpy laugh mix + 0.60s freeze tail + final loudnorm + QC (see edit/build2k/build-report.md)'
+crop:
+  region: 'crop=960:1707:60:0 (x 60..1020, y 0..1707), then lanczos scale to 1080x1920'
+  reason: 'Veo sparkle + "Veo" text verified bottom-right on sh010 + sh040 2K files (corner crops x900-1080/y1700-1920 at t=2.5s: star top ~y1735, "Veo" text ~y1855-1885); same relative position as ep010. One uniform crop across all 4 shots so framing/scale matches across hard cuts.'
+  verified: 'no Veo icon / Gemini star visible in any checked frame of the final master'
 audio_plan:
   mute_veo_native: false
   engine: clone ThaoMy (Colab)
-  voice_preset: ThaoMy (clone VieNeu v3 Turbo) — chỉ lồng cho shot My không phải giọng nữ miền Bắc; Dũng giữ native nếu nam miền Bắc
-  voice_by: mixed_clone_My_native_Dung_pending
-  voice_status: pending_user_choice
-  lip_sync_qc: not_run
-  note: 'My: giữ native nếu nữ Bắc, không thì lồng clone ThaoMy. Dũng: chưa có preset/clone nam Bắc; kiểm tra native từng take khi gen, giọng chưa chốt.'
+  voice_preset: ThaoMy (clone VieNeu v3 Turbo) — only for My shots that are not Northern female; Dũng native
+  voice_by: mixed_clone_My_native_Dung
+  voice_status: decided_by_user
+  lip_sync_qc: passed
+  note: 'sh010 native Southern Dũng (accepted 09:17 24/11); sh020 clone ThaoMy wordalign, native fully replaced (approved 12:05 24/11); sh030 take002 native Southern Dũng (accepted 09:17 24/11); sh040 native Northern My (accepted 09:09 24/11).'
+  sfx:
+    file: ~/workspace/laugh-sfx/final/laugh-track-1-ccby.mp3
+    source: Freesound, LittleRainySeasons, Laugh Track 1 (2.10s)
+    license: CC BY (attribution required in descriptions)
+    placement: 'numpy mix (NO adelay), audible onset 26.46s (last word ends 26.31s + 0.15s), stem_start 26.20s, ends 28.30s; freeze-frame tail 0.60s'
+    per_channel_qc: 'laugh zone RMS L=0.1291 R=0.1292 ratio 1.00; L-R/L+R = 0.062; L/R envelope correlation 0.995 — both channels carry the same laugh, no one-channel leak'
 transition_plan: hard_cuts_only
+captions:
+  style: Remotion BasicCaptions Boxed, accent '#F59E0B'
+  words: 56
+  srt: delivery/ep011-master-2k.srt
+  note: 'Whisper base re-run on assembly audio, aligned to script words in order, energy-refined. Boundary fix: "Cũng" moved sh020 -> sh030. captions-PROBLEMS.txt holds only routine end-time clamps.'
 qc:
-  status: not_run
-  report_file: null
+  status: passed
+  report_file: edit/build2k/build-report.md
+  loudness_lufs: -14.92
+  true_peak_db: -0.97
+  final_sha256: ebfdb8573e28e332b2f6a98c7e1c82f641380aed5c7554c81fe944d5e80d314b
+  final_duration_seconds: 28.3
+  cover: delivery/ep011-cover-thaomy.jpg
+  cover_sha256: 011f463dc00f22c47fdace79dd2233563df8fe3c200641cb5b5a9aea210c7c24

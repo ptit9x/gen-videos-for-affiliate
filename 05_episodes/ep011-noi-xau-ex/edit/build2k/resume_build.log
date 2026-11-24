@@ -1,0 +1,121 @@
+bounds: {'sh010': (0.0, 6.4), 'sh020': (6.4, 13.75), 'sh030': (13.75, 19.95), 'sh040': (19.95, 27.65)} total=27.65s
+last word 'anh.' ends 26.31s
+== rebuild boxed-video-only (chunks were verified; old file was corrupt) ==
+  ep011-boxed-2k-chunk0.mp4: 9.57s 1080x1920
+  ep011-boxed-2k-chunk1.mp4: 9.57s 1080x1920
+  ep011-boxed-2k-chunk2.mp4: 8.57s 1080x1920
+boxed video-only: fmt=27.70s (expect ~27.7s)
+boxed video-only mean frame @ 13.8s: 100.3
+boxed tmp: /home/hatch/workspace/remotion-captions-test/out/ep011-boxed-2k-tmp.mp4 size=46122018 vdur=27.70s (expect 27.70s)
+== stage 3: laugh track 1 after sh040 punchline ==
+dialogue 27.691s peak 0.886; laugh 2.10s peak 0.611
+laugh onset in file: 0.26s
+stem_start=26.2s (audible ~26.46s), total=28.3s, video=27.70s, freeze=0.60s
+mixed peak: 0.886
+still: (1080, 1920)
+FINAL: /home/hatch/workspace/gen-videos-for-affiliate-git/05_episodes/ep011-noi-xau-ex/delivery/ep011-master-2k.mp4 fmt=28.30s
+  video: h264 dur=28.30 1080x1920 fps=30/1
+  audio: aac dur=28.30 ch=2 sr=48000
+final loudnorm measure: {
+	"input_i" : "-14.92",
+	"input_tp" : "-0.97",
+	"input_lra" : "5.60",
+	"input_thresh" : "-26.08",
+	"output_i" : "-23.37",
+	"output_tp" : "-9.41",
+	"output_lra" : "4.70",
+	"output_thresh" : "-34.67",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.63"
+}
+== QC: energy per shot (final) ==
+  sh010 0.0-6.4s peak=0.893 mean=0.0648 buckets0.1s: 0.02 0.02 0.03 0.02 0.04 0.26 0.39 0.37 0.57 0.27 0.54 0.44 0.66 0.26 0.89 0.65 0.82 0.67 0.47 0.45 0.35 0.35 0.35 0.16 0.03 0.02 0.02 0.02 0.03 0.03 0.02 0.89 0.04 0.02 0.69 0.47 0.37 0.25 0.07 0.02 0.02 0.58 0.47 0.25 0.43 0.72 0.40 0.03 0.02 0.02 0.47 0.61 0.32 0.48 0.44 0.59 0.52 0.20 0.06 0.02 0.02 0.02 0.02 0.03
+  sh020 6.4-13.8s peak=0.516 mean=0.0297 buckets0.1s: 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.02 0.29 0.19 0.25 0.20 0.21 0.52 0.48 0.35 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.02 0.35 0.04 0.43 0.36 0.22 0.11 0.22 0.14 0.34 0.21 0.40 0.44 0.29 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.02 0.32 0.37 0.32 0.30 0.34 0.50 0.50 0.33 0.00 0.00 0.00 0.00 0.00 0.00
+  sh030 13.8-19.9s peak=0.876 mean=0.0703 buckets0.1s: 0.06 0.68 0.42 0.84 0.79 0.84 0.32 0.05 0.04 0.04 0.04 0.06 0.04 0.05 0.05 0.05 0.04 0.04 0.31 0.67 0.76 0.57 0.70 0.61 0.50 0.66 0.58 0.88 0.64 0.48 0.05 0.04 0.04 0.04 0.04 0.05 0.03 0.04 0.64 0.69 0.34 0.63 0.58 0.65 0.84 0.44 0.02 0.03 0.77 0.82 0.36 0.70 0.30 0.59 0.61 0.69 0.25 0.04 0.03 0.04 0.04 0.04
+  sh040 19.9-27.6s peak=0.714 mean=0.0777 buckets0.1s: 0.05 0.06 0.05 0.06 0.07 0.12 0.06 0.06 0.05 0.03 0.71 0.67 0.43 0.67 0.69 0.58 0.27 0.26 0.50 0.65 0.64 0.21 0.47 0.51 0.39 0.35 0.59 0.31 0.53 0.58 0.31 0.64 0.62 0.48 0.67 0.56 0.27 0.11 0.06 0.05 0.03 0.04 0.04 0.14 0.09 0.07 0.05 0.05 0.08 0.08 0.06 0.06 0.11 0.12 0.08 0.07 0.63 0.61 0.54 0.68 0.51 0.55 0.57 0.30 0.16 0.24 0.34 0.56 0.57 0.56 0.58 0.57 0.54 0.54 0.54 0.54 0.28
+  laugh zone (last-word-end to total):
+    26.3:0.164 26.4:0.245 26.5:0.345 26.6:0.557 26.7:0.571 26.8:0.556 26.9:0.579 27.0:0.574 27.1:0.542 27.2:0.544 27.3:0.536 27.4:0.542 27.5:0.282 27.6:0.284 27.7:0.283 27.8:0.251 27.9:0.190 28.0:0.174 28.1:0.068 28.2:0.065
+== QC: laugh per channel ==
+  laugh zone 26.46-28.30s: RMS L=0.1291 R=0.1292 ratio=1.00
+  pre-laugh 1s (25.31-26.31s): RMS L=0.1198 R=0.1214
+  laugh zone L-R RMS / L+R RMS = 0.062 (small = both channels carry the laugh)
+  laugh-zone L/R envelope correlation = 0.995 (near 1 = same laugh both channels)
+== QC: frame means ==
+  t=0.5s mean=107.4
+  t=1.0s mean=107.2
+  t=3.0s mean=107.4
+  t=6.5s mean=118.7
+  t=7.0s mean=119.1
+  t=10.0s mean=120.0
+  t=13.6s mean=118.6
+  t=13.9s mean=100.6
+  t=16.0s mean=101.4
+  t=20.0s mean=114.1
+  t=22.0s mean=116.4
+  t=26.0s mean=115.4
+  t=26.5s mean=115.5
+  t=27.5s mean=114.4
+  t=28.2s mean=113.9
+== QC: contact sheet ==
+contact sheet: /home/hatch/workspace/gen-videos-for-affiliate-git/05_episodes/ep011-noi-xau-ex/edit/build2k/qc-contact.png (row1 mids, row2 cut frames)
+== QC: whisper transcript (final) ==
+  0.00-0.76 'Người' p=0.76
+  0.76-0.92 'yêu' p=1.00
+  0.92-1.16 'cố' p=0.47
+  1.16-1.34 'Anh' p=0.34
+  1.34-1.68 'tài' p=0.61
+  1.68-1.88 'lắm' p=0.84
+  1.88-2.02 'mê' p=0.41
+  2.02-2.24 'mới' p=0.59
+  2.24-3.18 'Ý' p=0.22
+  3.18-3.64 'kỳ,' p=0.65
+  4.14-4.32 'kìm' p=0.75
+  4.32-4.76 'sóc,' p=0.65
+  5.06-5.18 'không' p=0.99
+  5.18-5.50 'hiểu' p=0.93
+  5.50-5.88 'Anh' p=0.59
+  7.16-7.68 'Thường' p=0.54
+  7.68-7.88 'anh' p=0.55
+  7.88-8.26 'ghê,' p=0.90
+  9.18-9.40 'chắc' p=0.88
+  9.40-9.56 'của' p=0.40
+  9.56-9.72 'đó' p=0.71
+  9.72-10.00 'không' p=0.98
+  10.00-10.24 'sướng' p=0.72
+  10.24-10.40 'với' p=0.55
+  10.40-10.58 'anh' p=0.89
+  12.02-12.54 'Rồi' p=0.52
+  12.54-12.76 'trước' p=0.79
+  12.76-13.12 'đó' p=0.51
+  13.12-13.92 'Cũng' p=0.72
+  13.92-14.30 'tài,' p=0.95
+  14.88-15.68 'mà' p=0.95
+  15.68-15.82 'cô' p=0.85
+  15.82-16.08 'trước' p=0.74
+  16.08-16.22 'nó' p=0.42
+  16.22-16.34 'cũng' p=0.98
+  16.34-16.60 'vậy' p=0.78
+  17.14-17.66 'Bộ' p=0.41
+  17.66-18.00 'mỗi' p=0.46
+  18.00-18.28 'rồi,' p=0.99
+  18.64-18.72 'lần' p=0.92
+  18.72-18.92 'nào' p=0.99
+  18.92-19.04 'cũng' p=0.99
+  19.04-19.34 'vậy' p=0.96
+  20.58-21.10 'Bộ' p=0.91
+  21.10-21.50 'mỗi' p=0.93
+  21.50-21.76 'mà' p=0.76
+  21.76-22.02 'lần' p=0.97
+  22.02-22.38 'nào' p=1.00
+  22.38-22.60 'cũng' p=0.97
+  22.60-22.90 'lỗi' p=0.97
+  22.90-23.10 'người' p=1.00
+  23.10-23.66 'ta' p=1.00
+  25.14-25.66 'Hay' p=0.30
+  25.66-25.90 'thật' p=0.96
+  25.90-26.02 'để' p=0.39
+  26.02-26.28 'anh' p=0.99
+final whisper words: 56
+cover candidate: /home/hatch/workspace/gen-videos-for-affiliate-git/05_episodes/ep011-noi-xau-ex/delivery/ep011-cover-thaomy.jpg (master t=26.45s = sh040 6.5s)
+FINAL SHA: ebfdb8573e28e332b2f6a98c7e1c82f641380aed5c7554c81fe944d5e80d314b
+RESUME BUILD DONE
