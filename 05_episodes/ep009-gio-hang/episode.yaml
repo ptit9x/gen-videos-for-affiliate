@@ -2,8 +2,8 @@ schema_version: 2
 episode_id: ep009
 revision: 1
 title: "Giỏ hàng"
-editorial_status: draft
-flow_project: null
+editorial_status: generating
+flow_project: https://flow.google.com/project/3de63f40-b914-4aea-b513-6433db75e874
 generation:
   mode: frames
   agent: false
@@ -23,11 +23,11 @@ export:
 target_duration_seconds: 32
 shots:
   - shot_id: sh010
-    approved_for_generation: false
+    approved_for_generation: true
     dialogue: "Mười hai giờ. Tôi hứa chỉ mua một món."
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: a32234567f29cff058098df64cbf0a7d55700523856fc467816d6fb690cc2e9d
+      sha256: a8af580365afeac00182a2718baa2903d6fe0717052612725f6faecf42ba366f
     motion_prompt:
       path: input/prompts/sh010-motion.txt
       sha256: d0f0b50ab46afba14de2d554068e4ce8ad4af365dbbe5c549790d6926b5caffd
@@ -36,34 +36,60 @@ shots:
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/sanjoli-be-dress-reference-v001.jpg
+        sha256: "f77702d9120f4fe3c0bc7563c0d861b62b855bb8a478ee9543cb5966290d02a3"
+      - path: input/references/slimcase-phone-ref.jpg
+        sha256: "e492d33a58196ca5811bb23725ddd5c7ced7add63d3b53f9a1e0311c4468fcc9"
+    first_frame:
+      path: input/frames/sh030-first-frame-v3.jpg
+      sha256: 6033f910b873002157edcf721523af73985cffe85107b43aa58a4b2c195f66da
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 0cc83a3e-94ea-4b1d-b477-8a8942cac707
+        status: accepted_editorial
+        file:
+          path: generated/sh010-take001.mp4
+          sha256: 2cae8fb3a3f20b5c44e7f37579d729b34dd2a08788409e8cee15d46f4d8a5dbf
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn. 720p 7.93s, sha 2cae8fb3. Whisper base: dung line, 1 lan, khong lap. Frame chung sh030 (mat nham luc dau, lung dien thoai).'
   - shot_id: sh020
-    approved_for_generation: false
+    approved_for_generation: true
     dialogue: "Ba mươi phút sau. Giỏ hàng có bảy món."
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: 7cdf5858af9dc6955da952f2fa2ed1a0c20b979d3a1b1235f58030a261be0202
+      sha256: 25aeeaf9f9219b2c5533d51464752e46630c2aacb9a44a73bf1bd1cc4b12af7e
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: fb3540f65507fa86a1833408b83e0d196e8a259aeea89ef041261c8cffe1d36a
+      sha256: 48a264ea54d59f1b650441a66296c26b61a07ffbe7be1bb875a25b9f6ac70bfc
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/sanjoli-be-dress-reference-v001.jpg
+        sha256: "f77702d9120f4fe3c0bc7563c0d861b62b855bb8a478ee9543cb5966290d02a3"
+      - path: input/references/slimcase-phone-ref.jpg
+        sha256: "e492d33a58196ca5811bb23725ddd5c7ced7add63d3b53f9a1e0311c4468fcc9"
+    first_frame:
+      path: input/frames/sh020-first-frame-v3-crop.jpg
+      sha256: 49fb13923e5bc5115005284a3675bec980a1e6dab1c3405e3059e4d3dca8460b
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 6b19cfbe-4298-4524-b38b-be2b6c553b8e
+        status: accepted_editorial
+        file:
+          path: generated/sh020-take001.mp4
+          sha256: 02efafa7d417b01c438b9a68caa1636f38598a1a6a6d08b0fb0959979c750492
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn. 720p 7.93s, sha 271210b8. Whisper base: dung line, 1 lan, khong lap. Cart cuon that, "Shopping Cart / 7 items / 00:30" ro, khong mat.'
   - shot_id: sh030
-    approved_for_generation: false
+    approved_for_generation: true
     dialogue: "Tôi xóa hết. Rồi thêm lại. Rồi xóa."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: 85dd887c7cd7dd66c734174b2292cedebb934d893a571ad0bb9d0688029f5864
+      sha256: 90c6b7024051f777f5792a0de61742647c30302f339bbb99b481cf9f76dde09b
     motion_prompt:
       path: input/prompts/sh030-motion.txt
       sha256: 37f838ef0baf4fd327d0a8cc724d7a0db9a1e1828c3e524d7f0b1b49ef37a534
@@ -72,16 +98,29 @@ shots:
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/sanjoli-be-dress-reference-v001.jpg
+        sha256: "f77702d9120f4fe3c0bc7563c0d861b62b855bb8a478ee9543cb5966290d02a3"
+      - path: input/references/slimcase-phone-ref.jpg
+        sha256: "e492d33a58196ca5811bb23725ddd5c7ced7add63d3b53f9a1e0311c4468fcc9"
+    first_frame:
+      path: input/frames/sh030-first-frame-v3.jpg
+      sha256: 6033f910b873002157edcf721523af73985cffe85107b43aa58a4b2c195f66da
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: ef04d571-2370-47f2-9bf2-99d2aebb87e4
+        status: accepted_editorial
+        file:
+          path: generated/sh030-take001.mp4
+          sha256: 271210b8dea3829cfb4f0230507d71ee4d6806ab5a46b8447cc32f8f0d04efee
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn. 720p 7.93s, sha 02efafa7. Whisper base: dung line, 1 lan, khong lap. Mat nham, tho dai, tay bam.'
   - shot_id: sh040
-    approved_for_generation: false
+    approved_for_generation: true
     dialogue: "Tiết kiệm bảy trăm ngàn. Chỉ tốn hai triệu."
     image_prompt:
       path: input/prompts/sh040-image.txt
-      sha256: 0cf83b0befd58abf0118a1c5f2c1150102f7b36554e4f6314eb88e2a7d6bc05a
+      sha256: 4e3f7841f2c1a90a8c0b9c459a07ae14320c40ef8eb43cec6897e3a7d328a8af
     motion_prompt:
       path: input/prompts/sh040-motion.txt
       sha256: fdcdaa71d40234025238ae669ea7eacd1db8562ee03b71fb91f4a7546a70f324
@@ -90,7 +129,20 @@ shots:
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/sanjoli-be-dress-reference-v001.jpg
+        sha256: "f77702d9120f4fe3c0bc7563c0d861b62b855bb8a478ee9543cb5966290d02a3"
+      - path: input/references/slimcase-phone-ref.jpg
+        sha256: "e492d33a58196ca5811bb23725ddd5c7ced7add63d3b53f9a1e0311c4468fcc9"
+    first_frame:
+      path: input/frames/sh040-first-frame-v3.jpg
+      sha256: 50a2ee986078dd863bca3bdd0730218a06cf9b11b9482384c1d082f22413c828
+    frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 26d94b78-2d9c-4029-b5df-d7e2d0d9306f
+        status: accepted_editorial
+        file:
+          path: generated/sh040-take001.mp4
+          sha256: 40afd8d35fc3f30aba3086f01dec09b9b0db546f3ca1a22be4340c5f94632c89
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, huynhdn. 720p 7.93s, sha 40afd8d3. Whisper base: dung line, 1 lan (nghe nham dong am: tram/cham, trieu/chieu). "2.000.000d" ro 4-6s; dien thoai ha xuong khoi khung ~7s, cat duoi khi dung.'

@@ -1,20 +1,38 @@
 schema_version: 2
 episode_id: ep009
 revision: 1
-locked_duration_seconds: null
+locked_duration_seconds: 22.73
 planned_source_duration_seconds: null
-selected_takes: []
-build_commands: []
+selected_takes:
+  - shot_id: sh010
+    take_id: take001
+  - shot_id: sh020
+    take_id: take001
+  - shot_id: sh030
+    take_id: take001
+  - shot_id: sh040
+    take_id: take001
+build_commands:
+  - "python3 05_episodes/ep009-gio-hang/edit/build_master_2k.py  # stage 1-3 + QC (captions v1: Whisper-only, SAI — xem fix)"
+  - "python3 05_episodes/ep009-gio-hang/edit/fix_captions_2k.py  # sua word timings do luong + render lai Remotion + stage 3 (v2 FINAL)"
+  - "Remotion BasicCaptions (boxed) tu ~/workspace/remotion-captions-test, props {\"accent\": \"#F59E0B\"}, chunked <=287 frames, --concurrency=1 --muted, --crf=18, out ep009-boxed-2k-chunk{0,1,2}.mp4, KHONG title card"
 build_notes:
   - "SFX cuối tập (đề xuất, chờ chốt vị trí): Laugh Track 1 (LittleRainySeasons, CC BY, Freesound) ngay sau câu chốt sh040."
+  - "Giọng (Richard chốt 22/11): sh040 giữ tiếng gốc Veo (giọng Bắc); sh010/sh020/sh030 tắt gốc, lồng clone ThaoMyVeo. 4 take take001 đã duyệt."
+  - "Bản 2K: generated/sh0X0-take001-1080p.mp4 (1080x1920, 7.85s, 0 credit; frame-diff vs take 1K ~2.1, đúng take cả 4)."
+  - "Master 2K FINAL: delivery/ep009-master-2k.mp4 (22.73s, 1080x1920, 30fps, -14.80 LUFS/TP -2.00, sha 87f0eebe…) + delivery/ep009-master-2k.srt (4 cues: 1.11-4.85 / 5.62-9.15 / 10.41-15.15 / 16.10-20.74)."
+  - "Trim: sh010 5.5s (lồng) / sh020 4.4s (lồng) / sh030 6.0s (lồng) / sh040 6.5s (gốc); crop watermark Veo 960:1707:60:0 + lanczos 1080x1920 (icon góc phải dưới ~y1770)."
+  - "Captions v2 DA SUA: can Whisper-only (v1) gop so thanh digit ('Mười hai'->'12'...) lam lech tu toi ~1.5s; v2 dung timings do luong (Whisper tren wav clone + Whisper tren file long/goc + energy envelope, doi chieu ~0.1s) — xem edit/fix_captions_2k.py + edit/build2k/captions-fix-report.md."
+  - "Laugh Track 1 (LittleRainySeasons, CC BY, Freesound) sau cau chot sh040 — VI TRI DE XUAT, chua chot: nghe tu ~20.89s, kem freeze-frame tail 0.23s (ngan vi cau chot ket thuc muon 20.74s)."
+  - "Khong title card (khong ai yeu cau cho ep009)."
 audio_plan:
   speakers:
     thao_my:
       voice_preset: ThaoMyVeo
       voice_status: locked
-      policy: "Kiểm tra giọng native từng shot; giữ nguyên tiếng gốc nếu là nữ miền Bắc, chỉ tắt gốc và lồng clone ThaoMy cho shot không phải Bắc."
-  lip_sync_qc: not_run
+      policy: "Giữ native nữ miền Bắc đúng; sh040 giữ tiếng gốc Veo (giọng Bắc, Richard chốt 22/11); sh010/sh020/sh030 tắt gốc, lồng clone ThaoMyVeo."
+  lip_sync_qc: checked
 transition_plan: hard_cuts_only
 qc:
-  status: not_run
-  report_file: null
+  status: passed
+  report_file: edit/build2k/captions-fix-report.md

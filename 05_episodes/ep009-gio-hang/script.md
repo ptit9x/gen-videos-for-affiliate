@@ -1,13 +1,13 @@
 # ep009 — Giỏ hàng
 
-Trạng thái: draft, chưa duyệt gen. Thảo My solo.
+Trạng thái: đã duyệt 4 frame (sh010 dùng chung frame sh030), chờ gen. Thảo My solo.
 
 ## Storyboard
 
 | Shot | Thoại tiếng Việt | Một hành động chính | Góc máy/biểu cảm | Thời lượng |
 |---|---|---|---|---|
-| sh010 | Mười hai giờ. Tôi hứa chỉ mua một món. | Ngồi sofa, ánh sáng điện thoại chiếu lên mặt, tay giữ điện thoại | Medium shot, ánh sáng xanh từ màn hình, phòng tối | 8s |
-| sh020 | Ba mươi phút sau. Giỏ hàng có bảy món. | Mắt mở to nhìn màn hình, ngón tay lướt nhanh | Medium CU, mặt + điện thoại trong tay đều thấy rõ, ánh sáng điện thoại | 8s |
+| sh010 | Mười hai giờ. Tôi hứa chỉ mua một món. | Ngồi sofa, ánh sáng điện thoại chiếu lên mặt, tay giữ điện thoại | Medium shot, ánh sáng xanh từ màn hình, phòng tối; dùng chung frame sh030 — mắt nhắm lúc đầu, lưng điện thoại, 00:00 không hiện trong shot này | 8s |
+| sh020 | Ba mươi phút sau. Giỏ hàng có bảy món. | Ngón tay lướt trên màn hình giỏ hàng | Cận cảnh màn hình điện thoại đang thao tác, phòng tối | 8s |
 | sh030 | Tôi xóa hết. Rồi thêm lại. Rồi xóa. | Thở dài, mắt nhắm lại, tay vẫn bấm tiếp | Medium shot, nghiêng nhẹ | 8s |
 | sh040 | Tiết kiệm bảy trăm ngàn. Chỉ tốn hai triệu. | Cười toe toét nhìn thẳng camera, giơ điện thoại | Medium CU, nhìn thẳng camera, mắt sáng | 8s |
 
