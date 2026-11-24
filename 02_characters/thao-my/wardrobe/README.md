@@ -1,5 +1,7 @@
 # Tủ đồ — thao-my
 
+**Sổ đăng ký trang phục đã gen (đường dẫn local + project Flow từng món): `REGISTRY.md` — kiểm tra ở đó trước khi gen/sửa ảnh trang phục mới, đừng gen lại món đã có.**
+
 Cập nhật 2026-11-15. Trang phục chọn theo từng tập, không khóa một bộ cho toàn series.
 
 - `inbox/`: người dùng bỏ ảnh sản phẩm/ảnh bộ đồ vào đây. Có thể thêm file `.md` chứa link sản phẩm và ghi chú; đặt tên gợi nhớ, ví dụ `ep006-ao-xanh.jpg` hoặc `ep006-goi-y.md`.
