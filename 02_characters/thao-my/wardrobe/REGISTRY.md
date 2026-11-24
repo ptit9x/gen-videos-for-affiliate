@@ -41,7 +41,7 @@ Cập nhật 2026-11-24. **Quy tắc: trước khi gen hay sửa ảnh trang ph�
 
 | Món | Dùng ở tập | File ref | Flow project |
 |---|---|---|---|
-| Bộ trong ảnh Dũng gửi 24/11 | ep011 | `02_characters/dung/approved/dung-front-v002.jpg` (mặt chuẩn v002, thay mặt casting v001 ngày 18/11) | Project `CNTM · EP011` — URL chưa ghi vào `episode.yaml`, bổ sung sau khi chat ep011 ghi xong |
+| Bộ trong ảnh Dũng gửi 24/11 | ep011 | `02_characters/dung/approved/dung-front-v002.jpg` (mặt chuẩn v002, thay mặt casting v001 ngày 18/11) | Project 'CNTM · EP011 · Nói Xấu Ex' — https://flow.google.com/project/ce074482-b99e-47c9-87e9-18cb86fa091a (tạo 24/11; `episode.yaml` cập nhật `flow_project` cùng ngày, map frame sau khi duyệt) |
 
 Lưu ý: aff-0006 áo sơ mi kẻ Aristino ALS618EDP01 (https://s.shopee.vn/3qOuYpE1Z6) là link Richard gửi cho "áo Dũng mặc", nhưng ảnh Dũng mặc là caro navy — CHƯA xác minh khớp, chưa gắn bài. Đừng nhầm 2 áo này với nhau.
 
@@ -84,3 +84,15 @@ Lưu ý: aff-0006 áo sơ mi kẻ Aristino ALS618EDP01 (https://s.shopee.vn/3qOu
 1. Mở project của tập đang làm → picker **"Chọn dự án"** → chọn project ở cột Flow → chọn đúng asset.
 2. Nếu ref chỉ có file local (chưa từng vào Flow): upload 1 lần vào project của tập đang làm, rồi ghi asset + project vào bảng này.
 3. Sửa frame = 1 edit trực tiếp từ master gốc (luật repo); chỉ đổi trang phục, giữ nguyên mặt/son/móng/ánh sáng.
+
+## 10. Frame ep011 'Nói Xấu Ex' — chờ duyệt (24/11)
+
+- Project EP011 (URL ở mục 5). Sửa ảnh Nano Banana 2.1 trong Flow, mỗi frame 1 edit từ ảnh gốc, round 1, 0 credit.
+- sh010 + sh020 dùng bản copy upload lúc đầu (chỉnh sửa tới sau khi Richard dặn dùng lại ref cũ); sh030 + sh040 dùng ref đã có qua picker (ThaoMyV002 từ EP003, áo dài + café từ EP008/EP010). Bản copy thừa KHÔNG xóa — frame trong Flow nằm chồng version dưới asset gốc, xóa asset gốc sẽ mất frame.
+- File tải về (đã kiểm chứng trên disk, 768×1376 JPEG, 9:16):
+  - sh010 (Dũng): `~/workspace/browser_downloads/sess-1102776712/browser-download-20261124T000054.135224036Z-0-dung-front-v002.jpg_9230a103.jpg` — sha `5e59eaa2b6adee598b917747a15b9be7906cac922fe7bd111aded9e88d59dedb`
+  - sh020 (My): `~/workspace/browser_downloads/sess-1102776712/browser-download-20261124T000242.709482243Z-1-thao-my-face-front-v002.png_a28ef2f6.jpg` — sha `53285b3bc5662a2e1c8e81e9a2c4a18a0113bb07854f77cb250d5c3fda10ef9f`
+  - sh030 (Dũng): `~/workspace/browser_downloads/sess-1102776712/browser-download-20261124T000502.911724268Z-2-dung-front-v002.jpg_17a5cb6e.jpg` — sha `878a80aaed43d65eff0909d9aa165ad35d7b85ab80b5398852edc99bb3762e4b`
+  - sh040 (My): `~/workspace/browser_downloads/sess-1102776712/browser-download-20261124T000822.999576692Z-3-thao-my-face-front-v002.png_07e5913e.jpg` — sha `032da6f0adc307430a53a713b8f2523482c5efbf7b18a81b8989d19bc7790303`
+- Chưa đưa vào `05_episodes/ep011-noi-xau-ex/input/frames/` — chỉ đưa vào sau khi Richard duyệt frame, rồi mới map `first_frame` + SHA-256 vào `episode.yaml` và gen clip Veo 3.
+- Frame media-pipeline v1 (đã thay thế, KHÔNG dùng): `05_episodes/ep011-noi-xau-ex/input/frames/media-pipeline-v1-superseded/`.
