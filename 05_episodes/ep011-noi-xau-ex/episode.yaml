@@ -41,7 +41,15 @@ shots:
       sha256: 5e59eaa2b6adee598b917747a15b9be7906cac922fe7bd111aded9e88d59dedb
     frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: e8c3b603-d8e1-4fc0-82a8-caa261bd7876
+        status: accepted_editorial
+        file:
+          path: generated/sh010-take001.mp4
+          sha256: e1402988f53f03d0be456cf06e3c9382ace675701d872f35790e6e12d56601b2
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr. Whisper base: du 15 tu, 0.5-5.7s theo nang luong 48k (Whisper dat tu dau 0.00 do smear). Nghe Ich ky thanh Bat ky, te thanh tai, em oi thanh me moi - loi dong am ASR. Giong nam; huong Bac hay Nam cho Richard nghe quyet. Mat khop v002, ca phe da + nuoc loc, Veo icon goc duoi phai (crop luc ghep). Dien hoat hon tho dai (2 tay gio cao o ~4s); duoi clip cuoi dau xuong ~7.5s (cat duoi luc dung). Richard 09:17: giong Nam nhung khong sao, DUYET - giu tieng goc.'
+
   - shot_id: sh020
     approved_for_generation: true
     dialogue: "Thương anh ghê. Chắc cô đó không xứng với anh. Rồi trước đó?"
@@ -65,7 +73,15 @@ shots:
       sha256: 53285b3bc5662a2e1c8e81e9a2c4a18a0113bb07854f77cb250d5c3fda10ef9f
     frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 8d950a41-9d0f-41d4-bd1b-85542c087ac8
+        status: accepted_editorial
+        file:
+          path: generated/sh020-take001.mp4
+          sha256: 3bb1a1b8665540ddfa404d103f7cc7849eeb72ce2958f905670ba35a6df165da
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr. Whisper base: du 13 tu, 0.6-6.56s, nghi dung cau. Nghe khong xung thanh hong suong - nghieng Nam (giong ep010 sh020 Richard tung chot khong Bac). Cho Richard nghe; neu khong Bac thi tat tieng goc, long clone ThaoMy wordalign. Mat khop v002, 1 ly cam + dien thoai, khong chu gia. Richard 09:24: giong Bac, can long tieng - tat tieng goc, long clone ThaoMy wordalign (nhu ep010 sh020). Dub xong 09:15: generated/sh020-take001-dubbed.mp4 (sha ab4cd7f3...), Whisper du 13/13 tu dung cua so, nang luong ngoai cua so = 0.000, QC DAT (Bee tu kiem lai) - cho Richard nghe chot.'
+
   - shot_id: sh030
     approved_for_generation: true
     dialogue: "Cũng tệ. Mà cô trước nữa cũng vậy. Bốn mối rồi, lần nào cũng vậy."
@@ -85,7 +101,22 @@ shots:
       sha256: 878a80aaed43d65eff0909d9aa165ad35d7b85ab80b5398852edc99bb3762e4b
     frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: e8864056-e8dd-4ae1-992d-496f73f6f406
+        status: rejected_editorial
+        file:
+          path: generated/sh030-take001.mp4
+          sha256: f19f56825f65908f4a75edc3973c3c31509caa62e4b47c7e579ece3fb0596182
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr. Whisper base: du 15 tu, 0.0-5.28s; Bon moi nghe thanh Vung moi - can Richard nghe. LOI NANG: chu gia Repatistepinees failluurers. hien ~3.5-5.5s (co o 4.0/5.0, sach o 2.0/3.0/6.0/7.5), de dung cau Bon moi roi. De xuat REJECT + quay take002 prompt y nguyen (10cr). Mat khop v002, 1 ly cam. Richard 09:24: ok quay lai take002 - take001 REJECT.'
+      - take_id: take002
+        clip_id: e6f4ee42-8aad-4a17-9d5d-9bbb21d9902c
+        status: accepted_editorial
+        file:
+          path: generated/sh030-take002.mp4
+          sha256: 01d7820ed9a9dbfc23396ff271c543e7fddf76dee8d8a7794b31bb3e7509491e
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr. Re-roll take001 (chu gia) prompt + frame y nguyen. Whisper base: du 15 tu, 0.0-5.48s; Bon moi nghe thanh Vu cung moi - loi dong am ASR. Soi frame 0.5/2.0/3.5/4.0/4.5/5.0/5.5/7.5s: SACH, khong chu gia o bat cu thoi diem nao. Mat khop v002, 1 ly cam; dien lac dau buon, 2 tay gio luc ~4.0s; duoi cuoi dau ~7.5s (cat luc dung). Richard 09:17: giong Nam nhung khong sao, DUYET - giu tieng goc.'
+
   - shot_id: sh040
     approved_for_generation: true
     dialogue: "Bốn mối mà lần nào cũng lỗi người ta. Hay thật đấy anh."
@@ -109,4 +140,12 @@ shots:
       sha256: 032da6f0adc307430a53a713b8f2523482c5efbf7b18a81b8989d19bc7790303
     frame_status: approved
     flow_image_asset_id: null
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: b03b7790-8332-4f4f-8ad2-52a0cab7b3b8
+        status: accepted_editorial
+        file:
+          path: generated/sh040-take001.mp4
+          sha256: 0575057d97b425af002e87d4b2e6d3731cca39117bc337d3513b334952e299a0
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr. Whisper base: du 13 tu, 0.62-6.3s, nghi truoc Hay that day anh. Mat khop v002, khong chu gia. NHUNG: bieu cam hien/cuoi nhe o 2.0/4.0/7.5s (nham mat cuoi o 7.5s), chua ro deadpan + gat dau cham co len hinh - cho Richard quyet giu hay quay take002 siet prompt (mat tinh, nhech mep cuoi khay + gat dau cham sau cau chot). Richard 09:24: giu nguyen - lay giong goc.'
+
