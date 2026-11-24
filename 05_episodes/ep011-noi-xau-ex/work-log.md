@@ -138,3 +138,17 @@
 - Bìa CHỐT: ep011-cover-alt-sh020-1p6.jpg (sh020 1.6s, My chống cằm) → copy thành ep011-cover-thaomy.jpg (canonical).
 - Bìa v1 đổi tên thành ep011-cover-v1-rejected.jpg (giữ lại làm lịch sử, không dùng).
 - Chờ Richard duyệt master + lịch đăng (slot trống tiếp theo: 19:00 T4 26/11 — ep009 tối nay 24/11, ep010 tối mai 25/11).
+
+## 2026-11-24 ~14:09 — Master DUYỆT, commit 1fe781c
+- Richard DUYỆT master 2K (28.30s, -14.92 LUFS, sha ebfdb857…) + CHỐT bìa số 2 (sh020 1.6s, chống cằm).
+- Validator: manifest rev 3→2 + `shot`/`take` → `shot_id`/`take_id` (theo schema ep010) rồi pass exit 0. editorial_status giữ `script_approved` (ep010 đã hẹn đăng vẫn `script_approved`).
+- Commit 1fe781c đã push, origin/main xác nhận (72 files: toàn bộ ep011 + tracker 1 dòng).
+- Publish kit đã soạn: delivery/ep011-publish-kit.md (chưa commit).
+- Chờ Richard chốt giờ đăng 26/11 (17h hay 19h). Chưa hẹn đăng, chưa đăng.
+
+## 2026-11-24 ~15:07 — Đã hẹn đăng 19:00 T4 26/11 cả 2 nền tảng
+- Richard chốt 19h (widget 14:58).
+- TikTok @chuyennhathaomy: post 7711645254763564295, https://www.tiktok.com/@chuyennhathaomy/video/7711645254763564295, Everyone, nhãn AI BẬT, cover Thảo My chống cằm (sh020 1.6s, bìa số 2), caption "Bốn mối mà lần nào cũng lỗi người ta. Hay thật đấy anh. 😌" + hashtags #chuyennhathaomy #phimnganai #haiviet #shorts.
+- Facebook Page Chuyện Nhà Thảo My (273224542851642): post 4656304111293707, Public, cùng caption, KHÔNG gắn link aff-0006 (chưa xác nhận màu/giá Shopee), cover set qua Thumbnail upload.
+- publications.csv: 2 dòng scheduled (ep011-noi-xau-ex, tiktok + facebook), master_revision ep011-master-2k.mp4, verified_at trống. Chưa ghi published — chỉ ghi sau khi xác minh lên sóng 19:20 26/11.
+- Cron xác minh `ep011-record-publication` 19:20 26/11 — chỉ like Facebook, KHÔNG comment aff-0006 (chưa xác nhận Shopee).
