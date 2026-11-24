@@ -1,9 +1,9 @@
 schema_version: 2
 episode_id: ep011
-revision: 1
-title: "Nấu cho một người"
-editorial_status: draft
-flow_project: null
+revision: 2
+title: "Nói Xấu Ex"
+editorial_status: script_approved
+flow_project: https://flow.google.com/project/ce074482-b99e-47c9-87e9-18cb86fa091a
 generation:
   mode: frames
   agent: false
@@ -20,59 +20,93 @@ export:
   width: 1080
   height: 1920
   fps: 30
-target_duration_seconds: 24
+target_duration_seconds: 32
 shots:
   - shot_id: sh010
-    approved_for_generation: false
-    dialogue: "Người ta bảo nấu cho một người thì buồn."
+    approved_for_generation: true
+    dialogue: "Người yêu cũ anh tệ lắm em ơi. Ích kỷ, kiểm soát, không hiểu anh."
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: 16e025df14e763c2c6cf60f55427a1bfc7bc6dccc80147325b2f82136468d6d0
+      sha256: ef6de7feb8550b12de49f8670bedb5db75ae6ecb55d9c7a7d7bc3fbb3aaeeaf3
     motion_prompt:
       path: input/prompts/sh010-motion.txt
-      sha256: 99b81ff730224e138ab4ed9e183739717f660b0fbedab7609014a3e613c233a3
+      sha256: fa722af20379df8cc3dbd63d12aa424af84ffa1a7dd1c0a062a01d1373f89f2e
     image_sources:
-      - path: input/references/thao-my-face-front-v002.png
-        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
-      - path: input/references/thao-my-body-front-v003-face-v002-review.png
-        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/dung-front-v002.jpg
+        sha256: "5622b65998f3f8157bb90fe0122d6dd4a83e215f7173db0f84e264c0f230649b"
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
+    first_frame:
+      path: input/frames/sh010-frame-v1.jpg
+      sha256: 5e59eaa2b6adee598b917747a15b9be7906cac922fe7bd111aded9e88d59dedb
+    frame_status: approved
     flow_image_asset_id: null
     takes: []
   - shot_id: sh020
-    approved_for_generation: false
-    dialogue: "Tôi dọn bàn. Một đĩa. Một đũa. Một ly nước."
+    approved_for_generation: true
+    dialogue: "Thương anh ghê. Chắc cô đó không xứng với anh. Rồi trước đó?"
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: c51f08308362407698f78c4ecdea93f9ebd512e0ab24b3ee8149bfb2937e6ef5
+      sha256: 6cb3a3f96839e562726d39434104b5e7acbabbfd19cbed1ba1ef426e284aced7
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: a5b00750d75e9e68b6bfe3d36727e3286802b8468a815591a1d51e783485c90b
+      sha256: b2d49e47239bb8c71c809b226820daca6fa6d694820bc82a2e9939ea821001e6
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/aodai-van-linh-xoa-v3.jpg
+        sha256: "2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8"
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
+    first_frame:
+      path: input/frames/sh020-frame-v1.jpg
+      sha256: 53285b3bc5662a2e1c8e81e9a2c4a18a0113bb07854f77cb250d5c3fda10ef9f
+    frame_status: approved
     flow_image_asset_id: null
     takes: []
   - shot_id: sh030
-    approved_for_generation: false
-    dialogue: "Rồi ngồi xuống ăn. Không ai giành. Không ai hỏi. Không ai chê."
+    approved_for_generation: true
+    dialogue: "Cũng tệ. Mà cô trước nữa cũng vậy. Bốn mối rồi, lần nào cũng vậy."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: ebe49193901062c40422eee8ce5f96468bdf896261ca7490d752968e72ebc836
+      sha256: 945d13e3d5dbfe54f046302cbf3fb6f9bcb827accee6b7b36cbed9a38e021288
     motion_prompt:
       path: input/prompts/sh030-motion.txt
-      sha256: cc0ba95fc1665711988b88104599cbd288928aa9de5e74f3053566f9691f44cc
+      sha256: bf4921a736f0f382fe3192786068fbc47879d6ccb587e26d9564cd479c0c6893
+    image_sources:
+      - path: input/references/dung-front-v002.jpg
+        sha256: "5622b65998f3f8157bb90fe0122d6dd4a83e215f7173db0f84e264c0f230649b"
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
+    first_frame:
+      path: input/frames/sh030-frame-v1.jpg
+      sha256: 878a80aaed43d65eff0909d9aa165ad35d7b85ab80b5398852edc99bb3762e4b
+    frame_status: approved
+    flow_image_asset_id: null
+    takes: []
+  - shot_id: sh040
+    approved_for_generation: true
+    dialogue: "Bốn mối mà lần nào cũng lỗi người ta. Hay thật đấy anh."
+    image_prompt:
+      path: input/prompts/sh040-image.txt
+      sha256: 9ae9c2c25c6fa9c1184840aa30fe1da2976b13b07e40d4d5bab06d4098b8fa1f
+    motion_prompt:
+      path: input/prompts/sh040-motion.txt
+      sha256: 87d99db08c5e7cfc60c822573676d5cddf388afc47bf396679799b46b7b7d2db
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
-    first_frame: null
-    frame_status: missing_local
+      - path: input/references/aodai-van-linh-xoa-v3.jpg
+        sha256: "2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8"
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
+    first_frame:
+      path: input/frames/sh040-frame-v1.jpg
+      sha256: 032da6f0adc307430a53a713b8f2523482c5efbf7b18a81b8989d19bc7790303
+    frame_status: approved
     flow_image_asset_id: null
     takes: []

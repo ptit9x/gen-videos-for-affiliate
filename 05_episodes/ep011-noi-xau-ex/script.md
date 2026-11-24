@@ -25,10 +25,10 @@ Mỗi shot một người nói, quay đơn và cắt qua lại; người nghe ng
 
 | Shot | Người nói | Thoại tiếng Việt | Số tiếng | Một hành động chính | Góc máy | Thời lượng nguồn |
 |---|---|---|---|---|---|---|
-| sh010 | Dũng | Người yêu cũ anh tệ lắm em ơi. Ích kỷ, kiểm soát, không hiểu anh. | 14 | Thở dài rồi kể, giọng nạn nhân | Cận vừa Dũng, nhìn My ngoài khung | 8s |
+| sh010 | Dũng | Người yêu cũ anh tệ lắm em ơi. Ích kỷ, kiểm soát, không hiểu anh. | 15 | Thở dài rồi kể, giọng nạn nhân | Cận vừa Dũng, nhìn My ngoài khung | 8s |
 | sh020 | Thảo My | Thương anh ghê. Chắc cô đó không xứng với anh. Rồi trước đó? | 13 | Chống cằm, giả cảm thông | Cận vừa My, nhìn Dũng ngoài khung | 8s |
-| sh030 | Dũng | Cũng tệ. Mà cô trước nữa cũng vậy. Bốn mối rồi, lần nào cũng vậy. | 14 | Lắc đầu, không tự thấy mâu thuẫn | Cận vừa Dũng, giọng buồn | 8s |
-| sh040 | Thảo My | Bốn mối mà lần nào cũng lỗi người ta. Hay thật đấy anh. | 12 | Gật chậm, nhìn thẳng Dũng | Cận vừa My, deadpan | 8s |
+| sh030 | Dũng | Cũng tệ. Mà cô trước nữa cũng vậy. Bốn mối rồi, lần nào cũng vậy. | 15 | Lắc đầu, không tự thấy mâu thuẫn | Cận vừa Dũng, giọng buồn | 8s |
+| sh040 | Thảo My | Bốn mối mà lần nào cũng lỗi người ta. Hay thật đấy anh. | 13 | Gật chậm, nhìn thẳng Dũng | Cận vừa My, deadpan | 8s |
 
 Dũng kể với giọng nạn nhân thật sự, không diễn ác. My giả cảm thông ở sh020, đến sh040 mới lạnh giọng; ngừng nhẹ trước "Hay thật đấy anh". Trim phần chờ thừa khi dựng.
 

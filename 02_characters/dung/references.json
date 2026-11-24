@@ -1,17 +1,1 @@
-{
-  "schema_version": 1,
-  "character_id": "dung",
-  "references": [
-    {
-      "reference_id": "dung-front-casting-20261118-v001",
-      "file": "approved/dung-front-casting-20261118-v001.png",
-      "sha256": "f0f32015ccb36bc0cb6af4e183412e4d289172c16198e3bb5ed5d1ffe31022f6",
-      "width": 1312,
-      "height": 1199,
-      "user_review_status": "approved",
-      "approval_date": "2026-11-18",
-      "approval_source": "Người dùng duyệt cả bộ trong chat: “ok ổn”",
-      "flow_test_status": "not_tested"
-    }
-  ]
-}
+{"character_id":"dung","references":[{"approval_date":"2026-11-18","approval_source":"Người dùng duyệt cả bộ trong chat: “ok ổn”","file":"approved/dung-front-casting-20261118-v001.png","flow_test_status":"not_tested","height":1199,"reference_id":"dung-front-casting-20261118-v001","sha256":"f0f32015ccb36bc0cb6af4e183412e4d289172c16198e3bb5ed5d1ffe31022f6","superseded_by":"dung-front-v002","user_review_status":"approved","width":1312},{"approval_date":"2026-11-24","approval_source":"Người dùng gửi ảnh trong chat, lệnh dùng Veo 3 gen lại","file":"approved/dung-front-v002.jpg","flow_test_status":"not_tested","height":1986,"reference_id":"dung-front-v002","sha256":"5622b65998f3f8157bb90fe0122d6dd4a83e215f7173db0f84e264c0f230649b","user_review_status":"approved","width":1200}],"schema_version":1}

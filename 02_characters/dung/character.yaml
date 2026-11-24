@@ -1,18 +1,1 @@
-{
-  "schema_version": 1,
-  "character_id": "dung",
-  "display_name": "Dũng",
-  "status": "approved",
-  "role": "Nói xấu ex",
-  "episode": "ep011",
-  "selected_identity_references": [
-    "approved/dung-front-casting-20261118-v001.png"
-  ],
-  "master_reference": "approved/dung-front-casting-20261118-v001.png",
-  "user_review_status": "approved_2026_11_18",
-  "voice": {
-    "preset": null,
-    "status": "not_started"
-  },
-  "notes": "Duyệt ảnh tạo hình trong chat 2026-11-18; chưa duyệt frame cảnh, chưa thử Flow. Trang phục trong ảnh được giữ làm nguồn tạo hình; thay đồ theo hồ sơ tập. Các mã vai chưa có tên riêng không tự coi là tên nhân vật."
-}
+{"character_id":"dung","display_name":"Dũng","episode":"ep011","master_reference":"approved/dung-front-v002.jpg","notes":"Ảnh v002 do người dùng gửi trong chat 2026-11-24, lệnh dùng Veo 3 gen lại — THAY mặt casting v001 duyệt 18/11. Mặt v002 khác hẳn v001: trẻ hơn, không râu, tóc rẽ ngôi; v001 giữ lại trong approved/ làm lịch sử, không xóa. Trang phục Dũng theo ảnh v002: sơ mi caro xanh navy mở ngoài áo phông trắng, quần jean đen. Giọng chưa chọn; chưa thử Flow.","role":"Nói xấu ex","schema_version":1,"selected_identity_references":["approved/dung-front-v002.jpg"],"status":"approved","user_review_status":"approved_2026_11_24","voice":{"preset":null,"status":"not_started"}}

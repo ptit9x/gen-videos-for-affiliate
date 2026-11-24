@@ -1,16 +1,18 @@
 schema_version: 2
 episode_id: ep011
-revision: 1
+revision: 2
 locked_duration_seconds: null
 planned_source_duration_seconds: null
 selected_takes: []
 build_commands: []
 audio_plan:
-  mute_veo_native: true
-  engine: VieNeu-TTS
-  voice_preset: null
+  mute_veo_native: false
+  engine: clone ThaoMy (Colab)
+  voice_preset: ThaoMy (clone VieNeu v3 Turbo) — chỉ lồng cho shot My không phải giọng nữ miền Bắc; Dũng giữ native nếu nam miền Bắc
+  voice_by: mixed_clone_My_native_Dung_pending
   voice_status: pending_user_choice
   lip_sync_qc: not_run
+  note: 'My: giữ native nếu nữ Bắc, không thì lồng clone ThaoMy. Dũng: chưa có preset/clone nam Bắc; kiểm tra native từng take khi gen, giọng chưa chốt.'
 transition_plan: hard_cuts_only
 qc:
   status: not_run
