@@ -44,7 +44,7 @@ shots:
     takes:
       - take_id: take001
         clip_id: bb0ae194-f254-4ed9-9a73-31c94f13bc7f
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh010-take001.mp4
           sha256: c20255775d21990da150ea2e534b765d6b3e22562c3e6d1ae1ebade1c737ba21
@@ -100,7 +100,7 @@ shots:
         note: 'Re-gen round 2, 3rd generation overall. Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/1. Whisper base: Da hay qua anh, em uong ly ca phe 30.000, an dung lo - gan du, chi ly thanh ly, anh thanh an, lo thanh lo (loi thanh dieu ASR). Onset 0.7s. Visual: CHI 1 LY (dia tren ban trong suot clip), mat khop v002, nang ly roi ha ly; khong chu gia. Take sach nhat - de xuat CHOT.'
       - take_id: take004
         clip_id: d0d2bd40-c515-4208-9371-6b618823d438
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh020-take004.mp4
           sha256: 34cd488af296744135a96a623d8b1f3dcc7db9c2d0def656054c845166568689
@@ -134,7 +134,7 @@ shots:
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/1. Whisper base: Bieu day roi ne, em chuyen khoang phan em nhe, anh goi so tai khoang - Bill thanh Bieu, khoan thanh khoang x2, gui thanh goi (loi thanh dieu ASR hoac giong). Onset 0.4s. Visual: Hung xoay sang profile lo mat (nhu sh010); day hoa don ro; khong chu gia. Cho Richard nghe giong + quyet mat profile.'
       - take_id: take002
         clip_id: 70e75a4f-231e-4a64-9155-62df92ad7121
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh030-take002.mp4
           sha256: af30be88bbbe80c141e4a69cec7ba68ec1c07609083f30e6387e48bcbeeb5c28
@@ -176,7 +176,7 @@ shots:
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, attempt 2/2 (attempt 1 co chu trang Hung to goc trai). Whisper base: Dong ho ly met thich ma chia biu ly ca phe - limited nghe thanh ly met thich, bill thanh biu; Dong/ho/ma/chia/ca/phe dung. Onset 3.5s (muon - dat ly + doi bieu cam truoc). Visual: dat ly xuong dia + nu cuoi tat dan thanh mat nghiem DUNG nhu kich ban r04; mat khop v002; khong chu gia. De xuat: long clone ThaoMy neu Richard thay limited/bill khong ro.'
       - take_id: take003
         clip_id: 5758d0ff-db2a-4499-9fd5-478d289ea1b0
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh040-take003.mp4
           sha256: 123ae9a2cc5ebe9f37c7e34679a31d1004961c2500ce6d761937b38ca2f68752

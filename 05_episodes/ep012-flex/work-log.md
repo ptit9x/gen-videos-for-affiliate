@@ -146,3 +146,10 @@
 - BÀI HỌC MÀU MỚI: frame v4 đo L24 nhưng Veo gen clip ra L17 — Veo tự làm tối váy lại trong cảnh nhà hàng tối; sửa frame chỉ cứu được một phần (clip cũ L15 → clip mới L17). Muốn clip chạm L28 thì phải làm frame sáng quá mức, hiệu quả chưa chắc.
 - sh040 take004 KHÔNG chốt được cho hành động: cả 2 attempt đều không đặt ly xuống (cầm ly đến hết clip), nụ cười không tắt hẳn. Đề xuất: dùng lại take003 round 2 (đặt ly + mặt lạnh đúng) + lồng clone ThaoMy.
 - Đang chờ Richard chốt toàn bộ take + hướng xử lý sh010/sh040.
+
+## 2026-11-25 17:31 — Richard chốt take (dùng tạm) + lồng tiếng
+
+- Takes CHỐT (accepted_editorial): sh010 take001 (trial), sh020 take004, sh030 take002, sh040 take003.
+- Giọng Nam: Richard 17:32 "giọng Nam ko phải lồng 2 shot Nam đều ok" — sh010 + sh030 giữ nguyên tiếng Veo gốc, KHÔNG lồng Minh Quân.
+- Lồng clone ThaoMy wordalign cho cả 2 shot My: sh020 take004 + sh040 take003 (Richard: "lồng ThaoMy cho cả hai sh nhé").
+- Dub đang làm theo pipeline ep010/ep011 (Colab T4 VieNeu Turbo preset ThaoMyVeo + build_wordalign).

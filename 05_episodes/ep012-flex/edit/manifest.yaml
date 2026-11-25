@@ -3,7 +3,31 @@ episode_id: ep012
 revision: 2
 locked_duration_seconds: null
 planned_source_duration_seconds: null
-selected_takes: []
+selected_takes:
+  - shot_id: sh010
+    take_id: take001
+    clip_id: bb0ae194-f254-4ed9-9a73-31c94f13bc7f
+    file: generated/sh010-take001.mp4
+    sha256: c20255775d21990da150ea2e534b765d6b3e22562c3e6d1ae1ebade1c737ba21
+    audio: native Veo (Hùng — accepted by Richard 2026-11-25 17:32, no dub)
+  - shot_id: sh020
+    take_id: take004
+    clip_id: d0d2bd40-c515-4208-9371-6b618823d438
+    file: generated/sh020-take004.mp4
+    sha256: 34cd488af296744135a96a623d8b1f3dcc7db9c2d0def656054c845166568689
+    audio: clone ThaoMy wordalign (dub in progress)
+  - shot_id: sh030
+    take_id: take002
+    clip_id: 70e75a4f-231e-4a64-9155-62df92ad7121
+    file: generated/sh030-take002.mp4
+    sha256: af30be88bbbe80c141e4a69cec7ba68ec1c07609083f30e6387e48bcbeeb5c28
+    audio: native Veo (Hùng — accepted by Richard 2026-11-25 17:32, no dub)
+  - shot_id: sh040
+    take_id: take003
+    clip_id: 5758d0ff-db2a-4499-9fd5-478d289ea1b0
+    file: generated/sh040-take003.mp4
+    sha256: 123ae9a2cc5ebe9f37c7e34679a31d1004961c2500ce6d761937b38ca2f68752
+    audio: clone ThaoMy wordalign (dub in progress)
 build_commands: []
 audio_plan:
   mute_veo_native: false
@@ -12,7 +36,7 @@ audio_plan:
   voice_by: mixed_clone_My_native_Hung
   voice_status: decided_by_user
   lip_sync_qc: not_run
-  note: 'My: keep Veo native if Northern female, else mute + dub clone ThaoMy wordalign (as ep010/ep011). Hùng: keep Veo native always, no preset, never dub ThaoMy into Hùng (decided by Richard 2026-11-25).'
+  note: 'My: keep Veo native if Northern female, else mute + dub clone ThaoMy wordalign (as ep010/ep011). Hùng: keep Veo native always, no preset, never dub ThaoMy into Hùng (decided by Richard 2026-11-25). Takes accepted 2026-11-25 17:31 (Richard: dung tam): sh010 take001 + sh030 take002 native Hung (Richard 17:32: giong Nam khong phai long, 2 shot Nam deu ok); sh020 take004 + sh040 take003 dubbed clone ThaoMy wordalign (Richard: long ThaoMy cho ca hai sh).'
   sfx:
     file: ~/workspace/laugh-sfx/final/laugh-track-1-ccby.mp3
     source: Freesound, LittleRainySeasons, Laugh Track 1 (2.10s)
