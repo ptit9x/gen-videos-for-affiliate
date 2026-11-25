@@ -62,3 +62,11 @@
 - sh020-frame-v2.jpg (56ab98a3…, 175.109 B): tay áo SỬA ĐÚNG — rộng, vải đục, hết ở khuỷu, cẳng tay trần; son đỏ đậm; mặt khớp v002; thêu hạc cùng màu đỏ chìm; cúc tàu + tua rua. Nit: sao Gemini nhỏ góc phải dưới; trên bàn có 2 ly cà phê (cảnh hẹn hò 2 người nên hợp lý).
 - sh040-frame-v2.jpg (f5a6995d…, 181.422 B): tay áo SỬA ĐÚNG; son đỏ đậm (đỏ hơn v1 rõ); mặt khớp v002, deadpan, nốt ruồi cằm trái thấy rõ khi crop zoom; điện thoại cầm 2 tay. Nit: thêu hạc bằng chỉ TRẮNG/bạc nổi bật — mẫu thật thêu cùng màu đỏ chìm (sh020 v2 thì đúng); sao Gemini nhỏ góc phải dưới.
 - v1 giữ lại làm lịch sử trong input/frames/. episode.yaml đã trỏ sh020/sh040 sang v2, frame_status vẫn pending_review — chờ Richard duyệt.
+
+## 2026-11-25 11:43 — Frame v3 cho sh040 (thêu hạc trắng → cùng màu đỏ)
+
+- Prompt sửa (đã cập nhật file + sha trong episode.yaml, validator đạt): thêu hạc cùng màu đỏ chìm, không dùng chỉ trắng hay bạc.
+- Làm mới 1 edit từ master trong project EP012 (không sửa nối tiếp từ v2), 0 credit, 1 lượt.
+- sh040-frame-v3.jpg (0cb787c1…, 162.230 B): thêu hạc SỬA ĐÚNG — cùng màu đỏ chìm, không còn chỉ trắng/bạc; tay áo vẫn đúng (rộng, vải đục, hết ở khuỷu, cẳng tay trần); son đỏ đậm; mặt khớp v002, deadpan, nốt ruồi cằm trái thấy rõ khi crop zoom; điện thoại cầm 2 tay.
+- Nit mới: cúc tàu ở v3 thành màu ĐỎ ĐẬM thay vì trắng như mẫu (v2 thì cúc trắng đúng) — tua rua vẫn đỏ đậm như mẫu; nền có thêm 2 khách bàn bên, người phụ nữ bàn bên nhìn về phía máy (hơi phân tâm). v2 giữ lại làm lịch sử.
+- episode.yaml đã trỏ sh040 sang v3, frame_status vẫn pending_review — chờ Richard duyệt cả 4 frame.
