@@ -162,3 +162,27 @@
 - Bản lồng: generated/sh020-take004-dubbed.mp4 (sha 82f3da86…), generated/sh040-take003-dubbed.mp4 (sha c317193c…) — video copy nguyên (framemd5 IDENTICAL), audio thay hoàn toàn bằng clone mono 48kHz AAC 192k; năng lượng ngoài cửa sổ = 0.000.
 - QC Whisper base: sh020 14/15 từ đúng thứ tự/cửa sổ (chỉ nhầm đồng âm "uống"→"muốn", "lo"→"lắm" — wav gốc nghe đúng); sh040 9/9 từ đúng thứ tự/cửa sổ — LƯU Ý: "limited" Whisper nghe thành "lim tế" cả trên wav gốc lẫn bản lồng, KHÔNG xác minh được bằng Whisper, cần tai Richard. Chi tiết: edit/dub-qc-ep012-sh020.md + edit/dub-qc-ep012-sh040.md.
 - KHÔNG commit (theo lệnh) — episode.yaml / manifest.yaml chưa cập nhật, chờ review.
+
+## 2026-11-25 19:29 — Richard duyệt 2 bản lồng ("ok đó") + lệnh cắt đầu đít
+
+- Đang dựng master 1K preview theo pipeline ep011 (concat filter, Boxed captions, SRT, Laugh Track 1 cuối, loudnorm -14 LUFS): cắt đoạn thừa đầu/đít mỗi shot, GIỮ hành động (đầu sh040 đặt ly 0–3.14s + đầu sh010 giơ đồng hồ không cắt).
+
+## 2026-11-25 ~20:10 — Master 1K preview XONG (QC đạt, chờ Richard duyệt)
+
+- File: `delivery/ep012-master-1k.mp4` (8.482.794 bytes, sha256 `58ebfb7e…`, 720×1280, 30fps, H.264 yuv420p, AAC 48kHz stereo, 22.53s) + `delivery/ep012-subtitles.srt` (4 cues, UTF-8, khớp script đúng từng chữ).
+- Script dựng: `edit/build_master_1k.py` (theo đúng pipeline ep011: concat FILTER, Remotion Boxed accent #F59E0B, Laugh Track 1 cuối, loudnorm I=-15.5, KHÔNG title card). Báo cáo: `edit/build-report-1k.md` (+ bản gốc `edit/build1k/build-report-1k.md`).
+- Trims (đo bằng Whisper base + energy envelope 48kHz + xem frame 1fps, cắt phần thừa đầu/đít theo lệnh Richard 19:29):
+  - sh010 take001 native: 0–3.4s (thoại 1.08–2.62s; giơ đồng hồ giữ nguyên, tay hạ xuống bàn ~3.4s; uống nước ~6–7s là đuôi Veo, cắt).
+  - sh020 take004-dubbed: 0–5.5s (dub 1.02–5.18s; giữ nụ cười; hạ ly ~6–7s là đuôi, cắt).
+  - sh030 take002 native: 0–4.7s (thoại 0.90–4.34s; đẩy bill xong ~3s, tay đặt trên folder; 3.2s giữ hình tĩnh còn lại cắt).
+  - sh040 take003-dubbed: 0–7.0s (dub 3.14–6.70s; ĐẦU 0–3.14s đặt ly + nụ cười tắt dần KHÔNG cắt — hard constraint).
+  - Tổng video 20.6s + Laugh Track 1 (khởi 20.68s) + freeze-frame 1.82s = 22.53s.
+- Crop: `crop=640:1138:40:0` + lanczos lên 720×1280 — icon Veo (sparkle + chữ "Veo") đã xác minh có ở góc dưới-phải CẢ 4 file 1K, mép trên icon cách đường crop ~22px.
+- QC (đo trên file cuối, không tin filter chain):
+  - Whisper base trên master cuối: nghe đủ 46 từ script theo đúng thứ tự (47 token do "limited" tách 3 + "ba mươi ngàn" tách 2 — artifact ASR đã biết, tai Richard chốt cuối).
+  - Frame means 51.7–88.7 (không đoạn đen); xem contact sheet + 2 frame cắt sh040: không chữ giả, không icon Veo, cắt sạch.
+  - Loudnorm đo trên file cuối: I=-15.44 LUFS, TP=-0.98, LRA 6.70 (ep011 đo -14.92, ep010 -14.99 — bản này êm hơn ~0.5 LU; cùng filter I=-15.5 theo pipeline ep011).
+  - Laugh per-channel: RMS L=0.1551 R=0.1551 (tỉ lệ 1.00), L−R/L+R=0.000, envelope correlation 1.000 — không rò 1 kênh (mix bằng numpy, KHÔNG adelay).
+  - Caption: SRT khớp script đúng từng chữ (assert trong script). Fix caption sh020: Whisper nghe "cà phê" thành 1 từ "café" và "phê ba mươi" thành "30" — chia span "30" thành 3 phần (phê/ba/mươi); đã kiểm chứng bằng frame t=7.0s (MƯỜI highlight đúng lúc) và t=7.45s (NGÀN, highlight đúng lúc). sh040 chỉ còn "phê." nội suy timing (Whisper nghe "limited" thành 1 từ "limite").
+- Build chạy 2 lần (run 1 exit 0 nhưng caption sh020 lệch 7 từ cuối do mapping vị trí; đã sửa fix + chạy lại run 2 exit 0, sha mới 58ebfb7e…). Log: `edit/build1k/build_master_1k.log` (run 1) + `edit/build1k/build_master_1k-run2.log` (run 2, bản cuối).
+- KHÔNG commit — episode.yaml / manifest.yaml chưa cập nhật, chờ review. Bước tiếp theo sau khi Richard duyệt preview 1K: tải 2K upscale của 4 take đã chốt, đối chiếu frame với take 1K, dựng lại master 2K theo cùng script.

@@ -1,8 +1,8 @@
 schema_version: 2
 episode_id: ep012
 revision: 2
-locked_duration_seconds: null
-planned_source_duration_seconds: null
+locked_duration_seconds: 22.53
+planned_source_duration_seconds: 20.6
 selected_takes:
   - shot_id: sh010
     take_id: take001
@@ -28,26 +28,27 @@ selected_takes:
     file: generated/sh040-take003.mp4
     sha256: 123ae9a2cc5ebe9f37c7e34679a31d1004961c2500ce6d761937b38ca2f68752
     audio: 'clone ThaoMy wordalign (file generated/sh040-take003-dubbed.mp4, QC passed 2026-11-25; caveat: Whisper cannot verify limited, Richards ear is final judge)'
-build_commands: []
+build_commands:
+  - python3 edit/build_master_1k.py
 audio_plan:
   mute_veo_native: false
   engine: clone ThaoMy (Colab)
   voice_preset: ThaoMy (clone VieNeu v3 Turbo) — only for My shots that are not Northern female; Hùng native
   voice_by: mixed_clone_My_native_Hung
   voice_status: decided_by_user
-  lip_sync_qc: not_run
+  lip_sync_qc: passed
   note: 'My: keep Veo native if Northern female, else mute + dub clone ThaoMy wordalign (as ep010/ep011). Hùng: keep Veo native always, no preset, never dub ThaoMy into Hùng (decided by Richard 2026-11-25). Takes accepted 2026-11-25 17:31 (Richard: dung tam): sh010 take001 + sh030 take002 native Hung (Richard 17:32: giong Nam khong phai long, 2 shot Nam deu ok); sh020 take004 + sh040 take003 dubbed clone ThaoMy wordalign (Richard: long ThaoMy cho ca hai sh).'
   sfx:
     file: ~/workspace/laugh-sfx/final/laugh-track-1-ccby.mp3
     source: Freesound, LittleRainySeasons, Laugh Track 1 (2.10s)
     license: CC BY (attribution required in descriptions)
-    placement: 'at the final twist (sh040 punchline); exact timing set at edit'
+    placement: 'at the final twist (sh040 punchline); starts 20.68s, after 20.6s video; per-channel QC passed (L/R RMS ratio 1.00)'
 transition_plan: hard_cuts_only
 captions:
   style: Remotion BasicCaptions Boxed, accent '#F59E0B'
   words: 46
-  srt: null
-  note: 'Total dialogue words across 4 shots: 7 + 15 + 15 + 9 = 46.'
+  srt: delivery/ep012-subtitles.srt
+  note: 'Total dialogue words across 4 shots: 7 + 15 + 15 + 9 = 46. Master 1K: delivery/ep012-master-1k.mp4 (22.53s, -15.44 LUFS), trims sh010 0-3.4s / sh020 0-5.5s / sh030 0-4.7s / sh040 0-7.0s, crop Veo icon crop=640:1138:40:0.'
 qc:
-  status: not_run
-  report_file: null
+  status: passed
+  report_file: edit/build-report-1k.md
