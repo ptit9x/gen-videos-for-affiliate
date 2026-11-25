@@ -94,7 +94,7 @@
 ## 2026-11-25 13:34 — Gen 4 clip thử (Veo 3.1 Lite, 70 credit)
 
 - Richard "gen thử đi": 7 lượt gen (sh010 ×2, sh020 ×2, sh030 ×1, sh040 ×2), 70 credit, số dư còn 330 (reset 13:49 16/12). Frames trực tiếp, Agent OFF, 9:16, 8s, 1 output. Chỉ tải 1K về review, chưa upscale 2K.
-- Takes (generated/, episode.yaml, status pending_review — chờ Richard nghe + duyệt):
+- Takes (generated/, episode.yaml, status needs_review — chờ Richard nghe + duyệt):
   - sh010 take001 (bb0ae194…, sha c2025577…): Whisper base "Em biết sẽ ăn máy tầy không?" — "xe anh mấy tỷ" nghe thành "sẽ ăn máy tầy". Onset 0.3s. Visual: Hùng xoay sang profile LỘ MẶT (frame gốc chỉ lưng) — trái quyết định "Hùng không mặt"; đồng hồ + chìa khóa rõ; không chữ giả.
   - sh020 take002 (0db8954a…, sha 4965ae3d…): Whisper base "Dạ hay quá anh, em uống lý cả phê 30.000, anh đừng lo" — gần đủ, chỉ "ly"→"lý". Onset 0.0s. Visual: mặt khớp v002, nâng ly rồi hạ ly; không chữ giả. Take sạch nhất.
   - sh030 take001 (b7f71761…, sha 379a5720…): Whisper base "Biêu đây rồi nè, em chuyển khoảng phần em nhé, anh gọi số tài khoảng" — "Bill"→"Biêu", "khoản"→"khoảng" ×2, "gửi"→"gọi". Onset 0.4s. Visual: Hùng xoay sang profile lộ mặt (như sh010); đẩy hóa đơn rõ; không chữ giả.

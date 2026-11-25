@@ -42,7 +42,7 @@ shots:
     takes:
       - take_id: take001
         clip_id: bb0ae194-f254-4ed9-9a73-31c94f13bc7f
-        status: pending_review
+        status: needs_review
         file:
           path: generated/sh010-take001.mp4
           sha256: c20255775d21990da150ea2e534b765d6b3e22562c3e6d1ae1ebade1c737ba21
@@ -77,7 +77,7 @@ shots:
     takes:
       - take_id: take002
         clip_id: 0db8954a-fbcc-4a59-8b77-b8f2e90dae98
-        status: pending_review
+        status: needs_review
         file:
           path: generated/sh020-take002.mp4
           sha256: 4965ae3d5f336e38b535c225b117a95e9a9927b9f5883d55ce46632630d146bb
@@ -102,7 +102,7 @@ shots:
     takes:
       - take_id: take001
         clip_id: b7f71761-1c2d-4e19-bbbf-34b3f08cf649
-        status: pending_review
+        status: needs_review
         file:
           path: generated/sh030-take001.mp4
           sha256: 379a5720643759cf556894452969b9f7930550c751b3e49e20f0d080a398cede
@@ -137,7 +137,7 @@ shots:
     takes:
       - take_id: take002
         clip_id: 1a6905e2-836f-4880-b1de-e1f9181eadba
-        status: pending_review
+        status: needs_review
         file:
           path: generated/sh040-take002.mp4
           sha256: 9563430b072cf2c16f22146359e2d4cf93b51a2d347bab66bee3ed71d14ab93a
