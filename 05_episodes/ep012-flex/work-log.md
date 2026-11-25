@@ -46,3 +46,19 @@
   - sh030-frame-v1.jpg (89d2bb5e…, 120.413 B): Hùng lưng/tay, sơ mi trắng, đồng hồ, đẩy bìa hóa đơn đen có hóa đơn trắng qua bàn. Nit: chữ trên hóa đơn mờ, khó đọc (chữ giả nhỏ); sao Gemini nhỏ góc phải dưới.
   - sh040-frame-v1.jpg (bd12340f…, 172.200 B): My deadpan, điện thoại cầm 2 tay trên bàn, áo dài đỏ đô. Nit: son đỏ nhạt hơn sh020 rõ (hồng đất thay vì đỏ tươi); nốt ruồi cằm trái không rõ ở khung này; sao Gemini nhỏ góc phải dưới.
 - Validator sau khi map frame: đạt (exit 0).
+
+## 2026-11-25 ~11:15 — Kiểm tra áo dài đỏ vs mẫu Mai Linh (Richard hỏi)
+
+- So sánh trực tiếp frame v1 với 3 ảnh mẫu đỏ (flatlay + mặc ngoài trời + mặc trong nhà) + đo màu HLS.
+- ĐÚNG: màu đỏ cùng họ (đỏ đô), cổ trụ, cúc tàu trắng + tua rua, thêu hạc tone-on-tone.
+- SAI — TAY ÁO: mẫu thật tay lỡ RỘNG, vải ĐỤC không xuyên thấu, kết thúc ở khuỷu, cẳng tay để trần. Frame v1 tay áo là VOAN XUYÊN THẤU (thấy rõ da tay), ôm tay, kéo dài tới cổ tay. Ảnh đối chiếu: workspace/ep012-sleeve-check-frame-sh020.png vs workspace/ep012-sleeve-check-sample-mai-linh.png.
+- MÀU: đo HLS vùng ngực đủ sáng — mẫu L39 S32 H354; sh020 L22 S49 H13, sh040 L24 S53 H2. Frame đỏ tối/đậm hơn mẫu; một phần do đèn vàng nhà hàng tối, nhưng tay áo mới là lỗi cấu trúc rõ ràng.
+- Hướng sửa (chờ Richard gật): làm lại sh020/sh040 từ master với prompt ghi rõ "tay lỡ rộng, vải đục không xuyên thấu, tay áo kết thúc ở khuỷu, cẳng tay để trần" + lấy ảnh mặc trong nhà làm ref chính (thấy rõ tay áo nhất). Giữ v1 làm lịch sử, chỉ thay khi v2 được duyệt.
+
+## 2026-11-25 11:31 — Frames v2 cho sh020/sh040 (sửa tay áo + son)
+
+- Prompt sửa (đã cập nhật file + sha trong episode.yaml, validator đạt): tay lỡ RỘNG, vải đục không xuyên thấu, tay áo kết thúc ở khuỷu tay, cẳng tay để trần; ref chính ảnh mặc trong nhà; son đỏ đậm.
+- Làm mới 1 edit từ master trong project EP012 (không sửa nối tiếp từ v1), 0 credit, mỗi shot 1 lượt.
+- sh020-frame-v2.jpg (56ab98a3…, 175.109 B): tay áo SỬA ĐÚNG — rộng, vải đục, hết ở khuỷu, cẳng tay trần; son đỏ đậm; mặt khớp v002; thêu hạc cùng màu đỏ chìm; cúc tàu + tua rua. Nit: sao Gemini nhỏ góc phải dưới; trên bàn có 2 ly cà phê (cảnh hẹn hò 2 người nên hợp lý).
+- sh040-frame-v2.jpg (f5a6995d…, 181.422 B): tay áo SỬA ĐÚNG; son đỏ đậm (đỏ hơn v1 rõ); mặt khớp v002, deadpan, nốt ruồi cằm trái thấy rõ khi crop zoom; điện thoại cầm 2 tay. Nit: thêu hạc bằng chỉ TRẮNG/bạc nổi bật — mẫu thật thêu cùng màu đỏ chìm (sh020 v2 thì đúng); sao Gemini nhỏ góc phải dưới.
+- v1 giữ lại làm lịch sử trong input/frames/. episode.yaml đã trỏ sh020/sh040 sang v2, frame_status vẫn pending_review — chờ Richard duyệt.

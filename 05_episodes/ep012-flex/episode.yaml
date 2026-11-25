@@ -45,7 +45,7 @@ shots:
     dialogue: "Dạ hay quá anh, em uống ly cà phê ba mươi ngàn, anh đừng lo."
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: 704fa8f9ccbb0f821b04787a25c8629928f42b98ff974a2ba575ef231b0c8681
+      sha256: 595fc77f97b7f1524bf99318ab6b862a514bf0cf2c3a221ec2a4ce8b149638c4
     motion_prompt:
       path: input/prompts/sh020-motion.txt
       sha256: b50f3047f971428b5f12f94644d8d5a21a01a142144982bd643f6876cbeda497
@@ -63,8 +63,8 @@ shots:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame:
-      path: input/frames/sh020-frame-v1.jpg
-      sha256: f5673908281df6d0d8eb5ac00f0deafbf64fc3eb56ea84ac00b01d5d55f9b514
+      path: input/frames/sh020-frame-v2.jpg
+      sha256: 56ab98a354ddf5a1e306245a00419ef0e17952c21f0a98c6c62b46c576001bdf
     frame_status: pending_review
     flow_image_asset_id: null
     takes: []
@@ -91,7 +91,7 @@ shots:
     dialogue: "Đồng hồ limited mà chia bill ly cà phê."
     image_prompt:
       path: input/prompts/sh040-image.txt
-      sha256: dc20825a3ec5b4c50e47e80992c877385fa2d75e2cde5ca39c2a445e4f13402a
+      sha256: 27290e20974621c734f557b82e2356c10472f49b9a3c83bdca33677f6df9870a
     motion_prompt:
       path: input/prompts/sh040-motion.txt
       sha256: c376d6bfb5faa05011f75a4929461db10a971fb894367d0a2e633236ccc9a3b4
@@ -109,8 +109,8 @@ shots:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame:
-      path: input/frames/sh040-frame-v1.jpg
-      sha256: bd12340fd8915e889a97284f8ea79fc8b076db062435bb957880d7117b99ca0d
+      path: input/frames/sh040-frame-v2.jpg
+      sha256: f5a6995d63a452ae11b0761f2134d7576236427033cb17149ed46a740ac343cc
     frame_status: pending_review
     flow_image_asset_id: null
     takes: []
