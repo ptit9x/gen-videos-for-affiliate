@@ -31,3 +31,10 @@
 - "áo dài nữa" → My mặc áo dài thay áo thun + chân váy của reel gốc. Tao chọn **Vân Linh xanh nhạt** (đã dùng ep008/ep011, có sẵn trong Flow project ep008 asset `9a824890`, lấy lại qua picker — không upload mới) vì đó là áo dài đã chứng minh trong Flow; Mai Linh đỏ đô (aff-0007, ep012) và Thanh Nghi hồng đậm là phương án đổi, đã ghi trong wardrobe.md để Richard đổi trước khi làm frame nếu muốn. Ảnh ref đã copy vào `input/references/aodai-van-linh-xoa-v3.jpg` (sha `2f71722d…`, đúng file ep008). Lưu ý: tay trái ảnh này cầm vật vàng — frame phải để tay trống.
 - Cập nhật: `script.md` (trạng thái + trang phục My + đạo cụ + affiliate), `wardrobe.md` (áo dài Vân Linh + ốp Slimcase + cách gắn aff-0003). Thoại 6 shot KHÔNG đổi nên không cần duyệt lại thoại; đối chiếu lại script ↔ episode.yaml vẫn khớp (validator chạy lại trước commit).
 - Commit lần này gộp cả duyệt draft 20:38 + 2 điểm thêm 20:39 (chưa commit riêng lúc duyệt vì 2 tin nhắn tới liền nhau) — xem commit message.
+
+## 2026-11-25 20:42 — Richard "ok" = chốt móng đỏ đậm + gật làm frame
+
+- Bee hỏi "móng đỏ đậm hay về tự nhiên?" + "bước tiếp theo là làm 6 frame, đang chờ mày gật"; Richard đáp "ok" → hiểu là: giữ móng đỏ đậm theo draft + bắt đầu làm 6 frame.
+- Cập nhật: móng đỏ đậm CHỐT trong `script.md` + `wardrobe.md`.
+- Kiểm tra trước khi giao frame: không có task Flow nào khác đang chạy (browser windows chỉ còn task Facebook reel đã completed) — ep012 ở chat khác đang làm master r05 local (dub + dựng), không phải task Flow, nên không vi phạm quy tắc không chạy 2 task Flow song song.
+- Giao trình duyệt làm 6 frame (project Flow riêng `CNTM · EP031 · Cướp Đẹp Trai`, sửa ảnh Nano Banana 0 credit): mặt lấy lại ThaoMy002 qua picker (project EP003), áo dài Vân Linh xanh nhạt lấy lại qua picker từ project ep008 (asset `9a824890`), ốp Slimcase + mặt chuẩn local làm ref dự phòng, nền đường phố ban ngày đồng bộ 6 shot, tay cướp POV chỉ tay/cánh tay không mặt.

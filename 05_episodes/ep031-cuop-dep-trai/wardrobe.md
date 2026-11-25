@@ -5,7 +5,7 @@ Trạng thái: kịch bản ĐÃ DUYỆT 25/11, cướp CHỐT POV không mặt.
 ## Thảo My — áo dài Vân Linh xanh nhạt (Richard thêm 20:39)
 
 - Áo dài Vân Linh xanh nhạt, tóc dài xõa — thay áo thun xanh nhạt ôm + chân váy sáng màu của reel gốc. Ảnh ref đã copy vào `input/references/aodai-van-linh-xoa-v3.jpg` (sha `2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8`, đúng file ep008); khi làm frame lấy lại qua picker từ project ep008 (Flow asset `9a824890`), không upload mới. Lưu ý theo sổ đăng ký: tay trái ảnh này cầm vật vàng — frame phải để tay trống.
-- Son: **son đỏ**. Móng: **móng đỏ đậm theo reel gốc** — khác chuẩn móng tự nhiên mọi tập, CẦN Richard chốt trước khi làm frame.
+- Son: **son đỏ**. Móng: **móng đỏ đậm theo reel gốc — ĐÃ CHỐT 20:42** (Richard "ok" khi Bee hỏi giữ đỏ đậm hay về tự nhiên).
 - Nốt ruồi cằm trái giữ nguyên.
 - Phụ kiện: vòng tay mảnh + nhẫn (như reel gốc, không bắt buộc nếu frame rối).
 - Nếu Richard muốn đổi sang áo dài khác trước khi làm frame: Mai Linh đỏ đô (aff-0007, ep012) hoặc Thanh Nghi hồng đậm (ep021 dự kiến) — cả hai đều có ảnh ref trong sổ đăng ký.

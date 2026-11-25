@@ -17,7 +17,7 @@ Vỉa hè đường phố ban ngày, Hà Nội. Một bàn tay lạ chìa tới 
 ### Thảo My (sh010, sh020, sh040, sh050, sh060)
 - Mặt/tóc: `thao-my-face-front-v002.png` (sha256 `8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4`); body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
 - Trang phục: **áo dài Vân Linh xanh nhạt, tóc dài xõa** (Richard thêm 20:39 — thay áo thun xanh nhạt + chân váy sáng màu của reel gốc). Ảnh ref đã copy vào `input/references/aodai-van-linh-xoa-v3.jpg` (sha `2f71722d…`, lấy lại qua picker từ project ep008 khi làm frame, không upload mới). Xem `wardrobe.md`.
-- Son đỏ + móng đỏ đậm (theo reel gốc — khác chuẩn móng tự nhiên mọi tập, cần Richard chốt, xem lưu ý).
+- Son đỏ + móng đỏ đậm (theo reel gốc — khác chuẩn móng tự nhiên mọi tập; Richard "ok" 20:42 = CHỐT giữ đỏ đậm).
 - Diễn xuất: sh010 quay lại, lịch sự, mắt sáng lên khi thấy cướp; sh020 tò mò, cười nhẹ; sh040 khẳng định, gật gù; sh050 tỉnh bơ đưa đồ, tay chìa điện thoại + túi; sh060 cười tươi, chìa tay ra — đây là shot chốt, biểu cảm mê trai + tỉnh bơ phải rõ, không được thành mặt sợ hãi.
 
 ### Chàng trai — "Anh cướp" (sh030) — CHỐT: giữ POV không lộ mặt (25/11/2026)
@@ -56,7 +56,7 @@ Vỉa hè đường phố ban ngày, Hà Nội. Một bàn tay lạ chìa tới 
 - **sh060 chỉ 1 câu (7 từ) — theo luật 1 shot = 1 câu:** đã gộp "Còn em nữa" + "anh lấy em đi" thành 1 câu duy nhất, không tách 2 câu như reel gốc.
 - **"Cao một mét tám" phải có bằng chứng hình ảnh:** thoại sh040 nhắc chiều cao — trong khung POV không đo được chiều cao thật, nên tay cướp chìa tới phải ở vị trí cao hơn vai My / My phải ngước lên nhìn, không quay ngang tầm mắt. Frame nào My nhìn ngang thì sửa lại trước khi gen clip.
 - **Location đường phố là mới:** chưa có master location; khi làm frame cần ảnh nền đường phố ban ngày đồng bộ 6 shot, không để mỗi shot một đoạn đường khác nhau. Xe cộ phía sau chỉ làm nền, không để xe che mặt My.
-- **Móng đỏ đậm:** reel gốc cô gái sơn móng đỏ đậm; chuẩn series mọi tập là móng tự nhiên. Draft đề xuất giữ móng đỏ đậm theo gốc (hợp với vẻ "đi chơi, mê trai") — Richard chốt móng trước khi làm frame.
+- **Móng đỏ đậm — ĐÃ CHỐT 20:42:** reel gốc cô gái sơn móng đỏ đậm; chuẩn series mọi tập là móng tự nhiên. Richard "ok" sau khi Bee hỏi "giữ đỏ đậm hay về tự nhiên" = giữ đỏ đậm theo draft.
 - **Giọng:** thoại viết giọng Bắc. My giữ tiếng Veo gốc nếu đúng giọng Bắc, sai thì tắt native và lồng clone ThaoMy (wordalign, như ep010/ep011/ep012). Giọng cướp (sh030, 1 từ) giữ nguyên tiếng Veo gốc, không lồng.
 - **Affiliate:** aff-0003 — ốp lưng trong suốt MagSafe Slimcase cho iPhone 16/17/18 Pro Max, https://s.shopee.vn/AKcGpsTOV8 (active, đích đã xác minh 19/11). Túi hồng + chìa khóa xe là đạo cụ, không phải sản phẩm affiliate; áo dài Vân Linh không có link affiliate. Link ốp gắn bằng comment của Page sau khi đăng (theo mẫu ep009, plc-0011), KHÔNG vào mô tả bài — quyết lúc đăng, xem `wardrobe.md`.
 - **Laugh Track:** cú chốt sh060 là punchline mê trai — Laugh Track 1 ở cuối như mọi tập, quyết lúc dựng master sau khi nghe take chốt.
