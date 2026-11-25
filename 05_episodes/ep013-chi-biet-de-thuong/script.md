@@ -1,4 +1,4 @@
-# ep030 — Chỉ Biết Dễ Thương
+# ep013 — Chỉ Biết Dễ Thương
 
 Trạng thái: kịch bản ĐÃ DUYỆT 25/11/2026 (Richard gật widget "Duyệt draft, chốt Nam ep008"), chàng trai CHỐT Nam ep008. Chưa làm frame, chưa gen clip. Trang phục My (3 váy SANJOLI) + bối cảnh phòng khách lấy theo đề xuất trong draft đã duyệt — đổi được trước khi làm frame nếu Richard nói.
 
@@ -21,7 +21,7 @@ Phòng khách căn hộ buổi tối. My thay 3 bộ đồ, lần lượt khoe v
 - Diễn xuất: sh010 xoay người khoe váy, cười tươi; sh030 xoay người, chờ đợi; sh050 chống nạnh, gắt nhưng vẫn đáng yêu (không quát tháo), mắt mở to.
 
 ### Chàng trai (sh020, sh040, sh060) — CHỐT: Nam ep008 (25/11/2026)
-- Mặt: `02_characters/nam/approved/nam-front-v002.jpg` (sha256 `340a246d8119201bc28bd18721fede3cb2a14a44fac1e003efae2ca3b92a0d1f`, đã duyệt 21/11). Nhân vật Flow "Nam" đã tạo xong ở project ep008 (`CNTM · EP008 · Con Nhỏ Đó`, character_id `c759064c-1e4c-4fe7-86ef-54ab519029bc`, reusable) — khi làm frame ep030 thì lấy lại nhân vật Nam từ project ep008 qua picker, không dùng chung asset giữa các project.
+- Mặt: `02_characters/nam/approved/nam-front-v002.jpg` (sha256 `340a246d8119201bc28bd18721fede3cb2a14a44fac1e003efae2ca3b92a0d1f`, đã duyệt 21/11). Nhân vật Flow "Nam" đã tạo xong ở project ep008 (`CNTM · EP008 · Con Nhỏ Đó`, character_id `c759064c-1e4c-4fe7-86ef-54ab519029bc`, reusable) — khi làm frame ep013 thì lấy lại nhân vật Nam từ project ep008 qua picker, không dùng chung asset giữa các project.
 - Trang phục trong tập: **đề xuất — áo phông trắng, quần jean đen** (ở nhà, ngồi sofa). Giữ mặt Nam, đổi đồ theo bối cảnh phòng khách buổi tối.
 - Diễn xuất: sh020 mắt tròn, cười khoái, gật đầu; sh040 ngập ngừng, gãi đầu, cười trừ; sh060 cúi đầu ấp úng, tay vân vê gối sofa — đây là shot chốt, biểu cảm ngơ + chân thành phải rõ, không được thành mặt vô hồn.
 
@@ -49,7 +49,7 @@ Phòng khách căn hộ buổi tối. My thay 3 bộ đồ, lần lượt khoe v
 ## Lưu ý khi chuyển thể (cần Richard chốt)
 
 - **Chàng trai là ai (ĐÃ CHỐT 25/11):** Nam ep008 — Richard gật widget "Duyệt draft, chốt Nam ep008". Nam đã đóng ep023/ep024/ep029 liên tiếp, nhưng vai ngơ ngọt này hợp Nam nhất trong dàn đã có mặt (Thảo ep021 hợp vai cà khịa hơn); mỗi tập là một câu chuyện riêng trong chuỗi 13 chàng trai nên không phá continuity.
-- **Số tập ep030:** ep026–ep028 đã giữ cho 3 draft Ghost (script-only, chưa lưu repo, 22/11); ep029 đã có trong repo nên tập mới này là ep030.
+- **Số tập ep013 (đổi số 25/11):** tập này viết xong lúc đầu là ep030 (ep026–ep028 đã giữ cho 3 draft Ghost, ep029 đã có trong repo). Richard 16:37 chốt đổi thành ep013 để làm sớm hơn, Gym lùi xuống ep030 — xem work-log.
 - **sh050 có 2 câu trong 1 shot (15 từ) — cờ vàng theo luật 1 shot = 1 câu:** draft đã duyệt giữ nguyên 2 câu vì câu gắt phải đi liền câu khoe váy trắng ("Còn bộ cuối này thì sao?" là cú mở cho câu gắt). Nếu take 1 Veo đọc vội/cắt câu thì phương án dự phòng đã chuẩn bị, chỉ dùng khi cần và phải báo Richard trước khi đổi thoại: gộp thành 1 câu "Còn bộ cuối này, anh vẫn chỉ biết nói mỗi dễ thương thôi hả?" (14 từ). Không tự sửa thoại khi chưa báo.
 - **"Dễ thương!" lặp 3 lần — diễn xuất phải khác nhau:** sh020 hào hứng, sh040 ngập ngừng + "Ừm...", sh060 ấp úng kéo dài "Ồ... thì... phối kiểu...". Nếu 3 take đọc đều nhau như nhau thì gag chết — lúc chọn take phải nghe cả 3 liền nhau, không nghe rời.
 - **3 màu váy phải khác rõ:** hồng / kem / trắng theo thứ tự sh010 → sh030 → sh050. Kem và trắng dễ lẫn dưới đèn vàng — khi làm frame ghi rõ màu từng bộ + kiểm tra 3 frame cạnh nhau trước khi gen clip.

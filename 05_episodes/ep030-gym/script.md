@@ -1,4 +1,4 @@
-# ep013 — Gym
+# ep030 — Gym
 
 Bản sửa r02 ngày 2026-11-18: đối thoại trực tiếp Thảo My ↔ Tuấn theo yêu cầu người dùng. Draft chờ review, chưa duyệt gen. Bốn shot khoảng 8 giây, 32 giây nguồn trước trim; dọc 9:16.
 
@@ -26,7 +26,7 @@ Mỗi shot một người nói, quay đơn và cắt qua lại; người nghe ng
 | Shot | Người nói | Thoại tiếng Việt | Số tiếng | Một hành động chính | Góc máy | Thời lượng nguồn |
 |---|---|---|---|---|---|---|
 | sh010 | Tuấn | Ức gà luộc, trứng luộc, không sốt. Anh gọi cho em luôn nhé. | 13 | Gọi món cho cả hai, giọng quyết đoán | Cận vừa Tuấn, nhìn My ngoài khung | 8s |
-| sh020 | Thảo My | Dạ. Mà em thèm phở bò lắm anh. Em gọi phở được không? | 12 | Giơ menu, hỏi nhẹ nhàng | Cận vừa My, nhìn Tuấn ngoài khung | 8s |
+| sh020 | Thảo My | Dạ. Mà em thèm phở bò lắm anh. Em gọi phở được không? | 13 | Giơ menu, hỏi nhẹ nhàng | Cận vừa My, nhìn Tuấn ngoài khung | 8s |
 | sh030 | Tuấn | Phở nhiều carb lắm em. Để anh tính calo cho, ăn gì cũng phải tính. | 15 | Lấy điện thoại ra bấm, nghiêm túc | Cận vừa Tuấn, nghiêm túc | 8s |
 | sh040 | Thảo My | Anh ơi, em là người yêu anh hay là client của anh vậy? | 13 | Đặt menu xuống, nhìn thẳng Tuấn | Cận vừa My, deadpan | 8s |
 
@@ -45,3 +45,5 @@ Hard cut, phụ đề Remotion BasicCaptions boxed và SRT. Một SFX Freesound 
 ## Lịch sử
 
 Bản r01 monologue Thảo My tường thuật giữ tại prep/before-dialogue-r02/. r02 sửa thành đối thoại trực tiếp.
+
+**Đổi số 25/11/2026:** tập này lúc viết là ep013. Richard chốt 'Chỉ Biết Dễ Thương' làm sớm hơn nên Gym lùi xuống ep030 (đổi bằng `git mv`, xem work-log). Nhân tiện đợt đổi số này mới phát hiện `episode.yaml` + 8 prompt cũ trong thư mục vẫn thuộc tập "Đêm Noel" (mồ côi từ đợt đổi số 20/11, không còn tập nào dùng) — đã rebuild yaml theo đúng script Gym r02, prompt Noel cũ chuyển nguyên vào prep/noel-stale-2026-11-20/ làm lịch sử, không xóa. Số tiếng sh020 sửa 12 → 13 (đếm lại tay, "Dạ." cũng tính 1 tiếng).

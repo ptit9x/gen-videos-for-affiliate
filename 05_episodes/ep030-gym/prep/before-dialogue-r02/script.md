@@ -1,4 +1,4 @@
-# ep013 — Gym
+# ep030 — Gym (bản r01, lúc viết là ep013)
 
 Trạng thái: draft, chưa duyệt gen. Thảo My + một nam (quay lưng), ba shot 8 giây, dự kiến 24 giây trước trim; khung dọc 9:16.
 

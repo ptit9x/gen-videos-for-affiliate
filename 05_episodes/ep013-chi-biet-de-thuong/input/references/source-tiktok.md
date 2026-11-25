@@ -1,4 +1,4 @@
-# ep030 — Chỉ Biết Dễ Thương — Nguồn TikTok
+# ep013 — Chỉ Biết Dễ Thương — Nguồn TikTok
 
 - Link Richard gửi: https://vt.tiktok.com/ZSsjMb2wg/
 - Link thật sau redirect: https://www.tiktok.com/@alan.z9/video/7698272917985037575

@@ -1,0 +1,80 @@
+schema_version: 2
+episode_id: ep030
+revision: 1
+title: Gym
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: '9:16'
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 32
+shots:
+- shot_id: sh010
+  approved_for_generation: false
+  dialogue: Ức gà luộc, trứng luộc, không sốt. Anh gọi cho em luôn nhé.
+  image_prompt: null
+  motion_prompt: null
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh020
+  approved_for_generation: false
+  dialogue: Dạ. Mà em thèm phở bò lắm anh. Em gọi phở được không?
+  image_prompt: null
+  motion_prompt: null
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh030
+  approved_for_generation: false
+  dialogue: Phở nhiều carb lắm em. Để anh tính calo cho, ăn gì cũng phải tính.
+  image_prompt: null
+  motion_prompt: null
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh040
+  approved_for_generation: false
+  dialogue: Anh ơi, em là người yêu anh hay là client của anh vậy?
+  image_prompt: null
+  motion_prompt: null
+  image_sources:
+  - path: input/references/thao-my-face-front-v002.png
+    sha256: 8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4
+  - path: input/references/thao-my-body-front-v003-face-v002-review.png
+    sha256: 50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null

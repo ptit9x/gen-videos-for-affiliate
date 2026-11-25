@@ -1,6 +1,6 @@
 # Tuấn — Gym
 
-Tập: ep013. Người dùng duyệt ảnh ngày 2026-11-18 trong chat (“ok ổn”).
+Tập: ep030. (Lúc duyệt ảnh 18/11 là ep013; đổi số 25/11.) Người dùng duyệt ảnh ngày 2026-11-18 trong chat (“ok ổn”).
 
 Ảnh chuẩn: [ảnh đã duyệt](approved/tuan-front-casting-20261118-v001.png)
 

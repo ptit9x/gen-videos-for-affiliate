@@ -1,4 +1,4 @@
-# Work log — ep030 Chỉ Biết Dễ Thương
+# Work log — ep013 Chỉ Biết Dễ Thương (lúc viết là ep030, đổi số 25/11)
 
 ## 2026-11-25 13:21 — Richard gửi link TikTok, hỏi "Cho kịch bản này vào [link]"
 
@@ -23,3 +23,10 @@
 - Đối chiếu script ↔ episode.yaml: 6 shot, thoại khớp từng chữ, số tiếng đếm tay 8/2/4/3/15/6 (đều trong ngân sách 8s). Cờ vàng duy nhất: sh050 có 2 câu trong 1 shot (15 từ) — giữ nguyên theo bản đã duyệt; phương án dự phòng gộp thành 1 câu đã ghi trong script, chỉ dùng khi take 1 đọc vội và phải báo Richard trước khi đổi thoại.
 - Lưu hồ sơ vào repo: commit riêng scope ep030, chạy validator trước, push lên main. Validator đạt (exit 0; chỉ note thiếu frame 6/6 shot + voice pending — đúng trạng thái draft, như ep029).
 - Bước tiếp theo: làm 6 frame (project Flow riêng `CNTM · EP030 · Chỉ Biết Dễ Thương`, 0 credit) — lấy lại nhân vật Nam từ project ep008 qua picker, 3 váy SANJOLI lấy lại qua picker từ project ep004/ep002/ep003, nền phòng khách từ `03_locations/thao-my-apartment/living-room/` — chờ Richard gật làm frame, hoặc đổi đồ/location trước.
+
+## 2026-11-25 16:37 — Richard chốt đổi số: ep030 → ep013 (làm sớm hơn, Gym lùi xuống ep030)
+
+- Richard: "Cái này làm sớm hơn, đổi đánh thứ tự đi, mai làm luôn".
+- Đổi số bằng `git mv` thư mục ep030-chi-biet-de-thuong → ep013-chi-biet-de-thuong; sửa `ep030` → `ep013` trong script.md, episode.yaml, wardrobe.md, manifest.yaml, source-tiktok.md (tham chiếu live). Các entry work-log cũ giữ nguyên số ep030 vì đó là lịch sử lúc viết (commit `3dc7244` vẫn mang scope ep030).
+- Hồ sơ sau đổi số: đối chiếu lại script ↔ episode.yaml (6 shot, thoại khớp), chạy validator, commit riêng + push.
+- Bước tiếp theo: làm 6 frame ngày mai 26/11 (project Flow riêng `CNTM · EP013 · Chỉ Biết Dễ Thương`, 0 credit) — lấy lại nhân vật Nam từ project ep008 qua picker, 3 váy SANJOLI lấy lại qua picker từ project ep004/ep002/ep003, nền phòng khách từ `03_locations/thao-my-apartment/living-room/`.

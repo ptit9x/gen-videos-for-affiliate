@@ -1,4 +1,4 @@
-# ep030 — Chỉ Biết Dễ Thương — Wardrobe
+# ep013 — Chỉ Biết Dễ Thương — Wardrobe
 
 Trạng thái: kịch bản ĐÃ DUYỆT 25/11, chàng trai CHỐT Nam ep008. Trang phục My (3 váy SANJOLI) + đồ Nam lấy theo đề xuất trong draft đã duyệt — đổi được trước khi làm frame nếu Richard nói.
 
@@ -18,7 +18,7 @@ Link affiliate chung: https://s.shopee.vn/5LDVnTeC4f (aff-0001, váy SANJOLI). C
 
 ## Chàng trai — CHỐT: Nam ep008 (25/11/2026)
 
-- Mặt: `02_characters/nam/approved/nam-front-v002.jpg` (sha256 `340a246d8119201bc28bd18721fede3cb2a14a44fac1e003efae2ca3b92a0d1f`, đã duyệt 21/11). Nhân vật Flow "Nam" đã tạo ở project ep008 (character_id `c759064c-1e4c-4fe7-86ef-54ab519029bc`, reusable) — khi làm frame ep030 thì lấy lại nhân vật Nam từ project ep008 qua picker.
+- Mặt: `02_characters/nam/approved/nam-front-v002.jpg` (sha256 `340a246d8119201bc28bd18721fede3cb2a14a44fac1e003efae2ca3b92a0d1f`, đã duyệt 21/11). Nhân vật Flow "Nam" đã tạo ở project ep008 (character_id `c759064c-1e4c-4fe7-86ef-54ab519029bc`, reusable) — khi làm frame ep013 thì lấy lại nhân vật Nam từ project ep008 qua picker.
 - Trang phục trong tập: **đề xuất — áo phông trắng, quần jean đen** (ở nhà, ngồi sofa buổi tối).
 - Ghi chú: giữ đồ này theo draft; đổi sang đồ khác thì nói trước khi làm frame.
 

@@ -49,9 +49,10 @@ ep001 rev3 dùng mặt mới/body v003, chưa gen frame/clip mới; ID take rev2
 | ep010-love-bombing | Anh Love Bombing | "Dội bom xong rút quân" | Love bombing → ghost |
 | ep011-noi-xau-ex | Anh "Nói Xấu Ex" | "Bốn mối. Lần nào cũng lỗi người ta" | Toxic ex talk |
 | ep012-flex | Anh "Flex" | "Đồng hồ limited mà chia bill cà phê" | Thùng rỗng kêu to |
-| ep013-gym | Anh Gym | "Em là người yêu hay là client?" | Gym bro date |
+| ep013-chi-biet-de-thuong | Anh Nam | "Ồ... thì... phối kiểu... dễ thương." | Chỉ biết khen "dễ thương" |
 | ep014-day-doi | Anh "Dạy Đời" | "Em không cần thầy giáo" | Mansplaining |
 | ep015-lo-het | Anh "Lo Hết" | "Anh lo hết — trừ việc hỏi em muốn gì?" | Ga-lăng toxic |
 | ep018-cam-dien-thoai | Anh "Cắm Điện Thoại" | "Hẹn hò với wifi thôi, wifi còn kết nối" | Phone addict |
 | ep019-chup-anh | Anh Chụp Ảnh | "Hẹn hò hay casting?" | Date for content |
 | ep020-nice-guy | Anh "Nice Guy" | "Ba phút. Từ tử tế sang toxic. Nhanh hơn Grab" | Nice guy syndrome |
+| ep030-gym | Anh Gym | "Em là người yêu hay là client?" | Gym bro date |
