@@ -153,3 +153,12 @@
 - Giọng Nam: Richard 17:32 "giọng Nam ko phải lồng 2 shot Nam đều ok" — sh010 + sh030 giữ nguyên tiếng Veo gốc, KHÔNG lồng Minh Quân.
 - Lồng clone ThaoMy wordalign cho cả 2 shot My: sh020 take004 + sh040 take003 (Richard: "lồng ThaoMy cho cả hai sh nhé").
 - Dub đang làm theo pipeline ep010/ep011 (Colab T4 VieNeu Turbo preset ThaoMyVeo + build_wordalign).
+
+## 2026-11-25 ~17:45 — Lồng tiếng clone ThaoMy wordalign XONG, QC ĐẠT (sh020 + sh040)
+
+- Colab T4 session ep012-dub: VieNeu v3 Turbo, preset ThaoMyVeo (enroll ref-clip2.wav). 2 run riêng: sh020 wav 5.36s (sha 17da182d…), sh040 wav 4.16s (sha 01d211da…) — lưu ở ~/workspace/colab-t4-test/ep012-dub/.
+- Native windows (energy 48kHz stereo + fine 0.02s): sh020 P1 1.02–1.90 / P2 2.40–4.05 / P3 4.56–5.18; sh040 P1 3.14–4.48 / P2 5.14–6.70. Ghi ở edit/sh020-native-windows.md + edit/sh040-native-windows.md.
+- Stretch: sh020 0.746x / 0.809x / 1.069x; sh040 1.288x / 0.696x — đều trong khoảng 0.60x–1.70x. Build edit/build_wordalign_sh020.py + edit/build_wordalign_sh040.py.
+- Bản lồng: generated/sh020-take004-dubbed.mp4 (sha 82f3da86…), generated/sh040-take003-dubbed.mp4 (sha c317193c…) — video copy nguyên (framemd5 IDENTICAL), audio thay hoàn toàn bằng clone mono 48kHz AAC 192k; năng lượng ngoài cửa sổ = 0.000.
+- QC Whisper base: sh020 14/15 từ đúng thứ tự/cửa sổ (chỉ nhầm đồng âm "uống"→"muốn", "lo"→"lắm" — wav gốc nghe đúng); sh040 9/9 từ đúng thứ tự/cửa sổ — LƯU Ý: "limited" Whisper nghe thành "lim tế" cả trên wav gốc lẫn bản lồng, KHÔNG xác minh được bằng Whisper, cần tai Richard. Chi tiết: edit/dub-qc-ep012-sh020.md + edit/dub-qc-ep012-sh040.md.
+- KHÔNG commit (theo lệnh) — episode.yaml / manifest.yaml chưa cập nhật, chờ review.

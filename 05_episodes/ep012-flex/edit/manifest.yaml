@@ -15,7 +15,7 @@ selected_takes:
     clip_id: d0d2bd40-c515-4208-9371-6b618823d438
     file: generated/sh020-take004.mp4
     sha256: 34cd488af296744135a96a623d8b1f3dcc7db9c2d0def656054c845166568689
-    audio: clone ThaoMy wordalign (dub in progress)
+    audio: clone ThaoMy wordalign (file generated/sh020-take004-dubbed.mp4, QC passed 2026-11-25)
   - shot_id: sh030
     take_id: take002
     clip_id: 70e75a4f-231e-4a64-9155-62df92ad7121
@@ -27,7 +27,7 @@ selected_takes:
     clip_id: 5758d0ff-db2a-4499-9fd5-478d289ea1b0
     file: generated/sh040-take003.mp4
     sha256: 123ae9a2cc5ebe9f37c7e34679a31d1004961c2500ce6d761937b38ca2f68752
-    audio: clone ThaoMy wordalign (dub in progress)
+    audio: 'clone ThaoMy wordalign (file generated/sh040-take003-dubbed.mp4, QC passed 2026-11-25; caveat: Whisper cannot verify limited, Richards ear is final judge)'
 build_commands: []
 audio_plan:
   mute_veo_native: false
