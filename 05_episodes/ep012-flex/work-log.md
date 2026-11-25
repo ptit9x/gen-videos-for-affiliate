@@ -90,3 +90,13 @@
 - Richard "Áp dụng luôn": sh040 dùng chung frame sh020-frame-v2.jpg (màu giống mẫu hơn theo đo HLS 11:54). episode.yaml sh040 first_frame đã trỏ sang sh020-frame-v2.jpg (sha 56ab98a3…); sh040-frame-v4.jpg giữ lại làm lịch sử trong input/frames/; sh040-image.txt giữ nguyên làm lịch sử (không dùng gen nữa).
 - Hành động sh040 đổi: "Rút điện thoại ra" → "Đặt ly cà phê xuống, nụ cười tắt dần, mặt lạnh lại" (script.md r04 + sh040-motion.txt mới, sha fd868ba1…). Thoại giữ nguyên 9 từ: "Đồng hồ limited mà chia bill ly cà phê."
 - Frame set hiện tại: sh010 v1, sh020 v2, sh030 v1, sh040 = sh020 v2. frame_status vẫn pending_review — chờ Richard duyệt bộ frame rồi mới gen 4 clip (40 credit).
+
+## 2026-11-25 13:34 — Gen 4 clip thử (Veo 3.1 Lite, 70 credit)
+
+- Richard "gen thử đi": 7 lượt gen (sh010 ×2, sh020 ×2, sh030 ×1, sh040 ×2), 70 credit, số dư còn 330 (reset 13:49 16/12). Frames trực tiếp, Agent OFF, 9:16, 8s, 1 output. Chỉ tải 1K về review, chưa upscale 2K.
+- Takes (generated/, episode.yaml, status pending_review — chờ Richard nghe + duyệt):
+  - sh010 take001 (bb0ae194…, sha c2025577…): Whisper base "Em biết sẽ ăn máy tầy không?" — "xe anh mấy tỷ" nghe thành "sẽ ăn máy tầy". Onset 0.3s. Visual: Hùng xoay sang profile LỘ MẶT (frame gốc chỉ lưng) — trái quyết định "Hùng không mặt"; đồng hồ + chìa khóa rõ; không chữ giả.
+  - sh020 take002 (0db8954a…, sha 4965ae3d…): Whisper base "Dạ hay quá anh, em uống lý cả phê 30.000, anh đừng lo" — gần đủ, chỉ "ly"→"lý". Onset 0.0s. Visual: mặt khớp v002, nâng ly rồi hạ ly; không chữ giả. Take sạch nhất.
+  - sh030 take001 (b7f71761…, sha 379a5720…): Whisper base "Biêu đây rồi nè, em chuyển khoảng phần em nhé, anh gọi số tài khoảng" — "Bill"→"Biêu", "khoản"→"khoảng" ×2, "gửi"→"gọi". Onset 0.4s. Visual: Hùng xoay sang profile lộ mặt (như sh010); đẩy hóa đơn rõ; không chữ giả.
+  - sh040 take002 (1a6905e2…, sha 9563430b…): Whisper base "Đồng hồ lý mết thích mà chia bíu lý cà phê" — "limited"→"lý mết thích", "bill"→"bíu" (2 từ tiếng Anh là lõi câu chốt). Onset 3.5s (muộn). Visual: đặt ly xuống đĩa + nụ cười tắt dần thành mặt nghiêm ĐÚNG r04; không chữ giả. Đề xuất: lồng clone ThaoMy nếu "limited/bill" không rõ.
+- Lưu ý QC: lỗi thanh điệu ("ly"→"lý", "khoản"→"khoảng") xuất hiện ở cả 4 clip — có thể là Whisper base nghe nhầm thanh, không chắc giọng sai; tai Richard quyết. faster-whisper đã mất khỏi VM sau restart, đã cài lại bằng pip --user (PYTHONNOUSERSITE=1 nên phải chạy với PYTHONPATH=~/.local/lib/python3.12/site-packages).
