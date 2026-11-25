@@ -25,8 +25,12 @@ shots:
 - shot_id: sh010
   approved_for_generation: false
   dialogue: Anh xem giúp em bộ này, thấy sao?
-  image_prompt: null
-  motion_prompt: null
+  image_prompt:
+    path: input/prompts/sh010-image.txt
+    sha256: a365feaf2936a20143e648917884590e8d37c44f6b4d8082872cdfa3c26aa886
+  motion_prompt:
+    path: input/prompts/sh010-motion.txt
+    sha256: b45a255e3729afc1c7be119350ef861fd5bb83a0ac6a6546225e5df81e94e7ca
   image_sources: []
   first_frame: null
   frame_status: missing_local
@@ -35,8 +39,12 @@ shots:
 - shot_id: sh020
   approved_for_generation: false
   dialogue: Dễ thương!
-  image_prompt: null
-  motion_prompt: null
+  image_prompt:
+    path: input/prompts/sh020-image.txt
+    sha256: 192beabd1af0b1ddd6bffc2682e2ac69737bb76023abfbcd6b5026f055a0d5de
+  motion_prompt:
+    path: input/prompts/sh020-motion.txt
+    sha256: 7c7cd0dfa52c90ae58765f7fce65388e5ab64f6bd693d37d72f9321e33e52c78
   image_sources: []
   first_frame: null
   frame_status: missing_local
@@ -45,8 +53,12 @@ shots:
 - shot_id: sh030
   approved_for_generation: false
   dialogue: Thế còn bộ này?
-  image_prompt: null
-  motion_prompt: null
+  image_prompt:
+    path: input/prompts/sh030-image.txt
+    sha256: c1a0ed4369dd9a4fef05af789123e337829163ad2b272b7a518e37af58aa6847
+  motion_prompt:
+    path: input/prompts/sh030-motion.txt
+    sha256: afa3ea256436f892ac2c52555acd5d49b6642bd1f34c98b07dacd8301b511e8b
   image_sources: []
   first_frame: null
   frame_status: missing_local
@@ -55,8 +67,12 @@ shots:
 - shot_id: sh040
   approved_for_generation: false
   dialogue: Ừm... dễ thương!
-  image_prompt: null
-  motion_prompt: null
+  image_prompt:
+    path: input/prompts/sh040-image.txt
+    sha256: bd30335fcb91a0c0ff9a22980a94f7677c622b96486d7caa5021975596d94a30
+  motion_prompt:
+    path: input/prompts/sh040-motion.txt
+    sha256: 7d9d84544281f73f9d0030eccb15794e5f92da344472f5136271075c7cc9669e
   image_sources: []
   first_frame: null
   frame_status: missing_local
@@ -65,8 +81,12 @@ shots:
 - shot_id: sh050
   approved_for_generation: false
   dialogue: Còn bộ cuối này thì sao? Anh chỉ biết nói mỗi dễ thương thôi hả?
-  image_prompt: null
-  motion_prompt: null
+  image_prompt:
+    path: input/prompts/sh050-image.txt
+    sha256: 584c1debc842c1dae3fc686b5f9d838c842542b0c85d77e4cb2713b322a1fb7d
+  motion_prompt:
+    path: input/prompts/sh050-motion.txt
+    sha256: fe97288f824c698544852a521efca2871707de16fb05ac474244d101f4615531
   image_sources: []
   first_frame: null
   frame_status: missing_local
@@ -75,8 +95,12 @@ shots:
 - shot_id: sh060
   approved_for_generation: false
   dialogue: Ồ... thì... phối kiểu... dễ thương.
-  image_prompt: null
-  motion_prompt: null
+  image_prompt:
+    path: input/prompts/sh060-image.txt
+    sha256: eff5f2438ef8dc65651fabde93a8178a94103f6dbab8114f187927a8ddd8eb7d
+  motion_prompt:
+    path: input/prompts/sh060-motion.txt
+    sha256: 1402d22d3a0b0af483306bd2cc37c2782beae6b5357dc3fdd44fe39bb9d4a1ed
   image_sources: []
   first_frame: null
   frame_status: missing_local

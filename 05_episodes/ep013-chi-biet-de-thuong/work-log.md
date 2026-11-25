@@ -30,3 +30,12 @@
 - Đổi số bằng `git mv` thư mục ep030-chi-biet-de-thuong → ep013-chi-biet-de-thuong; sửa `ep030` → `ep013` trong script.md, episode.yaml, wardrobe.md, manifest.yaml, source-tiktok.md (tham chiếu live). Các entry work-log cũ giữ nguyên số ep030 vì đó là lịch sử lúc viết (commit `3dc7244` vẫn mang scope ep030).
 - Hồ sơ sau đổi số: đối chiếu lại script ↔ episode.yaml (6 shot, thoại khớp), chạy validator, commit riêng + push.
 - Bước tiếp theo: làm 6 frame ngày mai 26/11 (project Flow riêng `CNTM · EP013 · Chỉ Biết Dễ Thương`, 0 credit) — lấy lại nhân vật Nam từ project ep008 qua picker, 3 váy SANJOLI lấy lại qua picker từ project ep004/ep002/ep003, nền phòng khách từ `03_locations/thao-my-apartment/living-room/`.
+
+## 2026-11-26 06:5x — Chuẩn bị làm frame, chờ gen ep012 xong
+
+- Viết xong 12 prompt ảnh/motion (`input/prompts/sh0X0-image.txt` + `sh0X0-motion.txt`), map sha vào episode.yaml, validator đạt (exit 0; chỉ note thiếu frame 6/6 + voice pending — đúng trạng thái).
+- Prompt ảnh: khóa nền phòng khách buổi tối đèn vàng (sofa be trái, 2 tranh pastel, bàn trà gỗ nhạt, ban công tối) + son đỏ/móng tự nhiên/nốt ruồi cằm trái; màu váy ghi rõ từng bộ (hồng sh010 / kem sh030 / trắng sh050) để tránh lẫn dưới đèn vàng.
+- Prompt motion: 1 hành động + thoại nguyên văn + hướng giọng, không ghi cấm phụ đề/chữ (theo verdict review ep009 22/11 — ghi cấm phụ đề vào prompt Veo làm Veo vẽ thêm chữ giả).
+- Refs lấy lại qua picker, không upload mới: mặt My ThaoMy002 (project EP003), Nam từ project ep008, váy hồng từ project ep004, váy trắng từ project ep003. Váy kem: sổ đăng ký chưa ghi rõ project Flow — lấy file local `02_characters/thao-my/wardrobe/inbox/ep002-sanjoli-kem/vn-11134207-81ztc-mthrovoch3ibe2.webp` đưa vào project ep013 khi làm sh030.
+- Nền phòng khách: ảnh review thao-my-living-room-v001.png (ban ngày) CHƯA duyệt, chưa có master — frame sh010 sẽ khóa nền buổi tối, trình Richard duyệt nền trước khi làm nốt 5 frame.
+- CHỜ: gen lại sh020 ep012 đang chạy (bắt đầu 06:31, kẹt kiểm tra bot Flow) — KHÔNG mở task Flow song song. Gen ep012 xong mới tạo project 'CNTM · EP013 · Chỉ Biết Dễ Thương' + làm sh010.
