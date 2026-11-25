@@ -1,6 +1,6 @@
 # ep012 — Flex
 
-Bản sửa r03 ngày 2026-11-25: thoại 1 câu/shot đã duyệt (Richard 25/11), trang phục áo dài Mai Linh đỏ đô, bối cảnh nhà hàng buổi tối. Hồ sơ rebuild từ script r02 (episode.yaml + 8 prompt cũ là tập khác hẳn sót sau renumber — đã thay toàn bộ). Draft chờ review lại hồ sơ rebuild, chưa duyệt gen. Bốn shot khoảng 8 giây, 32 giây nguồn trước trim; dọc 9:16.
+Bản sửa r04 ngày 2026-11-25: sh040 dùng chung frame sh020 (màu giống mẫu hơn — đo HLS: sh020 gần mẫu hơn sh040), hành động đổi thành đặt ly cà phê xuống, nụ cười tắt dần, mặt lạnh lại, bỏ điện thoại (Richard 25/11 "Áp dụng luôn"). Thoại không đổi. Bốn shot khoảng 8 giây, 32 giây nguồn trước trim; dọc 9:16.
 
 ## Ý tưởng và twist
 
@@ -28,9 +28,9 @@ Mỗi shot một người nói, quay đơn và cắt qua lại; người nghe ng
 | sh010 | Hùng | Em biết xe anh mấy tỷ không? | 7 | Giơ cổ tay khoe đồng hồ, chìa khóa xe trên bàn | Cận vừa Hùng (lưng/tay), nhìn My ngoài khung | 8s |
 | sh020 | Thảo My | Dạ hay quá anh, em uống ly cà phê ba mươi ngàn, anh đừng lo. | 15 | Nâng ly cà phê, lịch sự | Cận vừa My, nhìn Hùng ngoài khung | 8s |
 | sh030 | Hùng | Bill đây rồi nè, em chuyển khoản phần em nhé, anh gửi số tài khoản. | 15 | Đẩy hóa đơn về phía My, giọng bình thường | Cận vừa Hùng (lưng/tay) | 8s |
-| sh040 | Thảo My | Đồng hồ limited mà chia bill ly cà phê. | 9 | Rút điện thoại ra, deadpan, không nói thêm | Cận vừa My, bình thản | 8s |
+| sh040 | Thảo My | Đồng hồ limited mà chia bill ly cà phê. | 9 | Đặt ly cà phê xuống, nụ cười tắt dần, mặt lạnh lại, không nói thêm | Cận vừa My, bình thản | 8s |
 
-Hùng khoe giọng tự hào thật sự, không diễn ác. My lịch sự ở sh020, đến sh040 mới lạnh giọng, chỉ nói đúng câu chốt. Trim phần chờ thừa khi dựng.
+Hùng khoe giọng tự hào thật sự, không diễn ác. My lịch sự ở sh020, đến sh040 mới lạnh giọng, chỉ nói đúng câu chốt. sh040 dùng chung frame sh020 (sh020-frame-v2.jpg) vì màu giống mẫu hơn. Trim phần chờ thừa khi dựng.
 
 **Câu chốt quotable:** "Đồng hồ limited mà chia bill ly cà phê."
 

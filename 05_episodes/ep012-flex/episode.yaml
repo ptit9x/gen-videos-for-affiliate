@@ -94,7 +94,7 @@ shots:
       sha256: 10cb51ccd9dbc544e3d216811fc9ccda53c2ff1e4247507e8d0e00dfacc1a3a0
     motion_prompt:
       path: input/prompts/sh040-motion.txt
-      sha256: c376d6bfb5faa05011f75a4929461db10a971fb894367d0a2e633236ccc9a3b4
+      sha256: fd868ba1cc66fcbe8185d2b9e3e6c90c5a8fc4b074eba3a76c5be69dba3183b9
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
@@ -109,8 +109,8 @@ shots:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame:
-      path: input/frames/sh040-frame-v4.jpg
-      sha256: d93117b05f6b75a1fa76093893b9658f73d19d23461e6d874c1e26d499e8128b
+      path: input/frames/sh020-frame-v2.jpg
+      sha256: 56ab98a354ddf5a1e306245a00419ef0e17952c21f0a98c6c62b46c576001bdf
     frame_status: pending_review
     flow_image_asset_id: null
     takes: []

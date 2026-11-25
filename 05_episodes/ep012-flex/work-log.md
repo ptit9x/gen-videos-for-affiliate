@@ -78,3 +78,15 @@
 - sh040-frame-v4.jpg (d93117b0…, 167.283 B): CẢ 2 CHI TIẾT ĐÚNG CÙNG LÚC — cúc tàu trắng rõ, tua rua đỏ đậm; thêu hạc cùng màu đỏ chìm, không còn chỉ trắng/bạc; tay áo vẫn đúng (rộng, vải đục, hết ở khuỷu, cẳng tay trần); son đỏ đậm; mặt khớp v002, deadpan, nốt ruồi cằm trái thấy được; điện thoại cầm 2 tay; nền mờ không khách khác, chỉ có vai Hùng (áo trắng, mờ) ở tiền cảnh phải — hợp bố cục đối thoại, không lộ mặt.
 - Nit còn lại: sao Gemini nhỏ góc phải dưới (như mọi frame). v3 giữ lại làm lịch sử.
 - episode.yaml đã trỏ sh040 sang v4, frame_status vẫn pending_review — chờ Richard duyệt cả 4 frame (sh010 v1, sh020 v2, sh030 v1, sh040 v4).
+
+## 2026-11-25 11:54 — So màu sh020 v2 vs sh040 v4 với mẫu (Richard hỏi)
+
+- Đo HLS (median pixel đỏ đậm, đã kiểm chứng patch bằng mắt — patch tay/điện thoại/bàn bỏ qua): mẫu flatlay H342 L25 S57; mẫu mặc trong nhà H350 L29 S58; sh020 v2 H356 L19 S75; sh040 v4 H356 L16 S64.
+- Kết luận: hue gần như nhau ở cả 2 frame (H356, lệch mẫu 6–14°). Lệch chính ở LIGHTNESS: cả 2 frame đều tối + đậm hơn mẫu do ánh sáng nhà hàng tối — sh020 (L19) gần mẫu (L25–29) hơn sh040 (L16); sh040 cũng đậm hơn (S64 vs mẫu 57, sh020 S75 còn đậm hơn nữa).
+- Verdict: **sh020 v2 giống mẫu hơn** (sáng hơn, gần mẫu hơn). Hướng sửa nếu làm lại: ghi rõ "đỏ đô sáng như ảnh mẫu, không tối sẫm" + lấy ảnh mặc trong nhà (sáng nhất, L29) làm ref chính.
+
+## 2026-11-25 12:45 — Áp dụng: sh040 dùng chung frame sh020 (script r04)
+
+- Richard "Áp dụng luôn": sh040 dùng chung frame sh020-frame-v2.jpg (màu giống mẫu hơn theo đo HLS 11:54). episode.yaml sh040 first_frame đã trỏ sang sh020-frame-v2.jpg (sha 56ab98a3…); sh040-frame-v4.jpg giữ lại làm lịch sử trong input/frames/; sh040-image.txt giữ nguyên làm lịch sử (không dùng gen nữa).
+- Hành động sh040 đổi: "Rút điện thoại ra" → "Đặt ly cà phê xuống, nụ cười tắt dần, mặt lạnh lại" (script.md r04 + sh040-motion.txt mới, sha fd868ba1…). Thoại giữ nguyên 9 từ: "Đồng hồ limited mà chia bill ly cà phê."
+- Frame set hiện tại: sh010 v1, sh020 v2, sh030 v1, sh040 = sh020 v2. frame_status vẫn pending_review — chờ Richard duyệt bộ frame rồi mới gen 4 clip (40 credit).
