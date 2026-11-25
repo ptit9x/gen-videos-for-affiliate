@@ -70,3 +70,11 @@
 - sh040-frame-v3.jpg (0cb787c1…, 162.230 B): thêu hạc SỬA ĐÚNG — cùng màu đỏ chìm, không còn chỉ trắng/bạc; tay áo vẫn đúng (rộng, vải đục, hết ở khuỷu, cẳng tay trần); son đỏ đậm; mặt khớp v002, deadpan, nốt ruồi cằm trái thấy rõ khi crop zoom; điện thoại cầm 2 tay.
 - Nit mới: cúc tàu ở v3 thành màu ĐỎ ĐẬM thay vì trắng như mẫu (v2 thì cúc trắng đúng) — tua rua vẫn đỏ đậm như mẫu; nền có thêm 2 khách bàn bên, người phụ nữ bàn bên nhìn về phía máy (hơi phân tâm). v2 giữ lại làm lịch sử.
 - episode.yaml đã trỏ sh040 sang v3, frame_status vẫn pending_review — chờ Richard duyệt cả 4 frame.
+
+## 2026-11-25 11:49 — Frame v4 cho sh040 (cúc trắng + thêu chìm cùng lúc)
+
+- Prompt sửa (đã cập nhật file + sha trong episode.yaml, validator đạt): cúc tàu trắng, tua rua đỏ đậm; thêu chìm không chỉ trắng/bạc cho phần thêu; nền mờ không khách khác.
+- Làm mới 1 edit từ master trong project EP012 (không sửa nối tiếp từ v3/v2), 0 credit, 1 lượt.
+- sh040-frame-v4.jpg (d93117b0…, 167.283 B): CẢ 2 CHI TIẾT ĐÚNG CÙNG LÚC — cúc tàu trắng rõ, tua rua đỏ đậm; thêu hạc cùng màu đỏ chìm, không còn chỉ trắng/bạc; tay áo vẫn đúng (rộng, vải đục, hết ở khuỷu, cẳng tay trần); son đỏ đậm; mặt khớp v002, deadpan, nốt ruồi cằm trái thấy được; điện thoại cầm 2 tay; nền mờ không khách khác, chỉ có vai Hùng (áo trắng, mờ) ở tiền cảnh phải — hợp bố cục đối thoại, không lộ mặt.
+- Nit còn lại: sao Gemini nhỏ góc phải dưới (như mọi frame). v3 giữ lại làm lịch sử.
+- episode.yaml đã trỏ sh040 sang v4, frame_status vẫn pending_review — chờ Richard duyệt cả 4 frame (sh010 v1, sh020 v2, sh030 v1, sh040 v4).
