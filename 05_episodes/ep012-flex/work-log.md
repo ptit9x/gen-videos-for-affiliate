@@ -35,3 +35,14 @@
 - Richard review lại hồ sơ rebuild rồi mới làm frame Nano Banana (0 credit) → duyệt frame → gen clip Veo 3 Lite.
 - Trang phục Hùng chưa chốt (chỉ thấy lưng/tay) — chốt trước khi làm frame sh010/sh030.
 - aff-0007 UNVERIFIED theo lệnh Richard (không xác minh, không thử lại) — chỉ gắn vào bài khi Richard xác nhận màu/link trên điện thoại của cậu ấy, nếu cậu ấy yêu cầu.
+
+## 2026-11-25 11:02 — Frames v1 (Nano Banana, 0 credit)
+
+- Project Flow mới: CNTM · EP012 · Flex — https://flow.google.com/project/1cc7499d-86b9-44a0-b084-306ff4856f81 (acc huynhdn Pro; không cần xác minh thiết bị).
+- Mỗi frame 1 edit trực tiếp từ master, không nối tiếp. Mặt ThaoMy002 lấy lại qua picker từ project EP003; nền nhà hàng lấy lại qua picker từ EP006; chỉ upload 3 ref áo dài đỏ mới; body ref đã có sẵn trong EP006 nên không upload.
+- 4 frame về đủ, đã verify file trên disk (768×1376) + xem trực tiếp, map byte-identical vào input/frames/ (sha trong episode.yaml), frame_status pending_review, approved_for_generation vẫn false — chờ Richard duyệt frame.
+  - sh010-frame-v1.jpg (ffb31434…, 132.233 B): Hùng lưng/tay, sơ mi trắng, đồng hồ trên cổ tay giơ cao, ly trong tay, chìa khóa xe trên bàn gỗ. Nit: sao Gemini nhỏ góc phải dưới (như ep011 đã duyệt).
+  - sh020-frame-v1.jpg (f5673908…, 172.048 B): My áo dài đỏ đô thêu hạc + cúc tàu tua rua, son đỏ, nốt ruồi cằm trái (đã kiểm bằng crop zoom), móng tự nhiên, nâng ly cà phê. Nit: sao Gemini nhỏ góc phải dưới.
+  - sh030-frame-v1.jpg (89d2bb5e…, 120.413 B): Hùng lưng/tay, sơ mi trắng, đồng hồ, đẩy bìa hóa đơn đen có hóa đơn trắng qua bàn. Nit: chữ trên hóa đơn mờ, khó đọc (chữ giả nhỏ); sao Gemini nhỏ góc phải dưới.
+  - sh040-frame-v1.jpg (bd12340f…, 172.200 B): My deadpan, điện thoại cầm 2 tay trên bàn, áo dài đỏ đô. Nit: son đỏ nhạt hơn sh020 rõ (hồng đất thay vì đỏ tươi); nốt ruồi cằm trái không rõ ở khung này; sao Gemini nhỏ góc phải dưới.
+- Validator sau khi map frame: đạt (exit 0).

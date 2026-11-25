@@ -3,7 +3,7 @@ episode_id: ep012
 revision: 2
 title: "Flex"
 editorial_status: draft
-flow_project: null
+flow_project: https://flow.google.com/project/1cc7499d-86b9-44a0-b084-306ff4856f81
 generation:
   mode: frames
   agent: false
@@ -27,15 +27,17 @@ shots:
     dialogue: "Em biết xe anh mấy tỷ không?"
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: 1939168c56e7606c8ce558381e495094e3604158c4cabb812b3eae65928c3964
+      sha256: 8e16ce2801f80f3bdbc9ddae1c8e173fcd846d5b8a104b4dce006148cc8484dd
     motion_prompt:
       path: input/prompts/sh010-motion.txt
       sha256: f20be18e066a02f034db4488ad996b6ca97fe845149544edbc77fbe03f6e7d16
     image_sources:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
-    first_frame: null
-    frame_status: missing_local
+    first_frame:
+      path: input/frames/sh010-frame-v1.jpg
+      sha256: ffb31434c4d51e6593ddbbe247dc533dc881346eb4b9eafe238e4d7c9c088ad1
+    frame_status: pending_review
     flow_image_asset_id: null
     takes: []
   - shot_id: sh020
@@ -60,8 +62,10 @@ shots:
         sha256: "8c99cb60aa5dc170e4b31bf1c3931e6ebce9363f2ab73543cb6e4e6c04c87591"
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
-    first_frame: null
-    frame_status: missing_local
+    first_frame:
+      path: input/frames/sh020-frame-v1.jpg
+      sha256: f5673908281df6d0d8eb5ac00f0deafbf64fc3eb56ea84ac00b01d5d55f9b514
+    frame_status: pending_review
     flow_image_asset_id: null
     takes: []
   - shot_id: sh030
@@ -69,15 +73,17 @@ shots:
     dialogue: "Bill đây rồi nè, em chuyển khoản phần em nhé, anh gửi số tài khoản."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: 1e26168bc9ca114bbb46027b9da97c1c2b6ee9c838bc6bdebe1aa754b5481caa
+      sha256: 112019e3d4011f52614d539451a073f54f3347243d2aee814d33b78192036c6b
     motion_prompt:
       path: input/prompts/sh030-motion.txt
       sha256: 296fee79527936a76dc8979232ae488c073f3aab856ec0d4ddbcc8d40c86b65b
     image_sources:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
-    first_frame: null
-    frame_status: missing_local
+    first_frame:
+      path: input/frames/sh030-frame-v1.jpg
+      sha256: 89d2bb5e48165b2905acef5b399571e0a5f23889c613504dc4d5938f259f5701
+    frame_status: pending_review
     flow_image_asset_id: null
     takes: []
   - shot_id: sh040
@@ -102,7 +108,9 @@ shots:
         sha256: "8c99cb60aa5dc170e4b31bf1c3931e6ebce9363f2ab73543cb6e4e6c04c87591"
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
-    first_frame: null
-    frame_status: missing_local
+    first_frame:
+      path: input/frames/sh040-frame-v1.jpg
+      sha256: bd12340fd8915e889a97284f8ea79fc8b076db062435bb957880d7117b99ca0d
+    frame_status: pending_review
     flow_image_asset_id: null
     takes: []
