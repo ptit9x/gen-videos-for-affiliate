@@ -138,3 +138,11 @@
 - Váy sáng lên rõ: thân váy H352 L24 S71 (clip cũ L15 S83; mẫu L28 S59) — chỉ còn lệch 4 điểm lightness ở thân váy; tay áo L19 (vẫn tối hơn do góc/bóng). Thêu hạc nhìn rõ hơn.
 - Còn lại giữ nguyên: mặt, son, ly trên tay, đĩa trống (1 ly), cúc tàu + tua, tay loe 3/4, nền nhà hàng tối.
 - episode.yaml: sh020 + sh040 đã trỏ frame v4 (sha 134fa566…). Validator đạt (sẽ chạy trước commit).
+
+## 2026-11-25 17:02 — Gen lại sh020 + sh040 từ frame v4 (30 credit, số dư 250)
+
+- Takes mới: sh020 take004 (d0d2bd40), sh040 take004 (f76426ba, attempt 1/2; attempt 2 clip 79332fa5 không tải về).
+- Whisper base: sh020 take004 sạch như cũ (chỉ 'ly'→'lý'); sh040 take004 'limited' NGHE RÕ lần đầu (onset 2.4s), chỉ 'bill'→'bíu'.
+- BÀI HỌC MÀU MỚI: frame v4 đo L24 nhưng Veo gen clip ra L17 — Veo tự làm tối váy lại trong cảnh nhà hàng tối; sửa frame chỉ cứu được một phần (clip cũ L15 → clip mới L17). Muốn clip chạm L28 thì phải làm frame sáng quá mức, hiệu quả chưa chắc.
+- sh040 take004 KHÔNG chốt được cho hành động: cả 2 attempt đều không đặt ly xuống (cầm ly đến hết clip), nụ cười không tắt hẳn. Đề xuất: dùng lại take003 round 2 (đặt ly + mặt lạnh đúng) + lồng clone ThaoMy.
+- Đang chờ Richard chốt toàn bộ take + hướng xử lý sh010/sh040.

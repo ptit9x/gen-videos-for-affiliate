@@ -98,6 +98,13 @@ shots:
           path: generated/sh020-take003.mp4
           sha256: 918adb652d6a4f20edfd423db2f97b3c8fd8852588a3ab2ca7ec054fba04d0e5
         note: 'Re-gen round 2, 3rd generation overall. Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/1. Whisper base: Da hay qua anh, em uong ly ca phe 30.000, an dung lo - gan du, chi ly thanh ly, anh thanh an, lo thanh lo (loi thanh dieu ASR). Onset 0.7s. Visual: CHI 1 LY (dia tren ban trong suot clip), mat khop v002, nang ly roi ha ly; khong chu gia. Take sach nhat - de xuat CHOT.'
+      - take_id: take004
+        clip_id: d0d2bd40-c515-4208-9371-6b618823d438
+        status: needs_review
+        file:
+          path: generated/sh020-take004.mp4
+          sha256: 34cd488af296744135a96a623d8b1f3dcc7db9c2d0def656054c845166568689
+        note: 'Re-gen round 3 from frame v4 (brightened dress), 4th generation overall. Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/1. Whisper base: Giua hay qua anh, em uong ly ca phe 30.000, anh dung lo - gan du, chi ly thanh ly (Da thanh Giua la artifact ASR dau cau). Onset 0.8s. Visual: CHI 1 LY, dia trong, mat khop v004; vay trong CLIP do H352 L17 S79 - frame v4 do L24 nhung Veo gen lai lam toi ve (chi sang hon clip cu L15 mot chut). De xuat CHOT (mau sang hon round 2, dung kieu).'
   - shot_id: sh030
     approved_for_generation: true
     dialogue: "Bill đây rồi nè, em chuyển khoản phần em nhé, anh gửi số tài khoản."
@@ -174,3 +181,10 @@ shots:
           path: generated/sh040-take003.mp4
           sha256: 123ae9a2cc5ebe9f37c7e34679a31d1004961c2500ce6d761937b38ca2f68752
         note: 'Re-gen round 2, 3rd generation overall. Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/1. Whisper base: Dong ho lim it thich, ma chia bieu lay ca phe - limited thanh lim it thich, bill thanh bieu (2 tu tieng Anh loi cau chot, mang ca 2 round). Onset 3.1s (muon - dat ly + doi bieu cam truoc). Visual: dat ly xuong dia + nu cuoi tat dan thanh mat lanh DUNG r04; CHI 1 LY; khong chu gia. Hinh CHOT, tieng de xuat long clone ThaoMy wordalign.'
+      - take_id: take004
+        clip_id: f76426ba-4435-4fd9-b169-703e446f1453
+        status: needs_review
+        file:
+          path: generated/sh040-take004.mp4
+          sha256: 40ef6ed7383b6653d21a9004f90a942aed2299586da482e557398cc9b3b7c982
+        note: 'Re-gen round 3 from frame v4, 4th generation overall (attempt 2 clip 79332fa5 khong tai ve, ASR Thai/gibberish). Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/2. Whisper base: Dong ho limited ma chia biu ly ca phe - limited NGHE RO lan dau (onset 2.4s), chi bill thanh biu. Visual: KHONG DAT LY XUONG - ca 2 attempt deu cam ly den het clip, dia trong, nu cuoi khong tat han (chi gan trung tinh). Hanh dong cot loi r04 KHONG xay ra. KHONG CHOT cho hanh dong - de xuat dung lai take003 round 2 (dat ly + mat lanh dung) + long clone ThaoMy.'
