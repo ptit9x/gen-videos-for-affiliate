@@ -29,7 +29,7 @@
 - 02_characters/thao-my/wardrobe/REGISTRY.md: hàng Mai Linh đã có từ trước; cập nhật màu thành đỏ đô (chốt 25/11).
 - 00_docs/production-tracker.csv: hàng ep012 cập nhật sang Flex r03 (tên + nội dung cũ xem git history).
 - Validator: `python3 06_automation/validate_episode.py 05_episodes/ep012-flex` — ĐẠT, exit 0 ("Episode structure valid"). Ghi chú kèm: 4 first frame missing (chưa làm frame — đúng giai đoạn này); "VieNeu voice pending user choice" là ghi chú chung của validator khi voice_status != locked, không phải lỗi (voice_status ở đây là decided_by_user theo quyết định của Richard).
-- Commit: (ghi hash sau khi push).
+- Commit: `8b1a80a` "rebuild ep012 Flex profile (r03): approved dialogue, Mai Linh red, restaurant-evening, fix Noel leftover" — 26 files, pushed, verified on origin/main (97848cd..8b1a80a).
 
 ### Còn chờ (sau rebuild)
 - Richard review lại hồ sơ rebuild rồi mới làm frame Nano Banana (0 credit) → duyệt frame → gen clip Veo 3 Lite.
