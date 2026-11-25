@@ -186,3 +186,10 @@
   - Caption: SRT khớp script đúng từng chữ (assert trong script). Fix caption sh020: Whisper nghe "cà phê" thành 1 từ "café" và "phê ba mươi" thành "30" — chia span "30" thành 3 phần (phê/ba/mươi); đã kiểm chứng bằng frame t=7.0s (MƯỜI highlight đúng lúc) và t=7.45s (NGÀN, highlight đúng lúc). sh040 chỉ còn "phê." nội suy timing (Whisper nghe "limited" thành 1 từ "limite").
 - Build chạy 2 lần (run 1 exit 0 nhưng caption sh020 lệch 7 từ cuối do mapping vị trí; đã sửa fix + chạy lại run 2 exit 0, sha mới 58ebfb7e…). Log: `edit/build1k/build_master_1k.log` (run 1) + `edit/build1k/build_master_1k-run2.log` (run 2, bản cuối).
 - KHÔNG commit — episode.yaml / manifest.yaml chưa cập nhật, chờ review. Bước tiếp theo sau khi Richard duyệt preview 1K: tải 2K upscale của 4 take đã chốt, đối chiếu frame với take 1K, dựng lại master 2K theo cùng script.
+
+## 2026-11-25 20:21 — Richard bắt lỗi thoại sh020 ở master ("nghe ảo")
+
+- Câu cũ "Dạ hay quá anh, em uống ly cà phê ba mươi ngàn, anh đừng lo." không trả lời câu hỏi về xe — nhảy từ xe sang cà phê không cầu nối.
+- Richard chốt câu mới (option 1): "Mấy tỷ thì kệ anh, em uống ly cà phê ba mươi ngàn, anh đừng lo." (16 từ).
+- script.md → r05; episode.yaml sh020 dialogue đổi theo; manifest words 46 → 47, qc reset not_run (master 1K cũ STALE).
+- Làm lại: lồng lại sh020 (clone ThaoMy wordalign, cửa sổ cũ) + dựng lại master 1K. sh010/sh030/sh040 không đổi.

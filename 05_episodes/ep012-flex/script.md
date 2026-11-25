@@ -1,5 +1,7 @@
 # ep012 — Flex
 
+Bản sửa r05 ngày 2026-11-25: sh020 đổi thoại (Richard 20:21 nghe master thấy câu cũ không trả lời câu hỏi về xe — nhảy từ xe sang cà phê không cầu nối, nghe ảo): "Dạ hay quá anh, em uống ly cà phê ba mươi ngàn, anh đừng lo." → "Mấy tỷ thì kệ anh, em uống ly cà phê ba mươi ngàn, anh đừng lo." (16 từ). Ba shot còn lại không đổi. Video sh020 giữ take004 (môi theo câu cũ, lồng clone ThaoMy wordalign theo cửa sổ cũ); motion prompt sh020 giữ nguyên câu lúc gen (hồ sơ gen).
+
 Bản sửa r04 ngày 2026-11-25: sh040 dùng chung frame sh020 (màu giống mẫu hơn — đo HLS: sh020 gần mẫu hơn sh040), hành động đổi thành đặt ly cà phê xuống, nụ cười tắt dần, mặt lạnh lại, bỏ điện thoại (Richard 25/11 "Áp dụng luôn"). Thoại không đổi. Bốn shot khoảng 8 giây, 32 giây nguồn trước trim; dọc 9:16.
 
 ## Ý tưởng và twist
@@ -26,11 +28,11 @@ Mỗi shot một người nói, quay đơn và cắt qua lại; người nghe ng
 | Shot | Người nói | Thoại tiếng Việt | Số tiếng | Một hành động chính | Góc máy | Thời lượng nguồn |
 |---|---|---|---|---|---|---|
 | sh010 | Hùng | Em biết xe anh mấy tỷ không? | 7 | Giơ cổ tay khoe đồng hồ, chìa khóa xe trên bàn | Cận vừa Hùng (lưng/tay), nhìn My ngoài khung | 8s |
-| sh020 | Thảo My | Dạ hay quá anh, em uống ly cà phê ba mươi ngàn, anh đừng lo. | 15 | Nâng ly cà phê, lịch sự | Cận vừa My, nhìn Hùng ngoài khung | 8s |
+| sh020 | Thảo My | Mấy tỷ thì kệ anh, em uống ly cà phê ba mươi ngàn, anh đừng lo. | 16 | Nâng ly cà phê, lịch sự | Cận vừa My, nhìn Hùng ngoài khung | 8s |
 | sh030 | Hùng | Bill đây rồi nè, em chuyển khoản phần em nhé, anh gửi số tài khoản. | 15 | Đẩy hóa đơn về phía My, giọng bình thường | Cận vừa Hùng (lưng/tay) | 8s |
 | sh040 | Thảo My | Đồng hồ limited mà chia bill ly cà phê. | 9 | Đặt ly cà phê xuống, nụ cười tắt dần, mặt lạnh lại, không nói thêm | Cận vừa My, bình thản | 8s |
 
-Hùng khoe giọng tự hào thật sự, không diễn ác. My lịch sự ở sh020, đến sh040 mới lạnh giọng, chỉ nói đúng câu chốt. sh040 dùng chung frame sh020 (sh020-frame-v2.jpg) vì màu giống mẫu hơn. Trim phần chờ thừa khi dựng.
+Hùng khoe giọng tự hào thật sự, không diễn ác. My ở sh020 cà khịa nhẹ (kệ xe mấy tỷ), đến sh040 mới lạnh giọng, chỉ nói đúng câu chốt. sh040 dùng chung frame sh020 (sh020-frame-v2.jpg) vì màu giống mẫu hơn. Trim phần chờ thừa khi dựng.
 
 **Câu chốt quotable:** "Đồng hồ limited mà chia bill ly cà phê."
 

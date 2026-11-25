@@ -58,7 +58,7 @@ shots:
         note: 'Re-gen round 2, 4th generation overall (trial take001 superseded visually OK but audio same slur). Frames-direct, Veo 3.1 Lite, 10cr, attempt 2/2 (attempt 1 re-rolled garbled). Whisper base: Em biet se an may tay khong? Mot may tay khong? - xe anh may ty nghe thanh se an may tay (SYSTEMATIC, 4/4 generations) + LAP CAU: duoi cau lap lai Mot may tay khong? o 4.5-5.4s, xac nhan bang nang luong am thanh (-23dB/-18dB, khong phai artifact ASR). Onset 0.2s. Visual: mat khop ref Hung khoa, dong ho + chia khoa ro, khong chu gia; nit: giơ 2 nam dam len gan mat trong luc noi. KHONG CHOT nhu hien tai - de xuat long Minh Quan hoac dung lai trial take001 (chi loi thanh dieu, khong lap cau).'
   - shot_id: sh020
     approved_for_generation: true
-    dialogue: "Dạ hay quá anh, em uống ly cà phê ba mươi ngàn, anh đừng lo."
+    dialogue: "Mấy tỷ thì kệ anh, em uống ly cà phê ba mươi ngàn, anh đừng lo."
     image_prompt:
       path: input/prompts/sh020-image.txt
       sha256: 595fc77f97b7f1524bf99318ab6b862a514bf0cf2c3a221ec2a4ce8b149638c4

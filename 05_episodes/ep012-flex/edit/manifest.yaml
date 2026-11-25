@@ -46,9 +46,9 @@ audio_plan:
 transition_plan: hard_cuts_only
 captions:
   style: Remotion BasicCaptions Boxed, accent '#F59E0B'
-  words: 46
+  words: 47
   srt: delivery/ep012-subtitles.srt
-  note: 'Total dialogue words across 4 shots: 7 + 15 + 15 + 9 = 46. Master 1K: delivery/ep012-master-1k.mp4 (22.53s, -15.44 LUFS), trims sh010 0-3.4s / sh020 0-5.5s / sh030 0-4.7s / sh040 0-7.0s, crop Veo icon crop=640:1138:40:0.'
+  note: 'Total dialogue words across 4 shots: 7 + 16 + 15 + 9 = 47 (r05: sh020 15 -> 16 words, Richard 2026-11-25 20:21). Master 1K: delivery/ep012-master-1k.mp4 (22.53s, -15.44 LUFS), trims sh010 0-3.4s / sh020 0-5.5s / sh030 0-4.7s / sh040 0-7.0s, crop Veo icon crop=640:1138:40:0. Master 1K is STALE after r05 (sh020 dub + captions must be rebuilt).'
 qc:
-  status: passed
+  status: not_run
   report_file: edit/build-report-1k.md
