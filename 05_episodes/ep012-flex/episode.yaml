@@ -49,6 +49,13 @@ shots:
           path: generated/sh010-take001.mp4
           sha256: c20255775d21990da150ea2e534b765d6b3e22562c3e6d1ae1ebade1c737ba21
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/2 (attempt 2 te hon, them noi lung tung sau cau). Whisper base: Em biet se an may tay khong? - Em/biet/khong dung, xe anh may ty nghe thanh se an may tay (loi thanh dieu ASR hoac giong). Onset 0.3s. Visual: Hung xoay sang profile, lo mat (frame goc chi lung) - trai quyet dinh Hung khong mat; dong ho + chia khoa xe ro; khong chu gia. Cho Richard nghe giong + quyet mat profile.'
+      - take_id: take004
+        clip_id: cc8b1904-5f71-4a53-b59c-fe240a8b7672
+        status: needs_review
+        file:
+          path: generated/sh010-take004.mp4
+          sha256: 943a6597d0b06330ad453e4d03ac95e04cdff08060c01be954fdadc6824b1569
+        note: 'Re-gen round 2, 4th generation overall (trial take001 superseded visually OK but audio same slur). Frames-direct, Veo 3.1 Lite, 10cr, attempt 2/2 (attempt 1 re-rolled garbled). Whisper base: Em biet se an may tay khong? Mot may tay khong? - xe anh may ty nghe thanh se an may tay (SYSTEMATIC, 4/4 generations) + LAP CAU: duoi cau lap lai Mot may tay khong? o 4.5-5.4s, xac nhan bang nang luong am thanh (-23dB/-18dB, khong phai artifact ASR). Onset 0.2s. Visual: mat khop ref Hung khoa, dong ho + chia khoa ro, khong chu gia; nit: giơ 2 nam dam len gan mat trong luc noi. KHONG CHOT nhu hien tai - de xuat long Minh Quan hoac dung lai trial take001 (chi loi thanh dieu, khong lap cau).'
   - shot_id: sh020
     approved_for_generation: true
     dialogue: "Dạ hay quá anh, em uống ly cà phê ba mươi ngàn, anh đừng lo."
@@ -84,6 +91,13 @@ shots:
           path: generated/sh020-take002.mp4
           sha256: 4965ae3d5f336e38b535c225b117a95e9a9927b9f5883d55ce46632630d146bb
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, attempt 2/2 (attempt 1 giua cau re). Whisper base: Da hay qua anh, em uong ly ca phe 30.000, anh dung lo - gan du, chi ly thanh ly. Onset 0.0s. Visual: mat khop v002, son do, nang ly roi ha ly cuoi clip; khong chu gia. Giong nu Bac theo browser.'
+      - take_id: take003
+        clip_id: c0f602e8-df38-459c-be5a-9f0abb92025c
+        status: needs_review
+        file:
+          path: generated/sh020-take003.mp4
+          sha256: 918adb652d6a4f20edfd423db2f97b3c8fd8852588a3ab2ca7ec054fba04d0e5
+        note: 'Re-gen round 2, 3rd generation overall. Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/1. Whisper base: Da hay qua anh, em uong ly ca phe 30.000, an dung lo - gan du, chi ly thanh ly, anh thanh an, lo thanh lo (loi thanh dieu ASR). Onset 0.7s. Visual: CHI 1 LY (dia tren ban trong suot clip), mat khop v002, nang ly roi ha ly; khong chu gia. Take sach nhat - de xuat CHOT.'
   - shot_id: sh030
     approved_for_generation: true
     dialogue: "Bill đây rồi nè, em chuyển khoản phần em nhé, anh gửi số tài khoản."
@@ -111,6 +125,13 @@ shots:
           path: generated/sh030-take001.mp4
           sha256: 379a5720643759cf556894452969b9f7930550c751b3e49e20f0d080a398cede
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/1. Whisper base: Bieu day roi ne, em chuyen khoang phan em nhe, anh goi so tai khoang - Bill thanh Bieu, khoan thanh khoang x2, gui thanh goi (loi thanh dieu ASR hoac giong). Onset 0.4s. Visual: Hung xoay sang profile lo mat (nhu sh010); day hoa don ro; khong chu gia. Cho Richard nghe giong + quyet mat profile.'
+      - take_id: take002
+        clip_id: 70e75a4f-231e-4a64-9155-62df92ad7121
+        status: needs_review
+        file:
+          path: generated/sh030-take002.mp4
+          sha256: af30be88bbbe80c141e4a69cec7ba68ec1c07609083f30e6387e48bcbeeb5c28
+        note: 'Re-gen round 2, 2nd generation overall. Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/1. Whisper base: Bieu day roi ne, em chuyen khoang phan em nha, anh goi so tai khoang - Bill thanh Bieu, khoan thanh khoang x2, gui thanh goi (loi thanh dieu ASR hoac giong). Onset 0.0s. Visual: mat khop ref Hung khoa, GIONG sh010 take004; hoa don + bien lai ro; khong chu gia. De xuat CHOT neu Richard nghe giong OK.'
   - shot_id: sh040
     approved_for_generation: true
     dialogue: "Đồng hồ limited mà chia bill ly cà phê."
@@ -146,3 +167,10 @@ shots:
           path: generated/sh040-take002.mp4
           sha256: 9563430b072cf2c16f22146359e2d4cf93b51a2d347bab66bee3ed71d14ab93a
         note: 'Frames-direct, Veo 3.1 Lite, 10cr, attempt 2/2 (attempt 1 co chu trang Hung to goc trai). Whisper base: Dong ho ly met thich ma chia biu ly ca phe - limited nghe thanh ly met thich, bill thanh biu; Dong/ho/ma/chia/ca/phe dung. Onset 3.5s (muon - dat ly + doi bieu cam truoc). Visual: dat ly xuong dia + nu cuoi tat dan thanh mat nghiem DUNG nhu kich ban r04; mat khop v002; khong chu gia. De xuat: long clone ThaoMy neu Richard thay limited/bill khong ro.'
+      - take_id: take003
+        clip_id: 5758d0ff-db2a-4499-9fd5-478d289ea1b0
+        status: needs_review
+        file:
+          path: generated/sh040-take003.mp4
+          sha256: 123ae9a2cc5ebe9f37c7e34679a31d1004961c2500ce6d761937b38ca2f68752
+        note: 'Re-gen round 2, 3rd generation overall. Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/1. Whisper base: Dong ho lim it thich, ma chia bieu lay ca phe - limited thanh lim it thich, bill thanh bieu (2 tu tieng Anh loi cau chot, mang ca 2 round). Onset 3.1s (muon - dat ly + doi bieu cam truoc). Visual: dat ly xuong dia + nu cuoi tat dan thanh mat lanh DUNG r04; CHI 1 LY; khong chu gia. Hinh CHOT, tieng de xuat long clone ThaoMy wordalign.'

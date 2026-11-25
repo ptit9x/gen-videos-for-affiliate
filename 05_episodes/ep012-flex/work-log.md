@@ -117,3 +117,13 @@
 - sh020-frame-v3.jpg (sha 4f07d758…, PNG gốc convert JPG q95): ly trùng trên bàn ĐÃ XÓA, chỉ còn đĩa trống; ly trên tay My, mặt, son, áo dài, nền giữ nguyên. Dùng chung cho sh020 + sh040.
 - sh010-frame-v2.jpg (sha 934a6b37…) + sh030-frame-v2.jpg (sha 9095ae0a…): mặt Hùng 3/4 profile khớp đúng ref sh010 — Bee soi crop mặt 2 frame cạnh nhau: cùng kiểu tóc, cùng tuổi, không râu. Đồng hồ + chìa khóa (sh010), hóa đơn (sh030) giữ nguyên.
 - episode.yaml: first_frame đã trỏ frame mới cả 4 shot; hung-face-sh010-ref.png thêm vào image_sources sh010/sh030. Validator đạt (sẽ chạy trước commit).
+
+## 2026-11-25 14:19 — Gen lại 4 clip (50 credit, số dư 280)
+
+- 5 lượt gen (sh010 ×2, còn lại ×1), 50 credit. Takes mới (status needs_review): sh010 take004 (cc8b1904), sh020 take003 (c0f602e8), sh030 take002 (70e75a4f), sh040 take003 (5758d0ff).
+- Whisper base QC:
+  - sh010 take004: "xe anh mấy tỷ" lỗi CÓ HỆ THỐNG (4/4 lượt gen đều nghe thành "sẽ ăn mấy tầy") + LẶP CÂU thật ("Một mấy tầy không?" ở 4.5–5.4s, xác nhận bằng năng lượng âm thanh). Visual: mặt khớp ref, đồng hồ + chìa khóa rõ; nit: giơ 2 nắm đấm lên gần mặt lúc nói. KHÔNG chốt như hiện tại.
+  - sh020 take003: sạch nhất — chỉ 1 ly (đĩa trống suốt clip), thoại gần đủ. Đề xuất CHỐT.
+  - sh030 take002: mặt khớp ref, giống sh010; thoại "Bill/khoản/gửi" nghe nhầm như round 1. Đề xuất CHỐT nếu Richard nghe giọng OK.
+  - sh040 take003: hình đúng r04 (đặt ly + mặt lạnh), chỉ 1 ly; "limited"/"bill" vẫn không rõ (2/2 round). Đề xuất lồng clone ThaoMy.
+- Đang chờ Richard chốt take + hướng xử lý sh010 (lồng Minh Quân / dùng lại trial take001 / quay lại) và sh040 (lồng clone ThaoMy / quay lại).
