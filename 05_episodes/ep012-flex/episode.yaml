@@ -105,6 +105,13 @@ shots:
           path: generated/sh020-take004.mp4
           sha256: 34cd488af296744135a96a623d8b1f3dcc7db9c2d0def656054c845166568689
         note: 'Re-gen round 3 from frame v4 (brightened dress), 4th generation overall. Frames-direct, Veo 3.1 Lite, 10cr, attempt 1/1. Whisper base: Giua hay qua anh, em uong ly ca phe 30.000, anh dung lo - gan du, chi ly thanh ly (Da thanh Giua la artifact ASR dau cau). Onset 0.8s. Visual: CHI 1 LY, dia trong, mat khop v004; vay trong CLIP do H352 L17 S79 - frame v4 do L24 nhung Veo gen lai lam toi ve (chi sang hon clip cu L15 mot chut). De xuat CHOT (mau sang hon round 2, dung kieu).'
+      - take_id: take005
+        clip_id: 6b1f178f-af02-4dae-bccb-6e124d998766
+        status: needs_review
+        file:
+          path: generated/sh020-take005.mp4
+          sha256: d5fb896ccf1b51cd2b42aad21964497657e81513ef03d5f9ebece849eb28423e
+        note: 'Re-gen 26/11 for lip-sync with the NEW r05 line (take004 was generated for the old line, dub could not fix the mouth). Frames-direct from frame v4, Veo 3.1 Lite, 10cr, attempt 1/1 after 3 failed unusual-activity submissions + 5-min cooldown (no clip left behind). Whisper base: 16/16 words in order, P1 0.62-1.96 / P2 2.44-3.80 / P3 4.12-4.78, onset 0.9s (energy). Visual: face matches v4, ONE cup in hands, empty saucer, no fake text, Veo watermark bottom-right (crop removes). Mouth moves with the new line (native generation). Voice: browser reports Northern female - RICHARD EAR DECIDES; if Northern, keep native and replace take004; if not, dub-or-reroll decision needed (dub would reintroduce lip mismatch).'
   - shot_id: sh030
     approved_for_generation: true
     dialogue: "Bill đây rồi nè, em chuyển khoản phần em nhé, anh gửi số tài khoản."
