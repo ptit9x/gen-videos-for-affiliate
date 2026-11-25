@@ -64,7 +64,7 @@ shots:
       sha256: 595fc77f97b7f1524bf99318ab6b862a514bf0cf2c3a221ec2a4ce8b149638c4
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: b50f3047f971428b5f12f94644d8d5a21a01a142144982bd643f6876cbeda497
+      sha256: 3187bea2735025468f0649cbd4eca2acbd541fe614e7232d6a3f90bc13e58aaa
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
