@@ -1,0 +1,84 @@
+schema_version: 2
+episode_id: ep031
+revision: 1
+title: Cướp Đẹp Trai
+editorial_status: draft
+flow_project: null
+generation:
+  mode: frames
+  agent: false
+  model: Veo 3.1 Lite
+  duration_seconds: 8
+  aspect_ratio: '9:16'
+  outputs: 1
+  last_frame: null
+expected_source:
+  width: 720
+  height: 1280
+  fps: 24
+export:
+  width: 1080
+  height: 1920
+  fps: 30
+target_duration_seconds: 48
+shots:
+- shot_id: sh010
+  approved_for_generation: false
+  dialogue: Anh ơi, trước khi anh cướp, cho em hỏi một câu được không ạ?
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh020
+  approved_for_generation: false
+  dialogue: Anh có người yêu chưa ạ?
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh030
+  approved_for_generation: false
+  dialogue: Chưa.
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh040
+  approved_for_generation: false
+  dialogue: Con gái ai cũng thích trai cao một mét tám, đúng không anh?
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh050
+  approved_for_generation: false
+  dialogue: Thế anh lấy điện thoại em đi, chìa khóa xe trong túi này luôn.
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
+- shot_id: sh060
+  approved_for_generation: false
+  dialogue: Còn em nữa, anh lấy em đi!
+  image_prompt: null
+  motion_prompt: null
+  image_sources: []
+  first_frame: null
+  frame_status: missing_local
+  takes: []
+  flow_image_asset_id: null
