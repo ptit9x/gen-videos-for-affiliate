@@ -1,17 +1,29 @@
 schema_version: 2
 episode_id: ep012
-revision: 1
+revision: 2
 locked_duration_seconds: null
 planned_source_duration_seconds: null
 selected_takes: []
 build_commands: []
 audio_plan:
-  mute_veo_native: true
-  engine: VieNeu-TTS
-  voice_preset: null
-  voice_status: pending_user_choice
+  mute_veo_native: false
+  engine: clone ThaoMy (Colab)
+  voice_preset: ThaoMy (clone VieNeu v3 Turbo) — only for My shots that are not Northern female; Hùng native
+  voice_by: mixed_clone_My_native_Hung
+  voice_status: decided_by_user
   lip_sync_qc: not_run
+  note: 'My: keep Veo native if Northern female, else mute + dub clone ThaoMy wordalign (as ep010/ep011). Hùng: keep Veo native always, no preset, never dub ThaoMy into Hùng (decided by Richard 2026-11-25).'
+  sfx:
+    file: ~/workspace/laugh-sfx/final/laugh-track-1-ccby.mp3
+    source: Freesound, LittleRainySeasons, Laugh Track 1 (2.10s)
+    license: CC BY (attribution required in descriptions)
+    placement: 'at the final twist (sh040 punchline); exact timing set at edit'
 transition_plan: hard_cuts_only
+captions:
+  style: Remotion BasicCaptions Boxed, accent '#F59E0B'
+  words: 46
+  srt: null
+  note: 'Total dialogue words across 4 shots: 7 + 15 + 15 + 9 = 46.'
 qc:
   status: not_run
   report_file: null

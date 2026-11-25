@@ -1,7 +1,7 @@
 schema_version: 2
 episode_id: ep012
-revision: 1
-title: "Quà Noel"
+revision: 2
+title: "Flex"
 editorial_status: draft
 flow_project: null
 generation:
@@ -24,72 +24,84 @@ target_duration_seconds: 32
 shots:
   - shot_id: sh010
     approved_for_generation: false
-    dialogue: "Năm nay cuối cùng cũng có người tặng quà Noel."
+    dialogue: "Em biết xe anh mấy tỷ không?"
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: 8c34ae181783d13d046ca7f177eea44e824d7bf28c9f40e8046a4c2da04dc02e
+      sha256: 1939168c56e7606c8ce558381e495094e3604158c4cabb812b3eae65928c3964
     motion_prompt:
       path: input/prompts/sh010-motion.txt
-      sha256: b6ad5fa70f1bea21525f28b2d04032136feffd94366eb6867dd91756a0cfe03c
+      sha256: f20be18e066a02f034db4488ad996b6ca97fe845149544edbc77fbe03f6e7d16
     image_sources:
-      - path: input/references/thao-my-face-front-v002.png
-        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
-      - path: input/references/thao-my-body-front-v003-face-v002-review.png
-        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/references/restaurant-bg-wood.jpg
+        sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame: null
     frame_status: missing_local
     flow_image_asset_id: null
     takes: []
   - shot_id: sh020
     approved_for_generation: false
-    dialogue: "Mở ra. Đúng size. Đúng màu. Đúng ý."
+    dialogue: "Dạ hay quá anh, em uống ly cà phê ba mươi ngàn, anh đừng lo."
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: a710571657d89ed029cba4b1882cd9b96772400d6dc1185e3e421822ffa12fd4
+      sha256: 704fa8f9ccbb0f821b04787a25c8629928f42b98ff974a2ba575ef231b0c8681
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: eae461236ecf6f8c15985e5134fdb8d5058d7c10db3ec19a00fdde592e5db6e8
+      sha256: b50f3047f971428b5f12f94644d8d5a21a01a142144982bd643f6876cbeda497
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/references/aodai-mai-linh-flatlay-do.jpg
+        sha256: "95442fd30bae0cef9ea4dc2c0091fce98065bc031849ee264c62ff7acead6fff"
+      - path: input/references/aodai-mai-linh-mac-do-ngoai-troi.jpg
+        sha256: "7665c8fe151f229efa5495aa8fd6348b30d3008060b11b45e8c0f83692a8bd6f"
+      - path: input/references/aodai-mai-linh-mac-do-trong-nha.jpg
+        sha256: "8c99cb60aa5dc170e4b31bf1c3931e6ebce9363f2ab73543cb6e4e6c04c87591"
+      - path: input/references/restaurant-bg-wood.jpg
+        sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame: null
     frame_status: missing_local
     flow_image_asset_id: null
     takes: []
   - shot_id: sh030
     approved_for_generation: false
-    dialogue: "Vì người tặng hiểu tôi nhất trên đời."
+    dialogue: "Bill đây rồi nè, em chuyển khoản phần em nhé, anh gửi số tài khoản."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: 8a13890582521345cf9d38fe8f63ec9654d718a581c78a006287e83ad7151e79
+      sha256: 1e26168bc9ca114bbb46027b9da97c1c2b6ee9c838bc6bdebe1aa754b5481caa
     motion_prompt:
       path: input/prompts/sh030-motion.txt
-      sha256: 030b588ee479d0f6ec94b7c4784d37d3af384aeac9f8d68b33aafe6762c9550f
+      sha256: 296fee79527936a76dc8979232ae488c073f3aab856ec0d4ddbcc8d40c86b65b
     image_sources:
-      - path: input/references/thao-my-face-front-v002.png
-        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
-      - path: input/references/thao-my-body-front-v003-face-v002-review.png
-        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/references/restaurant-bg-wood.jpg
+        sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame: null
     frame_status: missing_local
     flow_image_asset_id: null
     takes: []
   - shot_id: sh040
     approved_for_generation: false
-    dialogue: "Là tôi."
+    dialogue: "Đồng hồ limited mà chia bill ly cà phê."
     image_prompt:
       path: input/prompts/sh040-image.txt
-      sha256: 2178ff90d3a7541c08fa749efb619726eafc713d0428ca77f864ca6282fc3771
+      sha256: dc20825a3ec5b4c50e47e80992c877385fa2d75e2cde5ca39c2a445e4f13402a
     motion_prompt:
       path: input/prompts/sh040-motion.txt
-      sha256: 76120c9ff4ec2f25f433366e15e46acbed9448526333e5cc035a6f73ea0ccc4b
+      sha256: c376d6bfb5faa05011f75a4929461db10a971fb894367d0a2e633236ccc9a3b4
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/references/aodai-mai-linh-flatlay-do.jpg
+        sha256: "95442fd30bae0cef9ea4dc2c0091fce98065bc031849ee264c62ff7acead6fff"
+      - path: input/references/aodai-mai-linh-mac-do-ngoai-troi.jpg
+        sha256: "7665c8fe151f229efa5495aa8fd6348b30d3008060b11b45e8c0f83692a8bd6f"
+      - path: input/references/aodai-mai-linh-mac-do-trong-nha.jpg
+        sha256: "8c99cb60aa5dc170e4b31bf1c3931e6ebce9363f2ab73543cb6e4e6c04c87591"
+      - path: input/references/restaurant-bg-wood.jpg
+        sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame: null
     frame_status: missing_local
     flow_image_asset_id: null
