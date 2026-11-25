@@ -100,3 +100,20 @@
   - sh030 take001 (b7f71761…, sha 379a5720…): Whisper base "Biêu đây rồi nè, em chuyển khoảng phần em nhé, anh gọi số tài khoảng" — "Bill"→"Biêu", "khoản"→"khoảng" ×2, "gửi"→"gọi". Onset 0.4s. Visual: Hùng xoay sang profile lộ mặt (như sh010); đẩy hóa đơn rõ; không chữ giả.
   - sh040 take002 (1a6905e2…, sha 9563430b…): Whisper base "Đồng hồ lý mết thích mà chia bíu lý cà phê" — "limited"→"lý mết thích", "bill"→"bíu" (2 từ tiếng Anh là lõi câu chốt). Onset 3.5s (muộn). Visual: đặt ly xuống đĩa + nụ cười tắt dần thành mặt nghiêm ĐÚNG r04; không chữ giả. Đề xuất: lồng clone ThaoMy nếu "limited/bill" không rõ.
 - Lưu ý QC: lỗi thanh điệu ("ly"→"lý", "khoản"→"khoảng") xuất hiện ở cả 4 clip — có thể là Whisper base nghe nhầm thanh, không chắc giọng sai; tai Richard quyết. faster-whisper đã mất khỏi VM sau restart, đã cài lại bằng pip --user (PYTHONNOUSERSITE=1 nên phải chạy với PYTHONPATH=~/.local/lib/python3.12/site-packages).
+
+## 2026-11-25 13:42 — Richard bắt 2 lỗi take (chưa sửa)
+
+- LỖI 1 — cốc xuất hiện 2 lần: frame sh020 v2 có 2 ly cà phê cam giống hệt nhau — 1 trên tay My, 1 trên đĩa ngay trước mặt My (Bee QC lúc đầu ghi "có thể là ly của Hùng" — SAI, ly nằm phía My, đọc thành trùng lặp). Lỗi này theo cả sh020 + sh040 (dùng chung frame). Sửa: edit frame xóa ly trên bàn, giữ đĩa trống (để sh040 đặt ly xuống), rồi gen lại sh020 + sh040.
+- LỖI 2 — Hùng 2 mặt khác nhau: sh010 take001 mặt trẻ, dài, không râu; sh030 take001 mặt già hơn, nặng hơn. Nguyên nhân: Hùng chưa có mặt khóa — 2 frame gốc đều quay lưng, Veo tự bịa mặt mỗi lần quay sang nói. Sửa: khóa 1 mặt làm chuẩn, dựng lại cả 2 frame sh010/sh030 cùng mặt đó, gen lại 2 clip.
+- CHỜ Richard chọn mặt chuẩn (sh010 hay sh030) rồi làm cả 2 sửa + gen lại 4 clip (40 credit).
+
+## 2026-11-25 13:45 — Richard chốt mặt Hùng = sh010
+
+- Face reference đã lưu: input/references/hung-face-sh010-ref.png (crop mặt sh010 take001 lúc 5s, sha 7ec42098…).
+- Đã giao trình duyệt sửa 3 frame (0 credit, chưa gen clip): sh020-frame-v3 (xóa ly trên bàn, giữ đĩa trống), sh010-frame-v2 + sh030-frame-v2 (hiện mặt Hùng 3/4 profile, khớp đúng mặt ref sh010). Chờ frame về → Bee QC → gen lại 4 clip (40 credit).
+
+## 2026-11-25 13:53 — 3 frame sửa xong, Bee QC đạt
+
+- sh020-frame-v3.jpg (sha 4f07d758…, PNG gốc convert JPG q95): ly trùng trên bàn ĐÃ XÓA, chỉ còn đĩa trống; ly trên tay My, mặt, son, áo dài, nền giữ nguyên. Dùng chung cho sh020 + sh040.
+- sh010-frame-v2.jpg (sha 934a6b37…) + sh030-frame-v2.jpg (sha 9095ae0a…): mặt Hùng 3/4 profile khớp đúng ref sh010 — Bee soi crop mặt 2 frame cạnh nhau: cùng kiểu tóc, cùng tuổi, không râu. Đồng hồ + chìa khóa (sh010), hóa đơn (sh030) giữ nguyên.
+- episode.yaml: first_frame đã trỏ frame mới cả 4 shot; hung-face-sh010-ref.png thêm vào image_sources sh010/sh030. Validator đạt (sẽ chạy trước commit).

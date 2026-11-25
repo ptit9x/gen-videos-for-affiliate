@@ -34,9 +34,11 @@ shots:
     image_sources:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
+      - path: input/references/hung-face-sh010-ref.png
+        sha256: "7ec420981e7166ebbfb0816904de3fd1463c5cc0ec0543fed1ec9156255b9f24"
     first_frame:
-      path: input/frames/sh010-frame-v1.jpg
-      sha256: ffb31434c4d51e6593ddbbe247dc533dc881346eb4b9eafe238e4d7c9c088ad1
+      path: input/frames/sh010-frame-v2.jpg
+      sha256: 934a6b37593d22647332debb1e56c149ebe48502517a5aa444a0cb848bc32c48
     frame_status: pending_review
     flow_image_asset_id: null
     takes:
@@ -70,8 +72,8 @@ shots:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame:
-      path: input/frames/sh020-frame-v2.jpg
-      sha256: 56ab98a354ddf5a1e306245a00419ef0e17952c21f0a98c6c62b46c576001bdf
+      path: input/frames/sh020-frame-v3.jpg
+      sha256: 4f07d75886dec2c0c53312a7ec65902b25205f8d208b233eb136693459ab3769
     frame_status: pending_review
     flow_image_asset_id: null
     takes:
@@ -94,9 +96,11 @@ shots:
     image_sources:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
+      - path: input/references/hung-face-sh010-ref.png
+        sha256: "7ec420981e7166ebbfb0816904de3fd1463c5cc0ec0543fed1ec9156255b9f24"
     first_frame:
-      path: input/frames/sh030-frame-v1.jpg
-      sha256: 89d2bb5e48165b2905acef5b399571e0a5f23889c613504dc4d5938f259f5701
+      path: input/frames/sh030-frame-v2.jpg
+      sha256: 9095ae0a87f81c9e9c4c0f42fc17ba5c638e71819bdad6e0149cdcf4627b3f51
     frame_status: pending_review
     flow_image_asset_id: null
     takes:
@@ -130,8 +134,8 @@ shots:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame:
-      path: input/frames/sh020-frame-v2.jpg
-      sha256: 56ab98a354ddf5a1e306245a00419ef0e17952c21f0a98c6c62b46c576001bdf
+      path: input/frames/sh020-frame-v3.jpg
+      sha256: 4f07d75886dec2c0c53312a7ec65902b25205f8d208b233eb136693459ab3769
     frame_status: pending_review
     flow_image_asset_id: null
     takes:
