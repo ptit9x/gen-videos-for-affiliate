@@ -127,3 +127,14 @@
   - sh030 take002: mặt khớp ref, giống sh010; thoại "Bill/khoản/gửi" nghe nhầm như round 1. Đề xuất CHỐT nếu Richard nghe giọng OK.
   - sh040 take003: hình đúng r04 (đặt ly + mặt lạnh), chỉ 1 ly; "limited"/"bill" vẫn không rõ (2/2 round). Đề xuất lồng clone ThaoMy.
 - Đang chờ Richard chốt take + hướng xử lý sh010 (lồng Minh Quân / dùng lại trial take001 / quay lại) và sh040 (lồng clone ThaoMy / quay lại).
+
+## 2026-11-25 16:41 — Richard: làm lại frame váy
+
+- Đo HLS: váy clip sh020 take003 H354 L15 S83 vs mẫu trong nhà H349 L28 S59 / flatlay H343 L27 S58 — kiểu váy đúng mẫu (cúc/tua/tay/thêu khớp), chỉ màu tối hơn 13 điểm lightness + đậm hơn 24 saturation. "Giống mẫu hơn" trước đó chỉ là so sh020 vs sh040, không phải so với mẫu.
+- Đã giao sửa frame sh020 v4 (1 edit từ v3, 0 credit, kèm ảnh mẫu mặc trong nhà làm ref màu): váy sáng lên gần mẫu, giữ nền tối; sau đó gen lại sh020 + sh040 (20 credit).
+
+## 2026-11-25 16:47 — Frame sh020 v4 xong, Bee QC đạt
+
+- Váy sáng lên rõ: thân váy H352 L24 S71 (clip cũ L15 S83; mẫu L28 S59) — chỉ còn lệch 4 điểm lightness ở thân váy; tay áo L19 (vẫn tối hơn do góc/bóng). Thêu hạc nhìn rõ hơn.
+- Còn lại giữ nguyên: mặt, son, ly trên tay, đĩa trống (1 ly), cúc tàu + tua, tay loe 3/4, nền nhà hàng tối.
+- episode.yaml: sh020 + sh040 đã trỏ frame v4 (sha 134fa566…). Validator đạt (sẽ chạy trước commit).

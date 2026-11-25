@@ -79,8 +79,8 @@ shots:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame:
-      path: input/frames/sh020-frame-v3.jpg
-      sha256: 4f07d75886dec2c0c53312a7ec65902b25205f8d208b233eb136693459ab3769
+      path: input/frames/sh020-frame-v4.jpg
+      sha256: 134fa56698c350ad449638eda3ed74bbc2590b50f823c46ef14551e3b3f038e6
     frame_status: pending_review
     flow_image_asset_id: null
     takes:
@@ -155,8 +155,8 @@ shots:
       - path: input/references/restaurant-bg-wood.jpg
         sha256: "c035ab8eac9afd1dcbdf8fc1e1f955c096a358f9f9ae26707405ab70c590bd9e"
     first_frame:
-      path: input/frames/sh020-frame-v3.jpg
-      sha256: 4f07d75886dec2c0c53312a7ec65902b25205f8d208b233eb136693459ab3769
+      path: input/frames/sh020-frame-v4.jpg
+      sha256: 134fa56698c350ad449638eda3ed74bbc2590b50f823c46ef14551e3b3f038e6
     frame_status: pending_review
     flow_image_asset_id: null
     takes:
