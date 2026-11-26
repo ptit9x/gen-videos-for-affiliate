@@ -33,8 +33,8 @@ shots:
     sha256: b45a255e3729afc1c7be119350ef861fd5bb83a0ac6a6546225e5df81e94e7ca
   image_sources: []
   first_frame:
-    path: input/frames/sh010-frame-v1.jpg
-    sha256: fd6bb347710cee3f24a8bbfc269a4dd9cb18fdce6174aca465cd1d8c2f7bb58b
+    path: input/frames/sh010-frame-v2.jpg
+    sha256: 24c74ae7615a6a2dd596552502447d8aeca2095297eb11e1e21741621da81c66
   frame_status: approved
   takes:
     - take_id: take001
@@ -51,7 +51,7 @@ shots:
         path: generated/sh010-take002.mp4
         sha256: 0e4bdc0379130745a2455f63294a862677c9c2b4f6bc4fb702cc778924d54baf
       note: 'Frames-direct, project MOI tinphim 7ac61787 (26/11 17:05), Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 8 tu "Anh xem giup em bo nay, the sao?" 0.00-2.22s (nghe "the" thay "thay" — co the Veo phat am gan giong, can Richard nghe lai); 1 burst thoai duy nhat (energy 0.3-2.3s), khong lap cau; F0 median ~258Hz (giong nu). Hinh: vay hong ro, xoay nguoi cuoi, mat khop frame da duyet (khong tron/rong nhu take001); 4s quay lung theo dong tac xoay. Nit: watermark Veo + sao Gemini goc phai duoi (crop luc dung). So du tinphim sau clip: 40cr. REJECT 26/11 18:38 — Richard: "Mat on cai con khi, mat ko giong ThaoMy chut nao". Bee da nhan dinh sai mat khop frame (QC mat cua Bee KHONG dang tin — mat do Richard quyet, khong trinh nhan dinh khop nhu ket luan). Can gen lai take003 (10cr) — NHUNG theo luat moi 18:39: phai gui anh frame cho Richard duyet TRUOC khi gen video, khong gen mu truoc.'
-  flow_image_asset_id: 568a427c-632d-4b79-b022-dbd415ac2662
+  flow_image_asset_id: null
 - shot_id: sh020
   approved_for_generation: true
   dialogue: Dễ thương!

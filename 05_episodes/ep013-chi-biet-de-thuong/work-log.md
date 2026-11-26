@@ -178,3 +178,11 @@
 - Bee nhận sai: QC của Bee bảo "mặt khớp frame đã duyệt" là SAI — mắt Bee không đáng tin ở khâu soi mặt. Từ nay không trình nhận định "mặt khớp" như kết luận; chỉ trình video + số đo kỹ thuật, mặt do Richard quyết.
 - LUẬT MỚI (Richard 18:39): lần tới gửi ẢNH cho Richard duyệt TRƯỚC mới được gen video. Áp dụng cho mọi clip tiếp theo, kể cả frame đã duyệt từ trước — gửi đúng ảnh frame sẽ dùng làm frame đầu, chờ gật rồi mới bấm gen.
 - Hệ quả credit: số dư tinphim 40cr; 4 clip còn lại (sh020t2, sh040t2, sh050, sh060) cần đúng 40cr. Nếu sh010 cần take003 nữa thì tổng cần 50cr — thiếu 10, phải chờ reset 09:32 3/12 hoặc bỏ 1 clip. Chờ Richard chọn hướng.
+
+## 2026-11-26 19:14–19:20 — Frame sh010 v2: Flow chặn, cứu bằng pipeline
+- Flow (tinphim, project 7ac61787): sau khi Richard bấm Yes trên app Google, browser vào lại project, set Image mode Nano Banana 2.1, 9:16, 1 output, 0 credit, upload đủ 3 ref (mặt v002, body v003, frame v1) + nộp mô tả 1 lần → Flow báo "Không thành công — hoạt động bất thường", KHÔNG tốn credit, KHÔNG có ảnh. Browser dừng theo luật (không retry). Số dư vẫn 40cr.
+- Đổi đường sang pipeline của Bee (tiền lệ cứu sh020 door-frame ep013 + 3 shot Nam ep008): edit từ frame v1 + ref mặt v002 + ref body v003, giữ nguyên phòng/váy/tư thế, mặt theo đúng ảnh chuẩn, dáng cao/gầy ~169cm. File `input/frames/sh010-frame-v2.jpg` (sha 24c74ae7…, từ media-generation-sh010-frame-v2-0-fa4b162a…). Nit tự soi: vòng cổ mảnh ở v1 không còn trong v2; lọ tulip trên bàn trà cũng không còn; không chữ/logo/sao Gemini. CHỜ Richard duyệt ảnh rồi mới gen take003 — KHÔNG gen trước.
+
+## 2026-11-26 19:16 — Richard DUYỆT frame sh010 v2, lệnh gen take003
+- Richard bấm "Duyệt frame v2, gen take003 luôn" → frame v2 (pipeline, sha 24c74ae7…) CHỐT làm first_frame sh010, thay v1; flow_image_asset_id → null (frame pipeline, upload lúc gen như sh020 v2). Asset huynhdn cũ 568a427c chỉ còn là lịch sử.
+- Credit trước gen: 40cr. take003 tốn 10cr → còn 30cr; 4 clip còn lại sau đó (sh020t2, sh040t2, sh050, sh060) cần 40cr — THIẾU 10 so với số dư sau take003, phải chờ reset 09:32 3/12 hoặc bỏ 1 clip. Đã báo Richard từ 18:38.
