@@ -209,3 +209,7 @@
 - QC: Whisper base đủ 8 từ 0.80-2.64s, "Anh" + "thấy" nghe ĐÚNG; từ thứ 3 mờ: Whisper nghe "dưới", ASR trình duyệt nghe "trước" (prompt "giúp") — cần tai Richard. Thoại SỚM (0.8s), 1 burst duy nhất, không lặp; F0 ~254Hz nữ. Hình: váy hồng rõ, phòng khách khớp, dáng cao/gầy; frame 5s quay 3/4 nhìn về camera cười; watermark Veo góc phải dưới. faster-whisper lại mất sau VM restart (lần 5 trong ngày) — cài lại pip; QC vẫn dùng script decode wav bằng ffmpeg + module wave.
 - Trạng thái: needs_review — chờ Richard xem mặt/dáng + nghe giọng Bắc + nghe rõ từ "giúp".
 - Credit: còn 20cr; 4 clip còn lại (sh020t2, sh040t2, sh050, sh060) cần 40cr — THIẾU 20, chờ reset 09:32 3/12 (hoặc bỏ 2 clip). Đã báo Richard từ 18:38, nhắc lại 19:57.
+
+## 2026-11-26 20:19 — Richard CHỐT take004 ("ok đó") + lệnh lồng giọng clone ThaoMy
+- take004 → accepted_editorial (mặt/dáng OK). Giọng Veo phải lồng lại bằng clone ThaoMy ("lồng ThaoMy ấy") — tắt tiếng Veo, dub wordalign bằng VieNeu v3 Turbo clone ThaoMyVeo (theo skill ai_sitcom_dubbing + precedent ep011/ep012).
+- Dub làm riêng từng shot, trình video đã lồng cho Richard duyệt trước khi dựng master.
