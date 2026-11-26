@@ -52,3 +52,10 @@
 - File tải về: browser_downloads/sess-920868313/browser-download-20261126T000855.412967987Z-1-sh010_1c403fe4.png (768×1376, sha 1879d57e…).
 - Bee QC: ĐẠT — mặt khớp ThaoMy002, váy hồng rõ, nền buổi tối đèn vàng ấm, ban công tối, sofa be trái + 2 tranh pastel + khăn len + bàn gỗ nhạt. Nits: sao Gemini nhỏ góc phải dưới (như 4 frame ep011 đã duyệt); khung toàn thân thay vì cận vừa (khoe trọn váy — Richard quyết).
 - CHỜ: Richard duyệt nền + sofa + đèn vàng → làm nốt 5 frame.
+
+## 2026-11-26 07:28 — Frame sh010 v2 (sửa theo ý Richard, 1 edit trực tiếp trên v1)
+
+- Richard duyệt nền, bắt 2 lỗi: ngực cần to hơn, nốt ruồi sai vị trí. Sửa trực tiếp trên frame v1 bằng 1 edit Nano Banana (giữ nguyên nền đã duyệt), 0 credit.
+- File tải về: browser_downloads/sess-920868313/browser-download-20261126T002743.104812894Z-2-sh010_376cedd0.png (768×1376, sha ba3ccc7e…).
+- Bee QC: ĐẠT — ngực đầy đặn hơn rõ rệt, vẫn tự nhiên; nốt ruồi về đúng cằm trái (dưới môi trái); mặt/tóc/váy hồng/nền giữ nguyên; sao Gemini nhỏ góc phải dưới vẫn còn (nit cũ).
+- CHỜ: Richard duyệt v2 → làm nốt 5 frame (dùng chung nền + chuẩn ngực/nốt ruồi của v2).
