@@ -229,3 +229,7 @@
 - Số dư tinphim: vẫn 20cr (Flow nói sẽ hoàn credit, "có thể mất vài phút" — lần này chưa thấy trừ, cần kiểm tra lại số dư ở lần gen sau).
 - ĐIỂM ĐÁNG CHÚ Ý: sh020 take001 CÂM hoàn toàn (không có audio stream), take002 lỗi "không tạo được âm thanh" — shot này lỗi âm thanh 2 lần liên tiếp. Câu thoại chỉ có 2 từ "Dễ thương!" — có thể Veo khó tạo audio với câu quá ngắn, hoặc lỗi nhất thời. Flow gợi ý thử câu lệnh khác (đổi prompt, không đổi thoại) hoặc gen video không tiếng rồi lồng sau.
 - Chờ Richard chọn: thử lại prompt sửa nhẹ / thử lại y nguyên sau / để sh020 lại làm shot khác trước.
+
+## 2026-11-27 01:02 — Richard đổi thoại sh020: "Dễ thương!" → "Đáng yêu", gen lại take002
+- Sau 2 lần lỗi âm thanh với câu "Dễ thương!" (take001 câm, take002 lỗi "không tạo được âm thanh"), Richard đổi câu sh020 thành "Đáng yêu". Cập nhật: episode.yaml dialogue + input/prompts/sh020-motion.txt (sha mới) + script.md hàng sh020 + ghi chú thay đổi (sh040/sh060 vẫn "dễ thương", chờ Richard chốt có đổi theo không).
+- Gen lại take002 từ frame v2 đã duyệt, câu mới "Đáng yêu", Veo 3.1 Lite 10cr. Số dư tinphim: 20cr.

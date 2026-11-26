@@ -65,3 +65,7 @@ Khai báo trong `episode.yaml`. Chưa có frame, chưa có prompt ảnh/motion �
 ## Hậu kỳ
 
 Chưa tới bước này. Dự kiến: giữ tiếng Veo gốc nếu giọng Bắc (My) / giọng Nam tự nhiên (Nam), lồng clone ThaoMy cho shot My nếu lệch giọng; chữ cuối thêm ở hậu kỳ trên nền đen 2s; Laugh Track 1 ở cú chốt sh060 nếu hợp tone (xem lưu ý trên).
+
+## Thay đổi 26/11 (Richard)
+- sh020: câu thoại đổi từ "Dễ thương!" thành "Đáng yêu" (01:02 27/11) — take001 câm hoàn toàn, take002 lỗi Flow "không tạo được âm thanh" với câu "Dễ thương!".
+- LƯU Ý: sh040 ("Ừm... dễ thương.") và sh060 (ấp úng chốt "...dễ thương.") vẫn giữ "dễ thương", câu gắt của My ở sh050 ("Anh chỉ biết nói mỗi dễ thương thôi hả?") cũng vẫn vậy — running gag 3 lần "dễ thương" giờ chỉ còn 2 lần + 1 lần "đáng yêu" ở sh020. Chờ Richard chốt có đổi theo sh040/sh060 không.

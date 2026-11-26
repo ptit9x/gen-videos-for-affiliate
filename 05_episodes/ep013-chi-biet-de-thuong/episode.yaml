@@ -68,13 +68,13 @@ shots:
   flow_image_asset_id: null
 - shot_id: sh020
   approved_for_generation: true
-  dialogue: Dễ thương!
+  dialogue: Đáng yêu
   image_prompt:
     path: input/prompts/sh020-image.txt
     sha256: dd2a8162cbd65ac4693dd90d698e0400842d00c75243d53f724febe493d34257
   motion_prompt:
     path: input/prompts/sh020-motion.txt
-    sha256: 68417234dcdec3432355ff22300e03edfbbfa1a3a8cf6a2280d749134480f0fa
+    sha256: cca4adb3107e14b805622cf648fcf03bdff67d9a23192f893fb39ee77d1af6c6
   image_sources: []
   first_frame:
     path: input/frames/sh020-frame-v2.jpg
