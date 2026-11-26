@@ -83,10 +83,10 @@ shots:
   dialogue: Còn bộ cuối này thì sao? Anh chỉ biết nói mỗi dễ thương thôi hả?
   image_prompt:
     path: input/prompts/sh050-image.txt
-    sha256: 584c1debc842c1dae3fc686b5f9d838c842542b0c85d77e4cb2713b322a1fb7d
+    sha256: 07dc39aa60c2d31dbfad5625c5ae66da65011693a9ebe7a3455795a5ce6afd66
   motion_prompt:
     path: input/prompts/sh050-motion.txt
-    sha256: fe97288f824c698544852a521efca2871707de16fb05ac474244d101f4615531
+    sha256: 4f3a646850317a4f8454646ed6cf4537adc0bcbc01f07af6e1f6afeff87c0f84
   image_sources: []
   first_frame: null
   frame_status: missing_local

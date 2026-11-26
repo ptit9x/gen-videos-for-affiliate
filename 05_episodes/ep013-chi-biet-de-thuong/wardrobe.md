@@ -10,11 +10,11 @@ Link affiliate chung: https://s.shopee.vn/5LDVnTeC4f (aff-0001, váy SANJOLI). C
 |---|---|---|---|
 | sh010 | Hồng | `02_characters/thao-my/wardrobe/inbox/sanjoli-color-variants/vn-11134207-81ztc-mthrovmxsft48d.webp` | ep004 — https://flow.google.com/project/b19785af-f9bc-4736-a615-c8ca2bdf6ae7 |
 | sh030 | Kem | `02_characters/thao-my/wardrobe/inbox/ep002-sanjoli-kem/vn-11134207-81ztc-mthrovoch3ibe2.webp` | ep001/ep002 |
-| sh050 | Trắng | `02_characters/thao-my/wardrobe/inbox/sanjoli-color-variants/vn-11134207-81ztc-mthrovmm4g02e7.webp` | ep003 — https://flow.google.com/project/ffee54dc-efb7-418c-9746-c8717e3f6441 |
+| sh050 | Đen | `02_characters/thao-my/wardrobe/sanjoli-maxi-dress-black-reference.png` | ep006 — https://flow.google.com/project/c9fd3958-630c-47e1-8020-6d1db947a4b1 |
 
 - Son: **son đỏ**. Móng: **móng tự nhiên** (chuẩn ep006/ep007, theo luật QC 19/11) — ghi rõ trong mọi image prompt và kiểm tra lúc QC frame.
 - Nốt ruồi cằm trái giữ nguyên.
-- Lưu ý: kem và trắng dễ lẫn dưới đèn vàng phòng khách — khi làm frame ghi rõ màu từng bộ + kiểm tra 3 frame cạnh nhau trước khi gen clip. Tóc dài xõa cả 3 shot, giữ nguyên kiểu tóc.
+- Lưu ý (26/11, Richard chốt đổi sh050 trắng → đen): 3 màu hồng/kem/đen tách rõ nhau dưới đèn vàng, hết rủi ro kem–trắng lẫn như bản draft cũ. Váy xanh ep005 làm dự phòng nếu cần thêm. Khi làm frame vẫn ghi rõ màu từng bộ + kiểm tra 3 frame cạnh nhau trước khi gen clip. Tóc dài xõa cả 3 shot, giữ nguyên kiểu tóc.
 
 ## Chàng trai — CHỐT: Nam ep008 (25/11/2026)
 

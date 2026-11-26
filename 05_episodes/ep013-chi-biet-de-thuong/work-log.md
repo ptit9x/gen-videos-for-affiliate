@@ -39,3 +39,9 @@
 - Refs lấy lại qua picker, không upload mới: mặt My ThaoMy002 (project EP003), Nam từ project ep008, váy hồng từ project ep004, váy trắng từ project ep003. Váy kem: sổ đăng ký chưa ghi rõ project Flow — lấy file local `02_characters/thao-my/wardrobe/inbox/ep002-sanjoli-kem/vn-11134207-81ztc-mthrovoch3ibe2.webp` đưa vào project ep013 khi làm sh030.
 - Nền phòng khách: ảnh review thao-my-living-room-v001.png (ban ngày) CHƯA duyệt, chưa có master — frame sh010 sẽ khóa nền buổi tối, trình Richard duyệt nền trước khi làm nốt 5 frame.
 - CHỜ: gen lại sh020 ep012 đang chạy (bắt đầu 06:31, kẹt kiểm tra bot Flow) — KHÔNG mở task Flow song song. Gen ep012 xong mới tạo project 'CNTM · EP013 · Chỉ Biết Dễ Thương' + làm sh010.
+
+## 2026-11-26 06:58 — Richard chốt đổi sh050 trắng → đen (3 váy hồng/kem/đen, xanh dự phòng)
+
+- Richard tự rà lại: váy hồng ở tập Chia Bill (ep004), váy đen ở tập Hẹn Hò Một Mình (ep006), váy kem đúng; chốt dùng 3 váy, váy xanh ep005 (Hẹn Hò Với Mẹ Anh) làm dự phòng nếu cần thêm.
+- Đổi sh050 trắng → đen trong wardrobe.md, script.md, prompt sh050 (image + motion), cập nhật sha vào episode.yaml; validator đạt (exit 0). Lợi thêm: đen tách rõ khỏi kem/hồng dưới đèn vàng, hết hẳn rủi ro kem–trắng lẫn như bản draft cũ.
+- Gen sh020 ep012 đã xong 06:53 (take005, commit 6fba92f) — Flow rảnh, làm sh010 ngay sau commit này.

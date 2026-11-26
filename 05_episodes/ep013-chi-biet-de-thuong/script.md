@@ -16,7 +16,7 @@ Phòng khách căn hộ buổi tối. My thay 3 bộ đồ, lần lượt khoe v
 
 ### Thảo My (sh010, sh030, sh050)
 - Mặt/tóc: `thao-my-face-front-v002.png` (sha256 `8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4`); body: `thao-my-body-front-v003-face-v002-review.png`. Nguồn tại `02_characters/thao-my/approved/`.
-- Trang phục: **đề xuất — 3 váy SANJOLI khác màu, mỗi shot một màu** (xem `wardrobe.md`): sh010 hồng, sh030 kem, sh050 trắng. Ba màu phải khác rõ nhau trên hình để khán giả thấy cô thay đồ thật — frame nào 2 màu nhìn giống nhau thì làm lại frame, không gen clip.
+- Trang phục: **đề xuất — 3 váy SANJOLI khác màu, mỗi shot một màu** (xem `wardrobe.md`): sh010 hồng, sh030 kem, sh050 đen. Ba màu phải khác rõ nhau trên hình để khán giả thấy cô thay đồ thật — frame nào 2 màu nhìn giống nhau thì làm lại frame, không gen clip.
 - Son đỏ + móng tự nhiên (quy tắc QC 19/11: ghi rõ trong mọi image prompt, kiểm tra từng frame).
 - Diễn xuất: sh010 xoay người khoe váy, cười tươi; sh030 xoay người, chờ đợi; sh050 chống nạnh, gắt nhưng vẫn đáng yêu (không quát tháo), mắt mở to.
 
@@ -37,7 +37,7 @@ Phòng khách căn hộ buổi tối. My thay 3 bộ đồ, lần lượt khoe v
 | sh020 | Nam | "Dễ thương!" | 2 | Ngồi sofa, mắt tròn, cười khoái, gật đầu | Cận vừa Nam, nhìn My ngoài khung | 8s |
 | sh030 | Thảo My | "Thế còn bộ này?" | 4 | Xoay người khoe váy kem, chờ đợi | Cận vừa My, nhìn Nam ngoài khung | 8s |
 | sh040 | Nam | "Ừm... dễ thương!" | 3 | Ngập ngừng, gãi đầu, cười trừ | Cận vừa Nam, nhìn My ngoài khung | 8s |
-| sh050 | Thảo My | "Còn bộ cuối này thì sao? Anh chỉ biết nói mỗi dễ thương thôi hả?" | 15 | Xoay người khoe váy trắng rồi chống nạnh, gắt | Cận vừa My, nhìn Nam ngoài khung | 8s |
+| sh050 | Thảo My | "Còn bộ cuối này thì sao? Anh chỉ biết nói mỗi dễ thương thôi hả?" | 15 | Xoay người khoe váy đen rồi chống nạnh, gắt | Cận vừa My, nhìn Nam ngoài khung | 8s |
 | sh060 | Nam | "Ồ... thì... phối kiểu... dễ thương." | 6 | Cúi đầu ấp úng, tay vân vê gối sofa | Cận vừa Nam, giữ mặt Nam 2s cuối | 8s |
 
 **Câu chốt quotable:** "Ồ... thì... phối kiểu... dễ thương."
@@ -52,9 +52,9 @@ Phòng khách căn hộ buổi tối. My thay 3 bộ đồ, lần lượt khoe v
 - **Số tập ep013 (đổi số 25/11):** tập này viết xong lúc đầu là ep030 (ep026–ep028 đã giữ cho 3 draft Ghost, ep029 đã có trong repo). Richard 16:37 chốt đổi thành ep013 để làm sớm hơn, Gym lùi xuống ep030 — xem work-log.
 - **sh050 có 2 câu trong 1 shot (15 từ) — cờ vàng theo luật 1 shot = 1 câu:** draft đã duyệt giữ nguyên 2 câu vì câu gắt phải đi liền câu khoe váy trắng ("Còn bộ cuối này thì sao?" là cú mở cho câu gắt). Nếu take 1 Veo đọc vội/cắt câu thì phương án dự phòng đã chuẩn bị, chỉ dùng khi cần và phải báo Richard trước khi đổi thoại: gộp thành 1 câu "Còn bộ cuối này, anh vẫn chỉ biết nói mỗi dễ thương thôi hả?" (14 từ). Không tự sửa thoại khi chưa báo.
 - **"Dễ thương!" lặp 3 lần — diễn xuất phải khác nhau:** sh020 hào hứng, sh040 ngập ngừng + "Ừm...", sh060 ấp úng kéo dài "Ồ... thì... phối kiểu...". Nếu 3 take đọc đều nhau như nhau thì gag chết — lúc chọn take phải nghe cả 3 liền nhau, không nghe rời.
-- **3 màu váy phải khác rõ:** hồng / kem / trắng theo thứ tự sh010 → sh030 → sh050. Kem và trắng dễ lẫn dưới đèn vàng — khi làm frame ghi rõ màu từng bộ + kiểm tra 3 frame cạnh nhau trước khi gen clip.
+- **3 màu váy phải khác rõ:** hồng / kem / đen theo thứ tự sh010 → sh030 → sh050 (Richard chốt 26/11, đổi sh050 trắng → đen; váy xanh ep005 dự phòng). Ba màu tách rõ dưới đèn vàng — khi làm frame vẫn ghi rõ màu từng bộ + kiểm tra 3 frame cạnh nhau trước khi gen clip.
 - **Giọng:** thoại viết giọng Bắc. My giữ tiếng Veo gốc nếu đúng giọng Bắc, sai thì tắt native và lồng clone ThaoMy (wordalign, như ep010/ep011). Nam giữ nguyên tiếng gốc Veo, không lồng giọng ThaoMy vào Nam (quy tắc ep012).
-- **Trang phục My:** 3 váy SANJOLI theo draft — chưa chốt cứng, xem `wardrobe.md`. Đổi màu/bộ khác thì nói trước khi làm frame.
+- **Trang phục My:** 3 váy SANJOLI hồng/kem/đen — Richard chốt 26/11 (đổi sh050 trắng → đen; váy xanh ep005 dự phòng), xem `wardrobe.md`.
 - **Affiliate:** 3 màu váy SANJOLI đều thuộc aff-0001 (link Shopee đã có) — xem `wardrobe.md`. Chưa gắn link vào bài, chưa đăng.
 - **Laugh Track:** cú chốt sh060 là ngọt + ngơ, không phải punchline gắt — Laugh Track 1 ở cuối có thể hợp hoặc lạc tone. Quyết lúc dựng master, sau khi nghe take chốt; mặc định để Laugh Track 1, nếu nghe lạc thì bỏ.
 
