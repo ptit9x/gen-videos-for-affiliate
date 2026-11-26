@@ -3,7 +3,7 @@ episode_id: ep013
 revision: 1
 title: Chỉ Biết Dễ Thương
 editorial_status: script_approved
-flow_project: https://flow.google.com/project/2eee36ea-3b8f-486c-a531-520cf34e242f
+flow_project: https://flow.google.com/project/7ac61787-27b9-4022-ac91-fe3f15d02414
 generation:
   mode: frames
   agent: false
@@ -44,6 +44,13 @@ shots:
         path: generated/sh010-take001.mp4
         sha256: 37fe1f564d1f2472f06a3740cc40cc6458af1e45f804a039a1e2c4cc0d97890f
       note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 8 tu "Anh xem giup em bo nay, thay sao?" 0.00-1.96s; F0 median 230Hz (giong nu). Hinh: vay hong, xoay nguoi cuoi, khong chu gia. NHUNG mat lech khoi frame da duyet (mat tron/rong hon, mat + cuoi khac) — Richard 13:57: "mat nay khong giong ThaoMy" → REJECT, can gen lai take002 prompt + frame y nguyen (10cr).'
+    - take_id: take002
+      clip_id: 00fb14d4-a68c-433c-8be9-b2051ccd432b
+      status: needs_review
+      file:
+        path: generated/sh010-take002.mp4
+        sha256: 0e4bdc0379130745a2455f63294a862677c9c2b4f6bc4fb702cc778924d54baf
+      note: 'Frames-direct, project MOI tinphim 7ac61787 (26/11 17:05), Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 8 tu "Anh xem giup em bo nay, the sao?" 0.00-2.22s (nghe "the" thay "thay" — co the Veo phat am gan giong, can Richard nghe lai); 1 burst thoai duy nhat (energy 0.3-2.3s), khong lap cau; F0 median ~258Hz (giong nu). Hinh: vay hong ro, xoay nguoi cuoi, mat khop frame da duyet (khong tron/rong nhu take001); 4s quay lung theo dong tac xoay. Nit: watermark Veo + sao Gemini goc phai duoi (crop luc dung). So du tinphim sau clip: 40cr.'
   flow_image_asset_id: 568a427c-632d-4b79-b022-dbd415ac2662
 - shot_id: sh020
   approved_for_generation: true
