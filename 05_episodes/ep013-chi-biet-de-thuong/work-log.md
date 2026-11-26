@@ -98,3 +98,40 @@
 - Frame mới: 1 lần gen Nano Banana 2.1 từ refs (ThaoMy002 + váy hồng ep004 + phòng khách, qua picker, 0 credit), asset MỚI 568a427c-632d-4b79-b022-dbd415ac2662 (tách khỏi asset sh010 cũ cea46e42). File: `~/workspace/ep013-source-check/sh010-fresh.png` (768×1376, sha 4e3c4427…).
 - Bee QC: mặt SẠCH, KHÔNG nốt ruồi (detector + xem crop mặt); váy hồng rõ; phòng khách buổi tối giống nền v2 đã duyệt (sofa be + 2 tranh + bàn gỗ + ban công tối); ngực đầy đặn tự nhiên; không chữ/logo. Khác v2: dáng đứng chính diện hơn, đầu quay phải, cười tươi lộ răng (v2 xoay 3/4). Sao Gemini nhỏ góc phải dưới (nit cũ).
 - CHỜ: Richard duyệt frame mới → làm nốt 5 frame (sh020–sh060, prompt đã bỏ nốt), kiểm tra 3 váy cạnh nhau, map frame vào episode.yaml + validator + commit.
+
+## 2026-11-26 09:01–09:06 — sh020 framing: Richard muốn sát mặt Nam hơn
+- sh020 v1 (Nam ngồi sofa, medium shot) + v2 close-up (crop 480×854 tại x80,y400 + lanczos upscale → 768×1376, mặt giữ nguyên pixel) đã trình; Richard: "sát nữa vào, lấy nửa người và không góc nghiêng" + "thẳng mặt đi".
+- Crop KHÔNG xoay được mặt (v1/v2 mặt Nam đang nghiêng 3/4 nhìn sang trái) → cần gen mới: Nam nhìn thẳng vào máy quay, nửa người (ngực trở lên), mặt lớn trong khung.
+- Chuẩn bị ref: `~/workspace/ep013-source-check/nam-front-tight.jpg` — crop chặt mặt + vai từ master Nam frontal v002 (sha 340a246d, mặt chính diện, 2 mắt đối xứng) để neo cỡ mặt lớn.
+- CHỜ: task Flow retry sh040/sh050/sh060 đang chạy — KHÔNG chạy 2 task Flow song song. Gen lại sh020 frontal ngay khi task kia xong, dùng ref Nam tight + Nam character qua picker + phòng khách, prompt sửa "nhìn thẳng vào máy quay, mặt chính diện".
+
+## 2026-11-26 08:44–09:00 — Gen 5 frame còn lại: sh020 + sh030 xong, sh040/sh050/sh060 chặn "unusual activity"
+- Batch 5 frame (1 lần gen/frame, 0 credit): sh020 Nam cười khoái (asset e469973a, file sh020-v1.png sha ebcac554…) + sh030 My váy kem (asset d8c7f1cd, file sh030-v1.png sha 4420c9c5…) XONG + tải về. Bee QC: sh020 mặt khớp Nam, áo trắng + jean đen, phòng khách y hệt; sh030 váy kem rõ khác hẳn hồng, mặt sạch không nốt (detector + xem trực tiếp), nit: đèn bàn lọt thêm vào nền.
+- sh040/sh050/sh060: Flow chặn "Chúng tôi nhận thấy có hoạt động bất thường nào đó..." sau 2 lần gen liên tiếp, KHÔNG tốn credit, không retry trong lượt đó. Bài học: gen liên tiếp 2 frame là chạm ngưỡng — phải chờ + gen từng cái cách nhau.
+
+## 2026-11-26 09:01–09:17 — Retry sh040/sh050/sh060: CẢ 3 XONG
+- Chờ 5 phút + gen từng cái cách nhau ~1 phút → cả 3 đều qua, không bị chặn. sh040 Nam gãi đầu (asset d7cf4553, sh040-v1.png sha af781fed…); sh050 My váy đen chống nạnh (asset 713a3c42, sh050-v1.png sha 66ff37f2…, váy HLS L14 đen tuyền, mặt sạch không nốt); sh060 Nam cúi đầu vân vê gối (asset 24b59127, sh060-v1.png sha 8efc9def…). Bee QC đạt cả 3. Nit continuity: lọ hoa tulip trên bàn trà lúc có (sh020/sh040/sh060) lúc không (sh010/sh030/sh050).
+- Đủ 6 frame. Dress check: hồng sh010 H8 L68 / kem sh030 ấm / đen sh050 L14 — 3 màu phân biệt rõ.
+
+## 2026-11-26 09:05–09:21 — sh020 frontal: Richard muốn sát mặt, nửa người, mặt thẳng
+- sh020 v2 close-up (crop 480×854 tại x80,y400 + lanczos upscale từ v1, mặt giữ nguyên pixel) đã trình; Richard: "sát nữa vào, lấy nửa người và không góc nghiêng" + "thẳng mặt đi". Crop không xoay được mặt → gen mới.
+- Richard: "ok 10 phút sau hẵng làm lại cho chắc" → hẹn giờ sleep 600s (09:07–09:17), gen sau khi đủ 10 phút + task retry xong.
+- Gen mới 09:18–09:21 (1 lần, 0 credit): ref Nam character qua picker + crop mặt chính diện `nam-front-tight.jpg` (640×940, từ master Nam frontal v002 sha 340a246d) + phòng khách. Asset MỚI ba0fd264, file `~/workspace/ep013-source-check/sh020-frontal-v1.png` (768×1376, sha de841d4e…). Bee QC: mặt Nam thẳng vào máy quay, nửa người ngực trở lên, mặt to trong khung, nền cắt gọn, mặt khớp Nam. Asset cũ e469973a vẫn nằm trong project (không xóa).
+- CHỜ: Richard duyệt sh040/sh050/sh060 + sh020 frontal → map 4 frame vào episode.yaml (thay sh020 v1 bằng frontal v2) + validator + commit → kiểm tra continuity cả 6 frame cạnh nhau → gen 6 clip Veo 3.1 Lite (60 credit) sau khi đủ frame duyệt.
+
+## 2026-11-26 09:36–09:49 — sh020 frontal v1/v2: Richard bắt sai vị trí — Nam phải đối diện My, phía cửa ra vào
+- v1 frontal (asset ba0fd264, mặt thẳng, nửa người, giữa khung): Richard 09:36 "Nam ở góc khác đi, góc đó là ThaoMy đứng rồi mà, background sau ấy" — Nam ngồi giữa khung = đúng chỗ My đứng trong các shot của cô ấy, nền tranh + ban công y hệt.
+- v2 (asset 411ad989, ngồi đầu phải sofa, người nghiêng, liếc máy): Richard 09:46 "ko đúng, ngồi đối diện ThaoMy chứ" — người Nam xoay ngang, không hướng về phía My. Bee hiểu sai 2 lần: "góc khác" không phải đổi góc trong khung mà là đổi VỊ TRÍ trong phòng.
+- Richard 09:49 chốt: "Nam sẽ phải ngồi ở góc đối diện ThaoMy, tức là hướng cửa ra vào" — Nam ngồi góc đối diện My, phía cửa ra vào; mặt hướng thẳng về phía My; nền sau là cửa ra vào + tủ giày, KHÔNG sofa/tranh/ban công. Ghế: ghế bành đơn gần cửa (Bee tự chọn — sofa nằm phía My).
+- v3 (ngồi trái khung, hướng thẳng máy quay) gửi 09:47: Flow CHẶN "unusual activity" 09:49 — gen thứ 3 trong ~11 phút, không tốn credit, không có asset mới, không retry trong lượt. Bài học: gen sh020 dồn dập 3 lượt/11 phút là chạm ngưỡng; lần sau chờ 5 phút giữa các lượt gen cùng 1 frame.
+- ĐANG CHẠY: retry v4 với blocking cửa ra vào + chờ 5 phút trước khi submit (theo đúng mẫu retry sh040/50/60 đã thành công).
+
+## 2026-11-26 09:50–09:58 — sh020 v4 (cửa ra vào): Flow chặn lần 2 — cứu bằng media pipeline
+- Retry v4 (ghế bành gần cửa ra vào, mặt hướng My, nền cửa + tủ giày) sau 5 phút nghỉ: Flow CHẶN lần 2 liên tiếp ("unusual activity"), không tốn credit, không có asset mới. 5 phút nghỉ KHÔNG đủ lần này (khác đợt sh040/50/60). Bài học: sau 2 lần chặn liên tiếp thì đừng gen Flow dồn nữa — nghỉ dài hơn hoặc đổi đường.
+- Fallback (tiền lệ ep008: Flow chặn 3 shot Nam → media pipeline cứu 3/3): gen bằng media pipeline của Bee từ ảnh mặt Nam (nam-front-tight.jpg) — file `~/workspace/ep013-source-check/sh020-door-v1.png` (sha befe23d6…). Bee QC: mặt khớp Nam, mặt thẳng vào máy, nửa người, mặt to; nền cửa gỗ + tủ giày có giày, KHÔNG sofa/tranh/ban công; áo trắng + jean đen; không chữ/logo/sao Gemini. Nit: ghế bành xám (khác sofa be — hợp lý vì góc cửa), ánh sáng sáng hơn các shot kia một chút.
+- CHỜ: Richard duyệt frame cửa ra vào này (hoặc chọn retry Flow sau khi nghỉ dài).
+
+## 2026-11-26 12:04 — sh020 CHỐT bản cửa ra vào, đã map vào hồ sơ
+- Richard 👍 bản door-side (media pipeline) 12:04 → CHỐT làm sh020.
+- Map: `input/frames/sh020-frame-v2.jpg` (1152×2048, sha 59752aa5…, từ sh020-door-v1.png sha befe23d6…); episode.yaml sh020 → first_frame v2, image_prompt + motion_prompt viết lại theo blocking cửa ra vào (ghế bành gần cửa, mặt hướng My), flow_image_asset_id: null (tiền lệ ep008: frame media pipeline ghi null). frame_status approved, approved_for_generation true. Frame rộng cũ sh020-frame-v1.jpg giữ nguyên trong thư mục (không xóa).
+- CHỜ: Richard duyệt sh040/sh050/sh060 (đã trình 09:21, chưa gật) → map 3 frame → kiểm tra continuity cả 6 frame → gen 6 clip Veo 3.1 Lite (60 credit).

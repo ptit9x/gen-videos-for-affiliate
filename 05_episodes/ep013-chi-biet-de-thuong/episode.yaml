@@ -43,17 +43,17 @@ shots:
   dialogue: Dễ thương!
   image_prompt:
     path: input/prompts/sh020-image.txt
-    sha256: 192beabd1af0b1ddd6bffc2682e2ac69737bb76023abfbcd6b5026f055a0d5de
+    sha256: dd2a8162cbd65ac4693dd90d698e0400842d00c75243d53f724febe493d34257
   motion_prompt:
     path: input/prompts/sh020-motion.txt
-    sha256: 7c7cd0dfa52c90ae58765f7fce65388e5ab64f6bd693d37d72f9321e33e52c78
+    sha256: 68417234dcdec3432355ff22300e03edfbbfa1a3a8cf6a2280d749134480f0fa
   image_sources: []
   first_frame:
-    path: input/frames/sh020-frame-v1.jpg
-    sha256: 3c28f1335f37f4d2bc5573c460d338b7217a6df890b9a83ade6472aa9b51e5ac
+    path: input/frames/sh020-frame-v2.jpg
+    sha256: 59752aa592024645616d242680076d3561dbf7fce45d3d70f06dc7eb6f594db9
   frame_status: approved
   takes: []
-  flow_image_asset_id: e469973a-3180-49ee-9116-faed33bbe2d4
+  flow_image_asset_id: null
 - shot_id: sh030
   approved_for_generation: true
   dialogue: Thế còn bộ này?
