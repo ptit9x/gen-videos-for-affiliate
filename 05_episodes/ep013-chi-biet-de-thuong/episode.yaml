@@ -39,11 +39,11 @@ shots:
   takes:
     - take_id: take001
       clip_id: af4a540f-176d-4f83-80a9-5688290ec8c6
-      status: needs_review
+      status: rejected_editorial
       file:
         path: generated/sh010-take001.mp4
         sha256: 37fe1f564d1f2472f06a3740cc40cc6458af1e45f804a039a1e2c4cc0d97890f
-      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 8 tu "Anh xem giup em bo nay, thay sao?" 0.00-1.96s; F0 median 230Hz (giong nu). Hinh: mat khop, vay hong, xoay nguoi cuoi, khong chu gia; Veo watermark goc phai duoi (crop luc dung). De xuat CHOT neu Richard nghe giong Bac.'
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 8 tu "Anh xem giup em bo nay, thay sao?" 0.00-1.96s; F0 median 230Hz (giong nu). Hinh: vay hong, xoay nguoi cuoi, khong chu gia. NHUNG mat lech khoi frame da duyet (mat tron/rong hon, mat + cuoi khac) — Richard 13:57: "mat nay khong giong ThaoMy" → REJECT, can gen lai take002 prompt + frame y nguyen (10cr).'
   flow_image_asset_id: 568a427c-632d-4b79-b022-dbd415ac2662
 - shot_id: sh020
   approved_for_generation: true

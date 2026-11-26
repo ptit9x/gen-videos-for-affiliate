@@ -148,3 +148,8 @@
 - CREDIT — ĐÍNH CHÍNH: số dư đầu lượt là 40 (không phải ~100 như Bee ước), 2 clip tốn 20, còn 20. 5 clip còn lại (sh030/40/50/60 + sh020 take002) cần 50 credit — thiếu 30. Refresh hằng ngày lúc 23:07 (số credit refresh chưa rõ).
 - QC take: sh010 take001 — Whisper base đủ 8 từ đúng thứ tự 0.00-1.96s, F0 median 230Hz (giọng nữ); hình mặt khớp, váy hồng, xoay người cười, không chữ giả → needs_review, đề xuất CHỐT nếu Richard nghe giọng Bắc. sh020 take001 — REJECT: clip KHÔNG CÓ ÂM THANH (Flow "Chưa tạo âm thanh nào", ffprobe không audio stream, năng lượng 0) + Nam cười há miệng suốt → cần gen lại take002. faster-whisper đã mất sau VM restart, cài lại bằng pip --ignore-installed (numpy lên 2.5.5, scipy vẫn import được, chỉ warning).
 - CHỜ: Richard chọn — (A) chờ refresh 23:07 rồi gen cả 5, hoặc (B) gen 2 clip nữa sau khi nghỉ (sh030+sh040) rồi gen nốt sau refresh.
+
+## 2026-11-26 13:57 — sh010 take001 REJECT: mặt không giống ThaoMy
+- Richard xem frame clip 5s: "mặt này không giống ThaoMy". Bee soi frame đã duyệt vs clip cạnh nhau: mặt clip tròn/rộng hơn, mắt + nụ cười khác hẳn — Veo drift mặt dù gen từ đúng frame đã duyệt. Take001 → rejected_editorial.
+- Fix: gen lại take002, prompt + frame y nguyên (10cr) — lỗi drift ngẫu nhiên thì re-roll. Tổng clip còn cần: 6 (sh010 take002 + sh020 take002 + sh030/40/50/60), cần 60cr, số dư 20, refresh 23:07.
+- CHỜ: Richard chọn — (A) chờ refresh 23:07 rồi gen cả 6, hoặc (B) gen 2 clip nữa sau khi nghỉ.
