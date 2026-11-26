@@ -39,7 +39,7 @@ shots:
   takes: []
   flow_image_asset_id: 568a427c-632d-4b79-b022-dbd415ac2662
 - shot_id: sh020
-  approved_for_generation: false
+  approved_for_generation: true
   dialogue: Dễ thương!
   image_prompt:
     path: input/prompts/sh020-image.txt
@@ -48,12 +48,14 @@ shots:
     path: input/prompts/sh020-motion.txt
     sha256: 7c7cd0dfa52c90ae58765f7fce65388e5ab64f6bd693d37d72f9321e33e52c78
   image_sources: []
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh020-frame-v1.jpg
+    sha256: 3c28f1335f37f4d2bc5573c460d338b7217a6df890b9a83ade6472aa9b51e5ac
+  frame_status: approved
   takes: []
-  flow_image_asset_id: null
+  flow_image_asset_id: e469973a-3180-49ee-9116-faed33bbe2d4
 - shot_id: sh030
-  approved_for_generation: false
+  approved_for_generation: true
   dialogue: Thế còn bộ này?
   image_prompt:
     path: input/prompts/sh030-image.txt
@@ -62,10 +64,12 @@ shots:
     path: input/prompts/sh030-motion.txt
     sha256: afa3ea256436f892ac2c52555acd5d49b6642bd1f34c98b07dacd8301b511e8b
   image_sources: []
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh030-frame-v1.jpg
+    sha256: 33ae748ed13f75b7b685aac9d63bd78f11240ea2d1370f3c167884be005dfa36
+  frame_status: approved
   takes: []
-  flow_image_asset_id: null
+  flow_image_asset_id: d8c7f1cd-8d47-487a-92bf-fea66b7367e0
 - shot_id: sh040
   approved_for_generation: false
   dialogue: Ừm... dễ thương!
