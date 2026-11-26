@@ -17,6 +17,8 @@ Body mặc áo thun trắng, quần short be, chân trần. Không suy ra số �
 
 Dùng đúng tên PNG; copy ảnh cần dùng vào `input/references/` của tập và ghi SHA-256 trong `episode.yaml`. Chọn ảnh đơn phù hợp, không dùng sheet. Sửa ảnh cảnh từ ảnh tham chiếu; video chỉ nhận một frame cảnh đầu đã duyệt. Không dựng lại mặt bằng chữ. `screen-left` là hướng mặt trên khung hình; không lật ảnh.
 
+Tái tạo nhân vật trong tài khoản Flow mới (tránh bị chặn "người nổi tiếng"): xem `RECREATE-FLOW-CHARACTER.md`.
+
 Trang phục tham chiếu body không thay trang phục tập: váy maxi satin đen SANJOLI vẫn theo hồ sơ hiện hành. Ảnh trong `wardrobe/` chỉ tham chiếu trang phục. Giọng VieNeu-TTS nữ miền Bắc đã chốt preset Đoan Trang; tắt tiếng gốc Veo khi dựng.
 
 ## Xuất xứ
