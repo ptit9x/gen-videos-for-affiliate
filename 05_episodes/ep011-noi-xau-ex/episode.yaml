@@ -2,7 +2,7 @@ schema_version: 2
 episode_id: ep011
 revision: 2
 title: "Nói Xấu Ex"
-editorial_status: script_approved
+editorial_status: published
 flow_project: https://flow.google.com/project/ce074482-b99e-47c9-87e9-18cb86fa091a
 generation:
   mode: frames

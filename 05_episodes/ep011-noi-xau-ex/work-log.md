@@ -152,3 +152,10 @@
 - Facebook Page Chuyện Nhà Thảo My (273224542851642): post 4656304111293707, Public, cùng caption, KHÔNG gắn link aff-0006 (chưa xác nhận màu/giá Shopee), cover set qua Thumbnail upload.
 - publications.csv: 2 dòng scheduled (ep011-noi-xau-ex, tiktok + facebook), master_revision ep011-master-2k.mp4, verified_at trống. Chưa ghi published — chỉ ghi sau khi xác minh lên sóng 19:20 26/11.
 - Cron xác minh `ep011-record-publication` 19:20 26/11 — chỉ like Facebook, KHÔNG comment aff-0006 (chưa xác nhận Shopee).
+
+## 2026-11-26 19:20–19:24 — ĐÃ LÊN SÓNG, xác minh xong (cron ep011-record-publication)
+- TikTok @chuyennhathaomy ĐÃ ĐĂNG 19:00: https://www.tiktok.com/@chuyennhathaomy/video/7711645254763564295 — public (Everyone, TikTok Studio ghi "Nov 26, 7:00 PM", 00:28), caption đúng ("Bốn mối mà lần nào cũng lỗi người ta. Hay thật đấy anh. 😌" + #chuyennhathaomy #phimnganai #haiviet #shorts), nhãn AI bật ("Creator labeled as AI-generated"), bìa mặt Thảo My chống cằm (sh020 1.6s). 9 views, 0 like, 0 comment lúc xác minh 19:21.
+- Facebook Page Chuyện Nhà Thảo My ĐÃ ĐĂNG 19:00: https://www.facebook.com/reel/1140290615588011/ — reel ID công khai 1140290615588011 (KHÁC ID hẹn giờ 4656304111293707 — đó chỉ là ID lịch hẹn; Business Suite content ID 1240376544988502). Đã biến mất khỏi tab Scheduled (chỉ còn ep012 hẹn 27/11). Public ("Shared with Public"), caption đúng, KHÔNG có link affiliate. 3 views lúc 19:22 → 9 views lúc 19:24.
+- Like Facebook: Page Chuyện Nhà Thảo My like MỚI lúc 19:24 (trước đó 0 like; sau khi bấm public page hiện "Remove Like, 1 reaction"). KHÔNG comment aff-0006 (chưa xác nhận màu/giá Shopee).
+- Không lệch gì so với bản hẹn (caption, bìa, giờ đăng, nhãn AI TikTok đều đúng; không có nhãn AI trên Facebook web là giới hạn đã biết, không tính lỗi).
+- Repo: publications.csv 2 dòng scheduled → published (URL thật + bằng chứng), tracker ep011 → published, episode.yaml editorial_status → published. Commit riêng sau bước này.
