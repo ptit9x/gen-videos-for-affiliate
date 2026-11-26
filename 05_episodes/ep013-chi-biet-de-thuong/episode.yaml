@@ -74,7 +74,7 @@ shots:
     sha256: dd2a8162cbd65ac4693dd90d698e0400842d00c75243d53f724febe493d34257
   motion_prompt:
     path: input/prompts/sh020-motion.txt
-    sha256: cca4adb3107e14b805622cf648fcf03bdff67d9a23192f893fb39ee77d1af6c6
+    sha256: 25ffe8568544ca7a504838f850fa53fbadcdad096342af6b0f20f78f9ce8348e
   image_sources: []
   first_frame:
     path: input/frames/sh020-frame-v2.jpg

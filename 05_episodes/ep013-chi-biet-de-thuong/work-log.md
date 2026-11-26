@@ -238,3 +238,7 @@
 - Gen lại 1 lần, câu mới "Đáng yêu", còn lại y nguyên (frame v2, Veo 3.1 Lite). Flow lại báo đúng lỗi cũ: "Không tạo được âm thanh. Vui lòng thử một câu lệnh khác hoặc gửi ý kiến phản hồi." Không có clip. Browser không bấm Retry.
 - KẾT LUẬN: đổi câu thoại KHÔNG sửa được lỗi — nguyên nhân không phải chữ "Dễ thương!". Shot sh020 lỗi âm thanh 3 lần liên tiếp (take001 câm, take002 lần 1 + lần 2 lỗi audio). Nghi: Veo khó tạo audio cho shot này (nam cười khoái + câu ngắn?), hoặc lỗi nhất thời của Flow. Số dư: vẫn 20cr (không bị trừ / hoàn đã về).
 - Hướng còn lại: (a) gen video KHÔNG tiếng rồi lồng sau — nhưng Nam chưa có giọng clone (chỉ có clone ThaoMy nữ + BangTake2 cho Bằng; lồng Nam bằng giọng TTS nam khác sẽ lệch giọng các shot Nam còn lại); (b) thử lại sau; (c) sửa prompt (bỏ cười khoái / đổi hướng giọng); (d) để sh020 lại làm shot khác trước. Chờ Richard chọn.
+
+## 2026-11-27 06:39 — Richard chọn "thử lại sh020 với prompt sửa nhẹ"
+- Sửa nhẹ motion prompt (thoại vẫn "Đáng yêu", frame v2 giữ nguyên): "cười khoái" → "mỉm cười vui vẻ", "Nam nói:" → "Nam nói rõ ràng:" — giả thuyết: cười khoái khiến Veo cố tạo tiếng cười thay vì thoại rõ, nên audio lỗi. Giữ nguyên cảnh, giọng nam hào hứng, camera tĩnh, không nhạc.
+- Gen lại take002 (lần thử thứ 3 cho shot này, lần 1 với prompt sửa), Veo 3.1 Lite 10cr. Số dư tinphim: 20cr.
