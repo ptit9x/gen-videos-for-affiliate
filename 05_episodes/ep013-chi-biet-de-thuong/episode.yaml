@@ -27,7 +27,7 @@ shots:
   dialogue: Anh xem giúp em bộ này, thấy sao?
   image_prompt:
     path: input/prompts/sh010-image.txt
-    sha256: a365feaf2936a20143e648917884590e8d37c44f6b4d8082872cdfa3c26aa886
+    sha256: 40f1eba595e088a3c45383e3e6924ac8cf2fe2583f222872fc90710a17cee50c
   motion_prompt:
     path: input/prompts/sh010-motion.txt
     sha256: b45a255e3729afc1c7be119350ef861fd5bb83a0ac6a6546225e5df81e94e7ca
@@ -55,7 +55,7 @@ shots:
   dialogue: Thế còn bộ này?
   image_prompt:
     path: input/prompts/sh030-image.txt
-    sha256: c1a0ed4369dd9a4fef05af789123e337829163ad2b272b7a518e37af58aa6847
+    sha256: 352bdba4c2a2beb8af6b8d0ed87f5fa6b5ffb3fa2a1408a238eb2704a4a4aaf9
   motion_prompt:
     path: input/prompts/sh030-motion.txt
     sha256: afa3ea256436f892ac2c52555acd5d49b6642bd1f34c98b07dacd8301b511e8b
@@ -83,7 +83,7 @@ shots:
   dialogue: Còn bộ cuối này thì sao? Anh chỉ biết nói mỗi dễ thương thôi hả?
   image_prompt:
     path: input/prompts/sh050-image.txt
-    sha256: 07dc39aa60c2d31dbfad5625c5ae66da65011693a9ebe7a3455795a5ce6afd66
+    sha256: f94cd18a84a3576da255ec4b156dd00e73d6aeb13c313067fde80f159db36ecc
   motion_prompt:
     path: input/prompts/sh050-motion.txt
     sha256: 4f3a646850317a4f8454646ed6cf4537adc0bcbc01f07af6e1f6afeff87c0f84

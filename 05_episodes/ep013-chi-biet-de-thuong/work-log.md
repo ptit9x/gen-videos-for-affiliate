@@ -59,3 +59,36 @@
 - File tải về: browser_downloads/sess-920868313/browser-download-20261126T002743.104812894Z-2-sh010_376cedd0.png (768×1376, sha ba3ccc7e…).
 - Bee QC: ĐẠT — ngực đầy đặn hơn rõ rệt, vẫn tự nhiên; nốt ruồi về đúng cằm trái (dưới môi trái); mặt/tóc/váy hồng/nền giữ nguyên; sao Gemini nhỏ góc phải dưới vẫn còn (nit cũ).
 - CHỜ: Richard duyệt v2 → làm nốt 5 frame (dùng chung nền + chuẩn ngực/nốt ruồi của v2).
+
+## 2026-11-26 07:29–07:54 — Nốt ruồi sh010: v2 bị bắt lỗi, v3 Flow không cứu được, v4 sửa bằng pixel-edit (CHỜ duyệt)
+
+- Richard 07:29: nốt ruồi v2 "nhìn kinh thế, nó ở cằm bên kia mà" (sai bên + quá đậm); ngực thì ok. Ghi nhận: ngực + nền đã duyệt, chỉ còn nốt ruồi.
+- Soi kỹ bằng crop phóng to + đo pixel: v2 thực tế có 2 chấm — 1 nốt to đậm dưới môi lệch phải + 1 nốt nhỏ trên má; master ThaoMy002 chỉ có đúng 1 nốt rất nhỏ, mờ, dưới môi lệch trái một chút so với giữa cằm.
+- v3 (Flow, 6 edit Nano Banana trực tiếp trên v2, 0 credit): xóa được cả 2 nốt sai, còn đúng 1 nốt nhỏ — NHƯNG đo pixel thì nốt vẫn ở gần như chỗ cũ (x≈427, không dịch sang trái rõ), mặt mềm đi sau 6 lần sửa nối tiếp → KHÔNG dùng v3. File tải về: browser_downloads/sess-920868313/browser-download-20261126T004411.981150299Z-3-sh010_3c10afd3.png (sha cef4f9ab…).
+- v4 (pixel-edit trực tiếp trên mặt v2 đã duyệt, KHÔNG qua Flow): file `~/workspace/ep013-source-check/sh010-v4-molefix.png` (768×1376, sha 03738f88…). Xóa nốt thừa trên má bằng Laplace inpaint; đặt đúng 1 nốt nhỏ mờ (Gaussian alpha, r≈1.8px) tại (412,516) — dưới môi, cằm trái theo hướng nhìn vào ảnh, khớp vị trí tương đối trên master. Mặt/ngực/nền giữ nguyên 100% v2 (diff chỉ quanh vùng sửa; detector xác nhận: má sạch, đúng 1 nốt mới, mọi cluster khác y hệt v2).
+- Bài học đo được: "nốt to" dưới môi hóa ra là MÉP TÓC (vệt tối dọc x≈427, y 512–548, lum 3–27) chứ không phải nốt ruồi tròn — đừng xóa mép tóc; kiểm tra hình dạng bằng crop neighbor + profile độ sáng, đừng tin zoom Lanczos (nó biến mép tóc thành chấm tròn). Nano Banana KHÔNG dịch được chi tiết 2–3px (6 lần sửa vẫn về cùng chỗ) — sửa nốt ruồi thì làm pixel-edit trên frame đã duyệt.
+- CHỜ: Richard duyệt v4 → làm nốt 5 frame (sh020–sh060), kiểm tra 3 váy cạnh nhau, map frame vào episode.yaml + validator + commit.
+
+## 2026-11-26 08:09 — Richard: bỏ hẳn nốt ruồi (v5, mặt sạch)
+
+- Richard: "chưa đúng, bỏ nốt ruồi đi vậy" → bỏ hẳn nốt ruồi khỏi frame sh010, không đặt lại.
+- v5 (pixel-edit trên v4): xóa nốt v4 tại (412,516) bằng Laplace inpaint r=4; file `~/workspace/ep013-source-check/sh010-v5-nomole.png` (768×1376, sha a0d963f0…). Detector xác nhận vùng cằm/má sạch nốt (chỉ còn mép tóc + các chi tiết gốc của v2); mặt/ngực/nền giữ nguyên 100% v2.
+- QUYẾT ĐỊNH ÁP CHO CẢ TẬP (để đồng nhất): 5 frame còn lại cũng bỏ nốt ruồi — khi làm frame mới, nếu Nano Banana vẽ nốt ruồi theo master thì xóa bằng pixel-edit trước khi trình. Nốt ruồi vẫn là đặc điểm của master ThaoMy002 trong hồ sơ nhân vật; riêng tập ep013 chốt mặt sạch không nốt.
+- CHỜ: Richard duyệt v5 → làm nốt 5 frame (sh020–sh060), kiểm tra 3 váy cạnh nhau, map frame vào episode.yaml + validator + commit.
+
+## 2026-11-26 08:10–08:35 — Richard: "chưa sạch" (v5 còn 2 nốt) → v9, mặt sạch
+
+- Vấn đề thật của v5: còn 2 nốt — nốt cằm lớn (432,502) + chấm má nhỏ (421,479). Lỗi của tao: các bản v4/v5/v6 đo sai vị trí — đọc tọa độ bằng mắt trên crop phóng to lệch 10–30px, khoanh nhầm vào mép tóc (427,526) và chấm mờ trên hàm (380,522) thay vì nốt thật.
+- Cách đo ĐÚNG (đã chứng minh): chạy detector trên crop mặt (không đọc bằng mắt) — nốt cằm lớn: cluster tròn 21×19px, minlum 4, tâm (431.6,502.0); chấm má: cluster 10×12, tâm (421.4,479.3).
+- v6: khoanh đúng tâm nhưng Laplace thường bị môi kéo tối (mean 73) → v7: Laplace skin-only (chỉ lấy biên sáng) + chỉ ghi lại pixel trong mask (không ghi ring) → nốt sạch (min 132) nhưng vùng fill phẳng (std 1.8) lộ ở zoom 3x. v8: texture transfer từ patch má sai (std 33, có bóng tối) → rải chấm đen. v9 (bản trình): fill skin-only + texture từ patch trán sạch đã verify (x470,y340, std 3.2), detail clip ±10 → nốt cằm + chấm má đều sạch, detector xác nhận KHÔNG còn cluster nốt nào; các vệt tối còn lại quanh miệng/cằm là giải phẫu có sẵn từ v2 (bóng khóe miệng (436,488), miệng, mép tóc) — KHÔNG xóa, xóa sẽ hỏng miệng.
+- File trình: `~/workspace/ep013-source-check/sh010-v9-clean.png` (768×1376, sha 0b643e8e…).
+- BÀI HỌC: đừng bao giờ định vị nốt/chấm bằng mắt trên ảnh zoom — luôn chạy detector trên crop rồi mới khoanh; kiểm chứng bằng detector sau khi sửa, không tin mắt.
+- CHỜ: Richard duyệt v9 → làm nốt 5 frame (sh020–sh060, cũng bỏ nốt ruồi), kiểm tra 3 váy cạnh nhau, map frame vào episode.yaml + validator + commit.
+
+## 2026-11-26 08:29–08:55 — Flow xóa nốt (thất bại) + pixel v12–v16 (đạt)
+
+- Flow: 1 edit Nano Banana từ v2, lệnh "Remove ALL dark moles..." — chỉ xóa được chấm má, NỐT CẰM LỚN VẪN CÒN NGUYÊN (detector: cluster 144px tại đúng (431.4,502.0), y hệt v5). Báo cáo trình duyệt nói "cả 2 đều sạch" là SAI — lại thêm 1 bằng chứng: Nano Banana KHÔNG xóa được nốt cằm (neo vào mặt master), và KHÔNG được tin báo cáo "đã sạch" của trình duyệt khi chưa đo pixel. File Flow: `~/workspace/ep013-source-check/sh010-flow-nomole.png` (sha 9c34a6b1) — KHÔNG DÙNG.
+- Pixel v12–v16: v9 còn vệt đuôi nốt (trail) ở (428.6,509.3) — đó là cái Richard thấy ở v9 ("vẫn còn"). v12 xóa trail bằng capsule; v13 vá thêm đầu mút nốt (433,510); v14 chỉnh màu (vùng fill cũ đỏ/nâu do lấy tone từ môi); v15/v16 làm lại từ v5 bằng DIRECT FILL (không Laplace — Laplace hút màu tối từ môi/tóc xung quanh nên vùng fill tối và phẳng): lấy tone da cằm đo được [200,141,111], gradient dọc, ellipse hữu cơ + feather rộng + texture trán clip ±8.
+- v16 (bản trình): detector xác nhận nốt cằm lớn + chấm má + vệt đuôi đều HẾT; điểm tối nhất vùng cằm còn lại là mép tóc (tự nhiên, có sẵn từ v2); điểm tao "thấy" ở crop (488,502) đo ra mean 122/min 107 = tone da, KHÔNG phải nốt — mắt tao đọc sai ở mức zoom này, tin số đo. File: `~/workspace/ep013-source-check/sh010-v16-clean.png` (768×1376, sha e4c0516d…).
+- BÀI HỌC (ghi vào AGENTS.md sau khi duyệt): (1) Nano Banana không xóa được nốt ruồi trên cằm — đừng thử lại. (2) Nốt ruồi không phải 1 chấm tròn mà là cụm: nốt chính + vệt đuôi dưới nó — xóa phải hết cả cụm. (3) Laplace inpaint ở sát môi/miệng/tóc sẽ hút màu tối → vùng fill tối/phẳng/nâu — dùng direct fill bằng tone da đo được + gradient + feather rộng. (4) Đừng tin mắt mình ở zoom 3–4x — đo pixel (detector + patch stats) mới là chuẩn.
+- CHỜ: Richard duyệt v16 → làm nốt 5 frame (sh020–sh060, cũng bỏ nốt ruồi), kiểm tra 3 váy cạnh nhau, map frame vào episode.yaml + validator + commit.
