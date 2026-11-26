@@ -233,3 +233,8 @@
 ## 2026-11-27 01:02 — Richard đổi thoại sh020: "Dễ thương!" → "Đáng yêu", gen lại take002
 - Sau 2 lần lỗi âm thanh với câu "Dễ thương!" (take001 câm, take002 lỗi "không tạo được âm thanh"), Richard đổi câu sh020 thành "Đáng yêu". Cập nhật: episode.yaml dialogue + input/prompts/sh020-motion.txt (sha mới) + script.md hàng sh020 + ghi chú thay đổi (sh040/sh060 vẫn "dễ thương", chờ Richard chốt có đổi theo không).
 - Gen lại take002 từ frame v2 đã duyệt, câu mới "Đáng yêu", Veo 3.1 Lite 10cr. Số dư tinphim: 20cr.
+
+## 2026-11-27 01:03–01:09 — sh020 take002 retry với câu "Đáng yêu": LỖI LẠI, vẫn "không tạo được âm thanh"
+- Gen lại 1 lần, câu mới "Đáng yêu", còn lại y nguyên (frame v2, Veo 3.1 Lite). Flow lại báo đúng lỗi cũ: "Không tạo được âm thanh. Vui lòng thử một câu lệnh khác hoặc gửi ý kiến phản hồi." Không có clip. Browser không bấm Retry.
+- KẾT LUẬN: đổi câu thoại KHÔNG sửa được lỗi — nguyên nhân không phải chữ "Dễ thương!". Shot sh020 lỗi âm thanh 3 lần liên tiếp (take001 câm, take002 lần 1 + lần 2 lỗi audio). Nghi: Veo khó tạo audio cho shot này (nam cười khoái + câu ngắn?), hoặc lỗi nhất thời của Flow. Số dư: vẫn 20cr (không bị trừ / hoàn đã về).
+- Hướng còn lại: (a) gen video KHÔNG tiếng rồi lồng sau — nhưng Nam chưa có giọng clone (chỉ có clone ThaoMy nữ + BangTake2 cho Bằng; lồng Nam bằng giọng TTS nam khác sẽ lệch giọng các shot Nam còn lại); (b) thử lại sau; (c) sửa prompt (bỏ cười khoái / đổi hướng giọng); (d) để sh020 lại làm shot khác trước. Chờ Richard chọn.
