@@ -186,3 +186,9 @@
 ## 2026-11-26 19:16 — Richard DUYỆT frame sh010 v2, lệnh gen take003
 - Richard bấm "Duyệt frame v2, gen take003 luôn" → frame v2 (pipeline, sha 24c74ae7…) CHỐT làm first_frame sh010, thay v1; flow_image_asset_id → null (frame pipeline, upload lúc gen như sh020 v2). Asset huynhdn cũ 568a427c chỉ còn là lịch sử.
 - Credit trước gen: 40cr. take003 tốn 10cr → còn 30cr; 4 clip còn lại sau đó (sh020t2, sh040t2, sh050, sh060) cần 40cr — THIẾU 10 so với số dư sau take003, phải chờ reset 09:32 3/12 hoặc bỏ 1 clip. Đã báo Richard từ 18:38.
+
+## 2026-11-26 19:17–19:23 — sh010 take003 (frame v2 đã duyệt): GEN XONG, needs_review
+- Phiên browser MỚI (phiên cũ bị flag unusual activity) — vào project tinphim 7ac61787 bình thường, Frames-direct, upload frame v2, Veo 3.1 Lite 10cr, 1 lần nộp, KHÔNG bị chặn. Clip 617855ff, 7.93s, 720x1280, sha be80a090…, tải 1K về đĩa. Số dư tinphim: 30cr.
+- QC: Whisper base đủ 8 từ 4.24-6.16s, "thấy" nghe ĐÚNG (take002 nghe "thế"); từ đầu smeared ("ăn" thay "Anh", artifact onset — RMS im đến ~4.2s); 1 burst duy nhất, không lặp; F0 ~260Hz nữ. LƯU Ý: thoại bắt đầu MUỘN (~4.2s), nửa đầu clip chỉ xoay người không lời. Hình: váy hồng rõ, phòng khách khớp, dáng cao/gầy; watermark Veo góc phải dưới. faster-whisper lại mất sau VM restart (lần 4 trong ngày) — cài lại bằng pip --break-system-packages --ignore-installed; QC vẫn dùng script decode wav bằng ffmpeg + module wave (tránh av 19/scipy gãy).
+- Trạng thái: needs_review — chờ Richard xem mặt/dáng + nghe giọng Bắc + chốt vụ thoại muộn.
+- Credit: còn 30cr; 4 clip còn lại (sh020t2, sh040t2, sh050, sh060) cần 40cr — THIẾU 10, phải chờ reset 09:32 3/12 (hoặc bỏ 1 clip). Đã báo Richard từ 18:38.
