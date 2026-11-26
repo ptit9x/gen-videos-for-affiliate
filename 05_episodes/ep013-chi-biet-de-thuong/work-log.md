@@ -203,3 +203,9 @@
 
 ## 2026-11-26 20:06 — Richard DUYỆT frame sh010 v3 (mặt thẳng), lệnh gen take004
 - Frame v3 (pipeline, sha 88b40f5b…, 1168×2112) CHỐT làm first_frame sh010, thay v2; flow_image_asset_id vẫn null (frame pipeline, upload lúc gen). Credit trước gen: 30cr → take004 tốn 10cr, còn 20cr; 4 clip còn lại sau đó cần 40cr — thiếu 20, chờ reset 09:32 3/12 (đã báo Richard từ 18:38, nhắc lại lúc 19:57).
+
+## 2026-11-26 20:07–20:13 — sh010 take004 (frame v3 mặt thẳng): GEN XONG, needs_review
+- Phiên browser mới, vào project tinphim 7ac61787 bình thường (lần này browser tự vào acc qua chooser, KHÔNG cần Richard gõ pass — không rõ vault password đã đúng hay session cũ còn hạn; KHÔNG kết luận mật khẩu vault đã đúng, vẫn không tự thử lại khi cần đăng nhập mới). Frames-direct, upload frame v3, Veo 3.1 Lite 10cr, 1 lần nộp, KHÔNG bị chặn. Clip 380c71b4, 7.93s, 720x1280, sha 762e5773…, tải 1K về đĩa. Số dư tinphim: 20cr.
+- QC: Whisper base đủ 8 từ 0.80-2.64s, "Anh" + "thấy" nghe ĐÚNG; từ thứ 3 mờ: Whisper nghe "dưới", ASR trình duyệt nghe "trước" (prompt "giúp") — cần tai Richard. Thoại SỚM (0.8s), 1 burst duy nhất, không lặp; F0 ~254Hz nữ. Hình: váy hồng rõ, phòng khách khớp, dáng cao/gầy; frame 5s quay 3/4 nhìn về camera cười; watermark Veo góc phải dưới. faster-whisper lại mất sau VM restart (lần 5 trong ngày) — cài lại pip; QC vẫn dùng script decode wav bằng ffmpeg + module wave.
+- Trạng thái: needs_review — chờ Richard xem mặt/dáng + nghe giọng Bắc + nghe rõ từ "giúp".
+- Credit: còn 20cr; 4 clip còn lại (sh020t2, sh040t2, sh050, sh060) cần 40cr — THIẾU 20, chờ reset 09:32 3/12 (hoặc bỏ 2 clip). Đã báo Richard từ 18:38, nhắc lại 19:57.

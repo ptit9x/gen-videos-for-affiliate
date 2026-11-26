@@ -58,6 +58,13 @@ shots:
         path: generated/sh010-take003.mp4
         sha256: be80a0908a7faa698d2ec1267523f50d98156b9986548ae1d3094f6b16573a8c
       note: 'Frames-direct, project tinphim 7ac61787, frame v2 da duyet (pipeline, sha 24c74ae7), Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 8 tu "...giup em bo nay, thay sao?" 4.24-6.16s, "thay" nghe DUNG lan nay (take002 nghe "the"); tu dau bi smeared ("an" thay "Anh", artifact onset); 1 burst thoai duy nhat, khong lap cau; F0 median ~260Hz (giong nu). LUU Y: thoai bat dau MUON (~4.2s), nua dau clip chi xoay nguoi khong loi — can Richard xem co chap nhan khong. Hinh: vay hong ro, phong khach khop, dang cao/gay o frame 2s (quay lung) + 4s (doi dien cuoi); watermark Veo goc phai duoi (crop luc dung). So du tinphim sau clip: 30cr. REJECT 26/11 19:57 — Richard: "Mat cam giac van khong giong lam".'
+    - take_id: take004
+      clip_id: 380c71b4-744e-4d8b-a43c-ed9b433a0531
+      status: needs_review
+      file:
+        path: generated/sh010-take004.mp4
+        sha256: 762e57731d2784798810ccd2dd1bcfca45713f75097084c97b8cda983ffe3f1e
+      note: 'Frames-direct, project tinphim 7ac61787, frame v3 da duyet (pipeline, mat thang, sha 88b40f5b), Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 8 tu 0.80-2.64s, "Anh" + "thay" nghe DUNG; tu thu 3 mo: Whisper nghe "duoi", ASR trinh duyet nghe "truoc" (prompt: "giup") — can Richard nghe lai tu nay. Thoai SOM (0.8s, khac take003 muon 4.2s); 1 burst duy nhat, khong lap cau; F0 median ~254Hz (giong nu). Hinh: vay hong ro, phong khach khop, dang cao/gay; frame 5s quay 3/4 nhin ve camera, cuoi; watermark Veo goc phai duoi (crop luc dung). So du tinphim sau clip: 20cr.'
   flow_image_asset_id: null
 - shot_id: sh020
   approved_for_generation: true
