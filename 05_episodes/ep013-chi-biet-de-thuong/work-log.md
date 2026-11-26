@@ -172,3 +172,9 @@
 - sh010 take002 (clip 00fb14d4, 7.93s, 720x1280, sha 0e4bdc03…): Whisper base đủ 8 từ 0.00-2.22s nhưng nghe "thế sao" thay "thấy sao" (browser ASR cũng nghe "thế" — có thể Veo phát âm gần giống, cần tai Richard); 1 burst thoại duy nhất, không lặp câu; F0 ~258Hz nữ. Hình: mặt khớp frame đã duyệt (không tròn/rộng như take001), váy hồng rõ, 4s quay lưng theo động tác xoay. Nit: watermark Veo + sao Gemini góc phải dưới. Số dư tinphim: 40cr. Trạng thái: needs_review.
 - Lưu ý kỹ thuật: faster-whisper lại mất sau VM restart (lần 3 trong ngày) — cài lại `pip install --break-system-packages --ignore-installed faster-whisper`; av 19.0.2 không tương thích faster-whisper 1.2.1 (`metadata_errors` kwarg) → QC phải decode wav bằng ffmpeg + đọc bằng module wave, không qua scipy (scipy gãy do numpy 2.5.5). CẢNH BÁO: đừng dùng scipy trong QC khi numpy đã lên 2.x.
 - flow_image_asset_id sh010 trong episode.yaml vẫn là asset cũ huynhdn (568a427c) — asset ID mới bên tinphim chưa được browser báo, cần bổ sung khi lấy được.
+
+## 2026-11-26 18:38 — sh010 take002 REJECT: mặt không giống ThaoMy
+- Richard xem video take002: "Mặt ổn cái con khỉ, mặt ko giống ThaoMy chút nào" → take002 rejected_editorial.
+- Bee nhận sai: QC của Bee bảo "mặt khớp frame đã duyệt" là SAI — mắt Bee không đáng tin ở khâu soi mặt. Từ nay không trình nhận định "mặt khớp" như kết luận; chỉ trình video + số đo kỹ thuật, mặt do Richard quyết.
+- LUẬT MỚI (Richard 18:39): lần tới gửi ẢNH cho Richard duyệt TRƯỚC mới được gen video. Áp dụng cho mọi clip tiếp theo, kể cả frame đã duyệt từ trước — gửi đúng ảnh frame sẽ dùng làm frame đầu, chờ gật rồi mới bấm gen.
+- Hệ quả credit: số dư tinphim 40cr; 4 clip còn lại (sh020t2, sh040t2, sh050, sh060) cần đúng 40cr. Nếu sh010 cần take003 nữa thì tổng cần 50cr — thiếu 10, phải chờ reset 09:32 3/12 hoặc bỏ 1 clip. Chờ Richard chọn hướng.
