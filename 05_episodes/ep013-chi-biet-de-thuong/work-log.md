@@ -223,3 +223,9 @@
 ## 2026-11-26 20:31 — Richard nghe bản lồng sh010: "ok, chấp nhận đc" → DUB ACCEPTED, sh010 HOÀN THÀNH
 - take004 (accepted_editorial) + dub clone ThaoMy (no-stretch wordalign, sha c2289096…) đã được Richard chốt. sh010 xong — không gen/lồng thêm cho shot này.
 - Còn lại 4 clip: sh020 take002, sh040 take002, sh050 take001, sh060 take001 = 40cr; số dư tinphim 20cr → chỉ làm được 2 clip, 2 clip còn lại chờ reset 09:32 3/12. Mỗi clip vẫn theo luật 18:39: gửi ảnh frame duyệt trước khi gen.
+
+## 2026-11-26 20:37–20:42 — sh020 take002: GEN LỖI, không có clip (không tốn credit)
+- Richard duyệt frame sh020 v2 (20:37), gen take002 từ ảnh đó, Frames-direct, Veo 3.1 Lite. Flow báo lỗi: "Không thành công — Không tạo được âm thanh. Vui lòng thử một câu lệnh khác hoặc gửi ý kiến phản hồi." Không có clip, không có clip ID, không tải file. Browser không bấm Retry (theo lệnh dừng).
+- Số dư tinphim: vẫn 20cr (Flow nói sẽ hoàn credit, "có thể mất vài phút" — lần này chưa thấy trừ, cần kiểm tra lại số dư ở lần gen sau).
+- ĐIỂM ĐÁNG CHÚ Ý: sh020 take001 CÂM hoàn toàn (không có audio stream), take002 lỗi "không tạo được âm thanh" — shot này lỗi âm thanh 2 lần liên tiếp. Câu thoại chỉ có 2 từ "Dễ thương!" — có thể Veo khó tạo audio với câu quá ngắn, hoặc lỗi nhất thời. Flow gợi ý thử câu lệnh khác (đổi prompt, không đổi thoại) hoặc gen video không tiếng rồi lồng sau.
+- Chờ Richard chọn: thử lại prompt sửa nhẹ / thử lại y nguyên sau / để sh020 lại làm shot khác trước.
