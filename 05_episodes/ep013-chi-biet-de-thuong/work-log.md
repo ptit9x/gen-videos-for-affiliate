@@ -159,3 +159,8 @@
 - QC: sh030 take001 — Whisper base đủ 4 từ "Thế còn bộ này" (onset thật ~0.4s), F0 215Hz nữ; hình mặt khớp ThaoMy, váy kem rõ → needs_review, đề xuất CHỐT nếu Richard nghe giọng Bắc. sh040 take001 — REJECT: Veo nói câu 2 LẦN (Whisper 0.00-1.30s + 2.12-4.20s; energy envelope xác nhận 2 burst thoại thật, không phải artifact ASR); hình thì đúng → cần gen lại take002.
 - CREDIT: số dư giờ 0 (panel Flow). 4 clip còn lại (sh010 take002 + sh020 take002 + sh050 + sh060, 40cr) CHỜ refresh 23:07.
 - NOTE: faster-whisper lại mất sau VM restart — cài lại bằng pip --ignore-installed (lần 2 trong ngày). Ghi nhớ: pip package ngoài ~ bị wipe khi restart, kiểm tra lại đầu mỗi lần QC.
+
+## 2026-11-26 15:27 — Richard duyệt sh030 take001: CHỐT TẠM
+- Richard xem video thật: "trông mặt cũng chưa giống lắm nhỉ, giọng thì Bắc rồi, tạm ổn" + "Dáng hơi lùn" → take001 accepted_editorial (chốt tạm, ghi nhận caveat: mặt chưa giống hẳn, dáng lùn hơn frame).
+- Pattern drift của Veo ở ep013: sh010 mặt tròn/rộng hơn frame; sh030 mặt chưa giống hẳn + dáng lùn hơn frame. Veo có xu hướng làm My tròn/lùn hơn ảnh đầu — chấp nhận "tạm ổn" theo tai/mắt Richard từng take, không đốt credit re-roll chỉ vì drift nhẹ khi cậu ấy đã gật.
+- Còn lại 4 clip (sh010 take002 + sh020 take002 + sh050 + sh060, 40cr) — CHỜ refresh 23:07, số dư 0.

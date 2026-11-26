@@ -85,11 +85,11 @@ shots:
   takes:
     - take_id: take001
       clip_id: 92030214-77ca-4279-80ba-2529b0c5f805
-      status: needs_review
+      status: accepted_editorial
       file:
         path: generated/sh030-take001.mp4
         sha256: fc2c73c161293f643f301e2d29f8f6799ebf008441ff1cc49dadfd78a58b6824
-      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 4 tu "The con bo nay" 0.4-1.2s (onset that theo energy envelope, khong phai 0.00); F0 median 215Hz (giong nu). Hinh: mat khop ThaoMy, vay kem phan biet ro voi hong, xoay nguoi roi doi dien camera, khong chu gia; Veo watermark goc phai duoi (crop luc dung). De xuat CHOT neu Richard nghe giong Bac.'
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 4 tu "The con bo nay" 0.4-1.2s (onset that theo energy envelope, khong phai 0.00); F0 median 215Hz (giong nu). Hinh: vay kem phan biet ro voi hong, xoay nguoi roi doi dien camera, khong chu gia; Veo watermark goc phai duoi (crop luc dung). Richard 15:27: "mat cung chua giong lam nhi, giong thi Bac roi, tam on" + "Dang hoi lun" → CHOT TAM (accepted_editorial, ghi nhan: mat chua giong han, dang lun hon frame).'
   flow_image_asset_id: d8c7f1cd-8d47-487a-92bf-fea66b7367e0
 - shot_id: sh040
   approved_for_generation: true
