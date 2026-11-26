@@ -23,7 +23,7 @@ export:
 target_duration_seconds: 48
 shots:
 - shot_id: sh010
-  approved_for_generation: false
+  approved_for_generation: true
   dialogue: Anh xem giúp em bộ này, thấy sao?
   image_prompt:
     path: input/prompts/sh010-image.txt
@@ -32,10 +32,12 @@ shots:
     path: input/prompts/sh010-motion.txt
     sha256: b45a255e3729afc1c7be119350ef861fd5bb83a0ac6a6546225e5df81e94e7ca
   image_sources: []
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh010-frame-v1.jpg
+    sha256: fd6bb347710cee3f24a8bbfc269a4dd9cb18fdce6174aca465cd1d8c2f7bb58b
+  frame_status: approved
   takes: []
-  flow_image_asset_id: null
+  flow_image_asset_id: 568a427c-632d-4b79-b022-dbd415ac2662
 - shot_id: sh020
   approved_for_generation: false
   dialogue: Dễ thương!
