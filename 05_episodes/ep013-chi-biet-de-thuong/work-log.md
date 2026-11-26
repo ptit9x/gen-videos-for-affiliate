@@ -213,3 +213,9 @@
 ## 2026-11-26 20:19 — Richard CHỐT take004 ("ok đó") + lệnh lồng giọng clone ThaoMy
 - take004 → accepted_editorial (mặt/dáng OK). Giọng Veo phải lồng lại bằng clone ThaoMy ("lồng ThaoMy ấy") — tắt tiếng Veo, dub wordalign bằng VieNeu v3 Turbo clone ThaoMyVeo (theo skill ai_sitcom_dubbing + precedent ep011/ep012).
 - Dub làm riêng từng shot, trình video đã lồng cho Richard duyệt trước khi dựng master.
+
+## 2026-11-26 20:19–20:28 — sh010 take004: CHỐT + lồng giọng clone ThaoMy XONG, chờ Richard nghe
+- Richard: "ok đó" → take004 accepted_editorial; "giọng thì phải lồng rồi" + "lồng ThaoMy ấy" → dub clone ThaoMyVeo, tắt tiếng Veo.
+- TTS: VieNeu v3 Turbo trên Colab T4 (session ep013-dub, script ep013_dub_thaomy_sh010.py, enroll ref-clip2.wav), wav 2.96s 48kHz mono → `~/workspace/colab-t4-test/ep013-dub/thaomy-ep013-sh010.wav`. Session đã stop, không còn session active. Whisper trên wav clone gốc: "Anh sẽ giúp em bộ này. Thế sao?" (8 từ; "xem"→"sẽ", "thấy"→"thế" là nhầm của Whisper — tai Richard quyết).
+- Build wordalign (`edit/build_wordalign_sh010.py`): cửa sổ native đo bằng energy 48kHz stereo 0.05s — 2 burst tách bởi khoảng lặng 2.20s (dấu phẩy): P1 0.85-2.15, P2 2.25-2.75. A/B test: bản stretch (atempo 1.108/1.04, cửa sổ chặt) Whisper nghe sai 4 từ; bản NO-STRETCH (atempo 1.0, cửa sổ mở rộng P1 0.80-2.24 / P2 2.25-2.77) Whisper nghe đúng 7/8 từ ("xem" + "thấy sao?" đúng, chỉ "giúp"→"xúc" nhầm đồng âm) → GIỮ bản no-stretch. Peak 0.552, năng lượng ngoài cửa sổ = 0.0 (không rò tiếng gốc).
+- Output: `generated/sh010-take004-dubbed.mp4` (sha c2289096…), 7.93s, 720x1280, audio mono 48kHz AAC 192k. QC chi tiết: `edit/dub-qc-ep013-sh010.md`. Chờ Richard nghe chốt bản lồng trước khi dựng master.
