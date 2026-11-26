@@ -192,3 +192,7 @@
 - QC: Whisper base đủ 8 từ 4.24-6.16s, "thấy" nghe ĐÚNG (take002 nghe "thế"); từ đầu smeared ("ăn" thay "Anh", artifact onset — RMS im đến ~4.2s); 1 burst duy nhất, không lặp; F0 ~260Hz nữ. LƯU Ý: thoại bắt đầu MUỘN (~4.2s), nửa đầu clip chỉ xoay người không lời. Hình: váy hồng rõ, phòng khách khớp, dáng cao/gầy; watermark Veo góc phải dưới. faster-whisper lại mất sau VM restart (lần 4 trong ngày) — cài lại bằng pip --break-system-packages --ignore-installed; QC vẫn dùng script decode wav bằng ffmpeg + module wave (tránh av 19/scipy gãy).
 - Trạng thái: needs_review — chờ Richard xem mặt/dáng + nghe giọng Bắc + chốt vụ thoại muộn.
 - Credit: còn 30cr; 4 clip còn lại (sh020t2, sh040t2, sh050, sh060) cần 40cr — THIẾU 10, phải chờ reset 09:32 3/12 (hoặc bỏ 1 clip). Đã báo Richard từ 18:38.
+
+## 2026-11-26 19:57 — Richard xem take003: "Mặt cảm giác vẫn không giống lắm" → REJECT (mặt)
+- take003 → rejected_editorial. Đây là take sh010 thứ 3 liên tiếp trượt vì mặt (take001: mặt tròn/rộng hơn; take002: không giống chút nào; take003: vẫn không giống lắm) — mặt Veo gen ra từ cùng 1 frame v2 đã duyệt vẫn drift khác nhau mỗi lần, không ổn định.
+- Số dư tinphim: 30cr. Chờ Richard chọn hướng: gen lại take004 từ frame v2 (10cr, hên xui mặt) / làm frame mới / tạm để sh010 lại, làm các shot khác trước (sh020t2, sh040t2, sh050, sh060 cần 40cr — đã thiếu 10 so với 30cr hiện có).
