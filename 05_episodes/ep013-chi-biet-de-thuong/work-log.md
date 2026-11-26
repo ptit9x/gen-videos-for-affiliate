@@ -196,3 +196,10 @@
 ## 2026-11-26 19:57 — Richard xem take003: "Mặt cảm giác vẫn không giống lắm" → REJECT (mặt)
 - take003 → rejected_editorial. Đây là take sh010 thứ 3 liên tiếp trượt vì mặt (take001: mặt tròn/rộng hơn; take002: không giống chút nào; take003: vẫn không giống lắm) — mặt Veo gen ra từ cùng 1 frame v2 đã duyệt vẫn drift khác nhau mỗi lần, không ổn định.
 - Số dư tinphim: 30cr. Chờ Richard chọn hướng: gen lại take004 từ frame v2 (10cr, hên xui mặt) / làm frame mới / tạm để sh010 lại, làm các shot khác trước (sh020t2, sh040t2, sh050, sh060 cần 40cr — đã thiếu 10 so với 30cr hiện có).
+
+## 2026-11-26 20:00 — Frame sh010 v3 (mặt thẳng) làm xong, chờ Richard duyệt
+- Richard lệnh 19:59: gen lại ảnh, ảnh trước nghiêng mặt, lần này thẳng mặt. Làm bằng pipeline (Flow image edit đang bị flag unusual activity): sửa từ frame v1, ref mặt v002 + body v003, giữ phòng khách/váy hồng/tư thế xoay — mặt THẲNG nhìn vào camera, cười, dáng cao gầy. Bình tulip + dây chuyền vàng có lại như v1; không chữ/logo/sao Gemini.
+- Chưa map vào episode.yaml — chờ Richard duyệt ảnh TRƯỚC rồi mới gen take004 (luật 18:39).
+
+## 2026-11-26 20:06 — Richard DUYỆT frame sh010 v3 (mặt thẳng), lệnh gen take004
+- Frame v3 (pipeline, sha 88b40f5b…, 1168×2112) CHỐT làm first_frame sh010, thay v2; flow_image_asset_id vẫn null (frame pipeline, upload lúc gen). Credit trước gen: 30cr → take004 tốn 10cr, còn 20cr; 4 clip còn lại sau đó cần 40cr — thiếu 20, chờ reset 09:32 3/12 (đã báo Richard từ 18:38, nhắc lại lúc 19:57).

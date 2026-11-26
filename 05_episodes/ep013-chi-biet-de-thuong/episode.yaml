@@ -33,8 +33,8 @@ shots:
     sha256: b45a255e3729afc1c7be119350ef861fd5bb83a0ac6a6546225e5df81e94e7ca
   image_sources: []
   first_frame:
-    path: input/frames/sh010-frame-v2.jpg
-    sha256: 24c74ae7615a6a2dd596552502447d8aeca2095297eb11e1e21741621da81c66
+    path: input/frames/sh010-frame-v3.jpg
+    sha256: 88b40f5b1bdb0edb24342ffd70877c25c237afbf02d43117a21cbcc48acd8f98
   frame_status: approved
   takes:
     - take_id: take001
