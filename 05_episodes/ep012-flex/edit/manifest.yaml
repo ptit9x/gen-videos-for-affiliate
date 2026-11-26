@@ -1,8 +1,8 @@
 schema_version: 2
 episode_id: ep012
 revision: 2
-locked_duration_seconds: 22.51
-planned_source_duration_seconds: 20.6
+locked_duration_seconds: 22.14
+planned_source_duration_seconds: 20.2
 selected_takes:
   - shot_id: sh010
     take_id: take001
@@ -11,11 +11,11 @@ selected_takes:
     sha256: c20255775d21990da150ea2e534b765d6b3e22562c3e6d1ae1ebade1c737ba21
     audio: native Veo (Hùng — accepted by Richard 2026-11-25 17:32, no dub)
   - shot_id: sh020
-    take_id: take004
-    clip_id: d0d2bd40-c515-4208-9371-6b618823d438
-    file: generated/sh020-take004.mp4
-    sha256: 34cd488af296744135a96a623d8b1f3dcc7db9c2d0def656054c845166568689
-    audio: clone ThaoMy wordalign (file generated/sh020-take004-dubbed.mp4, QC passed 2026-11-25)
+    take_id: take005
+    clip_id: 6b1f178f-af02-4dae-bccb-6e124d998766
+    file: generated/sh020-take005.mp4
+    sha256: d5fb896ccf1b51cd2b42aad21964497657e81513ef03d5f9ebece849eb28423e
+    audio: clone ThaoMy wordalign (file generated/sh020-take005-dubbed.mp4, sha 60f66835…, QC passed 2026-11-26; re-gen for lip-sync, Richard approved take005 + dub 2026-11-26)
   - shot_id: sh030
     take_id: take002
     clip_id: 70e75a4f-231e-4a64-9155-62df92ad7121
@@ -37,7 +37,7 @@ audio_plan:
   voice_by: mixed_clone_My_native_Hung
   voice_status: decided_by_user
   lip_sync_qc: passed
-  note: 'My: keep Veo native if Northern female, else mute + dub clone ThaoMy wordalign (as ep010/ep011). Hùng: keep Veo native always, no preset, never dub ThaoMy into Hùng (decided by Richard 2026-11-25). Takes accepted 2026-11-25 17:31 (Richard: dung tam): sh010 take001 + sh030 take002 native Hung (Richard 17:32: giong Nam khong phai long, 2 shot Nam deu ok); sh020 take004 + sh040 take003 dubbed clone ThaoMy wordalign (Richard: long ThaoMy cho ca hai sh).'
+  note: 'My: keep Veo native if Northern female, else mute + dub clone ThaoMy wordalign (as ep010/ep011). Hùng: keep Veo native always, no preset, never dub ThaoMy into Hùng (decided by Richard 2026-11-25). Takes accepted 2026-11-25 17:31 (Richard: dung tam): sh010 take001 + sh030 take002 native Hung (Richard 17:32: giong Nam khong phai long, 2 shot Nam deu ok); sh020 take004 + sh040 take003 dubbed clone ThaoMy wordalign (Richard: long ThaoMy cho ca hai sh). 2026-11-26: sh020 take004 superseded by take005 (re-gen for lip-sync with the r05 line; Richard approved take005 + clone dub 06:56).'
   sfx:
     file: ~/workspace/laugh-sfx/final/laugh-track-1-ccby.mp3
     source: Freesound, LittleRainySeasons, Laugh Track 1 (2.10s)
@@ -48,7 +48,7 @@ captions:
   style: Remotion BasicCaptions Boxed, accent '#F59E0B'
   words: 47
   srt: delivery/ep012-subtitles.srt
-  note: 'Total dialogue words across 4 shots: 7 + 16 + 15 + 9 = 47 (r05: sh020 15 -> 16 words, Richard 2026-11-25 20:21). Master 1K r05: delivery/ep012-master-1k.mp4 (22.51s, -15.42 LUFS), trims sh010 0-3.4s / sh020 0-5.5s / sh030 0-4.7s / sh040 0-7.0s, crop Veo icon crop=640:1138:40:0.'
+  note: 'Total dialogue words across 4 shots: 7 + 16 + 15 + 9 = 47 (r05: sh020 15 -> 16 words, Richard 2026-11-25 20:21). Master 1K r06: delivery/ep012-master-1k.mp4 (22.14s, -15.41 LUFS), trims sh010 0-3.4s / sh020 take005-dubbed 0-5.3s / sh030 0-4.7s / sh040 0-7.0s, crop Veo icon crop=640:1138:40:0.'
 qc:
   status: passed
-  report_file: edit/build-report-1k-r05.md
+  report_file: edit/build-report-1k-r06.md

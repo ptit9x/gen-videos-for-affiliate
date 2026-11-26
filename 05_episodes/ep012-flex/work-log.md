@@ -209,3 +209,36 @@
 - QC Bee (Whisper base + energy 48kHz + 1fps frames): 16/16 từ đúng thứ tự, cụm P1 0.62–1.96 / P2 2.44–3.80 / P3 4.12–4.78, onset 0.9s. Mặt khớp v4, CHỈ 1 LY trong tay, đĩa trống, không chữ giả, watermark Veo góc phải dưới (crop master loại được). Mồm cử động theo câu mới (gen native, không lồng).
 - Giọng: trình duyệt báo nữ miền Bắc — tai Richard chốt cuối. Nếu Bắc thì giữ native, thay take004, dựng lại master; nếu không Bắc thì cần quyết lồng-hay-quay-lại (lồng sẽ lệch mồm trở lại).
 - Take ghi episode.yaml status needs_review.
+
+## 2026-11-26 ~07:00 — sh020 take005 dub (clone ThaoMy) + master 1K r06
+- Lý do: Richard 06:56 26/11 "ok đó, lồng giọng ThaoMy là đc" — take005 gen native
+  với câu r05 nhưng chốt lồng clone (không giữ native).
+- Dub: TÁI DÙNG wav clone r05 (sha a64baf42…, không chạy Colab mới). Cửa sổ native
+  take005 đo lại bằng energy 48kHz: P1 0.91-1.99 / P2 2.41-3.99 / P3 4.29-4.91
+  (take005 nói nhanh hơn take004 ~0.3s). Stretch 0.794x/0.786x/0.674x, trong
+  khoảng 0.60-1.70. Output generated/sh020-take005-dubbed.mp4 (sha 60f66835…,
+  7.93s). QC ĐẠT: Whisper 15 token cho 16 từ đúng thứ tự đúng cửa sổ (artifact
+  quen thuộc: "ba mươi ngàn"→"30"+".000", "phê"→"xe", "lo"→"lâu"); năng lượng
+  ngoài cửa sổ 0.000; framemd5 video identical take005 (4af9ba31…); peak 0.430.
+  Script: edit/build_wordalign_sh020_take005.py; báo cáo:
+  edit/wordalign-sh020-take005-report.md, edit/dub-qc-ep012-sh020-take005.md,
+  edit/sh020-take005-native-windows.md. Take004 + take004-dubbed không động vào.
+- Master 1K r06: pipeline như r05 (concat FILTER, Remotion Boxed #F59E0B, 3 chunk
+  ≤287 frames concurrency 1, Laugh Track 1 cuối, loudnorm I=-15.5, crop
+  640:1138:40:0). Takes: sh010 take001 native 0-3.4s / sh020 take005-DUBBED
+  0-5.3s (thoại hết 4.91s, beat 0.39s, hạ ly ~6.0s là tail nên cắt) / sh030
+  take002 native 0-4.7s / sh040 take003-dubbed 0-7.0s (giữ nguyên đầu đặt ly).
+  Output GHI ĐÈ delivery/ep012-master-1k.mp4 (sha 7e39bea2…, 22.14s) +
+  delivery/ep012-subtitles.srt (4 cue, khớp script r05 chính xác). Script:
+  edit/build_master_1k_r06.py; báo cáo: edit/build-report-1k-r06.md.
+- QC master ĐẠT: Whisper 46 token cho 47 từ đúng thứ tự (artifact quen thuộc:
+  "cà phê"→"café", "ba mươi ngàn"→"30"+".000", "limited" tách 3 mảnh — đã merge);
+  LUFS đo trên file cuối I=-15.41, TP=-1.00, LRA 6.60; không đoạn đen
+  (frame mean 51.7-89); không chữ giả / không icon Veo (contact sheet đã xem);
+  laugh 2 kênh cân bằng tuyệt đối (RMS L/R 1.00, L-R/L+R 0.000, envelope corr
+  1.000), nghe rõ 20.30s sau từ cuối 20.15s; caption 47 từ, fix sh020/sh040
+  đều chạy. Lưu ý (như r05): từ 'phê.' cuối sh040 timing nội suy
+  (19.89-20.15 vs nói thật ~19.68-20.00), trễ ~0.2-0.3s trong lúc deadpan hold;
+  caption "LO." giữ ~0.4s vào beat cười rồi biến đúng lúc cắt sang sh030 —
+  hành vi của component Boxed, giống hệt r05, không phải lỗi.
+- CHƯA làm: chưa commit, chưa sửa episode.yaml/manifest.yaml (Bee làm sau khi review).
