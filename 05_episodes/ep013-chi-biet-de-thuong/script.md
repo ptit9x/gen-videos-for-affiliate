@@ -34,7 +34,7 @@ Phòng khách căn hộ buổi tối. My thay 3 bộ đồ, lần lượt khoe v
 | Shot | Người nói | Thoại tiếng Việt | Từ | Một hành động chính | Góc máy/biểu cảm | Thời lượng |
 |---|---|---|---|---|---|---|
 | sh010 | Thảo My | "Anh xem giúp em bộ này, thấy sao?" | 8 | Xoay người khoe váy hồng, cười tươi | Cận vừa My, nhìn Nam ngoài khung | 8s |
-| sh020 | Nam | "Dễ thương!" | 2 | Ngồi sofa, mắt tròn, cười khoái, gật đầu | Cận vừa Nam, nhìn My ngoài khung | 8s |
+| sh020 | Nam | "Đáng yêu" | 2 | Ngồi sofa, mắt tròn, cười khoái, gật đầu | Cận vừa Nam, nhìn My ngoài khung | 8s |
 | sh030 | Thảo My | "Thế còn bộ này?" | 4 | Xoay người khoe váy kem, chờ đợi | Cận vừa My, nhìn Nam ngoài khung | 8s |
 | sh040 | Nam | "Ừm... dễ thương!" | 3 | Ngập ngừng, gãi đầu, cười trừ | Cận vừa Nam, nhìn My ngoài khung | 8s |
 | sh050 | Thảo My | "Còn bộ cuối này thì sao? Anh chỉ biết nói mỗi dễ thương thôi hả?" | 15 | Xoay người khoe váy đen rồi chống nạnh, gắt | Cận vừa My, nhìn Nam ngoài khung | 8s |
