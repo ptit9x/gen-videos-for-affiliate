@@ -242,3 +242,7 @@
 ## 2026-11-27 06:39 — Richard chọn "thử lại sh020 với prompt sửa nhẹ"
 - Sửa nhẹ motion prompt (thoại vẫn "Đáng yêu", frame v2 giữ nguyên): "cười khoái" → "mỉm cười vui vẻ", "Nam nói:" → "Nam nói rõ ràng:" — giả thuyết: cười khoái khiến Veo cố tạo tiếng cười thay vì thoại rõ, nên audio lỗi. Giữ nguyên cảnh, giọng nam hào hứng, camera tĩnh, không nhạc.
 - Gen lại take002 (lần thử thứ 3 cho shot này, lần 1 với prompt sửa), Veo 3.1 Lite 10cr. Số dư tinphim: 20cr.
+
+## 2026-11-27 06:39–06:46 — sh020 take002 retry prompt sửa: LỖI LẠI "không tạo được âm thanh"
+- Phiên browser bị đăng xuất (06:40), Richard đăng nhập lại tinphim (06:42 "xong"), gen tiếp với prompt sửa (mỉm cười, nói rõ ràng, câu "Đáng yêu"). Kết quả: vẫn lỗi đúng "Không tạo được âm thanh", không có clip, không tốn credit (còn 20cr).
+- KẾT LUẬN: sửa prompt cũng KHÔNG sửa được. Shot sh020 lỗi âm thanh 4 lần liên tiếp (take001 câm + take002 lỗi audio ×3, qua 2 câu thoại khác nhau và 2 prompt khác nhau). Khả năng cao vấn đề nằm ở shot/frame/giọng nam, không phải chữ hay hành động. Hướng còn lại: (a) gen video KHÔNG tiếng rồi lồng sau — Nam chưa có giọng clone, nhưng có thể clone từ audio gốc của sh040 take001 (Nam nói thật, dù bị lặp câu 2 lần — lấy 1 lần làm mẫu); (b) thử lại sau; (c) để sh020 lại làm shot khác trước. Chờ Richard chọn.
