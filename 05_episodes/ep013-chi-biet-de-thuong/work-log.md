@@ -153,3 +153,9 @@
 - Richard xem frame clip 5s: "mặt này không giống ThaoMy". Bee soi frame đã duyệt vs clip cạnh nhau: mặt clip tròn/rộng hơn, mắt + nụ cười khác hẳn — Veo drift mặt dù gen từ đúng frame đã duyệt. Take001 → rejected_editorial.
 - Fix: gen lại take002, prompt + frame y nguyên (10cr) — lỗi drift ngẫu nhiên thì re-roll. Tổng clip còn cần: 6 (sh010 take002 + sh020 take002 + sh030/40/50/60), cần 60cr, số dư 20, refresh 23:07.
 - CHỜ: Richard chọn — (A) chờ refresh 23:07 rồi gen cả 6, hoặc (B) gen 2 clip nữa sau khi nghỉ.
+
+## 2026-11-26 13:59–14:07 — Gen 2 clip (sh030 + sh040): cả 2 đều ra, không bị chặn
+- Richard chọn "gen 2 clip nữa sau khi nghỉ" 13:58. Task mới Env 2: sh030 take001 (clip 92030214, 7.93s) + sh040 take001 (clip 14dd8966, 7.93s), nộp cách nhau ~3 phút, KHÔNG bị chặn. Cả 2 tải 1K về đĩa, đều có audio.
+- QC: sh030 take001 — Whisper base đủ 4 từ "Thế còn bộ này" (onset thật ~0.4s), F0 215Hz nữ; hình mặt khớp ThaoMy, váy kem rõ → needs_review, đề xuất CHỐT nếu Richard nghe giọng Bắc. sh040 take001 — REJECT: Veo nói câu 2 LẦN (Whisper 0.00-1.30s + 2.12-4.20s; energy envelope xác nhận 2 burst thoại thật, không phải artifact ASR); hình thì đúng → cần gen lại take002.
+- CREDIT: số dư giờ 0 (panel Flow). 4 clip còn lại (sh010 take002 + sh020 take002 + sh050 + sh060, 40cr) CHỜ refresh 23:07.
+- NOTE: faster-whisper lại mất sau VM restart — cài lại bằng pip --ignore-installed (lần 2 trong ngày). Ghi nhớ: pip package ngoài ~ bị wipe khi restart, kiểm tra lại đầu mỗi lần QC.

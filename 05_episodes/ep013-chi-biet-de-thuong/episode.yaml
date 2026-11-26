@@ -82,7 +82,14 @@ shots:
     path: input/frames/sh030-frame-v1.jpg
     sha256: 33ae748ed13f75b7b685aac9d63bd78f11240ea2d1370f3c167884be005dfa36
   frame_status: approved
-  takes: []
+  takes:
+    - take_id: take001
+      clip_id: 92030214-77ca-4279-80ba-2529b0c5f805
+      status: needs_review
+      file:
+        path: generated/sh030-take001.mp4
+        sha256: fc2c73c161293f643f301e2d29f8f6799ebf008441ff1cc49dadfd78a58b6824
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 4 tu "The con bo nay" 0.4-1.2s (onset that theo energy envelope, khong phai 0.00); F0 median 215Hz (giong nu). Hinh: mat khop ThaoMy, vay kem phan biet ro voi hong, xoay nguoi roi doi dien camera, khong chu gia; Veo watermark goc phai duoi (crop luc dung). De xuat CHOT neu Richard nghe giong Bac.'
   flow_image_asset_id: d8c7f1cd-8d47-487a-92bf-fea66b7367e0
 - shot_id: sh040
   approved_for_generation: true
@@ -98,7 +105,14 @@ shots:
     path: input/frames/sh040-frame-v1.jpg
     sha256: 1e5f32f771427972be61ce2d7fd017c93bfdb068a48b4aaa0f421420cd27bf8e
   frame_status: approved
-  takes: []
+  takes:
+    - take_id: take001
+      clip_id: 14dd8966-3dfb-424d-8fca-337003c77f7f
+      status: rejected_editorial
+      file:
+        path: generated/sh040-take001.mp4
+        sha256: f0ee287df31c414d389e71507e7c5e61cab1f9a4cdbe59ec44c0b04c330ec545
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. LOI: Veo noi cau 2 LAN — Whisper nghe "U, de thuong." 0.00-1.30s VA 2.12-4.20s; energy envelope xac nhan 2 burst thoai that (0.0-1.4s + 2.8-4.2s), khong phai artifact ASR. Hinh thi dung (Nam gai dau, cuoi tru, mat khop). KHONG dung duoc — can gen lai take002 (10cr).'
   flow_image_asset_id: d7cf4553-76fd-4d62-8d42-ea232566713c
 - shot_id: sh050
   approved_for_generation: true
