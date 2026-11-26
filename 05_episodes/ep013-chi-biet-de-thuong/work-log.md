@@ -45,3 +45,10 @@
 - Richard tự rà lại: váy hồng ở tập Chia Bill (ep004), váy đen ở tập Hẹn Hò Một Mình (ep006), váy kem đúng; chốt dùng 3 váy, váy xanh ep005 (Hẹn Hò Với Mẹ Anh) làm dự phòng nếu cần thêm.
 - Đổi sh050 trắng → đen trong wardrobe.md, script.md, prompt sh050 (image + motion), cập nhật sha vào episode.yaml; validator đạt (exit 0). Lợi thêm: đen tách rõ khỏi kem/hồng dưới đèn vàng, hết hẳn rủi ro kem–trắng lẫn như bản draft cũ.
 - Gen sh020 ep012 đã xong 06:53 (take005, commit 6fba92f) — Flow rảnh, làm sh010 ngay sau commit này.
+
+## 2026-11-26 07:09 — Frame sh010 v1 XONG (Flow, 0 credit)
+
+- Project mới 'CNTM · EP013 · Chỉ Biết Dễ Thương' https://flow.google.com/project/2eee36ea-3b8f-486c-a531-520cf34e242f; asset sh010 cea46e42-6641-4b1c-a869-48bf6ec1ece9; Nano Banana 1 edit trực tiếp từ master ThaoMy002 (mặt lấy lại từ EP003 qua picker, váy hồng lấy lại từ ep004 qua picker, nền phòng khách upload 1 lần file local thao-my-living-room-v001.png).
+- File tải về: browser_downloads/sess-920868313/browser-download-20261126T000855.412967987Z-1-sh010_1c403fe4.png (768×1376, sha 1879d57e…).
+- Bee QC: ĐẠT — mặt khớp ThaoMy002, váy hồng rõ, nền buổi tối đèn vàng ấm, ban công tối, sofa be trái + 2 tranh pastel + khăn len + bàn gỗ nhạt. Nits: sao Gemini nhỏ góc phải dưới (như 4 frame ep011 đã duyệt); khung toàn thân thay vì cận vừa (khoe trọn váy — Richard quyết).
+- CHỜ: Richard duyệt nền + sofa + đèn vàng → làm nốt 5 frame.
