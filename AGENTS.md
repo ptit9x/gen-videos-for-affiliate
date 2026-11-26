@@ -134,6 +134,8 @@ Quy trình UI dưới đây đã chạy thành công ngày 2026-11-14 theo báo 
 3. Gen video bằng **chế độ Frames (Khung hình) trực tiếp, TẮT Agent**: ảnh cảnh làm frame đầu duy nhất, không frame cuối, không đính kèm gì thêm. Đặt: Video, dọc 9:16, 8 giây, đúng 1 output, **Veo 3.1 Lite = 10 credit/clip**.
 4. Prompt video NGẮN, chỉ gồm: 1 hành động chính + câu thoại nguyên văn trong dấu “” + hướng giọng (nữ miền Bắc) + các cấm cơ bản (không nhạc, không phụ đề, không chữ, máy tĩnh). Không dùng prompt dài kiểu khóa cảnh.
 5. **TUYỆT ĐỐI TRÁNH**: chế độ Ingredients/nhân vật và đường qua Agent trung gian cho ảnh người thật — đã bị từ chối chính sách “video liên quan đến người nổi tiếng” 5/5 lượt tối 2026-11-14 (2 khuôn mặt khác nhau, ảnh tải lên / ảnh sửa trong Flow / nhân vật Flow đều bị). Agent của Flow còn tự đổi model/giá giữa các phiên (Lite 10 ↔ Omni 24) — nếu bị đưa vào bước duyệt plan, hủy và quay lại Frames trực tiếp; không duyệt đường Agent. Mỗi lượt gen chỉ bấm 1 lần theo ủy quyền của người dùng.
+
+**Tái tạo nhân vật khi chuyển tài khoản Flow (hết Pro):** nhân vật, asset ID và project không chuyển được bằng file. Tạo lại ThaoMy002 chỉ từ mặt AI `02_characters/thao-my/approved/thao-my-face-front-v002.png`, không upload ảnh người thật trong `02_characters/thao-my/source/`; gen thử 1 clip Lite trước khi làm loạt (tạo nhân vật xong chưa chứng minh được gì vì bộ lọc video khác bộ lọc ảnh). Chi tiết: `02_characters/thao-my/RECREATE-FLOW-CHARACTER.md`.
 6. Credit: tài khoản miễn phí 50 credit/ngày (làm mới hằng ngày; đã dùng hết 50 trong ngày 2026-11-14, làm mới 2026-11-15). Clip tải về ở 720p gốc (720×1280, 24 fps); tùy chọn upscale 1080p/4K bị khóa trên tài khoản này.
 7. Flow ở khu vực này ép watermark AI hiển thị trên nội dung — kiểm tra khi xuất bản.
 
