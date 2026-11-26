@@ -71,7 +71,7 @@ shots:
   takes: []
   flow_image_asset_id: d8c7f1cd-8d47-487a-92bf-fea66b7367e0
 - shot_id: sh040
-  approved_for_generation: false
+  approved_for_generation: true
   dialogue: Ừm... dễ thương!
   image_prompt:
     path: input/prompts/sh040-image.txt
@@ -80,12 +80,14 @@ shots:
     path: input/prompts/sh040-motion.txt
     sha256: 7d9d84544281f73f9d0030eccb15794e5f92da344472f5136271075c7cc9669e
   image_sources: []
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh040-frame-v1.jpg
+    sha256: 1e5f32f771427972be61ce2d7fd017c93bfdb068a48b4aaa0f421420cd27bf8e
+  frame_status: approved
   takes: []
-  flow_image_asset_id: null
+  flow_image_asset_id: d7cf4553-76fd-4d62-8d42-ea232566713c
 - shot_id: sh050
-  approved_for_generation: false
+  approved_for_generation: true
   dialogue: Còn bộ cuối này thì sao? Anh chỉ biết nói mỗi dễ thương thôi hả?
   image_prompt:
     path: input/prompts/sh050-image.txt
@@ -94,12 +96,14 @@ shots:
     path: input/prompts/sh050-motion.txt
     sha256: 4f3a646850317a4f8454646ed6cf4537adc0bcbc01f07af6e1f6afeff87c0f84
   image_sources: []
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh050-frame-v1.jpg
+    sha256: 856b2361bd1759e9d4ef258527e454c1a33fcf254380fa96e7cd14348f6773b0
+  frame_status: approved
   takes: []
-  flow_image_asset_id: null
+  flow_image_asset_id: 713a3c42-ca2f-4d6e-8faa-1b17ebd8efe8
 - shot_id: sh060
-  approved_for_generation: false
+  approved_for_generation: true
   dialogue: Ồ... thì... phối kiểu... dễ thương.
   image_prompt:
     path: input/prompts/sh060-image.txt
@@ -108,7 +112,9 @@ shots:
     path: input/prompts/sh060-motion.txt
     sha256: 1402d22d3a0b0af483306bd2cc37c2782beae6b5357dc3fdd44fe39bb9d4a1ed
   image_sources: []
-  first_frame: null
-  frame_status: missing_local
+  first_frame:
+    path: input/frames/sh060-frame-v1.jpg
+    sha256: f6fa85dade327c44ee11ca306cc9a6d81d3a9b874e006054805f416d0b17262a
+  frame_status: approved
   takes: []
-  flow_image_asset_id: null
+  flow_image_asset_id: 24b59127-5a96-458a-984d-ceae133c7017

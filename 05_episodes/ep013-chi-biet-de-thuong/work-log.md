@@ -135,3 +135,10 @@
 - Richard 👍 bản door-side (media pipeline) 12:04 → CHỐT làm sh020.
 - Map: `input/frames/sh020-frame-v2.jpg` (1152×2048, sha 59752aa5…, từ sh020-door-v1.png sha befe23d6…); episode.yaml sh020 → first_frame v2, image_prompt + motion_prompt viết lại theo blocking cửa ra vào (ghế bành gần cửa, mặt hướng My), flow_image_asset_id: null (tiền lệ ep008: frame media pipeline ghi null). frame_status approved, approved_for_generation true. Frame rộng cũ sh020-frame-v1.jpg giữ nguyên trong thư mục (không xóa).
 - CHỜ: Richard duyệt sh040/sh050/sh060 (đã trình 09:21, chưa gật) → map 3 frame → kiểm tra continuity cả 6 frame → gen 6 clip Veo 3.1 Lite (60 credit).
+
+## 2026-11-26 12:05 — Map sh040/sh050/sh060 + kiểm tra continuity cả 6 frame: PASS
+- Richard "ok" 12:05 → map 3 frame còn lại: sh040-frame-v1.jpg (sha 1e5f32f7…, asset d7cf4553), sh050-frame-v1.jpg (sha 856b2361…, asset 713a3c42), sh060-frame-v1.jpg (sha f6fa85da…, asset 24b59127). episode.yaml cả 3 → approved + approved_for_generation true.
+- Cross-frame continuity (contact sheet 6 frame, so cạnh nhau + đo HLS):
+  - VERDICT: PASS. Mặt My (sh010/030/050) và mặt Nam (sh020/040/060) nhất quán; son đỏ + móng tự nhiên đủ 3 shot My; KHÔNG nốt ruồi cả 6 frame; Nam áo trắng + jean đen đủ 3 shot; 3 váy phân biệt rõ (hồng H9-13 L67-69 / kem H26-27 L39-55 / đen L14-23).
+  - Nits (không chặn): (1) lọ hoa tulip trên bàn trà: có ở sh040/sh060, không ở sh010/sh030/sh050; (2) đèn bàn lọt thêm ở sh030; (3) sách trên bàn trà ở sh040/sh060; (4) sh020 góc cửa ra vào sáng hơn + ghế xám — cố ý theo blocking Richard chốt, không tính lỗi continuity.
+- CHỜ: Richard gật gen 6 clip Veo 3.1 Lite (60 credit, số dư ~100) → gen từng clip, QC take, dựng master.
