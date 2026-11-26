@@ -36,7 +36,14 @@ shots:
     path: input/frames/sh010-frame-v1.jpg
     sha256: fd6bb347710cee3f24a8bbfc269a4dd9cb18fdce6174aca465cd1d8c2f7bb58b
   frame_status: approved
-  takes: []
+  takes:
+    - take_id: take001
+      clip_id: af4a540f-176d-4f83-80a9-5688290ec8c6
+      status: needs_review
+      file:
+        path: generated/sh010-take001.mp4
+        sha256: 37fe1f564d1f2472f06a3740cc40cc6458af1e45f804a039a1e2c4cc0d97890f
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Whisper base: du 8 tu "Anh xem giup em bo nay, thay sao?" 0.00-1.96s; F0 median 230Hz (giong nu). Hinh: mat khop, vay hong, xoay nguoi cuoi, khong chu gia; Veo watermark goc phai duoi (crop luc dung). De xuat CHOT neu Richard nghe giong Bac.'
   flow_image_asset_id: 568a427c-632d-4b79-b022-dbd415ac2662
 - shot_id: sh020
   approved_for_generation: true
@@ -52,7 +59,14 @@ shots:
     path: input/frames/sh020-frame-v2.jpg
     sha256: 59752aa592024645616d242680076d3561dbf7fce45d3d70f06dc7eb6f594db9
   frame_status: approved
-  takes: []
+  takes:
+    - take_id: take001
+      clip_id: 4d9a6a9e-8bf6-45da-acc6-264da649f957
+      status: rejected_editorial
+      file:
+        path: generated/sh020-take001.mp4
+        sha256: 9436040461c167af70b2b93e32a04261d1a1c0c160acb1f606232e709d69211f
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 8.00s, 720x1280. LOI: clip KHONG CO AM THANH — Flow bao "Chua tao am thanh nao", ffprobe khong co audio stream, nang luong 0. Nam cuoi ha mieng suot 2s/5s. Hinh thi dung (cua go + tu giay, mat khop). KHONG dung duoc — can gen lai take002 (10cr).'
   flow_image_asset_id: null
 - shot_id: sh030
   approved_for_generation: true

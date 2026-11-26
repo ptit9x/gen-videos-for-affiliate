@@ -142,3 +142,9 @@
   - VERDICT: PASS. Mặt My (sh010/030/050) và mặt Nam (sh020/040/060) nhất quán; son đỏ + móng tự nhiên đủ 3 shot My; KHÔNG nốt ruồi cả 6 frame; Nam áo trắng + jean đen đủ 3 shot; 3 váy phân biệt rõ (hồng H9-13 L67-69 / kem H26-27 L39-55 / đen L14-23).
   - Nits (không chặn): (1) lọ hoa tulip trên bàn trà: có ở sh040/sh060, không ở sh010/sh030/sh050; (2) đèn bàn lọt thêm ở sh030; (3) sách trên bàn trà ở sh040/sh060; (4) sh020 góc cửa ra vào sáng hơn + ghế xám — cố ý theo blocking Richard chốt, không tính lỗi continuity.
 - CHỜ: Richard gật gen 6 clip Veo 3.1 Lite (60 credit, số dư ~100) → gen từng clip, QC take, dựng master.
+
+## 2026-11-26 12:07–12:25 — Gen 6 clip: chỉ được 2/6, Flow chặn 4 clip + sh020 take001 CÂM
+- Richard gật gen 6 clip 12:07 (60 credit). Task mới (Env 2): sh010 take001 (clip af4a540f, 7.93s) + sh020 take001 (clip 4d9a6a9e, 8.00s) XONG + tải 1K. sh030/sh040/sh050/sh060: Flow chặn "unusual activity" cả 4 (mỗi shot 1 lượt, cách nhau ~1 phút), không tốn credit, không retry.
+- CREDIT — ĐÍNH CHÍNH: số dư đầu lượt là 40 (không phải ~100 như Bee ước), 2 clip tốn 20, còn 20. 5 clip còn lại (sh030/40/50/60 + sh020 take002) cần 50 credit — thiếu 30. Refresh hằng ngày lúc 23:07 (số credit refresh chưa rõ).
+- QC take: sh010 take001 — Whisper base đủ 8 từ đúng thứ tự 0.00-1.96s, F0 median 230Hz (giọng nữ); hình mặt khớp, váy hồng, xoay người cười, không chữ giả → needs_review, đề xuất CHỐT nếu Richard nghe giọng Bắc. sh020 take001 — REJECT: clip KHÔNG CÓ ÂM THANH (Flow "Chưa tạo âm thanh nào", ffprobe không audio stream, năng lượng 0) + Nam cười há miệng suốt → cần gen lại take002. faster-whisper đã mất sau VM restart, cài lại bằng pip --ignore-installed (numpy lên 2.5.5, scipy vẫn import được, chỉ warning).
+- CHỜ: Richard chọn — (A) chờ refresh 23:07 rồi gen cả 5, hoặc (B) gen 2 clip nữa sau khi nghỉ (sh030+sh040) rồi gen nốt sau refresh.
