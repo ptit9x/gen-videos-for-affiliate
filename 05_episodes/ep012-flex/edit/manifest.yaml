@@ -48,7 +48,7 @@ captions:
   style: Remotion BasicCaptions Boxed, accent '#F59E0B'
   words: 47
   srt: delivery/ep012-subtitles.srt
-  note: 'Total dialogue words across 4 shots: 7 + 16 + 15 + 9 = 47 (r05: sh020 15 -> 16 words, Richard 2026-11-25 20:21). Master 1K r06: delivery/ep012-master-1k.mp4 (22.14s, -15.41 LUFS), trims sh010 0-3.4s / sh020 take005-dubbed 0-5.3s / sh030 0-4.7s / sh040 0-7.0s, crop Veo icon crop=640:1138:40:0.'
+  note: 'Total dialogue words across 4 shots: 7 + 16 + 15 + 9 = 47 (r05: sh020 15 -> 16 words, Richard 2026-11-25 20:21). Master 1K r07: delivery/ep012-master-1k.mp4 (22.14s, -15.41 LUFS), trims sh010 0-3.4s / sh020 take005-dubbed 0-5.3s / sh030 0-4.7s / sh040 0-7.0s, crop Veo icon crop=640:1138:40:0. Title card FLEX (Remotion TitleCard, white caps + orange accent underline, 0-2s of sh010, style ep004/ep008) — approved by Richard 2026-11-26. Cover: delivery/ep012-cover-thaomy.jpg (sh020 take005 at 1.6s, cropped like master, no caption, no Veo icon).'
 qc:
   status: passed
-  report_file: edit/build-report-1k-r06.md
+  report_file: edit/build-report-1k-r07.md

@@ -242,3 +242,9 @@
   caption "LO." giữ ~0.4s vào beat cười rồi biến đúng lúc cắt sang sh030 —
   hành vi của component Boxed, giống hệt r05, không phải lỗi.
 - CHƯA làm: chưa commit, chưa sửa episode.yaml/manifest.yaml (Bee làm sau khi review).
+
+## 2026-11-26 ~07:40 — master 1K r07 (title card "FLEX") — QC của Bee
+- Chỉ thêm title card "FLEX" so với r06 (Richard 07:25 26/11 duyệt r06 + chốt "FLEX", bỏ "XE MẤY TỶ"). Style y hệt ep004/ep008: Remotion TitleCard (src/TitleCard.tsx, props accent #F59E0B + title "FLEX" + titleSeconds 2), chữ Inter 900 trắng viền đen + gạch accent cam dưới chữ, dải trên, 0–2s đầu sh010.
+- Takes/trims/crop/captions/laugh/loudnorm y hệt r06. File: delivery/ep012-master-1k.mp4 (sha c2b0abec…, 22.14s) + copy tên riêng delivery/ep012-master-1k-r07.mp4 (sha khớp). SRT không đổi (sha 474d7177…, 4 cue).
+- QC: frame 0.5s/1.5s — "FLEX" rõ, dải trên, KHÔNG che mặt Hùng, KHÔNG che đồng hồ/chìa khóa, không đè caption Boxed (caption "EM BIẾT XE" ở dưới, tách hẳn). Whisper 46 token cho 47 từ đúng thứ tự (artifact quen: "cà phê"→"café", "ba mươi ngàn"→"30"+".000", "limited"→3 mảnh). Không đoạn đen (mean 51.7–89.9). Không chữ giả / không icon Veo. Laugh 2 kênh cân bằng (RMS L/R 1.00, corr 1.000). LUFS I=-15.41, TP=-1.00, LRA 6.60.
+- Script: edit/build_master_1k_r07.py; report: edit/build-report-1k-r07.md (bản trong edit/build1k/ giống hệt).
