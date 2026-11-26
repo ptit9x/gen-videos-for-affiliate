@@ -57,16 +57,20 @@ lần sau không phải mò lại và không vô tình upload nhầm ảnh gây 
    với số ở trên.
 2. Tạo project mới (đặt tên theo quy ước `CNTM · EP003 · Sắp tới` hoặc
    project của tập đang làm), tạo nhân vật **ThaoMy002** từ đúng file v002.
-3. Upload lại các ref trang phục/bối cảnh cần dùng từ đường dẫn repo trong
-   `wardrobe/REGISTRY.md` (đừng upload bản copy khác).
+3. Với mỗi ref trang phục/bối cảnh cần dùng: mở picker **"Chọn dự án"**
+   kiểm tra trước — nếu ảnh đó **đã có trong Flow thì dùng lại, không
+   upload**. Chỉ upload từ đường dẫn repo trong `wardrobe/REGISTRY.md`
+   khi ảnh đó **chưa có** trong Flow (đừng upload bản copy khác).
 4. **Gen thử 1 clip rẻ** (Veo 3.1 Lite, 10 credit) với frame đã duyệt trước
    khi làm hàng loạt — gen video mới là bài kiểm tra thật, tạo nhân vật
    xong chưa chứng minh được gì.
 5. Nếu clip thử bị chặn "người nổi tiếng": dừng, đừng sửa prompt rồi thử
    lại mặt cũ. Gen mặt AI mới hẳn theo mục trên, người dùng duyệt, rồi
    tạo nhân vật mới từ mặt đó.
-6. Ghi lại vào repo: URL project mới, URL nhân vật mới, asset ID mới
-   (vào `README.md` này, `character.yaml` và `wardrobe/REGISTRY.md`).
+6. Ghi lại vào repo ngay sau khi upload/tạo xong: URL project mới, URL
+   nhân vật mới, asset ID mới (vào `README.md` này, `character.yaml` và
+   `wardrobe/REGISTRY.md`) — **luôn lưu đường dẫn ảnh tham chiếu trong
+   Flow vào git**, không để ref chỉ tồn tại trong Flow.
 
 ## Hồ sơ cũ (tham khảo, tài khoản đã hết Pro)
 

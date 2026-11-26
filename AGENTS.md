@@ -124,6 +124,7 @@ Quy trình UI dưới đây đã chạy thành công ngày 2026-11-14 theo báo 
 - Mỗi tập = một project sản xuất riêng, tên `CNTM · EP001 · Dọn bàn`… Tạo khi bắt đầu chuẩn bị frame; không tạo sẵn cho mọi ý tưởng. Project `CNTM · LAB · Thảo My` dành cho thử nghiệm khi cần, không thay thư viện nguồn local hoặc trạng thái duyệt.
 - Nếu UI có Collections, chia `00 · Tham chiếu`, `01 · Frame`, `02 · Takes`, `03 · Chọn dựng`. Gen lại shot/revision vẫn trong project tập; giữ lịch sử take.
 - Tải nguồn đã duyệt cần dùng vào đúng project, ghi URL vào `flow_project` hiện có trong `episode.yaml`, tải frame/clip về đúng thư mục tập và giữ ánh xạ/hash. Không thêm trường ngoài schema.
+- **Ưu tiên dùng lại ảnh đã có trong Flow:** trước khi upload ảnh nào, kiểm tra qua picker **"Chọn dự án"** — ảnh đã có trong Flow thì dùng lại, không upload bản copy mới. Chỉ upload khi ảnh đó chưa có trong Flow. Sau khi upload hoặc tạo asset/nhân vật mới, ghi ngay URL project + asset ID vào `02_characters/thao-my/wardrobe/REGISTRY.md` (hoặc `references.json` của nhân vật) rồi commit — **đường dẫn ảnh tham chiếu trong Flow luôn phải có trong git**, không để ref chỉ tồn tại trong Flow.
 - Giữ nguyên project/tài sản cũ; tập đang làm dở có thể hoàn tất ở project cũ, từ tập tiếp theo dùng project riêng. Không tự di chuyển/xóa tài sản để tổ chức lại. Chi tiết tại `00_docs/production-workflow.md`.
 - Đây là quy ước đã duyệt, không phải xác nhận đã tạo project trên UI hay ủy quyền gen video/đăng bài.
 
