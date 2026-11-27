@@ -3,7 +3,7 @@ episode_id: ep014
 revision: 2
 title: "Dạy Đời"
 editorial_status: draft
-flow_project: null
+flow_project: https://flow.google.com/project/a765ad21-a30f-4f9a-8bef-199e294d671f
 generation:
   mode: frames
   agent: false
@@ -36,9 +36,11 @@ shots:
         sha256: "cb2325e5f1b5a394462dbc0eea4602c20fc16b3f2905ea61c16159ff266fa704"
       - path: input/references/date-cafe-v003-day.png
         sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
-    first_frame: null
-    frame_status: missing_local
-    flow_image_asset_id: null
+    first_frame:
+      path: input/frames/sh010-frame-v1.png
+      sha256: 149168b46264739f2e108e90a2a4493defd9c5130a13de314b56de075d7ef27d
+    frame_status: pending_review
+    flow_image_asset_id: b7955c85-9c55-4e83-82f4-e646ec34c679
     takes: []
   - shot_id: sh020
     approved_for_generation: true
@@ -58,9 +60,11 @@ shots:
         sha256: "2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8"
       - path: input/references/date-cafe-v003-day.png
         sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
-    first_frame: null
-    frame_status: missing_local
-    flow_image_asset_id: null
+    first_frame:
+      path: input/frames/sh020-frame-v1.png
+      sha256: ea20150e383a1aa13b1cf9a39d7230414bb5427ec3165f4c04c2808cc1e0fde4
+    frame_status: pending_review
+    flow_image_asset_id: 7b0d7352-acbf-4866-8c09-d233952567ab
     takes: []
   - shot_id: sh030
     approved_for_generation: true
@@ -76,9 +80,11 @@ shots:
         sha256: "cb2325e5f1b5a394462dbc0eea4602c20fc16b3f2905ea61c16159ff266fa704"
       - path: input/references/date-cafe-v003-day.png
         sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
-    first_frame: null
-    frame_status: missing_local
-    flow_image_asset_id: null
+    first_frame:
+      path: input/frames/sh030-frame-v1.png
+      sha256: 03dafe8186ba4254ad91bb270e55308fef9f51bfe347626a9c86c92606d433e7
+    frame_status: pending_review
+    flow_image_asset_id: 9e02b6e9-f103-4469-b0d1-523e59e91fc3
     takes: []
   - shot_id: sh040
     approved_for_generation: true
@@ -98,7 +104,9 @@ shots:
         sha256: "2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8"
       - path: input/references/date-cafe-v003-day.png
         sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
-    first_frame: null
-    frame_status: missing_local
-    flow_image_asset_id: null
+    first_frame:
+      path: input/frames/sh040-frame-v1.png
+      sha256: 82c4b4fea58fe686add492d6799307fc0da3c12ee2b3fab5c968f5194d8b101c
+    frame_status: pending_review
+    flow_image_asset_id: fe9a177e-b916-48e5-9286-ffcae2559c1f
     takes: []

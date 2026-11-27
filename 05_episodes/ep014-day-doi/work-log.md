@@ -9,6 +9,11 @@
 - **27/11 18:56 — Richard chốt áo polo Trí theo link cậu ấy gửi: polo Falcon xanh nhạt (aff-0008, https://s.shopee.vn/4B1qY76LTw; ảnh ref `input/references/polo-falcon.jpg` sha `cb2325e5…`; shop opaanlp; giá chưa xác minh). Prompt ảnh sh010/sh030 + episode.yaml + wardrobe.md + script.md đã sửa theo (polo xanh đậm → Falcon xanh nhạt).**
 - Validator: `python3 06_automation/validate_episode.py 05_episodes/ep014-day-doi` exit 0 — "Episode structure valid". Notes đúng giai đoạn: 4 frame missing + VieNeu voice pending (voice_status decided_by_user, chưa 'locked' — chỉ khóa ở khâu dựng).
 
-## Frame v1 (đang làm)
-- 4 frame Nano Banana, 0 credit, project Flow riêng `CNTM · EP014 · Dạy Đời` (tạo khi làm frame), mặt ThaoMy002 + café v003-day lấy lại qua picker.
-- Trình Richard duyệt ảnh trước rồi mới gen clip (luật 26/11). Gen clip Veo 3.1 Lite 4 × 10cr = 40cr, làm ngày mai theo lệnh Richard.
+## Frame v1 (xong 19:20 27/11)
+- 4 frame Nano Banana, 0 credit, project Flow `CNTM · EP014 · Dạy Đời` https://flow.google.com/project/a765ad21-a30f-4f9a-8bef-199e294d671f (acc tinphim PLUS; đăng nhập cần Richard xác minh trên iPhone, bấm Yes + số 60).
+- Mặt ThaoMy002: KHÔNG có character ThaoMy002 trên acc tinphim (project ep013 chỉ có nhân vật Nam) — file mặt v002 đã có sẵn trong Images/Uploads của project ep013 nên dùng lại qua picker, không upload trùng. Café + áo dài chưa có trên acc này nên upload mới vào EP014; polo Falcon cũng upload mới.
+- sh010 (asset b7955c85, round 1): Trí polo Falcon xanh nhạt + jean đen, 3/4 nửa mặt, ly cà phê đen thấy rõ trên bàn. Nit: vai/tay My lọt ở mép trái; trên bàn còn ly nước + chén kim loại nhỏ từ ảnh gốc.
+- sh020 (asset 7b0d7352, round 2): round 1 bị loại (ly sáng màu, cà phê đen không rõ, cười quá to) — round 2 sửa từ mặt master, ly đen + cà phê đen thấy rõ. Nit: 2 vệt sao trắng nhỏ (Gemini star) ở dưới; vai mờ của Trí (màu be) ở tiền cảnh phải.
+- sh030 (asset 9e02b6e9, round 2): lần gen đầu bị chặn "unusual activity", chờ 5 phút gen lại được. Framing rộng hơn sh010 (ghế trống nổi bật). **Lỗi: có badge "AI" ở góc phải dưới TRONG ảnh tải về (không phải nhãn viewer) — cần crop khi dựng hoặc gen lại.**
+- sh040 (asset fe9a177e, round 1): My đặt ly xuống, nhìn thẳng Trí, mặt bình thản. Nit: ly màu sáng, cà phê trong ly đọc nâu nhạt chứ không đen hẳn; vai tiền cảnh của Trí màu be/kem chứ không phải polo xanh nhạt.
+- 4 file đã lưu vào `input/frames/` (768×1376 PNG, sha ghi trong episode.yaml), frame_status pending_review. Trình Richard duyệt ảnh trước rồi mới gen clip (luật 26/11). Gen clip Veo 3.1 Lite 4 × 10cr = 40cr, làm ngày mai theo lệnh Richard.
