@@ -37,10 +37,10 @@ shots:
       - path: input/references/date-cafe-v003-day.png
         sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
     first_frame:
-      path: input/frames/sh010-frame-v1.png
-      sha256: 149168b46264739f2e108e90a2a4493defd9c5130a13de314b56de075d7ef27d
+      path: input/frames/sh010-frame-v2.png
+      sha256: b4005b4cb737ba5b6b999ec4c3a1233356d2f00e625e84213123885c73b0985a
     frame_status: pending_review
-    flow_image_asset_id: b7955c85-9c55-4e83-82f4-e646ec34c679
+    flow_image_asset_id: 7db09558-dd3a-438b-beaf-24cc30b7cbcb
     takes: []
   - shot_id: sh020
     approved_for_generation: true
@@ -81,10 +81,10 @@ shots:
       - path: input/references/date-cafe-v003-day.png
         sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
     first_frame:
-      path: input/frames/sh030-frame-v1.png
-      sha256: 03dafe8186ba4254ad91bb270e55308fef9f51bfe347626a9c86c92606d433e7
+      path: input/frames/sh030-frame-v2.png
+      sha256: 4c57f2d18c8bfde6f46da0bc619db0c5aae61d252a8f3440c226777748f29de7
     frame_status: pending_review
-    flow_image_asset_id: 9e02b6e9-f103-4469-b0d1-523e59e91fc3
+    flow_image_asset_id: 7db09558-dd3a-438b-beaf-24cc30b7cbcb
     takes: []
   - shot_id: sh040
     approved_for_generation: true
