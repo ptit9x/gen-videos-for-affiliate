@@ -365,3 +365,8 @@
 ## 2026-11-27 16:43–16:52 — sh020 dub v2: đổi câu "Dễ thương nha", sửa khớp môi
 - Richard: bản lồng v1 chưa khớp môi, lồng từ "Dễ thương nha" vào. Nguyên nhân: đo lại frame 6fps — miệng Nam 0.00s + 0.17s vẫn KHÉP cười, 0.33s mới bắt đầu há, 0.50s há to; v1 đặt tiếng 0.15s nên tiếng đi trước miệng ~0.3s. (Lỗi đặt cửa sổ theo frame 1fps — frame 0s của bản 1fps nhìn như miệng há từ đầu.)
 - v2: clone NamVeo TTS "Dễ thương nha!" 1.44s (Whisper 3/3 từ), đặt 0.30-1.21s (atempo 1.0), onset tiếng 0.35s đúng lúc miệng há; "nha" rơi ~0.86-1.16s gần lúc giơ 2 tay. QC: Whisper nghe đủ 3 từ 1 lần; energy im 0.0-0.3s, tiếng 0.3-1.2s, im sau 1.2s. File dubbed ghi đè, sha mới 4424473d (v1: 51810b3b). Cập nhật: dialogue yaml → "Dễ thương nha", motion prompt + sha mới 0e7a140a, script.md hàng sh020 (3 từ) + lịch sử đổi câu. Chờ Richard nghe chốt v2.
+
+## 2026-11-27 16:54 — sh020 REJECTED (dub v2 vẫn chưa khớp) → thay slot bằng clip sh040 take002
+- Richard: "sh020 ko ổn, thay bằng sh040 (dùng 2 lần)". take001 + dub v2 → rejected_editorial.
+- Slot sh020 dùng clip sh040 take002 bản face-crop 1080p (generated/sh040-take002-1080p-facecrop.mp4, sha 01c798fc) — cùng file với slot sh040 và sh060. Vậy clip sh040 chạy 3 lần trong tập (sh020 + sh040 + sh060), tiếng ở slot sh020 là câu "Ừm... dễ thương!" của sh040.
+- Không cần gen take002 trên Flow, không tốn credit — bỏ luôn fallback 28/11. Cả 6 slot đã có clip: sh010 take004 + dub, sh020 = sh040 take002, sh030 take001, sh040 take002, sh050 take003 + dub, sh060 = sh040 take002. Chờ Richard gật để dựng master.
