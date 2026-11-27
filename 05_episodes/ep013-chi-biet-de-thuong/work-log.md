@@ -348,3 +348,6 @@
 
 ## 2026-11-27 15:18 — Richard CHỐT: slot sh060 giữ nguyên tiếng sh040
 - Richard: "ok giữ như này đc" — slot sh060 dùng bản crop sát mặt của sh040 take002 và GIỮ NGUYÊN tiếng "Ừm... dễ thương!" của sh040, không tắt tiếng, không lồng lại câu sh060. Master ep013 sau này: sh040 + sh060 cùng dùng 1 clip (bản facecrop 2K), sh020 take002 vẫn chờ reset 09:32 3/12.
+
+## 2026-11-27 15:34–15:37 — Lồng tiếng clone ThaoMy vào sh050 take003
+- Richard: "ok lồng tiếng ThaoMy vào" (sh050 take003, bản cắt 5.17s). Làm theo phương pháp wordalign đã duyệt (sh010): đo cửa sổ native bằng energy envelope (P1 0.65–2.05s, lặng 2.1–2.9s, P2 2.95–5.10s); gen clone trên Colab T4 (session ep013-dub, VieNeu v3 Turbo, voice ThaoMyVeo, wav 5.04s); P1 atempo 1.0 vừa khít, P2 atempo 1.06 + mở rộng cửa sổ 2.85–5.15. Build edit/build_wordalign_sh050.py. QC: Whisper nghe đủ 15/15 từ đúng thứ tự, năng lượng ngoài cửa sổ = 0.0 (native tắt hẳn, không rò). File generated/sh050-take003-dubbed.mp4, sha 836ef244. LƯU Ý: đo Whisper trên wav clone 48kHz cho timestamp sai (tới 12.96s) vì faster-whisper đọc mảng numpy như 16kHz — phải decode về 16kHz trước khi đo. Session Colab đã stop, không còn orphan. Chờ Richard nghe chốt.
