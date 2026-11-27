@@ -328,3 +328,6 @@
 
 ## 2026-11-27 14:40 — Richard DUYỆT sh040 take002
 - Take002 chốt của sh040 (câu nói đúng 1 lần, Whisper + energy envelope đã kiểm). Status accepted_editorial, commit. Số dư 10cr — chỉ đủ 1 clip nữa trước reset 09:32 3/12; còn lại sh020 take002 + sh060 take001 (cần 20cr).
+
+## 2026-11-27 14:41 — Richard DUYỆT frame sh060 v1, gen take001 luôn
+- Frame v1 đã map sẵn trong episode.yaml (sha f6fa85da). Gen take001 Frames-direct từ frame v1, Veo 3.1 Lite, câu "...phối kiểu... dễ thương." Đây là clip cuối với số dư 10cr — sau đó sh020 take002 chờ reset 09:32 3/12.
