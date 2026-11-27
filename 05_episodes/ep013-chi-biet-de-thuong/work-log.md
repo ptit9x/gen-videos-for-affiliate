@@ -315,3 +315,6 @@
 
 ## 2026-11-27 14:29 — sh050 take003 ACCEPTED (cắt 2s cuối)
 - Richard: "Cắt 2 giây cuối thì ok". Đã cắt đuôi: file gốc 7.93s → 6.04s (cắt ở keyframe gần nhất, ~1.9s), sha mới a328699f. Whisper trên bản đã cắt vẫn nghe đủ cả 2 câu (0.00-2.00s + 2.00-5.00s). Take003 = take chốt của sh050.
+
+## 2026-11-27 14:32 — Richard DUYỆT frame sh040 v1, gen take002 luôn
+- Frame v1 đã map sẵn trong episode.yaml (sha 1e5f32f7, flow asset d7cf4553), frame_status approved — không cần sửa yaml. Gen take002 Frames-direct từ frame v1, Veo 3.1 Lite, câu "Ừm... dễ thương!" (take001 hỏng vì Veo nói câu 2 lần).
