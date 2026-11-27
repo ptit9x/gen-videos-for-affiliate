@@ -251,3 +251,9 @@
 - Gen câm (prompt không thoại, không hướng giọng; Flow không có nút tắt audio riêng) — sau ~90s Flow báo lỗi: "Chúng tôi nhận thấy có hoạt động bất thường nào đó..." (unusual activity). Không có clip, không tốn credit (còn 20cr). Browser không bấm Retry.
 - Đây là lần hỏng thứ 5 của sh020 (take001 câm + take002 lỗi audio ×3 + gen câm bị chặn unusual activity). Lần chặn này khác 4 lần trước: không phải lỗi audio mà là Flow nghi session tự động vì gen dồn dập (2 lần gen trong ~15 phút, 06:46 và 06:55). Tiền lệ ep013 ngày 26/11: sau chặn unusual activity thì nghỉ 5 phút + gen cách nhau thì chạy được.
 - Chờ Richard chọn: nghỉ một lúc rồi thử lại gen câm / để sh020 lại làm sh050 trước / Richard tự bấm gen trên trình duyệt của mình.
+
+## 2026-11-27 07:23–07:27 — Thử lại gen câm sau nghỉ 23 phút: LỖI LẠI "không tạo được âm thanh"
+- Gen câm lần 2 (prompt không thoại, không hướng giọng) — Flow vẫn báo đúng lỗi cũ "Không tạo được âm thanh" sau ~1 phút, dù prompt không hề yêu cầu âm thanh. Không có clip, không tốn credit (còn 20cr).
+- PHÁT HIỆN QUAN TRỌNG: lỗi audio KHÔNG liên quan tới thoại/prompt — Veo vẫn cố tạo audio cho shot này dù prompt không có thoại, và cứ lỗi. Shot sh020 hỏng 6 lần liên tiếp (take001 câm + take002 lỗi audio ×3 + gen câm bị chặn unusual activity ×1 + gen câm lỗi audio ×1).
+- MANH MỐI MỚI: thông báo lỗi của Flow ghi "Bạn có thể cập nhật chế độ cài đặt để tạo video không có âm thanh" + link tới cài đặt — có vẻ Flow CÓ nút tắt tiếng thật trong phần cài đặt (trình duyệt chưa tìm thấy trong panel đã mở). Lần thử sau nên tìm và bật nút tắt tiếng đó thay vì chỉ ghi trong prompt.
+- Chờ Richard chọn: thử lại với nút tắt tiếng trong cài đặt / để sh020 lại làm sh050 trước.
