@@ -68,13 +68,13 @@ shots:
   flow_image_asset_id: null
 - shot_id: sh020
   approved_for_generation: true
-  dialogue: Dễ thương!
+  dialogue: Dễ thương nha
   image_prompt:
     path: input/prompts/sh020-image.txt
     sha256: dd2a8162cbd65ac4693dd90d698e0400842d00c75243d53f724febe493d34257
   motion_prompt:
     path: input/prompts/sh020-motion.txt
-    sha256: 8abbcf25a76f34d9dbf2f99d1b00f515ecd532b39881280fb97804a46f1faf75
+    sha256: 0e7a140a26e535ca0d09d17056645962c0a288845ad74a79ec07efb4018a8a93
   image_sources: []
   first_frame:
     path: input/frames/sh020-frame-v3.jpg
@@ -87,7 +87,7 @@ shots:
       file:
         path: generated/sh020-take001.mp4
         sha256: 9436040461c167af70b2b93e32a04261d1a1c0c160acb1f606232e709d69211f
-      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 8.00s, 720x1280. LOI: clip KHONG CO AM THANH — Flow bao "Chua tao am thanh nao", ffprobe khong co audio stream, nang luong 0. Nam cuoi ha mieng suot 2s/5s. Hinh thi dung (cua go + tu giay, mat khop). DUB 27/11 16:42: long clone NamVeo (VieNeu v3 Turbo, Colab T4, enroll tu audio goc sh040 take001) — file generated/sh020-take001-dubbed.mp4, sha 51810b3b, 8.00s, mono 48kHz; Whisper nghe de thuong 1 lan dung cua so 0.15-0.85s (mieng ha to 0-2s); QC edit/dub-qc-ep013-sh020.md. Cho Richard nghe chot — neu duyet thi sh020 HOAN THANH, khong can gen take002 tren Flow.'
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 8.00s, 720x1280. LOI: clip KHONG CO AM THANH — Flow bao "Chua tao am thanh nao", ffprobe khong co audio stream, nang luong 0. Nam cuoi ha mieng suot 2s/5s. Hinh thi dung (cua go + tu giay, mat khop). DUB 27/11 16:42: long clone NamVeo (VieNeu v3 Turbo, Colab T4, enroll tu audio goc sh040 take001) — file generated/sh020-take001-dubbed.mp4, sha 51810b3b (v1), 8.00s, mono 48kHz; Whisper nghe de thuong 1 lan dung cua so 0.15-0.85s. v2 27/11 16:52: Richard bao chua khop moi + doi cau thanh De thuong nha — nguyen nhan: mieng Nam 0s van khep, ~0.3s moi bat dau ha (v1 dat tieng 0.15s, som ~0.3s); long lai clone NamVeo cau De thuong nha (TTS 1.44s, Whisper 3/3 tu), dat 0.30-1.21s, onset tieng 0.35s dung luc mieng ha; file dubbed ghi de, sha moi 4424473d; QC cap nhat edit/dub-qc-ep013-sh020.md. Cho Richard nghe chot v2 — neu duyet thi sh020 HOAN THANH, khong can gen take002 tren Flow.'
   flow_image_asset_id: null
 - shot_id: sh030
   approved_for_generation: true

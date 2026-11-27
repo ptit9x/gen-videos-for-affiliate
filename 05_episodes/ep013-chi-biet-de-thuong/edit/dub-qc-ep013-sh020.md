@@ -30,3 +30,17 @@ pipeline (video AI của Bee bị chặn 403 từ 23/10, không gen được cli
 - Lip-sync: đặt theo miệng há to 0-2s (xem frame 0s/1s/2s); tai Richard là
   người chốt cuối — cả giọng (có giống Nam/giọng Bắc không) lẫn khớp môi.
 - sha256 bản lồng: 51810b3bcc61672d565b7393d185bcfa095113f6cd21435324ac4f4da39df88b
+
+## v2 (27/11 16:52) — Đổi câu thành "Dễ thương nha", sửa khớp môi
+
+- Richard 16:43: v1 chưa khớp môi + lồng từ "Dễ thương nha" vào.
+- Nguyên nhân v1 lệch: đo lại frame 6fps — miệng Nam ở 0.00s và 0.17s vẫn KHÉP
+  cười, 0.33s mới bắt đầu há, 0.50s há to; v1 đặt tiếng từ 0.15s nên tiếng đi
+  trước miệng ~0.3s. (Lỗi đặt cửa sổ theo frame 1fps — frame 0s của bản 1fps
+  là ảnh đã qua 1s nên nhìn như miệng há từ đầu.)
+- v2: TTS clone NamVeo "Dễ thương nha!" 1.44s (Whisper 3/3 từ 0.00-0.86s),
+  đặt 0.30-1.21s (atempo 1.0) — onset tiếng 0.35s, đúng lúc miệng bắt đầu há;
+  "nha" rơi ~0.86-1.16s, gần lúc giơ 2 tay (1.0-1.5s).
+- QC v2: Whisper nghe "dễ thương nha." 1 lần đúng thứ tự; energy envelope:
+  im 0.0-0.3s, tiếng 0.3-1.2s, im sau 1.2s — khớp miệng há 0.3-2.0s.
+- File dubbed ghi đè cùng đường dẫn, sha mới 4424473d (v1: 51810b3b).
