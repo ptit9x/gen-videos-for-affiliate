@@ -177,7 +177,7 @@ shots:
       file:
         path: generated/sh050-take003.mp4
         sha256: f5c8bfa3b637da5ec27ec20d6f07ea797af688455a007902663516e998e64d55
-      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Re-roll tu cung frame v1 (take001+002 mat drift). CO TIENG — Whisper base nghe dung ca 2 cau: "Con bo cuoi nay thi sao?" (0.00-2.48s) + "Anh chi biet noi moi de thuong thoi ha?" (2.48-5.48s). ASR trinh duyet nghe nham "thoi" thanh "roi" — Whisper xac nhan dung "thoi". Gen 14:25 27/11, 1 lan thanh cong. So du 30->20cr.'
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Re-roll tu cung frame v1 (take001+002 mat drift). CO TIENG — Whisper base nghe dung ca 2 cau: "Con bo cuoi nay thi sao?" (0.00-2.48s) + "Anh chi biet noi moi de thuong thoi ha?" (2.48-5.48s). ASR trinh duyet nghe nham "thoi" thanh "roi" — Whisper xac nhan dung "thoi". Gen 14:25 27/11, 1 lan thanh cong. So du 30->20cr. Cat duoi 7.93s->6.04s (Richard 14:29 ''Cat 2 giay cuoi thi ok'') ->5.17s (Richard 14:32 ''cat them 1 giay cuoi nua''); Whisper van nghe du 2 cau. DUB 27/11 15:37: long clone ThaoMyVeo (VieNeu v3 Turbo, Colab T4) theo lenh Richard — file generated/sh050-take003-dubbed.mp4, sha 836ef244, 5.17s, mono 48kHz; Whisper nghe du 15/15 tu dung thu tu (chi ''cuoi''->''quy'' la nham dong am, cho tai Richard); QC edit/dub-qc-ep013-sh050.md.'
   flow_image_asset_id: 713a3c42-ca2f-4d6e-8faa-1b17ebd8efe8
 - shot_id: sh060
   approved_for_generation: true
