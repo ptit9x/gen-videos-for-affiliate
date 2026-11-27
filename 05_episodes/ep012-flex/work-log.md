@@ -259,3 +259,9 @@
 - **Like Page:** ĐÃ like mới lúc ~19:30 với tư cách Page Chuyện Nhà Thảo My (xác nhận identity trước qua "Your profiles & Pages"). Trước: 0 reaction, 0 comment. Sau: "Remove Like, 1 reaction", giữ nguyên sau reload. KHÔNG đăng comment aff-0007 (link đã trong banner sản phẩm).
 - **Ghi repo:** publications.csv +2 dòng (tiktok + facebook, URL thật + bằng chứng); episode.yaml editorial_status draft → published; tracker ep012 → published; placement mới plc-0013 (aff-0007, product_banner, confirmed).
 - **Còn chờ Richard kiểm trên điện thoại:** (1) banner "Áo dài Mai Linh — Shop now" có hiện trên app Facebook không; (2) counter challenge Shopee trong Affiliate Partnerships trên app là mấy/5.
+
+## 2026-11-27 20:08–20:15 — Banner mobile + challenge counter + comment link aff-0007
+
+- **Banner mobile (Richard tự kiểm trên app, 20:08):** KHÔNG hiện. Giả thuyết "banner chỉ hiện khi sản phẩm xuất hiện trong video" BỊ BÁC — ep012 mặc áo dài Mai Linh trong video mà cả desktop lẫn mobile đều không có banner "Shop now" trên video (chỉ product card side panel desktop + nhãn "Commission eligible"). 2/2 test không render trên bài live (Agoda 27/11 + ep012 27/11).
+- **Challenge Shopee (ảnh Richard gửi, hub Affiliate Partnerships trên app, 20:13):** đếm **2/5 reel**, hoa hồng ₫0/₫100.000, hạn 30/11. Reel vẫn được tính dù banner không hiện.
+- **Comment link aff-0007 (lệnh Richard 20:14):** ĐÃ đăng 20:15 với tư cách Page Chuyện Nhà Thảo My (Author badge), comment ID 1451862459903296, text "Ao dai Thao My mac trong clip ne: https://s.shopee.vn/30ppBKBi6L", có Shopee preview "Set Áo Dài Cách Tân Hạc Vũ". Lưu ý: dưới sort "Most relevant" hiện "No comments yet" — xem dưới "Newest" mới thấy. Placement mới plc-0014 (aff-0007, page_comment, confirmed); notes plc-0013 cập nhật kết quả mobile.
