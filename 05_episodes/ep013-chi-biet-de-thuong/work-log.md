@@ -321,3 +321,7 @@
 
 ## 2026-11-27 14:32 — sh050 take003 cắt thêm 1s cuối (theo Richard)
 - Richard: "cái này cắt thêm 1 giây cuối nữa". Đã cắt: 6.04s → 5.17s (cắt ~0.87s, giới hạn packet). Đo energy envelope trước khi cắt: tiếng nói hết khoảng 5.05–5.1s nên cắt tới 5.17s vẫn giữ nguyên thoại — Whisper trên bản đã cắt vẫn nghe đủ cả 2 câu. Sha mới f5c8bfa3. Take003 chốt của sh050.
+
+## 2026-11-27 14:32–14:39 — sh040 take002 gen xong (re-roll từ frame v1)
+- Frame sh040 v1 KHÔNG có sẵn trong project dù yaml ghi asset d7cf4553 (giống vụ sh050) — phải cấp file cho trình duyệt upload lại. Gen 1 lần thành công, clip 4538e5a7, 7.93s, 720x1280, AAC, sha b0a508ec. Số dư 20→10cr.
+- QC: Whisper base word-timestamps — câu "Ừ, dễ thương" nói ĐÚNG 1 LẦN (0.00–1.16s). Energy envelope: 1 burst thoại 0.0–1.2s + 1 burst ngắn không lời 4.7–4.9s (~0.3s, Whisper không dịch được — có thể là cười trừ/hơi thở, khớp prompt "cười trừ"). KHÔNG phải lỗi nói 2 lần như take001. ASR trình duyệt nghe loạn xạ 4 lần khác nhau — không đáng tin, đã bỏ qua. Chờ Richard duyệt (mặt + giọng Nam).

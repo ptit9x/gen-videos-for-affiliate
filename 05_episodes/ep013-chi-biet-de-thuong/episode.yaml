@@ -134,6 +134,13 @@ shots:
         path: generated/sh040-take001.mp4
         sha256: f0ee287df31c414d389e71507e7c5e61cab1f9a4cdbe59ec44c0b04c330ec545
       note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. LOI: Veo noi cau 2 LAN — Whisper nghe "U, de thuong." 0.00-1.30s VA 2.12-4.20s; energy envelope xac nhan 2 burst thoai that (0.0-1.4s + 2.8-4.2s), khong phai artifact ASR. Hinh thi dung (Nam gai dau, cuoi tru, mat khop). KHONG dung duoc — can gen lai take002 (10cr).'
+    - take_id: take002
+      clip_id: 4538e5a7-73f2-4ac3-82d9-39ed0e1b0a3e
+      status: needs_review
+      file:
+        path: generated/sh040-take002.mp4
+        sha256: b0a508ecc14882ba0b0ac3465311a82f0c272041d806df8de2d1e3abb23f308b
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Re-roll tu cung frame v1. CO TIENG — Whisper base (word timestamps): cau noi DUNG 1 LAN "U, de thuong" 0.00-1.16s. Energy envelope: 1 burst thoai 0.0-1.2s + 1 burst ngan khong loi 4.7-4.9s (0.3s, Whisper khong dich duoc — co the la cuoi tru/hoi tho, dung prompt "cuoi tru"). Khong phai loi noi 2 lan nhu take001. Gen 14:39 27/11, 1 lan thanh cong. So du 20->10cr.'
   flow_image_asset_id: d7cf4553-76fd-4d62-8d42-ea232566713c
 - shot_id: sh050
   approved_for_generation: true
