@@ -280,3 +280,9 @@
 
 ## 2026-11-27 08:52 — Richard DUYỆT frame sh020 v3, gen take002 luôn
 - Frame v3 (miệng khép, sha 17423ea7) đã map làm first_frame của sh020 trong episode.yaml (flow_image_asset_id null — frame pipeline, không phải asset Flow). Gen take002 từ frame v3 + nhân vật Nam (8608fd89), Veo 3.1 Lite, câu "Dễ thương!".
+
+## 2026-11-27 08:53–09:00 — Gen take002 từ frame v3 + nhân vật Nam: VẪN LỖI audio
+- Frame v3 (miệng khép) đã upload vào project, gen với nhân vật Nam + frame v3, Veo 3.1 Lite, câu "Dễ thương!" — sau ~2 phút vẫn lỗi đúng "Không tạo được âm thanh". Không có clip.
+- KẾT LUẬN: miệng há cũng không phải nguyên nhân. Shot sh020 hỏng 9 lần liên tiếp. Số dư XÁC NHẬN 50 credit (trước gen 50, sau gen 50 — lần lỗi không bị trừ).
+- Chi tiết kỹ thuật đáng ghi: khi đính frame trước, picker của Flow ẨN nhân vật Nam (tab Characters báo "No ingredients found", tìm "Nam" không ra); bỏ frame ra thì nhân vật hiện lại — phải đính nhân vật TRƯỚC rồi mới đính frame thì cả 2 mới cùng vào. (Quy tắc 1 reference mang mặt/lần — entity + portrait cùng lúc có thể xung đột.)
+- Tổ hợp CHƯA thử: Frames-direct với frame v3 (không nhân vật) — mọi lần gen v3 đều qua Ingredients + nhân vật. Chờ Richard chọn: thử Frames-direct v3 / để sh020 lại làm sh050 trước / thử lại sau.
