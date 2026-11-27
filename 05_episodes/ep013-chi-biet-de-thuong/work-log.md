@@ -257,3 +257,8 @@
 - PHÁT HIỆN QUAN TRỌNG: lỗi audio KHÔNG liên quan tới thoại/prompt — Veo vẫn cố tạo audio cho shot này dù prompt không có thoại, và cứ lỗi. Shot sh020 hỏng 6 lần liên tiếp (take001 câm + take002 lỗi audio ×3 + gen câm bị chặn unusual activity ×1 + gen câm lỗi audio ×1).
 - MANH MỐI MỚI: thông báo lỗi của Flow ghi "Bạn có thể cập nhật chế độ cài đặt để tạo video không có âm thanh" + link tới cài đặt — có vẻ Flow CÓ nút tắt tiếng thật trong phần cài đặt (trình duyệt chưa tìm thấy trong panel đã mở). Lần thử sau nên tìm và bật nút tắt tiếng đó thay vì chỉ ghi trong prompt.
 - Chờ Richard chọn: thử lại với nút tắt tiếng trong cài đặt / để sh020 lại làm sh050 trước.
+
+## 2026-11-27 08:17–08:22 — Thử giả thuyết của Richard: tạo nhân vật Nam rồi gen — nhân vật TẠO ĐƯỢC, gen VẪN LỖI audio
+- Bước 1 THÀNH CÔNG: tạo nhân vật "Nam" từ ảnh sh020-frame-v2.jpg trong project tinphim, không bị chặn (ảnh AI, không phải ảnh người thật). Character ID 8608fd89-6ce9-4519-80c2-e65e14f9c547, URL https://flow.google.com/project/7ac61787-27b9-4022-ac91-fe3f15d02414/character/8608fd89-6ce9-4519-80c2-e65e14f9c547. Chân dung: Nam áo phông trắng, ngồi ghế bành gần cửa gỗ, mỉm cười — khớp frame. Nhân vật này giữ lại trong project, dùng được cho các shot Nam sau (sh040/sh060).
+- Bước 2 THẤT BẠI: gen 1 clip với nhân vật Nam + frame v2 làm ingredients, Veo 3.1 Lite, prompt "Đáng yêu" — sau ~2 phút vẫn lỗi đúng "Không tạo được âm thanh". Không có clip, không tốn credit (còn 20cr).
+- KẾT LUẬN: giả thuyết "thiếu nhân vật" KHÔNG đúng — lỗi audio tái hiện cả khi đã có nhân vật. Shot sh020 hỏng 7 lần liên tiếp. Hướng còn: (a) thử nút tắt tiếng thật trong cài đặt (manh mối từ thông báo lỗi Flow); (b) để sh020 lại làm sh050 trước; (c) thử lại sau.
