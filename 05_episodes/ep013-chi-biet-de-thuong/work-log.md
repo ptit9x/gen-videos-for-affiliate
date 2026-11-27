@@ -246,3 +246,8 @@
 ## 2026-11-27 06:39–06:46 — sh020 take002 retry prompt sửa: LỖI LẠI "không tạo được âm thanh"
 - Phiên browser bị đăng xuất (06:40), Richard đăng nhập lại tinphim (06:42 "xong"), gen tiếp với prompt sửa (mỉm cười, nói rõ ràng, câu "Đáng yêu"). Kết quả: vẫn lỗi đúng "Không tạo được âm thanh", không có clip, không tốn credit (còn 20cr).
 - KẾT LUẬN: sửa prompt cũng KHÔNG sửa được. Shot sh020 lỗi âm thanh 4 lần liên tiếp (take001 câm + take002 lỗi audio ×3, qua 2 câu thoại khác nhau và 2 prompt khác nhau). Khả năng cao vấn đề nằm ở shot/frame/giọng nam, không phải chữ hay hành động. Hướng còn lại: (a) gen video KHÔNG tiếng rồi lồng sau — Nam chưa có giọng clone, nhưng có thể clone từ audio gốc của sh040 take001 (Nam nói thật, dù bị lặp câu 2 lần — lấy 1 lần làm mẫu); (b) thử lại sau; (c) để sh020 lại làm shot khác trước. Chờ Richard chọn.
+
+## 2026-11-27 06:55–07:00 — sh020 take002 gen KHÔNG tiếng: Flow chặn "unusual activity", không có clip
+- Gen câm (prompt không thoại, không hướng giọng; Flow không có nút tắt audio riêng) — sau ~90s Flow báo lỗi: "Chúng tôi nhận thấy có hoạt động bất thường nào đó..." (unusual activity). Không có clip, không tốn credit (còn 20cr). Browser không bấm Retry.
+- Đây là lần hỏng thứ 5 của sh020 (take001 câm + take002 lỗi audio ×3 + gen câm bị chặn unusual activity). Lần chặn này khác 4 lần trước: không phải lỗi audio mà là Flow nghi session tự động vì gen dồn dập (2 lần gen trong ~15 phút, 06:46 và 06:55). Tiền lệ ep013 ngày 26/11: sau chặn unusual activity thì nghỉ 5 phút + gen cách nhau thì chạy được.
+- Chờ Richard chọn: nghỉ một lúc rồi thử lại gen câm / để sh020 lại làm sh050 trước / Richard tự bấm gen trên trình duyệt của mình.
