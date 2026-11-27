@@ -140,7 +140,7 @@ shots:
       file:
         path: generated/sh040-take002.mp4
         sha256: b0a508ecc14882ba0b0ac3465311a82f0c272041d806df8de2d1e3abb23f308b
-      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Re-roll tu cung frame v1. CO TIENG — Whisper base (word timestamps): cau noi DUNG 1 LAN "U, de thuong" 0.00-1.16s. Energy envelope: 1 burst thoai 0.0-1.2s + 1 burst ngan khong loi 4.7-4.9s (0.3s, Whisper khong dich duoc — co the la cuoi tru/hoi tho, dung prompt "cuoi tru"). Khong phai loi noi 2 lan nhu take001. Gen 14:39 27/11, 1 lan thanh cong. So du 20->10cr.'
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Re-roll tu cung frame v1. CO TIENG — Whisper base (word timestamps): cau noi DUNG 1 LAN "U, de thuong" 0.00-1.16s. Energy envelope: 1 burst thoai 0.0-1.2s + 1 burst ngan khong loi 4.7-4.9s (0.3s, Whisper khong dich duoc — co the la cuoi tru/hoi tho, dung prompt "cuoi tru"). Khong phai loi noi 2 lan nhu take001. Gen 14:39 27/11, 1 lan thanh cong. So du 20->10cr. 2K DOWNLOAD DUOC 15:12 27/11: menu 1080p mo (4K khoa, Ultra), click lan 1 chay upscale ~1 phut, click lan 2 tai ve; ffprobe xac nhan 1080x1920, AAC, 7.85s, sha 15ed07d0 — file generated/sh040-take002-1080p.mp4. Richard quyet dung take002 nay 2 lan (sh040 + sh060).'
   flow_image_asset_id: d7cf4553-76fd-4d62-8d42-ea232566713c
 - shot_id: sh050
   approved_for_generation: true

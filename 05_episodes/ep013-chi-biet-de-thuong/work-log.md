@@ -339,3 +339,6 @@
 ## 2026-11-27 15:08 — Richard: sh060 take001 KHÔNG duyệt, dùng sh040 take002 2 lần
 - Richard (reply vào video sh040 take002): "ko duyệt cái trên đc, dùng luôn cái này 2 lần" — tức sh060 take001 (nói 2 lần) không duyệt; dùng clip sh040 take002 (đã ACCEPTED) cho cả 2 slot sh040 + sh060 trong master. CÒN MỞ: slot sh060 giữ nguyên tiếng "Ừm... dễ thương!" của sh040 hay tắt tiếng/lồng lại câu sh060 ("Ồ... thì... phối kiểu... dễ thương.") — hỏi Richard sau khi xong kiểm tra 2K.
 - Đồng thời Richard lệnh kiểm tra download 2K cho sh040 take002 (clip 4538e5a7). Đang kiểm tra trong cửa sổ Flow.
+
+## 2026-11-27 15:12 — 2K download sh040 take002: ĐƯỢC
+- Menu download có 1080p "Đã tăng độ phân giải" mở được (4K khóa, link Nâng cấp Ultra — giống ep012). Click lần 1 chạy upscale ~1 phút, click lần 2 tải về 4.8MB. ffprobe xác nhận thật: 1080x1920, AAC, 7.85s, sha 15ed07d0. File lưu generated/sh040-take002-1080p.mp4. Không tốn credit (số dư vẫn 0). Khác ep012 (26/11 nút 1080p khóa) — paywall 2K có vẻ không ổn định theo acc/ngày, nên lần sau cứ thử lại trước khi kết luận.
