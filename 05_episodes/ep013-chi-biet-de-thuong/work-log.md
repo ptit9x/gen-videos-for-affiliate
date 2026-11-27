@@ -267,3 +267,9 @@
 - Lý do: đổi sang "Đáng yêu" không sửa được lỗi audio; lần gen với nhân vật Nam dùng câu "Đáng yêu" vẫn lỗi — tổ hợp chưa thử là nhân vật Nam + câu gốc "Dễ thương!". Không đi hướng tắt tiếng nữa.
 - Cập nhật: episode.yaml dialogue → "Dễ thương!", input/prompts/sh020-motion.txt (giữ "mỉm cười vui vẻ, nói rõ ràng", chỉ đổi lại câu thoại), script.md hàng sh020 + ghi chú. Running gag 3 lần "dễ thương" khôi phục.
 - Gen lại take002 với nhân vật Nam (8608fd89) + frame v2, Veo 3.1 Lite 10cr. Số dư tinphim: 20cr.
+
+## 2026-11-27 08:28–08:31 — Gen lại nhân vật Nam + câu gốc "Dễ thương!": VẪN LỖI audio
+- Tổ hợp chưa thử cuối cùng (nhân vật Nam + câu gốc) cũng lỗi đúng "Không tạo được âm thanh" sau ~2 phút. Không dùng hướng tắt tiếng (theo lệnh Richard). Không có clip.
+- Shot sh020 hỏng 8 lần liên tiếp. Đã thử đủ ma trận: Frames-direct × 2 câu thoại × cười/mỉm cười; gen câm (prompt không thoại) ×2; nhân vật Nam + 2 câu thoại — tất cả đều lỗi audio (trừ 1 lần chặn unusual activity). Kết luận: lỗi không nằm ở thoại, prompt, nhân vật hay chế độ gen — có thể nằm ở chính frame v2 (Nam cười há miệng?) hoặc lỗi nhất thời của Flow với shot này.
+- LƯU Ý SỐ DƯ: panel tài khoản hiện 50 credit (lúc bắt đầu lần này là 20) — không rõ lý do (có thể hoàn credit các lần lỗi dồn về, hoặc reset ngày mới); CẦN kiểm tra lại số dư ở lần gen sau trước khi tính toán. Nếu thật sự 50 thì đủ làm cả 4 clip còn lại (40cr).
+- Chờ Richard chọn: làm frame mới cho sh020 (biểu cảm miệng khép, không cười há miệng) / để sh020 lại làm sh050 trước / thử lại sau.
