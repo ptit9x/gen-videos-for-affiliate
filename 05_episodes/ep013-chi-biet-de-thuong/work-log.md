@@ -277,3 +277,6 @@
 ## 2026-11-27 08:32 — Frame sh020 v3 (miệng khép) làm xong, đã trình Richard duyệt
 - Richard chọn làm frame mới miệng khép (giả thuyết: frame v2 Nam cười há miệng làm Veo kẹt audio). Frame v3 làm bằng media pipeline, sửa từ v2: giữ nguyên người, áo trắng, ghế bành, cửa gỗ, tủ giày, góc máy, ánh sáng; chỉ đổi miệng thành khép, cười mỉm môi khép. File input/frames/sh020-frame-v3.jpg, 1184×2096, sha256 17423ea7ed440eb05e996b8a780d75a776664fec0bd6e14532ea8f9cd481ed7a.
 - CHƯA ghi vào episode.yaml — chờ Richard duyệt ảnh trước rồi mới map + gen (luật 18:39).
+
+## 2026-11-27 08:52 — Richard DUYỆT frame sh020 v3, gen take002 luôn
+- Frame v3 (miệng khép, sha 17423ea7) đã map làm first_frame của sh020 trong episode.yaml (flow_image_asset_id null — frame pipeline, không phải asset Flow). Gen take002 từ frame v3 + nhân vật Nam (8608fd89), Veo 3.1 Lite, câu "Dễ thương!".
