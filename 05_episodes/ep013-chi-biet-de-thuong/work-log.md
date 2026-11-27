@@ -355,3 +355,9 @@
 ## 2026-11-27 15:58 — sh050 HOÀN THÀNH
 - Richard duyệt bản lồng sh050 take003 (take003 cắt 5.17s + dub clone ThaoMyVeo). sh050 DONE.
 - Còn lại của ep013: chỉ sh020 take002 (chờ 50 credit ngày mới, mai 28/11).
+
+## 2026-11-27 16:36–16:42 — Cứu sh020 take001 bằng dub clone Nam (không gen lại Flow)
+- Richard: "mày gen đc video bằng pipeline của mày ko" + "làm nốt cho tao với". Trả lời thẳng: video AI của Bee bị chặn 403 từ 23/10 (không gen được clip người thật) — nhưng take001 là video Veo THẬT chỉ bị câm, cứu được bằng lồng tiếng (đúng phương án (a) đã ghi trong work-log 27/11: clone Nam từ audio gốc sh040 take001).
+- Xem lại 8 frame take001 (1fps): video dùng được — Nam há miệng to 0-2s (1s giơ 2 tay nắm đấm), cười 3-5s, kết nhẹ 7s; mặt khớp Nam, cửa gỗ + tủ giày đúng blocking.
+- Clone NamVeo (VieNeu v3 Turbo, Colab T4, session ep013-dub-nam): enroll từ audio gốc sh040 take001 (Whisper: "Ờ, dễ thương" ×2, 0.00-1.30s + 2.24-4.24s); TTS "Dễ thương!" 0.96s, Whisper nghe đúng 2/2 từ 0.00-0.60s. Session đã stop, không orphan.
+- Build edit/build_wordalign_sh020.py: đặt câu 0.15-0.85s (atempo 1.0, khớp miệng há to), im lặng phần còn lại. QC: Whisper nghe "dễ thương" 1 lần đúng cửa sổ, năng lượng ngoài cửa sổ = 0.0. File generated/sh020-take001-dubbed.mp4, sha 51810b3b. take001 → needs_review (chờ Richard nghe chốt giọng + khớp môi). Nếu duyệt: sh020 HOÀN THÀNH, không cần gen take002 (fallback mai 28/11 khi credit về).

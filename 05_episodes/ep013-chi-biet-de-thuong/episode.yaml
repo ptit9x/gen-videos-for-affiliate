@@ -83,11 +83,11 @@ shots:
   takes:
     - take_id: take001
       clip_id: 4d9a6a9e-8bf6-45da-acc6-264da649f957
-      status: rejected_editorial
+      status: needs_review
       file:
         path: generated/sh020-take001.mp4
         sha256: 9436040461c167af70b2b93e32a04261d1a1c0c160acb1f606232e709d69211f
-      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 8.00s, 720x1280. LOI: clip KHONG CO AM THANH — Flow bao "Chua tao am thanh nao", ffprobe khong co audio stream, nang luong 0. Nam cuoi ha mieng suot 2s/5s. Hinh thi dung (cua go + tu giay, mat khop). KHONG dung duoc — can gen lai take002 (10cr).'
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 8.00s, 720x1280. LOI: clip KHONG CO AM THANH — Flow bao "Chua tao am thanh nao", ffprobe khong co audio stream, nang luong 0. Nam cuoi ha mieng suot 2s/5s. Hinh thi dung (cua go + tu giay, mat khop). DUB 27/11 16:42: long clone NamVeo (VieNeu v3 Turbo, Colab T4, enroll tu audio goc sh040 take001) — file generated/sh020-take001-dubbed.mp4, sha 51810b3b, 8.00s, mono 48kHz; Whisper nghe de thuong 1 lan dung cua so 0.15-0.85s (mieng ha to 0-2s); QC edit/dub-qc-ep013-sh020.md. Cho Richard nghe chot — neu duyet thi sh020 HOAN THANH, khong can gen take002 tren Flow.'
   flow_image_asset_id: null
 - shot_id: sh030
   approved_for_generation: true
