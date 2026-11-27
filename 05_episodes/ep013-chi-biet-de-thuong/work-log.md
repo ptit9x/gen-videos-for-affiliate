@@ -393,3 +393,21 @@
 - Publish kit: delivery/publish-kit.md — caption "Mặc bộ nào anh cũng chỉ thấy dễ thương. 😌"
   + #chuyennhathaomy #phimnganai #haiviet + credit Laugh Track CC BY; cover frame 24.5s
   (sh050, My váy đen chống nạnh, mặt gắt, mắt mở); pinned comment chuẩn bị sẵn cho Richard tự đăng.
+
+## 2026-11-27 17:50 — Facebook hẹn đăng XONG (Partnerships)
+- Page Chuyện Nhà Thảo My, hẹn **19:00 T7 28/11/2026** (Indochina Time).
+- story_id: UzpfSTI3MzIyNDU0Mjg1MTY0MjoxMjQxNDAxNTY4MjE5MzMz
+- Link xem/sửa bài hẹn: https://www.facebook.com/post/edit/?story_id=UzpfSTI3MzIyNDU0Mjg1MTY0MjoxMjQxNDAxNTY4MjE5MzMz
+- Đi qua Affiliate Partnerships > Shopee (Connected từ 26/11) > Create post > Add to new reel.
+- Sản phẩm gắn: aff-0001 https://s.shopee.vn/5LDVnTeC4f — preview hiện "Shop now",
+  tên "Váy Lụa 2 Dây Maxi Suông SANJOLI Đầm Đi Biển Dáng Dài Mặc đi chơi Ngủ Trẻ Trung
+  Màu Trắng Đen VD010 |...", kèm "This post will include a product link and commission
+  eligible label" + "Affiliate product added". Caption KHÔNG chứa link thô.
+- Caption đúng như publish-kit (đã kiểm lại trong edit view; lần gõ đầu emoji bị lệch
+  vị trí + mất ngắt dòng, đã gõ lại bằng emoji picker của composer).
+- Cover: frame 00:24/00:34 (My váy đen chống nạnh) — đã chọn làm thumbnail, hiện trên card Planner.
+- Lưu ý: edit view của bài hẹn KHÔNG hiện mục sản phẩm affiliate — banner chỉ kiểm lại
+  được đầy đủ khi bài lên sóng (kiểm ở 19:20 28/11, cả app điện thoại).
+- Lưu ý nhỏ: composer lúc đầu mở dưới Page "Lập trình là cuộc sống", đã chuyển sang
+  Chuyện Nhà Thảo My trước khi đăng — bài hẹn đúng Page.
+- TikTok: đang hẹn, chưa có kết quả (task riêng).
