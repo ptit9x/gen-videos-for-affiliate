@@ -309,3 +309,6 @@
 
 ## 2026-11-27 14:21 — sh050 take002 REJECTED (mặt không giống ThaoMy tí nào)
 - Richard: "đéo giống tí nào". Cả 2 take sh050 đều drift mặt lúc nói (take001 cũng reject vì mặt). Gen lại take003 từ cùng frame v1 — giống sh010 trước đây phải tới take004 mới giữ mặt.
+
+## 2026-11-27 14:22–14:25 — sh050 take003 gen xong (re-roll từ frame v1)
+- Clip 0f521d57, 7.93s, 720x1280, AAC, sha d0ed609f. Whisper base nghe đúng cả 2 câu ("thôi" đúng — ASR trình duyệt nghe nhầm thành "rồi"). Số dư 30→20cr. Chờ Richard duyệt mặt.
