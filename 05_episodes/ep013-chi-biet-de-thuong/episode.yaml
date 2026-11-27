@@ -166,10 +166,10 @@ shots:
       note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Re-roll tu cung frame v1 (take001 mat drift). CO TIENG — Whisper base nghe dung ca 2 cau (0.00-5.00s). Gen 14:15 27/11, 1 lan thanh cong. So du 40->30cr. REJECTED 14:21 — mat khong giong ThaoMy ti nao (Richard).'
     - take_id: take003
       clip_id: 0f521d57-a0a0-42ed-a7ec-af9fc138f08e
-      status: needs_review
+      status: accepted_editorial
       file:
         path: generated/sh050-take003.mp4
-        sha256: d0ed609f5e86bb2b40bc848001c1d2bf84b4f85f632f69a3494e55fc45946417
+        sha256: a328699fede20d1632c6330415252ee6833a41561ccced58f9108cf57323d14b
       note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Re-roll tu cung frame v1 (take001+002 mat drift). CO TIENG — Whisper base nghe dung ca 2 cau: "Con bo cuoi nay thi sao?" (0.00-2.48s) + "Anh chi biet noi moi de thuong thoi ha?" (2.48-5.48s). ASR trinh duyet nghe nham "thoi" thanh "roi" — Whisper xac nhan dung "thoi". Gen 14:25 27/11, 1 lan thanh cong. So du 30->20cr.'
   flow_image_asset_id: 713a3c42-ca2f-4d6e-8faa-1b17ebd8efe8
 - shot_id: sh060

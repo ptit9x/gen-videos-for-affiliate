@@ -312,3 +312,6 @@
 
 ## 2026-11-27 14:22–14:25 — sh050 take003 gen xong (re-roll từ frame v1)
 - Clip 0f521d57, 7.93s, 720x1280, AAC, sha d0ed609f. Whisper base nghe đúng cả 2 câu ("thôi" đúng — ASR trình duyệt nghe nhầm thành "rồi"). Số dư 30→20cr. Chờ Richard duyệt mặt.
+
+## 2026-11-27 14:29 — sh050 take003 ACCEPTED (cắt 2s cuối)
+- Richard: "Cắt 2 giây cuối thì ok". Đã cắt đuôi: file gốc 7.93s → 6.04s (cắt ở keyframe gần nhất, ~1.9s), sha mới a328699f. Whisper trên bản đã cắt vẫn nghe đủ cả 2 câu (0.00-2.00s + 2.00-5.00s). Take003 = take chốt của sh050.
