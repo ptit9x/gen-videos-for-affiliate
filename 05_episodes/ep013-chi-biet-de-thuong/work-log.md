@@ -342,3 +342,6 @@
 
 ## 2026-11-27 15:12 — 2K download sh040 take002: ĐƯỢC
 - Menu download có 1080p "Đã tăng độ phân giải" mở được (4K khóa, link Nâng cấp Ultra — giống ep012). Click lần 1 chạy upscale ~1 phút, click lần 2 tải về 4.8MB. ffprobe xác nhận thật: 1080x1920, AAC, 7.85s, sha 15ed07d0. File lưu generated/sh040-take002-1080p.mp4. Không tốn credit (số dư vẫn 0). Khác ep012 (26/11 nút 1080p khóa) — paywall 2K có vẻ không ổn định theo acc/ngày, nên lần sau cứ thử lại trước khi kết luận.
+
+## 2026-11-27 15:14–15:16 — Crop sát mặt Nam trên bản 2K sh040 take002
+- Richard: "nếu tải đc 2k thì cắt gần mặt Nam bỏ bớt bối cảnh xung quanh". 2K đã tải được nên làm crop: đo vị trí mặt bằng visual grounding trên frame 0.5s (mặt x 214–365, y 787–970 trên 1080×1920; tay gãi đầu tới x 462), crop cửa sổ 500×889 tại (40,478) rồi scale về 1080×1920 (lanczos, crf 18), audio giữ nguyên. File mới generated/sh040-take002-1080p-facecrop.mp4, sha 01c798fc, 7.85s, 1080×1920. Kiểm bằng 2 frame (0.5s + 4s): mặt ~35% bề rộng khung, tay gãi đầu còn trong khung, bàn/thảm/sàn/cửa ban-công đã cắt hết; chỉ còn rèm + một ít tường/tranh góc trái. Bản 2K gốc giữ nguyên không ghi đè.
