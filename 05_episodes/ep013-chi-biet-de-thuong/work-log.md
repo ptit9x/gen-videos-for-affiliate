@@ -303,3 +303,6 @@
 
 ## 2026-11-27 14:12 — sh050 take001 REJECTED (mặt lúc nói không giống ThaoMy)
 - Richard xem video: "Mặt tự nhiên thấy lúc nói không giống nhỉ" / "ko giống ThaoMy" — mặt drift khi nói, giống lỗi sh010 take001–003. Thoại + tiếng vẫn đúng (Whisper đã verify). Gen lại take002 từ cùng frame v1 đã duyệt.
+
+## 2026-11-27 14:12–14:15 — sh050 take002 gen xong (re-roll từ frame v1)
+- Clip 235a3da1, 7.93s, 720x1280, AAC, sha 8e0d39e5. Whisper base nghe đúng cả 2 câu. Số dư 40→30cr. Chờ Richard duyệt mặt.

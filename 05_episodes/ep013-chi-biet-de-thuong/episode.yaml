@@ -156,7 +156,14 @@ shots:
       file:
         path: generated/sh050-take001.mp4
         sha256: c963afde675a76e4bf026fbd6468022436f4485ac0129c5791fcffe5e8de18e7
-      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. CO TIENG — Whisper base nghe dung ca 2 cau: "Con bo cuoi nay thi sao? Anh chi biet noi moi de thuong thoi ha?" (0.00-5.40s). Gen 1 lan thanh cong ngay 14:04 27/11. So du 50->40cr. CHAN DOAN: sh020 loi audio la rieng shot do, khong phai acc/Flow — sh050 gen binh thuong.'
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. CO TIENG — Whisper base nghe dung ca 2 cau: "Con bo cuoi nay thi sao? Anh chi biet noi moi de thuong thoi ha?" (0.00-5.40s). Gen 1 lan thanh cong ngay 14:04 27/11. So du 50->40cr. CHAN DOAN: sh020 loi audio la rieng shot do, khong phai acc/Flow — sh050 gen binh thuong. REJECTED 14:12 — mat luc noi khong giong ThaoMy (Richard).'
+    - take_id: take002
+      clip_id: 235a3da1-dd2d-4dc9-ac99-1c7ea15ac98b
+      status: needs_review
+      file:
+        path: generated/sh050-take002.mp4
+        sha256: 8e0d39e5979f0e702b3f3a4f6b38797c25078b0430c828d7a90856d60409900d
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Re-roll tu cung frame v1 (take001 mat drift). CO TIENG — Whisper base nghe dung ca 2 cau (0.00-5.00s). Gen 14:15 27/11, 1 lan thanh cong. So du 40->30cr.'
   flow_image_asset_id: 713a3c42-ca2f-4d6e-8faa-1b17ebd8efe8
 - shot_id: sh060
   approved_for_generation: true
