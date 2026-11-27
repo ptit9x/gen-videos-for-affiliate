@@ -300,3 +300,6 @@
 - Clip f175fd88, 7.93s, 720x1280, AAC, sha c963afde. Whisper base nghe đúng cả 2 câu thoại. Số dư 50→40cr.
 - CHẨN ĐOÁN QUAN TRỌNG: sh050 gen có tiếng bình thường → lỗi audio của sh020 là riêng shot sh020, KHÔNG phải acc/Flow.
 - LƯU Ý: frame sh050 v1 KHÔNG có sẵn trong project dù yaml ghi flow_image_asset_id 713a3c42 — trình duyệt phải upload lại file. Asset ID đã ghi có thể không trỏ đúng asset trong project này; lần sau kiểm tra lại khi dùng.
+
+## 2026-11-27 14:12 — sh050 take001 REJECTED (mặt lúc nói không giống ThaoMy)
+- Richard xem video: "Mặt tự nhiên thấy lúc nói không giống nhỉ" / "ko giống ThaoMy" — mặt drift khi nói, giống lỗi sh010 take001–003. Thoại + tiếng vẫn đúng (Whisper đã verify). Gen lại take002 từ cùng frame v1 đã duyệt.

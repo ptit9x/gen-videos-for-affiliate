@@ -152,7 +152,7 @@ shots:
   takes:
     - take_id: take001
       clip_id: f175fd88-5daa-47fb-95fc-b96a1c5aa4e4
-      status: needs_review
+      status: rejected_editorial
       file:
         path: generated/sh050-take001.mp4
         sha256: c963afde675a76e4bf026fbd6468022436f4485ac0129c5791fcffe5e8de18e7
