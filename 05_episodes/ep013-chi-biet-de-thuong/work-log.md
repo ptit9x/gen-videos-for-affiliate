@@ -318,3 +318,6 @@
 
 ## 2026-11-27 14:32 — Richard DUYỆT frame sh040 v1, gen take002 luôn
 - Frame v1 đã map sẵn trong episode.yaml (sha 1e5f32f7, flow asset d7cf4553), frame_status approved — không cần sửa yaml. Gen take002 Frames-direct từ frame v1, Veo 3.1 Lite, câu "Ừm... dễ thương!" (take001 hỏng vì Veo nói câu 2 lần).
+
+## 2026-11-27 14:32 — sh050 take003 cắt thêm 1s cuối (theo Richard)
+- Richard: "cái này cắt thêm 1 giây cuối nữa". Đã cắt: 6.04s → 5.17s (cắt ~0.87s, giới hạn packet). Đo energy envelope trước khi cắt: tiếng nói hết khoảng 5.05–5.1s nên cắt tới 5.17s vẫn giữ nguyên thoại — Whisper trên bản đã cắt vẫn nghe đủ cả 2 câu. Sha mới f5c8bfa3. Take003 chốt của sh050.

@@ -169,7 +169,7 @@ shots:
       status: accepted_editorial
       file:
         path: generated/sh050-take003.mp4
-        sha256: a328699fede20d1632c6330415252ee6833a41561ccced58f9108cf57323d14b
+        sha256: f5c8bfa3b637da5ec27ec20d6f07ea797af688455a007902663516e998e64d55
       note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. Re-roll tu cung frame v1 (take001+002 mat drift). CO TIENG — Whisper base nghe dung ca 2 cau: "Con bo cuoi nay thi sao?" (0.00-2.48s) + "Anh chi biet noi moi de thuong thoi ha?" (2.48-5.48s). ASR trinh duyet nghe nham "thoi" thanh "roi" — Whisper xac nhan dung "thoi". Gen 14:25 27/11, 1 lan thanh cong. So du 30->20cr.'
   flow_image_asset_id: 713a3c42-ca2f-4d6e-8faa-1b17ebd8efe8
 - shot_id: sh060
