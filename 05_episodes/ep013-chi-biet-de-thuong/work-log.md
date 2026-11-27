@@ -370,3 +370,18 @@
 - Richard: "sh020 ko ổn, thay bằng sh040 (dùng 2 lần)". take001 + dub v2 → rejected_editorial.
 - Slot sh020 dùng clip sh040 take002 bản face-crop 1080p (generated/sh040-take002-1080p-facecrop.mp4, sha 01c798fc) — cùng file với slot sh040 và sh060. Vậy clip sh040 chạy 3 lần trong tập (sh020 + sh040 + sh060), tiếng ở slot sh020 là câu "Ừm... dễ thương!" của sh040.
 - Không cần gen take002 trên Flow, không tốn credit — bỏ luôn fallback 28/11. Cả 6 slot đã có clip: sh010 take004 + dub, sh020 = sh040 take002, sh030 take001, sh040 take002, sh050 take003 + dub, sh060 = sh040 take002. Chờ Richard gật để dựng master.
+
+## 2026-11-27 16:55–17:20 — Master 1080p XONG (chờ Richard duyệt)
+- Richard gật widget "Dựng master ep013 luôn" 16:55. Build edit/build_master_ep013.py (adapt từ ep012 r07): 1080x1920 30fps, 34.20s, delivery/ep013-master-1080p.mp4 + delivery/ep013-subtitles.srt (6 cues).
+- Trims (đo Whisper + envelope + frame 1fps): sh010 6.5s (xoay váy xong ~6s, cắt 3.5s sẽ cắt giữa vòng xoay), sh020/sh040/sh060 face-crop 5.3s (tiếng 0-1.16s + cười trừ 4.7-4.9s), sh030 4.5s (xoay xong ~4s), sh050 giữ nguyên 5.17s, thẻ đen cuối 2.0s.
+- Crop icon Veo: "Veo" có ở cả 3 file 720 (sh010 dubbed, sh030, sh050 dubbed) → crop 640:1138:40:0 rồi upscale lanczos lên 1080x1920; file face-crop KHÔNG icon (đã cắt sẵn) → không crop. Đã kiểm tra góc sau crop: sạch.
+- Phụ đề Boxed (Remotion, 4 chunk ≤287 frame, concurrency=1, không title card): 36 từ. Lỗi bắt được và sửa giữa chừng: Whisper KHÔNG nghe tiếng "Ừm..." (chỉ nghe "Dễ thương", 2 từ thay vì 3) + ảo giác "Hhmm" p=0.04 ở burst cười sh060 — đã fix bằng cách chèn "Ừm..." theo năng lượng (từ đầu shot tới từ đầu tiên nghe được) + lọc p<0.10; đồng thời sửa luật nội suy (từ thiếu đặt ngay sau từ cuối nghe được, 0.3s/từ) thay vì rải khắp shot (bản lỗi đặt "thương!" muộn 4s). Build lần 1 bị kill giữa render Remotion, build lại từ đầu và xong.
+- Phụ đề theo TIẾNG THẬT trong slot: sh020/sh040/sh060 đều "Ừm... dễ thương!" (clip sh040); câu sh020 "Dễ thương nha" và sh060 "Ồ... thì... phối kiểu... dễ thương." trong script KHÔNG được caption vì không phải tiếng nghe được.
+- Thẻ đen cuối (script.md): "Em mặc gì anh cũng chỉ thấy... / 'Dễ Thương'" — PIL + DejaVuSans-Bold, dòng 2 màu amber #F59E0B, im lặng 2s.
+- Laugh Track 1 sau câu chốt sh060: nghe rõ 28.14-29.98s (cuối từ 27.99s + 0.15s); kiểm tra 2 kênh: RMS L/R = 1.00, tương quan envelope 0.984 — không leak 1 kênh. Không cần freeze tail (cười kết thúc trước cuối video).
+- QC: Whisper nghe 33/36 từ đúng thứ tự (3 từ thiếu là 3 tiếng "Ừm..." — Whisper không nghe được grunt, đã caption theo năng lượng); SRT khớp script đúng 6 câu; loudness input -15.93 LUFS / TP -0.99; frame means khỏe (116-121), thẻ đen 3.4; contact sheet đã xem: mặt/váy/caption Boxed/thẻ đen đều đúng, không còn icon Veo.
+- Master CHƯA duyệt — đang chờ Richard xem. Chưa làm bộ đăng, chưa hẹn đăng.
+
+## 2026-11-27 17:2x — Ghi reuse thành take chính thức trong episode.yaml (validator bắt)
+- Validator từ chối manifest cũ: selected_takes phải trỏ take có thật trong episode.yaml và không được là take rejected; sh020/sh060 chỉ có take001 rejected nên không chọn được.
+- Đã thêm take002 (accepted_editorial) cho sh020 và sh060 trong episode.yaml — cùng clip_id 4538e5a7 (sh040 take002) + file generated/sh040-take002-1080p-facecrop.mp4 (sha 01c798fc...), note ghi rõ REUSE không phải gen mới + quyết định của Richard. Manifest đã sửa theo (6 shot đủ thứ tự, không còn mục endcard trong selected_takes; endcard ghi trong build_commands).

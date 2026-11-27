@@ -1,17 +1,49 @@
 schema_version: 2
 episode_id: ep013
 revision: 1
-locked_duration_seconds: null
-planned_source_duration_seconds: null
-selected_takes: []
-build_commands: []
+locked_duration_seconds: 34.20
+planned_source_duration_seconds: 34.07
+selected_takes:
+  - shot_id: sh010
+    take_id: take004
+    file: generated/sh010-take004-dubbed.mp4
+    trim_seconds: 6.5
+    audio: clone ThaoMy wordalign (native muted)
+  - shot_id: sh020
+    take_id: take002
+    file: generated/sh040-take002-1080p-facecrop.mp4
+    trim_seconds: 5.3
+    audio: native sh040 take002 ("Ừm... dễ thương!") — REUSE, recorded as take002 in episode.yaml
+  - shot_id: sh030
+    take_id: take001
+    file: generated/sh030-take001.mp4
+    trim_seconds: 4.5
+    audio: native (Northern, kept)
+  - shot_id: sh040
+    take_id: take002
+    file: generated/sh040-take002-1080p-facecrop.mp4
+    trim_seconds: 5.3
+    audio: native ("Ừm... dễ thương!")
+  - shot_id: sh050
+    take_id: take003
+    file: generated/sh050-take003-dubbed.mp4
+    trim_seconds: 5.17
+    audio: clone ThaoMy wordalign (native muted)
+  - shot_id: sh060
+    take_id: take002
+    file: generated/sh040-take002-1080p-facecrop.mp4
+    trim_seconds: 5.3
+    audio: native sh040 take002 ("Ừm... dễ thương!") — REUSE, recorded as take002 in episode.yaml
+build_commands:
+  - python3 05_episodes/ep013-chi-biet-de-thuong/edit/build_master_ep013.py
+  - endcard: 2s black PIL card (edit/build1080p/endcard.png) with closing text, appended after sh060
 audio_plan:
-  mute_veo_native: true
+  mute_veo_native: false
   engine: VieNeu-TTS
-  voice_preset: null
-  voice_status: pending_user_choice
-  lip_sync_qc: not_run
+  voice_preset: ThaoMyVeo
+  voice_status: locked_by_user
+  lip_sync_qc: passed
 transition_plan: hard_cuts_only
 qc:
-  status: not_run
-  report_file: null
+  status: passed
+  report_file: edit/build1080p/build-report-1080p.md
