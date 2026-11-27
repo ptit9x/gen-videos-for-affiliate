@@ -291,3 +291,6 @@
 - Tổ hợp cuối cùng chưa thử (Frames-direct + frame v3 miệng khép, không nhân vật, câu "Dễ thương!") cũng lỗi đúng "Không tạo được âm thanh" sau ~2 phút. Không có clip, số dư vẫn 50cr.
 - Shot sh020 hỏng 10 lần liên tiếp. Ma trận ĐÃ THỬ HẾT: Frames-direct v2 × 2 câu; gen câm ×2; Ingredients + nhân vật Nam × v2/v3 × 2 câu; Frames-direct v3. Chế độ, frame, câu thoại, nhân vật — đổi hết vẫn lỗi y hệt. Kết luận: nguyên nhân không nằm trong các biến đã thử — có thể là lỗi nhất thời phía Flow với shot này, hoặc điều gì đó trong nội dung shot mà Veo không nói ra.
 - Đề xuất: DỪNG thử sh020, làm sh050 trước — vừa tiến tập, vừa chẩn đoán: nếu sh050 gen có tiếng bình thường thì lỗi chỉ riêng sh020; nếu sh050 cũng lỗi audio thì vấn đề ở acc/Flow. Chờ Richard chọn.
+
+## 2026-11-27 13:52 — Richard DUYỆT frame sh050 v1, gen take001 luôn
+- Frame v1 đã map sẵn trong episode.yaml (sha 856b2361, flow asset 713a3c42), frame_status approved — không cần sửa yaml. Gen take001 Frames-direct từ frame v1, Veo 3.1 Lite, câu "Còn bộ cuối này thì sao? Anh chỉ biết nói mỗi dễ thương thôi hả?". Đây cũng là phép chẩn đoán: nếu sh050 có tiếng bình thường thì lỗi audio chỉ riêng sh020; nếu cũng lỗi thì vấn đề ở acc/Flow.
