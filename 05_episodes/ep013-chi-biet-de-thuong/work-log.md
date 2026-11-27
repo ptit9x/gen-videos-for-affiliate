@@ -286,3 +286,8 @@
 - KẾT LUẬN: miệng há cũng không phải nguyên nhân. Shot sh020 hỏng 9 lần liên tiếp. Số dư XÁC NHẬN 50 credit (trước gen 50, sau gen 50 — lần lỗi không bị trừ).
 - Chi tiết kỹ thuật đáng ghi: khi đính frame trước, picker của Flow ẨN nhân vật Nam (tab Characters báo "No ingredients found", tìm "Nam" không ra); bỏ frame ra thì nhân vật hiện lại — phải đính nhân vật TRƯỚC rồi mới đính frame thì cả 2 mới cùng vào. (Quy tắc 1 reference mang mặt/lần — entity + portrait cùng lúc có thể xung đột.)
 - Tổ hợp CHƯA thử: Frames-direct với frame v3 (không nhân vật) — mọi lần gen v3 đều qua Ingredients + nhân vật. Chờ Richard chọn: thử Frames-direct v3 / để sh020 lại làm sh050 trước / thử lại sau.
+
+## 2026-11-27 09:10–09:13 — Frames-direct frame v3 (không nhân vật): VẪN LỖI audio — ma trận đã thử hết
+- Tổ hợp cuối cùng chưa thử (Frames-direct + frame v3 miệng khép, không nhân vật, câu "Dễ thương!") cũng lỗi đúng "Không tạo được âm thanh" sau ~2 phút. Không có clip, số dư vẫn 50cr.
+- Shot sh020 hỏng 10 lần liên tiếp. Ma trận ĐÃ THỬ HẾT: Frames-direct v2 × 2 câu; gen câm ×2; Ingredients + nhân vật Nam × v2/v3 × 2 câu; Frames-direct v3. Chế độ, frame, câu thoại, nhân vật — đổi hết vẫn lỗi y hệt. Kết luận: nguyên nhân không nằm trong các biến đã thử — có thể là lỗi nhất thời phía Flow với shot này, hoặc điều gì đó trong nội dung shot mà Veo không nói ra.
+- Đề xuất: DỪNG thử sh020, làm sh050 trước — vừa tiến tập, vừa chẩn đoán: nếu sh050 gen có tiếng bình thường thì lỗi chỉ riêng sh020; nếu sh050 cũng lỗi audio thì vấn đề ở acc/Flow. Chờ Richard chọn.
