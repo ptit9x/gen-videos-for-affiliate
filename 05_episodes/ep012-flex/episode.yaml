@@ -2,7 +2,7 @@ schema_version: 2
 episode_id: ep012
 revision: 2
 title: "Flex"
-editorial_status: draft
+editorial_status: published
 flow_project: https://flow.google.com/project/1cc7499d-86b9-44a0-b084-306ff4856f81
 generation:
   mode: frames
