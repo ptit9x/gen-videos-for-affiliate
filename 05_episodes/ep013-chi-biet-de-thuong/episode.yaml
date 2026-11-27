@@ -136,7 +136,7 @@ shots:
       note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. LOI: Veo noi cau 2 LAN — Whisper nghe "U, de thuong." 0.00-1.30s VA 2.12-4.20s; energy envelope xac nhan 2 burst thoai that (0.0-1.4s + 2.8-4.2s), khong phai artifact ASR. Hinh thi dung (Nam gai dau, cuoi tru, mat khop). KHONG dung duoc — can gen lai take002 (10cr).'
     - take_id: take002
       clip_id: 4538e5a7-73f2-4ac3-82d9-39ed0e1b0a3e
-      status: needs_review
+      status: accepted_editorial
       file:
         path: generated/sh040-take002.mp4
         sha256: b0a508ecc14882ba0b0ac3465311a82f0c272041d806df8de2d1e3abb23f308b

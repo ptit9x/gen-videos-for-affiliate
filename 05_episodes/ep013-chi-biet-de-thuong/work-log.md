@@ -325,3 +325,6 @@
 ## 2026-11-27 14:32–14:39 — sh040 take002 gen xong (re-roll từ frame v1)
 - Frame sh040 v1 KHÔNG có sẵn trong project dù yaml ghi asset d7cf4553 (giống vụ sh050) — phải cấp file cho trình duyệt upload lại. Gen 1 lần thành công, clip 4538e5a7, 7.93s, 720x1280, AAC, sha b0a508ec. Số dư 20→10cr.
 - QC: Whisper base word-timestamps — câu "Ừ, dễ thương" nói ĐÚNG 1 LẦN (0.00–1.16s). Energy envelope: 1 burst thoại 0.0–1.2s + 1 burst ngắn không lời 4.7–4.9s (~0.3s, Whisper không dịch được — có thể là cười trừ/hơi thở, khớp prompt "cười trừ"). KHÔNG phải lỗi nói 2 lần như take001. ASR trình duyệt nghe loạn xạ 4 lần khác nhau — không đáng tin, đã bỏ qua. Chờ Richard duyệt (mặt + giọng Nam).
+
+## 2026-11-27 14:40 — Richard DUYỆT sh040 take002
+- Take002 chốt của sh040 (câu nói đúng 1 lần, Whisper + energy envelope đã kiểm). Status accepted_editorial, commit. Số dư 10cr — chỉ đủ 1 clip nữa trước reset 09:32 3/12; còn lại sh020 take002 + sh060 take001 (cần 20cr).
