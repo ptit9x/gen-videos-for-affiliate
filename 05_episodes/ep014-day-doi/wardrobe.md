@@ -9,7 +9,7 @@
 
 ## Trí
 - **Trang phục:** áo polo Falcon **xanh nhạt** (logo chim nhỏ ngực trái, size M/L/XL/2XL; ảnh tham chiếu `input/references/polo-falcon.jpg`, sha `cb2325e5…`).
-- **Tóc/mặt:** tóc đen ngắn gọn, không râu, không kính; quay ngang 3/4 chỉ thấy nửa mặt, không nhìn thẳng camera.
+- **Tóc/mặt:** tóc đen ngắn gọn, không râu, không kính; mặt chính diện như My (Richard đổi 27/11 20:13, bỏ góc nghiêng).
 - **Trạng thái:** Richard chốt 27/11 — áo polo theo link cậu ấy gửi (aff-0008).
 - **Phụ kiện:** không.
 - **Affiliate: aff-0008** — áo polo Falcon, link https://s.shopee.vn/4B1qY76LTw, UNVERIFIED (link phân giải tới shop opaanlp, tên + size đọc từ ảnh; giá/màu trên trang Shopee chưa xác minh — Shopee chặn đăng nhập). Chưa gắn vào bài.

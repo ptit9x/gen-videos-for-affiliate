@@ -17,3 +17,4 @@
 - sh030 (asset 9e02b6e9, round 2): lần gen đầu bị chặn "unusual activity", chờ 5 phút gen lại được. Framing rộng hơn sh010 (ghế trống nổi bật). **Lỗi: có badge "AI" ở góc phải dưới TRONG ảnh tải về (không phải nhãn viewer) — cần crop khi dựng hoặc gen lại.**
 - sh040 (asset fe9a177e, round 1): My đặt ly xuống, nhìn thẳng Trí, mặt bình thản. Nit: ly màu sáng, cà phê trong ly đọc nâu nhạt chứ không đen hẳn; vai tiền cảnh của Trí màu be/kem chứ không phải polo xanh nhạt.
 - 4 file đã lưu vào `input/frames/` (768×1376 PNG, sha ghi trong episode.yaml), frame_status pending_review. Trình Richard duyệt ảnh trước rồi mới gen clip (luật 26/11). Gen clip Veo 3.1 Lite 4 × 10cr = 40cr, làm ngày mai theo lệnh Richard.
+- **27/11 20:13 — Richard đổi góc Trí: mặt chính diện như My, bỏ góc nghiêng 3/4.** Prompt ảnh sh010/sh030 + script + wardrobe đã sửa. Frame v1 của Trí (3/4) bỏ, làm lại v2 chính diện.
