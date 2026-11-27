@@ -385,3 +385,11 @@
 ## 2026-11-27 17:2x — Ghi reuse thành take chính thức trong episode.yaml (validator bắt)
 - Validator từ chối manifest cũ: selected_takes phải trỏ take có thật trong episode.yaml và không được là take rejected; sh020/sh060 chỉ có take001 rejected nên không chọn được.
 - Đã thêm take002 (accepted_editorial) cho sh020 và sh060 trong episode.yaml — cùng clip_id 4538e5a7 (sh040 take002) + file generated/sh040-take002-1080p-facecrop.mp4 (sha 01c798fc...), note ghi rõ REUSE không phải gen mới + quyết định của Richard. Manifest đã sửa theo (6 shot đủ thứ tự, không còn mục endcard trong selected_takes; endcard ghi trong build_commands).
+
+## 2026-11-27 17:37 — Richard DUYỆT master + lệnh đăng schedule ngày tiếp theo (Partnerships)
+- Master 1080p DUYỆT (widget 17:36). editorial_status -> ready_to_publish.
+- Lệnh đăng: schedule 19:00 T7 28/11, TikTok + Facebook Page; Facebook qua Affiliate
+  Partnerships > Shopee, sản phẩm aff-0001 (váy SANJOLI, https://s.shopee.vn/5LDVnTeC4f).
+- Publish kit: delivery/publish-kit.md — caption "Mặc bộ nào anh cũng chỉ thấy dễ thương. 😌"
+  + #chuyennhathaomy #phimnganai #haiviet + credit Laugh Track CC BY; cover frame 24.5s
+  (sh050, My váy đen chống nạnh, mặt gắt, mắt mở); pinned comment chuẩn bị sẵn cho Richard tự đăng.

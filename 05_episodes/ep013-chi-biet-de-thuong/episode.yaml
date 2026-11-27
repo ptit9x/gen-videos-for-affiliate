@@ -2,7 +2,7 @@ schema_version: 2
 episode_id: ep013
 revision: 1
 title: Chỉ Biết Dễ Thương
-editorial_status: script_approved
+editorial_status: ready_to_publish
 flow_project: https://flow.google.com/project/7ac61787-27b9-4022-ac91-fe3f15d02414
 generation:
   mode: frames
