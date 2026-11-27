@@ -262,3 +262,8 @@
 - Bước 1 THÀNH CÔNG: tạo nhân vật "Nam" từ ảnh sh020-frame-v2.jpg trong project tinphim, không bị chặn (ảnh AI, không phải ảnh người thật). Character ID 8608fd89-6ce9-4519-80c2-e65e14f9c547, URL https://flow.google.com/project/7ac61787-27b9-4022-ac91-fe3f15d02414/character/8608fd89-6ce9-4519-80c2-e65e14f9c547. Chân dung: Nam áo phông trắng, ngồi ghế bành gần cửa gỗ, mỉm cười — khớp frame. Nhân vật này giữ lại trong project, dùng được cho các shot Nam sau (sh040/sh060).
 - Bước 2 THẤT BẠI: gen 1 clip với nhân vật Nam + frame v2 làm ingredients, Veo 3.1 Lite, prompt "Đáng yêu" — sau ~2 phút vẫn lỗi đúng "Không tạo được âm thanh". Không có clip, không tốn credit (còn 20cr).
 - KẾT LUẬN: giả thuyết "thiếu nhân vật" KHÔNG đúng — lỗi audio tái hiện cả khi đã có nhân vật. Shot sh020 hỏng 7 lần liên tiếp. Hướng còn: (a) thử nút tắt tiếng thật trong cài đặt (manh mối từ thông báo lỗi Flow); (b) để sh020 lại làm sh050 trước; (c) thử lại sau.
+
+## 2026-11-27 08:27 — Richard: đổi thoại sh020 VỀ LẠI "Dễ thương!", gen lại luôn với nhân vật Nam
+- Lý do: đổi sang "Đáng yêu" không sửa được lỗi audio; lần gen với nhân vật Nam dùng câu "Đáng yêu" vẫn lỗi — tổ hợp chưa thử là nhân vật Nam + câu gốc "Dễ thương!". Không đi hướng tắt tiếng nữa.
+- Cập nhật: episode.yaml dialogue → "Dễ thương!", input/prompts/sh020-motion.txt (giữ "mỉm cười vui vẻ, nói rõ ràng", chỉ đổi lại câu thoại), script.md hàng sh020 + ghi chú. Running gag 3 lần "dễ thương" khôi phục.
+- Gen lại take002 với nhân vật Nam (8608fd89) + frame v2, Veo 3.1 Lite 10cr. Số dư tinphim: 20cr.

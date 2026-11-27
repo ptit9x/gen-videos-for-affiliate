@@ -34,7 +34,7 @@ Phòng khách căn hộ buổi tối. My thay 3 bộ đồ, lần lượt khoe v
 | Shot | Người nói | Thoại tiếng Việt | Từ | Một hành động chính | Góc máy/biểu cảm | Thời lượng |
 |---|---|---|---|---|---|---|
 | sh010 | Thảo My | "Anh xem giúp em bộ này, thấy sao?" | 8 | Xoay người khoe váy hồng, cười tươi | Cận vừa My, nhìn Nam ngoài khung | 8s |
-| sh020 | Nam | "Đáng yêu" | 2 | Ngồi sofa, mắt tròn, cười khoái, gật đầu | Cận vừa Nam, nhìn My ngoài khung | 8s |
+| sh020 | Nam | "Dễ thương!" | 2 | Ngồi sofa, mắt tròn, cười khoái, gật đầu | Cận vừa Nam, nhìn My ngoài khung | 8s |
 | sh030 | Thảo My | "Thế còn bộ này?" | 4 | Xoay người khoe váy kem, chờ đợi | Cận vừa My, nhìn Nam ngoài khung | 8s |
 | sh040 | Nam | "Ừm... dễ thương!" | 3 | Ngập ngừng, gãi đầu, cười trừ | Cận vừa Nam, nhìn My ngoài khung | 8s |
 | sh050 | Thảo My | "Còn bộ cuối này thì sao? Anh chỉ biết nói mỗi dễ thương thôi hả?" | 15 | Xoay người khoe váy đen rồi chống nạnh, gắt | Cận vừa My, nhìn Nam ngoài khung | 8s |
@@ -69,3 +69,5 @@ Chưa tới bước này. Dự kiến: giữ tiếng Veo gốc nếu giọng B�
 ## Thay đổi 26/11 (Richard)
 - sh020: câu thoại đổi từ "Dễ thương!" thành "Đáng yêu" (01:02 27/11) — take001 câm hoàn toàn, take002 lỗi Flow "không tạo được âm thanh" với câu "Dễ thương!".
 - LƯU Ý: sh040 ("Ừm... dễ thương.") và sh060 (ấp úng chốt "...dễ thương.") vẫn giữ "dễ thương", câu gắt của My ở sh050 ("Anh chỉ biết nói mỗi dễ thương thôi hả?") cũng vẫn vậy — running gag 3 lần "dễ thương" giờ chỉ còn 2 lần + 1 lần "đáng yêu" ở sh020. Chờ Richard chốt có đổi theo sh040/sh060 không.
+
+- 27/11 08:27: Richard lệnh đổi câu sh020 VỀ LẠI "Dễ thương!" (bản gốc) — đổi sang "Đáng yêu" không sửa được lỗi audio, và lần gen với nhân vật Nam dùng câu "Đáng yêu" vẫn lỗi, nên thử lại tổ hợp chưa thử: nhân vật Nam + câu gốc "Dễ thương!". Running gag 3 lần "dễ thương" khôi phục nguyên vẹn.
