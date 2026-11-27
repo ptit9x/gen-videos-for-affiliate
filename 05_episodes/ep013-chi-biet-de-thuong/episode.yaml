@@ -149,7 +149,14 @@ shots:
     path: input/frames/sh050-frame-v1.jpg
     sha256: 856b2361bd1759e9d4ef258527e454c1a33fcf254380fa96e7cd14348f6773b0
   frame_status: approved
-  takes: []
+  takes:
+    - take_id: take001
+      clip_id: f175fd88-5daa-47fb-95fc-b96a1c5aa4e4
+      status: needs_review
+      file:
+        path: generated/sh050-take001.mp4
+        sha256: c963afde675a76e4bf026fbd6468022436f4485ac0129c5791fcffe5e8de18e7
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. CO TIENG — Whisper base nghe dung ca 2 cau: "Con bo cuoi nay thi sao? Anh chi biet noi moi de thuong thoi ha?" (0.00-5.40s). Gen 1 lan thanh cong ngay 14:04 27/11. So du 50->40cr. CHAN DOAN: sh020 loi audio la rieng shot do, khong phai acc/Flow — sh050 gen binh thuong.'
   flow_image_asset_id: 713a3c42-ca2f-4d6e-8faa-1b17ebd8efe8
 - shot_id: sh060
   approved_for_generation: true

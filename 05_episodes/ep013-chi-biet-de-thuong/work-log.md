@@ -294,3 +294,9 @@
 
 ## 2026-11-27 13:52 — Richard DUYỆT frame sh050 v1, gen take001 luôn
 - Frame v1 đã map sẵn trong episode.yaml (sha 856b2361, flow asset 713a3c42), frame_status approved — không cần sửa yaml. Gen take001 Frames-direct từ frame v1, Veo 3.1 Lite, câu "Còn bộ cuối này thì sao? Anh chỉ biết nói mỗi dễ thương thôi hả?". Đây cũng là phép chẩn đoán: nếu sh050 có tiếng bình thường thì lỗi audio chỉ riêng sh020; nếu cũng lỗi thì vấn đề ở acc/Flow.
+
+## 2026-11-27 13:52–14:04 — sh050 take001 THÀNH CÔNG, có tiếng (gen 1 lần)
+- Frame v1 Richard duyệt 13:52. Cửa sổ mới chưa đăng nhập — Richard tự đăng nhập 13:56, tiếp tục gen; lần tiếp tục đầu chết giữa chừng (task slot missing, chưa gen, 0cr), mở cửa sổ mới thì lại chưa đăng nhập — Richard đăng nhập lại 13:59, gen 14:04 thành công ngay lần đầu.
+- Clip f175fd88, 7.93s, 720x1280, AAC, sha c963afde. Whisper base nghe đúng cả 2 câu thoại. Số dư 50→40cr.
+- CHẨN ĐOÁN QUAN TRỌNG: sh050 gen có tiếng bình thường → lỗi audio của sh020 là riêng shot sh020, KHÔNG phải acc/Flow.
+- LƯU Ý: frame sh050 v1 KHÔNG có sẵn trong project dù yaml ghi flow_image_asset_id 713a3c42 — trình duyệt phải upload lại file. Asset ID đã ghi có thể không trỏ đúng asset trong project này; lần sau kiểm tra lại khi dùng.
