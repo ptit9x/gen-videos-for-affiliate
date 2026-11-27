@@ -273,3 +273,7 @@
 - Shot sh020 hỏng 8 lần liên tiếp. Đã thử đủ ma trận: Frames-direct × 2 câu thoại × cười/mỉm cười; gen câm (prompt không thoại) ×2; nhân vật Nam + 2 câu thoại — tất cả đều lỗi audio (trừ 1 lần chặn unusual activity). Kết luận: lỗi không nằm ở thoại, prompt, nhân vật hay chế độ gen — có thể nằm ở chính frame v2 (Nam cười há miệng?) hoặc lỗi nhất thời của Flow với shot này.
 - LƯU Ý SỐ DƯ: panel tài khoản hiện 50 credit (lúc bắt đầu lần này là 20) — không rõ lý do (có thể hoàn credit các lần lỗi dồn về, hoặc reset ngày mới); CẦN kiểm tra lại số dư ở lần gen sau trước khi tính toán. Nếu thật sự 50 thì đủ làm cả 4 clip còn lại (40cr).
 - Chờ Richard chọn: làm frame mới cho sh020 (biểu cảm miệng khép, không cười há miệng) / để sh020 lại làm sh050 trước / thử lại sau.
+
+## 2026-11-27 08:32 — Frame sh020 v3 (miệng khép) làm xong, đã trình Richard duyệt
+- Richard chọn làm frame mới miệng khép (giả thuyết: frame v2 Nam cười há miệng làm Veo kẹt audio). Frame v3 làm bằng media pipeline, sửa từ v2: giữ nguyên người, áo trắng, ghế bành, cửa gỗ, tủ giày, góc máy, ánh sáng; chỉ đổi miệng thành khép, cười mỉm môi khép. File input/frames/sh020-frame-v3.jpg, 1184×2096, sha256 17423ea7ed440eb05e996b8a780d75a776664fec0bd6e14532ea8f9cd481ed7a.
+- CHƯA ghi vào episode.yaml — chờ Richard duyệt ảnh trước rồi mới map + gen (luật 18:39).
