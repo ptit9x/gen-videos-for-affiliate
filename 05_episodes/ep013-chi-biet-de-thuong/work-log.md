@@ -411,3 +411,17 @@
 - Lưu ý nhỏ: composer lúc đầu mở dưới Page "Lập trình là cuộc sống", đã chuyển sang
   Chuyện Nhà Thảo My trước khi đăng — bài hẹn đúng Page.
 - TikTok: đang hẹn, chưa có kết quả (task riêng).
+
+## 2026-11-27 17:53 — TikTok hẹn đăng XONG
+- @chuyennhathaomy, hẹn **19:00 T7 28/11/2026** (GMT+7 Saigon).
+- Video: https://www.tiktok.com/@chuyennhathaomy/video/7712802410615377160 (ID 7712802410615377160).
+- Caption đúng publish-kit (120/4000 ký tự, đã kiểm trên video page). Nhãn AI BẬT
+  ("Creator labeled as AI-generated"). Branded-content toggle để OFF, audience Everyone,
+  comment/duet/stitch mặc định.
+- Cover: scrubber 00:25 (gần nhất với 24.5s) — poster đã lưu đúng frame My váy đen chống
+  nạnh, chữ trên màn hình "THƯƠNG THÔI HẢ?". (Lúc kéo scrubber preview giữa không cập
+  nhật rõ, nhưng poster trên video page đã xác nhận đúng frame.)
+- Lúc bấm Upload lần đầu gặp slider CAPTCHA; đã qua được (challenge timeout rồi vào lại
+  Upload, không cần đăng nhập lại) và upload đúng file master 20.34MB/34s/1080p.
+- Cả 2 nền tảng đã hẹn xong cho 19:00 28/11. Cron kiểm chứng 19:20 28/11 (lên sóng +
+  Page like + banner Partnerships, kiểm cả app điện thoại).

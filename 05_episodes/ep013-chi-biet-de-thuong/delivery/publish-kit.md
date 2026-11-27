@@ -1,7 +1,9 @@
 # ep013 "Chỉ Biết Dễ Thương" — publish kit (chốt 27/11)
 
 ## Lịch đăng
-- **19:00 Thứ Bảy 28/11/2026** (Asia/Ho_Chi_Minh) — TikTok + Facebook Page.
+- **19:00 Thứ Bảy 28/11/2026** (Asia/Ho_Chi_Minh) — TikTok + Facebook Page. CẢ 2 ĐÃ HẸN XONG 27/11.
+- TikTok: https://www.tiktok.com/@chuyennhathaomy/video/7712802410615377160 (ID 7712802410615377160), nhãn AI bật, cover 00:25.
+- Facebook: story_id UzpfSTI3MzIyNDU0Mjg1MTY0MjoxMjQxNDAxNTY4MjE5MzMz (Partnerships aff-0001).
 - Facebook: đăng qua **Affiliate Partnerships > Shopee** (tính vào challenge Shopee 5 reels/150k, deadline 30/11), sản phẩm aff-0001.
 - Kiểm chứng sau lên sóng: 19:20 28/11 (TikTok + Facebook live, Page like, banner sản phẩm).
 
