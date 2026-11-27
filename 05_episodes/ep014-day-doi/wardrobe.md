@@ -8,10 +8,11 @@
 - **Lưu ý:** ảnh ref Vân Linh tay trái cầm vật vàng — frame phải để tay trống, chỉ cầm ly cà phê theo kịch bản.
 
 ## Trí
-- **Trang phục:** áo polo xanh đậm, quần jean đen.
+- **Trang phục:** áo polo Falcon **xanh nhạt** (logo chim nhỏ ngực trái, size M/L/XL/2XL; ảnh tham chiếu `input/references/polo-falcon.jpg`, sha `cb2325e5…`).
 - **Tóc/mặt:** tóc đen ngắn gọn, không râu, không kính; quay ngang 3/4 chỉ thấy nửa mặt, không nhìn thẳng camera.
-- **Trạng thái:** người mới, chưa có ảnh ref — Bee chọn (Richard duyệt review 27/11: người mới, quay ngang 3/4). Không dùng lại Nam/Dũng/Hùng.
+- **Trạng thái:** Richard chốt 27/11 — áo polo theo link cậu ấy gửi (aff-0008).
 - **Phụ kiện:** không.
+- **Affiliate: aff-0008** — áo polo Falcon, link https://s.shopee.vn/4B1qY76LTw, UNVERIFIED (link phân giải tới shop opaanlp, tên + size đọc từ ảnh; giá/màu trên trang Shopee chưa xác minh — Shopee chặn đăng nhập). Chưa gắn vào bài.
 
 ## Ghi chú
 - Một bộ mỗi người, giữ nguyên trong cả 4 shot.

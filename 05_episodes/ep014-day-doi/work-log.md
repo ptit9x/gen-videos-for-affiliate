@@ -6,6 +6,7 @@
 - Rebuild rev 2 theo script r02 + thoại gộp 1 câu/shot đã duyệt (15/12/15/14 từ): episode.yaml + 8 prompt mới, manifest theo r02 (My giữ native nếu Bắc else clone ThaoMy; Trí giữ native, không preset, không lồng ThaoMy), wardrobe.md + work-log.md mới. Location date-cafe v003-day (đã duyệt 21/11) + áo dài Vân Linh xanh nhạt lấy lại qua ref đã có, không upload mới.
 - Trí: người mới (Bee chọn: 28t, tóc đen ngắn, polo xanh đậm + jean đen, quay ngang 3/4 nửa mặt) — Richard duyệt hướng này trong review; chưa có ảnh ref.
 - My: áo dài Vân Linh xanh nhạt, son/móng tự nhiên (Bee chọn theo ep008/ep011) — Richard chưa chốt riêng, đổi thì sửa wardrobe.md + prompt sh020/sh040 trước khi làm lại frame.
+- **27/11 18:56 — Richard chốt áo polo Trí theo link cậu ấy gửi: polo Falcon xanh nhạt (aff-0008, https://s.shopee.vn/4B1qY76LTw; ảnh ref `input/references/polo-falcon.jpg` sha `cb2325e5…`; shop opaanlp; giá chưa xác minh). Prompt ảnh sh010/sh030 + episode.yaml + wardrobe.md + script.md đã sửa theo (polo xanh đậm → Falcon xanh nhạt).**
 - Validator: `python3 06_automation/validate_episode.py 05_episodes/ep014-day-doi` exit 0 — "Episode structure valid". Notes đúng giai đoạn: 4 frame missing + VieNeu voice pending (voice_status decided_by_user, chưa 'locked' — chỉ khóa ở khâu dựng).
 
 ## Frame v1 (đang làm)

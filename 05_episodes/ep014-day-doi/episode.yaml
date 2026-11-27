@@ -27,11 +27,13 @@ shots:
     dialogue: "Cà phê đen không tốt cho dạ dày em đâu, em nên uống latte nhé."
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: 6ea4178fb83b9fa88118e6c2f33c8c990aae12009f8a46d8b85fc38d8671ef55
+      sha256: 9860fee217337ea114d039c2832371f07079536dc211b8046f9aa4a2874fe263
     motion_prompt:
       path: input/prompts/sh010-motion.txt
       sha256: f47f535eac63f71d753030648785173d7374f659ec3d82d9fbdbb188791b6095
     image_sources:
+      - path: input/references/polo-falcon.jpg
+        sha256: "cb2325e5f1b5a394462dbc0eea4602c20fc16b3f2905ea61c16159ff266fa704"
       - path: input/references/date-cafe-v003-day.png
         sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
     first_frame: null
@@ -65,11 +67,13 @@ shots:
     dialogue: "Nói chung em chưa hiểu ý đạo diễn đâu, để anh giải thích cho nhé."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: 3d778fce3812dffc3fab285a285167fc53518de48c6d49ec2fabad9b5ccbb3b9
+      sha256: fd311b02718d15218aedb0ed9a82863671c24af80c6d5e7c0ec6d808eb437dd7
     motion_prompt:
       path: input/prompts/sh030-motion.txt
       sha256: 8b725ff704f52348b96d1790ccbeeb14daa4f1c303419a6939bb5ed5065321a2
     image_sources:
+      - path: input/references/polo-falcon.jpg
+        sha256: "cb2325e5f1b5a394462dbc0eea4602c20fc16b3f2905ea61c16159ff266fa704"
       - path: input/references/date-cafe-v003-day.png
         sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
     first_frame: null

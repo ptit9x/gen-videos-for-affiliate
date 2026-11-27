@@ -15,7 +15,7 @@ Hẹn café. Trí thấy My uống cà phê đen, dạy đời ngay. My cố đ�
 ## Nhân vật, trang phục và nguồn
 
 - Thảo My: mặt/tóc thao-my-face-front-v002.png, body thao-my-body-front-v003-face-v002-review.png trong 02_characters/thao-my/approved/.
-- Trang phục: My áo dài Vân Linh xanh nhạt, son/móng tự nhiên (Bee chọn theo ep008/ep011); Trí polo xanh đậm + jean đen.
+- Trang phục: My áo dài Vân Linh xanh nhạt, son/móng tự nhiên (Bee chọn theo ep008/ep011); Trí polo Falcon xanh nhạt + jean đen.
 - Trí: người mới, quay ngang 3/4 thấy nửa mặt (Richard duyệt 27/11).
 - Quán café date-cafe v003-day, đã duyệt 21/11.
 
