@@ -1,7 +1,7 @@
 schema_version: 2
 episode_id: ep014
-revision: 1
-title: "Mẹ gọi đêm Noel"
+revision: 2
+title: "Dạy Đời"
 editorial_status: draft
 flow_project: null
 generation:
@@ -23,73 +23,77 @@ export:
 target_duration_seconds: 32
 shots:
   - shot_id: sh010
-    approved_for_generation: false
-    dialogue: "Đang selfie thì mẹ gọi. 'Con đi với ai vậy?'"
+    approved_for_generation: true
+    dialogue: "Cà phê đen không tốt cho dạ dày em đâu, em nên uống latte nhé."
     image_prompt:
       path: input/prompts/sh010-image.txt
-      sha256: 488429241d76de560474699f9fc714ed57acbd07493fc7160d62b4bbe5400187
+      sha256: 6ea4178fb83b9fa88118e6c2f33c8c990aae12009f8a46d8b85fc38d8671ef55
     motion_prompt:
       path: input/prompts/sh010-motion.txt
-      sha256: c8237bfbe645605752ef21272228a9250c305e777dd76139d7b047b054700869
+      sha256: f47f535eac63f71d753030648785173d7374f659ec3d82d9fbdbb188791b6095
     image_sources:
-      - path: input/references/thao-my-face-front-v002.png
-        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
-      - path: input/references/thao-my-body-front-v003-face-v002-review.png
-        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
     first_frame: null
     frame_status: missing_local
     flow_image_asset_id: null
     takes: []
   - shot_id: sh020
-    approved_for_generation: false
-    dialogue: "'Dạ con đi với bạn ạ.' 'Bạn trai hả?' 'Dạ bạn gái ạ.'"
+    approved_for_generation: true
+    dialogue: "Mà hôm qua em xem phim Parasite hay lắm, anh xem chưa?"
     image_prompt:
       path: input/prompts/sh020-image.txt
-      sha256: 4665adb1aba219d040bbbd27df90a3a4a60592884848c28794e3265c741a7055
+      sha256: a6c098b84a29f829231f3d35fbab47c9f5865e7d55758cc12614f7aa461d5e67
     motion_prompt:
       path: input/prompts/sh020-motion.txt
-      sha256: ef243b4451d501132e9cb18bb4e8d2c6a0f88e987596ed86e922c0b43236f4d8
+      sha256: 85c65ed602ed826a6f33bb83f5c54b7817f5623214aa96618288edffb791fbf9
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/references/aodai-van-linh-xoa-v3.jpg
+        sha256: "2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8"
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
     first_frame: null
     frame_status: missing_local
     flow_image_asset_id: null
     takes: []
   - shot_id: sh030
-    approved_for_generation: false
-    dialogue: "'Sao không kiếm bạn trai đi chơi? Con Nga nó có bồ từ tháng Chín.'"
+    approved_for_generation: true
+    dialogue: "Nói chung em chưa hiểu ý đạo diễn đâu, để anh giải thích cho nhé."
     image_prompt:
       path: input/prompts/sh030-image.txt
-      sha256: 611e05471198705c6df8a6920c682720a0eb11247beaece36d6eebbcfc816973
+      sha256: 3d778fce3812dffc3fab285a285167fc53518de48c6d49ec2fabad9b5ccbb3b9
     motion_prompt:
       path: input/prompts/sh030-motion.txt
-      sha256: 3fea1ae6270452b3b4ac2330ffef8412ad37c2cd2eee1d8ecb94b7af68482868
+      sha256: 8b725ff704f52348b96d1790ccbeeb14daa4f1c303419a6939bb5ed5065321a2
     image_sources:
-      - path: input/references/thao-my-face-front-v002.png
-        sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
-      - path: input/references/thao-my-body-front-v003-face-v002-review.png
-        sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
     first_frame: null
     frame_status: missing_local
     flow_image_asset_id: null
     takes: []
   - shot_id: sh040
-    approved_for_generation: false
-    dialogue: "Mẹ ơi, mạng yếu quá. Alô? Alô?"
+    approved_for_generation: true
+    dialogue: "Anh ơi, em không cần thầy giáo, em cần người ngồi ăn cùng thôi."
     image_prompt:
       path: input/prompts/sh040-image.txt
-      sha256: 99a87ecdf85d280164ce84487d4d3f363a394ee0932150cc0d1f47da6ed27118
+      sha256: 561c18d36334439289ad0753e77531e41ad21f13af2a793bc3104987988e426f
     motion_prompt:
       path: input/prompts/sh040-motion.txt
-      sha256: 99116030dba2e6c79d9e9fb56a04c9cbc815ce19df989942a921d18a6893aee1
+      sha256: c1dee478a152ee31ab69352a951db6234db9ee43e7f38b70313eef0d653b5519
     image_sources:
       - path: input/references/thao-my-face-front-v002.png
         sha256: "8793c0cea8dbb8a2aef02597d76be943a847450263a8a97229c9e2904ed94ed4"
       - path: input/references/thao-my-body-front-v003-face-v002-review.png
         sha256: "50195e873d72cb9eddb59b7fe0b99d7a40caded605b7fb02c0b198435bf6c684"
+      - path: input/references/aodai-van-linh-xoa-v3.jpg
+        sha256: "2f71722d20cf96e61242959197f25a99a8928f0143e06d2412f89024c98f3bb8"
+      - path: input/references/date-cafe-v003-day.png
+        sha256: "1a66036ea6abda7cf5a09dab6a7b5ae2f1b676f3db1cfb3e885be64dd7778fbb"
     first_frame: null
     frame_status: missing_local
     flow_image_asset_id: null

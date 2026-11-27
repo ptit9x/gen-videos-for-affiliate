@@ -1,6 +1,6 @@
 # ep014 — Dạy Đời
 
-Bản sửa r02 ngày 2026-11-18: đối thoại trực tiếp Thảo My ↔ Trí theo yêu cầu người dùng. Draft chờ review, chưa duyệt gen. Bốn shot khoảng 8 giây, 32 giây nguồn trước trim; dọc 9:16.
+Bản sửa r02 ngày 2026-11-18: đối thoại trực tiếp Thảo My ↔ Trí theo yêu cầu người dùng. Bản sửa r03 ngày 2026-11-27: gộp mỗi shot thành 1 câu trọn ý (Richard duyệt 27/11); số từ đếm lại 15/12/15/14. Bốn shot khoảng 8 giây, 32 giây nguồn trước trim; dọc 9:16.
 
 ## Ý tưởng và twist
 
@@ -15,9 +15,9 @@ Hẹn café. Trí thấy My uống cà phê đen, dạy đời ngay. My cố đ�
 ## Nhân vật, trang phục và nguồn
 
 - Thảo My: mặt/tóc thao-my-face-front-v002.png, body thao-my-body-front-v003-face-v002-review.png trong 02_characters/thao-my/approved/.
-- Trang phục theo tập, chưa chốt.
-- Trí: quay lưng hoặc quay ngang. Không mặt.
-- Quán café. Ảnh ứng viên: 03_locations/date-cafe/. Location chưa duyệt.
+- Trang phục: My áo dài Vân Linh xanh nhạt, son/móng tự nhiên (Bee chọn theo ep008/ep011); Trí polo xanh đậm + jean đen.
+- Trí: người mới, quay ngang 3/4 thấy nửa mặt (Richard duyệt 27/11).
+- Quán café date-cafe v003-day, đã duyệt 21/11.
 
 ## Storyboard
 
@@ -25,10 +25,10 @@ Mỗi shot một người nói, quay đơn và cắt qua lại; người nghe ng
 
 | Shot | Người nói | Thoại tiếng Việt | Số tiếng | Một hành động chính | Góc máy | Thời lượng nguồn |
 |---|---|---|---|---|---|---|
-| sh010 | Trí | Cà phê đen không tốt cho dạ dày em đâu. Em nên uống latte nhé. | 14 | Nhìn ly cà phê My, giọng dạy đời | Cận vừa Trí, nhìn My ngoài khung | 8s |
-| sh020 | Thảo My | Dạ. Mà hôm qua em xem phim Parasite, hay lắm anh. Anh xem chưa? | 14 | Cố đổi chủ đề, cầm ly | Cận vừa My, nhìn Trí ngoài khung | 8s |
-| sh030 | Trí | Nói chung là em chưa hiểu ý đạo diễn đâu. Để anh giải thích cho nhé. | 15 | Nghiêng người tới, dạy đời tiếp | Cận vừa Trí, nghiêm túc | 8s |
-| sh040 | Thảo My | Anh ơi, em không cần thầy giáo. Em cần người ngồi ăn cùng thôi. | 14 | Đặt ly, nhìn thẳng Trí | Cận vừa My, bình thản | 8s |
+| sh010 | Trí | Cà phê đen không tốt cho dạ dày em đâu, em nên uống latte nhé. | 15 | Nhìn ly cà phê My, giọng dạy đời | Cận vừa Trí, quay ngang 3/4 thấy nửa mặt, nhìn My ngoài khung | 8s |
+| sh020 | Thảo My | Mà hôm qua em xem phim Parasite hay lắm, anh xem chưa? | 12 | Cố đổi chủ đề, cầm ly | Cận vừa My, nhìn Trí ngoài khung | 8s |
+| sh030 | Trí | Nói chung em chưa hiểu ý đạo diễn đâu, để anh giải thích cho nhé. | 15 | Nghiêng người tới, dạy đời tiếp | Cận vừa Trí, quay ngang 3/4 thấy nửa mặt, nghiêm túc | 8s |
+| sh040 | Thảo My | Anh ơi, em không cần thầy giáo, em cần người ngồi ăn cùng thôi. | 14 | Đặt ly, nhìn thẳng Trí | Cận vừa My, bình thản | 8s |
 
 Trí dạy đời với giọng "anh biết hết", không diễn ác — anh ta thật sự tin mình đang giúp. My cố đổi chủ đề ở sh020, đến sh040 mới lạnh giọng; ngừng nhẹ trước "Em cần người ngồi ăn cùng thôi". Trim phần chờ thừa khi dựng.
 
