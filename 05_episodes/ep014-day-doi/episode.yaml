@@ -63,7 +63,7 @@ shots:
     first_frame:
       path: input/frames/sh020-frame-v1.png
       sha256: ea20150e383a1aa13b1cf9a39d7230414bb5427ec3165f4c04c2808cc1e0fde4
-    frame_status: pending_review
+    frame_status: approved
     flow_image_asset_id: 7b0d7352-acbf-4866-8c09-d233952567ab
     takes: []
   - shot_id: sh030
@@ -107,6 +107,6 @@ shots:
     first_frame:
       path: input/frames/sh040-frame-v1.png
       sha256: 82c4b4fea58fe686add492d6799307fc0da3c12ee2b3fab5c968f5194d8b101c
-    frame_status: pending_review
+    frame_status: approved
     flow_image_asset_id: fe9a177e-b916-48e5-9286-ffcae2559c1f
     takes: []

@@ -19,3 +19,4 @@
 - 4 file đã lưu vào `input/frames/` (768×1376 PNG, sha ghi trong episode.yaml), frame_status pending_review. Trình Richard duyệt ảnh trước rồi mới gen clip (luật 26/11). Gen clip Veo 3.1 Lite 4 × 10cr = 40cr, làm ngày mai theo lệnh Richard.
 - **27/11 20:13 — Richard đổi góc Trí: mặt chính diện như My, bỏ góc nghiêng 3/4.** Prompt ảnh sh010/sh030 + script + wardrobe đã sửa. Frame v1 của Trí (3/4) bỏ, làm lại v2 chính diện.
 - **27/11 21:09 — Richard DUYỆT frame sh030 v2 cho CẢ HAI cảnh Trí (sh010 + sh030).** episode.yaml: sh010 dùng chung first_frame sh030-frame-v2.png (sha 4c57f2d1…), frame_status approved cả 2; file sh010-frame-v2.png giữ lại trong repo làm lịch sử. Frame My sh020/sh040 v1 vẫn chờ duyệt.
+- **27/11 21:11 — Richard DUYỆT cả hai frame My (sh020 + sh040 v1).** Cả 4 frame đã duyệt. Mai gen 4 clip Veo 3.1 Lite (40cr, acc reset 50cr/ngày).
