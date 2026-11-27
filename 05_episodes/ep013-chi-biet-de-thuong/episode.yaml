@@ -193,5 +193,12 @@ shots:
     path: input/frames/sh060-frame-v1.jpg
     sha256: f6fa85dade327c44ee11ca306cc9a6d81d3a9b874e006054805f416d0b17262a
   frame_status: approved
-  takes: []
+  takes:
+    - take_id: take001
+      clip_id: 12dabd9e-ceb5-4236-96a6-3c8ffc3ada10
+      status: rejected_editorial
+      file:
+        path: generated/sh060-take001.mp4
+        sha256: 995a302dd913f3493f329bc56fe8a3a61d2568f599473c54211c356024ce0da5
+      note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280. LOI: Veo noi duoi cau 2 LAN — Whisper base (word timestamps): "de thuong" 3.26-3.72s VA 4.02-4.86s; energy envelope xac nhan 2 burst rieng biet (3.3-3.7s + 4.5-4.9s, giua la 0.8s im). Giong loi nhu sh040 take001. Gen 14:46 27/11, 1 lan thanh cong. So du 10->0cr — take002 phai cho reset 09:32 3/12.'
   flow_image_asset_id: 24b59127-5a96-458a-984d-ceae133c7017

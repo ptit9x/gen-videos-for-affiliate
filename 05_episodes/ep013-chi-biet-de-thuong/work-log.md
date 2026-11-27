@@ -331,3 +331,7 @@
 
 ## 2026-11-27 14:41 — Richard DUYỆT frame sh060 v1, gen take001 luôn
 - Frame v1 đã map sẵn trong episode.yaml (sha f6fa85da). Gen take001 Frames-direct từ frame v1, Veo 3.1 Lite, câu "...phối kiểu... dễ thương." Đây là clip cuối với số dư 10cr — sau đó sh020 take002 chờ reset 09:32 3/12.
+
+## 2026-11-27 14:41–14:46 — sh060 take001 gen xong, NHƯNG LỖI NÓI 2 LẦN
+- Frame sh060 v1 KHÔNG có sẵn trong project (lần thứ 3 liên tiếp: sh050, sh040, sh060 — asset ID ghi trong yaml đều không hiện trong picker) — đã cấp file upload lại. Gen 1 lần thành công, clip 12dabd9e, 7.93s, 720x1280, AAC, sha 995a302d. Số dư 10→0cr. Lúc submit Flow hiện dialog "Không có đủ tín dụng" + banner "đã dùng hết tín dụng" — chỉ là cảnh báo do số dư về đúng 0 sau khi trừ, gen vẫn chạy bình thường, không phải lỗi.
+- QC: Whisper base word-timestamps nghe "dễ thương" 2 LẦN — 3.26–3.72s và 4.02–4.86s; energy envelope xác nhận 2 burst riêng biệt (3.3–3.7s + 4.5–4.9s, giữa là 0.8s im). Phần đầu câu ("Ồ... thì... phối kiểu...") chỉ nói 1 lần. Lỗi y hệt sh040 take001 → take001 REJECTED, chờ Richard duyệt/khẳng định. Take002 cần 10cr, phải chờ reset 09:32 3/12.
