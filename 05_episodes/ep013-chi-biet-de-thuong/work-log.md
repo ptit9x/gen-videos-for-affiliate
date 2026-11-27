@@ -345,3 +345,6 @@
 
 ## 2026-11-27 15:14–15:16 — Crop sát mặt Nam trên bản 2K sh040 take002
 - Richard: "nếu tải đc 2k thì cắt gần mặt Nam bỏ bớt bối cảnh xung quanh". 2K đã tải được nên làm crop: đo vị trí mặt bằng visual grounding trên frame 0.5s (mặt x 214–365, y 787–970 trên 1080×1920; tay gãi đầu tới x 462), crop cửa sổ 500×889 tại (40,478) rồi scale về 1080×1920 (lanczos, crf 18), audio giữ nguyên. File mới generated/sh040-take002-1080p-facecrop.mp4, sha 01c798fc, 7.85s, 1080×1920. Kiểm bằng 2 frame (0.5s + 4s): mặt ~35% bề rộng khung, tay gãi đầu còn trong khung, bàn/thảm/sàn/cửa ban-công đã cắt hết; chỉ còn rèm + một ít tường/tranh góc trái. Bản 2K gốc giữ nguyên không ghi đè.
+
+## 2026-11-27 15:18 — Richard CHỐT: slot sh060 giữ nguyên tiếng sh040
+- Richard: "ok giữ như này đc" — slot sh060 dùng bản crop sát mặt của sh040 take002 và GIỮ NGUYÊN tiếng "Ừm... dễ thương!" của sh040, không tắt tiếng, không lồng lại câu sh060. Master ep013 sau này: sh040 + sh060 cùng dùng 1 clip (bản facecrop 2K), sh020 take002 vẫn chờ reset 09:32 3/12.
