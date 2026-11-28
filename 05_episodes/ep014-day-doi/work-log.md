@@ -110,3 +110,24 @@
 - Laugh Track 1 (Freesound LittleRainySeasons, CC BY): audible 21.14s, ket ~22.98s, video 23.50s; RMS L=0.1440 R=0.1439 ratio 1.00, envelope corr 0.992 — ca 2 kenh, khong leak 1 kenh.
 - Frame means 102-118, khong khung den. Contact sheet (edit/build1080p/qc-contact.png): mat/tay on dinh, khong chu gia, khong watermark; nit: sh020 My cam ly 2 tay giua clip (da biet tu take QC); sh040 vai Tri xanh navy (ban goc, Richard chap nhan); ly nuoc cam lo o mep phai 1 frame cat sh030 (nho, o mep).
 - Khong title card, khong end card. Cho Richard duyet master.
+
+## Duyet master + hen dang (Richard, 28/11 13:54)
+- Master DUYET. Caption A: "Em khong can thay giao, em can nguoi ngoi an cung thoi. 😌" + #chuyennhathaomy #phimnganai #haiviet. Cover 7.5s (My cuoi, cam ly 2 tay).
+- Hen 19:00 Chu nhat 29/11/2026 ca TikTok + Facebook (Facebook gan polo Falcon aff-0008 qua Partnerships > Shopee).
+- Dang hen dang qua browser (2 task: Facebook + TikTok). Kiem chung 19:20 29/11 sau khi co post ID.
+
+## Hen dang TikTok XONG (28/11 14:04)
+- TikTok @chuyennhathaomy: video 7713114506557263122, hen 19:00 CN 29/11/2026 (GMT+7), Everyone.
+- Caption dung chu (co dau) + hashtag. Nhan AI BAT ("Creator labeled as AI-generated").
+- Cover: mat My cuoi cam ly (frame 7.5s) — phai upload anh cover rieng vi scrubber cua TikTok Studio hien khung Nam o cac moc 3-9s; thumbnail Posts list xac nhan dung mat My.
+- Captcha slider luc mo Upload: Richard giai tay 13:56, tiep tuc hen duoc. Content check: khong van de.
+- Facebook van dang chay — cho ket qua roi ghi publications.csv + episode.yaml + tracker chung.
+
+## Hen dang Facebook XONG (28/11 14:04)
+- Facebook Page Chuyen Nha Thao My: Reel hen 19:00 CN 29/11/2026, story_id 1242366144789542 (encoded UzpfSTI3MzIyNDU0Mjg1MTY0MjoxMjQyMzY2MTQ0Nzg5NTQy), Planner hien "Reel 7:00 PM" + "shared with EVERYONE".
+- Caption dung chu (co dau, xuong dong giu trong textbox; Planner render 1 dong — chi la hien thi).
+- San pham aff-0008 chap nhan: "Affiliate product added" (Ao Polo nam HAFOS FALCON), preview "Shop now" + toast "commission eligible label" — xac minh trong composer truoc khi hen. Luu y: tieu de listing cat ngan co chu "mau Do Do" (bien the mau cua listing); link dung dung nhu Richard dua. The san pham KHONG hien trong Planner detail/Edit view sau khi hen — kiem lai luc len song 19:20 29/11.
+- Nhan AI BAT (qua facebook.com/reels/create — Business Suite web khong co AI label + khong co flow Affiliate; draft thua o Business Suite da dong, khong hen).
+- Preview mo dau la Tri (sh010) — Facebook scheduled Reels khong co chon cover, gioi han da biet.
+- Video 0:23, "Safe to publish — no copyright issues detected". Khong xoa/khong mua gi.
+- Ca 2 nen tang da hen xong. Cron kiem chung 19:20 29/11: len song + Page like + banner san pham (kiem ca app dien thoai) + caption/co dau + cover.
