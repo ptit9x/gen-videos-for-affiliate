@@ -99,3 +99,14 @@
 - "ko on, thoi dung ban goc" — v2 nhe hon (mat 71%) cung REJECT.
 - Ket: sh040 giu nguyen take001, KHONG crop vai. Vai Nam (sai mau ao) chap nhan trong ban goc.
 - Tiep theo: dung master voi sh040 goc + sh020 da dub + sh010/sh030 tieng goc.
+
+## Master 1080p — DUNG XONG + QC DAT (28/11)
+- Build: edit/build_master_ep014.py, chay bang ~/MoneyPrinterTurbo/.venv/bin/python (system python3 khong co faster_whisper). Commit 964d474 (dub + script sua) xong truoc khi build.
+- sh040 dung ban goc take001, chi crop watermark chuan 640:1138:40:0 (Richard 11:16 chot); corner check 4 shot sach (khong Veo/AI pill). sh020 ban dubbed; sh010/sh030 tieng goc.
+- Master: delivery/ep014-master-1080p.mp4, sha a724a463005e82e2162a4b9a0bdc016d091b2e376a9d03702e626dfed15fa336, 23.50s (KHONG phai 32s — trim theo speech+beat: 5.5+5.5+4.5+7.93; cung mau ep012 master 22.14s), 1080x1920 30fps H.264 yuv420p, AAC 48kHz stereo, 19,398,923 bytes. SRT delivery/ep014-subtitles.srt (4 cue, khop script chinh xac).
+- Loudness: -15.04 LUFS integrated, true peak -1.01 dBTP, LRA 7.6.
+- Whisper base tren master: 59 tu nghe (script 56) — +3 la 2 tu tach da biet: "latte"->"lat"+"te", "Parasite" (phonetic "Pa-ra-sai")->"ba"+"ra"+"sai"; ca 4 cau dung thu tu, du tu. Merge sh020 ("ba","ra","sai") khop o lan build nay (lan truoc chi co rule "va gia xai" nen loi 14!=12 — da sua).
+- Caption: Remotion Boxed accent #F59E0B, 56 tu, 3 chunk (0-286, 287-573, 574-704), concurrency 1, mean frame 118.2/117.7/106.1 (khong den). Chi tiet caption problems: chi co 52 clamped overlap (word-end cham word-start ke tiep, script tu clamp) — khong lech count, khong interpolate.
+- Laugh Track 1 (Freesound LittleRainySeasons, CC BY): audible 21.14s, ket ~22.98s, video 23.50s; RMS L=0.1440 R=0.1439 ratio 1.00, envelope corr 0.992 — ca 2 kenh, khong leak 1 kenh.
+- Frame means 102-118, khong khung den. Contact sheet (edit/build1080p/qc-contact.png): mat/tay on dinh, khong chu gia, khong watermark; nit: sh020 My cam ly 2 tay giua clip (da biet tu take QC); sh040 vai Tri xanh navy (ban goc, Richard chap nhan); ly nuoc cam lo o mep phai 1 frame cat sh030 (nho, o mep).
+- Khong title card, khong end card. Cho Richard duyet master.

@@ -38,12 +38,12 @@ audio_plan:
     file: ~/workspace/laugh-sfx/final/laugh-track-1-ccby.mp3
     source: Freesound, LittleRainySeasons, Laugh Track 1 (2.10s)
     license: CC BY (attribution required in descriptions)
-    placement: 'at the final twist (sh040 punchline); timing TBD at assembly'
+    placement: 'at the final twist (sh040 punchline): laugh audible 21.14s, ends ~22.98s, video 23.50s (built 28/11)'
 transition_plan: hard_cuts_only
 captions:
   style: Remotion BasicCaptions Boxed, accent '#F59E0B'
   words: 56
-  srt: null
+  srt: delivery/ep014-subtitles.srt
 qc:
-  status: not_run
-  report_file: null
+  status: pass
+  report_file: edit/build-report-ep014.md
