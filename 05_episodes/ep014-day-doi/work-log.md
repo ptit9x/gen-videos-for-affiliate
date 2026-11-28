@@ -60,3 +60,42 @@
 - Candidate edit/qc-frames/sh040-crop-candidate.png BI REJECT: "may cat the lam ThaoMy ko vao trung tam roi" + "ko on".
 - Van de: mat My nam ~76% chieu rong khung (lech han sang phai), bo cuc mat can bang.
 - Lam lai voi rang buoc cung: mat My o 45-55% chieu rong, vai Tri bien mat hoan toan, giu 9:16, giu ly + ban; do bang so tren anh output truoc khi trinh. Chua dung master voi crop moi cho toi khi Richard duyet.
+
+## Crop sh040 v1 REJECTED (28/11)
+- Richard: "may cat the lam ThaoMy ko vao trung tam roi" + "ko on" — ban crop
+  440:782:0:270 (candidate edit/qc-frames/sh040-crop-candidate.png) dat mat My
+  o ~76% chieu rong khung (lech han sang phai), bo cuc mat can bang.
+- KHONG dung ban crop nay de dung master. Build master dang chay (da kill
+  giua chunk Remotion 0) — dung toan bo, cho crop moi duoc Richard duyet.
+- Lam lai crop sh040 voi rang buoc cung: mat My 45-55% chieu rong output,
+  vai Tri bien mat hoan toan, giu 9:16, giu ly + ban; do bang so (centroid
+  mat) truoc khi chot; neu khong co vung crop 9:16 nao dat thi bao phuong an,
+  khong tu chot ban lech.
+
+## Crop sh040 v2 — KHONG CO VUNG CROP 9:16 NAO DAT (28/11)
+- Do lai bang so (skin mask YCrCb + doc cheo anh luoi 5%): mat My tam x=331-360
+  tuy frame (t=1: 360, t=4: 348, t=7: 332); mep vai Tri nho nhat x=476-491
+  (doan duoi y720-1080); dinh toc y~340, day dia y~1010 => nhip dung can giu
+  H>=670px => W>=377. Chung minh trong edit/sh040-crop-v2-analysis.md: voi
+  W=377 thi mat t=1 muon <=55% doi L>=153 => R>=530 > 476 (mau thuan); de
+  R<=476 thi W<=258 => H=458 < 670 (mau thuan). Vung kha thi la tap rong —
+  thieu ~11px trong truong hop thuan loi nhat, thuong 25-50px.
+- KHONG lam candidate crop moi, KHONG dung master. Trinh Richard 4 phuong an:
+  (1) giu vet vai mo (crop mat ve 50% + blur manh vet vai phai),
+  (2) crop nhe x0-460 (mat van ~75%, chi la thoa hiep),
+  (3) re-frame shot (frame moi chi co My, duyet anh truoc, gen lai take 10cr),
+  (4) inpaint AI video (khong co tool local).
+- Build master da kill giua chunk Remotion 0 (khong co chunk file nao ra);
+  script build con loi merge caption sh020 ("Ba ra sai" thay cho
+  "va gia xai" — da them sequence phu vao MERGES, chua chay lai).
+  Dub sh020 HOAN THANH, QC DAT (xem edit/dub-qc-ep014-sh020.md).
+
+## Crop sh040 v2 "nhe hon" (Richard, 28/11 11:07)
+- Candidate edit/qc-frames/sh040-crop-v2-light.png: crop=460:818:0:192 scale 720x1280 (tu frame t=4s cua sh040-take001).
+- Vai Tri het han. Mat My do bang skin mask: tam x=509/720 = 71% (van lech phai, chua ve giua) — dung nhu du bao phuong an 2. Ly + ban du.
+- Cho Richard duyet/chon: dung v2 nay, doi sang phuong an 1 (vet vai blur, mat giua), hay phuong an 3 (reframe + gen lai).
+
+## Crop sh040 — CHOT: dung ban goc (Richard, 28/11 11:16)
+- "ko on, thoi dung ban goc" — v2 nhe hon (mat 71%) cung REJECT.
+- Ket: sh040 giu nguyen take001, KHONG crop vai. Vai Nam (sai mau ao) chap nhan trong ban goc.
+- Tiep theo: dung master voi sh040 goc + sh020 da dub + sh010/sh030 tieng goc.

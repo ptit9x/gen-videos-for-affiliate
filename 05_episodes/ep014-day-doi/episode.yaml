@@ -48,7 +48,7 @@ shots:
         file:
           path: generated/sh010-take001.mp4
           sha256: 30c9a71815e623f38cbf6e06f3c25cc14435fd36d33268b326d463a30031aa23
-        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 15 tu, cau ca phe den/latte dung thu tu (lech thanh dieu ASR: ca phe -> ca phia, latte -> lat te, nen -> den). Giong nam Bac theo browser. Hinh: mat Tri khop frame da duyet, polo Falcon + logo, ly ca phe den ro tren ban, khong chu gia; watermark AI/Veo goc phai duoi (crop luc dung). Cho Richard duyet take. Richard 28/11: CROP SAU HON bo vai Nam (sai mau ao) luc dung — do vung crop tu frame, giu 9:16, giu mat My + ly + ban.'
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 15 tu, cau ca phe den/latte dung thu tu (lech thanh dieu ASR: ca phe -> ca phia, latte -> lat te, nen -> den). Giong nam Bac theo browser. Hinh: mat Tri khop frame da duyet, polo Falcon + logo, ly ca phe den ro tren ban, khong chu gia; watermark AI/Veo goc phai duoi (crop luc dung). Cho Richard duyet take.'
 
   - shot_id: sh020
     approved_for_generation: true
@@ -80,7 +80,7 @@ shots:
         file:
           path: generated/sh020-take001.mp4
           sha256: 0202760a6cddad3c4ceb96800d951f6663c6fd7536e98f6c4175ab5d5a387039
-        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 12 tu, cau Parasite dung thu tu (Parasite -> Parasai, chua -> chua theo ASR). Giong nu Bac theo browser. Hinh: mat My khop frame, ao dai Van Linh xanh nhat, ly ca phe den; nit: giua clip My cam ly bang 2 tay (frame goc 1 tay); khong chu gia; watermark AI/Veo goc phai duoi. Cho Richard duyet take.'
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 12 tu, cau Parasite dung thu tu (Parasite -> Parasai, chua -> chua theo ASR). Giong nu Bac theo browser. Hinh: mat My khop frame, ao dai Van Linh xanh nhat, ly ca phe den; nit: giua clip My cam ly bang 2 tay (frame goc 1 tay); khong chu gia; watermark AI/Veo goc phai duoi. Cho Richard duyet take. Dub 28/11: long clone ThaoMyVeo (VieNeu v3 Turbo, Colab T4, session ep014-dub) theo lenh Richard 10:21 — file generated/sh020-take001-dubbed.mp4 (sha 30c2077206f2d56d5b20824b520cfc13068fb03fdd6f1e2451d33bd3330a8e04), 7.93s, mono 48kHz; native tat han (nang luong ngoai cua so = 0.000). TTS v2 phonetic "Pa-ra-sai" (v1 "Parasite" Whisper garble 6/12 tu; v2 nghe 9/12 dung + title dang am tiet VN). Wordalign phrase: P1 0.20-2.95 (atempo 1.425, ratio 0.70x), P2 3.20-3.95 (atempo 1.0, no-stretch); onset nang luong 0.20, gap 3.0-3.1, ket 3.95 — khop cua so native. Whisper base tren ban long: du 12 tu dung thu tu (xem->xin 2 lan + Pa-ra-sai->va gia xai + anh->em la artifact Whisper tren giong clone, da chung minh: cung audio P2 nghe "anh" dung khi doc rieng); mieng mo 0.5s, mim cuoi 3.5s khop tieng. QC DAT — cho Richard nghe chot.'
 
   - shot_id: sh030
     approved_for_generation: true
@@ -140,5 +140,5 @@ shots:
         file:
           path: generated/sh040-take001.mp4
           sha256: bce44a479e0d398a40878a96fb98aa0af899af1c7c4e44b484576f99bcef33a4
-        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 14 tu, cau chot dung nguyen van. Giong nu Bac theo browser. Hinh: mat My khop frame, ao dai Van Linh, ly dat xuong ban, ca phe den ro; nit: vai tien canh cua Tri doc xanh navy dam (khong phai polo xanh nhat), mo nhe; khong chu gia; watermark AI/Veo goc phai duoi. Cho Richard duyet take.'
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 14 tu, cau chot dung nguyen van. Giong nu Bac theo browser. Hinh: mat My khop frame, ao dai Van Linh, ly dat xuong ban, ca phe den ro; nit: vai tien canh cua Tri doc xanh navy dam (khong phai polo xanh nhat), mo nhe; khong chu gia; watermark AI/Veo goc phai duoi. Cho Richard duyet take. Richard 28/11: CROP SAU HON bo vai Nam (sai mau ao) luc dung — crop 440:782:0:270 (do tu frame t=1/4/7: vai trai nhat x~450-490 tuy y; crop giu mat My + ly + ban, giu 9:16; watermark AI/Veo cung bi loai). Richard 28/11 11:16: DUNG BAN GOC, KHONG crop vai — crop v1 (mat 75-82%) + v2 nhe hon (mat 71%) deu REJECT; giu nguyen take001 (vai Nam sai mau ao chap nhan).'
 

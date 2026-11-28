@@ -3,8 +3,29 @@ episode_id: ep014
 revision: 2
 locked_duration_seconds: null
 planned_source_duration_seconds: null
-selected_takes: []
-build_commands: []
+selected_takes:
+  - shot_id: sh010
+    take_id: take001
+    file: generated/sh010-take001.mp4
+    trim_seconds: 5.5
+    audio: native Northern male
+  - shot_id: sh020
+    take_id: take001
+    file: generated/sh020-take001-dubbed.mp4
+    trim_seconds: 5.5
+    audio: clone ThaoMy wordalign (native muted)
+  - shot_id: sh030
+    take_id: take001
+    file: generated/sh030-take001.mp4
+    trim_seconds: 4.5
+    audio: native Northern male
+  - shot_id: sh040
+    take_id: take001
+    file: generated/sh040-take001.mp4
+    trim_seconds: 7.93
+    audio: native Northern female
+build_commands:
+  - python3 05_episodes/ep014-day-doi/edit/build_master_ep014.py
 audio_plan:
   mute_veo_native: false
   engine: clone ThaoMy (Colab)
