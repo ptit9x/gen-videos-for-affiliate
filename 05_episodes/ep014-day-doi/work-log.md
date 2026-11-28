@@ -49,3 +49,14 @@
 - sh020: CAN LONG TIENG (giong native khong phai nu Bac) -> long clone ThaoMy wordalign truoc khi dung.
 - sh040: CROP SAU HON bo vai Nam (sai mau ao) luc dung — do vung crop tu frame, giu 9:16, giu mat My + ly + ban.
 - sh010 + sh030: giu tieng goc (nam Bac). Tiep theo: dub sh020 + dung master theo manifest.
+
+## Dub sh020 + crop sh040 (28/11)
+- Richard 10:21: DUYET ca 4 take ("cung kha on"); sh020 CAN LONG TIENG (giong native khong phai nu Bac); sh040 CROP SAU HON bo vai Nam (sai mau ao); sh010/sh030 giu tieng goc.
+- Dub sh020 (clone ThaoMyVeo, VieNeu v3 Turbo, Colab T4, session ep014-dub): TTS v1 "Parasite" Whisper garble 6/12 tu -> v2 phonetic "Pa-ra-sai" nghe 9/12 dung + title dang am tiet VN (script khong doi). Wordalign phrase P1 0.20-2.95 (atempo 1.425), P2 3.20-3.95 (atempo 1.0); native windows do bang energy envelope 48kHz stereo; onset 0.20, gap 3.0-3.1. File generated/sh020-take001-dubbed.mp4, sha 30c20772..., 7.93s, mono 48kHz, native tat han (nang luong ngoai cua so = 0.000). Whisper base tren ban long: du 12 tu dung thu tu (artifact: xem->xin, Pa-ra-sai->va gia xai, anh->em do bias LM — cung audio P2 nghe "anh" dung khi doc rieng). Mieng mo 0.5s, mim cuoi 3.5s khop tieng. QC DAT, chi tiet edit/dub-qc-ep014-sh020.md. Khong dung envelope ducking -20dB/-8dB (de lot giong native bi loai); theo skill + tien le ep008-ep013 tat han.
+- Crop sh040: vai Tri do tu frame t=1/4/7 — vai trai nhat x~450-490 tuy y (mem, lech theo chuyen dong); cup x280-439, y861-978; toc My ~y300. Crop chot 440:782:0:270 (giu mat My + ly + ban, giu 9:16; watermark AI/Veo cung bi loai). Xem thu frame crop: khong con vai, mat/ly/ban day du, tay tren ban con nguyen.
+- Ghi chu: cau crop cua Richard vo tinh ghi vao note take sh010 trong episode.yaml (parent) — da chuyen sang note take sh040 cho dung.
+
+## Crop sh040 v1 — REJECT (Richard, 28/11 10:46)
+- Candidate edit/qc-frames/sh040-crop-candidate.png BI REJECT: "may cat the lam ThaoMy ko vao trung tam roi" + "ko on".
+- Van de: mat My nam ~76% chieu rong khung (lech han sang phai), bo cuc mat can bang.
+- Lam lai voi rang buoc cung: mat My o 45-55% chieu rong, vai Tri bien mat hoan toan, giu 9:16, giu ly + ban; do bang so tren anh output truoc khi trinh. Chua dung master voi crop moi cho toi khi Richard duyet.
