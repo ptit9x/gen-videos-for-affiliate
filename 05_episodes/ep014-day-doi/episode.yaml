@@ -41,7 +41,15 @@ shots:
       sha256: 4c57f2d18c8bfde6f46da0bc619db0c5aae61d252a8f3440c226777748f29de7
     frame_status: approved
     flow_image_asset_id: 7db09558-dd3a-438b-beaf-24cc30b7cbcb
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: a68ac8e1-d528-4980-acc0-c262307a8f12
+        status: needs_review
+        file:
+          path: generated/sh010-take001.mp4
+          sha256: 30c9a71815e623f38cbf6e06f3c25cc14435fd36d33268b326d463a30031aa23
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 15 tu, cau ca phe den/latte dung thu tu (lech thanh dieu ASR: ca phe -> ca phia, latte -> lat te, nen -> den). Giong nam Bac theo browser. Hinh: mat Tri khop frame da duyet, polo Falcon + logo, ly ca phe den ro tren ban, khong chu gia; watermark AI/Veo goc phai duoi (crop luc dung). Cho Richard duyet take.'
+
   - shot_id: sh020
     approved_for_generation: true
     dialogue: "Mà hôm qua em xem phim Parasite hay lắm, anh xem chưa?"
@@ -65,7 +73,15 @@ shots:
       sha256: ea20150e383a1aa13b1cf9a39d7230414bb5427ec3165f4c04c2808cc1e0fde4
     frame_status: approved
     flow_image_asset_id: 7b0d7352-acbf-4866-8c09-d233952567ab
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: ab3ea55d-5461-47f3-8c1b-0cb2a8b6e3c9
+        status: needs_review
+        file:
+          path: generated/sh020-take001.mp4
+          sha256: 0202760a6cddad3c4ceb96800d951f6663c6fd7536e98f6c4175ab5d5a387039
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 12 tu, cau Parasite dung thu tu (Parasite -> Parasai, chua -> chua theo ASR). Giong nu Bac theo browser. Hinh: mat My khop frame, ao dai Van Linh xanh nhat, ly ca phe den; nit: giua clip My cam ly bang 2 tay (frame goc 1 tay); khong chu gia; watermark AI/Veo goc phai duoi. Cho Richard duyet take.'
+
   - shot_id: sh030
     approved_for_generation: true
     dialogue: "Nói chung em chưa hiểu ý đạo diễn đâu, để anh giải thích cho nhé."
@@ -85,7 +101,15 @@ shots:
       sha256: 4c57f2d18c8bfde6f46da0bc619db0c5aae61d252a8f3440c226777748f29de7
     frame_status: approved
     flow_image_asset_id: 7db09558-dd3a-438b-beaf-24cc30b7cbcb
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: da2a7b2d-a468-44b5-ae2e-a5026fab0c8e
+        status: needs_review
+        file:
+          path: generated/sh030-take001.mp4
+          sha256: ea8cff4d2c0c9f41385151026dd44f3d07de1761f35fdaf70ba22639d9ab6581
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 15 tu, dung cau truc cau dao dien (y -> vi, de anh giai thich -> Me anh day thiet theo ASR). Luu y: ASR trinh duyet nghe garbled + lan audio clip truoc, KHONG dung de ket luan — Whisper base local moi la can cu. Giong nam Bac theo browser. Hinh: mat Tri khop frame, polo Falcon, ly den; badge AI trong frame goc chi hien nhu watermark AI/Veo chuan, khong them badge khac; khong chu gia. Cho Richard duyet take.'
+
   - shot_id: sh040
     approved_for_generation: true
     dialogue: "Anh ơi, em không cần thầy giáo, em cần người ngồi ăn cùng thôi."
@@ -109,4 +133,12 @@ shots:
       sha256: 82c4b4fea58fe686add492d6799307fc0da3c12ee2b3fab5c968f5194d8b101c
     frame_status: approved
     flow_image_asset_id: fe9a177e-b916-48e5-9286-ffcae2559c1f
-    takes: []
+    takes:
+      - take_id: take001
+        clip_id: 123d9550-af61-432e-8268-51cee65c8858
+        status: needs_review
+        file:
+          path: generated/sh040-take001.mp4
+          sha256: bce44a479e0d398a40878a96fb98aa0af899af1c7c4e44b484576f99bcef33a4
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 14 tu, cau chot dung nguyen van. Giong nu Bac theo browser. Hinh: mat My khop frame, ao dai Van Linh, ly dat xuong ban, ca phe den ro; nit: vai tien canh cua Tri doc xanh navy dam (khong phai polo xanh nhat), mo nhe; khong chu gia; watermark AI/Veo goc phai duoi. Cho Richard duyet take.'
+
