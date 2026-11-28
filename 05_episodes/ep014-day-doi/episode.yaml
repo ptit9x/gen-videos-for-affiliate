@@ -44,11 +44,11 @@ shots:
     takes:
       - take_id: take001
         clip_id: a68ac8e1-d528-4980-acc0-c262307a8f12
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh010-take001.mp4
           sha256: 30c9a71815e623f38cbf6e06f3c25cc14435fd36d33268b326d463a30031aa23
-        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 15 tu, cau ca phe den/latte dung thu tu (lech thanh dieu ASR: ca phe -> ca phia, latte -> lat te, nen -> den). Giong nam Bac theo browser. Hinh: mat Tri khop frame da duyet, polo Falcon + logo, ly ca phe den ro tren ban, khong chu gia; watermark AI/Veo goc phai duoi (crop luc dung). Cho Richard duyet take.'
+        note: 'Frames-direct, Veo 3.1 Lite, 10cr, 7.93s, 720x1280, 24fps. Whisper base: du 15 tu, cau ca phe den/latte dung thu tu (lech thanh dieu ASR: ca phe -> ca phia, latte -> lat te, nen -> den). Giong nam Bac theo browser. Hinh: mat Tri khop frame da duyet, polo Falcon + logo, ly ca phe den ro tren ban, khong chu gia; watermark AI/Veo goc phai duoi (crop luc dung). Cho Richard duyet take. Richard 28/11: CROP SAU HON bo vai Nam (sai mau ao) luc dung — do vung crop tu frame, giu 9:16, giu mat My + ly + ban.'
 
   - shot_id: sh020
     approved_for_generation: true
@@ -76,7 +76,7 @@ shots:
     takes:
       - take_id: take001
         clip_id: ab3ea55d-5461-47f3-8c1b-0cb2a8b6e3c9
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh020-take001.mp4
           sha256: 0202760a6cddad3c4ceb96800d951f6663c6fd7536e98f6c4175ab5d5a387039
@@ -104,7 +104,7 @@ shots:
     takes:
       - take_id: take001
         clip_id: da2a7b2d-a468-44b5-ae2e-a5026fab0c8e
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh030-take001.mp4
           sha256: ea8cff4d2c0c9f41385151026dd44f3d07de1761f35fdaf70ba22639d9ab6581
@@ -136,7 +136,7 @@ shots:
     takes:
       - take_id: take001
         clip_id: 123d9550-af61-432e-8268-51cee65c8858
-        status: needs_review
+        status: accepted_editorial
         file:
           path: generated/sh040-take001.mp4
           sha256: bce44a479e0d398a40878a96fb98aa0af899af1c7c4e44b484576f99bcef33a4

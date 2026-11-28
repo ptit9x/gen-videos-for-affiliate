@@ -43,3 +43,9 @@
   - sh040: Whisper du 14 tu, cau chot dung nguyen van. Mat My + ao dai khop, ly tren ban, ca phe den ro; nit: vai tien canh Tri doc xanh navy dam (khong phai polo xanh nhat), mo nhe; khong chu gia.
   - Ca 4 clip: chi co watermark AI/Veo nho goc phai duoi (crop luc dung theo quy tac repo); khong co phu de/chu gia. Giong: Tri nam Bac, My nu Bac theo browser — My giu tieng goc neu Richard nghe la Bac, Tri giu goc luon (theo manifest).
 - Trang thai takes: needs_review ca 4 — CHO Richard duyet take. Chua dung master.
+
+## Duyet take (Richard, 28/11 10:21)
+- "cung kha on" — ca 4 take DUYET (accepted_editorial).
+- sh020: CAN LONG TIENG (giong native khong phai nu Bac) -> long clone ThaoMy wordalign truoc khi dung.
+- sh040: CROP SAU HON bo vai Nam (sai mau ao) luc dung — do vung crop tu frame, giu 9:16, giu mat My + ly + ban.
+- sh010 + sh030: giu tieng goc (nam Bac). Tiep theo: dub sh020 + dung master theo manifest.
